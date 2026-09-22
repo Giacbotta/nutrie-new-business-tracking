@@ -1,0 +1,79 @@
+# Nutrie new business tracking (board items S-16, E-90 and E-91).
+# GitHub cron times are UTC: 05-21 UTC = 07-23 Italian summer time (from 25/10 they become 06-22).
+# Minute :01 since 22/09/2026: on the first day the runs at :00 never started.
+name: tracking
+
+on:
+  schedule:
+    - cron: "1 5-21/2 * * *"   # Playtomic "read", every 2 hours
+    - cron: "1 19 * * *"       # Playtomic "lead", once a day
+    - cron: "1 7 * * 1"        # municipal tenders, Monday
+    - cron: "31 7 * * 1"       # laundromats for sale (E-91), Monday
+  workflow_dispatch:
+    inputs:
+      command:
+        description: "playtomic, playtomic-lead, tenders or laundromats"
+        required: true
+        default: "laundromats"
+
+permissions:
+  contents: write
+  issues: write   # E-91: new laundromats are notified with an issue, which GitHub sends by email
+
+concurrency:
+  group: tracking
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TZ: Europe/Rome
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pick the command
+        id: cmd
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then c="${{ github.event.inputs.command }}"
+          elif [ "${{ github.event.schedule }}" = "1 19 * * *" ]; then c="playtomic-lead"
+          elif [ "${{ github.event.schedule }}" = "1 7 * * 1" ]; then c="tenders"
+          elif [ "${{ github.event.schedule }}" = "31 7 * * 1" ]; then c="laundromats"
+          else c="playtomic"; fi
+          echo "c=$c" >> "$GITHUB_OUTPUT"
+
+      - name: Run
+        id: run
+        run: |
+          c="${{ steps.cmd.outputs.c }}"
+          if [ "$c" = "playtomic" ] || [ "$c" = "playtomic-lead" ]; then
+            if [ "$(date +%Y%m%d)" -gt 20261009 ]; then echo "Playtomic sampling ended on 09/10/2026 (S-16)"; exit 0; fi
+            if [ "$c" = "playtomic" ]; then python playtomic_occupancy.py read; else python playtomic_occupancy.py lead; fi
+            python playtomic_occupancy.py summary_csv
+          elif [ "$c" = "tenders" ]; then python municipal_tenders.py check
+          elif [ "$c" = "laundromats" ]; then pip install --quiet curl_cffi && python laundromats_for_sale.py check
+          else echo "Unknown command: $c"; exit 1
+          fi
+
+      - name: Save the data in the repository
+        run: |
+          git config user.name "nutrie-tracking"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "data: ${{ steps.cmd.outputs.c }} $(date '+%Y-%m-%d %H:%M')"
+          git pull --rebase --autostash && git push
+
+      # The issue mentions the repository owner: GitHub emails it, no password and no external service
+      - name: Email if laundromats changed
+        if: steps.cmd.outputs.c == 'laundromats' && steps.run.outputs.changes == 'yes'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          { echo "@${{ github.repository_owner }}"; echo; cat data/laundromats-email.md; } > body.md
+          gh issue create --title "Laundromats for sale PD/TV/VE: ${{ steps.run.outputs.new }} new, run of $(date +%d/%m/%Y)" --body-file body.md

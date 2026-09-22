@@ -1,3 +1,7 @@
+# Laundromats for sale, weekly changes (E-91)
+
+## Earlier runs (in Italian, kept as written)
+
 # Lavanderie in vendita, novità settimanali (E-91)
 
 ## Giro del 2026-09-22

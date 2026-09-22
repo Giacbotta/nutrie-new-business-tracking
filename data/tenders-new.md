@@ -1,3 +1,10 @@
+# New municipal tenders (padel)
+
+Written by `municipal_tenders.py`; the latest runs are on top.
+
+
+## Earlier runs (in Italian, kept as written)
+
 # Bandi comunali nuovi (padel)
 
 Scritto da `workspace/padel/bandi_comunali.py`; le voci più recenti stanno in cima.

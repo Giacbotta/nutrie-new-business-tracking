@@ -1,30 +1,46 @@
-# Rilevamenti di Nutrie
+# Nutrie new business tracking
 
-Tre script che girano su GitHub Actions, preparati il 22/09/2026. Leggono solo dati pubblici (disponibilità pubbliche di Playtomic, albi pretori dei comuni).
+Scripts that run on GitHub Actions and track public data about new business opportunities for Nutrie S.r.l. (self-service luggage storage in Venice and Pisa). Set up in September 2026. They read only public data: public Playtomic availability, municipal notice boards, public property listings.
 
-- `rilevamento_playtomic.py`: occupazione dei campi da padel della zona di Mogliano Veneto, dalle pagine pubbliche di Playtomic. Bacheca **S-16**, fino al 09/10/2026.
-- `bandi_comunali.py`: bandi nuovi su impianti sportivi e aree comunali in 10 comuni della zona. Bacheca **E-90**.
-- `lavanderie_vendita.py`: lavanderie in vendita nelle province di Padova, Treviso e Venezia su Subito, immobiliare.it e Trovit. Bacheca **E-91**, dal 22/09/2026. Tutti gli annunci visti in `dati/lavanderie.csv`, le novità di ogni giro in `dati/lavanderie-nuove.md`. Se ci sono annunci nuovi, spariti o tornati online, apre una issue che menziona il proprietario del repository: GitHub la manda per email.
+| Script | What it tracks | Board item | Runs |
+|---|---|---|---|
+| `playtomic_occupancy.py` | Occupancy of the padel courts around Mogliano Veneto, from public Playtomic pages | S-16 | every 2 hours, until 09/10/2026 |
+| `municipal_tenders.py` | New tenders on sports facilities and municipal land in 10 municipalities of the area | E-90 | Monday |
+| `laundromats_for_sale.py` | Laundromats for sale in the provinces of Padova, Treviso and Venezia, on Subito, immobiliare.it and Trovit | E-91 | Monday |
 
-I dati si scrivono in `dati/`. `dati/riepilogo.csv` è la sintesi letta dal foglio Google con `IMPORTDATA`.
+"Board item" refers to Nutrie's internal task board.
 
-## Quando gira
+## Data
 
-Orari in `.github/workflows/rilevamenti.yml`, in UTC:
+Everything is written to `data/` and committed by each run:
 
-- Playtomic `rileva`: ogni 2 ore dalle 7 alle 23 ora italiana d'estate.
-- Playtomic `anticipo`: ogni giorno alle 21 ora italiana d'estate.
-- `bandi`: ogni lunedì alle 9 ora italiana d'estate.
-- `lavanderie`: ogni lunedì alle 9:31 ora italiana d'estate.
+- `playtomic-occupancy.csv`, `playtomic-lead.csv`: raw Playtomic readings; `playtomic-summary.csv` is the summary.
+- `tenders-seen.csv`: every tender seen; `tenders-new.md`: what each run found.
+- `laundromats.csv`: every laundromat listing seen, active or gone; `laundromats-new.md`: what changed in each run.
 
-Dal 25/10 (ora solare) gli stessi orari cadono un'ora prima.
+The Google Sheet «Nutrie new business tracking» reads the CSV files with `IMPORTDATA`, one tab per file.
 
-Ogni esecuzione salva i CSV in `dati/` con un commit. Si lancia anche a mano da **Actions > rilevamenti > Run workflow**.
+Listing titles, tender titles and the keyword lists stay in Italian: they come from Italian sources.
 
-## Costo
+## Notifications
 
-Zero. Repository pubblico: i minuti di GitHub Actions sono gratuiti. Nessun token, nessun servizio a pagamento, nessun dato personale nelle richieste.
+When the laundromat check finds new listings, listings that are gone or back online, it opens an issue that mentions the repository owner. GitHub sends it by email.
 
-## Per fermarlo
+## When it runs
 
-Actions > rilevamenti > "..." > **Disable workflow**. Il rilevamento Playtomic va fermato dopo il 09/10/2026.
+Times are in `.github/workflows/tracking.yml`, in UTC:
+
+- `playtomic`: every 2 hours from 07:00 to 23:00 Italian summer time.
+- `playtomic-lead`: every day at 21:00 Italian summer time.
+- `tenders`: every Monday at 09:00 Italian summer time.
+- `laundromats`: every Monday at 09:31 Italian summer time.
+
+From 25/10 (winter time) the same runs fall one hour earlier. Any command can be started by hand from **Actions > tracking > Run workflow**, typing its name in the "command" field.
+
+## Cost
+
+Zero. Public repository: GitHub Actions minutes are free. No tokens, no paid services, no personal data in the requests. `curl_cffi`, used for immobiliare.it and Trovit, is free.
+
+## To stop it
+
+Actions > tracking > "..." > **Disable workflow**.
