@@ -4,6 +4,33 @@ Scritto da `workspace/padel/bandi_comunali.py`; le voci più recenti stanno in c
 
 ## Giro del 2026-09-22
 
+**1 voci nuove.**
+
+- **Veneto (Sport e Salute)**, scad. 31/10/2026: BANDO PER LA CONCESSIONE DI CONTRIBUTI PER LA RIDUZIONE DEI CONSUMI IDRICI E IL RIUSO DELL'ACQUA NEGLI IMPIANTI SPORTIVI COMUNALI — https://www.provincia.treviso.it/it/bandi-concorsi-e-avvisi/bandi-di-gara/34120-bando-per-la-concessione-di-contributi-per-la-riduzione-dei-consumi-idrici-e-il-riuso-dellacqua-negli-impianti-sportivi-comunali (parole: impianti sportivi, concessione, bando)
+
+Fonti lette:
+
+- Mogliano Veneto (albo JCity): 86 voci lette, 1 con le parole chiave
+- Spresiano (albo JCity): 45 voci lette, 0 con le parole chiave
+- Preganziol (albo Halley): NON RISPONDE: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+- Marcon (albo Halley): NON RISPONDE: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+- Casale sul Sile (albo Halley): NON RISPONDE: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+- Zero Branco (albo Halley): NON RISPONDE: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+- Casier (albo Halley): NON RISPONDE: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+- Quarto d'Altino (albo Halley): 25 voci lette, 0 con le parole chiave
+- Scorzè (albo Hypersic): 50 voci lette, 0 con le parole chiave
+- Treviso (albo J-Ente): 324 voci lette, 2 con le parole chiave
+- Veneto (Sport e Salute) (aggregatore): 3 voci lette, 2 con le parole chiave
+- Preganziol (avvisi del sito): 6 voci lette, 0 con le parole chiave
+- Marcon (avvisi del sito): 9 voci lette, 0 con le parole chiave
+- Casale sul Sile (avvisi del sito): 6 voci lette, 0 con le parole chiave
+- Zero Branco (avvisi del sito): 9 voci lette, 0 con le parole chiave
+- Casier (avvisi del sito): 9 voci lette, 0 con le parole chiave
+- Quarto d'Altino (avvisi del sito): 15 voci lette, 0 con le parole chiave
+- Venezia: non coperto, www.comune.venezia.it risponde con una protezione anti-bot (Incapsula): non si forza
+
+## Giro del 2026-09-22
+
 Nessuna voce nuova.
 
 Fonti lette:
