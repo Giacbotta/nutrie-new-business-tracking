@@ -168,6 +168,30 @@ def riepilogo():
         print(";".join(k) + f";{ore[k] / max(1, len(campi_giorno[k])):.1f}")
 
 
+def riepilogo_csv():
+    """Scrive dati/riepilogo.csv (virgole) per il foglio Google: una riga per circolo, copertura, tipo di giorno e fascia."""
+    ultimo = {}
+    with open(CSV_ORA, encoding="utf8") as f:
+        for r in csv.DictReader(f):
+            k = (r["slug"], r["campo"], r["giorno"], r["inizio"])
+            if k not in ultimo or r["rilevato_il"] > ultimo[k]["rilevato_il"]:
+                ultimo[k] = r
+    agg = collections.defaultdict(lambda: [0, 0])
+    giorni = collections.defaultdict(set)
+    for r in ultimo.values():
+        k = (r["circolo"], r["copertura"], r["tipo_giorno"], r["fascia"])
+        agg[k][0] += 1
+        agg[k][1] += r["stato"] == "occupato"
+        giorni[k].add(r["giorno"])
+    with open(os.path.join(QUI, "riepilogo.csv"), "w", newline="", encoding="utf8") as f:
+        w = csv.writer(f)
+        w.writerow(["aggiornato_il", "circolo", "copertura", "tipo_giorno", "fascia", "giorni_rilevati", "mezzore_rilevate", "mezzore_occupate", "quota_occupata"])
+        timbro = dt.datetime.now().strftime("%Y-%m-%d %H:%M")
+        for k in sorted(agg):
+            n, occ = agg[k]
+            w.writerow([timbro, *k, len(giorni[k]), n, occ, round(occ / n, 3)])
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "rileva"
-    {"rileva": rileva, "anticipo": anticipo, "riepilogo": riepilogo}[cmd]()
+    {"rileva": rileva, "anticipo": anticipo, "riepilogo": riepilogo, "riepilogo_csv": riepilogo_csv}[cmd]()

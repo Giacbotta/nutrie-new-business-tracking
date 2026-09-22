@@ -48,7 +48,7 @@ jobs:
         run: |
           if [ "${{ steps.cmd.outputs.c }}" != "bandi" ] && [ "$(date +%Y%m%d)" -gt 20261009 ]; then echo "Rilevamento Playtomic concluso il 09/10/2026 (S-16)"; exit 0; fi
           if [ "${{ steps.cmd.outputs.c }}" = "bandi" ]; then python bandi_comunali.py controlla
-          else python rilevamento_playtomic.py "${{ steps.cmd.outputs.c }}"; fi
+          else python rilevamento_playtomic.py "${{ steps.cmd.outputs.c }}" && python rilevamento_playtomic.py riepilogo_csv; fi
 
       - name: Salva i dati nel repository
         run: |

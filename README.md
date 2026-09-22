@@ -1,11 +1,11 @@
 # Rilevamenti padel di Nutrie
 
-Due script che girano su GitHub Actions invece che sul PC di Giacomo, preparati il 22/09/2026.
+Due script che girano su GitHub Actions, preparati il 22/09/2026. Leggono solo dati pubblici (disponibilità pubbliche di Playtomic, albi pretori dei comuni).
 
 - `rilevamento_playtomic.py`: occupazione dei campi da padel della zona di Mogliano Veneto, dalle pagine pubbliche di Playtomic. Bacheca **S-16**, fino al 09/10/2026.
 - `bandi_comunali.py`: bandi nuovi su impianti sportivi e aree comunali in 10 comuni della zona. Bacheca **E-90**.
 
-Gli originali e la documentazione stanno nel vault, in `Nutrie Brain/workspace/padel/` e nelle note `output-m3-padel-mappa-e-occupazione-2026` e `output-m3-padel-bandi-comunali-2026`. Queste copie differiscono solo in una riga: i dati si scrivono in `dati/`.
+I dati si scrivono in `dati/`. `dati/riepilogo.csv` è la sintesi letta dal foglio Google con `IMPORTDATA`.
 
 ## Quando gira
 
@@ -21,7 +21,7 @@ Ogni esecuzione salva i CSV in `dati/` con un commit. Si lancia anche a mano da 
 
 ## Costo
 
-Zero. Repository privato: GitHub Free include 2.000 minuti al mese di Actions, e qui se ne usano circa 400. Nessun token, nessun servizio a pagamento, nessun dato personale nelle richieste.
+Zero. Repository pubblico: i minuti di GitHub Actions sono gratuiti. Nessun token, nessun servizio a pagamento, nessun dato personale nelle richieste.
 
 ## Per fermarlo
 
