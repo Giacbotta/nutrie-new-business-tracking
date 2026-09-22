@@ -1,12 +1,13 @@
 # Rilevamenti padel di Nutrie (bacheca S-16 ed E-90).
 # Gli orari cron di GitHub sono in UTC: 05-21 UTC = 07-23 ora italiana d'estate (dal 25/10 diventano 06-22).
+# Minuto :01 dal 22/09/2026: il primo giorno le esecuzioni a :00 non erano mai partite.
 name: rilevamenti
 
 on:
   schedule:
-    - cron: "0 5-21/2 * * *"   # Playtomic "rileva", ogni 2 ore
-    - cron: "0 19 * * *"       # Playtomic "anticipo", una volta al giorno
-    - cron: "0 7 * * 1"        # bandi comunali, lunedì
+    - cron: "1 5-21/2 * * *"   # Playtomic "rileva", ogni 2 ore
+    - cron: "1 19 * * *"       # Playtomic "anticipo", una volta al giorno
+    - cron: "1 7 * * 1"        # bandi comunali, lunedì
   workflow_dispatch:
     inputs:
       comando:
@@ -39,8 +40,8 @@ jobs:
         id: cmd
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then c="${{ github.event.inputs.comando }}"
-          elif [ "${{ github.event.schedule }}" = "0 19 * * *" ]; then c="anticipo"
-          elif [ "${{ github.event.schedule }}" = "0 7 * * 1" ]; then c="bandi"
+          elif [ "${{ github.event.schedule }}" = "1 19 * * *" ]; then c="anticipo"
+          elif [ "${{ github.event.schedule }}" = "1 7 * * 1" ]; then c="bandi"
           else c="rileva"; fi
           echo "c=$c" >> "$GITHUB_OUTPUT"
 
