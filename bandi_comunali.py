@@ -30,7 +30,7 @@ File:
                                     più l'elenco dei comuni che non hanno risposto.
 Programmazione proposta: una volta a settimana, lunedì alle 9.
 """
-import csv, datetime as dt, html, http.cookiejar, io, os, re, sys, time, urllib.parse, urllib.request
+import csv, datetime as dt, html, http.cookiejar, io, os, re, ssl, sys, time, urllib.parse, urllib.request
 
 QUI = os.environ.get("NUTRIE_DATI", os.path.join(os.path.dirname(os.path.abspath(__file__)), "dati"))  # copia per GitHub Actions: i dati stanno in dati/
 CSV_VISTI = os.path.join(QUI, "bandi-visti.csv")
@@ -83,8 +83,14 @@ def apri(url, dati=None, jar=None, timeout=90, tentativi=3):
             time.sleep(30)
 
 
+# I server Halley non inviano il certificato intermedio Sectigo: Windows lo recupera da solo, Linux (GitHub Actions) no.
+SSL_CTX = ssl.create_default_context()
+SSL_CTX.load_verify_locations(os.path.join(os.path.dirname(os.path.abspath(__file__)), "certificati", "sectigo-intermedi.pem"))
+
+
 def _apri(url, dati, jar, timeout):
-    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar)) if jar is not None else urllib.request.build_opener()
+    https = urllib.request.HTTPSHandler(context=SSL_CTX)
+    opener = urllib.request.build_opener(https, urllib.request.HTTPCookieProcessor(jar)) if jar is not None else urllib.request.build_opener(https)
     req = urllib.request.Request(url, data=urllib.parse.urlencode(dati).encode() if dati else None,
                                  headers={"User-Agent": UA})
     with opener.open(req, timeout=timeout) as r:
