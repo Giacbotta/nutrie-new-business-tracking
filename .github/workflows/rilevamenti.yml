@@ -1,0 +1,59 @@
+# Rilevamenti padel di Nutrie (bacheca S-16 ed E-90).
+# Gli orari cron di GitHub sono in UTC: 05-21 UTC = 07-23 ora italiana d'estate (dal 25/10 diventano 06-22).
+name: rilevamenti
+
+on:
+  schedule:
+    - cron: "0 5-21/2 * * *"   # Playtomic "rileva", ogni 2 ore
+    - cron: "0 19 * * *"       # Playtomic "anticipo", una volta al giorno
+    - cron: "0 7 * * 1"        # bandi comunali, lunedì
+  workflow_dispatch:
+    inputs:
+      comando:
+        description: "rileva, anticipo o bandi"
+        required: true
+        default: "rileva"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rilevamenti
+  cancel-in-progress: false
+
+jobs:
+  esegui:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TZ: Europe/Rome
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Scegli il comando
+        id: cmd
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then c="${{ github.event.inputs.comando }}"
+          elif [ "${{ github.event.schedule }}" = "0 19 * * *" ]; then c="anticipo"
+          elif [ "${{ github.event.schedule }}" = "0 7 * * 1" ]; then c="bandi"
+          else c="rileva"; fi
+          echo "c=$c" >> "$GITHUB_OUTPUT"
+
+      - name: Esegui
+        run: |
+          if [ "${{ steps.cmd.outputs.c }}" != "bandi" ] && [ "$(date +%Y%m%d)" -gt 20261009 ]; then echo "Rilevamento Playtomic concluso il 09/10/2026 (S-16)"; exit 0; fi
+          if [ "${{ steps.cmd.outputs.c }}" = "bandi" ]; then python bandi_comunali.py controlla
+          else python rilevamento_playtomic.py "${{ steps.cmd.outputs.c }}"; fi
+
+      - name: Salva i dati nel repository
+        run: |
+          git config user.name "nutrie-rilevamenti"
+          git config user.email "actions@users.noreply.github.com"
+          git add dati/
+          git diff --cached --quiet || git commit -m "dati: ${{ steps.cmd.outputs.c }} $(date '+%Y-%m-%d %H:%M')"
+          git pull --rebase --autostash && git push
