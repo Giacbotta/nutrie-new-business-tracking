@@ -340,7 +340,7 @@ def controlla():
     testa, _, coda = precedente.partition("\n\n")
     with open(MD_NUOVI, "w", encoding="utf-8") as f:
         f.write(testa + "\n\n" + "\n".join(sez) + "\n" + coda)
-    novita = bool(nuovi or tornati or spariti or non_letti)
+    novita = bool(nuovi or tornati or spariti)  # un portale non letto sta nel rapporto, non manda email
     with open(MD_EMAIL, "w", encoding="utf-8") as f:
         f.write("\n".join(sez[2:]) + "\nElenco completo nel foglio Google e in dati/lavanderie.csv.\n")
     # Per GitHub Actions: dice al passo successivo se c'è qualcosa da notificare
