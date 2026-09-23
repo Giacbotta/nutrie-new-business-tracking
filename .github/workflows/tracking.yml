@@ -9,10 +9,17 @@ on:
     - cron: "1 19 * * *"       # Playtomic "lead", once a day
     - cron: "1 7 * * 1"        # municipal tenders, Monday
     - cron: "31 7 * * 1"       # laundromats for sale (E-91), Monday
+    # E-91 retries: a portal can block for a whole day. "weekly" stops by itself once the week's
+    # round has read every portal, so these cost nothing when Monday worked.
+    - cron: "31 11,17 * * 1"   # same Monday, a few hours later
+    - cron: "31 7,17 * * 2"    # Tuesday
+    - cron: "31 7 * * 3"       # Wednesday, last attempt of the week
+    - cron: "6 4-21 * * *"     # Radical Storage occupancy (E-93), every hour 06-23 Italian summer time
+    - cron: "6 3 * * 1"        # Radical Storage census (E-93), Monday
   workflow_dispatch:
     inputs:
       command:
-        description: "playtomic, playtomic-lead, tenders or laundromats"
+        description: "playtomic, playtomic-lead, tenders, laundromats (skips if the week worked), laundromats-now, radical or radical-census"
         required: true
         default: "laundromats"
 
@@ -45,6 +52,11 @@ jobs:
           elif [ "${{ github.event.schedule }}" = "1 19 * * *" ]; then c="playtomic-lead"
           elif [ "${{ github.event.schedule }}" = "1 7 * * 1" ]; then c="tenders"
           elif [ "${{ github.event.schedule }}" = "31 7 * * 1" ]; then c="laundromats"
+          elif [ "${{ github.event.schedule }}" = "31 11,17 * * 1" ]; then c="laundromats"
+          elif [ "${{ github.event.schedule }}" = "31 7,17 * * 2" ]; then c="laundromats"
+          elif [ "${{ github.event.schedule }}" = "31 7 * * 3" ]; then c="laundromats"
+          elif [ "${{ github.event.schedule }}" = "6 4-21 * * *" ]; then c="radical"
+          elif [ "${{ github.event.schedule }}" = "6 3 * * 1" ]; then c="radical-census"
           else c="playtomic"; fi
           echo "c=$c" >> "$GITHUB_OUTPUT"
 
@@ -57,7 +69,12 @@ jobs:
             if [ "$c" = "playtomic" ]; then python playtomic_occupancy.py read; else python playtomic_occupancy.py lead; fi
             python playtomic_occupancy.py summary_csv
           elif [ "$c" = "tenders" ]; then python municipal_tenders.py check
-          elif [ "$c" = "laundromats" ]; then pip install --quiet curl_cffi && python laundromats_for_sale.py check
+          elif [ "$c" = "laundromats" ]; then pip install --quiet curl_cffi && python laundromats_for_sale.py weekly
+          elif [ "$c" = "laundromats-now" ]; then pip install --quiet curl_cffi && python laundromats_for_sale.py check
+          elif [ "$c" = "radical" ]; then
+            python radical_occupancy.py scan && python radical_occupancy.py daily && python radical_occupancy.py dashboard
+          elif [ "$c" = "radical-census" ]; then
+            python radical_occupancy.py cities && python radical_occupancy.py census
           else echo "Unknown command: $c"; exit 1
           fi
 
@@ -65,15 +82,17 @@ jobs:
         run: |
           git config user.name "nutrie-tracking"
           git config user.email "actions@users.noreply.github.com"
-          git add data/
+          git add data/ docs/
           git diff --cached --quiet || git commit -m "data: ${{ steps.cmd.outputs.c }} $(date '+%Y-%m-%d %H:%M')"
           git pull --rebase --autostash && git push
 
       # The issue mentions the repository owner: GitHub emails it, no password and no external service
-      - name: Email if laundromats changed
-        if: steps.cmd.outputs.c == 'laundromats' && steps.run.outputs.changes == 'yes'
+      - name: Email if laundromats changed, or if a portal stayed blocked all week
+        if: (startsWith(steps.cmd.outputs.c, 'laundromats')) && (steps.run.outputs.changes == 'yes' || steps.run.outputs.alert == 'yes')
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           { echo "@${{ github.repository_owner }}"; echo; cat data/laundromats-email.md; } > body.md
-          gh issue create --title "Laundromats for sale PD/TV/VE: ${{ steps.run.outputs.new }} new, run of $(date +%d/%m/%Y)" --body-file body.md
+          if [ "${{ steps.run.outputs.alert }}" = "yes" ]; then t="Laundromats PD/TV/VE: a portal was unreachable all week"
+          else t="Laundromats for sale PD/TV/VE: ${{ steps.run.outputs.new }} new, run of $(date +%d/%m/%Y)"; fi
+          gh issue create --title "$t" --body-file body.md
