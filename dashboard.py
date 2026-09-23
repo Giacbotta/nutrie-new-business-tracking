@@ -69,13 +69,10 @@ def when(read_at):
 def readings():
     """Every point-hour reading of every provider, as
     (provider, day, hour, city, area, point id, location, size, capacity, occupied, read_at)."""
-    known = shared_areas.area_of()
+    nearest = shared_areas.nearest_lookup()
 
     def area(lat, lng):
-        try:
-            return known.get(shared_areas.key(lat, lng)) or "—"
-        except (TypeError, ValueError):
-            return "—"
+        return nearest(lat, lng) or "—"
 
     out = []
     where = {r["storage_id"]: (r["lat"], r["lng"]) for r in read_csv("radical-points.csv")}
@@ -181,7 +178,8 @@ select,input{padding:8px 11px;border:1px solid var(--line);border-radius:9px;bac
 .card small{color:var(--mut);display:block;margin-top:3px;font-size:12.5px}
 .meter{height:7px;background:var(--soft);border-radius:4px;overflow:hidden;margin:9px 0 2px}
 .meter>i{display:block;height:100%}
-table{width:100%;border-collapse:collapse}th,td{padding:7px 8px;border-bottom:1px solid var(--line);text-align:right;
+table{width:100%;border-collapse:collapse}#hourtbl{margin:14px 0 0;max-width:720px}
+#hourtbl th{cursor:default;text-align:right}#hourtbl th:first-child,#hourtbl td:first-child{text-align:left;width:88px}th,td{padding:7px 8px;border-bottom:1px solid var(--line);text-align:right;
 font-variant-numeric:tabular-nums}th:first-child,td:first-child,th:nth-child(2),td:nth-child(2){text-align:left}
 th{cursor:pointer;color:var(--mut);font-weight:600;font-size:13px;white-space:nowrap}
 tr.l0{cursor:pointer;font-weight:600}tr.l1{cursor:pointer}tr.l1 td:first-child{padding-left:22px}
@@ -209,6 +207,7 @@ tr.l1 td:first-child{padding-left:12px}tr.l2 td:first-child{padding-left:24px}tr
 <div id="chart"></div>
 <div class="legend" id="legend"></div>
 <p class="note" id="chartnote"></p>
+<table id="hourtbl"><thead><tr><th>Hour</th></tr></thead><tbody></tbody></table>
 
 <h2>City by city, provider by provider</h2>
 <div class="controls">
@@ -286,10 +285,23 @@ function chart(){
  }
  document.getElementById('chart').innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Occupied by hour of day">${g}${paths}</svg>`;
  document.getElementById('legend').innerHTML=D.providers.map(p=>`<span><i class="dot" style="background:${COLOR[p.id]}"></i>${p.label} <em style="font-style:normal;opacity:.7">(${p.unit})</em></span>`).join('');
+ hourTable(series);
  const hrs=[...new Set(rows.map(r=>r.hour))].length;
  document.getElementById('chartnote').textContent=hrs<3
   ? 'Only '+hrs+' hour'+(hrs===1?'':'s')+' collected so far — the curve fills in as the hourly runs come in.'
   : 'One point per hourly reading, summed over the selection. Hover a point for the exact numbers.';
+}
+
+function hourTable(series){
+ const hours=[...new Set(Object.values(series).flatMap(s=>Object.keys(s).map(Number)))].sort((a,b)=>a-b);
+ const head='<tr><th>Hour</th>'+D.providers.map(p=>`<th style="color:${COLOR[p.id]}">${p.label}<br><span style="font-weight:400">${p.unit} occupied</span></th>`).join('')+'</tr>';
+ const body=hours.map(h=>'<tr><td>'+String(h).padStart(2,'0')+':00</td>'+D.providers.map(p=>{
+   const v=(series[p.id]||{})[h];
+   if(!v)return '<td class="tag">no reading</td>';
+   const f=pct(v.occk,v.capk);
+   return `<td>${fmt(v.occ)}<span class="tag"> · ${f.toFixed(1)}%</span></td>`}).join('')+'</tr>').join('');
+ document.querySelector('#hourtbl thead').innerHTML=head;
+ document.querySelector('#hourtbl tbody').innerHTML=body||'<tr><td colspan="4">No readings yet.</td></tr>';
 }
 
 function group(rows,keys){const m=new Map();

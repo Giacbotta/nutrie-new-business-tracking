@@ -15,7 +15,7 @@ doorway cost one request, and a run only looks up what the cache does not alread
   python areas.py fill 2000     # ... up to this many
   python areas.py report        # what is covered, and the biggest neighbourhoods
 """
-import csv, json, os, sys, time, urllib.request
+import collections, csv, json, os, sys, time, urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
@@ -90,7 +90,11 @@ def lookup(k):
 
 def fill(limit=PER_RUN):
     cache = load()
-    todo = [k for k in wanted() if k not in cache]
+    want = wanted()
+    # busiest cities first: Nominatim answers about one position a second, so Rome, Milan and the
+    # other big ones should be complete long before the small towns
+    size = collections.Counter(want.values())
+    todo = sorted((k for k in want if k not in cache), key=lambda k: -size[want[k]])
     print(f"{len(wanted())} positions in total, {len(cache)} already known, {len(todo)} missing")
     for n, k in enumerate(todo[:limit], 1):
         time.sleep(PAUSE)
@@ -109,6 +113,41 @@ def fill(limit=PER_RUN):
 def area_of():
     """Mapping usable by the other scripts: rounded position -> neighbourhood."""
     return {k: (r["area"] or "") for k, r in load().items()}
+
+
+def nearest_lookup(radius_km=0.6):
+    """area(lat, lng) for every point, even one not looked up yet.
+
+    Exact position first; otherwise the nearest position already in the cache within `radius_km`
+    lends its name. Nominatim answers about one position per second, so on the first night the
+    cache is still filling: without this fallback most points would show no neighbourhood at all,
+    and two points on the same street would land in different rows. Buckets of 0.01 degrees keep
+    the search local instead of scanning the whole cache."""
+    import math
+    cache = {k: r["area"] for k, r in load().items() if r["area"]}
+    grid = {}
+    for k, name in cache.items():
+        lat, lng = (float(x) for x in k.split(","))
+        grid.setdefault((round(lat, 2), round(lng, 2)), []).append((lat, lng, name))
+
+    def area(lat, lng):
+        try:
+            lat, lng = float(lat), float(lng)
+        except (TypeError, ValueError):
+            return ""
+        exact = cache.get(f"{lat:.4f},{lng:.4f}")
+        if exact:
+            return exact
+        best, best_km = "", radius_km
+        for dlat in (-0.01, 0, 0.01):
+            for dlng in (-0.01, 0, 0.01):
+                for plat, plng, name in grid.get((round(lat + dlat, 2), round(lng + dlng, 2)), ()):
+                    km = math.dist(((plat - lat) * 111.0, (plng - lng) * 111.0 * math.cos(math.radians(lat))), (0, 0))
+                    if km < best_km:
+                        best, best_km = name, km
+        return best
+
+    return area
 
 
 def report():
