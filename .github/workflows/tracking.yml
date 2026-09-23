@@ -28,8 +28,11 @@ permissions:
   contents: write
   issues: write   # E-91: new laundromats are notified with an issue, which GitHub sends by email
 
+# One group per schedule, not one for the whole workflow: with a single group GitHub keeps only the
+# newest pending run and drops the others, and on the night of 23/09/2026 that is how the hourly
+# occupancy round lost its turn to the Playtomic one.
 concurrency:
-  group: tracking
+  group: tracking-${{ github.event.schedule || github.event.inputs.command || 'manual' }}
   cancel-in-progress: false
 
 jobs:
