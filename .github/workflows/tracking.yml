@@ -78,6 +78,7 @@ jobs:
             python radical_occupancy.py scan && python radical_occupancy.py daily
             python bounce_occupancy.py scan && python bounce_occupancy.py daily
             python stow_occupancy.py scan && python stow_occupancy.py daily
+            python areas.py fill 60      # new points get their neighbourhood, gently
             python dashboard.py
           elif [ "$c" = "bounce" ]; then
             python bounce_occupancy.py scan && python bounce_occupancy.py daily && python dashboard.py
@@ -87,6 +88,7 @@ jobs:
             python radical_occupancy.py cities && python radical_occupancy.py census
             python bounce_occupancy.py cities && python bounce_occupancy.py areas
             python stow_occupancy.py shops
+            python areas.py fill 900
           elif [ "$c" = "competitors" ]; then
             python competitors_census.py all && python dashboard.py
           else echo "Unknown command: $c"; exit 1

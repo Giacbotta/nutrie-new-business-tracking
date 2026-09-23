@@ -77,12 +77,17 @@ Small in Italy (5 points in Venice, 1 in Ferrara) and it publishes no availabili
 its city pages does not move with the dates asked. It gets a weekly census of points, declared
 capacity and prices, nothing more.
 
-### Neighbourhoods
+### Neighbourhoods, the same for everyone
 
-Bounce and Radical both publish a position for every point. Radical names its own zone in the point
-URL; Bounce does not, so `bounce_occupancy.py areas` gives each point a neighbourhood once and
-caches it in `data/bounce-areas.csv`: first from a Radical point within 500 m, then from
-OpenStreetMap's Nominatim at one request per second for the rest. Only new points are looked up.
+The three providers name zones in three different ways, or not at all, so comparing them needs one
+shared geography. `areas.py` gives every point a neighbourhood from its coordinates through
+OpenStreetMap's Nominatim, one request per second, and caches it in `data/areas.csv` keyed by the
+position rounded to about 11 m. The page then drills the same way for all of them:
+
+    city  ->  neighbourhood  ->  exact location  ->  locker size (Stow Your Bags only)
+
+Each hourly run tops up 60 new positions, and the Monday census up to 900, so the cache keeps up
+with new points on its own.
 
 ### Dashboard
 

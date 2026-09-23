@@ -57,6 +57,15 @@ def number(x, default=0):
         return default
 
 
+def when(read_at):
+    """Day and hour a reading belongs to: when the run happened, Italian time.
+
+    The collectors ask about slightly different windows — Radical and Stow Your Bags about the hour
+    that is starting, Bounce about this very moment — so the run itself is the only label that puts
+    all three on the same axis. Without it a run at 23:16 lands on two different days."""
+    return read_at[:10], int(read_at[11:13])
+
+
 def readings():
     """Every point-hour reading of every provider, as
     (provider, day, hour, city, area, point id, location, size, capacity, occupied, read_at)."""
@@ -74,7 +83,7 @@ def readings():
         if r.get("status") != "read" or r["booked"] == "":
             continue
         lat, lng = where.get(r["storage_id"], (None, None))
-        out.append(("radical", r["day"], number(r["hour"]), r["city"], area(lat, lng), r["storage_id"],
+        out.append(("radical", *when(r["read_at"]), r["city"], area(lat, lng), r["storage_id"],
                     r["name"], "", number(r["capacity"]), number(r["booked"]), r["read_at"]))
 
     bounce_rows = read_csv("bounce-occupancy.csv")
@@ -84,7 +93,7 @@ def readings():
     for r in bounce_rows:
         if r["reservations"] == "":
             continue
-        out.append(("bounce", r["day"], number(r["hour"]), r["city"], area(r["lat"], r["lng"]),
+        out.append(("bounce", *when(r["read_at"]), r["city"], area(r["lat"], r["lng"]),
                     r["spot_id"], r["name"], "", caps[r["spot_id"]], number(r["reservations"]), r["read_at"]))
 
     shops = {r["shop_id"]: r for r in read_csv("stow-shops.csv")}
@@ -95,7 +104,7 @@ def readings():
     for r in stow_rows:
         cap = best[(r["shop_id"], r["locker_type"])]
         shop = shops.get(r["shop_id"], {})
-        out.append(("stow", r["day"], number(r["hour"]), r["city"], area(shop.get("lat"), shop.get("lng")),
+        out.append(("stow", *when(r["read_at"]), r["city"], area(shop.get("lat"), shop.get("lng")),
                     r["shop_id"], r["name"], r["locker_type"], cap, cap - number(r["free"]), r["read_at"]))
     return out
 
