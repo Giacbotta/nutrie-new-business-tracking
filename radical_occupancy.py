@@ -52,7 +52,7 @@ UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 THREADS = 4                  # polite: about 8-10 requests per second in total
 PAUSE = 0.25                 # seconds before each request, inside every thread
 MAX_REQUESTS = 6000          # hard ceiling per run; a full national scan uses about 2.000
-MAX_STEPS = 8                # requests spent on a single point in one slot
+MAX_STEPS = 12             # requests spent on a single point in one slot: enough for a 300-place point
 CAP_CEILING = 300            # some points declare 9999 places; read them up to here
 BAGS_PER_BOOKING = 2.0       # assumption, to calibrate on Nutrie's own Radical bookings (GAP)
 
@@ -209,6 +209,11 @@ def booked_bags(storage_id, capacity, start, end, previous=None):
     return capacity - lo
 
 
+def closed_today(point, day):
+    """Radical lists the days a point is shut in specialDays."""
+    return any(str(d)[:10] == day for d in (point.get("specialDays") or []))
+
+
 def opening_today(point):
     """Today's opening window as (from, to) in minutes, or None when closed."""
     ranges = ((point.get("availability") or {}).get("openingTimeRange")) or []
@@ -234,7 +239,7 @@ def last_readings():
 
 
 OCC_FIELDS = ["read_at", "city", "area", "storage_id", "name", "day", "hour", "weekday",
-              "capacity", "booked", "free"]
+              "capacity", "booked", "free", "status"]
 
 
 def scan(only=None):
@@ -253,7 +258,7 @@ def scan(only=None):
         for p in points:
             window = opening_today(p)
             minute = slot.hour * 60
-            if window and window[0] <= minute and minute + 60 <= window[1]:
+            if window and not closed_today(p, slot.date().isoformat()) and window[0] <= minute and minute + 60 <= window[1]:
                 due.append(p)
 
         def one(p):
@@ -261,11 +266,21 @@ def scan(only=None):
             if cap <= 0:
                 return None
             n = booked_bags(p["id"], cap, start, end, previous.get(str(p["id"])))
+            state = "read" if n is not None else "not measured"
+            if n == cap:
+                # "not one bag fits" is almost always a point that is not taking bookings at all,
+                # not a full one: check the same hour a week ahead before believing it (23/09/2026)
+                later = slot + dt.timedelta(days=6)
+                if bookable(p["id"], 1, later.strftime("%Y-%m-%dT%H:%M:00") + offset,
+                            (later + dt.timedelta(hours=1)).strftime("%Y-%m-%dT%H:%M:00") + offset) is not True:
+                    n, state = None, "unavailable"
+                else:
+                    state = "full"
             return dict(read_at=stamp, city=city, area=area_of(p), storage_id=p["id"], name=p["name"],
                         day=slot.date().isoformat(), hour=slot.hour,
                         weekday="weekend" if slot.weekday() >= 5 else "weekday",
                         capacity=cap, booked="" if n is None else n,
-                        free="" if n is None else cap - n)
+                        free="" if n is None else cap - n, status=state)
 
         with ThreadPoolExecutor(THREADS) as ex:
             fresh = [r for r in ex.map(one, due) if r]

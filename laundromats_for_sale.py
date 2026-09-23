@@ -22,14 +22,23 @@ classified. The type is a hint from keywords, not a verified fact. Only results 
 provinces and, among Subito equipment and appliances, household items (furniture, sinks) are dropped.
 Search words and category names stay in Italian: they are matched against Italian listings.
 
+A portal can block for a whole day (immobiliare answered 403 all day on 23/09/2026), so the week
+is a cycle, not a single run: the workflow starts "weekly" on Monday morning and again a few hours
+later, that evening, on Tuesday and on Wednesday. The first run that reads every portal writes
+data/laundromats-state.json, and every later run of the same week stops immediately, so the retries
+cost nothing once the round has worked. If all the attempts of the week are blocked, the last one
+sends the email anyway, saying which portal was never read.
+
 Commands:
-  python laundromats_for_sale.py check   # reads the portals, updates the files
+  python laundromats_for_sale.py weekly  # what the schedule runs: the round, unless this week already worked
+  python laundromats_for_sale.py check   # the round, always, whatever the state says
   python laundromats_for_sale.py list    # prints the active listings
 
 Files in data/:
   laundromats.csv          every listing seen, active and gone (read by the Google Sheet)
   laundromats-new.md       each run adds a section on top with the changes
   laundromats-email.md     text of the last run, used for the email notification
+  laundromats-state.json   the week's cycle: attempts, whether it completed, which portals are missing
 """
 import csv, datetime as dt, html, json, os, re, sys, time, urllib.parse, urllib.request
 
@@ -42,6 +51,8 @@ DATA = os.environ.get("NUTRIE_DATA", os.path.join(os.path.dirname(os.path.abspat
 CSV_SEEN = os.path.join(DATA, "laundromats.csv")
 MD_NEW = os.path.join(DATA, "laundromats-new.md")
 MD_EMAIL = os.path.join(DATA, "laundromats-email.md")
+JSON_STATE = os.path.join(DATA, "laundromats-state.json")
+ATTEMPTS_PER_WEEK = 6  # Monday plus the retries scheduled in the workflow
 FIELDS = ["status", "type", "province", "town", "title", "price", "sqm", "portal", "link",
           "published", "first_seen", "last_seen", "id", "possible_duplicate"]
 
@@ -129,13 +140,15 @@ def read_subito():
     return found
 
 
-def download(url, attempts=4):
-    """immobiliare answers 403 intermittently (seen on 22/09/2026): retry with growing pauses."""
+def download(url, attempts=3):
+    """immobiliare answers 403 intermittently (22/09/2026) and sometimes for a whole day
+    (23/09/2026). A few quick retries here for a passing block; a whole day of it is handled by
+    the week's scheduled retries instead, so that a run cannot hit the job time limit."""
     for i in range(attempts):
         r = browser.get(url, impersonate="chrome", timeout=40)
         if r.status_code not in (403, 429, 503):
             break
-        time.sleep(15 * (i + 1))
+        time.sleep(20 * (i + 1))
     time.sleep(3)
     return r
 
@@ -277,6 +290,52 @@ def mark_duplicates(rows):
                     a["type"] = b["type"] + " (from duplicate)"
 
 
+def monday_of_today():
+    today = dt.date.today()
+    return (today - dt.timedelta(days=today.weekday())).isoformat()
+
+
+def load_state():
+    try:
+        with open(JSON_STATE, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def save_state(complete, missing):
+    state = load_state()
+    cycle = monday_of_today()
+    if state.get("cycle") != cycle:
+        state = {"cycle": cycle, "attempts": 0, "completed_on": "", "missing": []}
+    state["attempts"] = state.get("attempts", 0) + 1
+    state["last_attempt"] = TODAY
+    state["missing"] = [] if complete else missing
+    if complete:
+        state["completed_on"] = TODAY
+    with open(JSON_STATE, "w", encoding="utf-8") as f:
+        json.dump(state, f, indent=1)
+    return state
+
+
+def github_output(**values):
+    if os.environ.get("GITHUB_OUTPUT"):
+        with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+            for k, v in values.items():
+                f.write(f"{k}={v}\n")
+
+
+def weekly():
+    """Called by every scheduled run. Does the round only if this week's round has not
+    succeeded yet, so the retries after a blocked portal cost nothing once it worked."""
+    state = load_state()
+    if state.get("cycle") == monday_of_today() and state.get("completed_on"):
+        print(f"Week of {state['cycle']}: already completed on {state['completed_on']}, nothing to do")
+        github_output(changes="no", new=0, alert="no")
+        return
+    check()
+
+
 def md_line(r):
     price = f"€{int(r['price']):,}" if str(r["price"]).isdigit() else "price not stated"
     sqm = f", {r['sqm']} m²" if r.get("sqm") else ""
@@ -337,20 +396,26 @@ def check():
         sec += ["**No longer online** (sold, withdrawn or expired):", ""] + [md_line(r) for r in gone] + [""]
     if not (new or back or gone):
         sec += ["No changes since the previous run.", ""]
+    state = save_state(not not_read, [n.split(":")[0] for n in not_read])
     if not_read:
-        sec += ["**Portals not read in this run:** " + "; ".join(not_read), ""]
+        sec += ["**Portals not read in this run:** " + "; ".join(not_read),
+                f"Attempt {state['attempts']} of {ATTEMPTS_PER_WEEK} this week; the next scheduled retry will try again.", ""]
     previous = open(MD_NEW, encoding="utf-8").read() if os.path.exists(MD_NEW) else "# Laundromats for sale, weekly changes (E-91)\n\n"
     head, _, tail = previous.partition("\n\n")
     with open(MD_NEW, "w", encoding="utf-8") as f:
         f.write(head + "\n\n" + "\n".join(sec) + "\n" + tail)
     changes = bool(new or back or gone)  # a portal not read goes in the report, it does not send an email
+    # A whole week of blocked retries is worth an email: that portal needs a hand
+    alert = bool(not_read) and state["attempts"] >= ATTEMPTS_PER_WEEK
+    if alert:
+        sec += [f"**This portal has been unreachable for all {ATTEMPTS_PER_WEEK} attempts of the week.** "
+                "Its listings were not re-checked and are still shown as active.", ""]
     with open(MD_EMAIL, "w", encoding="utf-8") as f:
         f.write("\n".join(sec[2:]) + "\nFull list in the Google Sheet (Laundromats tab) and in data/laundromats.csv.\n")
     # For GitHub Actions: tells the next step whether there is something to notify
-    if os.environ.get("GITHUB_OUTPUT"):
-        with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
-            f.write(f"changes={'yes' if changes else 'no'}\nnew={len(new)}\n")
-    print(f"New {len(new)}, back {len(back)}, gone {len(gone)}, active {len(active)}")
+    github_output(changes="yes" if changes else "no", new=len(new), alert="yes" if alert else "no")
+    print(f"New {len(new)}, back {len(back)}, gone {len(gone)}, active {len(active)}, "
+          f"attempt {state['attempts']} of the week, complete: {'yes' if not not_read else 'no'}")
 
 
 def list_active():
@@ -361,4 +426,4 @@ def list_active():
 
 if __name__ == "__main__":
     os.makedirs(DATA, exist_ok=True)
-    {"check": check, "list": list_active}.get(sys.argv[1] if len(sys.argv) > 1 else "", lambda: print(__doc__))()
+    {"check": check, "weekly": weekly, "list": list_active}.get(sys.argv[1] if len(sys.argv) > 1 else "", lambda: print(__doc__))()
