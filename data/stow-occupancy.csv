@@ -197,3 +197,102 @@ read_at,city,shop_id,name,day,hour,weekday,locker_type,free,min_qta,price_1h,sta
 2026-09-23 23:16,naples,60,Naples Port - Molo Beverello,2026-09-24,0,weekday,Small,14,5,1.49,read
 2026-09-23 23:16,naples,60,Naples Port - Molo Beverello,2026-09-24,0,weekday,Standard,34,5,2.49,read
 2026-09-23 23:16,naples,60,Naples Port - Molo Beverello,2026-09-24,0,weekday,Maxi,23,5,3.49,read
+2026-09-24 00:17,rome,1,Vatican Museums,2026-09-24,1,weekday,Small,27,5,3.49,read
+2026-09-24 00:17,rome,1,Vatican Museums,2026-09-24,1,weekday,Standard,4,0,2.49,read
+2026-09-24 00:17,rome,1,Vatican Museums,2026-09-24,1,weekday,Maxi,27,5,3.49,read
+2026-09-24 00:17,milan,3,Milano Centrale Train Station,2026-09-24,1,weekday,Small,33,5,1.49,read
+2026-09-24 00:17,milan,3,Milano Centrale Train Station,2026-09-24,1,weekday,Standard,59,5,2.49,read
+2026-09-24 00:17,milan,3,Milano Centrale Train Station,2026-09-24,1,weekday,Maxi,43,5,3.49,read
+2026-09-24 00:17,rome,4,Spanish Steps District,2026-09-24,1,weekday,Small,17,5,3.49,read
+2026-09-24 00:17,rome,4,Spanish Steps District,2026-09-24,1,weekday,Standard,3,1,2.49,read
+2026-09-24 00:17,rome,4,Spanish Steps District,2026-09-24,1,weekday,Maxi,17,5,3.49,read
+2026-09-24 00:17,florence,5,Uffizi District,2026-09-24,1,weekday,Small,18,5,3.49,read
+2026-09-24 00:17,florence,5,Uffizi District,2026-09-24,1,weekday,Standard,10,5,2.49,read
+2026-09-24 00:17,florence,5,Uffizi District,2026-09-24,1,weekday,Maxi,18,5,3.49,read
+2026-09-24 00:17,rome,2,City Center | Termini Station,2026-09-24,1,weekday,Small,4,2,1.49,read
+2026-09-24 00:17,rome,2,City Center | Termini Station,2026-09-24,1,weekday,Standard,17,5,2.49,read
+2026-09-24 00:17,rome,2,City Center | Termini Station,2026-09-24,1,weekday,Maxi,13,0,2.99,read
+2026-09-24 00:17,florence,6,City Center |  Florence Station,2026-09-24,1,weekday,Small,12,5,3.49,read
+2026-09-24 00:17,florence,6,City Center |  Florence Station,2026-09-24,1,weekday,Standard,8,5,2.49,read
+2026-09-24 00:17,florence,6,City Center |  Florence Station,2026-09-24,1,weekday,Maxi,12,5,3.49,read
+2026-09-24 00:17,naples,7,Naples Centrale Train Station,2026-09-24,1,weekday,Small,15,5,3.49,read
+2026-09-24 00:17,naples,7,Naples Centrale Train Station,2026-09-24,1,weekday,Standard,5,1,2.49,read
+2026-09-24 00:17,naples,7,Naples Centrale Train Station,2026-09-24,1,weekday,Maxi,15,5,3.49,read
+2026-09-24 00:17,venice,8,City Center | Rialto District,2026-09-24,1,weekday,Small,17,5,2.99,read
+2026-09-24 00:17,venice,8,City Center | Rialto District,2026-09-24,1,weekday,Standard,17,5,2.99,read
+2026-09-24 00:17,venice,8,City Center | Rialto District,2026-09-24,1,weekday,Maxi,17,5,2.99,read
+2026-09-24 00:17,venice,9,Santa Lucia Train Station,2026-09-24,1,weekday,Small,14,3,3.49,read
+2026-09-24 00:17,venice,9,Santa Lucia Train Station,2026-09-24,1,weekday,Standard,12,0,2.49,read
+2026-09-24 00:17,venice,9,Santa Lucia Train Station,2026-09-24,1,weekday,Maxi,14,3,3.49,read
+2026-09-24 00:17,catania,10,Via Etnea | Bellini Theater,2026-09-24,1,weekday,Small,9,5,2.99,read
+2026-09-24 00:17,catania,10,Via Etnea | Bellini Theater,2026-09-24,1,weekday,Standard,14,5,2.49,read
+2026-09-24 00:17,catania,10,Via Etnea | Bellini Theater,2026-09-24,1,weekday,Maxi,9,5,2.99,read
+2026-09-24 00:17,pisa,13,City Center | Pisa Station,2026-09-24,1,weekday,Small,11,3,3.49,read
+2026-09-24 00:17,pisa,13,City Center | Pisa Station,2026-09-24,1,weekday,Standard,12,5,2.49,read
+2026-09-24 00:17,pisa,13,City Center | Pisa Station,2026-09-24,1,weekday,Maxi,11,3,3.49,read
+2026-09-24 00:17,verona,14,Verona Arena,2026-09-24,1,weekday,Small,14,5,3.49,read
+2026-09-24 00:17,verona,14,Verona Arena,2026-09-24,1,weekday,Standard,12,5,2.49,read
+2026-09-24 00:17,verona,14,Verona Arena,2026-09-24,1,weekday,Maxi,14,5,3.49,read
+2026-09-24 00:17,turin,17,Turin Porta Nuova Train Station,2026-09-24,1,weekday,Small,14,5,3.49,read
+2026-09-24 00:17,turin,17,Turin Porta Nuova Train Station,2026-09-24,1,weekday,Standard,11,5,2.49,read
+2026-09-24 00:17,turin,17,Turin Porta Nuova Train Station,2026-09-24,1,weekday,Maxi,14,5,3.49,read
+2026-09-24 00:17,bari,18,Bari Centrale Train Station,2026-09-24,1,weekday,Small,12,5,1.49,read
+2026-09-24 00:17,bari,18,Bari Centrale Train Station,2026-09-24,1,weekday,Standard,21,5,2.49,read
+2026-09-24 00:17,bari,18,Bari Centrale Train Station,2026-09-24,1,weekday,Maxi,17,5,3.49,read
+2026-09-24 00:17,rome,21,Colosseum,2026-09-24,1,weekday,Small,22,5,3.49,read
+2026-09-24 00:17,rome,21,Colosseum,2026-09-24,1,weekday,Standard,12,5,2.49,read
+2026-09-24 00:17,rome,21,Colosseum,2026-09-24,1,weekday,Maxi,22,5,3.49,read
+2026-09-24 00:17,rome,22,Trastevere,2026-09-24,1,weekday,Small,14,5,2.99,read
+2026-09-24 00:17,rome,22,Trastevere,2026-09-24,1,weekday,Standard,5,3,2.49,read
+2026-09-24 00:17,rome,22,Trastevere,2026-09-24,1,weekday,Maxi,14,5,2.99,read
+2026-09-24 00:17,florence,24,Florence SMN Train Station,2026-09-24,1,weekday,Small,16,5,1.49,read
+2026-09-24 00:17,florence,24,Florence SMN Train Station,2026-09-24,1,weekday,Standard,28,5,2.49,read
+2026-09-24 00:17,florence,24,Florence SMN Train Station,2026-09-24,1,weekday,Maxi,19,5,3.49,read
+2026-09-24 00:17,genoa,25,Genoa Piazza Principe Train Station,2026-09-24,1,weekday,Small,8,5,3.49,read
+2026-09-24 00:17,genoa,25,Genoa Piazza Principe Train Station,2026-09-24,1,weekday,Standard,10,5,2.49,read
+2026-09-24 00:17,genoa,25,Genoa Piazza Principe Train Station,2026-09-24,1,weekday,Maxi,8,5,3.49,read
+2026-09-24 00:17,palermo,26,City Center | Massimo Theater,2026-09-24,1,weekday,Small,12,5,2.99,read
+2026-09-24 00:17,palermo,26,City Center | Massimo Theater,2026-09-24,1,weekday,Standard,17,5,2.49,read
+2026-09-24 00:17,palermo,26,City Center | Massimo Theater,2026-09-24,1,weekday,Maxi,12,5,2.99,read
+2026-09-24 00:17,rome,31,Termini Train Station,2026-09-24,1,weekday,Small,11,5,1.49,read
+2026-09-24 00:17,rome,31,Termini Train Station,2026-09-24,1,weekday,Standard,21,5,2.49,read
+2026-09-24 00:17,rome,31,Termini Train Station,2026-09-24,1,weekday,Maxi,12,5,3.49,read
+2026-09-24 00:17,bologna,32,Bologna Centrale Train Station,2026-09-24,1,weekday,Small,19,5,1.49,read
+2026-09-24 00:17,bologna,32,Bologna Centrale Train Station,2026-09-24,1,weekday,Standard,30,5,2.49,read
+2026-09-24 00:17,bologna,32,Bologna Centrale Train Station,2026-09-24,1,weekday,Maxi,20,5,3.49,read
+2026-09-24 00:17,milan,36,Cadorna Train Station,2026-09-24,1,weekday,Small,36,5,1.49,read
+2026-09-24 00:17,milan,36,Cadorna Train Station,2026-09-24,1,weekday,Standard,38,5,2.49,read
+2026-09-24 00:17,milan,36,Cadorna Train Station,2026-09-24,1,weekday,Maxi,22,5,3.49,read
+2026-09-24 00:17,siena,38,Piazza del Campo,2026-09-24,1,weekday,Small,4,4,1.49,read
+2026-09-24 00:17,siena,38,Piazza del Campo,2026-09-24,1,weekday,Standard,28,5,2.49,read
+2026-09-24 00:17,siena,38,Piazza del Campo,2026-09-24,1,weekday,Maxi,21,5,3.49,read
+2026-09-24 00:17,brescia,40,Brescia Train Station,2026-09-24,1,weekday,Small,4,3,1.49,read
+2026-09-24 00:17,brescia,40,Brescia Train Station,2026-09-24,1,weekday,Standard,16,5,2.49,read
+2026-09-24 00:17,brescia,40,Brescia Train Station,2026-09-24,1,weekday,Maxi,13,5,2.99,read
+2026-09-24 00:17,pisa,39,Pisa Centrale Train Station,2026-09-24,1,weekday,Small,14,5,1.49,read
+2026-09-24 00:17,pisa,39,Pisa Centrale Train Station,2026-09-24,1,weekday,Standard,26,5,2.49,read
+2026-09-24 00:17,pisa,39,Pisa Centrale Train Station,2026-09-24,1,weekday,Maxi,15,5,3.49,read
+2026-09-24 00:17,rome,37,St. Peter's Basilica,2026-09-24,1,weekday,Small,6,2,1.49,read
+2026-09-24 00:17,rome,37,St. Peter's Basilica,2026-09-24,1,weekday,Standard,22,5,2.49,read
+2026-09-24 00:17,rome,37,St. Peter's Basilica,2026-09-24,1,weekday,Maxi,17,5,3.49,read
+2026-09-24 00:17,milan,47,Duomo District,2026-09-24,1,weekday,Small,10,5,1.49,read
+2026-09-24 00:17,milan,47,Duomo District,2026-09-24,1,weekday,Standard,19,5,2.49,read
+2026-09-24 00:17,milan,47,Duomo District,2026-09-24,1,weekday,Maxi,16,5,3.49,read
+2026-09-24 00:17,bologna,48,Sant'Orsola Hospital,2026-09-24,1,weekday,Small,29,5,0.99,read
+2026-09-24 00:17,bologna,48,Sant'Orsola Hospital,2026-09-24,1,weekday,Standard,10,5,1.49,read
+2026-09-24 00:17,bologna,48,Sant'Orsola Hospital,2026-09-24,1,weekday,Maxi,10,5,1.49,read
+2026-09-24 00:17,venice,51,Rialto Bridge,2026-09-24,1,weekday,Small,14,5,1.49,read
+2026-09-24 00:17,venice,51,Rialto Bridge,2026-09-24,1,weekday,Standard,30,5,2.49,read
+2026-09-24 00:17,venice,51,Rialto Bridge,2026-09-24,1,weekday,Maxi,24,5,2.99,read
+2026-09-24 00:17,parma,50,Parma Train Station,2026-09-24,1,weekday,Small,31,5,2.99,read
+2026-09-24 00:17,parma,50,Parma Train Station,2026-09-24,1,weekday,Standard,31,5,2.99,read
+2026-09-24 00:17,parma,50,Parma Train Station,2026-09-24,1,weekday,Maxi,31,5,2.99,read
+2026-09-24 00:17,bologna,56,Piazza Maggiore | City Center,2026-09-24,1,weekday,Small,22,5,1.49,read
+2026-09-24 00:17,bologna,56,Piazza Maggiore | City Center,2026-09-24,1,weekday,Standard,36,5,2.49,read
+2026-09-24 00:17,bologna,56,Piazza Maggiore | City Center,2026-09-24,1,weekday,Maxi,31,5,3.49,read
+2026-09-24 00:17,milan,59,Porta Garibaldi Train Station,2026-09-24,1,weekday,Small,13,5,1.49,read
+2026-09-24 00:17,milan,59,Porta Garibaldi Train Station,2026-09-24,1,weekday,Standard,32,5,2.49,read
+2026-09-24 00:17,milan,59,Porta Garibaldi Train Station,2026-09-24,1,weekday,Maxi,30,5,3.49,read
+2026-09-24 00:17,naples,60,Naples Port - Molo Beverello,2026-09-24,1,weekday,Small,13,5,1.49,read
+2026-09-24 00:17,naples,60,Naples Port - Molo Beverello,2026-09-24,1,weekday,Standard,33,5,2.49,read
+2026-09-24 00:17,naples,60,Naples Port - Molo Beverello,2026-09-24,1,weekday,Maxi,22,5,3.49,read
