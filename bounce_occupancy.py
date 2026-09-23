@@ -11,12 +11,11 @@ WHY IT IS LIGHTER THAN RADICAL
   Radical answers one point and one time window per request, so a national round costs about
   2.800 requests. Bounce returns a whole city in one request: all of Italy is roughly 120.
 
-WHAT reservationCount MEANS: NOT SETTLED YET (23/09/2026)
-  The field is not used anywhere on Bounce's own site, so its window is unknown. The numbers are
-  far too small to be lifetime totals (Venice 1.348 against 813 reviews on a single point), so it
-  is some recent window. `daily` therefore writes both the level and the change since the previous
-  reading, and only calls the change "deposits" once a few days of history say the series is
-  monotonic inside a day. Until then, read the level, not the derived figure.
+WHAT reservationCount MEANS: SETTLED ON 23/09/2026
+  Three readings a few hours apart answered it: maxCapacity never moves (500, 100, 50 ... on the
+  same points), while reservationCount moves **both up and down** between readings (24 -> 25,
+  66 -> 65, 242 -> 244). It is the luggage in the shop right now, not a running total. So Bounce
+  reads like the other two: occupied = reservationCount, capacity = maxCapacity, free = the rest.
 
 ROBOTS.TXT
   bounce.com/robots.txt disallows only /packages/location, *.md and llms.txt, none of which this
@@ -229,44 +228,45 @@ def scan(only=None):
 
 
 def daily():
-    """Level and change of reservationCount, by point and by city.
+    """Occupancy by point and by city: luggage in the shop, against the declared capacity.
 
-    `reservations_end` is the last reading of the day, `change` how much it moved since the last
-    reading of the day before. What the change counts depends on the window of the field, which is
-    still unknown — see the note at the top of this file."""
+    For each point and day: the fullest hour of the day (peak), what was there at the last reading,
+    and the rises of the hourly curve, which are luggage arriving."""
     area_of = {r["spot_id"]: r["area"] for r in read_csv(AREAS_CSV)}
-    per_day = collections.defaultdict(dict)
-    meta = {}
+    hours = collections.defaultdict(dict)      # (city, spot, day) -> hour -> (read_at, occupied)
+    meta, caps = {}, collections.defaultdict(int)
     for r in read_csv(SPOTS_CSV):
         if r["reservations"] == "":
             continue
-        key = (r["city"], r["spot_id"])
-        per_day[key][r["day"]] = (r["read_at"], int(r["reservations"]), r["capacity"], r["capacity_status"])
-        meta[key] = r["name"]
+        key = (r["city"], r["spot_id"], r["day"])
+        hour = int(r["hour"])
+        seen = hours[key].get(hour)
+        if not seen or r["read_at"] >= seen[0]:
+            hours[key][hour] = (r["read_at"], int(r["reservations"]))
+        meta[(r["city"], r["spot_id"])] = r["name"]
+        caps[(r["city"], r["spot_id"])] = max(caps[(r["city"], r["spot_id"])], int(r["capacity"] or 0))
     rows = []
-    for (city, spot), days in sorted(per_day.items()):
-        previous = None
-        for day in sorted(days):
-            _, level, cap, status = days[day]
-            rows.append(dict(day=day, city=city, area=area_of.get(spot, ""), spot_id=spot,
-                             name=meta[(city, spot)], capacity=cap,
-                             capacity_status=status, reservations_end=level,
-                             change="" if previous is None else level - previous))
-            previous = level
-    rows_to_csv(DAILY_CSV, ["day", "city", "area", "spot_id", "name", "capacity", "capacity_status",
-                            "reservations_end", "change"], rows, append=False)
-    agg = collections.defaultdict(lambda: dict(points=0, capacity=0, level=0, change=0, known=0))
+    for (city, spot, day), per_hour in sorted(hours.items()):
+        seq = [per_hour[h][1] for h in sorted(per_hour)]
+        cap = caps[(city, spot)]
+        rows.append(dict(day=day, city=city, area=area_of.get(spot, ""), spot_id=spot,
+                         name=meta[(city, spot)], capacity=cap, readings=len(seq),
+                         peak=max(seq), last=seq[-1],
+                         peak_pct=round(100 * max(seq) / cap, 1) if cap else "",
+                         arrivals=seq[0] + sum(max(0, b - a) for a, b in zip(seq, seq[1:]))))
+    rows_to_csv(DAILY_CSV, ["day", "city", "area", "spot_id", "name", "capacity", "readings",
+                            "peak", "last", "peak_pct", "arrivals"], rows, append=False)
+    agg = collections.defaultdict(lambda: dict(points=0, capacity=0, peak=0, last=0, arrivals=0))
     for r in rows:
         a = agg[(r["day"], r["city"])]
         a["points"] += 1
-        a["capacity"] += int(r["capacity"] or 0)
-        a["level"] += r["reservations_end"]
-        if r["change"] != "":
-            a["change"] += r["change"]
-            a["known"] += 1
-    out = [dict(day=d, city=c, points=a["points"], capacity=a["capacity"], reservations_end=a["level"],
-                change="" if not a["known"] else a["change"]) for (d, c), a in sorted(agg.items())]
-    rows_to_csv(CITY_CSV, ["day", "city", "points", "capacity", "reservations_end", "change"], out, append=False)
+        for f in ("capacity", "peak", "last", "arrivals"):
+            a[f] += r[f]
+    out = [dict(day=d, city=c, points=a["points"], capacity=a["capacity"], peak=a["peak"],
+                peak_pct=round(100 * a["peak"] / a["capacity"], 1) if a["capacity"] else "",
+                last=a["last"], arrivals=a["arrivals"]) for (d, c), a in sorted(agg.items())]
+    rows_to_csv(CITY_CSV, ["day", "city", "points", "capacity", "peak", "peak_pct", "last", "arrivals"],
+                out, append=False)
     print(f"{len(rows)} point-days -> {DAILY_CSV}; {len(out)} city-days -> {CITY_CSV}")
 
 
