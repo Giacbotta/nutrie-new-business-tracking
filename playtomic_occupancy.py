@@ -15,12 +15,13 @@ until 09/10/2026. Each half hour takes the status of the last reading made befor
 which is close to the final occupancy. A half hour is "booked" when no bookable slot covers it:
 this includes matches, classes, club blocks and gaps too short to be booked.
 """
-import csv, datetime as dt, json, os, re, sys, time, urllib.request, collections
+import csv, datetime as dt, json, os, re, sys, time, urllib.error, urllib.request, collections
 
 DATA = os.environ.get("NUTRIE_DATA", os.path.join(os.path.dirname(os.path.abspath(__file__)), "data"))
 CSV_NOW = os.path.join(DATA, "playtomic-occupancy.csv")
 CSV_LEAD = os.path.join(DATA, "playtomic-lead.csv")
 CSV_SUMMARY = os.path.join(DATA, "playtomic-summary.csv")
+CSV_HEALTH = os.path.join(DATA, "playtomic-health.csv")
 # Clubs around Mogliano Veneto that publish availability online, checked on 17/09/2026
 # (Padel Circus left out: it does not publish slots)
 SLUGS = ["sporting-club-mestre", "padel-by-fitup-di-zero-branco", "aquafit-padel", "sph-venezia",
@@ -30,14 +31,37 @@ FIELDS = ["read_at", "date", "weekday", "day_type", "club", "slug", "court", "co
           "start", "time_band", "status", "price_90", "price_60"]
 
 
+# Why a health log: a failed fetch returns "" and the run still exits 0, so a silent block
+# (Playtomic refusing datacenter IPs, for instance) looks exactly like a successful run.
+# LAST_REASON keeps why the last fetch gave up; read()/lead() write it to data/playtomic-health.csv.
+LAST_REASON = {"why": ""}
+HEALTH_FIELDS = ["read_at", "command", "slug", "stage", "outcome"]
+
+
 def fetch(url, attempts=3):
+    why = ""
     for _ in range(attempts):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
             return urllib.request.urlopen(req, timeout=30).read().decode("utf8", "replace")
-        except Exception:
-            time.sleep(3)
+        except urllib.error.HTTPError as e:
+            why = f"HTTP {e.code}"
+        except Exception as e:
+            why = f"{type(e).__name__}: {str(e)[:60]}"
+        time.sleep(3)
+    LAST_REASON["why"] = why or "no answer"
     return ""
+
+
+def health(stamp, command, lines):
+    """One line per club per run, committed with the data: it says whether Playtomic answered."""
+    new_file = not os.path.exists(CSV_HEALTH)
+    with open(CSV_HEALTH, "a", newline="", encoding="utf8") as f:
+        w = csv.DictWriter(f, fieldnames=HEALTH_FIELDS)
+        if new_file:
+            w.writeheader()
+        for slug, stage, outcome in lines:
+            w.writerow(dict(read_at=stamp, command=command, slug=slug, stage=stage, outcome=outcome))
 
 
 def minutes(s):
@@ -53,6 +77,8 @@ def club(slug):
     s = fetch(f"https://playtomic.com/clubs/{slug}").replace('\\"', '"')
     tid = re.search(r'"tenant_id":"([0-9a-f-]{36})"', s)
     if not tid:
+        if s:
+            LAST_REASON["why"] = f"page read ({len(s)} bytes) but no tenant_id: layout changed or block page"
         return None
     name = re.search(r'"tenant_name":"([^"]*)"', s)
     i = s.find('"resources":[')
@@ -72,6 +98,8 @@ def day_status(c, day, start_min=0, end_min=1440):
     try:
         data = json.loads(raw)
     except Exception:
+        if raw:
+            LAST_REASON["why"] = f"availability answered {len(raw)} bytes that are not JSON"
         return []
     free = collections.defaultdict(set)
     prices = collections.defaultdict(dict)
@@ -115,30 +143,41 @@ def read(window=120):
     now_min = now.hour * 60 + now.minute
     stamp = now.strftime("%Y-%m-%d %H:%M")
     total = 0
+    report = []
     for slug in SLUGS:
+        LAST_REASON["why"] = ""
         c = club(slug)
         if not c:
-            print("club page not readable:", slug); continue
+            report.append((slug, "club page", LAST_REASON["why"] or "no answer"))
+            print("club page not readable:", slug, LAST_REASON["why"]); continue
         start_min = (now_min // 30 + 1) * 30
         rows = day_status(c, now.date(), start_min, start_min + window)
-        for r in rows:
-            r["read_at"] = stamp
         append(CSV_NOW, rows); total += len(rows)
+        report.append((slug, "availability",
+                       f"{len(rows)} half hours" if rows else (LAST_REASON["why"] or "closed now or no slots")))
+    health(stamp, "read", report)
     print(f"{stamp}: {total} half hours written to {CSV_NOW}")
 
 
 def lead():
     now = dt.datetime.now()
     stamp = now.strftime("%Y-%m-%d %H:%M")
+    report = []
     for slug in SLUGS:
+        LAST_REASON["why"] = ""
         c = club(slug)
         if not c:
+            report.append((slug, "club page", LAST_REASON["why"] or "no answer"))
             continue
+        total = 0
         for d in range(1, 7):
             rows = day_status(c, now.date() + dt.timedelta(d))
             for r in rows:
                 r["read_at"] = stamp
-            append(CSV_LEAD, rows)
+            append(CSV_LEAD, rows); total += len(rows)
+        report.append((slug, "availability",
+                       f"{total} half hours" if total else (LAST_REASON["why"] or "no slots")))
+    health(stamp, "lead", report)
     print(f"{stamp}: lead readings written to {CSV_LEAD}")
 
 
