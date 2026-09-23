@@ -92,10 +92,13 @@ def fill(limit=PER_RUN):
     cache = load()
     todo = [k for k in wanted() if k not in cache]
     print(f"{len(wanted())} positions in total, {len(cache)} already known, {len(todo)} missing")
-    for k in todo[:limit]:
+    for n, k in enumerate(todo[:limit], 1):
         time.sleep(PAUSE)
         name, town = lookup(k)
         cache[k] = dict(key=k, area=(name or "").strip(), city_osm=town, source="osm" if name else "unknown")
+        if n % 25 == 0:          # save as it goes: a run that is interrupted keeps what it found
+            save(cache)
+            print(f"  {n} of {min(limit, len(todo))} done", flush=True)
     save(cache)
     named = sum(1 for r in cache.values() if r["area"])
     left = max(0, len(todo) - limit)
