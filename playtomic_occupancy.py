@@ -35,10 +35,17 @@ FIELDS = ["read_at", "date", "weekday", "day_type", "club", "slug", "court", "co
 # (Playtomic refusing datacenter IPs, for instance) looks exactly like a successful run.
 # LAST_REASON keeps why the last fetch gave up; read()/lead() write it to data/playtomic-health.csv.
 LAST_REASON = {"why": ""}
+
+try:
+    from curl_cffi import requests as browser  # Playtomic answers 403 to plain requests from GitHub's servers (23/09/2026)
+except ImportError:
+    browser = None
 HEALTH_FIELDS = ["read_at", "command", "slug", "stage", "outcome"]
 
 
 def fetch(url, attempts=3):
+    """Plain request first (it is what works from a PC); on a block, retry as a browser with
+    curl_cffi, which is what gets past Playtomic's 403 from a datacenter address."""
     why = ""
     for _ in range(attempts):
         try:
@@ -46,10 +53,32 @@ def fetch(url, attempts=3):
             return urllib.request.urlopen(req, timeout=30).read().decode("utf8", "replace")
         except urllib.error.HTTPError as e:
             why = f"HTTP {e.code}"
+            if e.code in (403, 429) and browser is not None:
+                text = fetch_as_browser(url)
+                if text:
+                    return text
+                why = LAST_REASON["why"] or why
+                break
         except Exception as e:
             why = f"{type(e).__name__}: {str(e)[:60]}"
         time.sleep(3)
     LAST_REASON["why"] = why or "no answer"
+    return ""
+
+
+def fetch_as_browser(url, attempts=2):
+    for i in range(attempts):
+        try:
+            r = browser.get(url, impersonate="chrome", timeout=40)
+        except Exception as e:
+            LAST_REASON["why"] = f"browser mode {type(e).__name__}: {str(e)[:50]}"
+            return ""
+        if r.status_code == 200:
+            return r.text
+        LAST_REASON["why"] = f"HTTP {r.status_code} plain, HTTP {r.status_code} as browser too"
+        if r.status_code not in (403, 429, 503):
+            return ""
+        time.sleep(10 * (i + 1))
     return ""
 
 

@@ -66,6 +66,7 @@ jobs:
           c="${{ steps.cmd.outputs.c }}"
           if [ "$c" = "playtomic" ] || [ "$c" = "playtomic-lead" ]; then
             if [ "$(date +%Y%m%d)" -gt 20261009 ]; then echo "Playtomic sampling ended on 09/10/2026 (S-16)"; exit 0; fi
+            pip install --quiet curl_cffi || true   # Playtomic answers 403 to plain requests from GitHub (23/09/2026)
             if [ "$c" = "playtomic" ]; then python playtomic_occupancy.py read; else python playtomic_occupancy.py lead; fi
             python playtomic_occupancy.py summary_csv
           elif [ "$c" = "tenders" ]; then python municipal_tenders.py check
