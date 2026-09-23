@@ -178,7 +178,8 @@ select,input{padding:8px 11px;border:1px solid var(--line);border-radius:9px;bac
 .card small{color:var(--mut);display:block;margin-top:3px;font-size:12.5px}
 .meter{height:7px;background:var(--soft);border-radius:4px;overflow:hidden;margin:9px 0 2px}
 .meter>i{display:block;height:100%}
-table{width:100%;border-collapse:collapse}#hourtbl{margin:14px 0 0;max-width:720px}
+table{width:100%;border-collapse:collapse}#hourtbl{margin:14px 0 0;max-width:720px;min-width:420px}#tbl{min-width:640px}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
 #hourtbl th{cursor:default;text-align:right}#hourtbl th:first-child,#hourtbl td:first-child{text-align:left;width:88px}th,td{padding:7px 8px;border-bottom:1px solid var(--line);text-align:right;
 font-variant-numeric:tabular-nums}th:first-child,td:first-child,th:nth-child(2),td:nth-child(2){text-align:left}
 th{cursor:pointer;color:var(--mut);font-weight:600;font-size:13px;white-space:nowrap}
@@ -191,7 +192,8 @@ svg{width:100%;height:240px;display:block}
 .note{color:var(--mut);font-size:13px;margin:10px 0 0}
 .tag{font-size:12px;color:var(--mut)}
 @media (max-width:640px){body{padding:16px 12px 48px}table{font-size:13px}th,td{padding:6px 4px}
-th:nth-child(2),td:nth-child(2),th:nth-child(4),td:nth-child(4){display:none}
+#tbl th:nth-child(2),#tbl td:nth-child(2),#tbl th:nth-child(4),#tbl td:nth-child(4){display:none}
+svg{height:200px}.legend{font-size:12px;gap:10px}
 tr.l1 td:first-child{padding-left:12px}tr.l2 td:first-child{padding-left:24px}tr.l3 td:first-child{padding-left:36px}}
 </style></head><body><div class="wrap">
 <h1>Luggage storage in Italy — how full the competition is</h1>
@@ -207,16 +209,16 @@ tr.l1 td:first-child{padding-left:12px}tr.l2 td:first-child{padding-left:24px}tr
 <div id="chart"></div>
 <div class="legend" id="legend"></div>
 <p class="note" id="chartnote"></p>
-<table id="hourtbl"><thead><tr><th>Hour</th></tr></thead><tbody></tbody></table>
+<div class="scroll"><table id="hourtbl"><thead><tr><th>Hour</th></tr></thead><tbody></tbody></table></div>
 
 <h2>City by city, provider by provider</h2>
 <div class="controls">
 <select id="prov"></select><input id="q" placeholder="filter by name or area">
 </div>
-<table id="tbl"><thead><tr>
+<div class="scroll"><table id="tbl"><thead><tr>
 <th data-k="label">City / neighbourhood / location</th><th data-k="kind">What</th><th data-k="pts">Points</th>
 <th data-k="capk">Capacity</th><th data-k="occ">Occupied</th><th data-k="free">Free</th>
-<th data-k="fill">Fill</th><th data-k="fillpct">%</th></tr></thead><tbody></tbody></table>
+<th data-k="fill">Fill</th><th data-k="fillpct">%</th></tr></thead><tbody></tbody></table></div>
 <p class="note" id="note"></p>
 </div><script>
 const D=__DATA__;
