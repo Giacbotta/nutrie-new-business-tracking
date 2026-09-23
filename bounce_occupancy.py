@@ -27,6 +27,7 @@ COMMANDS (run from the repository root)
   python bounce_occupancy.py cities      # which Italian cities Bounce covers, and their slugs
   python bounce_occupancy.py scan        # one reading of every point in every covered city
   python bounce_occupancy.py scan pisa,venice
+  python bounce_occupancy.py areas       # give every point a neighbourhood, once, and cache it
   python bounce_occupancy.py daily       # level and change per point, per area and per city
 """
 import collections, csv, datetime as dt, json, os, sys, time, urllib.request
@@ -38,6 +39,7 @@ CITIES_CSV = os.path.join(DATA, "bounce-cities.csv")
 SPOTS_CSV = os.path.join(DATA, "bounce-occupancy.csv")
 DAILY_CSV = os.path.join(DATA, "bounce-daily.csv")
 CITY_CSV = os.path.join(DATA, "bounce-daily-city.csv")
+AREAS_CSV = os.path.join(DATA, "bounce-areas.csv")
 
 API = "https://graphql.usebounce.com"
 UA = {"content-type": "application/json", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
@@ -119,6 +121,68 @@ def rome_now():
     return utc + dt.timedelta(hours=2 if summer else 1)
 
 
+NEAR_KM = 0.5          # a Radical point this close names the same neighbourhood
+NOMINATIM_PER_RUN = 400  # new points geocoded in one run, at one request per second
+
+
+def km(a, b, c, d):
+    """Rough distance in km, good enough at city scale."""
+    import math
+    return math.dist(((a - c) * 111.0, (b - d) * 111.0 * math.cos(math.radians(a))), (0, 0))
+
+
+def areas():
+    """Each point gets a neighbourhood once and it is cached in bounce-areas.csv.
+
+    Bounce shows an approximate position for every store and the API gives its coordinates, so the
+    neighbourhood can be worked out offline. Two free steps, in order:
+      1. the nearest Radical Storage point within 500 m lends its own area name (same tourist
+         zones, no external service, instant);
+      2. what is left goes to OpenStreetMap's Nominatim, one request per second as its policy asks.
+    Only points missing from the cache are looked up, so a run after the first costs almost nothing."""
+    cached = {r["spot_id"]: r for r in read_csv(AREAS_CSV)}
+    points, seen = [], set()
+    for r in read_csv(SPOTS_CSV):
+        if r["spot_id"] not in seen and r["lat"]:
+            seen.add(r["spot_id"])
+            points.append(r)
+    todo = [p for p in points if p["spot_id"] not in cached]
+    print(f"{len(points)} points, {len(cached)} already placed, {len(todo)} to do")
+    radical = [r for r in read_csv(os.path.join(DATA, "radical-points.csv")) if r.get("lat")]
+    rows, left = [], []
+    for p in todo:
+        lat, lng = float(p["lat"]), float(p["lng"])
+        near = min(((km(lat, lng, float(r["lat"]), float(r["lng"])), r) for r in radical
+                    if abs(float(r["lat"]) - lat) < 0.02 and abs(float(r["lng"]) - lng) < 0.03),
+                   key=lambda t: t[0], default=None)
+        if near and near[0] <= NEAR_KM and near[1]["area"]:
+            rows.append(dict(spot_id=p["spot_id"], city=p["city"], lat=lat, lng=lng,
+                             area=near[1]["area"], source="radical"))
+        else:
+            left.append(p)
+    print(f"  {len(rows)} from a Radical point nearby, {len(left)} to look up on OpenStreetMap")
+    for p in left[:NOMINATIM_PER_RUN]:
+        time.sleep(1.1)   # Nominatim asks for at most one request per second
+        url = ("https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=16&addressdetails=1"
+               f"&lat={p['lat']}&lon={p['lng']}")
+        try:
+            req = urllib.request.Request(url, headers={
+                "User-Agent": "nutrie-new-business-tracking (https://github.com/Giacbotta/nutrie-new-business-tracking)"})
+            a = json.loads(urllib.request.urlopen(req, timeout=40).read()).get("address", {})
+        except Exception:
+            a = {}
+        name = (a.get("neighbourhood") or a.get("quarter") or a.get("suburb") or a.get("city_district")
+                or a.get("borough") or a.get("village") or a.get("town") or "")
+        rows.append(dict(spot_id=p["spot_id"], city=p["city"], lat=p["lat"], lng=p["lng"],
+                         area=name.lower().replace(" ", "-"), source="osm" if name else "unknown"))
+    rows_to_csv(AREAS_CSV, ["spot_id", "city", "lat", "lng", "area", "source"],
+                list(cached.values()) + rows, append=False)
+    named = sum(1 for r in list(cached.values()) + rows if r["area"])
+    print(f"{len(cached) + len(rows)} points placed, {named} with a neighbourhood -> {AREAS_CSV}")
+    if len(left) > NOMINATIM_PER_RUN:
+        print(f"  {len(left) - NOMINATIM_PER_RUN} left for the next run")
+
+
 def cities():
     found = []
     with ThreadPoolExecutor(THREADS) as ex:
@@ -170,6 +234,7 @@ def daily():
     `reservations_end` is the last reading of the day, `change` how much it moved since the last
     reading of the day before. What the change counts depends on the window of the field, which is
     still unknown — see the note at the top of this file."""
+    area_of = {r["spot_id"]: r["area"] for r in read_csv(AREAS_CSV)}
     per_day = collections.defaultdict(dict)
     meta = {}
     for r in read_csv(SPOTS_CSV):
@@ -183,11 +248,12 @@ def daily():
         previous = None
         for day in sorted(days):
             _, level, cap, status = days[day]
-            rows.append(dict(day=day, city=city, spot_id=spot, name=meta[(city, spot)], capacity=cap,
+            rows.append(dict(day=day, city=city, area=area_of.get(spot, ""), spot_id=spot,
+                             name=meta[(city, spot)], capacity=cap,
                              capacity_status=status, reservations_end=level,
                              change="" if previous is None else level - previous))
             previous = level
-    rows_to_csv(DAILY_CSV, ["day", "city", "spot_id", "name", "capacity", "capacity_status",
+    rows_to_csv(DAILY_CSV, ["day", "city", "area", "spot_id", "name", "capacity", "capacity_status",
                             "reservations_end", "change"], rows, append=False)
     agg = collections.defaultdict(lambda: dict(points=0, capacity=0, level=0, change=0, known=0))
     for r in rows:
@@ -207,4 +273,4 @@ def daily():
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "scan"
     only = sys.argv[2].split(",") if len(sys.argv) > 2 else None
-    {"cities": cities, "scan": lambda: scan(only), "daily": daily}[cmd]()
+    {"cities": cities, "scan": lambda: scan(only), "areas": areas, "daily": daily}[cmd]()

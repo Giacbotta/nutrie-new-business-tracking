@@ -8,6 +8,8 @@ Sources, chosen from the page itself:
   Bounce           reservations and capacity per point, from bounce_occupancy.py. Wider coverage
                    (3.381 points against 1.386) but no hourly curve, and the window the
                    reservation counter refers to is still unknown, so its change is shown raw.
+  Stow Your Bags   free lockers per shop and size, from stow_occupancy.py. The only source that is
+                   a real locker operator rather than a marketplace.
 """
 import collections, csv, datetime as dt, json, os
 
@@ -30,11 +32,25 @@ def build():
                     capacity=int(r["capacity"]), peak=int(r["peak"]), hours=int(r["hours_read"]),
                     bags=int(r["carry_in"]) + int(r["bags_in"]), deposits=float(r["deposits"]))
                for r in read_csv("radical-daily.csv")]
-    bounce = [dict(day=r["day"], city=r["city"], area="—", name=r["name"],
+    bounce = [dict(day=r["day"], city=r["city"], area=r.get("area") or "—", name=r["name"],
                    capacity=int(r["capacity"] or 0), peak=int(r["reservations_end"]), hours=0,
                    bags=int(r["reservations_end"]),
                    deposits=float(r["change"]) if r["change"] not in ("", None) else 0.0)
               for r in read_csv("bounce-daily.csv")]
+    stow = [dict(day=r["day"], city=r["city"], area=r["locker_type"], name=r["name"],
+                 capacity=int(r["peak_seen"]), peak=int(r["peak_seen"]) - int(r["free_min"]),
+                 hours=int(r["readings"]), bags=int(r["free_min"]), deposits=float(r["readings"]))
+            for r in read_csv("stow-daily.csv")]
+    census = collections.defaultdict(list)
+    seen = {}
+    for r in sorted(read_csv("competitors-census.csv"), key=lambda x: x["seen_on"]):
+        key = (r["brand"], r["city"], r["name"])
+        reviews = int(r["reviews"] or 0)
+        before = seen.get(key)
+        seen[key] = reviews
+        census[r["brand"]].append(dict(day=r["seen_on"], city=r["city"], area="—", name=r["name"] or "—",
+                                       capacity=int(float(r["capacity"] or 0)), peak=reviews, hours=0,
+                                       bags=reviews, deposits=0.0 if before is None else float(reviews - before)))
     hours = collections.defaultdict(lambda: [0, 0])
     for r in read_csv("radical-occupancy.csv"):
         if r.get("booked"):
@@ -45,16 +61,22 @@ def build():
         built=dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         bags_per_booking=BAGS_PER_BOOKING,
         sources=dict(
-            radical=dict(label="Radical Storage", rows=radical,
+            radical=dict(label="Radical Storage", rows=radical, deep=True,
                          columns=["Peak bags", "Fill", "Bags in", "Deposits"],
                          note="Bags booked, read every hour. Deposits are the rises of the hourly curve "
                               "divided by %g bags per booking: a floor, because luggage that arrives and "
                               "leaves inside the same hour is invisible." % BAGS_PER_BOOKING),
-            bounce=dict(label="Bounce", rows=bounce,
+            bounce=dict(label="Bounce", rows=bounce, deep=True,
                         columns=["Reservations", "Fill", "Reservations", "Change"],
                         note="Reservations and capacity as Bounce publishes them. The window the "
                              "reservation counter covers is not settled yet, so read the level and treat "
                              "the change as raw movement, not deposits."),
+            stowyourbags=dict(label="Stow Your Bags", rows=stow, deep=True,
+                              columns=["Lockers taken", "Fill", "Free at busiest", "Readings"],
+                              note="Free lockers per shop and locker size, read from the booking form every two "
+                                   "hours. The operator does not publish capacity, so the yardstick is the most "
+                                   "lockers ever seen free for that shop and size: the fill figure can only get "
+                                   "more accurate as the series grows. The second level is the locker size."),
         ),
         hours=[dict(city=c, hour=h, booked=v[0], capacity=v[1]) for (c, h), v in sorted(hours.items())],
     )
@@ -114,7 +136,7 @@ function refill(){
  document.getElementById('c1').textContent=s.columns[0];document.getElementById('c3').textContent=s.columns[2];
  document.getElementById('c4').textContent=s.columns[3];document.getElementById('note').textContent=s.note;
  document.getElementById('hourblock').hidden=src.value!=='radical';
- document.getElementById('tabletitle').textContent=src.value==='radical'?'City → area → point':'City → point';
+ document.getElementById('tabletitle').textContent=s.deep?'City → area → point':'City → point';
  document.getElementById('sub').textContent='Built '+D.built+' · '+rs.length+' point-days · public data from '+s.label;
  open=new Set();draw();}
 const sel=()=>rows().filter(p=>(!day.value||p.day===day.value)&&(!city.value||p.city===city.value)
@@ -124,7 +146,7 @@ function group(rs,keys){const m=new Map();for(const r of rs){const k=keys.map(k=
   a.ids.add(r.city+r.area+r.name);a.capacity+=r.capacity;a.peak+=r.peak;a.bags+=r.bags;a.deposits+=r.deposits;m.set(k,a)}
   return [...m.values()].map(a=>({...a,points:a.ids.size,fill:a.capacity?100*a.peak/a.capacity:0}))}
 function sortRows(r){return r.sort((a,b)=>(a[sortKey]>b[sortKey]?1:a[sortKey]<b[sortKey]?-1:0)*dir)}
-function draw(){const rs=sel(),body=document.querySelector('#tbl tbody'),out=[],deep=src.value==='radical';
+function draw(){const rs=sel(),body=document.querySelector('#tbl tbody'),out=[],deep=D.sources[src.value].deep;
  for(const c of sortRows(group(rs,['city']))){out.push(row(c,'city','parent'));
   if(open.has(c.key)){
    if(deep){for(const a of sortRows(group(rs.filter(r=>r.city===c.key),['city','area'])))

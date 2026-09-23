@@ -14,8 +14,9 @@ on:
     - cron: "31 11,17 * * 1"   # same Monday, a few hours later
     - cron: "31 7,17 * * 2"    # Tuesday
     - cron: "31 7 * * 3"       # Wednesday, last attempt of the week
-    - cron: "6 4-21 * * *"     # luggage storage occupancy, Radical and Bounce (E-93), every hour 06-23 Italian summer time
+    - cron: "6 4-20/2 * * *"   # luggage storage occupancy (E-93): Radical, Bounce and Stow Your Bags, every 2 hours 06-22 Italian summer time
     - cron: "6 3 * * 1"        # Radical Storage census (E-93), Monday
+    - cron: "36 3 * * 1"       # Stasher and Stow Your Bags census (E-93), Monday
   workflow_dispatch:
     inputs:
       command:
@@ -55,8 +56,9 @@ jobs:
           elif [ "${{ github.event.schedule }}" = "31 11,17 * * 1" ]; then c="laundromats"
           elif [ "${{ github.event.schedule }}" = "31 7,17 * * 2" ]; then c="laundromats"
           elif [ "${{ github.event.schedule }}" = "31 7 * * 3" ]; then c="laundromats"
-          elif [ "${{ github.event.schedule }}" = "6 4-21 * * *" ]; then c="radical"
+          elif [ "${{ github.event.schedule }}" = "6 4-20/2 * * *" ]; then c="occupancy"
           elif [ "${{ github.event.schedule }}" = "6 3 * * 1" ]; then c="radical-census"
+          elif [ "${{ github.event.schedule }}" = "36 3 * * 1" ]; then c="competitors"
           else c="playtomic"; fi
           echo "c=$c" >> "$GITHUB_OUTPUT"
 
@@ -72,15 +74,21 @@ jobs:
           elif [ "$c" = "tenders" ]; then python municipal_tenders.py check
           elif [ "$c" = "laundromats" ]; then pip install --quiet curl_cffi && python laundromats_for_sale.py weekly
           elif [ "$c" = "laundromats-now" ]; then pip install --quiet curl_cffi && python laundromats_for_sale.py check
-          elif [ "$c" = "radical" ]; then
+          elif [ "$c" = "occupancy" ] || [ "$c" = "radical" ]; then
             python radical_occupancy.py scan && python radical_occupancy.py daily
             python bounce_occupancy.py scan && python bounce_occupancy.py daily
+            python stow_occupancy.py scan && python stow_occupancy.py daily
             python dashboard.py
           elif [ "$c" = "bounce" ]; then
             python bounce_occupancy.py scan && python bounce_occupancy.py daily && python dashboard.py
+          elif [ "$c" = "stow" ]; then
+            python stow_occupancy.py scan && python stow_occupancy.py daily && python dashboard.py
           elif [ "$c" = "radical-census" ]; then
             python radical_occupancy.py cities && python radical_occupancy.py census
-            python bounce_occupancy.py cities
+            python bounce_occupancy.py cities && python bounce_occupancy.py areas
+            python stow_occupancy.py shops
+          elif [ "$c" = "competitors" ]; then
+            python competitors_census.py all && python dashboard.py
           else echo "Unknown command: $c"; exit 1
           fi
 
