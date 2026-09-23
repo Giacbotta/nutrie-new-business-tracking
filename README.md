@@ -7,9 +7,9 @@ Scripts that run on GitHub Actions and track public data about new business oppo
 | `playtomic_occupancy.py` | Occupancy of the padel courts around Mogliano Veneto, from public Playtomic pages | S-16 | every 2 hours, until 09/10/2026 |
 | `municipal_tenders.py` | New tenders on sports facilities and municipal land in 10 municipalities of the area | E-90 | Monday |
 | `laundromats_for_sale.py` | Laundromats for sale in the provinces of Padova, Treviso and Venezia, on Subito, immobiliare.it and Trovit | E-91 | Monday, with retries until every portal answers |
-| `radical_occupancy.py` | How full the Radical Storage luggage points are in 86 Italian province capitals, and how many deposits they take per day | E-93 | every hour, 06-23 |
-| `bounce_occupancy.py` | The same for Bounce: 3.381 points in 92 Italian cities, with capacity and reservation counts | E-93 | every hour, 06-23 |
-| `stow_occupancy.py` | Free lockers per shop and size at Stow Your Bags, the one real locker operator among the four, read from its booking form | E-93 | every hour, 06-23 |
+| `radical_occupancy.py` | How full the Radical Storage luggage points are in 86 Italian province capitals, and how many deposits they take per day | E-93 | every hour |
+| `bounce_occupancy.py` | The same for Bounce: 3.381 points in 92 Italian cities, with capacity and reservation counts | E-93 | every hour |
+| `stow_occupancy.py` | Free lockers per shop and size at Stow Your Bags, the one real locker operator among the four, read from its booking form | E-93 | every hour |
 | `competitors_census.py` | Weekly census of Stasher in Italy: points, declared capacity, prices | E-93 | Monday |
 | `dashboard.py` | Builds `docs/index.html` from all four sources | E-93 | after every hourly run |
 
@@ -106,7 +106,7 @@ Times are in `.github/workflows/tracking.yml`, in UTC:
 - `playtomic-lead`: every day at 21:00 Italian summer time.
 - `tenders`: every Monday at 09:00 Italian summer time.
 - `laundromats`: every Monday at 09:31 Italian summer time, then again at 13:31 and 19:31 the same day, Tuesday at 09:31 and 19:31, and Wednesday at 09:31. immobiliare.it sometimes blocks automated reads for a whole day, so the week is a cycle of six attempts: the first one that reads every portal writes `data/laundromats-state.json` and all the later attempts of that week stop immediately. If all six are blocked, the last one sends an email naming the portal that was never read. `laundromats-now` forces a round, ignoring the state.
-- `occupancy` (Radical, Bounce and Stow Your Bags, then the dashboard): every hour from 06:06 to 23:06 Italian summer time.
+- `occupancy` (Radical, Bounce and Stow Your Bags, then the dashboard): every hour, day and night. At night Radical and most Stow shops are shut and report nothing, while Bounce keeps counting the luggage left overnight.
 - `radical-census`: every Monday at 05:06 Italian summer time.
 
 From 25/10 (winter time) the same runs fall one hour earlier. Any command can be started by hand from **Actions > tracking > Run workflow**, typing its name in the "command" field.

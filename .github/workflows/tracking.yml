@@ -14,7 +14,7 @@ on:
     - cron: "31 11,17 * * 1"   # same Monday, a few hours later
     - cron: "31 7,17 * * 2"    # Tuesday
     - cron: "31 7 * * 3"       # Wednesday, last attempt of the week
-    - cron: "6 4-21 * * *"     # luggage storage occupancy (E-93): Radical, Bounce and Stow Your Bags, every hour 06-23 Italian summer time
+    - cron: "6 * * * *"        # luggage storage occupancy (E-93): Radical, Bounce and Stow Your Bags, every hour, day and night
     - cron: "6 3 * * 1"        # Radical Storage census (E-93), Monday
     - cron: "36 3 * * 1"       # Stasher and Stow Your Bags census (E-93), Monday
   workflow_dispatch:
@@ -56,7 +56,7 @@ jobs:
           elif [ "${{ github.event.schedule }}" = "31 11,17 * * 1" ]; then c="laundromats"
           elif [ "${{ github.event.schedule }}" = "31 7,17 * * 2" ]; then c="laundromats"
           elif [ "${{ github.event.schedule }}" = "31 7 * * 3" ]; then c="laundromats"
-          elif [ "${{ github.event.schedule }}" = "6 4-21 * * *" ]; then c="occupancy"
+          elif [ "${{ github.event.schedule }}" = "6 * * * *" ]; then c="occupancy"
           elif [ "${{ github.event.schedule }}" = "6 3 * * 1" ]; then c="radical-census"
           elif [ "${{ github.event.schedule }}" = "36 3 * * 1" ]; then c="competitors"
           else c="playtomic"; fi
