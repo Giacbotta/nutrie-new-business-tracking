@@ -114,17 +114,17 @@ def build():
         if key not in latest_hour or read_at >= latest_hour[key][0]:
             latest_hour[key] = (read_at, cap, occ)
 
-    hourly = collections.defaultdict(lambda: [0, 0, 0, 0, 0, 0])
+    hourly = collections.defaultdict(lambda: [0, 0, set(), 0, 0, set()])
     points = {}
     for (p, city, area, pid, name, size, day, hour), (read_at, cap, occ) in latest_hour.items():
         agg = hourly[(p, day, hour, city)]
         agg[0] += cap
         agg[1] += occ
-        agg[2] += 1
+        agg[2].add(pid)                 # locations, not location-and-size rows
         if cap > 0:                     # 84% of Bounce points declare no capacity: a percentage
             agg[3] += cap               # can only be worked out on those that do
             agg[4] += occ
-            agg[5] += 1
+            agg[5].add(pid)
         key = (p, city, area, pid, name, size)
         if key not in points or (day, hour) >= points[key][0]:
             points[key] = ((day, hour), cap, occ)
@@ -137,8 +137,8 @@ def build():
         built=dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         providers=[dict(id=k, label=v["label"], unit=v["unit"], note=v["note"],
                         last=last_read.get(k, "never")) for k, v in PROVIDERS.items()],
-        hourly=[dict(p=p, day=day, hour=hour, city=city, cap=v[0], occ=v[1], pts=v[2],
-                     capk=v[3], occk=v[4], ptsk=v[5])
+        hourly=[dict(p=p, day=day, hour=hour, city=city, cap=v[0], occ=v[1], pts=len(v[2]),
+                     capk=v[3], occk=v[4], ptsk=len(v[5]))
                 for (p, day, hour, city), v in sorted(hourly.items())],
         points=[dict(p=p, city=city, area=area, id=pid, name=name, size=size, day=d[0], hour=d[1],
                      cap=cap, occ=occ)
@@ -216,7 +216,7 @@ tr.l1 td:first-child{padding-left:12px}tr.l2 td:first-child{padding-left:24px}tr
 <select id="prov"></select><input id="q" placeholder="filter by name or area">
 </div>
 <div class="scroll"><table id="tbl"><thead><tr>
-<th data-k="label">City / neighbourhood / location</th><th data-k="kind">What</th><th data-k="pts">Points</th>
+<th data-k="label">City / neighbourhood / location</th><th data-k="kind">What</th><th data-k="pts">Locations</th>
 <th data-k="capk">Capacity</th><th data-k="occ">Occupied</th><th data-k="free">Free</th>
 <th data-k="fill">Fill</th><th data-k="fillpct">%</th></tr></thead><tbody></tbody></table></div>
 <p class="note" id="note"></p>
@@ -256,11 +256,11 @@ function cards(){
   return `<div class="card"><div class="who"><i class="dot" style="background:${COLOR[p.id]}"></i>${p.label}</div>
    <div class="big">${fmt(l.occ)} <span style="font-size:15px;font-weight:500;color:var(--mut)">${UNIT[p.id]} occupied</span></div>
    <div class="meter"><i style="width:${Math.min(100,f).toFixed(1)}%;background:${COLOR[p.id]}"></i></div>
-   <small>${fmt(l.pts)} points read at ${l.stamp.split(' ')[1]}:00</small>
-   <small>${f.toFixed(1)}% full, counting the ${fmt(l.ptsk)} points that declare a capacity (${fmt(l.capk)} places)</small>
+   <small>${fmt(l.pts)} locations read at ${l.stamp.split(' ')[1]}:00</small>
+   <small>${f.toFixed(1)}% full, counting the ${fmt(l.ptsk)} locations that declare a capacity (${fmt(l.capk)} places)</small>
    <small>busiest hour ${best?best[0].split(' ')[1]+':00 with '+fmt(best[1].occ)+' '+UNIT[p.id]:'—'}</small>
    <small>last run ${p.last}</small></div>`}).join('');
- document.getElementById('sub').textContent='Built '+D.built+' · '+fmt(D.points.length)+' points · '
+ document.getElementById('sub').textContent='Built '+D.built+' · '+fmt(new Set(D.points.map(p=>p.p+'|'+p.id)).size)+' locations · '
   +fmt(D.hourly.length)+' city-hours collected · occupied means bags on Radical and Bounce, lockers on Stow Your Bags';
 }
 
