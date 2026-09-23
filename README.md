@@ -8,6 +8,8 @@ Scripts that run on GitHub Actions and track public data about new business oppo
 | `municipal_tenders.py` | New tenders on sports facilities and municipal land in 10 municipalities of the area | E-90 | Monday |
 | `laundromats_for_sale.py` | Laundromats for sale in the provinces of Padova, Treviso and Venezia, on Subito, immobiliare.it and Trovit | E-91 | Monday, with retries until every portal answers |
 | `radical_occupancy.py` | How full the Radical Storage luggage points are in 86 Italian province capitals, and how many deposits they take per day | E-93 | every hour, 06-23 |
+| `bounce_occupancy.py` | The same for Bounce: 3.381 points in 92 Italian cities, with capacity and reservation counts | E-93 | every hour, 06-23 |
+| `dashboard.py` | Builds `docs/index.html` from both trackers | E-93 | after every hourly run |
 
 "Board item" refers to Nutrie's internal task board.
 
@@ -40,6 +42,17 @@ Two things to keep in mind when reading the numbers:
 `radicalstorage.com/robots.txt` disallows the `/v3/` and `/v4/` paths this script reads. It is kept
 deliberately light for that reason: one hour-slot per point per run, each search starting from the
 previous reading, four threads with a pause before each request, and a hard ceiling per run.
+
+### Bounce
+
+Bounce answers a whole city in one GraphQL request (`stores(citySlug:)` on graphql.usebounce.com),
+so a national round costs about 120 requests against Radical's 2.800, and it covers 3.381 points in
+92 cities against Radical's 1.386 in 86. What it gives per point is different, though: a capacity
+figure the site labels "Current availability", and a `reservationCount`. **What window that counter
+covers is not settled**: it is far too small to be a lifetime total, and Bounce's own site never
+uses the field. Until a few days of history say how it behaves, read the level and treat its change
+as raw movement, not as deposits. `bounce.com/robots.txt` disallows only `/packages/location`,
+`*.md` and `llms.txt`, none of which this script touches.
 
 ### Dashboard
 

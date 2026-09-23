@@ -32,7 +32,7 @@ COMMANDS (run from the repository root)
   python radical_occupancy.py scan                   # bags booked in the hour about to start
   python radical_occupancy.py scan ferrara,pisa      # only these cities
   python radical_occupancy.py daily                  # deposits per day, by point, area and city
-  python radical_occupancy.py dashboard              # rebuild docs/index.html
+  python radical_occupancy.py dashboard              # rebuild docs/index.html (calls dashboard.py)
 """
 import collections, csv, datetime as dt, json, os, re, sys, threading, time
 import unicodedata, urllib.parse, urllib.request
@@ -360,99 +360,9 @@ def daily():
 # ---------------------------------------------------------------- dashboard
 
 def dashboard():
-    """One self-contained page: city, then area, then single point, plus the hour profile."""
-    daily_rows = read_csv(DAILY_CSV)
-    if not daily_rows:
-        print("no data yet: run scan and daily first")
-        return
-    hours = collections.defaultdict(lambda: [0, 0])
-    for r in read_csv(OCC_CSV):
-        if r["booked"] != "":
-            h = hours[(r["city"], int(r["hour"]))]
-            h[0] += int(r["booked"])
-            h[1] += int(r["capacity"])
-    payload = dict(
-        built=dt.datetime.now().strftime("%Y-%m-%d %H:%M"),
-        bags_per_booking=BAGS_PER_BOOKING,
-        days=sorted({r["day"] for r in daily_rows}),
-        points=[dict(day=r["day"], city=r["city"], area=r["area"] or "—", name=r["name"],
-                     capacity=int(r["capacity"]), peak=int(r["peak"]), hours=int(r["hours_read"]),
-                     bags=int(r["carry_in"]) + int(r["bags_in"]), deposits=float(r["deposits"])) for r in daily_rows],
-        hours=[dict(city=c, hour=h, booked=v[0], capacity=v[1]) for (c, h), v in sorted(hours.items())],
-    )
-    os.makedirs(DOCS, exist_ok=True)
-    html = TEMPLATE.replace("__DATA__", json.dumps(payload, separators=(",", ":")))
-    with open(os.path.join(DOCS, "index.html"), "w", encoding="utf8") as f:
-        f.write(html)
-    print(f"{len(payload['points'])} point-days -> {os.path.join(DOCS, 'index.html')}")
-
-
-TEMPLATE = """<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Radical Storage occupancy</title>
-<style>
-:root{--bg:#fff;--fg:#14171f;--mut:#667;--line:#e4e7ee;--bar:#2f6df6;--bar2:#cfdcfb;--card:#f7f8fb}
-@media (prefers-color-scheme:dark){:root{--bg:#11141a;--fg:#eef1f6;--mut:#99a;--line:#262b36;--bar:#6b9bff;--bar2:#26344f;--card:#171b23}}
-*{box-sizing:border-box}body{margin:0;padding:24px 16px 64px;background:var(--bg);color:var(--fg);
-font:15px/1.5 -apple-system,Segoe UI,Roboto,sans-serif}
-.wrap{max-width:1100px;margin:0 auto}h1{font-size:22px;margin:0 0 4px}p.sub{color:var(--mut);margin:0 0 20px}
-.controls{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:16px}select,input{padding:7px 10px;border:1px solid var(--line);
-border-radius:8px;background:var(--card);color:var(--fg);font:inherit}
-table{width:100%;border-collapse:collapse;margin-bottom:28px}th,td{padding:7px 8px;border-bottom:1px solid var(--line);text-align:right}
-th:first-child,td:first-child,th:nth-child(2),td:nth-child(2){text-align:left}th{cursor:pointer;color:var(--mut);font-weight:600;white-space:nowrap}
-tr.parent{cursor:pointer}tr.child td:first-child{padding-left:26px;color:var(--mut)}tr.leaf td:first-child{padding-left:46px}
-h2{font-size:16px;margin:24px 0 8px}.bar{height:8px;background:var(--bar2);border-radius:4px;overflow:hidden;min-width:60px}
-.bar>i{display:block;height:100%;background:var(--bar)}.hrs{display:grid;grid-template-columns:repeat(24,1fr);gap:3px;align-items:end;height:120px}
-.hrs>div{background:var(--bar);border-radius:3px 3px 0 0;min-height:2px}.hlab{display:grid;grid-template-columns:repeat(24,1fr);gap:3px;color:var(--mut);font-size:10px;text-align:center}
-@media (max-width:640px){body{padding:16px 12px 48px}table{font-size:13px}
-th:nth-child(2),td:nth-child(2),th:nth-child(4),td:nth-child(4){display:none}
-th,td{padding:6px 4px}tr.child td:first-child{padding-left:14px}tr.leaf td:first-child{padding-left:26px}}
-</style></head><body><div class="wrap">
-<h1>Radical Storage — how full the luggage points are</h1>
-<p class="sub" id="sub"></p>
-<div class="controls">
-<select id="day"></select><select id="city"></select><input id="q" placeholder="filter by name or area">
-</div>
-<h2>Bags present by hour of day</h2>
-<div class="hrs" id="hrs"></div><div class="hlab" id="hlab"></div>
-<h2>City → area → point</h2>
-<table id="tbl"><thead><tr><th data-k="label">Name</th><th data-k="kind">Level</th><th data-k="points">Points</th>
-<th data-k="capacity">Places</th><th data-k="peak">Peak bags</th><th data-k="fill">Fill</th>
-<th data-k="bags">Bags in</th><th data-k="deposits">Deposits</th></tr></thead><tbody></tbody></table>
-<p class="sub">Deposits = bags arrived ÷ __BPB__ bags per booking, a floor: luggage that arrives and leaves inside the same
-hour is invisible. Radical only, no walk-ins and no other marketplace.</p>
-</div><script>
-const D=__DATA__;document.querySelectorAll('.sub')[0].textContent='Built '+D.built+' · '+D.points.length+' point-days · Radical Storage public data';
-document.body.innerHTML=document.body.innerHTML.replace('__BPB__',D.bags_per_booking);
-const day=document.getElementById('day'),city=document.getElementById('city'),q=document.getElementById('q');
-day.innerHTML='<option value="">all days</option>'+D.days.map(d=>`<option>${d}</option>`).join('');
-const cities=[...new Set(D.points.map(p=>p.city))].sort();
-city.innerHTML='<option value="">all cities</option>'+cities.map(c=>`<option>${c}</option>`).join('');
-let sortKey='deposits',dir=-1,open=new Set();
-const sel=()=>D.points.filter(p=>(!day.value||p.day===day.value)&&(!city.value||p.city===city.value)
-  &&(!q.value||(p.name+' '+p.area).toLowerCase().includes(q.value.toLowerCase())));
-function group(rows,keys){const m=new Map();for(const r of rows){const k=keys.map(k=>r[k]).join(' / ');
-  const a=m.get(k)||{label:keys.length>1?r[keys[keys.length-1]]:r[keys[0]],ids:new Set(),capacity:0,peak:0,bags:0,deposits:0,key:k};
-  a.ids.add(r.city+r.area+r.name);a.capacity+=r.capacity;a.peak+=r.peak;a.bags+=r.bags;a.deposits+=r.deposits;m.set(k,a)}
-  return [...m.values()].map(a=>({...a,points:a.ids.size,fill:a.capacity?100*a.peak/a.capacity:0}))}
-function sortRows(r){return r.sort((a,b)=>(a[sortKey]>b[sortKey]?1:a[sortKey]<b[sortKey]?-1:0)*dir)}
-function draw(){const rows=sel(),body=document.querySelector('#tbl tbody'),out=[];
- for(const c of sortRows(group(rows,['city']))){out.push(row(c,'city','parent'));
-  if(open.has(c.key)){for(const a of sortRows(group(rows.filter(r=>r.city===c.key),['city','area'])))
-   {out.push(row(a,'area','child'));if(open.has(a.key)){for(const p of sortRows(group(rows.filter(r=>r.city+' / '+r.area===a.key),['city','area','name'])))
-     out.push(row(p,'point','leaf'))}}}}
- body.innerHTML=out.join('');
- [...body.querySelectorAll('tr.parent,tr.child')].forEach(tr=>tr.onclick=()=>{const k=tr.dataset.key;open.has(k)?open.delete(k):open.add(k);draw()});
- const hs={};for(const h of D.hours){if(city.value&&h.city!==city.value)continue;hs[h.hour]=hs[h.hour]||[0,0];hs[h.hour][0]+=h.booked;hs[h.hour][1]+=h.capacity}
- const mx=Math.max(1,...Object.values(hs).map(v=>v[0]));
- document.getElementById('hrs').innerHTML=[...Array(24).keys()].map(h=>`<div style="height:${100*(hs[h]?hs[h][0]:0)/mx}%" title="${h}:00 — ${hs[h]?hs[h][0]:0} bags"></div>`).join('');
- document.getElementById('hlab').innerHTML=[...Array(24).keys()].map(h=>`<div>${h%3?'':h}</div>`).join('');}
-function row(r,kind,cls){return `<tr class="${cls}" data-key="${r.key||''}"><td>${r.label}</td><td>${kind}</td><td>${r.points}</td>
- <td>${r.capacity}</td><td>${r.peak}</td><td><div class="bar"><i style="width:${Math.min(100,r.fill).toFixed(0)}%"></i></div></td>
- <td>${r.bags}</td><td>${r.deposits.toFixed(1)}</td></tr>`}
-document.querySelectorAll('#tbl th').forEach(th=>th.onclick=()=>{const k=th.dataset.k;dir=(k===sortKey)?-dir:-1;sortKey=k;draw()});
-[day,city,q].forEach(e=>e.oninput=draw);draw();
-</script></body></html>"""
+    """The page is built by dashboard.py, which puts Radical and Bounce side by side."""
+    import dashboard as page
+    page.build()
 
 
 if __name__ == "__main__":

@@ -14,7 +14,7 @@ on:
     - cron: "31 11,17 * * 1"   # same Monday, a few hours later
     - cron: "31 7,17 * * 2"    # Tuesday
     - cron: "31 7 * * 3"       # Wednesday, last attempt of the week
-    - cron: "6 4-21 * * *"     # Radical Storage occupancy (E-93), every hour 06-23 Italian summer time
+    - cron: "6 4-21 * * *"     # luggage storage occupancy, Radical and Bounce (E-93), every hour 06-23 Italian summer time
     - cron: "6 3 * * 1"        # Radical Storage census (E-93), Monday
   workflow_dispatch:
     inputs:
@@ -73,9 +73,14 @@ jobs:
           elif [ "$c" = "laundromats" ]; then pip install --quiet curl_cffi && python laundromats_for_sale.py weekly
           elif [ "$c" = "laundromats-now" ]; then pip install --quiet curl_cffi && python laundromats_for_sale.py check
           elif [ "$c" = "radical" ]; then
-            python radical_occupancy.py scan && python radical_occupancy.py daily && python radical_occupancy.py dashboard
+            python radical_occupancy.py scan && python radical_occupancy.py daily
+            python bounce_occupancy.py scan && python bounce_occupancy.py daily
+            python dashboard.py
+          elif [ "$c" = "bounce" ]; then
+            python bounce_occupancy.py scan && python bounce_occupancy.py daily && python dashboard.py
           elif [ "$c" = "radical-census" ]; then
             python radical_occupancy.py cities && python radical_occupancy.py census
+            python bounce_occupancy.py cities
           else echo "Unknown command: $c"; exit 1
           fi
 
