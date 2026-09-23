@@ -71,6 +71,15 @@ IMMOBILIARE_PROVINCES = ["padova-provincia", "treviso-provincia", "venezia-provi
 TROVIT_SEARCHES = ["lavanderia-veneto", "lavanderia-self-service-veneto"]
 
 
+class PartialRead(Exception):
+    """A portal answered for part of what was asked: the rows read are kept, but the portal is
+    still counted as not read, so its other listings are never marked as gone by mistake."""
+
+    def __init__(self, rows, message):
+        super().__init__(message)
+        self.rows = rows
+
+
 def clean_town(s):
     """"30035, Mirano" and "a San Giuseppe, Cavarzere" become "Mirano" and "Cavarzere"."""
     return re.sub(r"^(a |\d+\s*)", "", s.split(",")[-1].strip()).strip()
@@ -181,7 +190,7 @@ def read_immobiliare():
     """In the list the title is generic ("Attività commerciale...") and the detail page answers 403
     even to curl_cffi (22/09/2026): the type stays "to check", unless the same deal is on another
     portal (see mark_duplicates) or it was corrected by hand in the CSV."""
-    found = []
+    found, blocked = [], []
     already_seen = load()
     for prov in IMMOBILIARE_PROVINCES:
         page = 1
@@ -189,7 +198,8 @@ def read_immobiliare():
             url = f"https://www.immobiliare.it/vendita-attivita/{prov}/con-lavanderia-tintoria/" + (f"?pag={page}" if page > 1 else "")
             r = download(url)
             if r.status_code != 200:
-                raise RuntimeError(f"{prov}: HTTP {r.status_code}")
+                blocked.append(f"{prov} HTTP {r.status_code}")
+                break
             block = _results(_next_data(r.text) or {})
             if not block:
                 break
@@ -212,6 +222,8 @@ def read_immobiliare():
             if page >= int(block.get("maxPages") or block.get("lastPage") or 1):
                 break
             page += 1
+    if blocked:
+        raise PartialRead(found, "blocked on " + ", ".join(blocked))
     return found
 
 
@@ -354,6 +366,10 @@ def check():
             found += x
             read_ok.append(name)
             print(f"{name}: {len(x)} listings in the three provinces")
+        except PartialRead as e:
+            found += e.rows
+            not_read.append(f"{name}: {str(e)[:120]} ({len(e.rows)} listings read anyway)")
+            print(f"{name}: PARTIALLY READ, {e}, {len(e.rows)} listings kept")
         except Exception as e:
             not_read.append(f"{name}: {str(e)[:120]}")
             print(f"{name}: NOT READ, {e}")
