@@ -38,7 +38,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 50
     env:
       TZ: Europe/Rome
       PYTHONIOENCODING: utf-8
@@ -105,7 +105,7 @@ jobs:
           git config user.name "nutrie-tracking"
           git config user.email "actions@users.noreply.github.com"
           git add data/ docs/
-          git diff --cached --quiet || git commit -m "data: ${{ steps.cmd.outputs.c }} + occupancy $(date '+%Y-%m-%d %H:%M')"
+          git diff --cached --quiet || git commit -m "data: ${{ steps.cmd.outputs.c }} $(date '+%Y-%m-%d %H:%M')"
           git pull --rebase --autostash && git push
 
       # The issue mentions the repository owner: GitHub emails it, no password and no external service

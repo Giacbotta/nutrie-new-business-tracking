@@ -204,22 +204,20 @@ tr.l1 td:first-child{padding-left:12px}tr.l2 td:first-child{padding-left:24px}tr
 <h1>Luggage storage in Italy — how full the competition is</h1>
 <p class="sub" id="sub"></p>
 
+<div class="controls">
+<select id="prov"></select><select id="day"></select><select id="city"></select>
+<select id="metric"><option value="pct">show fill %</option><option value="abs">show how many occupied</option></select>
+<input id="q" placeholder="filter by name or area">
+</div>
 <div class="cards" id="cards"></div>
 
 <h2>Occupied by hour of day</h2>
-<div class="controls">
-<select id="day"></select><select id="city"></select><select id="metric">
-<option value="pct">show fill %</option><option value="abs">show how many occupied</option></select>
-</div>
 <div id="chart"></div>
 <div class="legend" id="legend"></div>
 <p class="note" id="chartnote"></p>
 <div class="scroll"><table id="hourtbl"><thead><tr><th>Hour</th></tr></thead><tbody></tbody></table></div>
 
 <h2>City by city, provider by provider</h2>
-<div class="controls">
-<select id="prov"></select><input id="q" placeholder="filter by name or area">
-</div>
 <div class="scroll"><table id="tbl"><thead><tr>
 <th data-k="label">City / neighbourhood / location</th><th data-k="kind">What</th><th data-k="pts">Locations</th>
 <th data-k="capk">Capacity</th><th data-k="occ">Occupied</th><th data-k="free">Free</th>
@@ -240,7 +238,8 @@ city.innerHTML='<option value="">all cities</option>'+cities.map(c=>`<option>${c
 let sortKey='occ',dir=-1,open=new Set();
 const pct=(o,c)=>c?100*o/c:0, fmt=n=>Math.round(n).toLocaleString('en-US');
 
-const hsel=()=>D.hourly.filter(h=>(!day.value||h.day===day.value)&&(!city.value||h.city===city.value));
+const hsel=()=>D.hourly.filter(h=>(!day.value||h.day===day.value)&&(!city.value||h.city===city.value)
+  &&(!prov.value||h.p===prov.value));
 const psel=()=>D.points.filter(p=>(!day.value||p.day===day.value)&&(!city.value||p.city===city.value)
   &&(!prov.value||p.p===prov.value)&&(!q.value||(p.name+' '+p.area+' '+p.city).toLowerCase().includes(q.value.toLowerCase())));
 
@@ -252,7 +251,7 @@ function cards(){
   bh[stamp].cap+=h.cap;bh[stamp].occ+=h.occ;bh[stamp].capk+=h.capk;bh[stamp].occk+=h.occk;
   if(!latest[h.p]||stamp>latest[h.p].stamp)latest[h.p]={stamp,cap:0,occ:0,pts:0,capk:0,occk:0,ptsk:0};
   if(latest[h.p].stamp===stamp){const L=latest[h.p];L.cap+=h.cap;L.occ+=h.occ;L.pts+=h.pts;L.capk+=h.capk;L.occk+=h.occk;L.ptsk+=h.ptsk}}
- document.getElementById('cards').innerHTML=D.providers.map(p=>{
+ document.getElementById('cards').innerHTML=D.providers.filter(p=>!prov.value||p.id===prov.value).map(p=>{
   const l=latest[p.id];
   if(!l)return `<div class="card"><div class="who"><i class="dot" style="background:${COLOR[p.id]}"></i>${p.label}</div>
    <div class="big">—</div><small>no reading yet</small><small>last reading ${p.last}</small></div>`;
@@ -361,8 +360,8 @@ function table(){
   + '   Drill: city, then neighbourhood (the same geography for every provider), then the exact location, then locker size where there is one.';
 }
 function draw(){cards();chart();table()}
-[day,city,metric].forEach(e=>e.oninput=draw);
-[prov,q].forEach(e=>e.oninput=table);
+[day,city,metric,prov].forEach(e=>e.oninput=draw);
+q.oninput=table;
 document.querySelectorAll('#tbl th').forEach(th=>th.onclick=()=>{const k=th.dataset.k;dir=(k===sortKey)?-dir:-1;sortKey=k;table()});
 draw();
 </script></body></html>"""
