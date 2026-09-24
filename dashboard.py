@@ -17,8 +17,8 @@ subtraction is this script's problem, not the reader's:
 Occupied means bags for Radical and Bounce, lockers for Stow Your Bags. The page says so.
 
 The drill is the same for every provider — city, neighbourhood, exact location — and the
-neighbourhood comes from one shared geocoding of the coordinates (areas.py), never from each
-provider's own naming, or the levels would not line up. Locker size is a fourth level under a Stow
+neighbourhood names are Radical Storage's own zones, which every provider's points are matched to
+by distance (areas.py), so the levels line up. Locker size is a fourth level under a Stow
 Your Bags location, so the first three levels stay parallel across providers.
 """
 import collections, csv, datetime as dt, json, os
@@ -69,10 +69,15 @@ def when(read_at):
 def readings():
     """Every point-hour reading of every provider, as
     (provider, day, hour, city, area, point id, location, size, capacity, occupied, read_at)."""
-    nearest = shared_areas.nearest_lookup()
+    zone = shared_areas.area_of()
 
     def area(lat, lng):
-        return nearest(lat, lng) or "—"
+        """Radical's own zone name, shared by every provider. Points with no Radical point within a
+        kilometre keep an honest label instead of a guess."""
+        try:
+            return zone.get(shared_areas.key(lat, lng)) or "Unknown neighbourhood"
+        except (TypeError, ValueError):
+            return "Unknown neighbourhood"
 
     out = []
     where = {r["storage_id"]: (r["lat"], r["lng"]) for r in read_csv("radical-points.csv")}
@@ -261,7 +266,8 @@ function cards(){
    <small>busiest hour ${best?best[0].split(' ')[1]+':00 with '+fmt(best[1].occ)+' '+UNIT[p.id]:'—'}</small>
    <small>last run ${p.last}</small></div>`}).join('');
  document.getElementById('sub').textContent='Built '+D.built+' · '+fmt(new Set(D.points.map(p=>p.p+'|'+p.id)).size)+' locations · '
-  +fmt(D.hourly.length)+' city-hours collected · occupied means bags on Radical and Bounce, lockers on Stow Your Bags';
+  +fmt(D.hourly.length)+' city-hours collected · occupied means bags on Radical and Bounce, lockers on Stow Your Bags'
+  +' · '+fmt(new Set(D.points.filter(p=>p.area==='Unknown neighbourhood').map(p=>p.p+'|'+p.id)).size)+' locations still without a known neighbourhood';
 }
 
 function chart(){

@@ -1,30 +1,28 @@
 """One shared neighbourhood for every luggage point, whoever runs it (board item E-93).
 
-Radical, Bounce and Stow Your Bags all publish a position for their points, but each names zones
-its own way — or not at all. Comparing them needs the same geography on all three, so every point
-is given a neighbourhood here, from its coordinates, through OpenStreetMap's Nominatim, and the
-answer is cached in data/areas.csv. The drill on the page is then the same for everybody:
+The names come from **Radical Storage**, which is the only one of the three that names zones in a
+way a person recognises ("Santa Lucia Station", "Termini", "City Center"). Giacomo asked for those
+on 24/09/2026, after a night of OpenStreetMap names that read like nonsense in most cities.
 
-    city  ->  neighbourhood  ->  exact location  ->  (locker size, Stow Your Bags only)
+So: every Radical point carries its own zone. Every Bounce point and every Stow Your Bags shop
+takes the zone of the nearest Radical point within RADIUS_KM. What is left keeps the label
+"Unknown neighbourhood" and is searched for in the background — the nearest OpenStreetMap place is
+still written next to it, as a candidate to look at, never as the label.
 
-HOW, after a false start on the night of 23/09/2026: the first version asked Nominatim one point
-at a time. Two loops ran in parallel by mistake, went over its one-request-a-second limit, and the
-service answered 429 — which the code stored as "no neighbourhood" for 4.517 positions. Asking a
-public service 4.500 times for something it can hand over in one request was the wrong shape
-anyway. Now the named places of Italy are downloaded **once** from Overpass and every point takes
-the nearest one; the whole job is a single request and the matching is local.
-
-  python areas.py places        # download the named places of Italy (one Overpass request)
-  python areas.py fill          # give every point the nearest named place
-  python areas.py report        # what is covered, and the biggest neighbourhoods
+  python areas.py fill          # match every point to a Radical zone (offline, instant)
+  python areas.py places        # refresh the OpenStreetMap candidates (one Overpass request)
+  python areas.py report        # coverage, and what is still unknown
 """
-import collections, csv, json, os, sys, time, urllib.parse, urllib.request
+import collections, csv, json, os, re, sys, time, urllib.parse, urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
 CACHE = os.path.join(DATA, "areas.csv")
 PER_RUN = 600
 PAUSE = 1.1
+RADIUS_KM = 1.0        # how far a point may be from the Radical point that names its zone
+SPREAD_KM = 0.4        # a point already named can pass its zone to a very close neighbour
+SPREAD_ROUNDS = 3
 PLACES = os.path.join(DATA, "osm-places.csv")
 OVERPASS = ["https://overpass-api.de/api/interpreter",
             "https://overpass.kumi.systems/api/interpreter",
@@ -100,6 +98,42 @@ def lookup(k):
     return name, town
 
 
+def zones():
+    """Radical's own neighbourhood list per city, with the coordinates it gives each one.
+
+    The city pages carry chips like "Cannaregio" with a lat/lng, which is a centre for the zone —
+    many more zones than the points themselves cover, so far more of the other providers' points
+    can be matched. One request per city, refreshed with the Monday census."""
+    import html as htmlmod
+    cities = [r["city"] for r in read_csv("radical-cities.csv")]
+    rows = []
+    for city in cities:
+        time.sleep(0.4)
+        try:
+            # a browser user agent on purpose: with the project's own one Radical serves a lighter
+            # page with no zone chips at all (24/09/2026: 119 zones found instead of around 1.500)
+            req = urllib.request.Request(f"https://radicalstorage.com/luggage-storage/{city}",
+                                         headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
+            page = htmlmod.unescape(urllib.request.urlopen(req, timeout=40).read().decode("utf8", "replace"))
+            page = urllib.parse.unquote(page)
+        except Exception as err:
+            print(f"  {city}: {err}")
+            continue
+        found = set()
+        for m in re.finditer(r'"label":\[0,"([^"]+)"\],"href":\[0,"[^"]*?lat=([\d.]+)&lng=([\d.]+)&s=', page):
+            found.add((m.group(1), m.group(2), m.group(3)))
+        for m in re.finditer(r'storage-list/[a-z-]+\?lat=([\d.]+)&lng=([\d.]+)&s=([^"&]+)', page):
+            found.add((m.group(3).replace("+", " "), m.group(1), m.group(2)))
+        for name, lat, lng in found:
+            rows.append(dict(city=city, name=name.strip(), lat=lat, lng=lng))
+    with open(os.path.join(DATA, "radical-zones.csv"), "w", newline="", encoding="utf8") as f:
+        w = csv.DictWriter(f, fieldnames=["city", "name", "lat", "lng"])
+        w.writeheader()
+        w.writerows(rows)
+    print(f"{len(rows)} Radical zones over {len(cities)} cities -> data/radical-zones.csv")
+    return rows
+
+
 def places():
     """The named places of Italy, in one Overpass request, cached in data/osm-places.csv."""
     s, w, n, e = ITALY_BBOX
@@ -136,30 +170,70 @@ def places():
     return rows
 
 
-def fill_from_places():
-    """Every point takes the nearest named place within MAX_KM. No network, no rate limit."""
+def pretty(slug):
+    """"santa-lucia-station" -> "Santa Lucia Station"."""
+    return " ".join(w.capitalize() for w in (slug or "").replace("_", "-").split("-") if w)
+
+
+def grid_of(rows, size=0.02):
+    out = {}
+    for lat, lng, name in rows:
+        out.setdefault((round(lat / size), round(lng / size)), []).append((lat, lng, name))
+    return out
+
+
+def nearest(grid, lat, lng, limit_km, size=0.02):
     import math
-    known = read_csv("osm-places.csv") or places()
-    grid = {}
-    for r in known:
-        lat, lng = float(r["lat"]), float(r["lng"])
-        grid.setdefault((round(lat, 1), round(lng, 1)), []).append((lat, lng, r["name"], r["kind"]))
-    want = wanted()
+    best, best_km = "", limit_km
+    gl, gg = round(lat / size), round(lng / size)
+    for dl in (-1, 0, 1):
+        for dg in (-1, 0, 1):
+            for plat, plng, name in grid.get((gl + dl, gg + dg), ()):
+                km = math.dist(((plat - lat) * 111.0, (plng - lng) * 111.0 * math.cos(math.radians(lat))), (0, 0))
+                if km < best_km:
+                    best, best_km = name, km
+    return best, (best_km if best else None)
+
+
+def fill_from_radical():
+    """Give every point the zone of the nearest Radical point, and keep an OSM candidate for the rest."""
+    radical = [(float(r["lat"]), float(r["lng"]), pretty(r["area"]))
+               for r in read_csv("radical-points.csv") if r.get("lat") and r.get("area")]
+    # Radical's published zone list covers far more ground than its own points
+    radical += [(float(r["lat"]), float(r["lng"]), r["name"])
+                for r in read_csv("radical-zones.csv") if r.get("lat") and r.get("name")]
+    zones = grid_of(radical)
+    osm = grid_of([(float(r["lat"]), float(r["lng"]), r["name"]) for r in read_csv("osm-places.csv")
+                   if r.get("lat") and r.get("name")], size=0.05)
     cache = {}
-    for k, city in want.items():
+    for k in wanted():
         lat, lng = (float(x) for x in k.split(","))
-        best, best_km = None, MAX_KM
-        for dlat in (-0.1, 0, 0.1):
-            for dlng in (-0.1, 0, 0.1):
-                for plat, plng, name, kind in grid.get((round(lat + dlat, 1), round(lng + dlng, 1)), ()):
-                    km = math.dist(((plat - lat) * 111.0, (plng - lng) * 111.0 * math.cos(math.radians(lat))), (0, 0))
-                    if km < best_km:
-                        best, best_km = (name, kind), km
-        cache[k] = dict(key=k, area=best[0] if best else "", city_osm=best[1] if best else "",
-                        source="overpass" if best else "none")
+        name, km = nearest(zones, lat, lng, RADIUS_KM)
+        guess, _ = nearest(osm, lat, lng, 3.0, size=0.05)
+        cache[k] = dict(key=k, area=name, city_osm=guess,
+                        source=f"radical {km:.2f} km" if name else "unknown")
+    direct = sum(1 for r in cache.values() if r["area"])
+
+    # A point 200 m from one already named is in the same neighbourhood: let the names spread from
+    # neighbour to neighbour, in short hops, so a Bounce or Stow point just outside the reach of a
+    # Radical point still lands in the right zone instead of "unknown".
+    for _ in range(SPREAD_ROUNDS):
+        named = grid_of([(float(k.split(",")[0]), float(k.split(",")[1]), r["area"])
+                         for k, r in cache.items() if r["area"]], size=0.01)
+        moved = 0
+        for k, r in cache.items():
+            if r["area"]:
+                continue
+            lat, lng = (float(x) for x in k.split(","))
+            name, km = nearest(named, lat, lng, SPREAD_KM, size=0.01)
+            if name:
+                r["area"], r["source"], moved = name, f"spread {km:.2f} km", moved + 1
+        if not moved:
+            break
+    unknown = sum(1 for r in cache.values() if not r["area"])
     save(cache)
-    named = sum(1 for r in cache.values() if r["area"])
-    print(f"{len(cache)} positions placed, {named} with a neighbourhood -> {CACHE}")
+    print(f"{len(cache)} positions: {direct} straight from a Radical point, "
+          f"{len(cache) - unknown - direct} passed on from a named neighbour, {unknown} still unknown -> {CACHE}")
 
 
 def fill(limit=PER_RUN):
@@ -227,6 +301,11 @@ def nearest_lookup(radius_km=0.6):
 def report():
     cache = load()
     have = area_of()
+    unknown = [r for r in cache.values() if not r["area"]]
+    if unknown:
+        print(f"{len(unknown)} positions with no Radical zone nearby; OpenStreetMap candidates for the first few:")
+        for r in unknown[:8]:
+            print(f"   {r['key']}  candidate: {r['city_osm'] or '(none)'}")
     print(f"{len(cache)} positions cached, {sum(1 for v in have.values() if v)} named")
     for name, ident, lat_col, lng_col, city_col in SOURCES:
         rows = [r for r in read_csv(name) if r.get(lat_col)]
@@ -237,10 +316,12 @@ def report():
 
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "fill"
-    if cmd == "places":
+    if cmd == "zones":
+        zones()
+    elif cmd == "places":
         places()
     elif cmd == "fill":
-        fill_from_places()
+        fill_from_radical()
     elif cmd == "nominatim":          # the old one-by-one way, kept for spot checks
         fill(int(sys.argv[2]) if len(sys.argv) > 2 else PER_RUN)
     else:
