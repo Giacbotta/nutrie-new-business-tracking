@@ -250,8 +250,8 @@ function cards(){
  const rows=hsel(),latest={},byHour={};
  for(const h of rows){
   const stamp=h.day+' '+String(h.hour).padStart(2,'0');
-  const bh=byHour[h.p]=byHour[h.p]||{};bh[stamp]=bh[stamp]||{cap:0,occ:0,capk:0,occk:0};
-  bh[stamp].cap+=h.cap;bh[stamp].occ+=h.occ;bh[stamp].capk+=h.capk;bh[stamp].occk+=h.occk;
+  const bh=byHour[h.p]=byHour[h.p]||{};bh[stamp]=bh[stamp]||{cap:0,occ:0,capk:0,occk:0,pts:0};
+  bh[stamp].cap+=h.cap;bh[stamp].occ+=h.occ;bh[stamp].capk+=h.capk;bh[stamp].occk+=h.occk;bh[stamp].pts+=h.pts;
   if(!latest[h.p]||stamp>latest[h.p].stamp)latest[h.p]={stamp,cap:0,occ:0,pts:0,capk:0,occk:0,ptsk:0};
   if(latest[h.p].stamp===stamp){const L=latest[h.p];L.cap+=h.cap;L.occ+=h.occ;L.pts+=h.pts;L.capk+=h.capk;L.occk+=h.occk;L.ptsk+=h.ptsk}}
  document.getElementById('cards').innerHTML=D.providers.filter(p=>!prov.value||p.id===prov.value).map(p=>{
@@ -274,8 +274,8 @@ function cards(){
 
 function chart(){
  const rows=hsel(),series={},abs=metric.value==='abs';
- for(const h of rows){const s=series[h.p]=series[h.p]||{};const a=s[h.hour]=s[h.hour]||{cap:0,occ:0,capk:0,occk:0};
-  a.cap+=h.cap;a.occ+=h.occ;a.capk+=h.capk;a.occk+=h.occk}
+ for(const h of rows){const s=series[h.p]=series[h.p]||{};const a=s[h.hour]=s[h.hour]||{cap:0,occ:0,capk:0,occk:0,pts:0};
+  a.cap+=h.cap;a.occ+=h.occ;a.capk+=h.capk;a.occk+=h.occk;a.pts+=h.pts}
  const val=v=>abs?v.occ:pct(v.occk,v.capk);
  const W=1000,H=240,L=46,B=26,T=10;
  const raw=Math.max(1,...Object.values(series).flatMap(s=>Object.values(s).map(val)));
@@ -291,7 +291,7 @@ function chart(){
   const hs=Object.keys(s).map(Number).sort((a,b)=>a-b);if(!hs.length)continue;
   paths+='<path fill="none" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke="'+COLOR[p]+'" d="'+
    hs.map((h,i)=>(i?'L':'M')+x(h).toFixed(1)+' '+y(val(s[h])).toFixed(1)).join(' ')+'"/>';
-  paths+=hs.map(h=>`<circle cx="${x(h).toFixed(1)}" cy="${y(val(s[h])).toFixed(1)}" r="3.5" fill="${COLOR[p]}"><title>${LABEL[p]} ${h}:00 — ${fmt(s[h].occ)} ${UNIT[p]} occupied, ${pct(s[h].occk,s[h].capk).toFixed(1)}% of the ${fmt(s[h].capk)} places with a declared capacity</title></circle>`).join('');
+  paths+=hs.map(h=>`<circle cx="${x(h).toFixed(1)}" cy="${y(val(s[h])).toFixed(1)}" r="3.5" fill="${COLOR[p]}"><title>${LABEL[p]} ${h}:00 — ${fmt(s[h].occ)} ${UNIT[p]} occupied across ${fmt(s[h].pts)} locations read, ${pct(s[h].occk,s[h].capk).toFixed(1)}% of the ${fmt(s[h].capk)} places with a declared capacity</title></circle>`).join('');
  }
  document.getElementById('chart').innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Occupied by hour of day">${g}${paths}</svg>`;
  document.getElementById('legend').innerHTML=D.providers.map(p=>`<span><i class="dot" style="background:${COLOR[p.id]}"></i>${p.label} <em style="font-style:normal;opacity:.7">(${p.unit})</em></span>`).join('');
@@ -299,7 +299,8 @@ function chart(){
  const hrs=[...new Set(rows.map(r=>r.hour))].length;
  document.getElementById('chartnote').textContent=hrs<3
   ? 'Only '+hrs+' hour'+(hrs===1?'':'s')+' collected so far — the curve fills in as the hourly runs come in.'
-  : 'One point per hourly reading, summed over the selection. Hover a point for the exact numbers.';
+  : 'What was actually occupied at that hour: the readings of that hour added across locations, never a peak. '
+   +'The locations count tells a quiet hour apart from an hour when fewer places were open or read.';
 }
 
 function hourTable(series){
@@ -309,7 +310,8 @@ function hourTable(series){
    const v=(series[p.id]||{})[h];
    if(!v)return '<td class="tag">no reading</td>';
    const f=pct(v.occk,v.capk);
-   return `<td>${fmt(v.occ)}<span class="tag"> · ${f.toFixed(1)}%</span></td>`}).join('')+'</tr>').join('');
+   return `<td title="${fmt(v.pts)} locations read at ${String(h).padStart(2,'0')}:00 — ${fmt(v.occ)} ${p.unit} occupied, ${f.toFixed(1)}% of the ${fmt(v.capk)} places with a declared capacity">
+     ${fmt(v.occ)}<span class="tag"> · ${f.toFixed(1)}% · ${fmt(v.pts)} loc</span></td>`}).join('')+'</tr>').join('');
  document.querySelector('#hourtbl thead').innerHTML=head;
  document.querySelector('#hourtbl tbody').innerHTML=body||'<tr><td colspan="4">No readings yet.</td></tr>';
 }
