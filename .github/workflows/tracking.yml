@@ -82,7 +82,7 @@ jobs:
             { python radical_occupancy.py scan && python radical_occupancy.py daily; } || echo "RADICAL FAILED"
             { python bounce_occupancy.py scan  && python bounce_occupancy.py daily;  } || echo "BOUNCE FAILED"
             { python stow_occupancy.py scan    && python stow_occupancy.py daily;    } || echo "STOW FAILED"
-            python areas.py fill 60 || echo "AREAS FAILED"    # new points get a neighbourhood, gently
+            python areas.py fill || echo "AREAS FAILED"       # new points get a neighbourhood, offline
             python dashboard.py || echo "DASHBOARD FAILED"
           elif [ "$c" = "bounce" ]; then
             python bounce_occupancy.py scan && python bounce_occupancy.py daily && python dashboard.py
@@ -92,7 +92,7 @@ jobs:
             python radical_occupancy.py cities && python radical_occupancy.py census
             python bounce_occupancy.py cities && python bounce_occupancy.py areas
             python stow_occupancy.py shops
-            python areas.py fill 900
+            python areas.py places && python areas.py fill
           elif [ "$c" = "competitors" ]; then
             python competitors_census.py all && python dashboard.py
           else echo "Unknown command: $c"; exit 1

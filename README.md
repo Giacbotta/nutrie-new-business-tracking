@@ -80,14 +80,17 @@ capacity and prices, nothing more.
 ### Neighbourhoods, the same for everyone
 
 The three providers name zones in three different ways, or not at all, so comparing them needs one
-shared geography. `areas.py` gives every point a neighbourhood from its coordinates through
-OpenStreetMap's Nominatim, one request per second, and caches it in `data/areas.csv` keyed by the
-position rounded to about 11 m. The page then drills the same way for all of them:
+shared geography. `areas.py` downloads the named places of Italy once from Overpass (19.451 of them, in
+`data/osm-places.csv`) and gives every point the nearest one, offline, into `data/areas.csv`. The
+first attempt asked Nominatim point by point, went over its rate limit and stored 4.517 empty
+answers as if they were real: asking a public service 4.500 times for something it hands over in
+one request was the wrong shape. The page then drills the same way for all providers:
 
     city  ->  neighbourhood  ->  exact location  ->  locker size (Stow Your Bags only)
 
-Each hourly run tops up 60 new positions, and the Monday census up to 900, so the cache keeps up
-with new points on its own.
+Each hourly run re-matches any new point offline, and the Monday census downloads the place list
+again, so the cache keeps up on its own. Venice and many other neighbourhoods are mapped as areas
+rather than points, so the query asks for nodes, ways and relations and uses their centres.
 
 ### Dashboard
 

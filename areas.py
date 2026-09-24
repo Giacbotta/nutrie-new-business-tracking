@@ -7,21 +7,33 @@ answer is cached in data/areas.csv. The drill on the page is then the same for e
 
     city  ->  neighbourhood  ->  exact location  ->  (locker size, Stow Your Bags only)
 
-Nominatim asks for at most one request per second and a real user agent, so that is what it gets.
-Coordinates are rounded to four decimals (about 11 m) before the lookup, so points in the same
-doorway cost one request, and a run only looks up what the cache does not already hold.
+HOW, after a false start on the night of 23/09/2026: the first version asked Nominatim one point
+at a time. Two loops ran in parallel by mistake, went over its one-request-a-second limit, and the
+service answered 429 — which the code stored as "no neighbourhood" for 4.517 positions. Asking a
+public service 4.500 times for something it can hand over in one request was the wrong shape
+anyway. Now the named places of Italy are downloaded **once** from Overpass and every point takes
+the nearest one; the whole job is a single request and the matching is local.
 
-  python areas.py fill          # look up whatever is missing (default 600 per run)
-  python areas.py fill 2000     # ... up to this many
+  python areas.py places        # download the named places of Italy (one Overpass request)
+  python areas.py fill          # give every point the nearest named place
   python areas.py report        # what is covered, and the biggest neighbourhoods
 """
-import collections, csv, json, os, sys, time, urllib.request
+import collections, csv, json, os, sys, time, urllib.parse, urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
 CACHE = os.path.join(DATA, "areas.csv")
 PER_RUN = 600
 PAUSE = 1.1
+PLACES = os.path.join(DATA, "osm-places.csv")
+OVERPASS = ["https://overpass-api.de/api/interpreter",
+            "https://overpass.kumi.systems/api/interpreter",
+            "https://overpass.osm.ch/api/interpreter"]
+ITALY_BBOX = (35.0, 6.0, 47.3, 19.0)   # a bounding box is far cheaper than an area lookup, which
+                                        # timed out; anything it catches outside Italy is harmless
+# What counts as a neighbourhood, from the widest down. A point takes the nearest of these.
+PLACE_KINDS = ["borough", "city_district", "suburb", "quarter", "neighbourhood"]
+MAX_KM = 2.5
 UA = {"User-Agent": "nutrie-new-business-tracking (https://github.com/Giacbotta/nutrie-new-business-tracking)"}
 
 # Bigger units first: two points a few streets apart should land in the same area, otherwise the
@@ -86,6 +98,68 @@ def lookup(k):
     name = next((addr[l] for l in LEVELS if addr.get(l)), "")
     town = addr.get("city") or addr.get("town") or addr.get("municipality") or ""
     return name, town
+
+
+def places():
+    """The named places of Italy, in one Overpass request, cached in data/osm-places.csv."""
+    s, w, n, e = ITALY_BBOX
+    # nwr, not node: Venice's sestieri and many other neighbourhoods are mapped as areas, so a
+    # node-only query left the whole historic centre without a name (checked 24/09/2026).
+    query = (f'[out:json][timeout:240];nwr["place"~"^({"|".join(PLACE_KINDS)})$"]'
+             f'({s},{w},{n},{e});out center;')
+    raw = None
+    for host in OVERPASS:
+        try:
+            req = urllib.request.Request(host, data=("data=" + urllib.parse.quote(query)).encode(),
+                                         headers={**UA, "Content-Type": "application/x-www-form-urlencoded"})
+            raw = json.loads(urllib.request.urlopen(req, timeout=300).read())
+            print(f"  answered by {host}")
+            break
+        except Exception as err:
+            print(f"  {host} did not answer ({err})")
+            time.sleep(5)
+    if raw is None:
+        raise SystemExit("no Overpass mirror answered")
+    rows = []
+    for e in raw.get("elements", []):
+        tags = e.get("tags") or {}
+        centre = e if "lat" in e else (e.get("center") or {})
+        if tags.get("name") and centre.get("lat") is not None:
+            rows.append(dict(name=tags["name"], kind=tags.get("place", ""),
+                             lat=centre["lat"], lng=centre.get("lon")))
+    os.makedirs(DATA, exist_ok=True)
+    with open(PLACES, "w", newline="", encoding="utf8") as f:
+        w = csv.DictWriter(f, fieldnames=["name", "kind", "lat", "lng"])
+        w.writeheader()
+        w.writerows(rows)
+    print(f"{len(rows)} named places in Italy -> {PLACES}")
+    return rows
+
+
+def fill_from_places():
+    """Every point takes the nearest named place within MAX_KM. No network, no rate limit."""
+    import math
+    known = read_csv("osm-places.csv") or places()
+    grid = {}
+    for r in known:
+        lat, lng = float(r["lat"]), float(r["lng"])
+        grid.setdefault((round(lat, 1), round(lng, 1)), []).append((lat, lng, r["name"], r["kind"]))
+    want = wanted()
+    cache = {}
+    for k, city in want.items():
+        lat, lng = (float(x) for x in k.split(","))
+        best, best_km = None, MAX_KM
+        for dlat in (-0.1, 0, 0.1):
+            for dlng in (-0.1, 0, 0.1):
+                for plat, plng, name, kind in grid.get((round(lat + dlat, 1), round(lng + dlng, 1)), ()):
+                    km = math.dist(((plat - lat) * 111.0, (plng - lng) * 111.0 * math.cos(math.radians(lat))), (0, 0))
+                    if km < best_km:
+                        best, best_km = (name, kind), km
+        cache[k] = dict(key=k, area=best[0] if best else "", city_osm=best[1] if best else "",
+                        source="overpass" if best else "none")
+    save(cache)
+    named = sum(1 for r in cache.values() if r["area"])
+    print(f"{len(cache)} positions placed, {named} with a neighbourhood -> {CACHE}")
 
 
 def fill(limit=PER_RUN):
@@ -163,7 +237,11 @@ def report():
 
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "fill"
-    if cmd == "fill":
+    if cmd == "places":
+        places()
+    elif cmd == "fill":
+        fill_from_places()
+    elif cmd == "nominatim":          # the old one-by-one way, kept for spot checks
         fill(int(sys.argv[2]) if len(sys.argv) > 2 else PER_RUN)
     else:
         report()
