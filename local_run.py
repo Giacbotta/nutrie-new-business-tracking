@@ -17,7 +17,10 @@ LOG = os.path.join(HERE, "local_run.log")
 
 
 def run(args):
-    r = subprocess.run(args, cwd=HERE, capture_output=True, text=True, timeout=900)
+    # CREATE_NO_WINDOW: started by the Windows scheduler there is no console, and a child that
+    # opens its own gets a Ctrl+C when that console closes, killing the run (24/09/2026).
+    r = subprocess.run(args, cwd=HERE, capture_output=True, text=True, timeout=900,
+                       creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
     with open(LOG, "a", encoding="utf8") as f:
         f.write(f"{dt.datetime.now():%Y-%m-%d %H:%M} {' '.join(args[:3])} -> {r.returncode}\n")
         for line in (r.stdout + r.stderr).splitlines():
@@ -27,6 +30,8 @@ def run(args):
 
 def main():
     command = sys.argv[1] if len(sys.argv) > 1 else "read"
+    with open(LOG, "a", encoding="utf8") as f:
+        f.write(f"{dt.datetime.now():%Y-%m-%d %H:%M} start {command}\n")
     run([sys.executable, "playtomic_occupancy.py", command])
     run([sys.executable, "playtomic_occupancy.py", "summary_csv"])
     run([GIT, "add", "data"])
@@ -38,4 +43,10 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception:
+        import traceback
+        with open(LOG, "a", encoding="utf8") as f:
+            f.write(f"{dt.datetime.now():%Y-%m-%d %H:%M} crash\n" + traceback.format_exc())
+        raise
