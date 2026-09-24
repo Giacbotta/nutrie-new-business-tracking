@@ -69,33 +69,35 @@ jobs:
         id: run
         run: |
           c="${{ steps.cmd.outputs.c }}"
+
+          # Every scheduled run takes the luggage reading, whichever cron woke it up. On the night
+          # of 23/09/2026 the rounds kept coming out as "playtomic": GitHub's github.event.schedule
+          # did not match the cron that fired, so the hourly reading was skipped and the series had
+          # holes. An extra reading costs a few minutes; a missing hour cannot be recovered.
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "$c" = "occupancy" ]; then
+            { python radical_occupancy.py scan && python radical_occupancy.py daily; } || echo "RADICAL FAILED"
+            { python bounce_occupancy.py scan  && python bounce_occupancy.py daily;  } || echo "BOUNCE FAILED"
+            { python stow_occupancy.py scan    && python stow_occupancy.py daily;    } || echo "STOW FAILED"
+            python areas.py fill || echo "AREAS FAILED"
+            python dashboard.py  || echo "DASHBOARD FAILED"
+          fi
+
           if [ "$c" = "playtomic" ] || [ "$c" = "playtomic-lead" ]; then
             if [ "$(date +%Y%m%d)" -gt 20261009 ]; then echo "Playtomic sampling ended on 09/10/2026 (S-16)"; exit 0; fi
             pip install --quiet curl_cffi || true   # Playtomic answers 403 to plain requests from GitHub (23/09/2026)
             if [ "$c" = "playtomic" ]; then python playtomic_occupancy.py read; else python playtomic_occupancy.py lead; fi
             python playtomic_occupancy.py summary_csv
           elif [ "$c" = "tenders" ]; then python municipal_tenders.py check
-          elif [ "$c" = "laundromats" ]; then pip install --quiet curl_cffi && python laundromats_for_sale.py weekly
-          elif [ "$c" = "laundromats-now" ]; then pip install --quiet curl_cffi && python laundromats_for_sale.py check
-          elif [ "$c" = "occupancy" ] || [ "$c" = "radical" ]; then
-            # one provider failing must not cost the others their reading, so nothing here is fatal
-            { python radical_occupancy.py scan && python radical_occupancy.py daily; } || echo "RADICAL FAILED"
-            { python bounce_occupancy.py scan  && python bounce_occupancy.py daily;  } || echo "BOUNCE FAILED"
-            { python stow_occupancy.py scan    && python stow_occupancy.py daily;    } || echo "STOW FAILED"
-            python areas.py fill || echo "AREAS FAILED"       # new points get a neighbourhood, offline
-            python dashboard.py || echo "DASHBOARD FAILED"
-          elif [ "$c" = "bounce" ]; then
-            python bounce_occupancy.py scan && python bounce_occupancy.py daily && python dashboard.py
-          elif [ "$c" = "stow" ]; then
-            python stow_occupancy.py scan && python stow_occupancy.py daily && python dashboard.py
+          elif [ "$c" = "laundromats" ] || [ "$c" = "laundromats-now" ]; then
+            pip install --quiet curl_cffi
+            if [ "$c" = "laundromats" ]; then python laundromats_for_sale.py weekly; else python laundromats_for_sale.py check; fi
           elif [ "$c" = "radical-census" ]; then
             python radical_occupancy.py cities && python radical_occupancy.py census
-            python bounce_occupancy.py cities && python bounce_occupancy.py areas
+            python bounce_occupancy.py cities
             python stow_occupancy.py shops
             python areas.py places && python areas.py fill
           elif [ "$c" = "competitors" ]; then
             python competitors_census.py all && python dashboard.py
-          else echo "Unknown command: $c"; exit 1
           fi
 
       - name: Save the data in the repository
@@ -103,7 +105,7 @@ jobs:
           git config user.name "nutrie-tracking"
           git config user.email "actions@users.noreply.github.com"
           git add data/ docs/
-          git diff --cached --quiet || git commit -m "data: ${{ steps.cmd.outputs.c }} $(date '+%Y-%m-%d %H:%M')"
+          git diff --cached --quiet || git commit -m "data: ${{ steps.cmd.outputs.c }} + occupancy $(date '+%Y-%m-%d %H:%M')"
           git pull --rebase --autostash && git push
 
       # The issue mentions the repository owner: GitHub emails it, no password and no external service
