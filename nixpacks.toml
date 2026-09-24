@@ -1,0 +1,7 @@
+# Railway builds this repository with Nixpacks. The round needs Python and git, nothing else:
+# every script uses the standard library only.
+[phases.setup]
+nixPkgs = ["python312", "git", "bash", "cacert"]
+
+[start]
+cmd = "bash railway_round.sh"

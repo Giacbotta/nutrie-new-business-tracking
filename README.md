@@ -106,6 +106,23 @@ Listing titles, tender titles and the keyword lists stay in Italian: they come f
 
 When the laundromat check finds new listings, listings that are gone or back online, it opens an issue that mentions the repository owner. GitHub sends it by email. It also opens one when a portal has been unreachable for every attempt of the week.
 
+## Where the hourly round runs
+
+GitHub's free scheduled Actions are dropped when the runners are busy: on the night of 23/09/2026
+one hourly round out of ten actually started, and the readings that exist for that night were
+taken by a watchdog on Giacomo's PC. So the luggage round runs on **Railway**, as a cron service on
+the project that already hosts the Venice booking automation:
+
+- schedule `6 * * * *`, start command `bash railway_round.sh` (see `nixpacks.toml`)
+- variables: `GITHUB_TOKEN` (write access to this repository), optionally `GITHUB_REPO`
+- the script clones the repository fresh, runs the three collectors and the dashboard, and pushes
+
+Cost, measured on the Hobby plan on 24/09/2026: the existing automation used 1,37 $ of the 5 $
+included, and the round adds an estimated 1-2 $ a month, so it stays inside the included usage.
+
+The GitHub Actions schedule stays on as a backup. A duplicate reading in the same hour costs
+nothing: every view keeps the last reading of each hour.
+
 ## When it runs
 
 Times are in `.github/workflows/tracking.yml`, in UTC:
