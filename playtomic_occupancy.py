@@ -181,6 +181,8 @@ def read(window=120):
             print("club page not readable:", slug, LAST_REASON["why"]); continue
         start_min = (now_min // 30 + 1) * 30
         rows = day_status(c, now.date(), start_min, start_min + window)
+        for r in rows:
+            r["read_at"] = stamp  # without this the row is written with an empty read_at (fixed 24/09/2026)
         append(CSV_NOW, rows); total += len(rows)
         report.append((slug, "availability",
                        f"{len(rows)} half hours" if rows else (LAST_REASON["why"] or "closed now or no slots")))
