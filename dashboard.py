@@ -130,9 +130,12 @@ def build():
             agg[3] += cap               # can only be worked out on those that do
             agg[4] += occ
             agg[5].add(pid)
-        key = (p, city, area, pid, name, size)
-        if key not in points or (day, hour) >= points[key][0]:
-            points[key] = ((day, hour), cap, occ)
+        key = (p, city, area, pid, name, size, day)
+        best = points.get(key)
+        # the day's busiest reading, not the last one and never a sum across hours: a bag counted
+        # at 10:00 and still there at 14:00 must not be counted twice (Giacomo, 24/09/2026)
+        if best is None or occ > best[1] or (occ == best[1] and hour > best[2]):
+            points[key] = (max(cap, best[0] if best else 0), occ, hour)
 
     last_read = {}
     for p, day, hour, city, area, pid, name, size, cap, occ, read_at in rows:
@@ -145,9 +148,9 @@ def build():
         hourly=[dict(p=p, day=day, hour=hour, city=city, cap=v[0], occ=v[1], pts=len(v[2]),
                      capk=v[3], occk=v[4], ptsk=len(v[5]))
                 for (p, day, hour, city), v in sorted(hourly.items())],
-        points=[dict(p=p, city=city, area=area, id=pid, name=name, size=size, day=d[0], hour=d[1],
-                     cap=cap, occ=occ)
-                for (p, city, area, pid, name, size), (d, cap, occ) in sorted(points.items())],
+        points=[dict(p=p, city=city, area=area, id=pid, name=name, size=size, day=day,
+                     hour=hour, cap=cap, occ=occ)
+                for (p, city, area, pid, name, size, day), (cap, occ, hour) in sorted(points.items())],
     )
     os.makedirs(DOCS, exist_ok=True)
     with open(os.path.join(DOCS, "index.html"), "w", encoding="utf8") as f:
@@ -220,7 +223,7 @@ tr.l1 td:first-child{padding-left:12px}tr.l2 td:first-child{padding-left:24px}tr
 <h2>City by city, provider by provider</h2>
 <div class="scroll"><table id="tbl"><thead><tr>
 <th data-k="label">City / neighbourhood / location</th><th data-k="kind">What</th><th data-k="pts">Locations</th>
-<th data-k="capk">Capacity</th><th data-k="occ">Occupied</th><th data-k="free">Free</th>
+<th data-k="capk">Capacity</th><th data-k="occ">Occupied at peak</th><th data-k="free">Free</th>
 <th data-k="fill">Fill</th><th data-k="fillpct">%</th></tr></thead><tbody></tbody></table></div>
 <p class="note" id="note"></p>
 </div><script>
@@ -329,8 +332,15 @@ function row(r,kind,cls){
  <td><div class="bar"><i style="width:${Math.min(100,r.fill).toFixed(0)}%;background:${color}"></i></div></td>
  <td>${r.fillpct.toFixed(1)}%</td></tr>`}
 
+function peaks(rows){
+ // one entry per location: the busiest reading in the selection. Never a sum over hours or days.
+ const best=new Map();
+ for(const r of rows){const k=r.p+'|'+r.id+'|'+r.size;const b=best.get(k);
+  if(!b||r.occ>b.occ)best.set(k,r); else if(r.occ===b.occ&&r.hour>b.hour)best.set(k,r)}
+ return [...best.values()]}
+
 function table(){
- const rows=psel(),out=[];
+ const rows=peaks(psel()),out=[];
  const cityKey=r=>r.city, areaKey=r=>r.area, locKey=r=>r.p+'|'+r.id, sizeKey=r=>r.size||'—';
  for(const c of srt(group(rows,[cityKey]))){
   out.push(row({...c,open:1},'city','l0'));
@@ -357,6 +367,7 @@ function table(){
   ? D.providers.find(p=>p.id===prov.value).note
   : D.providers.map(p=>p.label+' — '+p.note).join('   '))
   + '   Occupied is always the comparable number: bags on Radical and Bounce, lockers on Stow Your Bags. Capacity, free and % are shown only where the provider declares a capacity — 84% of Bounce points do not.'
+  + '   Occupied at peak is the busiest single reading of the selected day for each location, added up across locations - never a sum of different hours, which would count the same bag twice.'
   + '   Drill: city, then neighbourhood (the same geography for every provider), then the exact location, then locker size where there is one.';
 }
 function draw(){cards();chart();table()}
