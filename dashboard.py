@@ -213,12 +213,12 @@ tr.l1 td:first-child{padding-left:12px}tr.l2 td:first-child{padding-left:24px}tr
 
 <div class="controls">
 <select id="prov"></select><select id="day"></select><select id="city"></select>
-<select id="metric"><option value="pct">show fill %</option><option value="abs">show how many occupied</option></select>
+<select id="metric"><option value="abs">show how many occupied</option><option value="pct">show fill %</option></select>
 <input id="q" placeholder="filter by name or area">
 </div>
 <div class="cards" id="cards"></div>
 
-<h2>Occupied by hour of day</h2>
+<h2>Occupied by hour of day — bags on Radical and Bounce, lockers on Stow Your Bags</h2>
 <div id="chart"></div>
 <div class="legend" id="legend"></div>
 <p class="note" id="chartnote"></p>
