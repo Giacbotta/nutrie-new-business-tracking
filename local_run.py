@@ -34,6 +34,7 @@ def main():
         f.write(f"{dt.datetime.now():%Y-%m-%d %H:%M} start {command}\n")
     run([sys.executable, "playtomic_occupancy.py", command])
     run([sys.executable, "playtomic_occupancy.py", "summary_csv"])
+    run([sys.executable, "playtomic_occupancy.py", "monthly_csv"])
     run([GIT, "add", "data"])
     if run([GIT, "diff", "--cached", "--quiet"]).returncode == 0:
         return  # nothing new to send

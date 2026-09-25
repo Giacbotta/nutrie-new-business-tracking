@@ -9,6 +9,7 @@ Commands:
   python playtomic_occupancy.py lead          # status of the next 6 days, to measure how far ahead courts get booked
   python playtomic_occupancy.py summary       # printed summary: booked hours per court, by club, cover, day type, time band
   python playtomic_occupancy.py summary_csv   # data/playtomic-summary.csv, read by the Google Sheet
+  python playtomic_occupancy.py monthly_csv   # data/playtomic-monthly.csv, the same split by month: the seasonality series
 
 Schedule: "read" every 2 hours from 07:00 to 23:00 Italian time, "lead" once a day at 21:00,
 until 09/10/2026. Each half hour takes the status of the last reading made before it starts,
@@ -22,6 +23,7 @@ CSV_NOW = os.path.join(DATA, "playtomic-occupancy.csv")
 CSV_LEAD = os.path.join(DATA, "playtomic-lead.csv")
 CSV_SUMMARY = os.path.join(DATA, "playtomic-summary.csv")
 CSV_HEALTH = os.path.join(DATA, "playtomic-health.csv")
+CSV_MONTHLY = os.path.join(DATA, "playtomic-monthly.csv")
 # Clubs around Mogliano Veneto that publish availability online, checked on 17/09/2026
 # (Padel Circus left out: it does not publish slots)
 SLUGS = ["sporting-club-mestre", "padel-by-fitup-di-zero-branco", "aquafit-padel", "sph-venezia",
@@ -262,6 +264,36 @@ def summary_csv():
             w.writerow([stamp, *k, len(days[k]), n, booked, round(booked / n, 3)])
 
 
+def monthly_csv():
+    """Writes data/playtomic-monthly.csv: the same shares, one row per month as well.
+
+    This is the seasonality series: a month here is only as good as the days actually sampled,
+    so days_observed says how much of the month stands behind each share. Months where sampling
+    covered a few days are not comparable with full months, and the column is there to say so.
+    """
+    agg = collections.defaultdict(lambda: [0, 0])
+    days = collections.defaultdict(set)
+    courts = collections.defaultdict(set)
+    for r in latest_readings():
+        k = (r["date"][:7], r["club"], r["cover"], r["day_type"], r["time_band"])
+        agg[k][0] += 1
+        agg[k][1] += r["status"] == "booked"
+        days[k].add(r["date"])
+        courts[k].add(r["court"])
+    with open(CSV_MONTHLY, "w", newline="", encoding="utf8") as f:
+        w = csv.writer(f)
+        w.writerow(["updated_at", "month", "club", "cover", "day_type", "time_band", "days_observed",
+                    "courts", "half_hours_observed", "half_hours_booked", "booked_share",
+                    "booked_hours_per_court_per_day"])
+        stamp = dt.datetime.now().strftime("%Y-%m-%d %H:%M")
+        for k in sorted(agg):
+            n, booked = agg[k]
+            per_court_day = booked / 2 / max(1, len(courts[k]) * len(days[k]))
+            w.writerow([stamp, *k, len(days[k]), len(courts[k]), n, booked,
+                        round(booked / n, 3), round(per_court_day, 2)])
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "read"
-    {"read": read, "lead": lead, "summary": summary, "summary_csv": summary_csv}[cmd]()
+    {"read": read, "lead": lead, "summary": summary, "summary_csv": summary_csv,
+     "monthly_csv": monthly_csv}[cmd]()
