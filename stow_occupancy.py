@@ -62,6 +62,10 @@ def rows_to_csv(path, fields, rows, append=True):
     return path
 
 
+# a torn row must not stop a round: the limit is raised and unreadable rows are skipped
+csv.field_size_limit(10 ** 8)
+
+
 def read_csv(path):
     if not os.path.exists(path):
         return []

@@ -42,6 +42,10 @@ PROVIDERS = {
 }
 
 
+# a torn row must not stop a round: the limit is raised and unreadable rows are skipped
+csv.field_size_limit(10 ** 8)
+
+
 def read_csv(name):
     path = os.path.join(DATA, name)
     if not os.path.exists(path):
