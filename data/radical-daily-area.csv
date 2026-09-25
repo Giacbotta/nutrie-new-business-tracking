@@ -912,7 +912,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-09-25,catanzaro,fortuna,1,10,0,0.0,0,0,0.0
 2026-09-25,chieti,chieti-train-station,1,20,0,0.0,0,0,0.0
 2026-09-25,como,city-center,6,200,31,15.5,13,18,15.5
-2026-09-25,como,como-lago-train-station,1,30,2,6.7,2,0,1.0
+2026-09-25,como,como-lago-train-station,1,30,2,6.7,2,1,1.5
 2026-09-25,cosenza,casa-di-galeazzo-di-tarsia,1,40,0,0.0,0,0,0.0
 2026-09-25,cosenza,city-centre,2,100,0,0.0,0,0,0.0
 2026-09-25,cosenza,roges,1,10,0,0.0,0,0,0.0
@@ -1005,7 +1005,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-09-25,milan,lanza,1,45,0,0.0,0,0,0.0
 2026-09-25,milan,loreto,6,160,0,0.0,0,0,0.0
 2026-09-25,milan,malpensa-airport,1,100,0,0.0,0,0,0.0
-2026-09-25,milan,milan-centrale-railway-station,28,1660,234,14.1,158,80,119.0
+2026-09-25,milan,milan-centrale-railway-station,28,1660,234,14.1,158,88,123.0
 2026-09-25,milan,milano-certosa,1,25,0,0.0,0,0,0.0
 2026-09-25,milan,milano-repubblica-station,2,120,2,1.7,0,2,1.0
 2026-09-25,milan,missori,7,195,22,11.3,19,3,11.0
@@ -1157,7 +1157,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-09-25,rome,ostia-1,1,40,0,0.0,0,0,0.0
 2026-09-25,rome,ostiense,6,470,5,1.1,0,5,2.5
 2026-09-25,rome,ottaviano,5,130,0,0.0,0,0,0.0
-2026-09-25,rome,pantheon,18,1352,24,1.8,23,9,16.0
+2026-09-25,rome,pantheon,18,1352,25,1.8,23,10,16.5
 2026-09-25,rome,parco-regionale-appia-antica,1,15,0,0.0,0,0,0.0
 2026-09-25,rome,parioli,2,65,0,0.0,0,0,0.0
 2026-09-25,rome,piazza-campo-de-fiori,4,205,0,0.0,0,0,0.0
@@ -1184,7 +1184,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-09-25,rome,santa-maria-maggiore,2,200,0,0.0,0,0,0.0
 2026-09-25,rome,spanish-steps,2,95,4,4.2,2,2,2.0
 2026-09-25,rome,st-peter-basilica,1,35,0,0.0,0,0,0.0
-2026-09-25,rome,termini,34,3118,211,6.8,133,85,109.0
+2026-09-25,rome,termini,34,3118,211,6.8,133,89,111.0
 2026-09-25,rome,tiburtina,6,220,65,29.5,54,12,33.0
 2026-09-25,rome,torre-maura,1,100,0,0.0,0,0,0.0
 2026-09-25,rome,trastevere,15,760,30,3.9,17,13,15.0

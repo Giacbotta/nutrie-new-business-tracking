@@ -612,7 +612,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-09-25,weekday,como,city-center,7964,Luggage Storage near Como Borghi Railway Station,40,5,0,0.0,0,0,0.0
 2026-09-23,weekday,como,como-lago-train-station,6459994,Luggage Storage Como Lago Train Station,30,2,0,0.0,0,0,0.0
 2026-09-24,weekday,como,como-lago-train-station,6459994,Luggage Storage Como Lago Train Station,30,2,0,0.0,0,0,0.0
-2026-09-25,weekday,como,como-lago-train-station,6459994,Luggage Storage Como Lago Train Station,30,5,2,6.7,2,0,1.0
+2026-09-25,weekday,como,como-lago-train-station,6459994,Luggage Storage Como Lago Train Station,30,5,2,6.7,2,1,1.5
 2026-09-23,weekday,cosenza,casa-di-galeazzo-di-tarsia,6794,Luggage Storage National Gallery Of Cosenza,40,1,0,0.0,0,0,0.0
 2026-09-24,weekday,cosenza,casa-di-galeazzo-di-tarsia,6794,Luggage Storage National Gallery Of Cosenza,40,3,0,0.0,0,0,0.0
 2026-09-25,weekday,cosenza,casa-di-galeazzo-di-tarsia,6794,Luggage Storage National Gallery Of Cosenza,40,6,0,0.0,0,0,0.0
@@ -1280,7 +1280,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-09-25,weekday,milan,milan-centrale-railway-station,5777,Luggage Storage Milano Centrale,90,5,17,18.9,13,4,8.5
 2026-09-23,weekday,milan,milan-centrale-railway-station,5778,Luggage Storage Vtrans Milano,30,1,9,30.0,9,0,4.5
 2026-09-24,weekday,milan,milan-centrale-railway-station,5778,Luggage Storage Vtrans Milano,30,2,9,30.0,9,0,4.5
-2026-09-25,weekday,milan,milan-centrale-railway-station,5778,Luggage Storage Vtrans Milano,30,5,10,33.3,10,0,5.0
+2026-09-25,weekday,milan,milan-centrale-railway-station,5778,Luggage Storage Vtrans Milano,30,5,10,33.3,10,8,9.0
 2026-09-23,weekday,milan,milan-centrale-railway-station,5782,Luggage Storage Centrale FS,100,1,10,10.0,10,0,5.0
 2026-09-24,weekday,milan,milan-centrale-railway-station,5782,Luggage Storage Centrale FS,100,2,35,35.0,24,11,17.5
 2026-09-25,weekday,milan,milan-centrale-railway-station,5782,Luggage Storage Centrale FS,100,5,31,31.0,31,0,15.5
@@ -2629,7 +2629,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-09-25,weekday,rome,pantheon,6472396,Luggage Storage near Pantheon,35,5,0,0.0,0,0,0.0
 2026-09-23,weekday,rome,pantheon,6473158,Luggage Storage Pantheon,12,1,6,50.0,6,0,3.0
 2026-09-24,weekday,rome,pantheon,6473158,Luggage Storage Pantheon,12,2,10,83.3,9,1,5.0
-2026-09-25,weekday,rome,pantheon,6473158,Luggage Storage Pantheon,12,5,8,66.7,8,8,8.0
+2026-09-25,weekday,rome,pantheon,6473158,Luggage Storage Pantheon,12,5,9,75.0,8,9,8.5
 2026-09-24,weekday,rome,parco-regionale-appia-antica,3587,Luggage Storage Appia Antica,15,2,0,0.0,0,0,0.0
 2026-09-25,weekday,rome,parco-regionale-appia-antica,3587,Luggage Storage Appia Antica,15,3,0,0.0,0,0,0.0
 2026-09-23,weekday,rome,parioli,6452625,Luggage Storage near Foro Italico,45,2,0,0.0,0,0,0.0
@@ -2899,7 +2899,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-09-25,weekday,rome,termini,6472955,Luggage Storage Milazzo / Termini Station,100,8,2,2.0,0,2,1.0
 2026-09-23,weekday,rome,termini,6472962,Luggage Storage Termini / Amendola,18,2,9,50.0,0,9,4.5
 2026-09-24,weekday,rome,termini,6472962,Luggage Storage Termini / Amendola,18,2,17,94.4,12,5,8.5
-2026-09-25,weekday,rome,termini,6472962,Luggage Storage Termini / Amendola,18,5,18,100.0,18,5,11.5
+2026-09-25,weekday,rome,termini,6472962,Luggage Storage Termini / Amendola,18,5,18,100.0,18,9,13.5
 2026-09-23,weekday,rome,termini,6473095,Luggage Storage Viminale Bus Stop,40,2,0,0.0,0,0,0.0
 2026-09-24,weekday,rome,termini,6473095,Luggage Storage Viminale Bus Stop,40,3,0,0.0,0,0,0.0
 2026-09-25,weekday,rome,termini,6473095,Luggage Storage Viminale Bus Stop,40,5,0,0.0,0,0,0.0
