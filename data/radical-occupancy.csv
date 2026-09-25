@@ -13687,3 +13687,724 @@ read_at,city,area,storage_id,name,day,hour,weekday,capacity,booked,free,status
 2026-09-25 17:44,rovigo,rovigo-train-station,6457110,Luggage Storage Rovigo Train Station,2026-09-25,18,weekday,20,0,20,read
 2026-09-25 17:44,trani,trani-transit-station,6936,Luggage Storage Trani Port,2026-09-25,18,weekday,50,0,50,read
 2026-09-25 17:44,vercelli,city-center,6461999,Luggage Storage Corso Prestinari,2026-09-25,18,weekday,20,0,20,read
+2026-09-25 18:06,rome,termini,1109,Luggage Storage Termini,2026-09-25,19,weekday,300,38,262,read
+2026-09-25 18:06,rome,termini,6453333,Luggage Storage Termini / Piazza Dei Cinquecento,2026-09-25,19,weekday,100,9,91,read
+2026-09-25 18:06,rome,termini,739,Luggage Storage Marsala - Termini,2026-09-25,19,weekday,200,1,199,read
+2026-09-25 18:06,rome,roma-vatican-museums,6459809,Luggage Storage near Vatican Museums,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rome,tiburtina,4599,Luggage Storage Tiburtina Train Station,2026-09-25,19,weekday,80,19,61,read
+2026-09-25 18:06,rome,navona,21,Luggage Storage Navona,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,rome,termini,1352,Luggage Storage Termini Station,2026-09-25,19,weekday,60,0,60,read
+2026-09-25 18:06,rome,vatican,4869,Luggage Storage Vatican City,2026-09-25,19,weekday,45,0,45,read
+2026-09-25 18:06,rome,pantheon,57,Luggage Storage Pantheon - Rome Center,2026-09-25,19,weekday,300,0,300,read
+2026-09-25 18:06,rome,san-giovanni,19,Luggage Storage S. Giovanni In Laterano,2026-09-25,19,weekday,300,0,300,read
+2026-09-25 18:06,rome,trevi,6450924,Luggage Storage Piazza Barberini,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,rome,trastevere,5598,Luggage Storage Trastevere San Cosimato,2026-09-25,19,weekday,50,2,48,read
+2026-09-25 18:06,rome,termini,5684,Luggage Storage Termini Rome,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rome,pantheon,4900,Luggage Storage Teatro Argentina,2026-09-25,19,weekday,200,0,200,read
+2026-09-25 18:06,rome,termini,4695,Luggage Storage Giolitti / Termini Station,2026-09-25,19,weekday,250,2,248,read
+2026-09-25 18:06,rome,pantheon,5067,Luggage Storage Campo De Fiori,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,rome,s-pietro,4867,Luggage Storage Roma S.pietro Station,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,rome,navona,849,Luggage Storage Umberto I Bridge,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,rome,ostiense,1828,Luggage Storage Eataly,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,rome,san-giovanni,15,Luggage Storage S.giovanni,2026-09-25,19,weekday,300,0,300,read
+2026-09-25 18:06,rome,piazza-del-popolo,9875,Luggage Storage Flaminio Train Station,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,rome,parioli,8885,Luggage Storage Mancini Bus Terminal,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,rome,termini,7703,Luggage Storage Termini Railway Station,2026-09-25,19,weekday,100,7,93,read
+2026-09-25 18:06,rome,esquilino,6984,Luggage Storage Manzoni Metro Station,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rome,ottaviano,6474434,Luggage Storage Via Germanico / Vatican,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,rome,san-giovanni,6473098,Luggage Storage Viale Carlo Felice,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,rome,termini,6473095,Luggage Storage Viminale Bus Stop,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,rome,navona,6473024,Luggage Storage Via della Pace,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rome,navona,6473023,Luggage Storage Fontana dei Quattro Fiumi,2026-09-25,19,weekday,60,0,60,read
+2026-09-25 18:06,rome,navona,6473022,Luggage Storage Navona / Neptune Fountain,2026-09-25,19,weekday,60,0,60,read
+2026-09-25 18:06,rome,colosseum,6473021,Luggage Storage Cavour / Ricci,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,rome,termini,6472962,Luggage Storage Termini / Amendola,2026-09-25,19,weekday,18,17,1,read
+2026-09-25 18:06,rome,termini,6472955,Luggage Storage Milazzo / Termini Station,2026-09-25,19,weekday,100,2,98,read
+2026-09-25 18:06,rome,termini,6472954,Luggage Storage Marsala / Milazzo,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,rome,termini,6472953,Luggage Storage Milazzo / Magenta,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,rome,pantheon,6472396,Luggage Storage near Pantheon,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,rome,flaminio,6472354,Luggage Storage near Piazza del Popolo,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rome,termini,6471173,Luggage Storage Termini (Ma-Mb-Fs),2026-09-25,19,weekday,100,6,94,read
+2026-09-25 18:06,rome,termini,6471145,Luggage Storage Via Marsala,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,rome,pigneto,6470573,Luggage Storage Piazzale Prenestino,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rome,ostiense,6470456,Luggage Storage Ostiense/Matteucci,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rome,ostiense,6470455,Luggage Storage near Ostiense,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,rome,ostiense,6470454,Luggage Storage Basilica S. Paolo,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rome,termini,6470329,Luggage Storage Manin / Termini,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,rome,Municipio-Roma-X,6470296,Luggage Storage Casal Palocco,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,rome,termini,6469828,Luggage Storage Piazza dell'Esquilino,2026-09-25,19,weekday,300,0,300,read
+2026-09-25 18:06,rome,repubblica,6469637,Luggage Storage Via Quattro Fontane,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rome,ostia-1,6468366,Luggage Storage Corso Duca di Genova,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,rome,prati,6468191,Luggage Storage Via degli Scipioni,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,rome,pantheon,6468018,Luggage Storage near Piazza del Gesù,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rome,esquilino,6463301,Luggage Storage Vittorio Emanuele Metro Station,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,rome,esquilino,6463300,Luggage Storage Porta Maggiore,2026-09-25,19,weekday,30,1,29,read
+2026-09-25 18:06,rome,s-pietro,6463140,Luggage Storage near Paul VI Hall,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,rome,pantheon,6462317,Luggage Storage near Galleria Doria Pamphilj,2026-09-25,19,weekday,20,1,19,read
+2026-09-25 18:06,rome,lepanto,6462316,Luggage Storage Roma Ottaviano,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,rome,repubblica,6462240,Luggage Storage Tritone/ Barberini,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,rome,manzoni,6462223,Luggage Storage Via Emanuele Filiberto,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,rome,trastevere,6461932,Luggage Storage near Piazza Trilussa,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,rome,ostiense,6461925,Luggage Storage Ostiense Railway Station,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,rome,portuense,6461877,Luggage Storage Trastevere Train Station,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,rome,s-pietro,6461618,Luggage Storage near St. Angelo Bridge,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rome,piazza-di-san-pietro-in-vincoli,6461425,Luggage Storage Cipro/Bragadin,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,rome,san-lorenzo,6460798,Luggage Storage Roma San Lorenzo,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,rome,termini,6460703,Luggage Storage Via Carlo Cattaneo,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,rome,primavalle,6460001,Luggage Storage Circonvallazione Cornelia,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rome,termini,6459912,Luggage Storage Amendola / Termini Station,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,rome,santa-maria-maggiore,6459910,Luggage Storage Gioberti / Santa Maria Maggiore,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,rome,pantheon,6459743,Luggage Storage Basilica Sant'Andrea Della Valle,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,rome,repubblica,6459675,Luggage Storage Piazza Del Viminale,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,rome,pantheon,6458442,Luggage Storage Vittorio Emanuele / Argentina,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,rome,primavalle,6458086,Luggage Storage Cannuta / Battistini,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,rome,repubblica,6457946,Luggage Storage near Church of Santa Maria della Vittoria,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,rome,castel-sant-angelo,6457822,Luggage Storage near Sant'Angelo Castle,2026-09-25,19,weekday,60,4,56,read
+2026-09-25 18:06,rome,termini,6457601,Luggage Storage Amedeo / Termini,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,rome,esquilino,6457599,Luggage Storage Nuovo Mercato Esquilino,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,rome,vatican,6457407,Luggage Storage Ottaviano Metro Station,2026-09-25,19,weekday,15,3,12,read
+2026-09-25 18:06,rome,termini,6457349,Luggage Storage Termini Metro Station,2026-09-25,19,weekday,45,0,45,read
+2026-09-25 18:06,rome,esquilino,6457222,Luggage Storage Roma Porta Maggiore,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,rome,esquilino,6457185,Luggage Storage Basilica of San Giovanni in Laterano,2026-09-25,19,weekday,35,4,31,read
+2026-09-25 18:06,rome,monti,6457113,Luggage Storage Urbana / Panisperna,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,rome,monti,6457108,Luggage Storage Roma Monti,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,rome,termini,6457058,Luggage Storage Basilica of Saint Pudentiana,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,rome,piazza-campo-de-fiori,6456889,Luggage Storage Via Dei Giubbonari,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,rome,piazza-campo-de-fiori,6456888,Luggage Storage near Campo De' Fiori,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rome,piazza-campo-de-fiori,6456886,Luggage Storage Theatre Of Pompey,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,rome,trastevere,6456815,Luggage Storage Testaccio,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,rome,flaminio,6456650,Luggage Storage Mancini Bus Station,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,rome,piazza-di-san-pietro-in-vincoli,6456615,Luggage Storage Basilica Of San Pietro In Vincoli,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rome,garbatella,6456416,Luggage Storage Roma Ostiense,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rome,furio-camillo,6456362,Luggage Storage Appio Latino / Satrico,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,rome,pantheon,6455957,Luggage Storage Spagna Metro Station,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,rome,trastevere,6455283,Luggage Storage near Trastevere Station,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,rome,fiera-di-roma,6455074,Luggage Storage near Viale Dei Colli Portuensi,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,rome,lepanto,6454985,Luggage Storage Roma Flaminio,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,rome,portuense,6454526,Luggage Storage Circonvallazione Gianicolense,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,rome,prati,6454471,Luggage Storage Viale Giulio Cesare,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,rome,trastevere,6454401,Luggage Storage Roma Trastevere Railway Station,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,rome,vatican,6454230,Luggage Storage near Vatican City,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,rome,baldo-degli-ubaldi-station,6454059,Luggage Storage Cornelia Metro Station,2026-09-25,19,weekday,15,0,15,read
+2026-09-25 18:06,rome,repubblica,6454032,Luggage Storage near Palazzo Delle Esposizioni,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rome,largo-di-torre-argentina,6453995,Luggage Storage Roma Torre Argentina,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,rome,quartiere-xii-gianicolense,6453701,Luggage Storage Gianicolense/Ponte Bianco,2026-09-25,19,weekday,45,0,45,read
+2026-09-25 18:06,rome,navona,6453616,Luggage Storage Piazza Navona,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,rome,termini,6453452,Luggage Storage Acquario Romano,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,rome,termini,6452726,Luggage Storage Gioberti Roma Termini,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,rome,esquilino,6452653,Luggage Storage Basilica Santa Maria Maggiore,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,rome,parioli,6452625,Luggage Storage near Foro Italico,2026-09-25,19,weekday,45,0,45,read
+2026-09-25 18:06,rome,vatican,6452534,Luggage Storage Aurelia / Cavalleggeri,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,rome,vatican,6452533,Luggage Storage Passeggiata Del Gelsomino,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,rome,st-peter-basilica,6452532,Luggage Storage Porta Cavalleggeri,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,rome,cavour,6452487,Luggage Storage Roma Via Cavour,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rome,termini,6452486,Luggage Storage near Museo Delle Illusioni,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,rome,prati,6452320,Luggage Storage Flaminio Metro Station,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rome,bocca-della-verita,6452303,Luggage Storage Piazza Belli,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,rome,piazza-del-popolo,6452246,Luggage Storage near Roma Piazza Del Popolo,2026-09-25,19,weekday,55,3,52,read
+2026-09-25 18:06,rome,termini,6452106,Luggage Storage Volturno/Cernaia,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,rome,brancaccio,6452072,Luggage Storage Largo Brancaccio,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,rome,pantheon,6451949,Luggage Storage Jewish Ghetto,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rome,monti,6451743,Luggage Storage Via Filippo Turati / Termini,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,rome,nomentana,6451721,Luggage Storage Prati Fiscali,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rome,vatican,6451676,Luggage Storage near Teatro Ghione,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,rome,monti,6451669,Luggage Storage near Via Cavour,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,rome,vatican,6451625,Luggage Storage Borgo Pio,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,rome,vatican,6451598,Luggage Storage Via Aurelia,2026-09-25,19,weekday,70,0,70,read
+2026-09-25 18:06,rome,piazza-campo-de-fiori,6451596,Luggage Storage Roma Campo De' Fiori,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,rome,tiburtina,6451593,Luggage Storage Via Lorenzo Il Magnifico,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,rome,torre-maura,6451521,Luggage Storage Viale Antonio Ciamarra,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,rome,roman-forum,6451503,Luggage Storage Basilica Papale Di Santa Maria Maggiore,2026-09-25,19,weekday,80,0,80,read
+2026-09-25 18:06,rome,vittorio-emanuele,6451424,Luggage Storage Roma Santa Maria Maggiore,2026-09-25,19,weekday,50,1,49,read
+2026-09-25 18:06,rome,portuense,6450996,Luggage Storage Piazza Enrico Fermi,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,rome,termini,5475,Luggage Storage National Museum Of Rome,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,rome,trastevere,5086,Luggage Storage Piazza Scotti,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rome,roma-stadio-olimpico,4875,Luggage Storage Maxxi Museum,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,rome,termini,4762,Luggage Storage Termini Metro Station,2026-09-25,19,weekday,300,0,300,read
+2026-09-25 18:06,rome,trastevere,4643,Luggage Storage Via Angelo Tittoni,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,rome,trastevere,4606,Luggage Storage Piazza San Cosimato,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,rome,termini,4299,Luggage Storage Piazza Dei Cinquecento,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rome,piazza-del-popolo,4253,Luggage Storage Flaminio,2026-09-25,19,weekday,60,0,60,read
+2026-09-25 18:06,rome,colosseum,4124,Luggage Storage Colosseum,2026-09-25,19,weekday,50,2,48,read
+2026-09-25 18:06,rome,repubblica,4060,Luggage Storage Repubblica Metro Station,2026-09-25,19,weekday,60,0,60,read
+2026-09-25 18:06,rome,aventino,3992,Luggage Storage Aventino,2026-09-25,19,weekday,100,3,97,read
+2026-09-25 18:06,rome,vatican,3850,Luggage Storage Vatican,2026-09-25,19,weekday,45,0,45,read
+2026-09-25 18:06,rome,castel-sant-angelo,3174,Luggage Storage Castel Sant'angelo,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rome,ottaviano,1111,Luggage Storage Ottaviano,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,milan,milan-centrale-railway-station,3521,Luggage Storage Milan Centrale Train Station,2026-09-25,19,weekday,300,4,296,read
+2026-09-25 18:06,milan,duomo,6452080,Luggage Storage Duomo Milano Metro Station,2026-09-25,19,weekday,75,1,74,read
+2026-09-25 18:06,milan,palazzo-di-giustizia,6550,Luggage Storage Viale Regina Margherita,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,milan,porta-genova,9028,Luggage Storage Milano Porta Genova Railway Station,2026-09-25,19,weekday,65,0,65,read
+2026-09-25 18:06,milan,san-siro-stadium,9464,Luggage Storage San Siro Stadium,2026-09-25,19,weekday,300,0,300,read
+2026-09-25 18:06,milan,san-babila,2709,Luggage Storage San Babila,2026-09-25,19,weekday,50,5,45,read
+2026-09-25 18:06,milan,milan-centrale-railway-station,5777,Luggage Storage Milano Centrale,2026-09-25,19,weekday,90,11,79,read
+2026-09-25 18:06,milan,milan-centrale-railway-station,6451052,Luggage Storage Malpensa Shuttle / Milano Centrale,2026-09-25,19,weekday,50,4,46,read
+2026-09-25 18:06,milan,porta-romana,9192,Luggage Storage Milano Porta Romana,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,milan,porta-romana,9099,Luggage Storage Crocetta Metro Station,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,milan,porta-genova,9049,Luggage Storage Navigli Darsena,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,milan,corso-buenos-aires,9020,Luggage Storage near Corso Buenos Aires,2026-09-25,19,weekday,20,2,18,read
+2026-09-25 18:06,milan,milan-centrale-railway-station,8338,Luggage Storage Milan Train Station,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,milan,milan-centrale-railway-station,6991,Luggage Storage Milano Porta Venezia,2026-09-25,19,weekday,45,0,45,read
+2026-09-25 18:06,milan,missori,6473109,Luggage Storage Colonne / Vetra,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,milan,san-babila,6471138,Luggage Storage Via Visconti Di Modrone,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,milan,milan-centrale-railway-station,6471137,Luggage Storage Centrale / Filzi,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,milan,politecnico-di-milano-campus-bovisa-la-masa,6470851,Luggage Storage Milano Bovisa,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,santa-giulia,6470604,Luggage Storage Santa Giulia,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,milan,missori,6470560,Luggage Storage near Duomo Square,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,milan,conchetta,6470318,Luggage Storage Via Conca del Naviglio,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,milan,missori,6470159,Luggage Storage Santa Sofia,2026-09-25,19,weekday,25,4,21,read
+2026-09-25 18:06,milan,missori,6470158,Luggage Storage Missori / Corso Italia,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,porta-ticinese,6469992,Luggage Storage near Bocconi University,2026-09-25,19,weekday,50,1,49,read
+2026-09-25 18:06,milan,milan-centrale-railway-station,6469903,Luggage Storage Vitruvio / Centrale,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,milan,santa-maria-delle-grazie,6469852,Luggage Storage Cadorna Metro Station,2026-09-25,19,weekday,45,2,43,read
+2026-09-25 18:06,milan,milan-centrale-railway-station,6469840,Luggage Storage Viale Andrea Doria,2026-09-25,19,weekday,40,1,39,read
+2026-09-25 18:06,milan,porta-genova,6469638,Luggage Storage Navigli / Villoresi,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,milan,porta-venezia,6469498,Luggage Storage Piazza Otto Novembre,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,milan,porta-vittoria,6469435,Luggage Storage Milano Dateo,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,via-torino-via-palla,6469337,Luggage Storage Via Varesina,2026-09-25,19,weekday,26,0,26,read
+2026-09-25 18:06,milan,crescenzago,6469266,Luggage Storage Rovereto / Viale Monza,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,porta-romana,6469207,Luggage Storage Piazzale Libia,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,porta-venezia,6468851,Luggage Storage Susa Metro Station,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,china-town-milan,6463324,Luggage Storage Arco della Pace,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,milan,navigli,6463299,Luggage Storage Corso S. Gottardo,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,forlanini,6463280,Luggage Storage near Viale Corsica,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,loreto,6463275,Luggage Storage Via Padova / Crescenzago,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,missori,6463226,Luggage Storage Duomo M1 M3,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,milan-centrale-railway-station,6462294,Luggage Storage Vitruvio / Centrale,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,milano-repubblica-station,6462258,Luggage Storage near Milano Repubblica,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,milan-centrale-railway-station,6461511,Luggage Storage Ponte Seveso / Centrale,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,cerchiate,6460933,Luggage Storage Pero Cerchiate,2026-09-25,19,weekday,20,2,18,read
+2026-09-25 18:06,milan,bullona,6460853,Luggage Storage Sonnino / Varesina,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,bullona,6460766,Luggage Storage Viale Certosa,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,milan,porta-vittoria,6460436,Luggage Storage Porta Vittoria Railway Station,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,assago,6460127,Luggage Storage Assago,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,porta-venezia,6460099,Luggage Storage Porta Venezia Railway Station,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,milan,loreto,6459927,Luggage Storage near Viale Monza,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,milan-centrale-railway-station,6459808,Luggage Storage Via Tonale / Centrale,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,milan,navigli,6459502,Luggage Storage Ripa Di Porta Ticinese,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,milan,bicocca,6459489,Luggage Storage Ponale,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,zone-7-of-milan,6459488,Luggage Storage Via Rembrandt,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,lambrate,6459487,Luggage Storage Via Porpora,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,zone-7-of-milan,6459485,Luggage Storage Piazzale Brescia,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,conchetta,6459434,Luggage Storage Arco Di Porta Ticinese,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,rho,6459417,Luggage Storage Pero,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,porta-ticinese,6459398,Luggage Storage Porta Ticinese,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,lambrate,6459387,Luggage Storage Rubattino,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,porta-ticinese,6459373,Luggage Storage Colonne Di S.Lorenzo,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,milan,santa-maria-delle-grazie,6458625,Luggage Storage Bolivar Metro Station,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,santa-maria-delle-grazie,6458624,Luggage Storage Via Solari,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,porta-genova,6458616,Luggage Storage Conca Del Naviglio,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,milan,washington,6458560,Luggage Storage Wagner,2026-09-25,19,weekday,35,1,34,read
+2026-09-25 18:06,milan,porta-garibaldi-train-station,6458366,Luggage Storage Porta Romana Railway Station,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,milano-repubblica-station,6458359,Luggage Storage Milano Repubblica Train Station,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,milan,duomo,6458248,Luggage Storage near Duomo,2026-09-25,19,weekday,300,0,300,read
+2026-09-25 18:06,milan,milan-centrale-railway-station,6458107,Luggage Storage Scarlatti / Centrale,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,crescenzago,6457848,Luggage Storage Via Padova,2026-09-25,19,weekday,10,1,9,read
+2026-09-25 18:06,milan,niguarda,6457565,Luggage Storage Milan Segnano,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,porta-romana,6457366,Luggage Storage near Vittorio Formentano Park,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,crescenzago,6457308,Luggage Storage Via Padova,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,milan,san-siro-stadium,6457232,Luggage Storage San Siro Stadium Metro Station,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,milan,milan-centrale-railway-station,6456714,Luggage Storage near Mercato Centrale Milano,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,milan,malpensa-airport,6454307,Luggage Storage Corso Magenta,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,milan,milan-centrale-railway-station,6452789,Luggage Storage Settembrini / Caiazzo,2026-09-25,19,weekday,50,2,48,read
+2026-09-25 18:06,milan,milan-centrale-railway-station,6452762,Luggage Storage Milano Centrale / Via Ponte Seveso,2026-09-25,19,weekday,55,0,55,read
+2026-09-25 18:06,milan,porta-venezia,6452268,Luggage Storage Milano Risorgimento,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,milan,villapizzone-railway-station,6451947,Luggage Storage Piazza Schiavone / Bovisa,2026-09-25,19,weekday,25,2,23,read
+2026-09-25 18:06,milan,piazza-gae-aulenti,6451041,Luggage Storage Milano Centrale / Via Tonale,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,milan,cologno-monzese,6262,Luggage Storage Cologno Sud,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,milan,lambrate,6255,Luggage Storage Lambrate Metro Station,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,milan,rogoredo-train-station,6212,Luggage Storage Milan Rogoredo,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,milan,milan-centrale-railway-station,5505,Luggage Storage near Milan Centrale Station,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,milan,porta-romana,10022,Luggage Storage Brenta,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,naples,naples-centrale-train-station,188,Luggage Storage Naples Centrale,2026-09-25,19,weekday,300,0,300,read
+2026-09-25 18:06,naples,naples-city-center,4186,Luggage Storage Naples Toledo Metro Station,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,naples,naples-centrale-train-station,1835,Luggage Storage Naples Train Station,2026-09-25,19,weekday,45,0,45,read
+2026-09-25 18:06,naples,napoli-port,5226,Luggage Storage Castel Nuovo,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,naples,naples-centrale-train-station,5009,Luggage Storage Napoli P. Garibaldi Station,2026-09-25,19,weekday,45,2,43,read
+2026-09-25 18:06,naples,monument-of-giuseppe-garibaldi,2697,Luggage Storage Corso Umberto I,2026-09-25,19,weekday,30,1,29,read
+2026-09-25 18:06,naples,naples-city-center,5681,Luggage Storage near Sansevero Chapel,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,naples,quartieri-spagnoli,6739,Luggage Storage near Galleria Umberto I,2026-09-25,19,weekday,45,0,45,read
+2026-09-25 18:06,naples,naples-centrale-train-station,6458539,Luggage Storage Napoli Centrale,2026-09-25,19,weekday,70,3,67,read
+2026-09-25 18:06,naples,porta-capuana,899,Luggage Storage Porta Capuana,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,naples,dante,6470046,Luggage Storage near Dante Metro Station,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,naples,centro-storico,9563,Luggage Storage Piazza Cavour Metro Station,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,naples,dante,9271,Luggage Storage Dante Metro Station,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,naples,napoli-porta-nolana,9071,Luggage Storage Duomo / Corso Umberto I,2026-09-25,19,weekday,60,3,57,read
+2026-09-25 18:06,naples,quartieri-spagnoli,8912,Luggage Storage Toledo / Quartieri Spagnoli,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,naples,napoli-porta-nolana,8419,Luggage Storage Duomo Metro Station,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,naples,naples-centrale-train-station,7899,Luggage Storage Via Palermo,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,naples,vomero,7875,Luggage Storage Stadio Collana,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,naples,mergellina-port,6717,Luggage Storage Via Piedigrotta,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,naples,dante,6474128,Luggage Storage near Via Toledo,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,naples,vomero,6473629,Luggage Storage Arenella,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,naples,municipio,6473514,Luggage Storage near Naples Underground,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,naples,municipio,6473501,Luggage Storage near Acerra Station,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,naples,vomero,6473440,Luggage Storage Piazza Degli Artisti,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,naples,municipio,6473140,Luggage Storage De Cesare / Naples Underground,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,naples,napoli-porta-nolana,6473026,Luggage Storage Ranieri / Garibaldi,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,naples,municipio,6471162,Luggage Storage Port of Naples,2026-09-25,19,weekday,100,2,98,read
+2026-09-25 18:06,naples,naples-centrale-train-station,6470853,Luggage Storage Corso Umberto / Porta Nolana,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,naples,municipio,6470807,Luggage Storage Piazza Plebiscito,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,naples,napoli-porta-nolana,6470755,Luggage Storage Piazzetta Forcella,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,naples,vomero,6470744,Luggage Storage Viale Michelangelo,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,naples,via-chiaia,6470110,Luggage Storage Chiaia,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,naples,via-chiaia,6470080,Luggage Storage Napoli Sotterranea,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,naples,via-toledo,6470059,Luggage Storage Toledo Metro Station,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,naples,dante,6470045,Luggage Storage Montesanto,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,naples,naples-centrale-train-station,6467993,Luggage Storage Naples Centrale / Via Firenze,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,naples,via-toledo,6462124,Luggage Storage Via Toledo,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,naples,universita,6461871,Luggage Storage Molo Immacolatella Vecchia,2026-09-25,19,weekday,30,1,29,read
+2026-09-25 18:06,naples,napoli-porta-nolana,6461598,Luggage Storage Napoli Centrale / Poerio,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,naples,vicaria,6460924,Luggage Storage Arenaccia / Poderico,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,naples,naples-centrale-train-station,6460818,Luggage Storage Napoli Centrale / Via Bologna,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,naples,universita,6460709,Luggage Storage near University Federico II,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,naples,naples-centrale-train-station,6460339,Luggage Storage Napoli Centrale / Corso Meridionale,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,naples,napoli-porta-nolana,6458722,Luggage Storage near Garibaldi,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,naples,naples-centrale-train-station,6458088,Luggage Storage Napoli Centrale Train Station,2026-09-25,19,weekday,40,4,36,read
+2026-09-25 18:06,naples,porta-capuana,6457911,Luggage Storage Porta Capuana,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,naples,centro-storico,6456326,Luggage Storage near Sansevero Chapel Museum,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,naples,pomigliano-darco,6456322,Luggage Storage Pomigliano Public Park,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,naples,centro-storico,6456095,Luggage Storage Garibaldi / Porta Nolana,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,naples,naples-centrale-train-station,6454591,Luggage Storage Metropark Terminal Bus Station,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,naples,naples-city-center,6454538,Luggage Storage Montesanto Train Station,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,naples,napoli-porta-nolana,6454355,Luggage Storage Napoli Porta Nolana,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,naples,miano,6452747,Luggage Storage Miano,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,naples,rione-sanita,6452507,Luggage Storage Via Arenaccia,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,naples,centro-storico,6451783,Luggage Storage near Naples Archaeological Museum,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,naples,via-toledo,6451707,Luggage Storage Naples Ferry Terminal,2026-09-25,19,weekday,55,5,50,read
+2026-09-25 18:06,naples,napoli-porta-nolana,6451372,Luggage Storage Piazza Principe Umberto,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,naples,dante,6451213,Luggage Storage Napoli Piazza Dante,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,naples,napoli-porta-nolana,6451082,Luggage Storage Università Metro Station,2026-09-25,19,weekday,23,0,23,read
+2026-09-25 18:06,naples,porta-capuana,6451076,Luggage Storage Metropark Napoli Centrale,2026-09-25,19,weekday,90,0,90,read
+2026-09-25 18:06,naples,naples-city-center,5972,Luggage Storage Diana Theatre,2026-09-25,19,weekday,15,0,15,read
+2026-09-25 18:06,naples,santa-lucia,5763,Luggage Storage Santa Lucia,2026-09-25,19,weekday,100,3,97,read
+2026-09-25 18:06,naples,naples-cathedral,5702,Luggage Storage Napoli Piazza Cavour Transit Station,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,naples,naples-city-center,5468,Luggage Storage near Chiostro Di Santa Chiara,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,naples,universita,5195,Luggage Storage near Duomo Metro Station,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,naples,naples-airport,5163,Luggage Storage Naples Airport,2026-09-25,19,weekday,200,7,193,read
+2026-09-25 18:06,naples,naples-centrale-train-station,5046,Luggage Storage Napoli Piazza Garibaldi,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,naples,naples-centrale-train-station,4278,Luggage Storage Naples Piazza Garibaldi,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,florence,santa-maria-novella,884,Luggage Storage Santa Maria Novella,2026-09-25,19,weekday,140,27,113,read
+2026-09-25 18:06,florence,santa-maria-novella,2262,Luggage Storage Florence Train Station,2026-09-25,19,weekday,100,2,98,read
+2026-09-25 18:06,florence,duomo,5001,Luggage Storage Florence Cathedral,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,florence,battistero-di-san-giovanni,6662,Luggage Storage Riccardi Medici Palace,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,florence,via-dell-albero,6453618,Luggage Storage Firenze Basilica Santa Maria Novella,2026-09-25,19,weekday,70,2,68,read
+2026-09-25 18:06,florence,campo-di-marte,6458764,Luggage Storage Artemio Franchi Stadium,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,florence,basilica-of-santa-maria-novella,6459632,Luggage Storage Duomo of Florence,2026-09-25,19,weekday,10,2,8,read
+2026-09-25 18:06,florence,santa-croce,6459634,Luggage Storage near Piazza della Signoria,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,florence,campo-di-marte,6461693,Luggage Storage Campo Marte Station,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,florence,porta-al-prato,9343,Luggage Storage Piazzale Montelungo,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,florence,san-lorenzo,9317,Luggage Storage Via Guelfa / Mercato Centrale,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,florence,via-de-boni,8054,Luggage Storage Basilica Di San Lorenzo,2026-09-25,19,weekday,30,2,28,read
+2026-09-25 18:06,florence,basilica-of-santa-maria-novella,6708,Luggage Storage Piazza Della Indipendenza,2026-09-25,19,weekday,15,0,15,read
+2026-09-25 18:06,florence,basilica-di-santo-spirito,6693,Luggage Storage near Museo Novecento,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,florence,santa-croce,6473579,Luggage Storage near Uffizi Galleries,2026-09-25,19,weekday,10,3,7,read
+2026-09-25 18:06,florence,santa-maria-novella,6471146,Luggage Storage Via Faenza / SMN,2026-09-25,19,weekday,30,1,29,read
+2026-09-25 18:06,florence,santa-maria-novella,6471100,Luggage Storage Via Sant'Antonino,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,florence,santo-spirito,6471019,Luggage Storage Palazzo Pitti,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,florence,san-lorenzo,6470899,Luggage Storage Mercato Centrale Firenze,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,florence,porta-al-prato,6470874,Luggage Storage Porta al Prato,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,florence,santa-croce,6470821,Luggage Storage Santa Croce Church,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,florence,san-lorenzo,6470655,Luggage Storage San Lorenzo,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,florence,santa-maria-novella,6469294,Luggage Storage San Frediano,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,florence,santa-croce,6467881,Luggage Storage near Sant'Ambrogio,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,florence,basilica-of-santa-maria-novella,6461934,Luggage Storage Via Ghibellina,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,florence,san-marco-florence,6461687,Luggage Storage Via Nazionale,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,florence,santa-maria-novella,6460996,Luggage Storage Smn Station / Largo Alinari,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,florence,santa-croce,6460461,Luggage Storage near Museum Of Illusions Florence,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,florence,santa-croce,6460434,Luggage Storage near Verdi Theatre,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,florence,santa-croce,6459592,Luggage Storage Via Degli Alfani,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,florence,santo-spirito,6458479,Luggage Storage Ponte Vecchio,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,florence,san-marco-florence,6458364,Luggage Storage Firenze San Marco,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,florence,santa-maria-novella,6458362,Luggage Storage near Florence Train Station,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,florence,santa-maria-novella,6458274,Luggage Storage Via Guelfa,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,florence,santa-maria-novella,6458270,Luggage Storage Santa Maria Novella Square,2026-09-25,19,weekday,10,2,8,read
+2026-09-25 18:06,florence,district-1,6458204,Luggage Storage San Jacopino,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,florence,porta-al-prato,6458173,Luggage Storage Porta Al Prato Railway Station,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,florence,stazione-via-panzani,6457073,Luggage Storage Medici Chapel,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,florence,basilica-of-santa-maria-novella,6457002,Luggage Storage Rosselli / Florence SMN,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,florence,santa-maria-novella,6454001,Luggage Storage near Piazza Indipendenza,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,florence,santa-maria-novella,5223,Luggage Storage Basilica Of Santa Maria Novella,2026-09-25,19,weekday,75,0,75,read
+2026-09-25 18:06,florence,santa-maria-novella,3216,Luggage Storage San Marco Square,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,florence,scandicci,100,Luggage Storage Scandicci,2026-09-25,19,weekday,300,0,300,read
+2026-09-25 18:06,turin,museo-pietro-micca,7213,Luggage Storage Porta Susa Railway Station,2026-09-25,19,weekday,95,5,90,read
+2026-09-25 18:06,turin,egyptian-museum,3013,Luggage Storage Egyptian Museum,2026-09-25,19,weekday,75,0,75,read
+2026-09-25 18:06,turin,stazione-porta-nuova,8889,Luggage Storage Porta Nuova Railway Station,2026-09-25,19,weekday,110,2,108,read
+2026-09-25 18:06,turin,allianz-stadium,2987,Luggage Storage Juventus Stadium,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,turin,quadrilatero-romano,7178,Luggage Storage Porta Susa Train Station,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,turin,stazione-porta-nuova,6459711,Luggage Storage Porta Nuova / Marconi,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,turin,palazzo-reale,8898,Luggage Storage Chapel Of The Merchants,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,turin,aurora,8891,Luggage Storage Corso Giulio Cesare / Ponte Mosca,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,turin,city-center,8867,Luggage Storage Via Nizza,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,turin,torino-porta-susa,8858,Luggage Storage Corso Palermo,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,turin,stazione-porta-nuova,7760,Luggage Storage Castello Del Valentino,2026-09-25,19,weekday,30,4,26,read
+2026-09-25 18:06,turin,stazione-porta-nuova,6473141,Luggage Storage Madama Cristina Bus Stop,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,turin,city-center,6472386,Luggage Storage Rossini Tram Stop,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,turin,stazione-porta-nuova,6470841,Luggage Storage Piazza Madama Cristina,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,turin,stazione-porta-nuova,6469731,Luggage Storage Porta Nuova / Saluzzo,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,turin,torino-via-roma,6469332,Luggage Storage Bertola,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,turin,santa-rita,6467968,Luggage Storage near Inalpi Arena,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,turin,lingotto,6467954,Luggage Storage Unione Sovietica / Buenos Aires,2026-09-25,19,weekday,15,0,15,read
+2026-09-25 18:06,turin,lingotto,6460332,Luggage Storage near Torino Lingotto Railway Station,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,turin,torino-dora,3383,Luggage Storage Torino Dora,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,catania,catania-centrale,6560,Luggage Storage Catania Bus Station,2026-09-25,19,weekday,100,2,98,read
+2026-09-25 18:06,catania,city-center,7081,Luggage Storage Fountain Of The Elephant,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,catania,city-center,4344,Luggage Storage Piazza Stesicoro,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,catania,catania-centrale,6452503,Luggage Storage Catania Centrale Train Station,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,catania,city-center,6797,Luggage Storage Stesicoro Metro Station,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,catania,catania-centrale,7066,Luggage Storage Catania Railway Station,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,catania,city-center,7058,Luggage Storage Monastery Of San Nicolò L'arena,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,catania,catania-centrale,6577,Luggage Storage Via Archimede,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,catania,city-center,6473509,Luggage Storage Via Lago di Nicito,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,catania,catania-airport,6471153,Luggage Storage Catania Airport Area,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,catania,porta-garibaldi,6470901,Luggage Storage near Castello Ursino,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,catania,city-center,6470896,Luggage Storage Greek - Roman Theatre,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,catania,borgo-sanzio,6460804,Luggage Storage near Villa Bellini,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,catania,piazza-stesicoro,6459466,Luggage Storage Via Umberto I,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,catania,piazza-stesicoro,6459415,Luggage Storage Etnea Sangiuliano,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,catania,city-center,6459389,Luggage Storage Vittorio Emanuele Ii / Plebiscito,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,catania,city-center,6459381,Luggage Storage near San Cristoforo,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,catania,city-center,6459362,Luggage Storage Catania Stadium,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,catania,borgo-sanzio,6458945,Luggage Storage Orto Botanico di Catania,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,catania,catania-centrale,6458943,Luggage Storage near Via Cardinale Dusmet,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,catania,catania-centrale,6458942,Luggage Storage Via Vittorio Emanuele II,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,catania,catania-centrale,6456695,Luggage Storage Catania Bus Terminal,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,catania,university-of-catania,6456575,Luggage Storage near Teatro Massimo Bellini,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,catania,city-center,6456574,Luggage Storage Via Garibaldi,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,catania,catania-airport,6454786,Luggage Storage near Catania Airport,2026-09-25,19,weekday,50,5,45,read
+2026-09-25 18:06,catania,city-center,6453899,Luggage Storage Catania Centrale,2026-09-25,19,weekday,35,2,33,read
+2026-09-25 18:06,catania,catania-centrale,6452780,Luggage Storage Giovanni Xxiii Metro Station,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,catania,city-center,6452283,Luggage Storage near Angelo Massimino Stadium,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,catania,borgo-sanzio,4210,Luggage Storage Borgo-sanzio,2026-09-25,19,weekday,150,0,150,read
+2026-09-25 18:06,venice,santa-lucia-station,4896,Luggage Storage Venezia Santa Lucia Station,2026-09-25,19,weekday,140,17,123,read
+2026-09-25 18:06,venice,rialto,149,Luggage Storage Rialto Bridge,2026-09-25,19,weekday,300,0,300,read
+2026-09-25 18:06,venice,peggy-guggenheim-collection,4912,Luggage Storage S. Maria Del Giglio,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,venice,piazzale-roma,5722,Luggage Storage Piazzale Roma,2026-09-25,19,weekday,100,7,93,read
+2026-09-25 18:06,venice,cannaregio,6292,Luggage Storage Ghetto Ebraico,2026-09-25,19,weekday,35,1,34,read
+2026-09-25 18:06,venice,dorsoduro,4932,Luggage Storage near Ponte Degli Scalzi,2026-09-25,19,weekday,60,0,60,read
+2026-09-25 18:06,venice,piazzale-roma,9579,Luggage Storage Piazzale Roma Terminal Bus,2026-09-25,19,weekday,55,5,50,read
+2026-09-25 18:06,venice,san-polo,6473647,Luggage Storage near Venice San Polo,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,venice,cannaregio,6472946,Luggage Storage San Geremia,2026-09-25,19,weekday,15,5,10,read
+2026-09-25 18:06,venice,cannaregio,6469821,Luggage Storage near Oratory of Crociferi,2026-09-25,19,weekday,100,2,98,read
+2026-09-25 18:06,venice,venice-castello,6469788,Luggage Storage Church of Miracoli,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,venice,accademia-gallery,6452230,Luggage Storage Zattere Ferry Terminal,2026-09-25,19,weekday,65,0,65,read
+2026-09-25 18:06,venice,venice-marco-polo-airport,6452148,Luggage Storage near Venice Marco Polo Area,2026-09-25,19,weekday,45,3,42,read
+2026-09-25 18:06,venice,santa-lucia-train-station,2852,Luggage Storage near Venice Bus Station,2026-09-25,19,weekday,15,0,15,read
+2026-09-25 18:06,bari,bari-centrale-train-station,233,Luggage Storage Bari Centrale Train Station,2026-09-25,19,weekday,300,0,300,read
+2026-09-25 18:06,bari,bari-centrale-train-station,6452171,Luggage Storage Bari Centrale Station,2026-09-25,19,weekday,100,7,93,read
+2026-09-25 18:06,bari,bari-vecchia,6461890,Luggage Storage Basilica San Nicola,2026-09-25,19,weekday,100,5,95,read
+2026-09-25 18:06,bari,bari-centrale-train-station,6455967,Luggage Storage near Castello Svevo Di Bari,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,bari,palazzo-fizzarotti,6459578,Luggage Storage near Palazzo Fizzarotti,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,bari,bari-centrale-train-station,7326,Luggage Storage Bari Centrale Stazione Fs,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,bari,city-center,9646,Luggage Storage near Palazzo Mincuzzi,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,bari,old-town,8639,Luggage Storage Fortino Di Sant'Antonio,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,bari,bari-centrale-train-station,6800,Luggage Storage Bari Train Station,2026-09-25,19,weekday,60,0,60,read
+2026-09-25 18:06,bari,bari-centrale-train-station,6470157,Luggage Storage Cavour - Petroni,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,bari,bari-vecchia,6463189,Luggage Storage Crispi-Trevisani,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,bari,bari-centrale-train-station,6462370,Luggage Storage Corso Cavour / Centrale,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,bari,bari-centrale-train-station,6461837,Luggage Storage Piazza Garibaldi,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,bari,bari-centrale-train-station,6461821,Luggage Storage Sella-Crisanzio,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,bari,bari-centrale-train-station,6460739,Luggage Storage Bari Bus Station,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,bari,bari-centrale-train-station,6460337,Luggage Storage Piazza Umberto I / Station,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,bari,bari-centrale-train-station,6459572,Luggage Storage Via Quintino Sella,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,bari,bari-centrale-train-station,6459558,Luggage Storage near Pinacoteca Metropolitana,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,bari,bari-centrale-train-station,6459542,Luggage Storage Bari Central Railway Station,2026-09-25,19,weekday,20,2,18,read
+2026-09-25 18:06,bari,marconi,6457603,Luggage Storage Corso Sidney Sonnino,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,bari,bari-centrale-train-station,6455905,Luggage Storage near Giardini Piazza Umberto I,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,bari,bari-centrale-train-station,6455904,Luggage Storage near Bari Central Railway Station,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,bari,bari-centrale-train-station,6455593,Luggage Storage Piccinni-Cavour,2026-09-25,19,weekday,15,0,15,read
+2026-09-25 18:06,bari,madonnella,6455296,Luggage Storage near Corso Sydney Sonnino,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,bari,madonnella,6455103,Luggage Storage near Bari Marconi Station,2026-09-25,19,weekday,55,0,55,read
+2026-09-25 18:06,bari,altamura,6455039,Luggage Storage Altamura St Mary'S Cathedral,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,bari,marconi,6454617,Luggage Storage near Via Napoli,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,bari,city-center,5825,Luggage Storage Petruzzelli Opera House,2026-09-25,19,weekday,300,0,300,read
+2026-09-25 18:06,bari,city-center,5657,Luggage Storage Bari City Center,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,bari,teatro-petruzzelli,5234,Luggage Storage near Teatro Petruzzelli,2026-09-25,19,weekday,60,0,60,read
+2026-09-25 18:06,bari,bari-centrale-train-station,3515,Luggage Storage Piazza Umberto I,2026-09-25,19,weekday,15,0,15,read
+2026-09-25 18:06,bari,fiera-del-levante,1377,Luggage Storage Via Napoli,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,palermo,palazzo-comitini,7142,Luggage Storage Church Of San Cataldo,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,palermo,palermo-city-center,7123,Luggage Storage Monte Di Pietà,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,palermo,palermo-city-center,7040,Luggage Storage Chiesa Del Gesù Di Casa Professa,2026-09-25,19,weekday,45,0,45,read
+2026-09-25 18:06,palermo,port-palermo,6742,Luggage Storage Palermo Port,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,palermo,palermo-centrale,6474457,Luggage Storage near Palermo Station,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,palermo,settecannoli,6472361,Luggage Storage Settecannoli / Romagnolo,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,palermo,historical-centre-of-palermo,6461679,Luggage Storage Palermo Old Town,2026-09-25,19,weekday,35,2,33,read
+2026-09-25 18:06,palermo,mondello,6460855,Luggage Storage Mondello Port,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,palermo,piazza-verdi,6460692,Luggage Storage near Piazza Verdi,2026-09-25,19,weekday,40,1,39,read
+2026-09-25 18:06,palermo,palermo-centrale,6458911,Luggage Storage near Piazza Giulio Cesare,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,palermo,palermo-centrale,6458874,Luggage Storage Palermo Centrale Train Station,2026-09-25,19,weekday,35,3,32,read
+2026-09-25 18:06,palermo,historical-centre-of-palermo,6456367,Luggage Storage near Catacombe Porta D'Ossuna,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,palermo,palermo-city-center,6005,Luggage Storage Massimo Theater,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,palermo,palermo-city-center,5039,Luggage Storage City Center Palermo,2026-09-25,19,weekday,150,0,150,read
+2026-09-25 18:06,palermo,albergheria,10054,Luggage Storage Church Of Saint Domenico,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,bologna,bologna-centrale-railway-station,5280,Luggage Storage Bologna Centrale Station,2026-09-25,19,weekday,65,3,62,read
+2026-09-25 18:06,bologna,bologna-centrale-railway-station,6452157,Luggage Storage Bologna Centrale Train Station,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,bologna,bologna-city-center,9222,Luggage Storage Parco 11 Settembre,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,bologna,bologna-centrale-railway-station,6460518,Luggage Storage near Bologna Station,2026-09-25,19,weekday,55,0,55,read
+2026-09-25 18:06,bologna,bologna-centrale-railway-station,6463282,Luggage Storage Via Amendola / Centrale,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,bologna,bologna-centrale-railway-station,6463294,Luggage Storage Via San Felice,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,bologna,bologna-centrale-railway-station,9233,Luggage Storage Porta Sant'isaia,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,bologna,bologna-centrale-railway-station,9155,Luggage Storage Bologna Railway Station,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,bologna,two-towers,7170,Luggage Storage near Teatro Duse,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,bologna,porta-castiglione,7053,Luggage Storage Porta Castiglione,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,bologna,piazza-maggiore,6473472,Luggage Storage Via Ugo Bassi,2026-09-25,19,weekday,300,0,300,read
+2026-09-25 18:06,bologna,costa-saragozza,6463312,Luggage Storage Porta Saragozza,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,bologna,bologna-centrale-railway-station,6463307,Luggage Storage near Palazzo Pallavicini,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,bologna,bologna-centrale-railway-station,6463302,Luggage Storage Piazza Viii Agosto,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,bologna,bologna-university,6463291,Luggage Storage Strada Maggiore,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,bologna,bologna-university,6463290,Luggage Storage Mercato delle Erbe,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,bologna,bologna-centrale-railway-station,6463289,Luggage Storage Via San Vitale,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,bologna,stadio-senato-dall-aria,6460789,Luggage Storage Bologna Stadium,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,bologna,bologna-centrale-railway-station,6459421,Luggage Storage Matteotti / Bologna Centrale,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,bologna,san-donato,6458423,Luggage Storage near Bologna Fiere,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,bologna,rimesse,4677,Luggage Storage Porta San Vitale,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,pisa,pisa-centrale-train-station,151,Luggage Storage Pisa Centrale Station,2026-09-25,19,weekday,70,0,70,read
+2026-09-25 18:06,pisa,pisa-piazza-del-duomo,7168,Luggage Storage Pisa San Rossore,2026-09-25,19,weekday,25,1,24,read
+2026-09-25 18:06,pisa,pisa-centrale-train-station,3855,Luggage Storage Pisa Centrale,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,pisa,pisa-centrale-train-station,7633,Luggage Storage Pisa Train Station,2026-09-25,19,weekday,65,3,62,read
+2026-09-25 18:06,pisa,pisa-centrale-train-station,6456937,Luggage Storage Pisa Centrale Train Station,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,pisa,santa-maria,6460935,Luggage Storage Lungarni Di Pisa,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,pisa,pisa-centrale-train-station,6459669,Luggage Storage Pisa Centrale Train Station,2026-09-25,19,weekday,45,2,43,read
+2026-09-25 18:06,pisa,pisa-centrale-train-station,6456903,Luggage Storage Pisa Railway Station,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,pisa,pisa-piazza-del-duomo,6652,Luggage Storage Piazza Dante,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,pisa,tower-of-pisa,6623,Luggage Storage Baths Of Nero,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,pisa,tower-of-pisa,6474456,Luggage Storage Via S. Iacopo / Pisa S. Rossore,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,pisa,pisa-centrale-train-station,6471012,Luggage Storage Tower of Pisa,2026-09-25,19,weekday,200,0,200,read
+2026-09-25 18:06,pisa,piazza-dei-cavalieri,6470657,Luggage Storage Piazza dei Cavalieri,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,pisa,pisa-centrale-train-station,6470612,Luggage Storage near Pisa Centrale,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,pisa,santa-maria,6469497,Luggage Storage S. Maria della Spina Church,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,pisa,pisa-centrale-train-station,6467880,Luggage Storage Pisa Centrale,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,pisa,pisa-centrale-train-station,6463207,Luggage Storage Gramsci / Centrale,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,pisa,pisa-centrale-train-station,6463206,Luggage Storage Pisa Station,2026-09-25,19,weekday,60,6,54,read
+2026-09-25 18:06,pisa,santa-maria,6460737,Luggage Storage Piazza Dante Alighieri,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,pisa,piazza-dei-cavalieri,6456928,Luggage Storage near Piazza dei Cavalieri,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,pisa,pisa-centrale-train-station,6456828,Luggage Storage Pisa Airport,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,cagliari,marina,974,Luggage Storage Cagliari Train Station,2026-09-25,19,weekday,45,2,43,read
+2026-09-25 18:06,cagliari,marina,6459534,Luggage Storage Cagliari Marina,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,cagliari,marina,6459450,Luggage Storage Cagliari Port,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,cagliari,bonaria,6486,Luggage Storage Stadio Amsicora,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,cagliari,stazione,6473152,Luggage Storage Cagliari Station 7/7,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,cagliari,marina,6473090,Luggage Storage Cagliari Ferry Terminal,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,cagliari,stazione,6473089,Luggage Storage Cagliari Railway Station,2026-09-25,19,weekday,20,1,19,read
+2026-09-25 18:06,cagliari,marina,6472944,Luggage Storage Via Manno,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,cagliari,villanova,6459751,Luggage Storage Bastione / Sulis,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,cagliari,city-center,6459536,Luggage Storage Piazza S. Benedetto,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,cagliari,marina,6459518,Luggage Storage near Cagliari Port,2026-09-25,19,weekday,20,1,19,read
+2026-09-25 18:06,cagliari,city-center,6459512,Luggage Storage San Benedetto Market,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,cagliari,marina,6459469,Luggage Storage Via dei Mille,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,cagliari,stazione,6458723,Luggage Storage Via Roma,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,cagliari,selargius,6457080,Luggage Storage Selargius,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,genoa,piazza-principe,147,Luggage Storage Genoa Principe Station,2026-09-25,19,weekday,300,0,300,read
+2026-09-25 18:06,genoa,maddalena,6455518,Luggage Storage Genoa Porto Antico,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,genoa,genoa-port,6451159,Luggage Storage Genoa Port,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,genoa,genoa-port,6451167,Luggage Storage Genoa Ferry Terminal,2026-09-25,19,weekday,30,1,29,read
+2026-09-25 18:06,genoa,brignole,6469428,Luggage Storage Genova Brignole,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,genoa,brignole,6459832,Luggage Storage near Marconi / Fiera,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,genoa,maddalena,6451178,Luggage Storage near Via Garibaldi,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,lucca,city-center,6455648,Luggage Storage Chiesa Di San Michele In Foro,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,lucca,lucca-train-station,3346,Luggage Storage Lucca Railway Station,2026-09-25,19,weekday,150,0,150,read
+2026-09-25 18:06,lucca,city-center,3343,Luggage Storage Lucca City Center,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,lucca,city-center,3692,Luggage Storage Lucca Old Town,2026-09-25,19,weekday,120,0,120,read
+2026-09-25 18:06,lucca,lucca-train-station,6457066,Luggage Storage near Lucca Railway Station,2026-09-25,19,weekday,150,0,150,read
+2026-09-25 18:06,lucca,city-center,3687,Luggage Storage Piazza Napoleone,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,verona,citta-antica,6457605,Luggage Storage Juliet's Balcony,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,verona,porta-nuova,6473038,Luggage Storage Porta Nuova Railway Station,2026-09-25,19,weekday,45,2,43,read
+2026-09-25 18:06,verona,avesa,6457679,Luggage Storage Piazza Avesa,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,lecce,railway-station,6408,Luggage Storage Lecce Train Station,2026-09-25,19,weekday,70,2,68,read
+2026-09-25 18:06,lecce,lecce-city-center,875,Luggage Storage Lecce City Center,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,lecce,lecce-city-center,3826,Luggage Storage Lecce Old Town,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,lecce,railway-station,6459626,Luggage Storage near Lecce Railway Station,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,lecce,lecce-city-center,6459606,Luggage Storage near San Matteo Church,2026-09-25,19,weekday,20,1,19,read
+2026-09-25 18:06,lecce,railway-station,6546,Luggage Storage Via Duca Degli Abruzzi,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,lecce,lecce-city-center,6474400,Luggage Storage near Lecce Cathedral,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,lecce,railway-station,6473516,Luggage Storage Lecce Old Town,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,lecce,lecce-city-center,6473480,Luggage Storage Via G.Argento,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,lecce,railway-station,6459622,Luggage Storage Viale Oronzo Quarta,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,lecce,railway-station,6459618,Luggage Storage Lecce Railway Station,2026-09-25,19,weekday,30,1,29,read
+2026-09-25 18:06,lecce,lecce-city-center,3955,Luggage Storage Lecce Castle,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,siena,istrice,6455701,Luggage Storage Piazza Del Sale,2026-09-25,19,weekday,50,2,48,read
+2026-09-25 18:06,siena,city-center,6455693,Luggage Storage Siena Old Town,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,siena,lupa,6470608,Luggage Storage near Siena Stadium,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,siena,istrice,6461975,Luggage Storage Via Camollia,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,siena,city-center,6455697,Luggage Storage near Piazza Del Campo,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,syracuse,station,6453001,Luggage Storage Siracusa Station,2026-09-25,19,weekday,40,1,39,read
+2026-09-25 18:06,syracuse,station,6539,Luggage Storage Syracuse Railway Station,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,syracuse,yacht-lub-lakkios-marina-porto-piccolo-ortigia,6453048,Luggage Storage Via Cairoli,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,syracuse,station,6471913,Luggage Storage Corso Umberto I,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,syracuse,apollo-temple,6471008,Luggage Storage Syracuse Cathedral,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,rimini,rimini-train-station,226,Luggage Storage Rimini Train Station,2026-09-25,19,weekday,300,0,300,read
+2026-09-25 18:06,rimini,lungomare-augusto-murri,3797,Luggage Storage Rimini Beach,2026-09-25,19,weekday,15,0,15,read
+2026-09-25 18:06,rimini,lungomare-augusto-murri,6713,Luggage Storage Piazza Kennedy,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,rimini,city-center,6472266,Luggage Storage near Fellini Museum,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,rimini,federico-fellini-international-airport,6460885,Luggage Storage Rimini Miramare,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,rimini,city-center,6453599,Luggage Storage Castel Sismondo,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,rimini,federico-fellini-park,6453325,Luggage Storage Parco Fellini,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,rimini,city-center,6453323,Luggage Storage Aleardi,2026-09-25,19,weekday,12,0,12,read
+2026-09-25 18:06,rimini,bellariva,6453303,Luggage Storage Viale Regina Elena,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rimini,city-center,6453301,Luggage Storage Malatestiano Temple,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,rimini,rimini-train-station,6452529,Luggage Storage Corso Giovanni XXIII,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,salerno,salerno-train-station,640,Luggage Storage Salerno Train Station,2026-09-25,19,weekday,100,13,87,read
+2026-09-25 18:06,salerno,city-centre,9130,Luggage Storage Duomo Di Salerno,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,salerno,rione-porto,6458038,Luggage Storage near Salerno Villa Comunale,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,salerno,salerno-train-station,6453379,Luggage Storage Medieval Aqueduct,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,salerno,city-centre,9129,Luggage Storage Salerno Villa Comunale,2026-09-25,19,weekday,20,1,19,read
+2026-09-25 18:06,salerno,city-centre,6462046,Luggage Storage Salerno City Center,2026-09-25,19,weekday,20,2,18,read
+2026-09-25 18:06,salerno,city-centre,6457737,Luggage Storage near Vernieri,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,la-spezia,la-spezia-centrale,1138,Luggage Storage La Spezia Centrale,2026-09-25,19,weekday,45,0,45,read
+2026-09-25 18:06,la-spezia,la-spezia-centrale,6816,Luggage Storage Via Del Prione,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,la-spezia,la-spezia-centrale,6459753,Luggage Storage La Spezia Centrale FS,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,la-spezia,la-spezia-centrale,6459699,Luggage Storage La Spezia Station,2026-09-25,19,weekday,60,0,60,read
+2026-09-25 18:06,la-spezia,la-spezia-centrale,6473536,Luggage Storage La Spezia Central Station,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,la-spezia,la-spezia-centrale,6461904,Luggage Storage La Spezia Old Town,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,la-spezia,la-spezia-centrale,6459737,Luggage Storage La Spezia Giardini Pubblici,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,perugia,central-station,6460204,Luggage Storage Perugia Station 24H,2026-09-25,19,weekday,20,2,18,read
+2026-09-25 18:06,perugia,central-station,1819,Luggage Storage Perugia Railway Station,2026-09-25,19,weekday,30,2,28,read
+2026-09-25 18:06,perugia,bus-station,7238,Luggage Storage Perugia Bus Station,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,perugia,piazza-iv-novembre,6466297,Luggage Storage near University For Foreigners,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,perugia,elce,5980,Luggage Storage Via D'andreotto,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,pescara,pescara-centrale-train-station,6461104,Luggage Storage Pescara Train Station,2026-09-25,19,weekday,35,2,33,read
+2026-09-25 18:06,pescara,pescara-centrale-train-station,5992,Luggage Storage Clap Museum,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,pescara,pescara-centrale-train-station,6455983,Luggage Storage near Pescara Centrale,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,pescara,pescara-centrale-train-station,6470765,Luggage Storage near Museo Ittico,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,pescara,pescara-centrale-train-station,6461064,Luggage Storage Pescara Terminal Bus,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,pescara,pescara-centrale-train-station,6461062,Luggage Storage near Pescara Centrale,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,pescara,pescara-centrale-train-station,6461061,Luggage Storage Piazza Santa Caterina Da Siena,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,trapani,trapani-port,3363,Luggage Storage Trapani Ferry Terminal,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,trapani,trapani-port,4557,Luggage Storage Corso Italia,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,trapani,train-station,6526,Luggage Storage Museum Of Illusions,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,trapani,city-center,6522,Luggage Storage Via Marconi,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,trapani,trapani-port,6469960,Luggage Storage near Trapani Ferry Service,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,trapani,train-station,6458886,Luggage Storage Via Fardella,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,trapani,city-center,6310,Luggage Storage Funivia Erice,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,bergamo,bergamo-train-station,6000,Luggage Storage Bergamo Train Station,2026-09-25,19,weekday,45,0,45,read
+2026-09-25 18:06,bergamo,bergamo-train-station,557,Luggage Storage Bergamo Gewiss Stadium,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,bergamo,bergamo-train-station,6460154,Luggage Storage Paglia / Bergamo Station,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,reggio-calabria,villa-san-giovanni,5948,Luggage Storage Villa San Giovanni Station,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,bolzano,bolzano-train-station,8088,Luggage Storage Bolzano Train Station,2026-09-25,19,weekday,60,9,51,read
+2026-09-25 18:06,bolzano,waltherplatz,8090,Luggage Storage Bolzano Cathedral,2026-09-25,19,weekday,30,2,28,read
+2026-09-25 18:06,bolzano,bolzano-train-station,6458005,Luggage Storage near South Tyrol Museum of Archaeology,2026-09-25,19,weekday,20,1,19,read
+2026-09-25 18:06,bolzano,bolzano-train-station,6457943,Luggage Storage near Waltherplatz,2026-09-25,19,weekday,20,3,17,read
+2026-09-25 18:06,bolzano,bolzano-train-station,6463173,Luggage Storage Bolzano Piazza Duomo,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,bolzano,palazzo-mercantile,8134,Luggage Storage Druso Stadium,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,bolzano,city-center,8125,Luggage Storage Corso Italia,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,bolzano,bolzano-train-station,6457950,Luggage Storage near University Of Bolzano,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,brindisi,corso-garibaldi,877,Luggage Storage Corso Garibaldi,2026-09-25,19,weekday,45,0,45,read
+2026-09-25 18:06,brindisi,city-centre,6458028,Luggage Storage Brindisi City Center,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,brindisi,city-centre,6874,Luggage Storage Vittorio Emanuele Ii Park,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,brindisi,central-station,6473492,Luggage Storage Piazza Cairoli / Brindisi Station,2026-09-25,19,weekday,200,4,196,read
+2026-09-25 18:06,brindisi,central-station,6473179,Luggage Storage Brindisi Train Station,2026-09-25,19,weekday,70,7,63,read
+2026-09-25 18:06,brindisi,central-station,6471163,Luggage Storage near Brindisi Station,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,brindisi,central-station,6459667,Luggage Storage Brindisi Railway Station,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,ferrara,city-center,873,Luggage Storage Ferrara City Center,2026-09-25,19,weekday,15,0,15,read
+2026-09-25 18:06,ferrara,railway-station,7252,Luggage Storage Ferrara Railway Station,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,ferrara,city-center,6451982,Luggage Storage Viale Cavour / Ferrara Castle,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,ferrara,railway-station,6469743,Luggage Storage Ferrara Station,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,ferrara,railway-station,6469734,Luggage Storage near Ferrara Station,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,matera,city-center,6455071,Luggage Storage near Matera Centrale,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,matera,city-center,6451089,Luggage Storage Palombaro Lungo / XX Settembre,2026-09-25,19,weekday,15,0,15,read
+2026-09-25 18:06,matera,city-center,6451092,Luggage Storage Piazzetta Pascoli,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,matera,via-dei-messapi,6814,Luggage Storage Via Dei Messapi,2026-09-25,19,weekday,60,0,60,read
+2026-09-25 18:06,matera,city-center,6453158,Luggage Storage near Stadio XXI Settembre,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,matera,city-center,6451075,Luggage Storage Via Annunziatella,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,trento,main-station,3884,Luggage Storage Trento Railway Station,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,trento,main-station,9976,Luggage Storage Torre Vanga,2026-09-25,19,weekday,35,0,35,read
+2026-09-25 18:06,trento,main-station,6461329,Luggage Storage Trento Train Station,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,trento,main-station,6456083,Luggage Storage Centa Brennero,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,trento,main-station,10017,Luggage Storage San Giuseppe Church,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,messina,messina-centrale,9018,Luggage Storage Messina Train Station,2026-09-25,19,weekday,30,1,29,read
+2026-09-25 18:06,messina,messina-centrale,6497,Luggage Storage Messina Centrale,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,messina,messina-centrale,6504,Luggage Storage Church Of Saint Mary Of The Carmel,2026-09-25,19,weekday,15,0,15,read
+2026-09-25 18:06,messina,messina-centrale,6471041,Luggage Storage Via Cannizzaro,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,messina,messina-centrale,6471038,Luggage Storage Messina Cathedral,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,messina,messina-centrale,6471037,Luggage Storage Villa Mazzini,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,messina,messina-centrale,6471036,Luggage Storage Muricello,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,modena,central-station,6400,Luggage Storage Modena Station,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,modena,central-station,6459423,Luggage Storage near Palazzina Dei Giardini,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,modena,central-station,6458403,Luggage Storage Modena Railway Station,2026-09-25,19,weekday,45,1,44,read
+2026-09-25 18:06,modena,city-centre,6379,Luggage Storage Galleria Estense,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,agrigento,agrigento-train-staion,783,Luggage Storage Agrigento Train Station,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,agrigento,city-center,7148,Luggage Storage Agrigento Old Town,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,agrigento,city-center,7126,Luggage Storage Agrigento Bus Station,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,agrigento,agrigento-train-staion,6472980,Luggage Storage Agrigento Station 24/7,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,agrigento,city-center,6452613,Luggage Storage Scalinata Degli Artisti,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,aosta,train-station,3864,Luggage Storage Aosta Train Station,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,aosta,city-center,6451191,Luggage Storage Aosta Railway Station,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,brescia,train-station,6469491,Luggage Storage Piazza della Vittoria,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,como,city-center,6459749,Luggage Storage Duomo Di Como,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,como,como-lago-train-station,6459994,Luggage Storage Como Lago Train Station,2026-09-25,19,weekday,30,1,29,read
+2026-09-25 18:06,como,city-center,7964,Luggage Storage near Como Borghi Railway Station,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,como,city-center,6473954,Luggage Storage near Como S. Giovanni Stn.,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,como,city-center,6473498,Luggage Storage Como S. Giovanni Station,2026-09-25,19,weekday,35,1,34,read
+2026-09-25 18:06,monza,downtown,6200,Luggage Storage Monza City Center,2026-09-25,19,weekday,230,1,229,read
+2026-09-25 18:06,monza,monza-train-station,6462144,Luggage Storage near Monza Station,2026-09-25,19,weekday,25,4,21,read
+2026-09-25 18:06,monza,monza-train-station,6462159,Luggage Storage Via Cavour,2026-09-25,19,weekday,120,0,120,read
+2026-09-25 18:06,monza,monza-train-station,6462143,Luggage Storage Monza Railway Station,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,parma,station,6460158,Luggage Storage Parma Railway Station,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,parma,city-center,6473550,Luggage Storage Arch of San Lazzaro,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,ravenna,main-station,6453551,Luggage Storage Ravenna Station,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,ravenna,main-station,6461479,Luggage Storage Ravenna Railway Station,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,ravenna,main-station,6453186,Luggage Storage Via Molinetto,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,savona,public-beach-lo-scaletto-dei-pescatori,6456768,Luggage Storage Lo Scaletto Dei Pescatori Beach,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,savona,savona-city-center,6461566,Luggage Storage Via XX Settembre,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,trieste,trieste-train-station,3904,Luggage Storage near Trieste Central Station,2026-09-25,19,weekday,45,0,45,read
+2026-09-25 18:06,trieste,trieste-train-station,6451346,Luggage Storage Trieste Centrale,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,trieste,trieste-train-station,6451611,Luggage Storage Arco Di Riccardo,2026-09-25,19,weekday,60,0,60,read
+2026-09-25 18:06,ancona,ancona-train-station,458,Luggage Storage Ancona Train Station,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,ancona,ancona-train-station,3893,Luggage Storage Ancona Railway Station,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,ancona,ancona-train-station,5993,Luggage Storage Ugo Bassi Square,2026-09-25,19,weekday,15,0,15,read
+2026-09-25 18:06,arezzo,city-center,9266,Luggage Storage Arezzo Railway Station,2026-09-25,19,weekday,50,1,49,read
+2026-09-25 18:06,arezzo,arezzo-train-station,6451175,Luggage Storage Campo Di Marte / Arezzo Station,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,caserta,royal-palace,2497,Luggage Storage Royal Palace,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,caserta,city-center,6470092,Luggage Storage Caserta Railway Station,2026-09-25,19,weekday,10,3,7,read
+2026-09-25 18:06,caserta,city-center,6470091,Luggage Storage Caserta Train Station,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,caserta,city-center,6470098,Luggage Storage near Caserta Bus Station,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,caserta,city-center,6470164,Luggage Storage Caserta Bus Station,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,livorno,livorno-train-station,9547,Luggage Storage Livorno Centrale,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,livorno,city-center,6451865,Luggage Storage Cisternone,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,livorno,livorno-train-station,6469841,Luggage Storage Livorno Cathedral,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,padua,main-station,7276,Luggage Storage Padua Train Station,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,padua,main-station,6467981,Luggage Storage Padova Railway Station,2026-09-25,19,weekday,50,2,48,read
+2026-09-25 18:06,padua,main-station,7281,Luggage Storage Via Sarpi,2026-09-25,19,weekday,60,0,60,read
+2026-09-25 18:06,padua,city-center,6467957,Luggage Storage near Prato Della Valle,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,ragusa,ragusa-train-station,6452897,Luggage Storage Ragusa Train Station,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,ragusa,city-center,6452985,Luggage Storage near Ragusa Bus Terminal,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,ragusa,duomo-di-san-giorgio,6470857,Luggage Storage Chiesa di San Giuseppe,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,ragusa,city-center,6452978,Luggage Storage near Ragusa Cathedral,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,ragusa,city-center,6452840,Luggage Storage Duomo Di Ragusa,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,sassari,city-center,7623,Luggage Storage Viale Dante,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,sassari,sassari-train-station,7526,Luggage Storage Viale Porto Torres,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,taranto,castello-aragonese,6852,Luggage Storage San Cataldo Cathedral,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,taranto,sacello-romano,6455906,Luggage Storage Via Principe Amedeo,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,taranto,sacello-romano,6856,Luggage Storage Via Nitti,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,taranto,castello-aragonese,6848,Luggage Storage Giardini Piazza Garibaldi,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,treviso,treviso-train-station,806,Luggage Storage Treviso Train Station,2026-09-25,19,weekday,75,0,75,read
+2026-09-25 18:06,treviso,city-center,6469787,Luggage Storage Piazza Giustiniani,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,caltanissetta,caltanissetta-centrale,7727,Luggage Storage Caltanissetta Train Station,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,caltanissetta,caltanissetta-old-town,7719,Luggage Storage Caltanissetta Old Town,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,caltanissetta,caltanissetta-centrale,7624,Luggage Storage Caltanissetta Centrale,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,cosenza,city-centre,6788,Luggage Storage Piazza Giacomo Mancini,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,cremona,cremona-train-station,6471042,Luggage Storage Cremona Bus Station,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,cremona,cremona-train-station,6471025,Luggage Storage Cremona Railway Station,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,lecco,train-station,7995,Luggage Storage Lecco Train Station,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,lecco,lecco-train-station,6470300,Luggage Storage near Lake Como Museum,2026-09-25,19,weekday,10,0,10,read
+2026-09-25 18:06,lecco,lecco-train-station,6470206,Luggage Storage Lecco Railway Station,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,olbia,train-station,7387,Luggage Storage Olbia Terranova Train Station,2026-09-25,19,weekday,100,12,88,read
+2026-09-25 18:06,olbia,train-station,7388,Luggage Storage Olbia Railway Station,2026-09-25,19,weekday,55,0,55,read
+2026-09-25 18:06,pavia,pavia-train-station,6460851,Luggage Storage Pavia Train Station,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,pesaro,city-center,6453381,Luggage Storage near Pesaro Station,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,pesaro,city-center,6453382,Luggage Storage Pesaro Old Town,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,prato,prato-centrale,4478,Luggage Storage Prato City Center,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,reggio-emilia,railway-station,7858,Luggage Storage Reggio Emilia Train Station,2026-09-25,19,weekday,65,0,65,read
+2026-09-25 18:06,vicenza,city-center,1530,Luggage Storage Piazza Castello,2026-09-25,19,weekday,40,0,40,read
+2026-09-25 18:06,vicenza,city-center,1526,Luggage Storage Vicenza City Center,2026-09-25,19,weekday,30,0,30,read
+2026-09-25 18:06,massa,city-center,6458344,Luggage Storage Massa Centro Railway Station,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,novara,novara-train-station,6462036,Luggage Storage Novara Train Station,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,potenza,city-center,6460018,Luggage Storage Potenza City Center,2026-09-25,19,weekday,100,0,100,read
+2026-09-25 18:06,potenza,potenza-city-center,6459940,Luggage Storage Potenza Santa Maria,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,udine,udine-train-station,6463100,Luggage Storage near Udine Railway Station,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,udine,udine-train-station,6463220,Luggage Storage Borgo Poscolle,2026-09-25,19,weekday,20,0,20,read
+2026-09-25 18:06,alessandria,tortona,6451902,Luggage Storage Via S. Marziano,2026-09-25,19,weekday,15,0,15,read
+2026-09-25 18:06,fermo,city-center,6470739,Luggage Storage near Ferno-Lonate Pozzolo,2026-09-25,19,weekday,10,2,8,read
+2026-09-25 18:06,piacenza,piacenza-train-station,6451173,Luggage Storage Piacenza Train Station,2026-09-25,19,weekday,25,0,25,read
+2026-09-25 18:06,trani,trani-transit-station,6936,Luggage Storage Trani Port,2026-09-25,19,weekday,50,0,50,read
+2026-09-25 18:06,vercelli,city-center,6461999,Luggage Storage Corso Prestinari,2026-09-25,19,weekday,20,0,20,read
