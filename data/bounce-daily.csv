@@ -242,7 +242,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,bari,bari-centrale-train-station,04dd6b18-9fce-4818-acf8-ef9f44e42a36,J&J's,0,3,72,71,,72
 2026-09-24,bari,bari-centrale-train-station,04dd6b18-9fce-4818-acf8-ef9f44e42a36,J&J's,0,8,71,64,,71
 2026-09-25,bari,bari-centrale-train-station,04dd6b18-9fce-4818-acf8-ef9f44e42a36,J&J's,0,14,66,63,,67
-2026-09-26,bari,bari-centrale-train-station,04dd6b18-9fce-4818-acf8-ef9f44e42a36,J&J's,0,12,65,59,,66
+2026-09-26,bari,bari-centrale-train-station,04dd6b18-9fce-4818-acf8-ef9f44e42a36,J&J's,0,12,65,60,,66
 2026-09-23,bari,bari-centrale-train-station,062ce3f0-f6e8-4983-a69e-987e23e96f73,J&J's,12,3,3,3,25.0,3
 2026-09-24,bari,bari-centrale-train-station,062ce3f0-f6e8-4983-a69e-987e23e96f73,J&J's,12,8,3,2,25.0,3
 2026-09-25,bari,bari-centrale-train-station,062ce3f0-f6e8-4983-a69e-987e23e96f73,J&J's,12,14,2,1,16.7,2
@@ -302,7 +302,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,bari,bari-centrale-train-station,4b33e11c-e043-4000-bf8d-35de8019f075,J&J's,0,3,13,12,,13
 2026-09-24,bari,bari-centrale-train-station,4b33e11c-e043-4000-bf8d-35de8019f075,J&J's,0,8,12,12,,12
 2026-09-25,bari,bari-centrale-train-station,4b33e11c-e043-4000-bf8d-35de8019f075,J&J's,0,14,14,14,,14
-2026-09-26,bari,bari-centrale-train-station,4b33e11c-e043-4000-bf8d-35de8019f075,J&J's,0,12,16,16,,17
+2026-09-26,bari,bari-centrale-train-station,4b33e11c-e043-4000-bf8d-35de8019f075,J&J's,0,12,17,17,,18
 2026-09-23,bari,centro,541804ce-422e-4124-859f-b0c2dac91218,J&J's,0,3,0,0,,0
 2026-09-24,bari,centro,541804ce-422e-4124-859f-b0c2dac91218,J&J's,0,8,0,0,,0
 2026-09-25,bari,centro,541804ce-422e-4124-859f-b0c2dac91218,J&J's,0,14,0,0,,0
@@ -394,7 +394,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,bari,city-center,95a29a54-c960-4293-9af5-07a39530f868,J&J's,30,3,30,30,100.0,30
 2026-09-24,bari,city-center,95a29a54-c960-4293-9af5-07a39530f868,J&J's,30,8,30,28,100.0,31
 2026-09-25,bari,city-center,95a29a54-c960-4293-9af5-07a39530f868,J&J's,30,14,27,26,90.0,27
-2026-09-26,bari,city-center,95a29a54-c960-4293-9af5-07a39530f868,J&J's,30,12,26,26,86.7,26
+2026-09-26,bari,city-center,95a29a54-c960-4293-9af5-07a39530f868,J&J's,30,12,27,27,90.0,27
 2026-09-23,bari,castellana-grotte,9e083915-dbd7-476e-818f-586f3da2c826,J&J's,0,3,1,1,,1
 2026-09-24,bari,castellana-grotte,9e083915-dbd7-476e-818f-586f3da2c826,J&J's,0,8,1,1,,1
 2026-09-25,bari,castellana-grotte,9e083915-dbd7-476e-818f-586f3da2c826,J&J's,0,14,1,1,,1
@@ -646,7 +646,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,bergamo,bergamo-train-station,6f15176c-ef6b-4cce-9beb-6947b4e0722a,J&J's,15,3,43,43,286.7,43
 2026-09-24,bergamo,bergamo-train-station,6f15176c-ef6b-4cce-9beb-6947b4e0722a,J&J's,15,8,43,42,286.7,43
 2026-09-25,bergamo,bergamo-train-station,6f15176c-ef6b-4cce-9beb-6947b4e0722a,J&J's,15,14,42,36,280.0,42
-2026-09-26,bergamo,bergamo-train-station,6f15176c-ef6b-4cce-9beb-6947b4e0722a,J&J's,15,12,37,35,246.7,38
+2026-09-26,bergamo,bergamo-train-station,6f15176c-ef6b-4cce-9beb-6947b4e0722a,J&J's,15,12,37,37,246.7,38
 2026-09-23,bergamo,borgo-palazzo,7125f528-cac7-4024-93a2-10bbd525a343,J&J's,0,3,0,0,,0
 2026-09-24,bergamo,borgo-palazzo,7125f528-cac7-4024-93a2-10bbd525a343,J&J's,0,8,0,0,,0
 2026-09-25,bergamo,borgo-palazzo,7125f528-cac7-4024-93a2-10bbd525a343,J&J's,0,14,0,0,,0
@@ -678,7 +678,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,bergamo,bergamo-train-station,ac72f169-8f89-427c-bf7b-324a4113c3bd,J&J's,0,3,1,1,,1
 2026-09-24,bergamo,bergamo-train-station,ac72f169-8f89-427c-bf7b-324a4113c3bd,J&J's,0,8,1,1,,1
 2026-09-25,bergamo,bergamo-train-station,ac72f169-8f89-427c-bf7b-324a4113c3bd,J&J's,0,14,1,1,,1
-2026-09-26,bergamo,bergamo-train-station,ac72f169-8f89-427c-bf7b-324a4113c3bd,J&J's,0,12,2,2,,2
+2026-09-26,bergamo,bergamo-train-station,ac72f169-8f89-427c-bf7b-324a4113c3bd,J&J's,0,12,2,1,,2
 2026-09-23,bergamo,terno-d'isola,b371a0bd-8895-4af5-afa6-154eeab98e2a,J&J's,0,3,0,0,,0
 2026-09-24,bergamo,terno-d'isola,b371a0bd-8895-4af5-afa6-154eeab98e2a,J&J's,0,8,0,0,,0
 2026-09-25,bergamo,terno-d'isola,b371a0bd-8895-4af5-afa6-154eeab98e2a,J&J's,0,14,0,0,,0
@@ -770,7 +770,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,bologna,bologna-centrale-railway-station,0c590ad7-e660-4b11-8f3a-7923bcc814a3,J&J's,50,3,71,68,142.0,71
 2026-09-24,bologna,bologna-centrale-railway-station,0c590ad7-e660-4b11-8f3a-7923bcc814a3,J&J's,50,8,68,66,136.0,68
 2026-09-25,bologna,bologna-centrale-railway-station,0c590ad7-e660-4b11-8f3a-7923bcc814a3,J&J's,50,14,70,69,140.0,73
-2026-09-26,bologna,bologna-centrale-railway-station,0c590ad7-e660-4b11-8f3a-7923bcc814a3,J&J's,50,12,72,71,144.0,74
+2026-09-26,bologna,bologna-centrale-railway-station,0c590ad7-e660-4b11-8f3a-7923bcc814a3,J&J's,50,12,72,72,144.0,75
 2026-09-23,bologna,bologna-centrale-railway-station,0c5fe378-4d60-45be-a6a4-f364ff86c5b4,J&J's,0,3,0,0,,0
 2026-09-24,bologna,bologna-centrale-railway-station,0c5fe378-4d60-45be-a6a4-f364ff86c5b4,J&J's,0,8,0,0,,0
 2026-09-25,bologna,bologna-centrale-railway-station,0c5fe378-4d60-45be-a6a4-f364ff86c5b4,J&J's,0,14,0,0,,0
@@ -858,7 +858,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,bologna,ca'-de'-fiori,2fc37f30-0b6d-4d22-a0a5-bb4c70c91408,J&J's,0,3,0,0,,0
 2026-09-24,bologna,ca'-de'-fiori,2fc37f30-0b6d-4d22-a0a5-bb4c70c91408,J&J's,0,8,0,0,,0
 2026-09-25,bologna,ca'-de'-fiori,2fc37f30-0b6d-4d22-a0a5-bb4c70c91408,J&J's,0,14,0,0,,0
-2026-09-26,bologna,ca'-de'-fiori,2fc37f30-0b6d-4d22-a0a5-bb4c70c91408,J&J's,0,12,0,0,,0
+2026-09-26,bologna,ca'-de'-fiori,2fc37f30-0b6d-4d22-a0a5-bb4c70c91408,J&J's,0,12,1,1,,1
 2026-09-23,bologna,crespellano,3120b1c3-a23b-4b4e-9270-551b8143c25f,J&J's,0,3,0,0,,0
 2026-09-24,bologna,crespellano,3120b1c3-a23b-4b4e-9270-551b8143c25f,J&J's,0,8,0,0,,0
 2026-09-25,bologna,crespellano,3120b1c3-a23b-4b4e-9270-551b8143c25f,J&J's,0,14,0,0,,0
@@ -906,7 +906,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,bologna,two-towers,5923ec0f-bebe-4927-9af4-98648f9224c7,J&J's,0,3,1,1,,1
 2026-09-24,bologna,two-towers,5923ec0f-bebe-4927-9af4-98648f9224c7,J&J's,0,8,1,1,,1
 2026-09-25,bologna,two-towers,5923ec0f-bebe-4927-9af4-98648f9224c7,J&J's,0,14,3,3,,3
-2026-09-26,bologna,two-towers,5923ec0f-bebe-4927-9af4-98648f9224c7,J&J's,0,12,4,4,,4
+2026-09-26,bologna,two-towers,5923ec0f-bebe-4927-9af4-98648f9224c7,J&J's,0,12,4,3,,4
 2026-09-23,bologna,porta-maggiore,598239cb-b3f3-431d-a112-1fefe47375cb,J&J's,0,3,0,0,,0
 2026-09-24,bologna,porta-maggiore,598239cb-b3f3-431d-a112-1fefe47375cb,J&J's,0,8,0,0,,0
 2026-09-25,bologna,porta-maggiore,598239cb-b3f3-431d-a112-1fefe47375cb,J&J's,0,14,0,0,,0
@@ -954,11 +954,11 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,bologna,bologna-centrale-railway-station,7d08af56-fe4a-420e-b125-73cce9f8d2cb,J&J's,27,3,67,64,248.1,67
 2026-09-24,bologna,bologna-centrale-railway-station,7d08af56-fe4a-420e-b125-73cce9f8d2cb,J&J's,27,8,68,65,251.9,68
 2026-09-25,bologna,bologna-centrale-railway-station,7d08af56-fe4a-420e-b125-73cce9f8d2cb,J&J's,27,14,66,55,244.4,69
-2026-09-26,bologna,bologna-centrale-railway-station,7d08af56-fe4a-420e-b125-73cce9f8d2cb,J&J's,27,12,52,49,192.6,54
+2026-09-26,bologna,bologna-centrale-railway-station,7d08af56-fe4a-420e-b125-73cce9f8d2cb,J&J's,27,12,52,50,192.6,54
 2026-09-23,bologna,piazza-maggiore,7d6686cd-cfdd-484b-b7f2-b4fe81e8aa91,J&J's,20,3,0,0,0.0,0
 2026-09-24,bologna,piazza-maggiore,7d6686cd-cfdd-484b-b7f2-b4fe81e8aa91,J&J's,20,8,0,0,0.0,0
 2026-09-25,bologna,piazza-maggiore,7d6686cd-cfdd-484b-b7f2-b4fe81e8aa91,J&J's,20,14,1,1,5.0,1
-2026-09-26,bologna,piazza-maggiore,7d6686cd-cfdd-484b-b7f2-b4fe81e8aa91,J&J's,20,12,1,1,5.0,1
+2026-09-26,bologna,piazza-maggiore,7d6686cd-cfdd-484b-b7f2-b4fe81e8aa91,J&J's,20,12,1,0,5.0,1
 2026-09-23,bologna,bologna-centrale-railway-station,80838faf-dd4a-49c4-8c27-48ace55ece8d,J&J's,6,3,0,0,0.0,0
 2026-09-24,bologna,bologna-centrale-railway-station,80838faf-dd4a-49c4-8c27-48ace55ece8d,J&J's,6,8,0,0,0.0,0
 2026-09-25,bologna,bologna-centrale-railway-station,80838faf-dd4a-49c4-8c27-48ace55ece8d,J&J's,6,14,0,0,0.0,0
@@ -978,7 +978,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,bologna,bologna-centrale-railway-station,93ee55e8-1660-49cc-b0b4-cb68ecb979e0,J&J's,30,3,38,37,126.7,38
 2026-09-24,bologna,bologna-centrale-railway-station,93ee55e8-1660-49cc-b0b4-cb68ecb979e0,J&J's,30,8,40,40,133.3,40
 2026-09-25,bologna,bologna-centrale-railway-station,93ee55e8-1660-49cc-b0b4-cb68ecb979e0,J&J's,30,14,41,40,136.7,41
-2026-09-26,bologna,bologna-centrale-railway-station,93ee55e8-1660-49cc-b0b4-cb68ecb979e0,J&J's,30,12,44,44,146.7,45
+2026-09-26,bologna,bologna-centrale-railway-station,93ee55e8-1660-49cc-b0b4-cb68ecb979e0,J&J's,30,12,45,45,150.0,46
 2026-09-23,bologna,borgo-panigale,958bf482-cb1b-49a3-9dc3-2f8dc5a771a0,J&J's,0,3,0,0,,0
 2026-09-24,bologna,borgo-panigale,958bf482-cb1b-49a3-9dc3-2f8dc5a771a0,J&J's,0,8,0,0,,0
 2026-09-25,bologna,borgo-panigale,958bf482-cb1b-49a3-9dc3-2f8dc5a771a0,J&J's,0,14,0,0,,0
@@ -1054,7 +1054,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,bologna,bologna-centrale-railway-station,ba09191c-e6ee-469e-b699-8240803ce9a4,J&J's,40,3,32,32,80.0,32
 2026-09-24,bologna,bologna-centrale-railway-station,ba09191c-e6ee-469e-b699-8240803ce9a4,J&J's,40,8,32,32,80.0,32
 2026-09-25,bologna,bologna-centrale-railway-station,ba09191c-e6ee-469e-b699-8240803ce9a4,J&J's,40,14,32,32,80.0,32
-2026-09-26,bologna,bologna-centrale-railway-station,ba09191c-e6ee-469e-b699-8240803ce9a4,J&J's,40,12,33,32,82.5,33
+2026-09-26,bologna,bologna-centrale-railway-station,ba09191c-e6ee-469e-b699-8240803ce9a4,J&J's,40,12,33,31,82.5,33
 2026-09-23,bologna,porta-maggiore,bb02a69f-694b-445b-a53f-3dbb7557f9d2,J&J's,0,3,0,0,,0
 2026-09-24,bologna,porta-maggiore,bb02a69f-694b-445b-a53f-3dbb7557f9d2,J&J's,0,8,0,0,,0
 2026-09-25,bologna,porta-maggiore,bb02a69f-694b-445b-a53f-3dbb7557f9d2,J&J's,0,14,0,0,,0
@@ -1118,7 +1118,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,bologna,piazza-maggiore,eb7a90d2-dab1-496a-973c-11f8719d7588,J&J's,400,3,11,11,2.8,11
 2026-09-24,bologna,piazza-maggiore,eb7a90d2-dab1-496a-973c-11f8719d7588,J&J's,400,8,11,11,2.8,12
 2026-09-25,bologna,piazza-maggiore,eb7a90d2-dab1-496a-973c-11f8719d7588,J&J's,400,14,13,9,3.2,13
-2026-09-26,bologna,piazza-maggiore,eb7a90d2-dab1-496a-973c-11f8719d7588,J&J's,400,12,11,11,2.8,11
+2026-09-26,bologna,piazza-maggiore,eb7a90d2-dab1-496a-973c-11f8719d7588,J&J's,400,12,10,10,2.5,10
 2026-09-23,bologna,castel-maggiore,f061645f-9328-4258-8f8b-8de00a179488,J&J's,0,3,0,0,,0
 2026-09-24,bologna,castel-maggiore,f061645f-9328-4258-8f8b-8de00a179488,J&J's,0,8,0,0,,0
 2026-09-25,bologna,castel-maggiore,f061645f-9328-4258-8f8b-8de00a179488,J&J's,0,14,0,0,,0
@@ -1142,7 +1142,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,bologna,bologna-centrale-railway-station,ff93b58b-c0d1-4b5e-812c-eb447beba739,J&J's,30,3,55,55,183.3,55
 2026-09-24,bologna,bologna-centrale-railway-station,ff93b58b-c0d1-4b5e-812c-eb447beba739,J&J's,30,8,59,54,196.7,59
 2026-09-25,bologna,bologna-centrale-railway-station,ff93b58b-c0d1-4b5e-812c-eb447beba739,J&J's,30,14,54,49,180.0,55
-2026-09-26,bologna,bologna-centrale-railway-station,ff93b58b-c0d1-4b5e-812c-eb447beba739,J&J's,30,12,51,51,170.0,51
+2026-09-26,bologna,bologna-centrale-railway-station,ff93b58b-c0d1-4b5e-812c-eb447beba739,J&J's,30,12,50,50,166.7,50
 2026-09-23,bolzano,bolzano-train-station,1717f378-3c29-491a-a174-cc91f770644f,J&J's,0,3,0,0,,0
 2026-09-24,bolzano,bolzano-train-station,1717f378-3c29-491a-a174-cc91f770644f,J&J's,0,8,0,0,,0
 2026-09-25,bolzano,bolzano-train-station,1717f378-3c29-491a-a174-cc91f770644f,J&J's,0,14,0,0,,0
@@ -1414,7 +1414,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,brindisi,central-station,b4d6ec05-e08e-42e4-93f3-1c6094d9a611,J&J's,0,3,7,7,,7
 2026-09-24,brindisi,central-station,b4d6ec05-e08e-42e4-93f3-1c6094d9a611,J&J's,0,8,7,5,,7
 2026-09-25,brindisi,central-station,b4d6ec05-e08e-42e4-93f3-1c6094d9a611,J&J's,0,14,6,6,,6
-2026-09-26,brindisi,central-station,b4d6ec05-e08e-42e4-93f3-1c6094d9a611,J&J's,0,12,6,4,,6
+2026-09-26,brindisi,central-station,b4d6ec05-e08e-42e4-93f3-1c6094d9a611,J&J's,0,12,6,3,,6
 2026-09-23,brindisi,city-centre,bcd6904f-b02b-41a8-9e99-9a2ee67d55e5,J&J's,0,3,1,1,,1
 2026-09-24,brindisi,city-centre,bcd6904f-b02b-41a8-9e99-9a2ee67d55e5,J&J's,0,8,1,1,,1
 2026-09-25,brindisi,city-centre,bcd6904f-b02b-41a8-9e99-9a2ee67d55e5,J&J's,0,14,1,0,,1
@@ -2010,7 +2010,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,catania,catania-airport,02018bd0-a784-45af-9fcb-2aa9a4f59778,J&J's,100,3,27,26,27.0,27
 2026-09-24,catania,catania-airport,02018bd0-a784-45af-9fcb-2aa9a4f59778,J&J's,100,8,28,28,28.0,29
 2026-09-25,catania,catania-airport,02018bd0-a784-45af-9fcb-2aa9a4f59778,J&J's,100,14,28,25,28.0,29
-2026-09-26,catania,catania-airport,02018bd0-a784-45af-9fcb-2aa9a4f59778,J&J's,100,12,27,27,27.0,27
+2026-09-26,catania,catania-airport,02018bd0-a784-45af-9fcb-2aa9a4f59778,J&J's,100,12,28,28,28.0,28
 2026-09-23,catania,pedara,02099208-49d5-4ceb-a195-0ac9aad9171a,J&J's,0,3,0,0,,0
 2026-09-24,catania,pedara,02099208-49d5-4ceb-a195-0ac9aad9171a,J&J's,0,8,0,0,,0
 2026-09-25,catania,pedara,02099208-49d5-4ceb-a195-0ac9aad9171a,J&J's,0,14,0,0,,0
@@ -2170,7 +2170,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,catania,city-center,3f7205c1-6153-4c8a-a280-a8e71b17c755,J&J's,100,3,7,7,7.0,7
 2026-09-24,catania,city-center,3f7205c1-6153-4c8a-a280-a8e71b17c755,J&J's,100,8,7,5,7.0,7
 2026-09-25,catania,city-center,3f7205c1-6153-4c8a-a280-a8e71b17c755,J&J's,100,14,5,4,5.0,5
-2026-09-26,catania,city-center,3f7205c1-6153-4c8a-a280-a8e71b17c755,J&J's,100,12,4,2,4.0,4
+2026-09-26,catania,city-center,3f7205c1-6153-4c8a-a280-a8e71b17c755,J&J's,100,12,4,3,4.0,4
 2026-09-23,catania,guardia,414c189f-565b-47cb-9687-17ea2696b2fd,J&J's,0,3,0,0,,0
 2026-09-24,catania,guardia,414c189f-565b-47cb-9687-17ea2696b2fd,J&J's,0,8,0,0,,0
 2026-09-25,catania,guardia,414c189f-565b-47cb-9687-17ea2696b2fd,J&J's,0,14,0,0,,0
@@ -2230,7 +2230,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,catania,piazza-stesicoro,5f75d17d-7456-4431-bb35-d638fdd9a96a,J&J's,49,3,22,22,44.9,22
 2026-09-24,catania,piazza-stesicoro,5f75d17d-7456-4431-bb35-d638fdd9a96a,J&J's,49,8,23,23,46.9,23
 2026-09-25,catania,piazza-stesicoro,5f75d17d-7456-4431-bb35-d638fdd9a96a,J&J's,49,14,23,22,46.9,23
-2026-09-26,catania,piazza-stesicoro,5f75d17d-7456-4431-bb35-d638fdd9a96a,J&J's,49,12,22,21,44.9,23
+2026-09-26,catania,piazza-stesicoro,5f75d17d-7456-4431-bb35-d638fdd9a96a,J&J's,49,12,22,19,44.9,22
 2026-09-23,catania,city-center,627973b9-ccaf-40e3-ba95-e2620aa2f5e0,J&J's,0,3,0,0,,0
 2026-09-24,catania,city-center,627973b9-ccaf-40e3-ba95-e2620aa2f5e0,J&J's,0,8,0,0,,0
 2026-09-25,catania,city-center,627973b9-ccaf-40e3-ba95-e2620aa2f5e0,J&J's,0,14,0,0,,0
@@ -2762,7 +2762,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,como,city-center,2cda7a92-a7c2-440c-a1e6-91adfcd0e1b5,J&J's,0,3,22,22,,22
 2026-09-24,como,city-center,2cda7a92-a7c2-440c-a1e6-91adfcd0e1b5,J&J's,0,8,22,19,,22
 2026-09-25,como,city-center,2cda7a92-a7c2-440c-a1e6-91adfcd0e1b5,J&J's,0,14,21,21,,21
-2026-09-26,como,city-center,2cda7a92-a7c2-440c-a1e6-91adfcd0e1b5,J&J's,0,12,21,21,,23
+2026-09-26,como,city-center,2cda7a92-a7c2-440c-a1e6-91adfcd0e1b5,J&J's,0,12,21,20,,23
 2026-09-23,como,city-center,32beea54-c191-4b07-bd31-f5f0243138a7,J&J's,100,3,2,2,2.0,2
 2026-09-24,como,city-center,32beea54-c191-4b07-bd31-f5f0243138a7,J&J's,100,8,2,2,2.0,2
 2026-09-25,como,city-center,32beea54-c191-4b07-bd31-f5f0243138a7,J&J's,100,14,2,2,2.0,2
@@ -2794,7 +2794,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,como,city-center,51807aea-7176-4c69-852f-c41211f55d3d,J&J's,0,3,22,22,,22
 2026-09-24,como,city-center,51807aea-7176-4c69-852f-c41211f55d3d,J&J's,0,8,22,22,,25
 2026-09-25,como,city-center,51807aea-7176-4c69-852f-c41211f55d3d,J&J's,0,14,26,26,,26
-2026-09-26,como,city-center,51807aea-7176-4c69-852f-c41211f55d3d,J&J's,0,12,26,24,,26
+2026-09-26,como,city-center,51807aea-7176-4c69-852f-c41211f55d3d,J&J's,0,12,26,25,,26
 2026-09-23,como,maslianico,5ff2449b-228d-4555-9307-c312ba6e9f78,J&J's,0,3,0,0,,0
 2026-09-24,como,maslianico,5ff2449b-228d-4555-9307-c312ba6e9f78,J&J's,0,8,0,0,,0
 2026-09-25,como,maslianico,5ff2449b-228d-4555-9307-c312ba6e9f78,J&J's,0,14,0,0,,0
@@ -2834,7 +2834,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,como,city-center,80842cc5-ef1a-4c71-b6bb-61a3aa25f63a,J&J's,50,3,17,17,34.0,17
 2026-09-24,como,city-center,80842cc5-ef1a-4c71-b6bb-61a3aa25f63a,J&J's,50,8,17,17,34.0,18
 2026-09-25,como,city-center,80842cc5-ef1a-4c71-b6bb-61a3aa25f63a,J&J's,50,14,17,16,34.0,18
-2026-09-26,como,city-center,80842cc5-ef1a-4c71-b6bb-61a3aa25f63a,J&J's,50,12,17,17,34.0,17
+2026-09-26,como,city-center,80842cc5-ef1a-4c71-b6bb-61a3aa25f63a,J&J's,50,12,17,16,34.0,17
 2026-09-23,como,crotto,8ed9b0eb-ac91-4434-9db6-09a5a2d555ae,J&J's,0,3,0,0,,0
 2026-09-24,como,crotto,8ed9b0eb-ac91-4434-9db6-09a5a2d555ae,J&J's,0,8,0,0,,0
 2026-09-25,como,crotto,8ed9b0eb-ac91-4434-9db6-09a5a2d555ae,J&J's,0,14,0,0,,0
@@ -3090,7 +3090,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,florence,santa-maria-novella,05b86e77-15e3-499b-9602-4ff582b7ea14,J&J's,35,3,13,13,37.1,13
 2026-09-24,florence,santa-maria-novella,05b86e77-15e3-499b-9602-4ff582b7ea14,J&J's,35,8,13,11,37.1,13
 2026-09-25,florence,santa-maria-novella,05b86e77-15e3-499b-9602-4ff582b7ea14,J&J's,35,14,12,12,34.3,12
-2026-09-26,florence,santa-maria-novella,05b86e77-15e3-499b-9602-4ff582b7ea14,J&J's,35,12,12,11,34.3,12
+2026-09-26,florence,santa-maria-novella,05b86e77-15e3-499b-9602-4ff582b7ea14,J&J's,35,12,12,12,34.3,12
 2026-09-23,florence,coverelli,07b87462-3d98-492d-bd74-3ed532b49dfc,J&J's,10,3,6,6,60.0,6
 2026-09-24,florence,coverelli,07b87462-3d98-492d-bd74-3ed532b49dfc,J&J's,10,8,6,5,60.0,6
 2026-09-25,florence,coverelli,07b87462-3d98-492d-bd74-3ed532b49dfc,J&J's,10,14,6,6,60.0,6
@@ -3114,7 +3114,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,florence,via-de-boni,121adc54-6fa7-4282-bd44-3437414aad66,J&J's,100,3,10,10,10.0,10
 2026-09-24,florence,via-de-boni,121adc54-6fa7-4282-bd44-3437414aad66,J&J's,100,8,11,11,11.0,11
 2026-09-25,florence,via-de-boni,121adc54-6fa7-4282-bd44-3437414aad66,J&J's,100,14,11,10,11.0,12
-2026-09-26,florence,via-de-boni,121adc54-6fa7-4282-bd44-3437414aad66,J&J's,100,12,10,10,10.0,10
+2026-09-26,florence,via-de-boni,121adc54-6fa7-4282-bd44-3437414aad66,J&J's,100,12,10,9,10.0,10
 2026-09-23,florence,pitti,1228e94a-059d-45b1-8c27-cf8dad4b2fd7,J&J's,30,3,31,31,103.3,31
 2026-09-24,florence,pitti,1228e94a-059d-45b1-8c27-cf8dad4b2fd7,J&J's,30,8,31,31,103.3,31
 2026-09-25,florence,pitti,1228e94a-059d-45b1-8c27-cf8dad4b2fd7,J&J's,30,14,31,28,103.3,33
@@ -3126,7 +3126,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,florence,battistero-di-san-giovanni,16bcd5d3-6300-4cfd-a6fa-3b217cc371ba,J&J's,0,3,50,49,,50
 2026-09-24,florence,battistero-di-san-giovanni,16bcd5d3-6300-4cfd-a6fa-3b217cc371ba,J&J's,0,8,55,55,,55
 2026-09-25,florence,battistero-di-san-giovanni,16bcd5d3-6300-4cfd-a6fa-3b217cc371ba,J&J's,0,14,54,51,,55
-2026-09-26,florence,battistero-di-san-giovanni,16bcd5d3-6300-4cfd-a6fa-3b217cc371ba,J&J's,0,12,51,47,,51
+2026-09-26,florence,battistero-di-san-giovanni,16bcd5d3-6300-4cfd-a6fa-3b217cc371ba,J&J's,0,12,51,49,,53
 2026-09-23,florence,capalle,17250aaa-f355-4711-9de7-3a245055736a,J&J's,0,3,0,0,,0
 2026-09-24,florence,capalle,17250aaa-f355-4711-9de7-3a245055736a,J&J's,0,8,0,0,,0
 2026-09-25,florence,capalle,17250aaa-f355-4711-9de7-3a245055736a,J&J's,0,14,0,0,,0
@@ -3146,11 +3146,11 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,florence,santa-maria-novella,2868d0b4-458e-42d8-973f-ca7e5bcb2293,J&J's,0,3,30,30,,30
 2026-09-24,florence,santa-maria-novella,2868d0b4-458e-42d8-973f-ca7e5bcb2293,J&J's,0,8,33,33,,33
 2026-09-25,florence,santa-maria-novella,2868d0b4-458e-42d8-973f-ca7e5bcb2293,J&J's,0,14,34,34,,35
-2026-09-26,florence,santa-maria-novella,2868d0b4-458e-42d8-973f-ca7e5bcb2293,J&J's,0,12,33,33,,34
+2026-09-26,florence,santa-maria-novella,2868d0b4-458e-42d8-973f-ca7e5bcb2293,J&J's,0,12,35,35,,36
 2026-09-23,florence,santa-croce,2bc4e021-7dd2-498d-8800-e71714978692,J&J's,50,3,4,3,8.0,4
 2026-09-24,florence,santa-croce,2bc4e021-7dd2-498d-8800-e71714978692,J&J's,50,8,4,4,8.0,4
 2026-09-25,florence,santa-croce,2bc4e021-7dd2-498d-8800-e71714978692,J&J's,50,14,5,5,10.0,5
-2026-09-26,florence,santa-croce,2bc4e021-7dd2-498d-8800-e71714978692,J&J's,50,12,6,6,12.0,6
+2026-09-26,florence,santa-croce,2bc4e021-7dd2-498d-8800-e71714978692,J&J's,50,12,6,5,12.0,6
 2026-09-23,florence,santo-spirito,2dd83e81-fc1e-465d-bc90-75be8bbbd598,J&J's,5,3,5,5,100.0,5
 2026-09-24,florence,santo-spirito,2dd83e81-fc1e-465d-bc90-75be8bbbd598,J&J's,5,8,5,4,100.0,5
 2026-09-25,florence,santo-spirito,2dd83e81-fc1e-465d-bc90-75be8bbbd598,J&J's,5,14,4,4,80.0,5
@@ -3162,7 +3162,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,florence,santa-maria-novella,2f596780-a201-48e3-bba7-65505b8131a2,J&J's,0,3,37,37,,38
 2026-09-24,florence,santa-maria-novella,2f596780-a201-48e3-bba7-65505b8131a2,J&J's,0,8,40,40,,40
 2026-09-25,florence,santa-maria-novella,2f596780-a201-48e3-bba7-65505b8131a2,J&J's,0,14,45,45,,46
-2026-09-26,florence,santa-maria-novella,2f596780-a201-48e3-bba7-65505b8131a2,J&J's,0,12,45,40,,45
+2026-09-26,florence,santa-maria-novella,2f596780-a201-48e3-bba7-65505b8131a2,J&J's,0,12,45,41,,45
 2026-09-23,florence,santa-croce,2fefd1d7-e1a9-43cb-8b24-0952f0789d2c,J&J's,0,3,3,2,,3
 2026-09-24,florence,santa-croce,2fefd1d7-e1a9-43cb-8b24-0952f0789d2c,J&J's,0,8,2,1,,2
 2026-09-25,florence,santa-croce,2fefd1d7-e1a9-43cb-8b24-0952f0789d2c,J&J's,0,14,3,3,,3
@@ -3254,7 +3254,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,florence,basilica-of-santa-maria-novella,5451781f-5d9a-4556-94b4-a97ccd838a33,J&J's,0,3,8,8,,9
 2026-09-24,florence,basilica-of-santa-maria-novella,5451781f-5d9a-4556-94b4-a97ccd838a33,J&J's,0,8,10,10,,10
 2026-09-25,florence,basilica-of-santa-maria-novella,5451781f-5d9a-4556-94b4-a97ccd838a33,J&J's,0,14,10,9,,10
-2026-09-26,florence,basilica-of-santa-maria-novella,5451781f-5d9a-4556-94b4-a97ccd838a33,J&J's,0,12,11,11,,11
+2026-09-26,florence,basilica-of-santa-maria-novella,5451781f-5d9a-4556-94b4-a97ccd838a33,J&J's,0,12,10,10,,10
 2026-09-23,florence,campo-di-marte,59793641-860d-4baa-9915-0371eaf06cb2,J&J's,0,3,0,0,,0
 2026-09-24,florence,campo-di-marte,59793641-860d-4baa-9915-0371eaf06cb2,J&J's,0,8,0,0,,0
 2026-09-25,florence,campo-di-marte,59793641-860d-4baa-9915-0371eaf06cb2,J&J's,0,14,0,0,,0
@@ -3278,7 +3278,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,florence,porta-al-prato,67e71e4a-1727-4c27-9cbc-2b386dcf9250,J&J's,0,3,33,33,,33
 2026-09-24,florence,porta-al-prato,67e71e4a-1727-4c27-9cbc-2b386dcf9250,J&J's,0,8,33,30,,33
 2026-09-25,florence,porta-al-prato,67e71e4a-1727-4c27-9cbc-2b386dcf9250,J&J's,0,14,33,32,,33
-2026-09-26,florence,porta-al-prato,67e71e4a-1727-4c27-9cbc-2b386dcf9250,J&J's,0,12,31,28,,31
+2026-09-26,florence,porta-al-prato,67e71e4a-1727-4c27-9cbc-2b386dcf9250,J&J's,0,12,31,27,,31
 2026-09-23,florence,basilica-di-santo-spirito,6830dbdf-e164-448b-bfc2-2879e6502ae7,J&J's,0,3,1,1,,1
 2026-09-24,florence,basilica-di-santo-spirito,6830dbdf-e164-448b-bfc2-2879e6502ae7,J&J's,0,8,3,3,,3
 2026-09-25,florence,basilica-di-santo-spirito,6830dbdf-e164-448b-bfc2-2879e6502ae7,J&J's,0,14,5,4,,5
@@ -3318,7 +3318,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,florence,santa-maria-novella,739198dc-ae4c-4561-a930-94bca4aaeb2c,J&J's,30,3,26,25,86.7,26
 2026-09-24,florence,santa-maria-novella,739198dc-ae4c-4561-a930-94bca4aaeb2c,J&J's,30,8,25,23,83.3,25
 2026-09-25,florence,santa-maria-novella,739198dc-ae4c-4561-a930-94bca4aaeb2c,J&J's,30,14,28,28,93.3,28
-2026-09-26,florence,santa-maria-novella,739198dc-ae4c-4561-a930-94bca4aaeb2c,J&J's,30,12,30,28,100.0,30
+2026-09-26,florence,santa-maria-novella,739198dc-ae4c-4561-a930-94bca4aaeb2c,J&J's,30,12,30,26,100.0,30
 2026-09-23,florence,san-lorenzo,7ae82967-fd56-4f9e-a91e-80bb0307f356,J&J's,0,3,10,10,,10
 2026-09-24,florence,san-lorenzo,7ae82967-fd56-4f9e-a91e-80bb0307f356,J&J's,0,8,10,8,,10
 2026-09-25,florence,san-lorenzo,7ae82967-fd56-4f9e-a91e-80bb0307f356,J&J's,0,14,8,8,,8
@@ -3326,7 +3326,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,florence,santa-maria-novella,7e41f1ec-e26a-4717-9b22-a3a5b1bffe56,J&J's,120,3,158,158,131.7,158
 2026-09-24,florence,santa-maria-novella,7e41f1ec-e26a-4717-9b22-a3a5b1bffe56,J&J's,120,8,162,162,135.0,164
 2026-09-25,florence,santa-maria-novella,7e41f1ec-e26a-4717-9b22-a3a5b1bffe56,J&J's,120,14,159,153,132.5,163
-2026-09-26,florence,santa-maria-novella,7e41f1ec-e26a-4717-9b22-a3a5b1bffe56,J&J's,120,12,154,143,128.3,154
+2026-09-26,florence,santa-maria-novella,7e41f1ec-e26a-4717-9b22-a3a5b1bffe56,J&J's,120,12,154,145,128.3,154
 2026-09-23,florence,gavinana,82063b4f-2ea1-4890-a6b5-8562be12f671,J&J's,0,3,0,0,,0
 2026-09-24,florence,gavinana,82063b4f-2ea1-4890-a6b5-8562be12f671,J&J's,0,8,0,0,,0
 2026-09-25,florence,gavinana,82063b4f-2ea1-4890-a6b5-8562be12f671,J&J's,0,14,0,0,,0
@@ -3374,7 +3374,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,florence,via-dell-albero,989b96ff-8364-4723-b675-a8c47c0855be,J&J's,20,3,42,42,210.0,42
 2026-09-24,florence,via-dell-albero,989b96ff-8364-4723-b675-a8c47c0855be,J&J's,20,8,45,44,225.0,45
 2026-09-25,florence,via-dell-albero,989b96ff-8364-4723-b675-a8c47c0855be,J&J's,20,14,45,45,225.0,47
-2026-09-26,florence,via-dell-albero,989b96ff-8364-4723-b675-a8c47c0855be,J&J's,20,12,45,41,225.0,46
+2026-09-26,florence,via-dell-albero,989b96ff-8364-4723-b675-a8c47c0855be,J&J's,20,12,45,42,225.0,47
 2026-09-23,florence,gavinana,9b25edc6-1cf6-4729-80d4-9b8f276349b4,J&J's,0,3,1,1,,1
 2026-09-24,florence,gavinana,9b25edc6-1cf6-4729-80d4-9b8f276349b4,J&J's,0,8,2,2,,2
 2026-09-25,florence,gavinana,9b25edc6-1cf6-4729-80d4-9b8f276349b4,J&J's,0,14,2,2,,2
@@ -3442,7 +3442,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,florence,duomo,c8d6b435-a3c6-4931-b0e1-a8c5f5906170,J&J's,0,3,76,76,,76
 2026-09-24,florence,duomo,c8d6b435-a3c6-4931-b0e1-a8c5f5906170,J&J's,0,8,86,86,,89
 2026-09-25,florence,duomo,c8d6b435-a3c6-4931-b0e1-a8c5f5906170,J&J's,0,14,84,81,,85
-2026-09-26,florence,duomo,c8d6b435-a3c6-4931-b0e1-a8c5f5906170,J&J's,0,12,87,87,,93
+2026-09-26,florence,duomo,c8d6b435-a3c6-4931-b0e1-a8c5f5906170,J&J's,0,12,89,89,,95
 2026-09-23,florence,flixbus-florence,ca1d33e4-d3f2-4d66-8c83-b01935057c82,J&J's,0,3,10,10,,10
 2026-09-24,florence,flixbus-florence,ca1d33e4-d3f2-4d66-8c83-b01935057c82,J&J's,0,8,11,11,,11
 2026-09-25,florence,flixbus-florence,ca1d33e4-d3f2-4d66-8c83-b01935057c82,J&J's,0,14,11,10,,11
@@ -3482,7 +3482,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,florence,santa-maria-novella,ecf10e1d-fd92-418c-ae94-986d24333e5b,J&J's,0,3,418,413,,418
 2026-09-24,florence,santa-maria-novella,ecf10e1d-fd92-418c-ae94-986d24333e5b,J&J's,0,8,415,407,,417
 2026-09-25,florence,santa-maria-novella,ecf10e1d-fd92-418c-ae94-986d24333e5b,J&J's,0,14,407,372,,409
-2026-09-26,florence,santa-maria-novella,ecf10e1d-fd92-418c-ae94-986d24333e5b,J&J's,0,12,372,359,,373
+2026-09-26,florence,santa-maria-novella,ecf10e1d-fd92-418c-ae94-986d24333e5b,J&J's,0,12,372,362,,374
 2026-09-23,florence,novoli,ed81863e-9dc7-4491-8f85-1f86b7b36a2b,J&J's,0,3,0,0,,0
 2026-09-24,florence,novoli,ed81863e-9dc7-4491-8f85-1f86b7b36a2b,J&J's,0,8,0,0,,0
 2026-09-25,florence,novoli,ed81863e-9dc7-4491-8f85-1f86b7b36a2b,J&J's,0,14,0,0,,0
@@ -3506,7 +3506,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,florence,san-marco-florence,fb46c073-153f-456a-863e-fdc314228924,J&J's,0,3,16,16,,16
 2026-09-24,florence,san-marco-florence,fb46c073-153f-456a-863e-fdc314228924,J&J's,0,8,19,19,,19
 2026-09-25,florence,san-marco-florence,fb46c073-153f-456a-863e-fdc314228924,J&J's,0,14,23,23,,24
-2026-09-26,florence,san-marco-florence,fb46c073-153f-456a-863e-fdc314228924,J&J's,0,12,23,22,,23
+2026-09-26,florence,san-marco-florence,fb46c073-153f-456a-863e-fdc314228924,J&J's,0,12,23,23,,24
 2026-09-23,florence,le-cure,fb6154c6-a219-4c68-b476-43b9930acde7,J&J's,50,3,0,0,0.0,0
 2026-09-24,florence,le-cure,fb6154c6-a219-4c68-b476-43b9930acde7,J&J's,50,8,0,0,0.0,0
 2026-09-25,florence,le-cure,fb6154c6-a219-4c68-b476-43b9930acde7,J&J's,50,14,0,0,0.0,0
@@ -3846,7 +3846,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,genoa,piazza-principe,b7541cfc-22b8-474f-b087-cdcd0169c14f,J&J's,0,3,5,5,,5
 2026-09-24,genoa,piazza-principe,b7541cfc-22b8-474f-b087-cdcd0169c14f,J&J's,0,8,5,3,,5
 2026-09-25,genoa,piazza-principe,b7541cfc-22b8-474f-b087-cdcd0169c14f,J&J's,0,14,4,4,,4
-2026-09-26,genoa,piazza-principe,b7541cfc-22b8-474f-b087-cdcd0169c14f,J&J's,0,12,5,5,,5
+2026-09-26,genoa,piazza-principe,b7541cfc-22b8-474f-b087-cdcd0169c14f,J&J's,0,12,5,4,,5
 2026-09-23,genoa,nervi,b925f9f6-d7e1-43f0-8892-9050bda3cfc9,J&J's,0,3,0,0,,0
 2026-09-24,genoa,nervi,b925f9f6-d7e1-43f0-8892-9050bda3cfc9,J&J's,0,8,0,0,,0
 2026-09-25,genoa,nervi,b925f9f6-d7e1-43f0-8892-9050bda3cfc9,J&J's,0,14,0,0,,0
@@ -3934,11 +3934,11 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,la-spezia,la-spezia-centrale,32816541-31a7-4f37-a86c-5b1bc2afa557,J&J's,0,3,3,3,,3
 2026-09-24,la-spezia,la-spezia-centrale,32816541-31a7-4f37-a86c-5b1bc2afa557,J&J's,0,8,3,1,,3
 2026-09-25,la-spezia,la-spezia-centrale,32816541-31a7-4f37-a86c-5b1bc2afa557,J&J's,0,14,2,2,,2
-2026-09-26,la-spezia,la-spezia-centrale,32816541-31a7-4f37-a86c-5b1bc2afa557,J&J's,0,12,2,2,,2
+2026-09-26,la-spezia,la-spezia-centrale,32816541-31a7-4f37-a86c-5b1bc2afa557,J&J's,0,12,2,1,,2
 2026-09-23,la-spezia,la-spezia-centrale,331da1af-0e22-4698-83d7-8a6d2c00dded,J&J's,25,3,10,10,40.0,10
 2026-09-24,la-spezia,la-spezia-centrale,331da1af-0e22-4698-83d7-8a6d2c00dded,J&J's,25,8,10,10,40.0,11
 2026-09-25,la-spezia,la-spezia-centrale,331da1af-0e22-4698-83d7-8a6d2c00dded,J&J's,25,14,10,10,40.0,10
-2026-09-26,la-spezia,la-spezia-centrale,331da1af-0e22-4698-83d7-8a6d2c00dded,J&J's,25,12,10,10,40.0,10
+2026-09-26,la-spezia,la-spezia-centrale,331da1af-0e22-4698-83d7-8a6d2c00dded,J&J's,25,12,10,9,40.0,10
 2026-09-23,la-spezia,porta-rocca,36189a3f-5e25-4846-8723-81ac3fc90c44,J&J's,0,3,0,0,,0
 2026-09-24,la-spezia,porta-rocca,36189a3f-5e25-4846-8723-81ac3fc90c44,J&J's,0,8,0,0,,0
 2026-09-25,la-spezia,porta-rocca,36189a3f-5e25-4846-8723-81ac3fc90c44,J&J's,0,14,0,0,,0
@@ -4262,7 +4262,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,lecco,train-station,8b209c5a-8363-431c-84c6-3d7e5dd900e8,J&J's,50,3,0,0,0.0,0
 2026-09-24,lecco,train-station,8b209c5a-8363-431c-84c6-3d7e5dd900e8,J&J's,50,8,0,0,0.0,0
 2026-09-25,lecco,train-station,8b209c5a-8363-431c-84c6-3d7e5dd900e8,J&J's,50,14,0,0,0.0,0
-2026-09-26,lecco,train-station,8b209c5a-8363-431c-84c6-3d7e5dd900e8,J&J's,50,12,0,0,0.0,0
+2026-09-26,lecco,train-station,8b209c5a-8363-431c-84c6-3d7e5dd900e8,J&J's,50,12,1,1,2.0,1
 2026-09-23,lecco,roncada,b80d39fb-1520-4fd0-b73a-cd4edc1e3e39,J&J's,0,3,0,0,,0
 2026-09-24,lecco,roncada,b80d39fb-1520-4fd0-b73a-cd4edc1e3e39,J&J's,0,8,0,0,,0
 2026-09-25,lecco,roncada,b80d39fb-1520-4fd0-b73a-cd4edc1e3e39,J&J's,0,14,0,0,,0
@@ -4342,7 +4342,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,lucca,lucca-train-station,7124ff02-5adc-40a4-b5fe-1c3142bdda16,J&J's,0,3,15,15,,15
 2026-09-24,lucca,lucca-train-station,7124ff02-5adc-40a4-b5fe-1c3142bdda16,J&J's,0,8,15,14,,15
 2026-09-25,lucca,lucca-train-station,7124ff02-5adc-40a4-b5fe-1c3142bdda16,J&J's,0,14,14,13,,15
-2026-09-26,lucca,lucca-train-station,7124ff02-5adc-40a4-b5fe-1c3142bdda16,J&J's,0,12,13,13,,14
+2026-09-26,lucca,lucca-train-station,7124ff02-5adc-40a4-b5fe-1c3142bdda16,J&J's,0,12,13,12,,13
 2026-09-23,lucca,city-center,ab80b0c1-271e-4bb1-928a-ee55fb8c20e4,J&J's,6,3,12,12,200.0,12
 2026-09-24,lucca,city-center,ab80b0c1-271e-4bb1-928a-ee55fb8c20e4,J&J's,6,8,12,10,200.0,12
 2026-09-25,lucca,city-center,ab80b0c1-271e-4bb1-928a-ee55fb8c20e4,J&J's,6,14,10,10,166.7,10
@@ -4362,7 +4362,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,lucca,lucca-train-station,f8489471-37af-4e04-8ece-933e64f1dc21,J&J's,0,3,8,8,,8
 2026-09-24,lucca,lucca-train-station,f8489471-37af-4e04-8ece-933e64f1dc21,J&J's,0,8,8,8,,8
 2026-09-25,lucca,lucca-train-station,f8489471-37af-4e04-8ece-933e64f1dc21,J&J's,0,14,8,8,,8
-2026-09-26,lucca,lucca-train-station,f8489471-37af-4e04-8ece-933e64f1dc21,J&J's,0,12,8,8,,8
+2026-09-26,lucca,lucca-train-station,f8489471-37af-4e04-8ece-933e64f1dc21,J&J's,0,12,8,6,,8
 2026-09-23,matera,matera-2000,01cc3b55-e908-4703-bfab-00b74a1a093a,J&J's,0,3,0,0,,0
 2026-09-24,matera,matera-2000,01cc3b55-e908-4703-bfab-00b74a1a093a,J&J's,0,8,0,0,,0
 2026-09-25,matera,matera-2000,01cc3b55-e908-4703-bfab-00b74a1a093a,J&J's,0,14,0,0,,0
@@ -4498,7 +4498,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,messina,messina-centrale,793db949-8ab3-44e8-87b4-d4c2ebe7208a,J&J's,0,3,14,14,,14
 2026-09-24,messina,messina-centrale,793db949-8ab3-44e8-87b4-d4c2ebe7208a,J&J's,0,8,17,17,,17
 2026-09-25,messina,messina-centrale,793db949-8ab3-44e8-87b4-d4c2ebe7208a,J&J's,0,14,19,19,,19
-2026-09-26,messina,messina-centrale,793db949-8ab3-44e8-87b4-d4c2ebe7208a,J&J's,0,12,19,17,,20
+2026-09-26,messina,messina-centrale,793db949-8ab3-44e8-87b4-d4c2ebe7208a,J&J's,0,12,19,15,,20
 2026-09-23,messina,i-circoscrizione,7c864bcc-8592-4abd-8f2e-85eadda732e2,J&J's,0,3,0,0,,0
 2026-09-24,messina,i-circoscrizione,7c864bcc-8592-4abd-8f2e-85eadda732e2,J&J's,0,8,0,0,,0
 2026-09-25,messina,i-circoscrizione,7c864bcc-8592-4abd-8f2e-85eadda732e2,J&J's,0,14,0,0,,0
@@ -4626,7 +4626,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,loreto,07f69aca-521e-490f-be31-67ac649ec9e9,J&J's,0,3,3,3,,3
 2026-09-24,milan,loreto,07f69aca-521e-490f-be31-67ac649ec9e9,J&J's,0,9,3,3,,3
 2026-09-25,milan,loreto,07f69aca-521e-490f-be31-67ac649ec9e9,J&J's,0,14,7,7,,7
-2026-09-26,milan,loreto,07f69aca-521e-490f-be31-67ac649ec9e9,J&J's,0,12,10,10,,10
+2026-09-26,milan,loreto,07f69aca-521e-490f-be31-67ac649ec9e9,J&J's,0,12,9,9,,9
 2026-09-23,milan,milan-centrale-railway-station,09f2f50f-644f-4a82-830c-07e8baf3b611,J&J's,0,3,10,10,,10
 2026-09-24,milan,milan-centrale-railway-station,09f2f50f-644f-4a82-830c-07e8baf3b611,J&J's,0,9,10,9,,10
 2026-09-25,milan,milan-centrale-railway-station,09f2f50f-644f-4a82-830c-07e8baf3b611,J&J's,0,14,9,9,,9
@@ -4662,7 +4662,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,missori,105e09f2-c357-4405-8ced-a14d09ddf2f3,J&J's,0,3,16,16,,17
 2026-09-24,milan,missori,105e09f2-c357-4405-8ced-a14d09ddf2f3,J&J's,0,9,19,19,,19
 2026-09-25,milan,missori,105e09f2-c357-4405-8ced-a14d09ddf2f3,J&J's,0,14,24,23,,24
-2026-09-26,milan,missori,105e09f2-c357-4405-8ced-a14d09ddf2f3,J&J's,0,12,24,24,,24
+2026-09-26,milan,missori,105e09f2-c357-4405-8ced-a14d09ddf2f3,J&J's,0,12,25,25,,25
 2026-09-23,milan,milan-centrale-railway-station,115cd70d-82ad-4540-bee1-400957f2b5ba,J&J's,0,3,0,0,,0
 2026-09-24,milan,milan-centrale-railway-station,115cd70d-82ad-4540-bee1-400957f2b5ba,J&J's,0,9,0,0,,0
 2026-09-25,milan,milan-centrale-railway-station,115cd70d-82ad-4540-bee1-400957f2b5ba,J&J's,0,14,0,0,,0
@@ -4698,7 +4698,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,cadorna,1ad2fa7a-f895-4f11-87e2-88d7b77e9c14,J&J's,20,3,12,12,60.0,12
 2026-09-24,milan,cadorna,1ad2fa7a-f895-4f11-87e2-88d7b77e9c14,J&J's,20,9,12,11,60.0,12
 2026-09-25,milan,cadorna,1ad2fa7a-f895-4f11-87e2-88d7b77e9c14,J&J's,20,14,13,13,65.0,13
-2026-09-26,milan,cadorna,1ad2fa7a-f895-4f11-87e2-88d7b77e9c14,J&J's,20,12,14,14,70.0,16
+2026-09-26,milan,cadorna,1ad2fa7a-f895-4f11-87e2-88d7b77e9c14,J&J's,20,12,15,15,75.0,17
 2026-09-23,milan,milan-centrale-railway-station,1c7508bd-72f6-4b7c-bc0e-49a414eb3cec,J&J's,50,3,0,0,0.0,0
 2026-09-24,milan,milan-centrale-railway-station,1c7508bd-72f6-4b7c-bc0e-49a414eb3cec,J&J's,50,9,0,0,0.0,0
 2026-09-25,milan,milan-centrale-railway-station,1c7508bd-72f6-4b7c-bc0e-49a414eb3cec,J&J's,50,14,0,0,0.0,0
@@ -4782,7 +4782,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,duomo,2a5ef432-daea-4537-9ace-003273340654,J&J's,15,3,40,38,266.7,40
 2026-09-24,milan,duomo,2a5ef432-daea-4537-9ace-003273340654,J&J's,15,9,38,38,253.3,38
 2026-09-25,milan,duomo,2a5ef432-daea-4537-9ace-003273340654,J&J's,15,14,39,37,260.0,40
-2026-09-26,milan,duomo,2a5ef432-daea-4537-9ace-003273340654,J&J's,15,12,39,35,260.0,39
+2026-09-26,milan,duomo,2a5ef432-daea-4537-9ace-003273340654,J&J's,15,12,39,38,260.0,39
 2026-09-23,milan,villapizzone-railway-station,2aa2c7e1-4c16-4f0a-811d-4fd7c7d0a6e0,J&J's,0,3,0,0,,0
 2026-09-24,milan,villapizzone-railway-station,2aa2c7e1-4c16-4f0a-811d-4fd7c7d0a6e0,J&J's,0,9,0,0,,0
 2026-09-25,milan,villapizzone-railway-station,2aa2c7e1-4c16-4f0a-811d-4fd7c7d0a6e0,J&J's,0,14,0,0,,0
@@ -4790,11 +4790,11 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,duomo,2b6caf73-eb34-40a1-bdae-863e1ce57894,J&J's,20,3,45,44,225.0,45
 2026-09-24,milan,duomo,2b6caf73-eb34-40a1-bdae-863e1ce57894,J&J's,20,9,43,43,215.0,44
 2026-09-25,milan,duomo,2b6caf73-eb34-40a1-bdae-863e1ce57894,J&J's,20,14,46,45,230.0,46
-2026-09-26,milan,duomo,2b6caf73-eb34-40a1-bdae-863e1ce57894,J&J's,20,12,45,39,225.0,46
+2026-09-26,milan,duomo,2b6caf73-eb34-40a1-bdae-863e1ce57894,J&J's,20,12,45,42,225.0,49
 2026-09-23,milan,porta-garibaldi-train-station,2b9e4336-893d-45e7-9e96-3817b7252bd3,J&J's,0,3,16,15,,16
 2026-09-24,milan,porta-garibaldi-train-station,2b9e4336-893d-45e7-9e96-3817b7252bd3,J&J's,0,9,18,16,,18
 2026-09-25,milan,porta-garibaldi-train-station,2b9e4336-893d-45e7-9e96-3817b7252bd3,J&J's,0,14,17,17,,18
-2026-09-26,milan,porta-garibaldi-train-station,2b9e4336-893d-45e7-9e96-3817b7252bd3,J&J's,0,12,19,19,,19
+2026-09-26,milan,porta-garibaldi-train-station,2b9e4336-893d-45e7-9e96-3817b7252bd3,J&J's,0,12,20,20,,20
 2026-09-23,milan,san-siro-stadium,2c595673-0696-4acc-8ce9-113d6b9a71cb,J&J's,0,3,1,0,,1
 2026-09-24,milan,san-siro-stadium,2c595673-0696-4acc-8ce9-113d6b9a71cb,J&J's,0,9,0,0,,0
 2026-09-25,milan,san-siro-stadium,2c595673-0696-4acc-8ce9-113d6b9a71cb,J&J's,0,14,0,0,,0
@@ -4893,7 +4893,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,cadorna,3aa8a160-20b5-41db-b451-69efa64b7b19,J&J's,0,3,78,78,,78
 2026-09-24,milan,cadorna,3aa8a160-20b5-41db-b451-69efa64b7b19,J&J's,0,9,85,82,,85
 2026-09-25,milan,cadorna,3aa8a160-20b5-41db-b451-69efa64b7b19,J&J's,0,14,82,77,,86
-2026-09-26,milan,cadorna,3aa8a160-20b5-41db-b451-69efa64b7b19,J&J's,0,12,78,75,,78
+2026-09-26,milan,cadorna,3aa8a160-20b5-41db-b451-69efa64b7b19,J&J's,0,12,78,73,,78
 2026-09-23,milan,porta-romana,3ac4856d-57b7-4548-a4b4-50ec29f9c35d,J&J's,0,3,1,0,,1
 2026-09-24,milan,porta-romana,3ac4856d-57b7-4548-a4b4-50ec29f9c35d,J&J's,0,9,0,0,,0
 2026-09-25,milan,porta-romana,3ac4856d-57b7-4548-a4b4-50ec29f9c35d,J&J's,0,14,0,0,,0
@@ -4957,7 +4957,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,santa-maria-delle-grazie,495e0244-0599-4d85-afc3-176d3a8cb5fc,J&J's,10,3,11,11,110.0,11
 2026-09-24,milan,santa-maria-delle-grazie,495e0244-0599-4d85-afc3-176d3a8cb5fc,J&J's,10,9,11,10,110.0,11
 2026-09-25,milan,santa-maria-delle-grazie,495e0244-0599-4d85-afc3-176d3a8cb5fc,J&J's,10,14,12,12,120.0,12
-2026-09-26,milan,santa-maria-delle-grazie,495e0244-0599-4d85-afc3-176d3a8cb5fc,J&J's,10,12,12,12,120.0,12
+2026-09-26,milan,santa-maria-delle-grazie,495e0244-0599-4d85-afc3-176d3a8cb5fc,J&J's,10,12,13,13,130.0,13
 2026-09-23,milan,crescenzago,4a2a6a10-3a5a-4d62-8c0c-fed1d22b6904,J&J's,0,3,0,0,,0
 2026-09-24,milan,crescenzago,4a2a6a10-3a5a-4d62-8c0c-fed1d22b6904,J&J's,0,9,0,0,,0
 2026-09-25,milan,crescenzago,4a2a6a10-3a5a-4d62-8c0c-fed1d22b6904,J&J's,0,14,0,0,,0
@@ -5017,11 +5017,11 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,corso-buenos-aires,53b67bdc-0383-41a6-a0be-321bf9123bfa,J&J's,50,3,6,6,12.0,6
 2026-09-24,milan,corso-buenos-aires,53b67bdc-0383-41a6-a0be-321bf9123bfa,J&J's,50,9,7,7,14.0,7
 2026-09-25,milan,corso-buenos-aires,53b67bdc-0383-41a6-a0be-321bf9123bfa,J&J's,50,14,7,7,14.0,7
-2026-09-26,milan,corso-buenos-aires,53b67bdc-0383-41a6-a0be-321bf9123bfa,J&J's,50,12,7,6,14.0,7
+2026-09-26,milan,corso-buenos-aires,53b67bdc-0383-41a6-a0be-321bf9123bfa,J&J's,50,12,7,5,14.0,7
 2026-09-23,milan,duomo,53fb42ef-b29c-4273-bdd1-1b5b2c5b9cf6,J&J's,0,3,9,9,,9
 2026-09-24,milan,duomo,53fb42ef-b29c-4273-bdd1-1b5b2c5b9cf6,J&J's,0,9,9,9,,10
 2026-09-25,milan,duomo,53fb42ef-b29c-4273-bdd1-1b5b2c5b9cf6,J&J's,0,14,9,9,,9
-2026-09-26,milan,duomo,53fb42ef-b29c-4273-bdd1-1b5b2c5b9cf6,J&J's,0,12,9,9,,9
+2026-09-26,milan,duomo,53fb42ef-b29c-4273-bdd1-1b5b2c5b9cf6,J&J's,0,12,9,7,,9
 2026-09-23,milan,porta-venezia,54a9e37c-3709-4263-9532-a2f23d0dc5bd,J&J's,0,3,1,1,,1
 2026-09-24,milan,porta-venezia,54a9e37c-3709-4263-9532-a2f23d0dc5bd,J&J's,0,9,1,1,,1
 2026-09-25,milan,porta-venezia,54a9e37c-3709-4263-9532-a2f23d0dc5bd,J&J's,0,14,1,0,,1
@@ -5033,7 +5033,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,milan-centrale-railway-station,59310904-759a-4b9d-bf58-814c20c3a4b8,J&J's,50,3,50,46,100.0,50
 2026-09-24,milan,milan-centrale-railway-station,59310904-759a-4b9d-bf58-814c20c3a4b8,J&J's,50,9,45,32,90.0,46
 2026-09-25,milan,milan-centrale-railway-station,59310904-759a-4b9d-bf58-814c20c3a4b8,J&J's,50,14,55,55,110.0,55
-2026-09-26,milan,milan-centrale-railway-station,59310904-759a-4b9d-bf58-814c20c3a4b8,J&J's,50,12,56,56,112.0,56
+2026-09-26,milan,milan-centrale-railway-station,59310904-759a-4b9d-bf58-814c20c3a4b8,J&J's,50,12,57,57,114.0,57
 2026-09-23,milan,baggio,5a5de21c-750e-4a5f-bf75-900ebb9f6306,J&J's,100,3,0,0,0.0,0
 2026-09-24,milan,baggio,5a5de21c-750e-4a5f-bf75-900ebb9f6306,J&J's,100,9,0,0,0.0,0
 2026-09-25,milan,baggio,5a5de21c-750e-4a5f-bf75-900ebb9f6306,J&J's,100,14,0,0,0.0,0
@@ -5053,7 +5053,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,porta-ticinese,5feedb32-00da-4242-984c-9991a287ba90,J&J's,0,3,1,1,,1
 2026-09-24,milan,porta-ticinese,5feedb32-00da-4242-984c-9991a287ba90,J&J's,0,9,1,1,,1
 2026-09-25,milan,porta-ticinese,5feedb32-00da-4242-984c-9991a287ba90,J&J's,0,14,1,1,,1
-2026-09-26,milan,porta-ticinese,5feedb32-00da-4242-984c-9991a287ba90,J&J's,0,12,1,1,,1
+2026-09-26,milan,porta-ticinese,5feedb32-00da-4242-984c-9991a287ba90,J&J's,0,12,2,2,,2
 2026-09-23,milan,greco,62ded901-668a-4bd3-ac65-5c3b391da742,J&J's,0,3,0,0,,0
 2026-09-24,milan,greco,62ded901-668a-4bd3-ac65-5c3b391da742,J&J's,0,9,0,0,,0
 2026-09-25,milan,greco,62ded901-668a-4bd3-ac65-5c3b391da742,J&J's,0,14,0,0,,0
@@ -5121,7 +5121,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,duomo,6e9fd4ed-2e37-408b-9d05-5f542a4969c8,J&J's,18,3,17,17,94.4,17
 2026-09-24,milan,duomo,6e9fd4ed-2e37-408b-9d05-5f542a4969c8,J&J's,18,9,17,12,94.4,17
 2026-09-25,milan,duomo,6e9fd4ed-2e37-408b-9d05-5f542a4969c8,J&J's,18,14,18,17,100.0,18
-2026-09-26,milan,duomo,6e9fd4ed-2e37-408b-9d05-5f542a4969c8,J&J's,18,12,17,16,94.4,17
+2026-09-26,milan,duomo,6e9fd4ed-2e37-408b-9d05-5f542a4969c8,J&J's,18,12,18,18,100.0,18
 2026-09-23,milan,porta-romana,6f67bd36-850d-4cae-abab-7c9326932640,J&J's,15,3,4,4,26.7,4
 2026-09-24,milan,porta-romana,6f67bd36-850d-4cae-abab-7c9326932640,J&J's,15,9,4,4,26.7,4
 2026-09-25,milan,porta-romana,6f67bd36-850d-4cae-abab-7c9326932640,J&J's,15,14,4,4,26.7,4
@@ -5173,7 +5173,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,cadorna,78ddf495-5bbb-4e94-bc27-da786d2a97ee,J&J's,0,3,24,24,,24
 2026-09-24,milan,cadorna,78ddf495-5bbb-4e94-bc27-da786d2a97ee,J&J's,0,9,27,27,,27
 2026-09-25,milan,cadorna,78ddf495-5bbb-4e94-bc27-da786d2a97ee,J&J's,0,14,32,32,,32
-2026-09-26,milan,cadorna,78ddf495-5bbb-4e94-bc27-da786d2a97ee,J&J's,0,12,34,34,,34
+2026-09-26,milan,cadorna,78ddf495-5bbb-4e94-bc27-da786d2a97ee,J&J's,0,12,35,35,,35
 2026-09-23,milan,cassina-de'-gatti,793ca48f-d5c3-4660-8134-6172809cd53a,J&J's,0,3,0,0,,0
 2026-09-24,milan,cassina-de'-gatti,793ca48f-d5c3-4660-8134-6172809cd53a,J&J's,0,9,0,0,,0
 2026-09-25,milan,cassina-de'-gatti,793ca48f-d5c3-4660-8134-6172809cd53a,J&J's,0,14,0,0,,0
@@ -5205,7 +5205,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,duomo,7f0f165b-86be-4243-b52f-896e9f92245c,J&J's,0,3,8,8,,8
 2026-09-24,milan,duomo,7f0f165b-86be-4243-b52f-896e9f92245c,J&J's,0,9,8,7,,8
 2026-09-25,milan,duomo,7f0f165b-86be-4243-b52f-896e9f92245c,J&J's,0,14,7,7,,7
-2026-09-26,milan,duomo,7f0f165b-86be-4243-b52f-896e9f92245c,J&J's,0,12,7,7,,7
+2026-09-26,milan,duomo,7f0f165b-86be-4243-b52f-896e9f92245c,J&J's,0,12,7,5,,7
 2026-09-23,milan,crescenzago,80a6b165-dd98-4e7a-9b90-9a9fae9f1c41,J&J's,0,3,1,1,,1
 2026-09-24,milan,crescenzago,80a6b165-dd98-4e7a-9b90-9a9fae9f1c41,J&J's,0,9,1,1,,1
 2026-09-25,milan,crescenzago,80a6b165-dd98-4e7a-9b90-9a9fae9f1c41,J&J's,0,14,1,1,,1
@@ -5253,7 +5253,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,missori,8a5b2871-fb6d-476c-9b2a-b81b3b24ec20,J&J's,50,3,6,6,12.0,6
 2026-09-24,milan,missori,8a5b2871-fb6d-476c-9b2a-b81b3b24ec20,J&J's,50,9,6,6,12.0,6
 2026-09-25,milan,missori,8a5b2871-fb6d-476c-9b2a-b81b3b24ec20,J&J's,50,14,6,5,12.0,6
-2026-09-26,milan,missori,8a5b2871-fb6d-476c-9b2a-b81b3b24ec20,J&J's,50,12,5,4,10.0,5
+2026-09-26,milan,missori,8a5b2871-fb6d-476c-9b2a-b81b3b24ec20,J&J's,50,12,7,7,14.0,8
 2026-09-23,milan,santa-maria-delle-grazie,8a89f3cf-1b9f-488c-b32a-fd9a91e09cdc,J&J's,0,3,0,0,,0
 2026-09-24,milan,santa-maria-delle-grazie,8a89f3cf-1b9f-488c-b32a-fd9a91e09cdc,J&J's,0,9,0,0,,0
 2026-09-25,milan,santa-maria-delle-grazie,8a89f3cf-1b9f-488c-b32a-fd9a91e09cdc,J&J's,0,14,0,0,,0
@@ -5285,7 +5285,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,milan-centrale-railway-station,910c1014-b564-4cd0-9fd2-846fe1443825,J&J's,200,3,203,203,101.5,203
 2026-09-24,milan,milan-centrale-railway-station,910c1014-b564-4cd0-9fd2-846fe1443825,J&J's,200,9,207,207,103.5,212
 2026-09-25,milan,milan-centrale-railway-station,910c1014-b564-4cd0-9fd2-846fe1443825,J&J's,200,14,214,212,107.0,219
-2026-09-26,milan,milan-centrale-railway-station,910c1014-b564-4cd0-9fd2-846fe1443825,J&J's,200,12,219,219,109.5,220
+2026-09-26,milan,milan-centrale-railway-station,910c1014-b564-4cd0-9fd2-846fe1443825,J&J's,200,12,222,222,111.0,223
 2026-09-23,milan,derganino,9232f4ae-ba1f-4202-8bbb-3b5008f83b62,J&J's,0,3,0,0,,0
 2026-09-24,milan,derganino,9232f4ae-ba1f-4202-8bbb-3b5008f83b62,J&J's,0,9,0,0,,0
 2026-09-25,milan,derganino,9232f4ae-ba1f-4202-8bbb-3b5008f83b62,J&J's,0,14,0,0,,0
@@ -5301,7 +5301,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,piazza-gae-aulenti,955a3522-a940-4e67-b466-f31c33625d06,J&J's,0,3,34,34,,34
 2026-09-24,milan,piazza-gae-aulenti,955a3522-a940-4e67-b466-f31c33625d06,J&J's,0,9,37,36,,38
 2026-09-25,milan,piazza-gae-aulenti,955a3522-a940-4e67-b466-f31c33625d06,J&J's,0,14,39,39,,41
-2026-09-26,milan,piazza-gae-aulenti,955a3522-a940-4e67-b466-f31c33625d06,J&J's,0,12,45,44,,46
+2026-09-26,milan,piazza-gae-aulenti,955a3522-a940-4e67-b466-f31c33625d06,J&J's,0,12,46,46,,47
 2026-09-23,milan,cormano,96ec269c-9554-4a9a-8910-de8e9ba5ee07,J&J's,0,3,0,0,,0
 2026-09-24,milan,cormano,96ec269c-9554-4a9a-8910-de8e9ba5ee07,J&J's,0,9,0,0,,0
 2026-09-25,milan,cormano,96ec269c-9554-4a9a-8910-de8e9ba5ee07,J&J's,0,14,0,0,,0
@@ -5309,7 +5309,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,porta-genova,974ba19b-4368-4648-b56a-2fcbc76376f1,J&J's,0,3,16,16,,16
 2026-09-24,milan,porta-genova,974ba19b-4368-4648-b56a-2fcbc76376f1,J&J's,0,9,16,16,,16
 2026-09-25,milan,porta-genova,974ba19b-4368-4648-b56a-2fcbc76376f1,J&J's,0,14,20,20,,20
-2026-09-26,milan,porta-genova,974ba19b-4368-4648-b56a-2fcbc76376f1,J&J's,0,12,24,24,,24
+2026-09-26,milan,porta-genova,974ba19b-4368-4648-b56a-2fcbc76376f1,J&J's,0,12,23,23,,23
 2026-09-23,milan,san-babila,99aa6a2d-e993-4d8f-9c60-c21bb0074389,J&J's,5,3,0,0,0.0,0
 2026-09-24,milan,san-babila,99aa6a2d-e993-4d8f-9c60-c21bb0074389,J&J's,5,9,0,0,0.0,0
 2026-09-25,milan,san-babila,99aa6a2d-e993-4d8f-9c60-c21bb0074389,J&J's,5,14,0,0,0.0,0
@@ -5333,7 +5333,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,duomo,9c601575-bad2-4fda-af88-2cc2f1d2febe,J&J's,0,3,295,295,,295
 2026-09-24,milan,duomo,9c601575-bad2-4fda-af88-2cc2f1d2febe,J&J's,0,9,295,291,,296
 2026-09-25,milan,duomo,9c601575-bad2-4fda-af88-2cc2f1d2febe,J&J's,0,14,290,278,,291
-2026-09-26,milan,duomo,9c601575-bad2-4fda-af88-2cc2f1d2febe,J&J's,0,12,282,272,,283
+2026-09-26,milan,duomo,9c601575-bad2-4fda-af88-2cc2f1d2febe,J&J's,0,12,282,271,,283
 2026-09-23,milan,missori,9d5e6b4b-a94b-4538-97b7-5bcbf6f466f3,J&J's,0,3,2,2,,2
 2026-09-24,milan,missori,9d5e6b4b-a94b-4538-97b7-5bcbf6f466f3,J&J's,0,9,3,3,,3
 2026-09-25,milan,missori,9d5e6b4b-a94b-4538-97b7-5bcbf6f466f3,J&J's,0,14,3,3,,3
@@ -5369,7 +5369,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,porta-romana,a4487913-cf76-4cc4-8aad-893c3001671b,J&J's,0,3,4,4,,4
 2026-09-24,milan,porta-romana,a4487913-cf76-4cc4-8aad-893c3001671b,J&J's,0,9,4,4,,4
 2026-09-25,milan,porta-romana,a4487913-cf76-4cc4-8aad-893c3001671b,J&J's,0,14,4,4,,4
-2026-09-26,milan,porta-romana,a4487913-cf76-4cc4-8aad-893c3001671b,J&J's,0,12,4,3,,4
+2026-09-26,milan,porta-romana,a4487913-cf76-4cc4-8aad-893c3001671b,J&J's,0,12,4,4,,4
 2026-09-23,milan,milan-centrale-railway-station,a50243d1-9edf-4ffe-b5d2-93fdd1235056,J&J's,10,3,3,3,30.0,3
 2026-09-24,milan,milan-centrale-railway-station,a50243d1-9edf-4ffe-b5d2-93fdd1235056,J&J's,10,9,3,3,30.0,3
 2026-09-25,milan,milan-centrale-railway-station,a50243d1-9edf-4ffe-b5d2-93fdd1235056,J&J's,10,14,3,1,30.0,3
@@ -5421,7 +5421,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,milan-centrale-railway-station,b14c19cc-c9ee-4548-afe7-dc29e98fa24d,J&J's,0,3,138,138,,138
 2026-09-24,milan,milan-centrale-railway-station,b14c19cc-c9ee-4548-afe7-dc29e98fa24d,J&J's,0,9,147,146,,150
 2026-09-25,milan,milan-centrale-railway-station,b14c19cc-c9ee-4548-afe7-dc29e98fa24d,J&J's,0,14,156,156,,157
-2026-09-26,milan,milan-centrale-railway-station,b14c19cc-c9ee-4548-afe7-dc29e98fa24d,J&J's,0,12,156,148,,156
+2026-09-26,milan,milan-centrale-railway-station,b14c19cc-c9ee-4548-afe7-dc29e98fa24d,J&J's,0,12,156,150,,156
 2026-09-23,milan,lanza,b1ed6fd5-0316-47a2-bde8-c7e4b2616210,J&J's,0,3,9,9,,9
 2026-09-24,milan,lanza,b1ed6fd5-0316-47a2-bde8-c7e4b2616210,J&J's,0,9,9,9,,11
 2026-09-25,milan,lanza,b1ed6fd5-0316-47a2-bde8-c7e4b2616210,J&J's,0,14,11,11,,11
@@ -5441,7 +5441,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,porta-venezia,b538e5d4-b83c-470e-988c-09bd746d3d12,J&J's,0,3,18,18,,18
 2026-09-24,milan,porta-venezia,b538e5d4-b83c-470e-988c-09bd746d3d12,J&J's,0,9,18,16,,18
 2026-09-25,milan,porta-venezia,b538e5d4-b83c-470e-988c-09bd746d3d12,J&J's,0,14,16,12,,16
-2026-09-26,milan,porta-venezia,b538e5d4-b83c-470e-988c-09bd746d3d12,J&J's,0,12,13,12,,13
+2026-09-26,milan,porta-venezia,b538e5d4-b83c-470e-988c-09bd746d3d12,J&J's,0,12,13,13,,13
 2026-09-23,milan,porta-venezia,b7f0c949-5ae6-40b9-97f1-7b00e03ac985,J&J's,0,3,1,1,,1
 2026-09-24,milan,porta-venezia,b7f0c949-5ae6-40b9-97f1-7b00e03ac985,J&J's,0,9,2,2,,2
 2026-09-25,milan,porta-venezia,b7f0c949-5ae6-40b9-97f1-7b00e03ac985,J&J's,0,14,2,2,,2
@@ -5469,11 +5469,11 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,carrobbio,bc00c97e-b97b-4f7e-bd11-bf932bdff31c,J&J's,15,3,17,17,113.3,17
 2026-09-24,milan,carrobbio,bc00c97e-b97b-4f7e-bd11-bf932bdff31c,J&J's,15,9,20,20,133.3,20
 2026-09-25,milan,carrobbio,bc00c97e-b97b-4f7e-bd11-bf932bdff31c,J&J's,15,14,20,17,133.3,21
-2026-09-26,milan,carrobbio,bc00c97e-b97b-4f7e-bd11-bf932bdff31c,J&J's,15,12,17,17,113.3,17
+2026-09-26,milan,carrobbio,bc00c97e-b97b-4f7e-bd11-bf932bdff31c,J&J's,15,12,18,18,120.0,18
 2026-09-23,milan,duomo,bc5eaa44-afad-4f70-b232-515f5af2e4c2,J&J's,0,3,25,25,,25
 2026-09-24,milan,duomo,bc5eaa44-afad-4f70-b232-515f5af2e4c2,J&J's,0,9,25,23,,25
 2026-09-25,milan,duomo,bc5eaa44-afad-4f70-b232-515f5af2e4c2,J&J's,0,14,25,25,,25
-2026-09-26,milan,duomo,bc5eaa44-afad-4f70-b232-515f5af2e4c2,J&J's,0,12,25,22,,25
+2026-09-26,milan,duomo,bc5eaa44-afad-4f70-b232-515f5af2e4c2,J&J's,0,12,25,23,,25
 2026-09-23,milan,novate-milanese,bcfef9ea-615b-4b09-9370-c88b9fe4bd4d,J&J's,0,3,0,0,,0
 2026-09-24,milan,novate-milanese,bcfef9ea-615b-4b09-9370-c88b9fe4bd4d,J&J's,0,9,0,0,,0
 2026-09-25,milan,novate-milanese,bcfef9ea-615b-4b09-9370-c88b9fe4bd4d,J&J's,0,14,0,0,,0
@@ -5513,7 +5513,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,duomo,c271baf6-7205-4a4e-bd1b-7ee97f4f5910,J&J's,100,3,84,83,84.0,84
 2026-09-24,milan,duomo,c271baf6-7205-4a4e-bd1b-7ee97f4f5910,J&J's,100,9,88,85,88.0,89
 2026-09-25,milan,duomo,c271baf6-7205-4a4e-bd1b-7ee97f4f5910,J&J's,100,14,86,80,86.0,88
-2026-09-26,milan,duomo,c271baf6-7205-4a4e-bd1b-7ee97f4f5910,J&J's,100,12,81,78,81.0,81
+2026-09-26,milan,duomo,c271baf6-7205-4a4e-bd1b-7ee97f4f5910,J&J's,100,12,81,79,81.0,81
 2026-09-23,milan,porta-garibaldi,c370b50c-d159-4597-b96b-4ed88382ad3b,J&J's,0,3,10,10,,10
 2026-09-24,milan,porta-garibaldi,c370b50c-d159-4597-b96b-4ed88382ad3b,J&J's,0,9,11,11,,11
 2026-09-25,milan,porta-garibaldi,c370b50c-d159-4597-b96b-4ed88382ad3b,J&J's,0,14,12,12,,12
@@ -5577,7 +5577,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,milan-centrale-railway-station,cf134732-f329-4757-86d0-bd4ff3391558,J&J's,150,3,241,241,160.7,241
 2026-09-24,milan,milan-centrale-railway-station,cf134732-f329-4757-86d0-bd4ff3391558,J&J's,150,9,261,261,174.0,261
 2026-09-25,milan,milan-centrale-railway-station,cf134732-f329-4757-86d0-bd4ff3391558,J&J's,150,14,270,268,180.0,275
-2026-09-26,milan,milan-centrale-railway-station,cf134732-f329-4757-86d0-bd4ff3391558,J&J's,150,12,276,276,184.0,278
+2026-09-26,milan,milan-centrale-railway-station,cf134732-f329-4757-86d0-bd4ff3391558,J&J's,150,12,281,281,187.3,283
 2026-09-23,milan,porta-garibaldi-train-station,d014934d-e064-45d3-aac7-e907a317c6c7,J&J's,0,3,1,1,,1
 2026-09-24,milan,porta-garibaldi-train-station,d014934d-e064-45d3-aac7-e907a317c6c7,J&J's,0,9,1,1,,1
 2026-09-25,milan,porta-garibaldi-train-station,d014934d-e064-45d3-aac7-e907a317c6c7,J&J's,0,14,1,1,,1
@@ -5593,7 +5593,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,porta-venezia,d19f676c-b3d8-40ea-940f-5671b12c48be,J&J's,0,3,13,13,,13
 2026-09-24,milan,porta-venezia,d19f676c-b3d8-40ea-940f-5671b12c48be,J&J's,0,9,13,8,,13
 2026-09-25,milan,porta-venezia,d19f676c-b3d8-40ea-940f-5671b12c48be,J&J's,0,14,10,9,,10
-2026-09-26,milan,porta-venezia,d19f676c-b3d8-40ea-940f-5671b12c48be,J&J's,0,12,10,10,,10
+2026-09-26,milan,porta-venezia,d19f676c-b3d8-40ea-940f-5671b12c48be,J&J's,0,12,9,9,,9
 2026-09-23,milan,molino-borgazzi,d2b915a3-5f0f-4c62-a777-ec470d63102c,J&J's,0,3,0,0,,0
 2026-09-24,milan,molino-borgazzi,d2b915a3-5f0f-4c62-a777-ec470d63102c,J&J's,0,9,0,0,,0
 2026-09-25,milan,molino-borgazzi,d2b915a3-5f0f-4c62-a777-ec470d63102c,J&J's,0,14,0,0,,0
@@ -5617,7 +5617,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,china-town-milan,d3da5bc1-45cb-4921-bae7-0704993debf7,J&J's,0,3,3,3,,3
 2026-09-24,milan,china-town-milan,d3da5bc1-45cb-4921-bae7-0704993debf7,J&J's,0,9,3,3,,4
 2026-09-25,milan,china-town-milan,d3da5bc1-45cb-4921-bae7-0704993debf7,J&J's,0,14,3,3,,3
-2026-09-26,milan,china-town-milan,d3da5bc1-45cb-4921-bae7-0704993debf7,J&J's,0,12,4,4,,4
+2026-09-26,milan,china-town-milan,d3da5bc1-45cb-4921-bae7-0704993debf7,J&J's,0,12,5,5,,5
 2026-09-23,milan,vittoria,d646ec07-b9e4-42fe-823d-228fcbf13c51,J&J's,0,3,0,0,,0
 2026-09-24,milan,vittoria,d646ec07-b9e4-42fe-823d-228fcbf13c51,J&J's,0,9,0,0,,0
 2026-09-25,milan,vittoria,d646ec07-b9e4-42fe-823d-228fcbf13c51,J&J's,0,14,0,0,,0
@@ -5645,7 +5645,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,cadorna,d8c6164f-dc63-4da5-aa22-d6a64647f74a,J&J's,20,3,28,27,140.0,28
 2026-09-24,milan,cadorna,d8c6164f-dc63-4da5-aa22-d6a64647f74a,J&J's,20,9,27,25,135.0,27
 2026-09-25,milan,cadorna,d8c6164f-dc63-4da5-aa22-d6a64647f74a,J&J's,20,14,25,24,125.0,26
-2026-09-26,milan,cadorna,d8c6164f-dc63-4da5-aa22-d6a64647f74a,J&J's,20,12,25,25,125.0,25
+2026-09-26,milan,cadorna,d8c6164f-dc63-4da5-aa22-d6a64647f74a,J&J's,20,12,26,26,130.0,26
 2026-09-23,milan,conchetta,d9121e85-8e7f-4957-9bd6-a1b9128b8f42,J&J's,0,3,0,0,,0
 2026-09-24,milan,conchetta,d9121e85-8e7f-4957-9bd6-a1b9128b8f42,J&J's,0,9,0,0,,0
 2026-09-25,milan,conchetta,d9121e85-8e7f-4957-9bd6-a1b9128b8f42,J&J's,0,14,0,0,,0
@@ -5677,7 +5677,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,duomo,de5d7e04-07d4-4582-a945-0dfc05e4dd26,J&J's,0,3,47,47,,47
 2026-09-24,milan,duomo,de5d7e04-07d4-4582-a945-0dfc05e4dd26,J&J's,0,9,48,48,,50
 2026-09-25,milan,duomo,de5d7e04-07d4-4582-a945-0dfc05e4dd26,J&J's,0,14,49,47,,51
-2026-09-26,milan,duomo,de5d7e04-07d4-4582-a945-0dfc05e4dd26,J&J's,0,12,48,47,,48
+2026-09-26,milan,duomo,de5d7e04-07d4-4582-a945-0dfc05e4dd26,J&J's,0,12,48,45,,48
 2026-09-23,milan,milano-certosa,de7068dd-8756-4c53-9bfd-a1035f89ddb0,J&J's,0,3,2,2,,2
 2026-09-24,milan,milano-certosa,de7068dd-8756-4c53-9bfd-a1035f89ddb0,J&J's,0,9,2,2,,2
 2026-09-25,milan,milano-certosa,de7068dd-8756-4c53-9bfd-a1035f89ddb0,J&J's,0,14,3,3,,3
@@ -5689,7 +5689,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,milano-repubblica-station,df4293fd-19f7-4ebb-a59f-ba30f98f8fdc,J&J's,0,3,7,7,,7
 2026-09-24,milan,milano-repubblica-station,df4293fd-19f7-4ebb-a59f-ba30f98f8fdc,J&J's,0,9,7,7,,8
 2026-09-25,milan,milano-repubblica-station,df4293fd-19f7-4ebb-a59f-ba30f98f8fdc,J&J's,0,14,9,8,,9
-2026-09-26,milan,milano-repubblica-station,df4293fd-19f7-4ebb-a59f-ba30f98f8fdc,J&J's,0,12,10,10,,10
+2026-09-26,milan,milano-repubblica-station,df4293fd-19f7-4ebb-a59f-ba30f98f8fdc,J&J's,0,12,11,11,,11
 2026-09-23,milan,cantun-sciatin,df65466f-4360-4194-8843-fe5b79df07fb,J&J's,0,3,0,0,,0
 2026-09-24,milan,cantun-sciatin,df65466f-4360-4194-8843-fe5b79df07fb,J&J's,0,9,0,0,,0
 2026-09-25,milan,cantun-sciatin,df65466f-4360-4194-8843-fe5b79df07fb,J&J's,0,14,0,0,,0
@@ -5697,7 +5697,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,fiera,e16fe72a-ebe4-488d-b209-2a91279b8342,J&J's,100,3,3,3,3.0,3
 2026-09-24,milan,fiera,e16fe72a-ebe4-488d-b209-2a91279b8342,J&J's,100,9,4,3,4.0,4
 2026-09-25,milan,fiera,e16fe72a-ebe4-488d-b209-2a91279b8342,J&J's,100,14,3,3,3.0,3
-2026-09-26,milan,fiera,e16fe72a-ebe4-488d-b209-2a91279b8342,J&J's,100,12,4,4,4.0,4
+2026-09-26,milan,fiera,e16fe72a-ebe4-488d-b209-2a91279b8342,J&J's,100,12,5,5,5.0,5
 2026-09-23,milan,duomo,e3ab625b-fd79-4b9b-bed9-8b5f16226d20,J&J's,40,3,53,53,132.5,53
 2026-09-24,milan,duomo,e3ab625b-fd79-4b9b-bed9-8b5f16226d20,J&J's,40,9,54,47,135.0,54
 2026-09-25,milan,duomo,e3ab625b-fd79-4b9b-bed9-8b5f16226d20,J&J's,40,14,48,48,120.0,48
@@ -5745,7 +5745,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,milan,milan-centrale-railway-station,ed41ffe3-e850-4625-b1cb-796584c20dd8,J&J's,0,3,4,4,,4
 2026-09-24,milan,milan-centrale-railway-station,ed41ffe3-e850-4625-b1cb-796584c20dd8,J&J's,0,9,4,3,,4
 2026-09-25,milan,milan-centrale-railway-station,ed41ffe3-e850-4625-b1cb-796584c20dd8,J&J's,0,14,4,3,,4
-2026-09-26,milan,milan-centrale-railway-station,ed41ffe3-e850-4625-b1cb-796584c20dd8,J&J's,0,12,3,3,,3
+2026-09-26,milan,milan-centrale-railway-station,ed41ffe3-e850-4625-b1cb-796584c20dd8,J&J's,0,12,3,2,,3
 2026-09-23,milan,mecenate,eda0baa0-1bb5-43f7-86a3-22d3ead60a31,J&J's,0,3,0,0,,0
 2026-09-24,milan,mecenate,eda0baa0-1bb5-43f7-86a3-22d3ead60a31,J&J's,0,9,0,0,,0
 2026-09-25,milan,mecenate,eda0baa0-1bb5-43f7-86a3-22d3ead60a31,J&J's,0,14,0,0,,0
@@ -6017,7 +6017,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,naples,piazza-del-gesu,02b59ec4-e02a-4a6c-99a8-572a82a4030b,J&J's,0,3,8,8,,8
 2026-09-24,naples,piazza-del-gesu,02b59ec4-e02a-4a6c-99a8-572a82a4030b,J&J's,0,9,10,9,,10
 2026-09-25,naples,piazza-del-gesu,02b59ec4-e02a-4a6c-99a8-572a82a4030b,J&J's,0,14,9,7,,9
-2026-09-26,naples,piazza-del-gesu,02b59ec4-e02a-4a6c-99a8-572a82a4030b,J&J's,0,12,7,7,,7
+2026-09-26,naples,piazza-del-gesu,02b59ec4-e02a-4a6c-99a8-572a82a4030b,J&J's,0,12,7,6,,7
 2026-09-23,naples,ripuaria,03221ce1-728b-4ad3-8b28-0b8e69a67abc,J&J's,0,3,0,0,,0
 2026-09-24,naples,ripuaria,03221ce1-728b-4ad3-8b28-0b8e69a67abc,J&J's,0,9,0,0,,0
 2026-09-25,naples,ripuaria,03221ce1-728b-4ad3-8b28-0b8e69a67abc,J&J's,0,14,0,0,,0
@@ -6101,7 +6101,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,naples,dante,0df58e33-2219-4a46-8caa-2eb9429224ff,J&J's,60,3,1,1,1.7,1
 2026-09-24,naples,dante,0df58e33-2219-4a46-8caa-2eb9429224ff,J&J's,60,9,2,2,3.3,2
 2026-09-25,naples,dante,0df58e33-2219-4a46-8caa-2eb9429224ff,J&J's,60,14,1,1,1.7,1
-2026-09-26,naples,dante,0df58e33-2219-4a46-8caa-2eb9429224ff,J&J's,60,12,1,1,1.7,1
+2026-09-26,naples,dante,0df58e33-2219-4a46-8caa-2eb9429224ff,J&J's,60,12,2,2,3.3,2
 2026-09-23,naples,vomero,0e55096c-7615-4924-8c7f-a3ddab6041e7,J&J's,0,3,0,0,,0
 2026-09-24,naples,vomero,0e55096c-7615-4924-8c7f-a3ddab6041e7,J&J's,0,9,0,0,,0
 2026-09-25,naples,vomero,0e55096c-7615-4924-8c7f-a3ddab6041e7,J&J's,0,14,0,0,,0
@@ -6153,7 +6153,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,naples,naples-centrale-train-station,165ec684-9234-4d5f-8189-d26c7e6ead7d,J&J's,0,3,30,30,,30
 2026-09-24,naples,naples-centrale-train-station,165ec684-9234-4d5f-8189-d26c7e6ead7d,J&J's,0,9,30,27,,31
 2026-09-25,naples,naples-centrale-train-station,165ec684-9234-4d5f-8189-d26c7e6ead7d,J&J's,0,14,29,27,,29
-2026-09-26,naples,naples-centrale-train-station,165ec684-9234-4d5f-8189-d26c7e6ead7d,J&J's,0,12,28,28,,28
+2026-09-26,naples,naples-centrale-train-station,165ec684-9234-4d5f-8189-d26c7e6ead7d,J&J's,0,12,29,29,,29
 2026-09-23,naples,santa-lucia,170c956a-e3e8-43d8-832f-49ee4f1ea631,J&J's,30,3,0,0,0.0,0
 2026-09-24,naples,santa-lucia,170c956a-e3e8-43d8-832f-49ee4f1ea631,J&J's,30,9,0,0,0.0,0
 2026-09-25,naples,santa-lucia,170c956a-e3e8-43d8-832f-49ee4f1ea631,J&J's,30,14,0,0,0.0,0
@@ -6381,7 +6381,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,naples,universita,38c3e43d-f7b2-490f-ab56-5ecdf972fadb,J&J's,0,3,10,10,,10
 2026-09-24,naples,universita,38c3e43d-f7b2-490f-ab56-5ecdf972fadb,J&J's,0,9,14,14,,14
 2026-09-25,naples,universita,38c3e43d-f7b2-490f-ab56-5ecdf972fadb,J&J's,0,14,13,12,,13
-2026-09-26,naples,universita,38c3e43d-f7b2-490f-ab56-5ecdf972fadb,J&J's,0,12,12,12,,13
+2026-09-26,naples,universita,38c3e43d-f7b2-490f-ab56-5ecdf972fadb,J&J's,0,12,13,13,,14
 2026-09-23,naples,san-giorgio-a-cremano,3b1f22d9-8550-4583-9d28-1d7dc2478d34,J&J's,0,3,0,0,,0
 2026-09-24,naples,san-giorgio-a-cremano,3b1f22d9-8550-4583-9d28-1d7dc2478d34,J&J's,0,9,0,0,,0
 2026-09-25,naples,san-giorgio-a-cremano,3b1f22d9-8550-4583-9d28-1d7dc2478d34,J&J's,0,14,0,0,,0
@@ -6493,7 +6493,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,naples,napoli-porta-nolana,4b3d0388-fc90-49e1-9140-21177935ef47,J&J's,0,3,0,0,,0
 2026-09-24,naples,napoli-porta-nolana,4b3d0388-fc90-49e1-9140-21177935ef47,J&J's,0,9,0,0,,0
 2026-09-25,naples,napoli-porta-nolana,4b3d0388-fc90-49e1-9140-21177935ef47,J&J's,0,14,0,0,,0
-2026-09-26,naples,napoli-porta-nolana,4b3d0388-fc90-49e1-9140-21177935ef47,J&J's,0,12,1,1,,1
+2026-09-26,naples,napoli-porta-nolana,4b3d0388-fc90-49e1-9140-21177935ef47,J&J's,0,12,2,2,,2
 2026-09-23,naples,volla,4c63b7d4-8956-4325-9c33-f01581c49eed,J&J's,0,3,0,0,,0
 2026-09-24,naples,volla,4c63b7d4-8956-4325-9c33-f01581c49eed,J&J's,0,9,0,0,,0
 2026-09-25,naples,volla,4c63b7d4-8956-4325-9c33-f01581c49eed,J&J's,0,14,0,0,,0
@@ -6557,7 +6557,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,naples,naples-centrale-train-station,545107dd-2f11-421f-91a7-dbe37ff677cb,J&J's,0,3,135,135,,135
 2026-09-24,naples,naples-centrale-train-station,545107dd-2f11-421f-91a7-dbe37ff677cb,J&J's,0,9,140,140,,146
 2026-09-25,naples,naples-centrale-train-station,545107dd-2f11-421f-91a7-dbe37ff677cb,J&J's,0,14,146,144,,150
-2026-09-26,naples,naples-centrale-train-station,545107dd-2f11-421f-91a7-dbe37ff677cb,J&J's,0,12,143,140,,144
+2026-09-26,naples,naples-centrale-train-station,545107dd-2f11-421f-91a7-dbe37ff677cb,J&J's,0,12,143,139,,144
 2026-09-23,naples,colonne,54c26b94-412a-4402-bcd3-ceaaf5b85704,J&J's,0,3,0,0,,0
 2026-09-24,naples,colonne,54c26b94-412a-4402-bcd3-ceaaf5b85704,J&J's,0,9,0,0,,0
 2026-09-25,naples,colonne,54c26b94-412a-4402-bcd3-ceaaf5b85704,J&J's,0,14,0,0,,0
@@ -6649,7 +6649,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,naples,dante,62a0d3f0-ad54-4caa-86c8-5248ecceeda5,J&J's,0,3,1,1,,1
 2026-09-24,naples,dante,62a0d3f0-ad54-4caa-86c8-5248ecceeda5,J&J's,0,9,1,0,,1
 2026-09-25,naples,dante,62a0d3f0-ad54-4caa-86c8-5248ecceeda5,J&J's,0,14,1,1,,1
-2026-09-26,naples,dante,62a0d3f0-ad54-4caa-86c8-5248ecceeda5,J&J's,0,12,1,1,,1
+2026-09-26,naples,dante,62a0d3f0-ad54-4caa-86c8-5248ecceeda5,J&J's,0,12,2,2,,2
 2026-09-23,naples,universita,634aaaa1-a1b8-4d36-9ac2-3074a1fddce0,J&J's,30,3,6,6,20.0,6
 2026-09-24,naples,universita,634aaaa1-a1b8-4d36-9ac2-3074a1fddce0,J&J's,30,9,6,5,20.0,6
 2026-09-25,naples,universita,634aaaa1-a1b8-4d36-9ac2-3074a1fddce0,J&J's,30,14,5,4,16.7,5
@@ -6901,7 +6901,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,naples,universita,8a65d969-f57c-40bf-8534-35da63527203,J&J's,0,3,14,14,,14
 2026-09-24,naples,universita,8a65d969-f57c-40bf-8534-35da63527203,J&J's,0,9,15,15,,15
 2026-09-25,naples,universita,8a65d969-f57c-40bf-8534-35da63527203,J&J's,0,14,15,12,,16
-2026-09-26,naples,universita,8a65d969-f57c-40bf-8534-35da63527203,J&J's,0,12,13,13,,13
+2026-09-26,naples,universita,8a65d969-f57c-40bf-8534-35da63527203,J&J's,0,12,13,12,,13
 2026-09-23,naples,sant'antonio,8b92aa2c-c8d1-4b8f-9937-38b999072fa3,J&J's,0,3,0,0,,0
 2026-09-24,naples,sant'antonio,8b92aa2c-c8d1-4b8f-9937-38b999072fa3,J&J's,0,9,0,0,,0
 2026-09-25,naples,sant'antonio,8b92aa2c-c8d1-4b8f-9937-38b999072fa3,J&J's,0,14,0,0,,0
@@ -7409,7 +7409,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,naples,via-toledo,d9b83d4d-5c9e-4870-b363-99c334e327d7,J&J's,0,3,0,0,,0
 2026-09-24,naples,via-toledo,d9b83d4d-5c9e-4870-b363-99c334e327d7,J&J's,0,9,0,0,,0
 2026-09-25,naples,via-toledo,d9b83d4d-5c9e-4870-b363-99c334e327d7,J&J's,0,14,0,0,,0
-2026-09-26,naples,via-toledo,d9b83d4d-5c9e-4870-b363-99c334e327d7,J&J's,0,12,0,0,,0
+2026-09-26,naples,via-toledo,d9b83d4d-5c9e-4870-b363-99c334e327d7,J&J's,0,12,1,1,,1
 2026-09-23,naples,fuorigrotta,da8bf6ba-d850-4434-a17d-ece5166cb4b8,J&J's,0,3,0,0,,0
 2026-09-24,naples,fuorigrotta,da8bf6ba-d850-4434-a17d-ece5166cb4b8,J&J's,0,9,0,0,,0
 2026-09-25,naples,fuorigrotta,da8bf6ba-d850-4434-a17d-ece5166cb4b8,J&J's,0,14,0,0,,0
@@ -7465,7 +7465,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,naples,naples-centrale-train-station,e3665b49-8f74-4a42-b299-721ece6fac5c,J&J's,0,3,15,13,,15
 2026-09-24,naples,naples-centrale-train-station,e3665b49-8f74-4a42-b299-721ece6fac5c,J&J's,0,9,12,7,,12
 2026-09-25,naples,naples-centrale-train-station,e3665b49-8f74-4a42-b299-721ece6fac5c,J&J's,0,14,8,8,,8
-2026-09-26,naples,naples-centrale-train-station,e3665b49-8f74-4a42-b299-721ece6fac5c,J&J's,0,12,10,10,,10
+2026-09-26,naples,naples-centrale-train-station,e3665b49-8f74-4a42-b299-721ece6fac5c,J&J's,0,12,10,9,,10
 2026-09-23,naples,palma-campania,e3689512-84ab-42b7-841b-3bfc651b1121,J&J's,0,3,0,0,,0
 2026-09-24,naples,palma-campania,e3689512-84ab-42b7-841b-3bfc651b1121,J&J's,0,9,0,0,,0
 2026-09-25,naples,palma-campania,e3689512-84ab-42b7-841b-3bfc651b1121,J&J's,0,14,0,0,,0
@@ -7473,7 +7473,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,naples,naples-centrale-train-station,e42e6e36-e162-44a6-9832-c94e9a6b2c1f,J&J's,100,3,0,0,0.0,0
 2026-09-24,naples,naples-centrale-train-station,e42e6e36-e162-44a6-9832-c94e9a6b2c1f,J&J's,100,9,0,0,0.0,0
 2026-09-25,naples,naples-centrale-train-station,e42e6e36-e162-44a6-9832-c94e9a6b2c1f,J&J's,100,14,1,1,1.0,1
-2026-09-26,naples,naples-centrale-train-station,e42e6e36-e162-44a6-9832-c94e9a6b2c1f,J&J's,100,12,2,2,2.0,2
+2026-09-26,naples,naples-centrale-train-station,e42e6e36-e162-44a6-9832-c94e9a6b2c1f,J&J's,100,12,3,3,3.0,3
 2026-09-23,naples,monument-of-giuseppe-garibaldi,e454b0c5-e9fb-4c91-acef-b901d142a977,J&J's,0,3,10,10,,10
 2026-09-24,naples,monument-of-giuseppe-garibaldi,e454b0c5-e9fb-4c91-acef-b901d142a977,J&J's,0,9,10,10,,10
 2026-09-25,naples,monument-of-giuseppe-garibaldi,e454b0c5-e9fb-4c91-acef-b901d142a977,J&J's,0,14,10,10,,10
@@ -7633,7 +7633,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,naples,naples-centrale-train-station,fae6e2f9-25fb-4610-add3-02b4d1e8f78d,J&J's,200,3,8,8,4.0,8
 2026-09-24,naples,naples-centrale-train-station,fae6e2f9-25fb-4610-add3-02b4d1e8f78d,J&J's,200,9,8,7,4.0,8
 2026-09-25,naples,naples-centrale-train-station,fae6e2f9-25fb-4610-add3-02b4d1e8f78d,J&J's,200,14,7,7,3.5,7
-2026-09-26,naples,naples-centrale-train-station,fae6e2f9-25fb-4610-add3-02b4d1e8f78d,J&J's,200,12,8,8,4.0,8
+2026-09-26,naples,naples-centrale-train-station,fae6e2f9-25fb-4610-add3-02b4d1e8f78d,J&J's,200,12,7,7,3.5,7
 2026-09-23,naples,grotta-del-sole,fca92248-c08f-4938-a4fa-19c9a1842315,J&J's,0,3,0,0,,0
 2026-09-24,naples,grotta-del-sole,fca92248-c08f-4938-a4fa-19c9a1842315,J&J's,0,9,0,0,,0
 2026-09-25,naples,grotta-del-sole,fca92248-c08f-4938-a4fa-19c9a1842315,J&J's,0,14,0,0,,0
@@ -7785,7 +7785,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,padova,main-station,3dad566c-a18d-4868-9fd6-a7fcd18369fc,J&J's,0,3,27,26,,27
 2026-09-24,padova,main-station,3dad566c-a18d-4868-9fd6-a7fcd18369fc,J&J's,0,8,25,21,,25
 2026-09-25,padova,main-station,3dad566c-a18d-4868-9fd6-a7fcd18369fc,J&J's,0,14,27,24,,27
-2026-09-26,padova,main-station,3dad566c-a18d-4868-9fd6-a7fcd18369fc,J&J's,0,12,27,24,,27
+2026-09-26,padova,main-station,3dad566c-a18d-4868-9fd6-a7fcd18369fc,J&J's,0,12,27,25,,27
 2026-09-23,padova,roggia,4555d487-09ea-4de7-83aa-f6a88a3dc8f7,J&J's,0,3,0,0,,0
 2026-09-24,padova,roggia,4555d487-09ea-4de7-83aa-f6a88a3dc8f7,J&J's,0,8,0,0,,0
 2026-09-25,padova,roggia,4555d487-09ea-4de7-83aa-f6a88a3dc8f7,J&J's,0,14,0,0,,0
@@ -7869,7 +7869,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,padova,main-station,c1661df1-30c9-437d-bc27-9d48e0bf0c1b,J&J's,50,3,5,5,10.0,5
 2026-09-24,padova,main-station,c1661df1-30c9-437d-bc27-9d48e0bf0c1b,J&J's,50,8,5,5,10.0,6
 2026-09-25,padova,main-station,c1661df1-30c9-437d-bc27-9d48e0bf0c1b,J&J's,50,14,5,5,10.0,5
-2026-09-26,padova,main-station,c1661df1-30c9-437d-bc27-9d48e0bf0c1b,J&J's,50,12,5,5,10.0,5
+2026-09-26,padova,main-station,c1661df1-30c9-437d-bc27-9d48e0bf0c1b,J&J's,50,12,5,4,10.0,5
 2026-09-23,padova,city-center,d1929bd1-71f9-4c20-9625-b92c8150c1ba,J&J's,0,3,0,0,,0
 2026-09-24,padova,city-center,d1929bd1-71f9-4c20-9625-b92c8150c1ba,J&J's,0,8,0,0,,0
 2026-09-25,padova,city-center,d1929bd1-71f9-4c20-9625-b92c8150c1ba,J&J's,0,14,1,1,,1
@@ -7889,7 +7889,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,palermo,palermo-city-center,01252a7b-718e-419c-98dd-9a195ab1a65f,J&J's,0,3,24,24,,24
 2026-09-24,palermo,palermo-city-center,01252a7b-718e-419c-98dd-9a195ab1a65f,J&J's,0,8,23,19,,23
 2026-09-25,palermo,palermo-city-center,01252a7b-718e-419c-98dd-9a195ab1a65f,J&J's,0,14,20,18,,20
-2026-09-26,palermo,palermo-city-center,01252a7b-718e-419c-98dd-9a195ab1a65f,J&J's,0,12,20,19,,20
+2026-09-26,palermo,palermo-city-center,01252a7b-718e-419c-98dd-9a195ab1a65f,J&J's,0,12,20,18,,20
 2026-09-23,palermo,albergheria,02338106-591b-456d-9540-2466eac3f297,J&J's,50,3,30,30,60.0,30
 2026-09-24,palermo,albergheria,02338106-591b-456d-9540-2466eac3f297,J&J's,50,8,31,31,62.0,31
 2026-09-25,palermo,albergheria,02338106-591b-456d-9540-2466eac3f297,J&J's,50,14,31,28,62.0,31
@@ -8001,7 +8001,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,palermo,historical-centre-of-palermo,43debf9c-ef21-40fe-a347-20999ce997ad,J&J's,50,3,29,29,58.0,29
 2026-09-24,palermo,historical-centre-of-palermo,43debf9c-ef21-40fe-a347-20999ce997ad,J&J's,50,8,29,29,58.0,29
 2026-09-25,palermo,historical-centre-of-palermo,43debf9c-ef21-40fe-a347-20999ce997ad,J&J's,50,14,29,24,58.0,29
-2026-09-26,palermo,historical-centre-of-palermo,43debf9c-ef21-40fe-a347-20999ce997ad,J&J's,50,12,25,25,50.0,25
+2026-09-26,palermo,historical-centre-of-palermo,43debf9c-ef21-40fe-a347-20999ce997ad,J&J's,50,12,26,26,52.0,26
 2026-09-23,palermo,v-circoscrizione,459ae862-3d63-4ffe-a5f8-2cd4305c9853,J&J's,0,3,1,1,,1
 2026-09-24,palermo,v-circoscrizione,459ae862-3d63-4ffe-a5f8-2cd4305c9853,J&J's,0,8,1,1,,1
 2026-09-25,palermo,v-circoscrizione,459ae862-3d63-4ffe-a5f8-2cd4305c9853,J&J's,0,14,1,1,,1
@@ -8053,7 +8053,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,palermo,palermo-city-center,61e9bf90-b7d9-4ff7-8227-8938fba8027e,J&J's,0,3,1,1,,1
 2026-09-24,palermo,palermo-city-center,61e9bf90-b7d9-4ff7-8227-8938fba8027e,J&J's,0,8,1,1,,1
 2026-09-25,palermo,palermo-city-center,61e9bf90-b7d9-4ff7-8227-8938fba8027e,J&J's,0,14,2,2,,2
-2026-09-26,palermo,palermo-city-center,61e9bf90-b7d9-4ff7-8227-8938fba8027e,J&J's,0,12,2,2,,2
+2026-09-26,palermo,palermo-city-center,61e9bf90-b7d9-4ff7-8227-8938fba8027e,J&J's,0,12,2,1,,2
 2026-09-23,palermo,porticello,6a5f0d08-e900-4a9b-9e20-3a4a36d9dc12,J&J's,0,3,0,0,,0
 2026-09-24,palermo,porticello,6a5f0d08-e900-4a9b-9e20-3a4a36d9dc12,J&J's,0,8,0,0,,0
 2026-09-25,palermo,porticello,6a5f0d08-e900-4a9b-9e20-3a4a36d9dc12,J&J's,0,14,0,0,,0
@@ -8109,7 +8109,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,palermo,palermo-centrale,8a49f45f-e4b8-49ec-8427-9fe60e093e5c,J&J's,25,3,17,16,68.0,17
 2026-09-24,palermo,palermo-centrale,8a49f45f-e4b8-49ec-8427-9fe60e093e5c,J&J's,25,8,16,9,64.0,16
 2026-09-25,palermo,palermo-centrale,8a49f45f-e4b8-49ec-8427-9fe60e093e5c,J&J's,25,14,12,12,48.0,13
-2026-09-26,palermo,palermo-centrale,8a49f45f-e4b8-49ec-8427-9fe60e093e5c,J&J's,25,12,12,12,48.0,13
+2026-09-26,palermo,palermo-centrale,8a49f45f-e4b8-49ec-8427-9fe60e093e5c,J&J's,25,12,13,13,52.0,14
 2026-09-23,palermo,viii-circoscrizione,8c665906-dc73-4715-9deb-03a0aadd79f5,J&J's,0,3,0,0,,0
 2026-09-24,palermo,viii-circoscrizione,8c665906-dc73-4715-9deb-03a0aadd79f5,J&J's,0,8,0,0,,0
 2026-09-25,palermo,viii-circoscrizione,8c665906-dc73-4715-9deb-03a0aadd79f5,J&J's,0,14,0,0,,0
@@ -8161,7 +8161,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,palermo,historical-centre-of-palermo,a94a4bf3-9418-4b04-9ef8-fc3e8c5ad788,J&J's,0,3,12,12,,12
 2026-09-24,palermo,historical-centre-of-palermo,a94a4bf3-9418-4b04-9ef8-fc3e8c5ad788,J&J's,0,8,15,15,,15
 2026-09-25,palermo,historical-centre-of-palermo,a94a4bf3-9418-4b04-9ef8-fc3e8c5ad788,J&J's,0,14,15,14,,15
-2026-09-26,palermo,historical-centre-of-palermo,a94a4bf3-9418-4b04-9ef8-fc3e8c5ad788,J&J's,0,12,14,14,,14
+2026-09-26,palermo,historical-centre-of-palermo,a94a4bf3-9418-4b04-9ef8-fc3e8c5ad788,J&J's,0,12,15,15,,15
 2026-09-23,palermo,inserra,aaf6c900-63df-4a9f-9a09-5b025741049a,J&J's,0,3,0,0,,0
 2026-09-24,palermo,inserra,aaf6c900-63df-4a9f-9a09-5b025741049a,J&J's,0,8,0,0,,0
 2026-09-25,palermo,inserra,aaf6c900-63df-4a9f-9a09-5b025741049a,J&J's,0,14,0,0,,0
@@ -8249,7 +8249,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,palermo,palermo-centrale,dacd2b85-ff88-4d69-aca8-26944bd4fcf2,J&J's,0,3,4,4,,4
 2026-09-24,palermo,palermo-centrale,dacd2b85-ff88-4d69-aca8-26944bd4fcf2,J&J's,0,8,4,4,,4
 2026-09-25,palermo,palermo-centrale,dacd2b85-ff88-4d69-aca8-26944bd4fcf2,J&J's,0,14,4,2,,4
-2026-09-26,palermo,palermo-centrale,dacd2b85-ff88-4d69-aca8-26944bd4fcf2,J&J's,0,12,2,1,,2
+2026-09-26,palermo,palermo-centrale,dacd2b85-ff88-4d69-aca8-26944bd4fcf2,J&J's,0,12,2,2,,2
 2026-09-23,palermo,casteldaccia,dbcd487b-4f71-4e54-b6e0-c313b36c1d73,J&J's,0,3,0,0,,0
 2026-09-24,palermo,casteldaccia,dbcd487b-4f71-4e54-b6e0-c313b36c1d73,J&J's,0,8,0,0,,0
 2026-09-25,palermo,casteldaccia,dbcd487b-4f71-4e54-b6e0-c313b36c1d73,J&J's,0,14,0,0,,0
@@ -8301,7 +8301,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,palermo,palermo-centrale,eda99b59-dcd0-44bc-8b60-30f354e8620e,J&J's,0,3,46,46,,46
 2026-09-24,palermo,palermo-centrale,eda99b59-dcd0-44bc-8b60-30f354e8620e,J&J's,0,8,47,46,,47
 2026-09-25,palermo,palermo-centrale,eda99b59-dcd0-44bc-8b60-30f354e8620e,J&J's,0,14,46,45,,46
-2026-09-26,palermo,palermo-centrale,eda99b59-dcd0-44bc-8b60-30f354e8620e,J&J's,0,12,46,45,,46
+2026-09-26,palermo,palermo-centrale,eda99b59-dcd0-44bc-8b60-30f354e8620e,J&J's,0,12,46,42,,46
 2026-09-23,palermo,uditore,f23fad78-7e46-40eb-9996-79e1ca6ab552,J&J's,0,3,0,0,,0
 2026-09-24,palermo,uditore,f23fad78-7e46-40eb-9996-79e1ca6ab552,J&J's,0,8,0,0,,0
 2026-09-25,palermo,uditore,f23fad78-7e46-40eb-9996-79e1ca6ab552,J&J's,0,14,0,0,,0
@@ -8517,7 +8517,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,perugia,central-station,fc763b80-34fa-4771-96d1-5ea732a7ce62,J&J's,0,3,6,6,,6
 2026-09-24,perugia,central-station,fc763b80-34fa-4771-96d1-5ea732a7ce62,J&J's,0,8,6,5,,6
 2026-09-25,perugia,central-station,fc763b80-34fa-4771-96d1-5ea732a7ce62,J&J's,0,14,6,6,,6
-2026-09-26,perugia,central-station,fc763b80-34fa-4771-96d1-5ea732a7ce62,J&J's,0,12,6,5,,6
+2026-09-26,perugia,central-station,fc763b80-34fa-4771-96d1-5ea732a7ce62,J&J's,0,12,6,6,,6
 2026-09-23,pesaro,city-center,23abdc34-d4ee-4644-898f-666be745f6c6,J&J's,0,3,1,1,,1
 2026-09-24,pesaro,city-center,23abdc34-d4ee-4644-898f-666be745f6c6,J&J's,0,8,1,1,,1
 2026-09-25,pesaro,city-center,23abdc34-d4ee-4644-898f-666be745f6c6,J&J's,0,14,1,0,,1
@@ -8573,7 +8573,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,pescara,pescara-centrale-train-station,3ba19996-e376-47b7-910d-5b29f8bb5c31,J&J's,0,3,3,3,,3
 2026-09-24,pescara,pescara-centrale-train-station,3ba19996-e376-47b7-910d-5b29f8bb5c31,J&J's,0,8,3,3,,3
 2026-09-25,pescara,pescara-centrale-train-station,3ba19996-e376-47b7-910d-5b29f8bb5c31,J&J's,0,14,3,2,,3
-2026-09-26,pescara,pescara-centrale-train-station,3ba19996-e376-47b7-910d-5b29f8bb5c31,J&J's,0,12,3,3,,3
+2026-09-26,pescara,pescara-centrale-train-station,3ba19996-e376-47b7-910d-5b29f8bb5c31,J&J's,0,12,3,2,,3
 2026-09-23,pescara,porta-nuova,3e1ebc83-72d4-4402-b8bb-726207637c11,J&J's,5,3,0,0,0.0,0
 2026-09-24,pescara,porta-nuova,3e1ebc83-72d4-4402-b8bb-726207637c11,J&J's,5,8,0,0,0.0,0
 2026-09-25,pescara,porta-nuova,3e1ebc83-72d4-4402-b8bb-726207637c11,J&J's,5,14,0,0,0.0,0
@@ -8585,7 +8585,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,pescara,pescara-centrale-train-station,4e4c4549-bfa3-4b01-8d92-0e79481d8c87,J&J's,0,3,3,3,,3
 2026-09-24,pescara,pescara-centrale-train-station,4e4c4549-bfa3-4b01-8d92-0e79481d8c87,J&J's,0,8,3,3,,3
 2026-09-25,pescara,pescara-centrale-train-station,4e4c4549-bfa3-4b01-8d92-0e79481d8c87,J&J's,0,14,3,3,,3
-2026-09-26,pescara,pescara-centrale-train-station,4e4c4549-bfa3-4b01-8d92-0e79481d8c87,J&J's,0,12,3,3,,3
+2026-09-26,pescara,pescara-centrale-train-station,4e4c4549-bfa3-4b01-8d92-0e79481d8c87,J&J's,0,12,3,2,,3
 2026-09-23,pescara,villa-raspa,5d93af80-7ec4-4f93-8e58-0056d66d7195,J&J's,0,3,0,0,,0
 2026-09-24,pescara,villa-raspa,5d93af80-7ec4-4f93-8e58-0056d66d7195,J&J's,0,8,0,0,,0
 2026-09-25,pescara,villa-raspa,5d93af80-7ec4-4f93-8e58-0056d66d7195,J&J's,0,14,0,0,,0
@@ -8617,7 +8617,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,pescara,pescara-centrale-train-station,b311266e-8fa7-4ae9-8ad9-1162760e3a81,J&J's,0,3,1,1,,1
 2026-09-24,pescara,pescara-centrale-train-station,b311266e-8fa7-4ae9-8ad9-1162760e3a81,J&J's,0,8,1,1,,1
 2026-09-25,pescara,pescara-centrale-train-station,b311266e-8fa7-4ae9-8ad9-1162760e3a81,J&J's,0,14,1,1,,1
-2026-09-26,pescara,pescara-centrale-train-station,b311266e-8fa7-4ae9-8ad9-1162760e3a81,J&J's,0,12,2,1,,2
+2026-09-26,pescara,pescara-centrale-train-station,b311266e-8fa7-4ae9-8ad9-1162760e3a81,J&J's,0,12,2,0,,2
 2026-09-23,pescara,san-donato,cf590c53-999c-47a6-9bab-854515c72837,J&J's,0,3,0,0,,0
 2026-09-24,pescara,san-donato,cf590c53-999c-47a6-9bab-854515c72837,J&J's,0,8,0,0,,0
 2026-09-25,pescara,san-donato,cf590c53-999c-47a6-9bab-854515c72837,J&J's,0,14,0,0,,0
@@ -8773,7 +8773,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,pisa,pisa-centrale-train-station,6f67c73c-40d8-41b0-8815-86336f7c9398,J&J's,200,3,14,14,7.0,14
 2026-09-24,pisa,pisa-centrale-train-station,6f67c73c-40d8-41b0-8815-86336f7c9398,J&J's,200,8,13,10,6.5,13
 2026-09-25,pisa,pisa-centrale-train-station,6f67c73c-40d8-41b0-8815-86336f7c9398,J&J's,200,14,12,12,6.0,12
-2026-09-26,pisa,pisa-centrale-train-station,6f67c73c-40d8-41b0-8815-86336f7c9398,J&J's,200,12,15,15,7.5,16
+2026-09-26,pisa,pisa-centrale-train-station,6f67c73c-40d8-41b0-8815-86336f7c9398,J&J's,200,12,14,14,7.0,15
 2026-09-23,pisa,pisa-piazza-del-duomo,89062afd-6055-44f4-a898-503cfd21279a,J&J's,0,3,4,4,,4
 2026-09-24,pisa,pisa-piazza-del-duomo,89062afd-6055-44f4-a898-503cfd21279a,J&J's,0,8,4,2,,4
 2026-09-25,pisa,pisa-piazza-del-duomo,89062afd-6055-44f4-a898-503cfd21279a,J&J's,0,14,3,3,,3
@@ -8809,7 +8809,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,pisa,santa-maria,b34b3a1b-af84-420b-a2c0-b87e53245939,J&J's,0,3,8,8,,8
 2026-09-24,pisa,santa-maria,b34b3a1b-af84-420b-a2c0-b87e53245939,J&J's,0,8,8,8,,9
 2026-09-25,pisa,santa-maria,b34b3a1b-af84-420b-a2c0-b87e53245939,J&J's,0,14,8,6,,8
-2026-09-26,pisa,santa-maria,b34b3a1b-af84-420b-a2c0-b87e53245939,J&J's,0,12,6,5,,6
+2026-09-26,pisa,santa-maria,b34b3a1b-af84-420b-a2c0-b87e53245939,J&J's,0,12,6,4,,6
 2026-09-23,pisa,barbaricina,b497da7e-ba1c-4e85-9c6c-d091885e2503,J&J's,0,3,0,0,,0
 2026-09-24,pisa,barbaricina,b497da7e-ba1c-4e85-9c6c-d091885e2503,J&J's,0,8,0,0,,0
 2026-09-25,pisa,barbaricina,b497da7e-ba1c-4e85-9c6c-d091885e2503,J&J's,0,14,0,0,,0
@@ -8845,7 +8845,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,pisa,pisa-centrale-train-station,de1958e0-59b5-4df9-b2e3-1cad92267ae6,J&J's,50,3,8,7,16.0,8
 2026-09-24,pisa,pisa-centrale-train-station,de1958e0-59b5-4df9-b2e3-1cad92267ae6,J&J's,50,8,7,6,14.0,7
 2026-09-25,pisa,pisa-centrale-train-station,de1958e0-59b5-4df9-b2e3-1cad92267ae6,J&J's,50,14,6,4,12.0,6
-2026-09-26,pisa,pisa-centrale-train-station,de1958e0-59b5-4df9-b2e3-1cad92267ae6,J&J's,50,12,4,4,8.0,4
+2026-09-26,pisa,pisa-centrale-train-station,de1958e0-59b5-4df9-b2e3-1cad92267ae6,J&J's,50,12,5,5,10.0,5
 2026-09-23,pisa,pisa-centrale-train-station,e5fbd89c-9eb3-48e6-89f2-716547cd4ba1,J&J's,50,3,16,16,32.0,16
 2026-09-24,pisa,pisa-centrale-train-station,e5fbd89c-9eb3-48e6-89f2-716547cd4ba1,J&J's,50,8,22,22,44.0,22
 2026-09-25,pisa,pisa-centrale-train-station,e5fbd89c-9eb3-48e6-89f2-716547cd4ba1,J&J's,50,14,23,21,46.0,23
@@ -9233,7 +9233,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rimini,rimini-train-station,8ae8e990-15f6-4de2-a8ad-49952afb03ff,J&J's,50,3,30,30,60.0,30
 2026-09-24,rimini,rimini-train-station,8ae8e990-15f6-4de2-a8ad-49952afb03ff,J&J's,50,8,30,30,60.0,31
 2026-09-25,rimini,rimini-train-station,8ae8e990-15f6-4de2-a8ad-49952afb03ff,J&J's,50,14,32,31,64.0,32
-2026-09-26,rimini,rimini-train-station,8ae8e990-15f6-4de2-a8ad-49952afb03ff,J&J's,50,12,31,29,62.0,33
+2026-09-26,rimini,rimini-train-station,8ae8e990-15f6-4de2-a8ad-49952afb03ff,J&J's,50,12,31,30,62.0,34
 2026-09-23,rimini,rimini-train-station,91af0efe-bf6a-46d7-8c2f-5b25b595ac56,J&J's,0,3,0,0,,0
 2026-09-24,rimini,rimini-train-station,91af0efe-bf6a-46d7-8c2f-5b25b595ac56,J&J's,0,8,0,0,,0
 2026-09-25,rimini,rimini-train-station,91af0efe-bf6a-46d7-8c2f-5b25b595ac56,J&J's,0,14,0,0,,0
@@ -9317,7 +9317,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,trevi,0305d591-0a38-4098-96e4-3f8bc489a9b3,J&J's,0,3,15,15,,15
 2026-09-24,rome,trevi,0305d591-0a38-4098-96e4-3f8bc489a9b3,J&J's,0,9,17,17,,17
 2026-09-25,rome,trevi,0305d591-0a38-4098-96e4-3f8bc489a9b3,J&J's,0,14,18,16,,18
-2026-09-26,rome,trevi,0305d591-0a38-4098-96e4-3f8bc489a9b3,J&J's,0,12,16,15,,16
+2026-09-26,rome,trevi,0305d591-0a38-4098-96e4-3f8bc489a9b3,J&J's,0,12,16,16,,17
 2026-09-23,rome,scacciapensieri,03677025-037d-4647-a88d-2a53d7c33a1d,J&J's,0,3,0,0,,0
 2026-09-24,rome,scacciapensieri,03677025-037d-4647-a88d-2a53d7c33a1d,J&J's,0,9,0,0,,0
 2026-09-25,rome,scacciapensieri,03677025-037d-4647-a88d-2a53d7c33a1d,J&J's,0,14,0,0,,0
@@ -9353,7 +9353,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,trieste,0647ba98-b64f-4730-b94a-f4a2d82db5f9,J&J's,100,3,5,5,5.0,5
 2026-09-24,rome,trieste,0647ba98-b64f-4730-b94a-f4a2d82db5f9,J&J's,100,9,5,5,5.0,5
 2026-09-25,rome,trieste,0647ba98-b64f-4730-b94a-f4a2d82db5f9,J&J's,100,14,5,5,5.0,5
-2026-09-26,rome,trieste,0647ba98-b64f-4730-b94a-f4a2d82db5f9,J&J's,100,12,5,5,5.0,5
+2026-09-26,rome,trieste,0647ba98-b64f-4730-b94a-f4a2d82db5f9,J&J's,100,12,5,0,5.0,5
 2026-09-23,rome,montecelio,068850e9-127a-407d-9b3a-e825c1b24409,J&J's,0,3,0,0,,0
 2026-09-24,rome,montecelio,068850e9-127a-407d-9b3a-e825c1b24409,J&J's,0,9,0,0,,0
 2026-09-25,rome,montecelio,068850e9-127a-407d-9b3a-e825c1b24409,J&J's,0,14,0,0,,0
@@ -9361,7 +9361,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,pantheon,06eece39-786b-43b5-8c0a-447d62e7d5e3,J&J's,60,3,55,54,91.7,55
 2026-09-24,rome,pantheon,06eece39-786b-43b5-8c0a-447d62e7d5e3,J&J's,60,9,56,56,93.3,58
 2026-09-25,rome,pantheon,06eece39-786b-43b5-8c0a-447d62e7d5e3,J&J's,60,14,55,46,91.7,57
-2026-09-26,rome,pantheon,06eece39-786b-43b5-8c0a-447d62e7d5e3,J&J's,60,12,46,41,76.7,46
+2026-09-26,rome,pantheon,06eece39-786b-43b5-8c0a-447d62e7d5e3,J&J's,60,12,46,40,76.7,46
 2026-09-23,rome,carchitti,06fe4f88-60a4-486c-b86e-c5837f378126,J&J's,0,3,0,0,,0
 2026-09-24,rome,carchitti,06fe4f88-60a4-486c-b86e-c5837f378126,J&J's,0,9,0,0,,0
 2026-09-25,rome,carchitti,06fe4f88-60a4-486c-b86e-c5837f378126,J&J's,0,14,0,0,,0
@@ -9377,7 +9377,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,focene,0747739a-1e50-4d68-9690-91ae6387d970,J&J's,0,3,2,2,,2
 2026-09-24,rome,focene,0747739a-1e50-4d68-9690-91ae6387d970,J&J's,0,9,2,2,,2
 2026-09-25,rome,focene,0747739a-1e50-4d68-9690-91ae6387d970,J&J's,0,14,2,2,,2
-2026-09-26,rome,focene,0747739a-1e50-4d68-9690-91ae6387d970,J&J's,0,12,2,1,,2
+2026-09-26,rome,focene,0747739a-1e50-4d68-9690-91ae6387d970,J&J's,0,12,2,2,,3
 2026-09-23,rome,tiburtina,074a0ce0-666c-4f6b-b223-03478ef8ea88,J&J's,0,3,2,2,,2
 2026-09-24,rome,tiburtina,074a0ce0-666c-4f6b-b223-03478ef8ea88,J&J's,0,9,2,2,,2
 2026-09-25,rome,tiburtina,074a0ce0-666c-4f6b-b223-03478ef8ea88,J&J's,0,14,2,2,,2
@@ -9433,7 +9433,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,piazza-di-san-pietro-in-vincoli,0f1f5e72-9dfc-4e67-974f-53c403fbf87b,J&J's,50,3,60,58,120.0,60
 2026-09-24,rome,piazza-di-san-pietro-in-vincoli,0f1f5e72-9dfc-4e67-974f-53c403fbf87b,J&J's,50,9,58,50,116.0,58
 2026-09-25,rome,piazza-di-san-pietro-in-vincoli,0f1f5e72-9dfc-4e67-974f-53c403fbf87b,J&J's,50,14,51,51,102.0,52
-2026-09-26,rome,piazza-di-san-pietro-in-vincoli,0f1f5e72-9dfc-4e67-974f-53c403fbf87b,J&J's,50,12,59,59,118.0,59
+2026-09-26,rome,piazza-di-san-pietro-in-vincoli,0f1f5e72-9dfc-4e67-974f-53c403fbf87b,J&J's,50,12,59,58,118.0,59
 2026-09-23,rome,pantheon,0f70c271-68a1-49e1-a43a-de137b70522f,J&J's,12,3,18,18,150.0,18
 2026-09-24,rome,pantheon,0f70c271-68a1-49e1-a43a-de137b70522f,J&J's,12,9,20,19,166.7,21
 2026-09-25,rome,pantheon,0f70c271-68a1-49e1-a43a-de137b70522f,J&J's,12,14,19,16,158.3,20
@@ -9457,7 +9457,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,termini,12347e4b-c6f9-4c81-ab1b-5370a2feaf26,J&J's,0,3,91,91,,91
 2026-09-24,rome,termini,12347e4b-c6f9-4c81-ab1b-5370a2feaf26,J&J's,0,9,93,90,,95
 2026-09-25,rome,termini,12347e4b-c6f9-4c81-ab1b-5370a2feaf26,J&J's,0,14,96,96,,105
-2026-09-26,rome,termini,12347e4b-c6f9-4c81-ab1b-5370a2feaf26,J&J's,0,12,97,96,,98
+2026-09-26,rome,termini,12347e4b-c6f9-4c81-ab1b-5370a2feaf26,J&J's,0,12,97,94,,97
 2026-09-23,rome,parrocchietta,12b90f9d-f94e-48cf-88b7-5f25b60a83b2,J&J's,0,3,0,0,,0
 2026-09-24,rome,parrocchietta,12b90f9d-f94e-48cf-88b7-5f25b60a83b2,J&J's,0,9,0,0,,0
 2026-09-25,rome,parrocchietta,12b90f9d-f94e-48cf-88b7-5f25b60a83b2,J&J's,0,14,0,0,,0
@@ -9477,7 +9477,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,castel-sant-angelo,14b0c6bc-58d8-4d34-9fc4-b88082faba5d,J&J's,0,3,10,10,,10
 2026-09-24,rome,castel-sant-angelo,14b0c6bc-58d8-4d34-9fc4-b88082faba5d,J&J's,0,9,10,9,,10
 2026-09-25,rome,castel-sant-angelo,14b0c6bc-58d8-4d34-9fc4-b88082faba5d,J&J's,0,14,9,9,,10
-2026-09-26,rome,castel-sant-angelo,14b0c6bc-58d8-4d34-9fc4-b88082faba5d,J&J's,0,12,10,10,,10
+2026-09-26,rome,castel-sant-angelo,14b0c6bc-58d8-4d34-9fc4-b88082faba5d,J&J's,0,12,12,12,,12
 2026-09-23,rome,nomentano,150e0196-6473-4e71-b839-6a092a8bf25a,J&J's,0,3,0,0,,0
 2026-09-24,rome,nomentano,150e0196-6473-4e71-b839-6a092a8bf25a,J&J's,0,9,0,0,,0
 2026-09-25,rome,nomentano,150e0196-6473-4e71-b839-6a092a8bf25a,J&J's,0,14,0,0,,0
@@ -9489,7 +9489,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,trastevere,153c7451-3f23-4247-948d-8f4cf19e0223,J&J's,0,3,9,9,,9
 2026-09-24,rome,trastevere,153c7451-3f23-4247-948d-8f4cf19e0223,J&J's,0,9,9,8,,9
 2026-09-25,rome,trastevere,153c7451-3f23-4247-948d-8f4cf19e0223,J&J's,0,14,11,8,,11
-2026-09-26,rome,trastevere,153c7451-3f23-4247-948d-8f4cf19e0223,J&J's,0,12,8,8,,8
+2026-09-26,rome,trastevere,153c7451-3f23-4247-948d-8f4cf19e0223,J&J's,0,12,8,7,,8
 2026-09-23,rome,casalazzara,15a01d59-d9b5-49af-bfd5-e2f61156c643,J&J's,0,3,0,0,,0
 2026-09-24,rome,casalazzara,15a01d59-d9b5-49af-bfd5-e2f61156c643,J&J's,0,9,0,0,,0
 2026-09-25,rome,casalazzara,15a01d59-d9b5-49af-bfd5-e2f61156c643,J&J's,0,14,0,0,,0
@@ -9561,7 +9561,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,s-pietro,1cb2bfc0-b9b8-452d-ba86-e16b91544870,J&J's,100,3,66,65,66.0,66
 2026-09-24,rome,s-pietro,1cb2bfc0-b9b8-452d-ba86-e16b91544870,J&J's,100,9,71,71,71.0,71
 2026-09-25,rome,s-pietro,1cb2bfc0-b9b8-452d-ba86-e16b91544870,J&J's,100,14,75,73,75.0,75
-2026-09-26,rome,s-pietro,1cb2bfc0-b9b8-452d-ba86-e16b91544870,J&J's,100,12,75,74,75.0,75
+2026-09-26,rome,s-pietro,1cb2bfc0-b9b8-452d-ba86-e16b91544870,J&J's,100,12,75,73,75.0,75
 2026-09-23,rome,colle-sant'antonino,1ccda846-89de-47f9-ad41-10e4225882a1,J&J's,0,3,0,0,,0
 2026-09-24,rome,colle-sant'antonino,1ccda846-89de-47f9-ad41-10e4225882a1,J&J's,0,9,0,0,,0
 2026-09-25,rome,colle-sant'antonino,1ccda846-89de-47f9-ad41-10e4225882a1,J&J's,0,14,0,0,,0
@@ -9625,7 +9625,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,spanish-steps,22387b59-2f94-4fb2-a3ad-6a1a361a4d42,J&J's,0,3,38,38,,39
 2026-09-24,rome,spanish-steps,22387b59-2f94-4fb2-a3ad-6a1a361a4d42,J&J's,0,9,41,40,,41
 2026-09-25,rome,spanish-steps,22387b59-2f94-4fb2-a3ad-6a1a361a4d42,J&J's,0,14,41,37,,41
-2026-09-26,rome,spanish-steps,22387b59-2f94-4fb2-a3ad-6a1a361a4d42,J&J's,0,12,38,35,,38
+2026-09-26,rome,spanish-steps,22387b59-2f94-4fb2-a3ad-6a1a361a4d42,J&J's,0,12,38,34,,38
 2026-09-23,rome,esquilino,224c9e10-1544-4d85-9b88-4588b43df038,J&J's,10,3,0,0,0.0,0
 2026-09-24,rome,esquilino,224c9e10-1544-4d85-9b88-4588b43df038,J&J's,10,9,1,1,10.0,1
 2026-09-25,rome,esquilino,224c9e10-1544-4d85-9b88-4588b43df038,J&J's,10,14,1,1,10.0,1
@@ -9665,7 +9665,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,pantheon,272f9b33-7464-481f-9bf3-4d89267e0ec4,J&J's,0,3,4,4,,4
 2026-09-24,rome,pantheon,272f9b33-7464-481f-9bf3-4d89267e0ec4,J&J's,0,9,6,6,,6
 2026-09-25,rome,pantheon,272f9b33-7464-481f-9bf3-4d89267e0ec4,J&J's,0,14,6,5,,6
-2026-09-26,rome,pantheon,272f9b33-7464-481f-9bf3-4d89267e0ec4,J&J's,0,12,5,5,,5
+2026-09-26,rome,pantheon,272f9b33-7464-481f-9bf3-4d89267e0ec4,J&J's,0,12,6,6,,6
 2026-09-23,rome,vatican,2909a817-5341-42a5-80cd-70763b762ce7,J&J's,500,3,18,18,3.6,18
 2026-09-24,rome,vatican,2909a817-5341-42a5-80cd-70763b762ce7,J&J's,500,9,20,16,4.0,20
 2026-09-25,rome,vatican,2909a817-5341-42a5-80cd-70763b762ce7,J&J's,500,14,19,19,3.8,19
@@ -9921,7 +9921,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,termini,4903d4fb-be2e-4609-a571-dc80dc5d0a0a,J&J's,0,3,121,120,,121
 2026-09-24,rome,termini,4903d4fb-be2e-4609-a571-dc80dc5d0a0a,J&J's,0,9,129,129,,129
 2026-09-25,rome,termini,4903d4fb-be2e-4609-a571-dc80dc5d0a0a,J&J's,0,14,134,132,,136
-2026-09-26,rome,termini,4903d4fb-be2e-4609-a571-dc80dc5d0a0a,J&J's,0,12,130,125,,130
+2026-09-26,rome,termini,4903d4fb-be2e-4609-a571-dc80dc5d0a0a,J&J's,0,12,130,123,,130
 2026-09-23,rome,colosseum,4b2ae0c7-447f-49c7-bf2f-1f5180d316c2,J&J's,0,3,9,8,,9
 2026-09-24,rome,colosseum,4b2ae0c7-447f-49c7-bf2f-1f5180d316c2,J&J's,0,9,8,7,,8
 2026-09-25,rome,colosseum,4b2ae0c7-447f-49c7-bf2f-1f5180d316c2,J&J's,0,14,8,8,,8
@@ -9937,7 +9937,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,nomentano,4bf22591-5336-483b-a917-80a5556c4fc4,J&J's,0,3,0,0,,0
 2026-09-24,rome,nomentano,4bf22591-5336-483b-a917-80a5556c4fc4,J&J's,0,9,0,0,,0
 2026-09-25,rome,nomentano,4bf22591-5336-483b-a917-80a5556c4fc4,J&J's,0,14,0,0,,0
-2026-09-26,rome,nomentano,4bf22591-5336-483b-a917-80a5556c4fc4,J&J's,0,12,1,1,,1
+2026-09-26,rome,nomentano,4bf22591-5336-483b-a917-80a5556c4fc4,J&J's,0,12,1,0,,1
 2026-09-23,rome,municipio-roma-iv,4c3bd44c-4319-4c22-8f16-a7c90a70ce69,J&J's,0,3,0,0,,0
 2026-09-24,rome,municipio-roma-iv,4c3bd44c-4319-4c22-8f16-a7c90a70ce69,J&J's,0,9,0,0,,0
 2026-09-25,rome,municipio-roma-iv,4c3bd44c-4319-4c22-8f16-a7c90a70ce69,J&J's,0,14,0,0,,0
@@ -9949,7 +9949,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,colosseum,4ce96670-644f-48d2-a81e-03565b2db110,J&J's,0,3,65,65,,65
 2026-09-24,rome,colosseum,4ce96670-644f-48d2-a81e-03565b2db110,J&J's,0,9,67,67,,68
 2026-09-25,rome,colosseum,4ce96670-644f-48d2-a81e-03565b2db110,J&J's,0,14,64,57,,65
-2026-09-26,rome,colosseum,4ce96670-644f-48d2-a81e-03565b2db110,J&J's,0,12,60,60,,60
+2026-09-26,rome,colosseum,4ce96670-644f-48d2-a81e-03565b2db110,J&J's,0,12,62,62,,62
 2026-09-23,rome,trastevere,4ced0aa0-839a-43c9-b741-6e8fe55865dc,J&J's,0,3,13,13,,13
 2026-09-24,rome,trastevere,4ced0aa0-839a-43c9-b741-6e8fe55865dc,J&J's,0,9,14,13,,15
 2026-09-25,rome,trastevere,4ced0aa0-839a-43c9-b741-6e8fe55865dc,J&J's,0,14,15,15,,15
@@ -9997,7 +9997,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,rione-ix-pigna,515c6fec-c788-49c9-89f0-703b637f76e2,J&J's,0,3,21,21,,21
 2026-09-24,rome,rione-ix-pigna,515c6fec-c788-49c9-89f0-703b637f76e2,J&J's,0,9,26,26,,27
 2026-09-25,rome,rione-ix-pigna,515c6fec-c788-49c9-89f0-703b637f76e2,J&J's,0,14,26,23,,26
-2026-09-26,rome,rione-ix-pigna,515c6fec-c788-49c9-89f0-703b637f76e2,J&J's,0,12,24,24,,24
+2026-09-26,rome,rione-ix-pigna,515c6fec-c788-49c9-89f0-703b637f76e2,J&J's,0,12,24,23,,24
 2026-09-23,rome,salario,5173b14d-e71e-4cb8-9388-a7d7b8e0194f,J&J's,0,3,3,3,,3
 2026-09-24,rome,salario,5173b14d-e71e-4cb8-9388-a7d7b8e0194f,J&J's,0,9,3,3,,3
 2026-09-25,rome,salario,5173b14d-e71e-4cb8-9388-a7d7b8e0194f,J&J's,0,14,3,3,,3
@@ -10061,7 +10061,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,navona,5942815d-063c-4049-9552-0f72e76ec0e9,J&J's,0,3,10,10,,10
 2026-09-24,rome,navona,5942815d-063c-4049-9552-0f72e76ec0e9,J&J's,0,9,10,7,,10
 2026-09-25,rome,navona,5942815d-063c-4049-9552-0f72e76ec0e9,J&J's,0,14,7,6,,7
-2026-09-26,rome,navona,5942815d-063c-4049-9552-0f72e76ec0e9,J&J's,0,12,6,5,,6
+2026-09-26,rome,navona,5942815d-063c-4049-9552-0f72e76ec0e9,J&J's,0,12,6,4,,6
 2026-09-23,rome,municipio-roma-xv,5984e7ce-bf67-496b-b5c4-5326f31d79e1,J&J's,0,3,0,0,,0
 2026-09-24,rome,municipio-roma-xv,5984e7ce-bf67-496b-b5c4-5326f31d79e1,J&J's,0,9,0,0,,0
 2026-09-25,rome,municipio-roma-xv,5984e7ce-bf67-496b-b5c4-5326f31d79e1,J&J's,0,14,0,0,,0
@@ -10113,7 +10113,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,pantheon,5f24aa21-fc3d-4999-a816-a647eed2960f,J&J's,0,3,2,2,,2
 2026-09-24,rome,pantheon,5f24aa21-fc3d-4999-a816-a647eed2960f,J&J's,0,9,4,4,,4
 2026-09-25,rome,pantheon,5f24aa21-fc3d-4999-a816-a647eed2960f,J&J's,0,14,4,4,,4
-2026-09-26,rome,pantheon,5f24aa21-fc3d-4999-a816-a647eed2960f,J&J's,0,12,6,6,,6
+2026-09-26,rome,pantheon,5f24aa21-fc3d-4999-a816-a647eed2960f,J&J's,0,12,7,7,,7
 2026-09-23,rome,pantheon,5f61043f-9cc3-4a56-81f5-c47a04eae968,J&J's,0,3,1,1,,1
 2026-09-24,rome,pantheon,5f61043f-9cc3-4a56-81f5-c47a04eae968,J&J's,0,9,1,1,,1
 2026-09-25,rome,pantheon,5f61043f-9cc3-4a56-81f5-c47a04eae968,J&J's,0,14,1,1,,1
@@ -10125,7 +10125,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,fonte-ostiense,600fbc2a-b7ad-44dd-bcfe-5c1e7aa70e0c,J&J's,0,3,2,2,,2
 2026-09-24,rome,fonte-ostiense,600fbc2a-b7ad-44dd-bcfe-5c1e7aa70e0c,J&J's,0,9,2,2,,2
 2026-09-25,rome,fonte-ostiense,600fbc2a-b7ad-44dd-bcfe-5c1e7aa70e0c,J&J's,0,14,2,2,,2
-2026-09-26,rome,fonte-ostiense,600fbc2a-b7ad-44dd-bcfe-5c1e7aa70e0c,J&J's,0,12,2,2,,2
+2026-09-26,rome,fonte-ostiense,600fbc2a-b7ad-44dd-bcfe-5c1e7aa70e0c,J&J's,0,12,2,1,,2
 2026-09-23,rome,flaminio,60609f59-91be-44bf-832c-2bc0c9fead73,J&J's,0,3,0,0,,0
 2026-09-24,rome,flaminio,60609f59-91be-44bf-832c-2bc0c9fead73,J&J's,0,9,0,0,,0
 2026-09-25,rome,flaminio,60609f59-91be-44bf-832c-2bc0c9fead73,J&J's,0,14,0,0,,0
@@ -10141,11 +10141,11 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,bocca-della-verita,614ebb90-f774-4926-9706-a96edeaf6cf8,J&J's,0,3,21,21,,21
 2026-09-24,rome,bocca-della-verita,614ebb90-f774-4926-9706-a96edeaf6cf8,J&J's,0,9,21,18,,21
 2026-09-25,rome,bocca-della-verita,614ebb90-f774-4926-9706-a96edeaf6cf8,J&J's,0,14,21,21,,21
-2026-09-26,rome,bocca-della-verita,614ebb90-f774-4926-9706-a96edeaf6cf8,J&J's,0,12,21,18,,21
+2026-09-26,rome,bocca-della-verita,614ebb90-f774-4926-9706-a96edeaf6cf8,J&J's,0,12,21,17,,21
 2026-09-23,rome,termini,6194c0dc-aab1-4f6b-9a3a-c24fb7c0ce36,J&J's,0,3,90,90,,90
 2026-09-24,rome,termini,6194c0dc-aab1-4f6b-9a3a-c24fb7c0ce36,J&J's,0,9,94,91,,95
 2026-09-25,rome,termini,6194c0dc-aab1-4f6b-9a3a-c24fb7c0ce36,J&J's,0,14,92,91,,93
-2026-09-26,rome,termini,6194c0dc-aab1-4f6b-9a3a-c24fb7c0ce36,J&J's,0,12,100,100,,102
+2026-09-26,rome,termini,6194c0dc-aab1-4f6b-9a3a-c24fb7c0ce36,J&J's,0,12,101,101,,103
 2026-09-23,rome,pigneto,6260c490-ca41-45ca-841a-b579ded4d608,J&J's,0,3,3,3,,3
 2026-09-24,rome,pigneto,6260c490-ca41-45ca-841a-b579ded4d608,J&J's,0,9,3,3,,3
 2026-09-25,rome,pigneto,6260c490-ca41-45ca-841a-b579ded4d608,J&J's,0,14,3,2,,3
@@ -10157,7 +10157,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,baldo-degli-ubaldi-station,63d4984a-809a-4842-8f06-08ad9735b3fe,J&J's,0,3,2,2,,2
 2026-09-24,rome,baldo-degli-ubaldi-station,63d4984a-809a-4842-8f06-08ad9735b3fe,J&J's,0,9,3,3,,3
 2026-09-25,rome,baldo-degli-ubaldi-station,63d4984a-809a-4842-8f06-08ad9735b3fe,J&J's,0,14,4,4,,4
-2026-09-26,rome,baldo-degli-ubaldi-station,63d4984a-809a-4842-8f06-08ad9735b3fe,J&J's,0,12,4,4,,4
+2026-09-26,rome,baldo-degli-ubaldi-station,63d4984a-809a-4842-8f06-08ad9735b3fe,J&J's,0,12,4,3,,4
 2026-09-23,rome,municipio-roma-xiii,6496cfc4-7701-45a0-9dd0-cc034af53337,J&J's,0,3,0,0,,0
 2026-09-24,rome,municipio-roma-xiii,6496cfc4-7701-45a0-9dd0-cc034af53337,J&J's,0,9,0,0,,0
 2026-09-25,rome,municipio-roma-xiii,6496cfc4-7701-45a0-9dd0-cc034af53337,J&J's,0,14,0,0,,0
@@ -10181,7 +10181,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,termini,6698ced9-bb1d-4055-863e-19b3dbec902e,J&J's,0,3,358,357,,359
 2026-09-24,rome,termini,6698ced9-bb1d-4055-863e-19b3dbec902e,J&J's,0,9,378,378,,379
 2026-09-25,rome,termini,6698ced9-bb1d-4055-863e-19b3dbec902e,J&J's,0,14,392,392,,395
-2026-09-26,rome,termini,6698ced9-bb1d-4055-863e-19b3dbec902e,J&J's,0,12,400,400,,404
+2026-09-26,rome,termini,6698ced9-bb1d-4055-863e-19b3dbec902e,J&J's,0,12,402,402,,406
 2026-09-23,rome,castel-di-leva,67453181-1958-44f2-85b5-6e8dddfe191a,J&J's,500,3,0,0,0.0,0
 2026-09-24,rome,castel-di-leva,67453181-1958-44f2-85b5-6e8dddfe191a,J&J's,500,9,0,0,0.0,0
 2026-09-25,rome,castel-di-leva,67453181-1958-44f2-85b5-6e8dddfe191a,J&J's,500,14,0,0,0.0,0
@@ -10273,7 +10273,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,termini,75a4a576-c404-4b3b-8e72-eef5f9bf5232,J&J's,0,3,62,61,,62
 2026-09-24,rome,termini,75a4a576-c404-4b3b-8e72-eef5f9bf5232,J&J's,0,9,62,58,,64
 2026-09-25,rome,termini,75a4a576-c404-4b3b-8e72-eef5f9bf5232,J&J's,0,14,66,65,,68
-2026-09-26,rome,termini,75a4a576-c404-4b3b-8e72-eef5f9bf5232,J&J's,0,12,69,68,,71
+2026-09-26,rome,termini,75a4a576-c404-4b3b-8e72-eef5f9bf5232,J&J's,0,12,69,67,,71
 2026-09-23,rome,castel-sant-angelo,76f52173-7e26-42ec-8858-7ba1fe8aa940,J&J's,0,3,0,0,,0
 2026-09-24,rome,castel-sant-angelo,76f52173-7e26-42ec-8858-7ba1fe8aa940,J&J's,0,9,0,0,,0
 2026-09-25,rome,castel-sant-angelo,76f52173-7e26-42ec-8858-7ba1fe8aa940,J&J's,0,14,0,0,,0
@@ -10383,7 +10383,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,lido-di-ostia-levante,88362338-87bd-4708-b444-d83b5c774a97,J&J's,0,3,7,7,,7
 2026-09-24,rome,lido-di-ostia-levante,88362338-87bd-4708-b444-d83b5c774a97,J&J's,0,9,14,14,,14
 2026-09-25,rome,lido-di-ostia-levante,88362338-87bd-4708-b444-d83b5c774a97,J&J's,0,14,14,14,,14
-2026-09-26,rome,lido-di-ostia-levante,88362338-87bd-4708-b444-d83b5c774a97,J&J's,0,12,14,14,,14
+2026-09-26,rome,lido-di-ostia-levante,88362338-87bd-4708-b444-d83b5c774a97,J&J's,0,12,16,16,,16
 2026-09-23,rome,spanish-steps,88969cef-c863-43ed-b548-5b13ecf3741b,J&J's,0,3,3,3,,3
 2026-09-24,rome,spanish-steps,88969cef-c863-43ed-b548-5b13ecf3741b,J&J's,0,9,3,3,,3
 2026-09-25,rome,spanish-steps,88969cef-c863-43ed-b548-5b13ecf3741b,J&J's,0,14,3,3,,3
@@ -10475,7 +10475,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,trevi,9280d997-c74d-49a7-948d-ae0f5df4d5aa,J&J's,0,3,23,23,,23
 2026-09-24,rome,trevi,9280d997-c74d-49a7-948d-ae0f5df4d5aa,J&J's,0,9,27,27,,28
 2026-09-25,rome,trevi,9280d997-c74d-49a7-948d-ae0f5df4d5aa,J&J's,0,14,34,33,,34
-2026-09-26,rome,trevi,9280d997-c74d-49a7-948d-ae0f5df4d5aa,J&J's,0,12,33,32,,34
+2026-09-26,rome,trevi,9280d997-c74d-49a7-948d-ae0f5df4d5aa,J&J's,0,12,33,31,,33
 2026-09-23,rome,salario,92c93053-6ddf-4dd8-97bd-4a31ba541795,J&J's,5,3,1,1,20.0,1
 2026-09-24,rome,salario,92c93053-6ddf-4dd8-97bd-4a31ba541795,J&J's,5,9,1,1,20.0,1
 2026-09-25,rome,salario,92c93053-6ddf-4dd8-97bd-4a31ba541795,J&J's,5,14,1,0,20.0,1
@@ -10511,7 +10511,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,termini,9958c46f-c4b5-4d20-a2d2-f6b2aecee47a,J&J's,200,3,244,244,122.0,244
 2026-09-24,rome,termini,9958c46f-c4b5-4d20-a2d2-f6b2aecee47a,J&J's,200,9,246,246,123.0,248
 2026-09-25,rome,termini,9958c46f-c4b5-4d20-a2d2-f6b2aecee47a,J&J's,200,14,250,249,125.0,257
-2026-09-26,rome,termini,9958c46f-c4b5-4d20-a2d2-f6b2aecee47a,J&J's,200,12,256,250,128.0,256
+2026-09-26,rome,termini,9958c46f-c4b5-4d20-a2d2-f6b2aecee47a,J&J's,200,12,256,255,128.0,256
 2026-09-23,rome,roman-forum,9ae2d556-54ff-4cf5-9fbd-d36bb3ea3542,J&J's,100,3,3,3,3.0,3
 2026-09-24,rome,roman-forum,9ae2d556-54ff-4cf5-9fbd-d36bb3ea3542,J&J's,100,9,3,2,3.0,3
 2026-09-25,rome,roman-forum,9ae2d556-54ff-4cf5-9fbd-d36bb3ea3542,J&J's,100,14,2,1,2.0,2
@@ -10527,7 +10527,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,navona,9d3ab902-da2d-48cb-afc1-6df1244c9313,J&J's,25,3,17,16,68.0,17
 2026-09-24,rome,navona,9d3ab902-da2d-48cb-afc1-6df1244c9313,J&J's,25,9,16,12,64.0,16
 2026-09-25,rome,navona,9d3ab902-da2d-48cb-afc1-6df1244c9313,J&J's,25,14,14,12,56.0,15
-2026-09-26,rome,navona,9d3ab902-da2d-48cb-afc1-6df1244c9313,J&J's,25,12,15,15,60.0,15
+2026-09-26,rome,navona,9d3ab902-da2d-48cb-afc1-6df1244c9313,J&J's,25,12,14,14,56.0,14
 2026-09-23,rome,monti,9d809354-5bf4-4452-8b10-3b628bdac207,J&J's,0,3,3,3,,3
 2026-09-24,rome,monti,9d809354-5bf4-4452-8b10-3b628bdac207,J&J's,0,9,4,4,,4
 2026-09-25,rome,monti,9d809354-5bf4-4452-8b10-3b628bdac207,J&J's,0,14,4,3,,4
@@ -10723,7 +10723,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,termini,ba9b7c2e-bc62-46a8-b717-c0fd9e2b82a0,J&J's,40,3,19,18,47.5,19
 2026-09-24,rome,termini,ba9b7c2e-bc62-46a8-b717-c0fd9e2b82a0,J&J's,40,9,18,13,45.0,18
 2026-09-25,rome,termini,ba9b7c2e-bc62-46a8-b717-c0fd9e2b82a0,J&J's,40,14,13,11,32.5,13
-2026-09-26,rome,termini,ba9b7c2e-bc62-46a8-b717-c0fd9e2b82a0,J&J's,40,12,13,12,32.5,13
+2026-09-26,rome,termini,ba9b7c2e-bc62-46a8-b717-c0fd9e2b82a0,J&J's,40,12,13,11,32.5,13
 2026-09-23,rome,roman-forum,baff0295-c52a-4fe8-b35f-e341723d04f7,J&J's,0,3,5,5,,5
 2026-09-24,rome,roman-forum,baff0295-c52a-4fe8-b35f-e341723d04f7,J&J's,0,9,7,7,,7
 2026-09-25,rome,roman-forum,baff0295-c52a-4fe8-b35f-e341723d04f7,J&J's,0,14,7,6,,7
@@ -10743,7 +10743,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,pantheon,bd9aa866-a86d-4ec2-9e9b-8b44ca089788,J&J's,0,3,19,19,,19
 2026-09-24,rome,pantheon,bd9aa866-a86d-4ec2-9e9b-8b44ca089788,J&J's,0,9,20,18,,20
 2026-09-25,rome,pantheon,bd9aa866-a86d-4ec2-9e9b-8b44ca089788,J&J's,0,14,19,19,,19
-2026-09-26,rome,pantheon,bd9aa866-a86d-4ec2-9e9b-8b44ca089788,J&J's,0,12,19,19,,20
+2026-09-26,rome,pantheon,bd9aa866-a86d-4ec2-9e9b-8b44ca089788,J&J's,0,12,21,21,,22
 2026-09-23,rome,trevi,bdcc0628-11cd-47b2-b020-f94afbd54dc5,J&J's,0,3,0,0,,0
 2026-09-24,rome,trevi,bdcc0628-11cd-47b2-b020-f94afbd54dc5,J&J's,0,9,1,1,,1
 2026-09-25,rome,trevi,bdcc0628-11cd-47b2-b020-f94afbd54dc5,J&J's,0,14,1,1,,1
@@ -10751,7 +10751,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,pantheon,bdffc689-6ea3-419d-8513-d052969dfefd,J&J's,0,3,36,36,,36
 2026-09-24,rome,pantheon,bdffc689-6ea3-419d-8513-d052969dfefd,J&J's,0,9,40,40,,40
 2026-09-25,rome,pantheon,bdffc689-6ea3-419d-8513-d052969dfefd,J&J's,0,14,48,43,,48
-2026-09-26,rome,pantheon,bdffc689-6ea3-419d-8513-d052969dfefd,J&J's,0,12,49,49,,49
+2026-09-26,rome,pantheon,bdffc689-6ea3-419d-8513-d052969dfefd,J&J's,0,12,49,48,,49
 2026-09-23,rome,giustiniana,be5fb4f0-29d8-4cf0-b7b2-b454524e7d72,J&J's,0,3,0,0,,0
 2026-09-24,rome,giustiniana,be5fb4f0-29d8-4cf0-b7b2-b454524e7d72,J&J's,0,9,0,0,,0
 2026-09-25,rome,giustiniana,be5fb4f0-29d8-4cf0-b7b2-b454524e7d72,J&J's,0,14,0,0,,0
@@ -10795,7 +10795,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,lepanto,c4cdec7a-6352-4b5c-adbd-43a511678ba3,J&J's,0,3,53,53,,53
 2026-09-24,rome,lepanto,c4cdec7a-6352-4b5c-adbd-43a511678ba3,J&J's,0,9,67,67,,67
 2026-09-25,rome,lepanto,c4cdec7a-6352-4b5c-adbd-43a511678ba3,J&J's,0,14,69,68,,70
-2026-09-26,rome,lepanto,c4cdec7a-6352-4b5c-adbd-43a511678ba3,J&J's,0,12,68,65,,68
+2026-09-26,rome,lepanto,c4cdec7a-6352-4b5c-adbd-43a511678ba3,J&J's,0,12,68,66,,68
 2026-09-23,rome,quartiere-xii-gianicolense,c50b42e1-02a7-497a-8d76-002975820e5a,J&J's,0,3,2,2,,2
 2026-09-24,rome,quartiere-xii-gianicolense,c50b42e1-02a7-497a-8d76-002975820e5a,J&J's,0,9,2,2,,2
 2026-09-25,rome,quartiere-xii-gianicolense,c50b42e1-02a7-497a-8d76-002975820e5a,J&J's,0,14,2,1,,2
@@ -10831,7 +10831,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,roma-vatican-museums,c98e3d9e-e375-4d3f-b055-48fcc34f4583,J&J's,20,3,8,8,40.0,8
 2026-09-24,rome,roma-vatican-museums,c98e3d9e-e375-4d3f-b055-48fcc34f4583,J&J's,20,9,11,10,55.0,11
 2026-09-25,rome,roma-vatican-museums,c98e3d9e-e375-4d3f-b055-48fcc34f4583,J&J's,20,14,11,10,55.0,11
-2026-09-26,rome,roma-vatican-museums,c98e3d9e-e375-4d3f-b055-48fcc34f4583,J&J's,20,12,10,9,50.0,10
+2026-09-26,rome,roma-vatican-museums,c98e3d9e-e375-4d3f-b055-48fcc34f4583,J&J's,20,12,10,10,50.0,11
 2026-09-23,rome,san-lorenzo,ca441517-e448-43e6-ba33-1389c12e8605,J&J's,0,3,1,1,,1
 2026-09-24,rome,san-lorenzo,ca441517-e448-43e6-ba33-1389c12e8605,J&J's,0,9,1,1,,1
 2026-09-25,rome,san-lorenzo,ca441517-e448-43e6-ba33-1389c12e8605,J&J's,0,14,1,1,,1
@@ -10839,7 +10839,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,roma-vatican-museums,cb5b0a9a-e935-4e73-9ae6-7459923f5125,J&J's,0,3,21,21,,21
 2026-09-24,rome,roma-vatican-museums,cb5b0a9a-e935-4e73-9ae6-7459923f5125,J&J's,0,9,24,22,,24
 2026-09-25,rome,roma-vatican-museums,cb5b0a9a-e935-4e73-9ae6-7459923f5125,J&J's,0,14,24,24,,25
-2026-09-26,rome,roma-vatican-museums,cb5b0a9a-e935-4e73-9ae6-7459923f5125,J&J's,0,12,24,24,,26
+2026-09-26,rome,roma-vatican-museums,cb5b0a9a-e935-4e73-9ae6-7459923f5125,J&J's,0,12,24,22,,26
 2026-09-23,rome,nomentana,cb784850-1f0f-4b36-8f17-e6f6ad4ad4f2,J&J's,0,3,0,0,,0
 2026-09-24,rome,nomentana,cb784850-1f0f-4b36-8f17-e6f6ad4ad4f2,J&J's,0,9,0,0,,0
 2026-09-25,rome,nomentana,cb784850-1f0f-4b36-8f17-e6f6ad4ad4f2,J&J's,0,14,0,0,,0
@@ -10851,7 +10851,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,navona,cbd48991-6de8-43a5-afd5-3d4f55700547,J&J's,25,3,25,25,100.0,25
 2026-09-24,rome,navona,cbd48991-6de8-43a5-afd5-3d4f55700547,J&J's,25,9,26,24,104.0,26
 2026-09-25,rome,navona,cbd48991-6de8-43a5-afd5-3d4f55700547,J&J's,25,14,26,26,104.0,26
-2026-09-26,rome,navona,cbd48991-6de8-43a5-afd5-3d4f55700547,J&J's,25,12,27,24,108.0,27
+2026-09-26,rome,navona,cbd48991-6de8-43a5-afd5-3d4f55700547,J&J's,25,12,27,23,108.0,27
 2026-09-23,rome,capannelle,cd1657b8-34ff-44f9-a150-66de39b2d359,J&J's,20,3,0,0,0.0,0
 2026-09-24,rome,capannelle,cd1657b8-34ff-44f9-a150-66de39b2d359,J&J's,20,9,0,0,0.0,0
 2026-09-25,rome,capannelle,cd1657b8-34ff-44f9-a150-66de39b2d359,J&J's,20,14,0,0,0.0,0
@@ -10883,7 +10883,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,tor-marancia,d12f1a4c-6b64-4912-8b6a-ce75bdfc783a,J&J's,0,3,1,1,,1
 2026-09-24,rome,tor-marancia,d12f1a4c-6b64-4912-8b6a-ce75bdfc783a,J&J's,0,9,1,1,,1
 2026-09-25,rome,tor-marancia,d12f1a4c-6b64-4912-8b6a-ce75bdfc783a,J&J's,0,14,1,1,,1
-2026-09-26,rome,tor-marancia,d12f1a4c-6b64-4912-8b6a-ce75bdfc783a,J&J's,0,12,1,1,,1
+2026-09-26,rome,tor-marancia,d12f1a4c-6b64-4912-8b6a-ce75bdfc783a,J&J's,0,12,1,0,,1
 2026-09-23,rome,nomentana,d1653410-f0e4-4772-968c-b16f856afd2d,J&J's,0,3,1,1,,1
 2026-09-24,rome,nomentana,d1653410-f0e4-4772-968c-b16f856afd2d,J&J's,0,9,1,1,,1
 2026-09-25,rome,nomentana,d1653410-f0e4-4772-968c-b16f856afd2d,J&J's,0,14,1,1,,1
@@ -10931,7 +10931,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,piazza-del-popolo,d8dd8470-3c2f-4d9b-89b0-4c27c9771152,J&J's,500,3,25,25,5.0,25
 2026-09-24,rome,piazza-del-popolo,d8dd8470-3c2f-4d9b-89b0-4c27c9771152,J&J's,500,9,26,26,5.2,26
 2026-09-25,rome,piazza-del-popolo,d8dd8470-3c2f-4d9b-89b0-4c27c9771152,J&J's,500,14,27,27,5.4,27
-2026-09-26,rome,piazza-del-popolo,d8dd8470-3c2f-4d9b-89b0-4c27c9771152,J&J's,500,12,27,26,5.4,28
+2026-09-26,rome,piazza-del-popolo,d8dd8470-3c2f-4d9b-89b0-4c27c9771152,J&J's,500,12,27,25,5.4,27
 2026-09-23,rome,velletri,d92521e9-d4ea-4250-9fc0-9d75178d012d,J&J's,0,3,0,0,,0
 2026-09-24,rome,velletri,d92521e9-d4ea-4250-9fc0-9d75178d012d,J&J's,0,9,0,0,,0
 2026-09-25,rome,velletri,d92521e9-d4ea-4250-9fc0-9d75178d012d,J&J's,0,14,0,0,,0
@@ -10939,7 +10939,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,rione-ix-pigna,d99d88be-4c68-4265-9ee1-1c4e359552ce,J&J's,0,3,34,34,,34
 2026-09-24,rome,rione-ix-pigna,d99d88be-4c68-4265-9ee1-1c4e359552ce,J&J's,0,9,36,36,,36
 2026-09-25,rome,rione-ix-pigna,d99d88be-4c68-4265-9ee1-1c4e359552ce,J&J's,0,14,36,32,,36
-2026-09-26,rome,rione-ix-pigna,d99d88be-4c68-4265-9ee1-1c4e359552ce,J&J's,0,12,32,28,,32
+2026-09-26,rome,rione-ix-pigna,d99d88be-4c68-4265-9ee1-1c4e359552ce,J&J's,0,12,32,27,,32
 2026-09-23,rome,casalotti,d9a41446-8bc3-4b7b-b544-c8e9dfdad99d,J&J's,0,3,0,0,,0
 2026-09-24,rome,casalotti,d9a41446-8bc3-4b7b-b544-c8e9dfdad99d,J&J's,0,9,0,0,,0
 2026-09-25,rome,casalotti,d9a41446-8bc3-4b7b-b544-c8e9dfdad99d,J&J's,0,14,0,0,,0
@@ -10959,7 +10959,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,piazza-venezia,db209203-5182-48a5-97bf-a5f322b4de16,J&J's,0,3,8,8,,8
 2026-09-24,rome,piazza-venezia,db209203-5182-48a5-97bf-a5f322b4de16,J&J's,0,9,9,9,,9
 2026-09-25,rome,piazza-venezia,db209203-5182-48a5-97bf-a5f322b4de16,J&J's,0,14,10,10,,10
-2026-09-26,rome,piazza-venezia,db209203-5182-48a5-97bf-a5f322b4de16,J&J's,0,12,10,9,,10
+2026-09-26,rome,piazza-venezia,db209203-5182-48a5-97bf-a5f322b4de16,J&J's,0,12,10,10,,10
 2026-09-23,rome,aprilia,dbe33a9f-7ea5-470b-afb5-b5e2f15c1118,J&J's,0,3,0,0,,0
 2026-09-24,rome,aprilia,dbe33a9f-7ea5-470b-afb5-b5e2f15c1118,J&J's,0,9,0,0,,0
 2026-09-25,rome,aprilia,dbe33a9f-7ea5-470b-afb5-b5e2f15c1118,J&J's,0,14,0,0,,0
@@ -11003,7 +11003,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,trastevere,e2f9d7ae-5dfc-4f84-ab83-826a61600695,J&J's,0,3,4,4,,4
 2026-09-24,rome,trastevere,e2f9d7ae-5dfc-4f84-ab83-826a61600695,J&J's,0,9,4,4,,4
 2026-09-25,rome,trastevere,e2f9d7ae-5dfc-4f84-ab83-826a61600695,J&J's,0,14,5,5,,5
-2026-09-26,rome,trastevere,e2f9d7ae-5dfc-4f84-ab83-826a61600695,J&J's,0,12,5,5,,5
+2026-09-26,rome,trastevere,e2f9d7ae-5dfc-4f84-ab83-826a61600695,J&J's,0,12,5,4,,5
 2026-09-23,rome,ciampino,e3098771-c367-4e4b-a546-b2334996f7a8,J&J's,0,3,2,2,,2
 2026-09-24,rome,ciampino,e3098771-c367-4e4b-a546-b2334996f7a8,J&J's,0,9,4,4,,4
 2026-09-25,rome,ciampino,e3098771-c367-4e4b-a546-b2334996f7a8,J&J's,0,14,4,4,,4
@@ -11047,7 +11047,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,porta-s-paolo,e9a7432d-d406-4e94-93fb-ec140e240c17,J&J's,0,3,38,38,,38
 2026-09-24,rome,porta-s-paolo,e9a7432d-d406-4e94-93fb-ec140e240c17,J&J's,0,9,44,43,,44
 2026-09-25,rome,porta-s-paolo,e9a7432d-d406-4e94-93fb-ec140e240c17,J&J's,0,14,44,43,,44
-2026-09-26,rome,porta-s-paolo,e9a7432d-d406-4e94-93fb-ec140e240c17,J&J's,0,12,47,46,,47
+2026-09-26,rome,porta-s-paolo,e9a7432d-d406-4e94-93fb-ec140e240c17,J&J's,0,12,47,45,,47
 2026-09-23,rome,roma-stadio-olimpico,e9e5bf94-960c-4515-9753-60d28fc2a3bb,J&J's,0,3,1,1,,1
 2026-09-24,rome,roma-stadio-olimpico,e9e5bf94-960c-4515-9753-60d28fc2a3bb,J&J's,0,9,1,1,,1
 2026-09-25,rome,roma-stadio-olimpico,e9e5bf94-960c-4515-9753-60d28fc2a3bb,J&J's,0,14,1,1,,1
@@ -11187,7 +11187,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,rome,termini,f86eddec-5b96-4fec-802d-5d75f8e3721b,J&J's,0,3,16,16,,16
 2026-09-24,rome,termini,f86eddec-5b96-4fec-802d-5d75f8e3721b,J&J's,0,9,17,17,,17
 2026-09-25,rome,termini,f86eddec-5b96-4fec-802d-5d75f8e3721b,J&J's,0,14,20,19,,20
-2026-09-26,rome,termini,f86eddec-5b96-4fec-802d-5d75f8e3721b,J&J's,0,12,19,18,,19
+2026-09-26,rome,termini,f86eddec-5b96-4fec-802d-5d75f8e3721b,J&J's,0,12,19,19,,20
 2026-09-23,rome,ciampino,f931acea-60d3-4bb8-b5b2-d4f75a0a64d4,J&J's,0,3,0,0,,0
 2026-09-24,rome,ciampino,f931acea-60d3-4bb8-b5b2-d4f75a0a64d4,J&J's,0,9,1,1,,1
 2026-09-25,rome,ciampino,f931acea-60d3-4bb8-b5b2-d4f75a0a64d4,J&J's,0,14,3,3,,3
@@ -11575,7 +11575,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,siena,city-center,cbc056ae-96bc-4d6d-921a-07a1d7e02186,J&J's,0,3,4,4,,4
 2026-09-24,siena,city-center,cbc056ae-96bc-4d6d-921a-07a1d7e02186,J&J's,0,8,4,4,,4
 2026-09-25,siena,city-center,cbc056ae-96bc-4d6d-921a-07a1d7e02186,J&J's,0,14,4,3,,4
-2026-09-26,siena,city-center,cbc056ae-96bc-4d6d-921a-07a1d7e02186,J&J's,0,12,3,3,,3
+2026-09-26,siena,city-center,cbc056ae-96bc-4d6d-921a-07a1d7e02186,J&J's,0,12,3,2,,3
 2026-09-23,siena,city-center,d1bf6a35-6bdc-4d2b-a279-349add7ed58a,J&J's,5,3,0,0,0.0,0
 2026-09-24,siena,city-center,d1bf6a35-6bdc-4d2b-a279-349add7ed58a,J&J's,5,8,0,0,0.0,0
 2026-09-25,siena,city-center,d1bf6a35-6bdc-4d2b-a279-349add7ed58a,J&J's,5,14,0,0,0.0,0
@@ -12079,7 +12079,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,trieste,trieste-train-station,97f11b77-f7b5-4286-bdb2-2ea7e4229911,J&J's,0,3,25,24,,25
 2026-09-24,trieste,trieste-train-station,97f11b77-f7b5-4286-bdb2-2ea7e4229911,J&J's,0,8,28,28,,28
 2026-09-25,trieste,trieste-train-station,97f11b77-f7b5-4286-bdb2-2ea7e4229911,J&J's,0,14,28,26,,28
-2026-09-26,trieste,trieste-train-station,97f11b77-f7b5-4286-bdb2-2ea7e4229911,J&J's,0,12,28,26,,28
+2026-09-26,trieste,trieste-train-station,97f11b77-f7b5-4286-bdb2-2ea7e4229911,J&J's,0,12,28,27,,28
 2026-09-23,trieste,trieste-train-station,a2cef6cb-c6a7-4e44-a409-a4ff8b30e6d9,J&J's,0,3,3,3,,3
 2026-09-24,trieste,trieste-train-station,a2cef6cb-c6a7-4e44-a409-a4ff8b30e6d9,J&J's,0,8,3,3,,3
 2026-09-25,trieste,trieste-train-station,a2cef6cb-c6a7-4e44-a409-a4ff8b30e6d9,J&J's,0,14,3,3,,4
@@ -12087,7 +12087,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,trieste,trieste-train-station,a9bf1e03-4f85-4c5b-a566-579882958315,J&J's,0,3,2,2,,2
 2026-09-24,trieste,trieste-train-station,a9bf1e03-4f85-4c5b-a566-579882958315,J&J's,0,8,2,2,,2
 2026-09-25,trieste,trieste-train-station,a9bf1e03-4f85-4c5b-a566-579882958315,J&J's,0,14,2,1,,2
-2026-09-26,trieste,trieste-train-station,a9bf1e03-4f85-4c5b-a566-579882958315,J&J's,0,12,1,1,,1
+2026-09-26,trieste,trieste-train-station,a9bf1e03-4f85-4c5b-a566-579882958315,J&J's,0,12,2,2,,2
 2026-09-23,trieste,ponziana,abe64419-04f5-4c84-81ea-3449f4ff4f8f,J&J's,0,3,0,0,,0
 2026-09-24,trieste,ponziana,abe64419-04f5-4c84-81ea-3449f4ff4f8f,J&J's,0,8,0,0,,0
 2026-09-25,trieste,ponziana,abe64419-04f5-4c84-81ea-3449f4ff4f8f,J&J's,0,14,0,0,,0
@@ -12119,7 +12119,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,trieste,trieste-train-station,cb026efd-0055-490d-85ce-8148857e9b96,J&J's,0,3,4,4,,4
 2026-09-24,trieste,trieste-train-station,cb026efd-0055-490d-85ce-8148857e9b96,J&J's,0,8,4,3,,4
 2026-09-25,trieste,trieste-train-station,cb026efd-0055-490d-85ce-8148857e9b96,J&J's,0,14,3,2,,3
-2026-09-26,trieste,trieste-train-station,cb026efd-0055-490d-85ce-8148857e9b96,J&J's,0,12,2,2,,2
+2026-09-26,trieste,trieste-train-station,cb026efd-0055-490d-85ce-8148857e9b96,J&J's,0,12,2,1,,2
 2026-09-23,trieste,san-sabba,cd456484-ad4b-4079-a165-50b5a61aeb75,J&J's,0,3,0,0,,0
 2026-09-24,trieste,san-sabba,cd456484-ad4b-4079-a165-50b5a61aeb75,J&J's,0,8,0,0,,0
 2026-09-25,trieste,san-sabba,cd456484-ad4b-4079-a165-50b5a61aeb75,J&J's,0,14,0,0,,0
@@ -12275,7 +12275,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,turin,galleria-sabauda,3dd8d714-a26f-4924-a41f-10388f4a8173,J&J's,0,3,7,7,,7
 2026-09-24,turin,galleria-sabauda,3dd8d714-a26f-4924-a41f-10388f4a8173,J&J's,0,8,7,7,,8
 2026-09-25,turin,galleria-sabauda,3dd8d714-a26f-4924-a41f-10388f4a8173,J&J's,0,14,7,5,,7
-2026-09-26,turin,galleria-sabauda,3dd8d714-a26f-4924-a41f-10388f4a8173,J&J's,0,12,5,5,,5
+2026-09-26,turin,galleria-sabauda,3dd8d714-a26f-4924-a41f-10388f4a8173,J&J's,0,12,6,6,,6
 2026-09-23,turin,martinetto,3f3b632f-ded4-46c2-b34a-2df363ad3309,J&J's,0,3,0,0,,0
 2026-09-24,turin,martinetto,3f3b632f-ded4-46c2-b34a-2df363ad3309,J&J's,0,8,0,0,,0
 2026-09-25,turin,martinetto,3f3b632f-ded4-46c2-b34a-2df363ad3309,J&J's,0,14,0,0,,0
@@ -12515,7 +12515,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,turin,piazza-statuto,fc62ad91-3761-4f08-a589-3509e83cb3a4,J&J's,0,3,5,5,,5
 2026-09-24,turin,piazza-statuto,fc62ad91-3761-4f08-a589-3509e83cb3a4,J&J's,0,8,5,5,,5
 2026-09-25,turin,piazza-statuto,fc62ad91-3761-4f08-a589-3509e83cb3a4,J&J's,0,14,5,2,,5
-2026-09-26,turin,piazza-statuto,fc62ad91-3761-4f08-a589-3509e83cb3a4,J&J's,0,12,4,4,,4
+2026-09-26,turin,piazza-statuto,fc62ad91-3761-4f08-a589-3509e83cb3a4,J&J's,0,12,5,5,,5
 2026-09-23,turin,barriera-di-lanzo,fd712671-7563-4ef2-bc1d-87142e984cb5,J&J's,0,3,1,1,,1
 2026-09-24,turin,barriera-di-lanzo,fd712671-7563-4ef2-bc1d-87142e984cb5,J&J's,0,8,1,1,,1
 2026-09-25,turin,barriera-di-lanzo,fd712671-7563-4ef2-bc1d-87142e984cb5,J&J's,0,14,1,1,,1
@@ -12623,7 +12623,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,varese,centro,4facac6f-0f88-4472-a6d9-db8e2401a98c,J&J's,100,3,3,3,3.0,3
 2026-09-24,varese,centro,4facac6f-0f88-4472-a6d9-db8e2401a98c,J&J's,100,8,3,2,3.0,3
 2026-09-25,varese,centro,4facac6f-0f88-4472-a6d9-db8e2401a98c,J&J's,100,14,2,1,2.0,2
-2026-09-26,varese,centro,4facac6f-0f88-4472-a6d9-db8e2401a98c,J&J's,100,12,1,1,1.0,1
+2026-09-26,varese,centro,4facac6f-0f88-4472-a6d9-db8e2401a98c,J&J's,100,12,2,2,2.0,2
 2026-09-23,varese,cittiglio,71c8025e-741a-4448-8f32-4af9bb13f82f,J&J's,0,3,0,0,,0
 2026-09-24,varese,cittiglio,71c8025e-741a-4448-8f32-4af9bb13f82f,J&J's,0,8,0,0,,0
 2026-09-25,varese,cittiglio,71c8025e-741a-4448-8f32-4af9bb13f82f,J&J's,0,14,0,0,,0
@@ -12691,7 +12691,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,venice,santa-lucia-station,11b27f2d-9fa3-49db-bfec-7f8ffe30edcf,J&J's,0,3,143,143,,143
 2026-09-24,venice,santa-lucia-station,11b27f2d-9fa3-49db-bfec-7f8ffe30edcf,J&J's,0,8,151,151,,151
 2026-09-25,venice,santa-lucia-station,11b27f2d-9fa3-49db-bfec-7f8ffe30edcf,J&J's,0,14,157,157,,159
-2026-09-26,venice,santa-lucia-station,11b27f2d-9fa3-49db-bfec-7f8ffe30edcf,J&J's,0,12,158,158,,160
+2026-09-26,venice,santa-lucia-station,11b27f2d-9fa3-49db-bfec-7f8ffe30edcf,J&J's,0,12,157,157,,159
 2026-09-23,venice,lido-di-jesolo,12489858-5940-4c92-a1b6-5c748d4ee7cb,J&J's,50,3,0,0,0.0,0
 2026-09-24,venice,lido-di-jesolo,12489858-5940-4c92-a1b6-5c748d4ee7cb,J&J's,50,8,0,0,0.0,0
 2026-09-25,venice,lido-di-jesolo,12489858-5940-4c92-a1b6-5c748d4ee7cb,J&J's,50,14,0,0,0.0,0
@@ -12703,7 +12703,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,venice,san-polo,1561c376-7104-4862-ac9b-080ff4d29a73,J&J's,0,3,6,6,,6
 2026-09-24,venice,san-polo,1561c376-7104-4862-ac9b-080ff4d29a73,J&J's,0,8,6,5,,6
 2026-09-25,venice,san-polo,1561c376-7104-4862-ac9b-080ff4d29a73,J&J's,0,14,5,4,,5
-2026-09-26,venice,san-polo,1561c376-7104-4862-ac9b-080ff4d29a73,J&J's,0,12,4,3,,4
+2026-09-26,venice,san-polo,1561c376-7104-4862-ac9b-080ff4d29a73,J&J's,0,12,4,2,,4
 2026-09-23,venice,accademia-gallery,1ab14450-861a-43ba-947d-fcb6f726b78c,J&J's,0,3,7,7,,7
 2026-09-24,venice,accademia-gallery,1ab14450-861a-43ba-947d-fcb6f726b78c,J&J's,0,8,7,6,,7
 2026-09-25,venice,accademia-gallery,1ab14450-861a-43ba-947d-fcb6f726b78c,J&J's,0,14,5,3,,5
@@ -12727,7 +12727,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,venice,rialto,2fa45054-8846-4bec-a5c8-81565ffb86ea,J&J's,20,3,17,16,85.0,17
 2026-09-24,venice,rialto,2fa45054-8846-4bec-a5c8-81565ffb86ea,J&J's,20,8,17,16,85.0,17
 2026-09-25,venice,rialto,2fa45054-8846-4bec-a5c8-81565ffb86ea,J&J's,20,14,17,17,85.0,18
-2026-09-26,venice,rialto,2fa45054-8846-4bec-a5c8-81565ffb86ea,J&J's,20,12,18,17,90.0,18
+2026-09-26,venice,rialto,2fa45054-8846-4bec-a5c8-81565ffb86ea,J&J's,20,12,18,18,90.0,19
 2026-09-23,venice,mestre-carpenedo,309c91e9-cd60-4428-a313-5e894344d81a,J&J's,0,3,1,1,,1
 2026-09-24,venice,mestre-carpenedo,309c91e9-cd60-4428-a313-5e894344d81a,J&J's,0,8,1,1,,1
 2026-09-25,venice,mestre-carpenedo,309c91e9-cd60-4428-a313-5e894344d81a,J&J's,0,14,1,1,,1
@@ -12771,7 +12771,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,venice,cannaregio,490e4e2e-d9b8-4d56-8d7d-0145949eadee,J&J's,30,3,56,56,186.7,56
 2026-09-24,venice,cannaregio,490e4e2e-d9b8-4d56-8d7d-0145949eadee,J&J's,30,8,59,59,196.7,59
 2026-09-25,venice,cannaregio,490e4e2e-d9b8-4d56-8d7d-0145949eadee,J&J's,30,14,58,57,193.3,61
-2026-09-26,venice,cannaregio,490e4e2e-d9b8-4d56-8d7d-0145949eadee,J&J's,30,12,62,62,206.7,63
+2026-09-26,venice,cannaregio,490e4e2e-d9b8-4d56-8d7d-0145949eadee,J&J's,30,12,61,61,203.3,62
 2026-09-23,venice,venice-marco-polo-airport,502cfabd-4cd8-456a-adc6-0adb17e1e7be,J&J's,0,3,9,9,,9
 2026-09-24,venice,venice-marco-polo-airport,502cfabd-4cd8-456a-adc6-0adb17e1e7be,J&J's,0,8,10,9,,10
 2026-09-25,venice,venice-marco-polo-airport,502cfabd-4cd8-456a-adc6-0adb17e1e7be,J&J's,0,14,11,11,,12
@@ -12811,7 +12811,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,venice,dorsoduro,65aea700-e5f8-4c77-a320-5061ea799144,J&J's,60,3,38,38,63.3,38
 2026-09-24,venice,dorsoduro,65aea700-e5f8-4c77-a320-5061ea799144,J&J's,60,8,41,41,68.3,41
 2026-09-25,venice,dorsoduro,65aea700-e5f8-4c77-a320-5061ea799144,J&J's,60,14,44,44,73.3,44
-2026-09-26,venice,dorsoduro,65aea700-e5f8-4c77-a320-5061ea799144,J&J's,60,12,45,45,75.0,45
+2026-09-26,venice,dorsoduro,65aea700-e5f8-4c77-a320-5061ea799144,J&J's,60,12,45,44,75.0,45
 2026-09-23,venice,favaro-veneto,685184e5-c224-4e10-b417-957aa4e831cf,J&J's,30,3,0,0,0.0,0
 2026-09-24,venice,favaro-veneto,685184e5-c224-4e10-b417-957aa4e831cf,J&J's,30,8,0,0,0.0,0
 2026-09-25,venice,favaro-veneto,685184e5-c224-4e10-b417-957aa4e831cf,J&J's,30,14,0,0,0.0,0
@@ -12843,7 +12843,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,venice,constitution-bridge,80ab207d-9199-46dd-94e9-b21f7b644563,J&J's,20,3,41,39,205.0,41
 2026-09-24,venice,constitution-bridge,80ab207d-9199-46dd-94e9-b21f7b644563,J&J's,20,8,39,37,195.0,39
 2026-09-25,venice,constitution-bridge,80ab207d-9199-46dd-94e9-b21f7b644563,J&J's,20,14,36,32,180.0,37
-2026-09-26,venice,constitution-bridge,80ab207d-9199-46dd-94e9-b21f7b644563,J&J's,20,12,34,34,170.0,35
+2026-09-26,venice,constitution-bridge,80ab207d-9199-46dd-94e9-b21f7b644563,J&J's,20,12,37,37,185.0,38
 2026-09-23,venice,lido-pellestrina,82a139e2-57af-41d9-876f-040f625a1a85,J&J's,0,3,0,0,,0
 2026-09-24,venice,lido-pellestrina,82a139e2-57af-41d9-876f-040f625a1a85,J&J's,0,8,0,0,,0
 2026-09-25,venice,lido-pellestrina,82a139e2-57af-41d9-876f-040f625a1a85,J&J's,0,14,0,0,,0
@@ -12887,7 +12887,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,venice,venezia-murano-burano,9916186b-7dc0-40df-8f54-2f4b648e6ddd,J&J's,55,3,43,43,78.2,43
 2026-09-24,venice,venezia-murano-burano,9916186b-7dc0-40df-8f54-2f4b648e6ddd,J&J's,55,8,43,43,78.2,45
 2026-09-25,venice,venezia-murano-burano,9916186b-7dc0-40df-8f54-2f4b648e6ddd,J&J's,55,14,47,44,85.5,49
-2026-09-26,venice,venezia-murano-burano,9916186b-7dc0-40df-8f54-2f4b648e6ddd,J&J's,55,12,48,48,87.3,49
+2026-09-26,venice,venezia-murano-burano,9916186b-7dc0-40df-8f54-2f4b648e6ddd,J&J's,55,12,49,49,89.1,50
 2026-09-23,venice,giudecca,993fceda-86cb-4f02-b4f8-9f22eedfe37a,J&J's,0,3,0,0,,0
 2026-09-24,venice,giudecca,993fceda-86cb-4f02-b4f8-9f22eedfe37a,J&J's,0,8,0,0,,0
 2026-09-25,venice,giudecca,993fceda-86cb-4f02-b4f8-9f22eedfe37a,J&J's,0,14,0,0,,0
@@ -12975,7 +12975,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,venice,mestre-carpenedo,d8c0641a-6354-4627-b8c4-28482aca6853,J&J's,100,3,50,50,50.0,50
 2026-09-24,venice,mestre-carpenedo,d8c0641a-6354-4627-b8c4-28482aca6853,J&J's,100,8,57,57,57.0,57
 2026-09-25,venice,mestre-carpenedo,d8c0641a-6354-4627-b8c4-28482aca6853,J&J's,100,14,62,61,62.0,62
-2026-09-26,venice,mestre-carpenedo,d8c0641a-6354-4627-b8c4-28482aca6853,J&J's,100,12,66,66,66.0,68
+2026-09-26,venice,mestre-carpenedo,d8c0641a-6354-4627-b8c4-28482aca6853,J&J's,100,12,68,68,68.0,70
 2026-09-23,venice,bissuola,da6e95de-4969-486d-9120-155c7cba4c5a,J&J's,0,3,1,1,,1
 2026-09-24,venice,bissuola,da6e95de-4969-486d-9120-155c7cba4c5a,J&J's,0,8,1,1,,1
 2026-09-25,venice,bissuola,da6e95de-4969-486d-9120-155c7cba4c5a,J&J's,0,14,2,2,,2
@@ -12983,7 +12983,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,venice,campo-dei-frari,dabab66e-1d7f-4648-83ff-4d58b0873c1e,J&J's,50,3,9,9,18.0,9
 2026-09-24,venice,campo-dei-frari,dabab66e-1d7f-4648-83ff-4d58b0873c1e,J&J's,50,8,9,7,18.0,9
 2026-09-25,venice,campo-dei-frari,dabab66e-1d7f-4648-83ff-4d58b0873c1e,J&J's,50,14,7,7,14.0,7
-2026-09-26,venice,campo-dei-frari,dabab66e-1d7f-4648-83ff-4d58b0873c1e,J&J's,50,12,8,8,16.0,8
+2026-09-26,venice,campo-dei-frari,dabab66e-1d7f-4648-83ff-4d58b0873c1e,J&J's,50,12,7,7,14.0,7
 2026-09-23,venice,murano-da-mula,df2aebe6-a857-428f-8ac4-f145e4b0c9ff,J&J's,0,3,3,2,,3
 2026-09-24,venice,murano-da-mula,df2aebe6-a857-428f-8ac4-f145e4b0c9ff,J&J's,0,8,2,2,,2
 2026-09-25,venice,murano-da-mula,df2aebe6-a857-428f-8ac4-f145e4b0c9ff,J&J's,0,14,3,3,,3
@@ -13011,7 +13011,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,venice,rione-pertini,e7227503-28ae-4c16-bd35-2ecade9ad6ed,J&J's,0,3,185,185,,185
 2026-09-24,venice,rione-pertini,e7227503-28ae-4c16-bd35-2ecade9ad6ed,J&J's,0,8,186,181,,186
 2026-09-25,venice,rione-pertini,e7227503-28ae-4c16-bd35-2ecade9ad6ed,J&J's,0,14,181,171,,182
-2026-09-26,venice,rione-pertini,e7227503-28ae-4c16-bd35-2ecade9ad6ed,J&J's,0,12,172,166,,174
+2026-09-26,venice,rione-pertini,e7227503-28ae-4c16-bd35-2ecade9ad6ed,J&J's,0,12,172,163,,174
 2026-09-23,venice,cita,eb81693f-e970-4dd3-89eb-5a6031b3e77b,J&J's,0,3,0,0,,0
 2026-09-24,venice,cita,eb81693f-e970-4dd3-89eb-5a6031b3e77b,J&J's,0,8,0,0,,0
 2026-09-25,venice,cita,eb81693f-e970-4dd3-89eb-5a6031b3e77b,J&J's,0,14,0,0,,0
@@ -13075,7 +13075,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,verbania,binda,e3e0396c-6955-4f71-806c-33f60abffd87,J&J's,0,3,10,10,,10
 2026-09-24,verbania,binda,e3e0396c-6955-4f71-806c-33f60abffd87,J&J's,0,8,11,11,,11
 2026-09-25,verbania,binda,e3e0396c-6955-4f71-806c-33f60abffd87,J&J's,0,14,14,14,,14
-2026-09-26,verbania,binda,e3e0396c-6955-4f71-806c-33f60abffd87,J&J's,0,12,14,13,,14
+2026-09-26,verbania,binda,e3e0396c-6955-4f71-806c-33f60abffd87,J&J's,0,12,14,12,,14
 2026-09-23,verbania,pallanza,edb2759d-73b3-494a-8ef6-4bba8293d6c0,J&J's,80,3,0,0,0.0,0
 2026-09-24,verbania,pallanza,edb2759d-73b3-494a-8ef6-4bba8293d6c0,J&J's,80,8,0,0,0.0,0
 2026-09-25,verbania,pallanza,edb2759d-73b3-494a-8ef6-4bba8293d6c0,J&J's,80,14,0,0,0.0,0
@@ -13155,11 +13155,11 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,verona,citta-antica,4cd6d56f-f19c-4f57-aa08-80af2c7c6dc3,J&J's,18,3,18,18,100.0,18
 2026-09-24,verona,citta-antica,4cd6d56f-f19c-4f57-aa08-80af2c7c6dc3,J&J's,18,8,18,16,100.0,18
 2026-09-25,verona,citta-antica,4cd6d56f-f19c-4f57-aa08-80af2c7c6dc3,J&J's,18,14,19,18,105.6,19
-2026-09-26,verona,citta-antica,4cd6d56f-f19c-4f57-aa08-80af2c7c6dc3,J&J's,18,12,21,21,116.7,21
+2026-09-26,verona,citta-antica,4cd6d56f-f19c-4f57-aa08-80af2c7c6dc3,J&J's,18,12,22,22,122.2,22
 2026-09-23,verona,arena-di-verona,5095ddba-3b08-4e16-bbdb-3805de900aad,J&J's,0,3,7,7,,7
 2026-09-24,verona,arena-di-verona,5095ddba-3b08-4e16-bbdb-3805de900aad,J&J's,0,8,12,12,,12
 2026-09-25,verona,arena-di-verona,5095ddba-3b08-4e16-bbdb-3805de900aad,J&J's,0,14,12,12,,12
-2026-09-26,verona,arena-di-verona,5095ddba-3b08-4e16-bbdb-3805de900aad,J&J's,0,12,12,12,,12
+2026-09-26,verona,arena-di-verona,5095ddba-3b08-4e16-bbdb-3805de900aad,J&J's,0,12,14,14,,14
 2026-09-23,verona,citta-antica,535c861a-3159-48fb-abdc-ab9fb4f4b485,J&J's,0,3,23,23,,23
 2026-09-24,verona,citta-antica,535c861a-3159-48fb-abdc-ab9fb4f4b485,J&J's,0,8,26,26,,26
 2026-09-25,verona,citta-antica,535c861a-3159-48fb-abdc-ab9fb4f4b485,J&J's,0,14,26,26,,26
@@ -13187,7 +13187,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,verona,citta-antica,677ff30b-a058-4d4b-8c88-da9069d2952b,J&J's,0,3,13,13,,13
 2026-09-24,verona,citta-antica,677ff30b-a058-4d4b-8c88-da9069d2952b,J&J's,0,8,16,16,,16
 2026-09-25,verona,citta-antica,677ff30b-a058-4d4b-8c88-da9069d2952b,J&J's,0,14,17,16,,17
-2026-09-26,verona,citta-antica,677ff30b-a058-4d4b-8c88-da9069d2952b,J&J's,0,12,17,17,,18
+2026-09-26,verona,citta-antica,677ff30b-a058-4d4b-8c88-da9069d2952b,J&J's,0,12,17,16,,17
 2026-09-23,verona,juliet-s-house,6ac95226-95ed-4517-a984-a7338c10070e,J&J's,0,3,2,1,,2
 2026-09-24,verona,juliet-s-house,6ac95226-95ed-4517-a984-a7338c10070e,J&J's,0,8,1,1,,1
 2026-09-25,verona,juliet-s-house,6ac95226-95ed-4517-a984-a7338c10070e,J&J's,0,14,1,1,,1
@@ -13223,7 +13223,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,verona,città-antica,9c3012ad-4d24-4559-96ce-13dbc8c0dc48,J&J's,10,3,1,1,10.0,1
 2026-09-24,verona,città-antica,9c3012ad-4d24-4559-96ce-13dbc8c0dc48,J&J's,10,8,1,1,10.0,1
 2026-09-25,verona,città-antica,9c3012ad-4d24-4559-96ce-13dbc8c0dc48,J&J's,10,14,1,1,10.0,1
-2026-09-26,verona,città-antica,9c3012ad-4d24-4559-96ce-13dbc8c0dc48,J&J's,10,12,1,1,10.0,1
+2026-09-26,verona,città-antica,9c3012ad-4d24-4559-96ce-13dbc8c0dc48,J&J's,10,12,1,0,10.0,1
 2026-09-23,verona,santa-lucia,9f709e9e-11d9-41b6-bb6a-17d41f54d348,J&J's,0,3,0,0,,0
 2026-09-24,verona,santa-lucia,9f709e9e-11d9-41b6-bb6a-17d41f54d348,J&J's,0,8,0,0,,0
 2026-09-25,verona,santa-lucia,9f709e9e-11d9-41b6-bb6a-17d41f54d348,J&J's,0,14,0,0,,0
@@ -13311,7 +13311,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-09-23,verona,citta-antica,da0825c5-d6fc-46b9-bd40-e3d4053c3728,J&J's,0,3,9,9,,9
 2026-09-24,verona,citta-antica,da0825c5-d6fc-46b9-bd40-e3d4053c3728,J&J's,0,8,9,8,,9
 2026-09-25,verona,citta-antica,da0825c5-d6fc-46b9-bd40-e3d4053c3728,J&J's,0,14,9,9,,9
-2026-09-26,verona,citta-antica,da0825c5-d6fc-46b9-bd40-e3d4053c3728,J&J's,0,12,9,8,,9
+2026-09-26,verona,citta-antica,da0825c5-d6fc-46b9-bd40-e3d4053c3728,J&J's,0,12,9,9,,9
 2026-09-23,verona,vago,da3dc5d4-3632-48a8-8dc8-b479960d8368,J&J's,0,3,0,0,,0
 2026-09-24,verona,vago,da3dc5d4-3632-48a8-8dc8-b479960d8368,J&J's,0,8,0,0,,0
 2026-09-25,verona,vago,da3dc5d4-3632-48a8-8dc8-b479960d8368,J&J's,0,14,0,0,,0
