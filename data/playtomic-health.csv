@@ -179,6 +179,7 @@ read_at,command,slug,stage,outcome
 2026-09-25 16:10,read,h-farm-campus,availability,4 half hours
 2026-09-25 16:10,read,sph-treviso-sporting,availability,28 half hours
 2026-09-25 16:10,read,marina-sporting,availability,8 half hours
+<<<<<<< Updated upstream
 2026-09-25 17:53,read,sporting-club-mestre,club page,"HTTP 403 plain, HTTP 403 as browser too"
 2026-09-25 17:53,read,padel-by-fitup-di-zero-branco,club page,"HTTP 403 plain, HTTP 403 as browser too"
 2026-09-25 17:53,read,aquafit-padel,club page,"HTTP 403 plain, HTTP 403 as browser too"
@@ -249,3 +250,35 @@ read_at,command,slug,stage,outcome
 2026-09-27 17:39,read,h-farm-campus,club page,"HTTP 403 plain, HTTP 403 as browser too"
 2026-09-27 17:39,read,sph-treviso-sporting,club page,"HTTP 403 plain, HTTP 403 as browser too"
 2026-09-27 17:39,read,marina-sporting,club page,"HTTP 403 plain, HTTP 403 as browser too"
+=======
+2026-09-25 19:46,read,sporting-club-mestre,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-09-25 19:46,read,padel-by-fitup-di-zero-branco,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-09-25 19:46,read,aquafit-padel,availability,8 half hours
+2026-09-25 19:46,read,sph-venezia,availability,20 half hours
+2026-09-25 19:46,read,padel-treviso,availability,48 half hours
+2026-09-25 19:46,read,altino-sport-village,availability,8 half hours
+2026-09-25 19:46,read,barchessa-pickleball,availability,12 half hours
+2026-09-25 19:46,read,h-farm-campus,availability,8 half hours
+2026-09-25 19:46,read,sph-treviso-sporting,availability,28 half hours
+2026-09-25 19:46,read,marina-sporting,availability,8 half hours
+>>>>>>> Stashed changes
+2026-09-27 18:43,read,sporting-club-mestre,availability,closed now or no slots
+2026-09-27 18:43,read,padel-by-fitup-di-zero-branco,availability,closed now or no slots
+2026-09-27 18:43,read,aquafit-padel,availability,closed now or no slots
+2026-09-27 18:43,read,sph-venezia,availability,15 half hours
+2026-09-27 18:43,read,padel-treviso,availability,24 half hours
+2026-09-27 18:43,read,altino-sport-village,availability,8 half hours
+2026-09-27 18:43,read,barchessa-pickleball,availability,3 half hours
+2026-09-27 18:43,read,h-farm-campus,availability,8 half hours
+2026-09-27 18:43,read,sph-treviso-sporting,availability,7 half hours
+2026-09-27 18:43,read,marina-sporting,availability,8 half hours
+2026-09-27 18:43,lead,sporting-club-mestre,availability,640 half hours
+2026-09-27 18:43,lead,padel-by-fitup-di-zero-branco,availability,117 half hours
+2026-09-27 18:43,lead,aquafit-padel,availability,334 half hours
+2026-09-27 18:43,lead,sph-venezia,availability,900 half hours
+2026-09-27 18:43,lead,padel-treviso,availability,2064 half hours
+2026-09-27 18:43,lead,altino-sport-village,availability,338 half hours
+2026-09-27 18:43,lead,barchessa-pickleball,availability,504 half hours
+2026-09-27 18:43,lead,h-farm-campus,availability,146 half hours
+2026-09-27 18:43,lead,sph-treviso-sporting,availability,1239 half hours
+2026-09-27 18:43,lead,marina-sporting,availability,336 half hours

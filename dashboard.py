@@ -180,7 +180,12 @@ font:15px/1.55 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif}
 .wrap{max-width:1140px;margin:0 auto}
 h1{font-size:23px;margin:0 0 4px;letter-spacing:-.01em}p.sub{color:var(--mut);margin:0 0 20px;font-size:14px}
 h2{font-size:13px;margin:28px 0 10px;text-transform:uppercase;letter-spacing:.07em;color:var(--mut)}
-.controls{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px}
+.controls{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px;align-items:center}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chips button{display:flex;align-items:center;gap:7px;padding:8px 12px;border:1px solid var(--line);
+border-radius:999px;background:var(--card);color:var(--mut);font:inherit;cursor:pointer}
+.chips button[aria-pressed="true"]{color:var(--fg);border-color:currentColor;font-weight:600}
+.chips button[aria-pressed="false"] .dot{opacity:.35}
 select,input{padding:8px 11px;border:1px solid var(--line);border-radius:9px;background:var(--card);color:var(--fg);font:inherit}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:12px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
@@ -212,7 +217,7 @@ tr.l1 td:first-child{padding-left:12px}tr.l2 td:first-child{padding-left:24px}tr
 <p class="sub" id="sub"></p>
 
 <div class="controls">
-<select id="prov"></select><select id="day"></select><select id="city"></select>
+<div class="chips" id="prov"></div><select id="day"></select><select id="city"></select>
 <select id="metric"><option value="abs">show how many occupied</option><option value="pct">show fill %</option></select>
 <input id="q" placeholder="filter by name or area">
 </div>
@@ -239,16 +244,24 @@ const day=document.getElementById('day'),prov=document.getElementById('prov'),ci
 const days=[...new Set(D.hourly.map(h=>h.day))].sort();
 day.innerHTML=days.map(d=>`<option>${d}</option>`).join('')+'<option value="">all days</option>';
 day.value=days[days.length-1]||'';
-prov.innerHTML='<option value="">all providers</option>'+D.providers.map(p=>`<option value="${p.id}">${p.label}</option>`).join('');
+const chosen=new Set(D.providers.map(p=>p.id));   // all three on at the start
+function drawChips(){prov.innerHTML=D.providers.map(p=>
+  `<button type="button" data-id="${p.id}" aria-pressed="${chosen.has(p.id)}">
+     <i class="dot" style="background:${COLOR[p.id]}"></i>${p.label}</button>`).join('');
+ [...prov.querySelectorAll('button')].forEach(b=>b.onclick=()=>{
+   const id=b.dataset.id;
+   if(chosen.has(id)&&chosen.size>1)chosen.delete(id); else chosen.add(id);
+   drawChips();draw()})}
+drawChips();
 const cities=[...new Set(D.hourly.map(h=>h.city))].sort();
 city.innerHTML='<option value="">all cities</option>'+cities.map(c=>`<option>${c}</option>`).join('');
 let sortKey='occ',dir=-1,open=new Set();
 const pct=(o,c)=>c?100*o/c:0, fmt=n=>Math.round(n).toLocaleString('en-US');
 
 const hsel=()=>D.hourly.filter(h=>(!day.value||h.day===day.value)&&(!city.value||h.city===city.value)
-  &&(!prov.value||h.p===prov.value));
+  &&chosen.has(h.p));
 const psel=()=>D.points.filter(p=>(!day.value||p.day===day.value)&&(!city.value||p.city===city.value)
-  &&(!prov.value||p.p===prov.value)&&(!q.value||(p.name+' '+p.area+' '+p.city).toLowerCase().includes(q.value.toLowerCase())));
+  &&chosen.has(p.p)&&(!q.value||(p.name+' '+p.area+' '+p.city).toLowerCase().includes(q.value.toLowerCase())));
 
 function cards(){
  const rows=hsel(),latest={},byHour={};
@@ -258,7 +271,7 @@ function cards(){
   bh[stamp].cap+=h.cap;bh[stamp].occ+=h.occ;bh[stamp].capk+=h.capk;bh[stamp].occk+=h.occk;bh[stamp].pts+=h.pts;
   if(!latest[h.p]||stamp>latest[h.p].stamp)latest[h.p]={stamp,cap:0,occ:0,pts:0,capk:0,occk:0,ptsk:0};
   if(latest[h.p].stamp===stamp){const L=latest[h.p];L.cap+=h.cap;L.occ+=h.occ;L.pts+=h.pts;L.capk+=h.capk;L.occk+=h.occk;L.ptsk+=h.ptsk}}
- document.getElementById('cards').innerHTML=D.providers.filter(p=>!prov.value||p.id===prov.value).map(p=>{
+ document.getElementById('cards').innerHTML=D.providers.filter(p=>chosen.has(p.id)).map(p=>{
   const l=latest[p.id];
   if(!l)return `<div class="card"><div class="who"><i class="dot" style="background:${COLOR[p.id]}"></i>${p.label}</div>
    <div class="big">—</div><small>no reading yet</small><small>last reading ${p.last}</small></div>`;
@@ -298,7 +311,7 @@ function chart(){
   paths+=hs.map(h=>`<circle cx="${x(h).toFixed(1)}" cy="${y(val(s[h])).toFixed(1)}" r="3.5" fill="${COLOR[p]}"><title>${LABEL[p]} ${h}:00 — ${fmt(s[h].occ)} ${UNIT[p]} occupied across ${fmt(s[h].pts)} locations read, ${pct(s[h].occk,s[h].capk).toFixed(1)}% of the ${fmt(s[h].capk)} places with a declared capacity</title></circle>`).join('');
  }
  document.getElementById('chart').innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Occupied by hour of day">${g}${paths}</svg>`;
- document.getElementById('legend').innerHTML=D.providers.map(p=>`<span><i class="dot" style="background:${COLOR[p.id]}"></i>${p.label} <em style="font-style:normal;opacity:.7">(${p.unit})</em></span>`).join('');
+ document.getElementById('legend').innerHTML=D.providers.filter(p=>chosen.has(p.id)).map(p=>`<span><i class="dot" style="background:${COLOR[p.id]}"></i>${p.label} <em style="font-style:normal;opacity:.7">(${p.unit})</em></span>`).join('');
  hourTable(series);
  const hrs=[...new Set(rows.map(r=>r.hour))].length;
  document.getElementById('chartnote').textContent=hrs<3
@@ -309,8 +322,9 @@ function chart(){
 
 function hourTable(series){
  const hours=[...new Set(Object.values(series).flatMap(s=>Object.keys(s).map(Number)))].sort((a,b)=>a-b);
- const head='<tr><th>Hour</th>'+D.providers.map(p=>`<th style="color:${COLOR[p.id]}">${p.label}<br><span style="font-weight:400">${p.unit} occupied</span></th>`).join('')+'</tr>';
- const body=hours.map(h=>'<tr><td>'+String(h).padStart(2,'0')+':00</td>'+D.providers.map(p=>{
+ const shown=D.providers.filter(p=>chosen.has(p.id));
+ const head='<tr><th>Hour</th>'+shown.map(p=>`<th style="color:${COLOR[p.id]}">${p.label}<br><span style="font-weight:400">${p.unit} occupied</span></th>`).join('')+'</tr>';
+ const body=hours.map(h=>'<tr><td>'+String(h).padStart(2,'0')+':00</td>'+shown.map(p=>{
    const v=(series[p.id]||{})[h];
    if(!v)return '<td class="tag">no reading</td>';
    const f=pct(v.occk,v.capk);
@@ -377,7 +391,7 @@ function table(){
   + '   Drill: city, then neighbourhood (the same geography for every provider), then the exact location, then locker size where there is one.';
 }
 function draw(){cards();chart();table()}
-[day,city,metric,prov].forEach(e=>e.oninput=draw);
+[day,city,metric].forEach(e=>e.oninput=draw);
 q.oninput=table;
 document.querySelectorAll('#tbl th').forEach(th=>th.onclick=()=>{const k=th.dataset.k;dir=(k===sortKey)?-dir:-1;sortKey=k;table()});
 draw();

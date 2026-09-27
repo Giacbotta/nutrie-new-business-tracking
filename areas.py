@@ -5,7 +5,12 @@ way a person recognises ("Santa Lucia Station", "Termini", "City Center"). Giaco
 on 24/09/2026, after a night of OpenStreetMap names that read like nonsense in most cities.
 
 So: every Radical point carries its own zone. Every Bounce point and every Stow Your Bags shop
-takes the zone of the nearest Radical point within RADIUS_KM. What is left keeps the label
+takes the zone of the nearest Radical point within RADIUS_KM.
+
+Some areas have no Radical point at all — Mestre, where Bounce has 17 points and Radical none —
+so data/extra-zones.csv holds zones added by hand, each with its own radius. Their names still come
+from Radical's own pages (Radical publishes a Mestre page with its centre) so the vocabulary stays
+one. Ask for a zone and it goes in that file. What is left keeps the label
 "Unknown neighbourhood" and is searched for in the background — the nearest OpenStreetMap place is
 still written next to it, as a candidate to look at, never as the label.
 
@@ -209,10 +214,19 @@ def fill_from_radical():
     zones = grid_of(radical)
     osm = grid_of([(float(r["lat"]), float(r["lng"]), r["name"]) for r in read_csv("osm-places.csv")
                    if r.get("lat") and r.get("name")], size=0.05)
+    extra = [(float(r["lat"]), float(r["lng"]), r["name"], float(r.get("radius_km") or RADIUS_KM))
+             for r in read_csv("extra-zones.csv") if r.get("lat")]
     cache = {}
     for k in wanted():
         lat, lng = (float(x) for x in k.split(","))
         name, km = nearest(zones, lat, lng, RADIUS_KM)
+        if not name:                      # zones added by hand, each with its own reach
+            import math
+            best_km = None
+            for plat, plng, pname, radius in extra:
+                d = math.dist(((plat - lat) * 111.0, (plng - lng) * 111.0 * math.cos(math.radians(lat))), (0, 0))
+                if d <= radius and (best_km is None or d < best_km):
+                    name, km, best_km = pname, d, d
         guess, _ = nearest(osm, lat, lng, 3.0, size=0.05)
         cache[k] = dict(key=k, area=name, city_osm=guess,
                         source=f"radical {km:.2f} km" if name else "unknown")
