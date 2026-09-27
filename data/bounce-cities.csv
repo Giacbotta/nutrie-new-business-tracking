@@ -1,93 +1,503 @@
 city,name,points,capacity
-rome,Rome,490,8053
-naples,Naples,416,3108
-milan,Milan,307,3096
+rome,Rome,491,8053
+naples,Naples,416,3093
+milan,Milan,305,3106
 catania,Catania,138,1020
 florence,Florence,115,1146
-caserta,Caserta,107,120
 palermo,Palermo,107,1166
+caserta,Caserta,107,120
 bologna,Bologna,100,1168
-turin,Turin,96,612
-venice,Venice,93,1535
+turin,Turin,98,612
+venice,Venice,93,1541
 bari,Bari,68,1067
 verona,Verona,65,243
 salerno,Salerno,58,595
 brescia,Brescia,53,120
 bergamo,Bergamo,48,275
+pompei,Pompei,46,320
 frosinone,Frosinone,43,0
 messina,Messina,42,120
 genoa,Genoa,37,256
 pisa,Pisa,37,897
 latina,Latina,35,0
-cagliari,Cagliari,33,0
 padova,Padova,33,267
+cagliari,Cagliari,33,0
+ercolano,Ercolano,31,60
 como,Como,29,245
 pescara,Pescara,29,45
-cesena,Cesena,26,105
 modena,Modena,26,110
+cesena,Cesena,26,105
 treviso,Treviso,26,5
 vicenza,Vicenza,25,10
-lecce,Lecce,24,525
 parma,Parma,24,60
-cosenza,Cosenza,23,0
+lecce,Lecce,24,525
 trieste,Trieste,23,16
+battipaglia,Battipaglia,23,0
+cosenza,Cosenza,23,0
+cassino,Cassino,21,0
+siracusa,Siracusa,21,100
+milazzo,Milazzo,21,100
 udine,Udine,21,0
+sorrento,Sorrento,20,567
 perugia,Perugia,19,155
-reggio-calabria,Reggio Calabria,19,300
 rimini,Rimini,19,160
+cardano-al-campo,Cardano Al Campo,19,0
+reggio-calabria,Reggio Calabria,19,300
+san-sebastiano-al-vesuvio,San Sebastiano al Vesuvio,19,45
+lampedusa,Lampedusa,18,50
 trapani,Trapani,18,195
 matera,Matera,17,35
+san-benedetto-del-tronto,San Benedetto del Tronto,17,100
 trani,Trani,17,0
-avellino,Avellino,16,0
-piacenza,Piacenza,16,25
 ragusa,Ragusa,16,80
-taranto,Taranto,15,90
+piacenza,Piacenza,16,25
+castellammare-di-stabia,Castellammare di Stabia,16,5
+avellino,Avellino,16,0
+sperlonga,Sperlonga,15,0
 vibo-valentia,Vibo Valentia,15,0
+taranto,Taranto,15,90
 la-spezia,La Spezia,14,81
-potenza,Potenza,14,0
 siena,Siena,14,32
+lamezia-terme,Lamezia Terme,14,0
+potenza,Potenza,14,0
+treviglio,Treviglio,14,10
 ancona,Ancona,13,110
-foggia,Foggia,13,20
+varese,Varese,13,100
 monza,Monza,13,0
 novara,Novara,13,0
-varese,Varese,13,100
-agrigento,Agrigento,12,120
-chieti,Chieti,12,25
-lecco,Lecco,12,80
+foggia,Foggia,13,20
+terrasini,Terrasini,13,0
+thiene,Thiene,13,10
 pordenone,Pordenone,12,0
-ravenna,Ravenna,12,100
+agrigento,Agrigento,12,120
+lecco,Lecco,12,80
 verbania,Verbania,12,210
+ischia,Ischia,12,450
+marsala,Marsala,12,100
+chieti,Chieti,12,25
+ravenna,Ravenna,12,100
+vittoria,Vittoria,11,0
+assisi,Assisi,11,125
 brindisi,Brindisi,11,200
-catanzaro,Catanzaro,11,0
 trento,Trento,11,20
-ferrara,Ferrara,10,50
-livorno,Livorno,10,55
+sanremo,Sanremo,11,90
+polignano-a-mare,Polignano a Mare,11,373
+legnano,Legnano,11,100
+catanzaro,Catanzaro,11,0
+monopoli,Monopoli,10,150
 lucca,Lucca,10,142
-pavia,Pavia,9,35
+ferrara,Ferrara,10,50
+saletti,Saletti,10,0
+livorno,Livorno,10,55
+cellole,Cellole,10,0
+paratico,Paratico,9,0
+alberobello,Alberobello,9,25
+amalfi,Amalfi,9,280
+gallipoli,Gallipoli,9,0
 sassari,Sassari,9,0
+alghero,Alghero,9,20
 savona,Savona,9,0
-arezzo,Arezzo,8,15
-bolzano,Bolzano,8,0
-laquila,L'Aquila,8,0
+capo-d'orlando,Capo d'Orlando,9,0
+montagnana,Montagnana,9,10
+pavia,Pavia,9,35
+formia,Formia,9,0
 reggio-emilia,Reggio Emilia,8,0
-sondrio,Sondrio,8,0
 teramo,Teramo,8,0
+ostuni,Ostuni,8,0
+laquila,L'Aquila,8,0
+sommatino,Sommatino,8,0
+desenzano-del-garda,Desenzano Del Garda,8,40
+arezzo,Arezzo,8,15
+canosa-di-puglia,Canosa di Puglia,8,100
+civitanova-marche,Civitanova Marche,8,0
+sondrio,Sondrio,8,0
+bolzano,Bolzano,8,0
+viareggio,Viareggio,8,60
+borgo-valbelluna,Borgo Valbelluna,8,0
+elba,Elba Island,8,190
+montecatini-terme,Montecatini Terme,8,20
+rossano-stazione,Rossano Stazione,7,0
+capistrello,Capistrello,7,0
+taormina,Taormina,7,150
+taurisano,Taurisano,7,0
 cremona,Cremona,7,0
-aosta,Aosta,6,0
-belluno,Belluno,6,0
+torre-de'-passeri,Torre de' Passeri,7,0
+manfredonia,Manfredonia,7,0
+cervignano-del-friuli,Cervignano del Friuli,7,0
+sala-consilina,Sala Consilina,7,0
+bronte,Bronte,7,0
+locri,Locri,6,0
 olbia,Olbia,6,0
-oristano,Oristano,6,0
+rapallo,Rapallo,6,0
 terni,Terni,6,6
-benevento,Benevento,5,0
+notaresco-stazione,Notaresco Stazione,6,0
+oristano,Oristano,6,0
+tirano,Tirano,6,20
+biella,Biella,6,0
+pero,Pero,6,0
+aosta,Aosta,6,0
+imola,Imola,6,0
+teano,Teano,6,0
+corridonia,Corridonia,6,0
+belluno,Belluno,6,0
+riccione,Riccione,6,0
+conegliano,Conegliano,5,0
+orvieto,Orvieto,5,10
 crotone,Crotone,5,100
+iesi,Iesi,5,0
+arona,Arona,5,0
+cefalu,Cefalù,5,130
+positano,Positano,5,300
+cattolica,Cattolica,5,60
+meta,Meta,5,100
 viterbo,Viterbo,5,10
+santa-margherita-ligure,Santa Margherita Ligure,5,37
+vallo-della-lucania,Vallo della Lucania,5,0
+recanati,Recanati,5,0
+benevento,Benevento,5,0
+ottaviano,Ottaviano,5,0
+cittanova,Cittanova,5,0
+castellammare-del-golfo,Castellammare del Golfo,5,50
+lipari,Lipari,5,30
+san-cataldo,San Cataldo,5,0
+nicosia-28,Nicosia,5,0
+vasto,Vasto,5,0
+buja,Buja,5,0
+augusta-9d,Augusta,5,0
+montepaone,Montepaone,5,0
+castelcovati,Castelcovati,4,0
+rovereto,Rovereto,4,0
+oderzo,Oderzo,4,0
 isernia,Isernia,4,30
+borno-it,Borno,4,0
+montalcino,Montalcino,4,15
+rionero-in-vulture,Rionero in Vulture,4,0
+merano,Merano,4,0
+mirabella-imbaccari,Mirabella Imbaccari,4,0
+noto,Noto,4,30
+termoli,Termoli,4,20
+madonna-di-campiglio,Madonna di Campiglio,4,8
+marina-di-santa-maria-del-cedro,Marina di Santa Maria del Cedro,4,0
+jesolo,Jesolo,4,0
+fano,Fano,4,0
+scordia,Scordia,4,0
+quinzano-d'oglio,Quinzano d'Oglio,4,0
+tropea,Tropea,4,0
+maglie,Maglie,4,0
 pesaro,Pesaro,4,6
-campobasso,Campobasso,3,100
+trebisacce,Trebisacce,4,10
+villanova-mondovì,Villanova Mondovì,4,0
+otranto,Otranto,4,10
+sant'agnello,Sant'Agnello,4,200
+grammichele,Grammichele,4,0
+oliena,Oliena,4,0
+faenza,Faenza,4,35
+sanluri,Sanluri,4,20
+vezzano-ligure,Vezzano Ligure,4,0
+matelica,Matelica,4,0
+acqui-terme,Acqui Terme,4,0
+porto-empedocle,Porto Empedocle,4,0
+alatri,Alatri,3,0
+spoleto,Spoleto,3,0
+nicorvo,Nicorvo,3,0
+courmayeur,Courmayeur,3,0
 enna,Enna,3,5
 rieti,Rieti,3,0
-tempio-pausania,Tempio Pausania,3,0
 vercelli,Vercelli,3,10
-alessandria,Alessandria,2,0
+ribera,Ribera,3,0
+termini-imerese,Termini Imerese,3,0
+irgoli,Irgoli,3,0
+tolve,Tolve,3,0
+gaggio-montano,Gaggio Montano,3,0
+san-severo,San Severo,3,0
+favignana,Favignana,3,0
+santa-maria-di-castellabate,Santa Maria di Castellabate,3,5
+canelli,Canelli,3,0
+monasterace-marina,Monasterace Marina,3,0
+ramacca,Ramacca,3,0
+licata,Licata,3,0
+lioni,Lioni,3,0
+ischia-di-castro,Ischia di Castro,3,0
+palau,Palau,3,0
+giardini-naxos,Giardini Naxos,3,30
+lauria,Lauria,3,0
+sirmione,Sirmione,3,0
+ventimiglia,Ventimiglia,3,0
+misano-adriatico,Misano Adriatico,3,100
+tronca,Tronca,3,0
+rutigliano,Rutigliano,3,0
+vobarno,Vobarno,3,0
+corleone,Corleone,3,0
+bordighera,Bordighera,3,0
+san-giovanni-rotondo,San Giovanni Rotondo,3,30
+procida,Procida,3,0
+massa-lubrense,Massa Lubrense,3,20
+forio,Forio,3,0
+capri,Capri,3,100
+peschiera-del-garda,Peschiera del Garda,3,35
+isola-di-salina,Salina,3,0
+fasano,Fasano,3,100
+campobasso,Campobasso,3,100
+ivrea,Ivrea,3,20
+mantua-d6,Mantua,3,0
+iglesias,Iglesias,3,0
+tempio-pausania,Tempio Pausania,3,0
+celano,Celano,3,0
+corinaldo,Corinaldo,3,0
+montespertoli,Montespertoli,3,0
+belmonte-calabro,Belmonte Calabro,3,0
+castelvetrano,Castelvetrano,3,0
+san-nicolò-di-comelico,San Nicolò di Comelico,3,0
+riva-del-garda,Riva del Garda,3,50
+palmi,Palmi,3,0
+laino-castello,Laino Castello,3,0
+fossano,Fossano,3,0
+portopalo-di-capo-passero,Portopalo di Capo Passero,3,0
+gagliano-del-capo,Gagliano del Capo,3,0
+ilbono,Ilbono,3,0
+chiusi,Chiusi,3,15
+santantioco,Sant'Antioco,3,0
+montalbano-jonico,Montalbano Jonico,3,0
 ascoli-piceno,Ascoli Piceno,2,0
+san-giorgio-a-cremano,San Giorgio a Cremano,2,0
+domodossola,Domodossola,2,20
+telese-terme,Telese Terme,2,0
+roccapalumba,Roccapalumba,2,0
+roccadaspide,Roccadaspide,2,0
+ortona,Ortona,2,0
+tolmezzo,Tolmezzo,2,0
+gubbio,Gubbio,2,0
+castiglione-del-lago,Castiglione del Lago,2,50
+casalbore,Casalbore,2,0
+san-giovanni-gemini,San Giovanni Gemini,2,0
+villaurbana,Villaurbana,2,0
+roccaspinalveti,Roccaspinalveti,2,0
+alviano,Alviano,2,0
+spilimbergo,Spilimbergo,2,0
+prata-sannita,Prata Sannita,2,0
+umbertide,Umbertide,2,0
+riomaggiore,Riomaggiore,2,0
+dogliani,Dogliani,2,30
+san-lucido,San Lucido,2,0
+monterosso,Monterosso,2,0
+urbania,Urbania,2,0
+pascione-quattro-strade,Pascione-Quattro Strade,2,0
+scaletta-zanclea,Scaletta Zanclea,2,0
+levanto,Levanto,2,0
+nuraminis,Nuraminis,2,0
+ghemme,Ghemme,2,0
+lodi-75,Lodi,2,0
+torchiarolo,Torchiarolo,2,20
+monzuno,Monzuno,2,0
+cecina,Cecina,2,0
+castel-madama,Castel Madama,2,0
+bruneck,Bruneck,2,0
+san-nicolò-d'arcidano,San Nicolò d'Arcidano,2,0
+villacidro,Villacidro,2,0
+monte-san-savino,Monte San Savino,2,0
+melito-di-porto-salvo,Melito di Porto Salvo,2,0
+prizzi,Prizzi,2,0
+quistello,Quistello,2,0
+vulcano-porto,Vulcano Porto,2,50
+isola-di-capo-rizzuto,Isola di Capo Rizzuto,2,0
+piove-di-sacco,Piove di Sacco,2,0
+carlentini,Carlentini,2,0
+chiavari,Chiavari,2,0
+rodi-garganico,Rodi Garganico,2,5
+bellagio,Bellagio,2,0
+santa-caterina-di-valfurva,Santa Caterina di Valfurva,2,50
+finale-ligure,Finale Ligure,2,0
+torino,Torino,2,0
+san-vincenzo,San Vincenzo,2,10
+sciacca,Sciacca,2,0
+niscemi,Niscemi,2,0
+stromboli,Stromboli,2,0
+linosa,Linosa,2,0
+camogli,Camogli,2,0
+maiori,Maiori,2,30
+alba,Alba,2,0
+godiasco,Godiasco,2,0
+gela,Gela,2,0
+selva-di-cadore,Selva di Cadore,2,0
+cles,Cles,2,0
+pieve-di-cento,Pieve di Cento,2,0
+santa-margherita-di-belice,Santa Margherita di Belice,2,0
+san-nicola-arcella,San Nicola Arcella,2,0
+grado,Grado,2,0
+poviglio,Poviglio,2,0
+alessandria,Alessandria,2,0
+atripalda,Atripalda,2,0
+broni,Broni,2,0
+montalto-di-castro,Montalto di Castro,2,0
+spezzano-albanese,Spezzano Albanese,2,0
+mottafollone,Mottafollone,2,0
+ronciglione,Ronciglione,2,0
+monte-argentario,Monte Argentario,2,0
+castelnovo-ne'-monti,Castelnovo ne' Monti,2,0
+pantelleria,Pantelleria,2,0
+amantea,Amantea,1,0
+aprilia,Aprilia,1,0
+torre-suda-le-it,Torre Suda,1,0
+castellana-grotte-bari-it,Castellana Grotte,1,0
+gliaca-me-it,Gliaca,1,0
+cicagna-it,Cicagna,1,0
+triggiano-ba-it,Triggiano,1,0
+letojanni-me-it,Letojanni,1,0
+pula-ca-it,Pula,1,0
+simeri-crichi,Simeri Crichi,1,0
+gardone-val-trompia,Gardone Val Trompia,1,0
+noale-ve-italy,Noale,1,0
+sestri-levante,Sestri Levante,1,0
+sant'apollinare,Sant'Apollinare,1,0
+guarcino,Guarcino,1,0
+siderno,Siderno,1,0
+santa-maria-degli-angeli-pg-it,Santa Maria degli Angeli,1,0
+isola-della-scala-vr-it,Isola della Scala,1,0
+cassano-all’ionio,Cassano All’Ionio,1,0
+nocera-superiore,Nocera Superiore,1,10
+ariano-irpino,Ariano Irpino,1,0
+valderice-tp-it,Valderice,1,0
+bolgheri,Bolgheri,1,0
+esine,Esine,1,0
+mangone,Mangone,1,0
+grassano,Grassano,1,0
+alba-adriatica,Alba Adriatica,1,0
+auer,Auer,1,0
+barisciano,Barisciano,1,0
+maggiora,Maggiora,1,0
 cuneo,Cuneo,1,0
+caorle-it,Caorle,1,0
+arce,Arce,1,0
+bovalino,Bovalino,1,0
+pofi,Pofi,1,0
+magenta,Magenta,1,0
+sassuolo,Sassuolo,1,0
+siniscola,Siniscola,1,0
+voghera,Voghera,1,0
+castel-volturno,Castel Volturno,1,0
+santadi,Santadi,1,0
+vieste,Vieste,1,0
+stilo,Stilo,1,0
+castrovillari,Castrovillari,1,0
+segrate-mi-it,Segrate,1,0
+agropoli,Agropoli,1,0
+motta-visconti,Motta Visconti,1,0
+dorno,Dorno,1,0
+poppi,Poppi,1,5
+pontinia,Pontinia,1,0
+pavullo-nel-frignano,Pavullo Nel Frignano,1,0
+tronzano-vercellese,Tronzano Vercellese,1,0
+lauro,Lauro,1,0
+salandra,Salandra,1,0
+follonica,Follonica,1,0
+ortucchio,Ortucchio,1,0
+san-felice-circeo,San Felice Circeo,1,0
+marina-di-camerota,Marina di Camerota,1,6
+antey-saint-andre-it,Antey-Saint-André,1,0
+citta-di-castello,Citta di Castello,1,0
+palazzo-san-gervasio,Palazzo San Gervasio,1,0
+muravera,Muravera,1,0
+reggiolo,Reggiolo,1,0
+palazzolo-acreide,Palazzolo Acreide,1,0
+bojano,Bojano,1,0
+san-giovanni-in-fiore,San Giovanni in Fiore,1,0
+scalea-it,Scalea,1,0
+monreale-fr,Monreale,1,0
+vietri-sul-mare,Vietri sul Mare,1,0
+san-gavino-monreale,San Gavino Monreale,1,0
+pozzallo,Pozzallo,1,0
+san-nicandro-garganico,San Nicandro Garganico,1,0
+scurelle,Scurelle,1,0
+conselve,Conselve,1,0
+maranello,Maranello,1,50
+valledolmo,Valledolmo,1,0
+pioltello-mi-it,Pioltello,1,0
+cortona-ar-it,Cortona,1,0
+cariati,Cariati,1,0
+venasca,Venasca,1,0
+canale-di-pergine-valsugana,Canale di Pergine Valsugana,1,0
+chiari,Chiari,1,0
+fiumicino,Fiumicino,1,0
+inzago,Inzago,1,0
+alassio,Alassio,1,0
+ceva,Ceva,1,0
+moneglia,Moneglia,1,0
+sabbionara,Sabbionara,1,0
+latronico,Latronico,1,0
+montegabbione,Montegabbione,1,0
+palma-di-montechiaro,Palma di Montechiaro,1,0
+casarsa-della-delizia,Casarsa della Delizia,1,0
+bedonia,Bedonia,1,0
+mistretta,Mistretta,1,0
+larino,Larino,1,0
+cortina-dampezzo,Cortina d'Ampezzo,1,0
+marsico-nuovo,Marsico Nuovo,1,0
+serracapriola,Serracapriola,1,0
+nule,Nule,1,0
+traversetolo,Traversetolo,1,0
+ponza,Ponza,1,0
+lucera,Lucera,1,0
+fonte,Fonte,1,0
+giurdignano,Giurdignano,1,0
+gosaldo,Gosaldo,1,0
+gioiosa-marea,Gioiosa Marea,1,0
+ploaghe,Ploaghe,1,0
+mira,Mira,1,25
+arcidosso,Arcidosso,1,0
+colletorto,Colletorto,1,0
+atrani,Atrani,1,0
+porto-viro,Porto Viro,1,0
+lignano-sabbiadoro,Lignano Sabbiadoro,1,0
+alicudi,Alicudi,1,0
+filicudi,Filicudi,1,30
+ustica,Ustica,1,0
+montevarchi,Montevarchi,1,10
+vernazza,Vernazza,1,8
+fondi,Fondi,1,0
+golfo-aranci,Golfo Aranci,1,0
+porto-cesareo,Porto Cesareo,1,0
+spello-perugia,Spello,1,0
+senigallia,Senigallia,1,0
+panarea,Panarea,1,0
+san-teodoro,San Teodoro,1,0
+civitavecchia,Civitavecchia,1,0
+livigno,Livigno,1,50
+ravello,Ravello,1,0
+sparanise,Sparanise,1,0
+cipressino,Cipressino,1,0
+raddusa,Raddusa,1,0
+abbasanta,Abbasanta,1,0
+aviano,Aviano,1,0
+magnano-in-riviera,Magnano in Riviera,1,0
+lesina,Lesina,1,0
+greve-in-chianti,Greve in Chianti,1,0
+sabbio-chiese,Sabbio Chiese,1,0
+manciano,Manciano,1,0
+civitella-del-tronto,Civitella del Tronto,1,0
+castelnuovo-don-bosco,Castelnuovo Don Bosco,1,0
+cherasco,Cherasco,1,0
+torella-del-sannio,Torella del Sannio,1,0
+paola,Paola,1,0
+scicli,Scicli,1,0
+acri,Acri,1,0
+boville-ernica,Boville Ernica,1,0
+biancavilla,Biancavilla,1,0
+cairo-montenotte,Cairo Montenotte,1,0
+vigevano,Vigevano,1,0
+taglio-di-po,Taglio di Po,1,0
+sapri,Sapri,1,0
+piaggine,Piaggine,1,0
+taino,Taino,1,0
+corfinio,Corfinio,1,0
+sabaudia,Sabaudia,1,0
+iseo,Iseo,1,0
+villa-literno,Villa Literno,1,0
+carpegna,Carpegna,1,0
+muccia,Muccia,1,0
+conselice,Conselice,1,0
+bardi,Bardi,1,0
+sestriere,Sestriere,1,50
+porto-torres,Porto Torres,1,0
+gallarate,Gallarate,1,0
+grottaferrata-rome,Grottaferrata,1,10
+marzocca,Marzocca,1,0

@@ -179,9 +179,20 @@ def places():
     return rows
 
 
-def pretty(slug):
-    """"santa-lucia-station" -> "Santa Lucia Station"."""
-    return " ".join(w.capitalize() for w in (slug or "").replace("_", "-").split("-") if w)
+# Radical reuses a handful of zone names in every city. On their own they say nothing once several
+# cities sit in one table - and Mestre's "City Center" under Venice would be plainly wrong - so the
+# city name goes in front of them (27/09/2026).
+GENERIC = {"city center", "city centre", "town center", "town centre", "railway station",
+           "train station", "station", "airport", "port", "old town", "historic center",
+           "historic centre", "bus station", "city"}
+
+
+def pretty(slug, city=""):
+    """"santa-lucia-station" -> "Santa Lucia Station"; a generic name gets its city in front."""
+    name = " ".join(w.capitalize() for w in (slug or "").replace("_", "-").split("-") if w)
+    if name.lower() in GENERIC and city:
+        return f"{pretty(city)} {name}"
+    return name
 
 
 def grid_of(rows, size=0.02):
@@ -206,10 +217,10 @@ def nearest(grid, lat, lng, limit_km, size=0.02):
 
 def fill_from_radical():
     """Give every point the zone of the nearest Radical point, and keep an OSM candidate for the rest."""
-    radical = [(float(r["lat"]), float(r["lng"]), pretty(r["area"]))
+    radical = [(float(r["lat"]), float(r["lng"]), pretty(r["area"], r.get("city", "")))
                for r in read_csv("radical-points.csv") if r.get("lat") and r.get("area")]
     # Radical's published zone list covers far more ground than its own points
-    radical += [(float(r["lat"]), float(r["lng"]), r["name"])
+    radical += [(float(r["lat"]), float(r["lng"]), pretty(r["name"], r.get("city", "")))
                 for r in read_csv("radical-zones.csv") if r.get("lat") and r.get("name")]
     zones = grid_of(radical)
     osm = grid_of([(float(r["lat"]), float(r["lng"]), r["name"]) for r in read_csv("osm-places.csv")

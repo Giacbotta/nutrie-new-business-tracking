@@ -186,10 +186,32 @@ def areas():
         print(f"  {len(left) - NOMINATIM_PER_RUN} left for the next run")
 
 
+def all_italian_cities():
+    """Every Italian city Bounce lists, from its own city index.
+
+    The first version guessed the list from the 107 province capitals, which misses Sorrento,
+    Sirmione, Positano and every other town that is not a capital. `cities` answers the whole
+    index, so the guess is gone (27/09/2026)."""
+    out, after = [], None
+    while True:
+        cursor = f',after:"{after}"' if after else ""
+        d = ask('{cities(first:500%s){pageInfo{hasNextPage endCursor}edges{node{slug country storeCount}}}}' % cursor)
+        page = ((d.get("data") or {}).get("cities") or {})
+        if not page:
+            return [c for c in out] or CITIES
+        out += [e["node"]["slug"] for e in page["edges"]
+                if e["node"].get("country") == "IT" and (e["node"].get("storeCount") or 0) > 0]
+        if not page["pageInfo"]["hasNextPage"]:
+            print(f"{len(out)} Italian cities in Bounce's index")
+            return out or CITIES
+        after = page["pageInfo"]["endCursor"]
+
+
 def cities():
     found = []
     with ThreadPoolExecutor(THREADS) as ex:
-        for slug, spots in zip(CITIES, ex.map(city_stores, CITIES)):
+        candidates = all_italian_cities()
+        for slug, spots in zip(candidates, ex.map(city_stores, candidates)):
             italian = [s for s in spots if (s.get("city") or {}).get("country") == "IT"]
             if italian:
                 found.append(dict(city=slug, name=italian[0]["city"]["name"], points=len(italian),

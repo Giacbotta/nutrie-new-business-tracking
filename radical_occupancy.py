@@ -27,7 +27,7 @@ ROBOTS.TXT
   a few requests per second, and a hard ceiling per run (MAX_REQUESTS). Decided with Giacomo.
 
 COMMANDS (run from the repository root)
-  python radical_occupancy.py cities                 # which Italian province capitals Radical covers
+  python radical_occupancy.py cities                 # which Italian cities Radical covers, from its sitemap
   python radical_occupancy.py census                 # every point, with capacity and reviews
   python radical_occupancy.py scan                   # bags booked in the hour about to start
   python radical_occupancy.py scan ferrara,pisa      # only these cities
@@ -138,10 +138,29 @@ def read_csv(path):
 
 # ---------------------------------------------------------------- cities and census
 
+def all_city_slugs():
+    """Every city Radical has a page for, from its sitemap.
+
+    The first version guessed the list from the 107 province capitals and so missed Mestre, which
+    Radical treats as a city of its own with 12 points - and with it every other town that is not a
+    capital (Sorrento, Sirmione and the like). The sitemap is the honest source: 1.074 cities
+    worldwide on 27/09/2026, of which the Italian ones are kept below."""
+    try:
+        raw = urllib.request.urlopen(urllib.request.Request(
+            "https://radicalstorage.com/sitemap.xml", headers=UA), timeout=120).read().decode("utf8", "replace")
+    except Exception as err:
+        print(f"sitemap not readable ({err}), falling back to the province capitals")
+        return CAPITALS
+    slugs = sorted({m.group(1) for m in re.finditer(r"/luggage-storage/([a-z0-9-]+)/[a-z0-9-]+/", raw)})
+    print(f"{len(slugs)} cities in the sitemap")
+    return slugs or CAPITALS
+
+
 def cities():
+    candidates = all_city_slugs()
     found = []
     with ThreadPoolExecutor(THREADS) as ex:
-        for city, points in zip(CAPITALS, ex.map(city_points, CAPITALS)):
+        for city, points in zip(candidates, ex.map(city_points, candidates)):
             italian = [p for p in points if p.get("countryISO") == "IT"]
             if italian:
                 found.append(dict(city=city, points=len(italian),
