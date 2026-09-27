@@ -302,3 +302,13 @@ read_at,command,slug,stage,outcome
 2026-09-27 21:24,lead,h-farm-campus,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 2026-09-27 21:24,lead,sph-treviso-sporting,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 2026-09-27 21:24,lead,marina-sporting,availability,336 half hours
+2026-09-27 22:07,read,sporting-club-mestre,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-27 22:07,read,padel-by-fitup-di-zero-branco,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-27 22:07,read,aquafit-padel,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-27 22:07,read,sph-venezia,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-27 22:07,read,padel-treviso,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-27 22:07,read,altino-sport-village,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-27 22:07,read,barchessa-pickleball,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-27 22:07,read,h-farm-campus,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-27 22:07,read,sph-treviso-sporting,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-27 22:07,read,marina-sporting,club page,"HTTP 403 plain, HTTP 403 as browser too"

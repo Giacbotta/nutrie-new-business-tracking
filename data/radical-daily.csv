@@ -2935,7 +2935,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-09-24,weekday,naples,vicaria,6460924,Luggage Storage Arenaccia / Poderico,20,2,0,0.0,0,0,0.0
 2026-09-25,weekday,naples,vicaria,6460924,Luggage Storage Arenaccia / Poderico,20,9,0,0.0,0,0,0.0
 2026-09-26,weekend,naples,vicaria,6460924,Luggage Storage Arenaccia / Poderico,20,14,3,15.0,0,3,1.5
-2026-09-27,weekend,naples,vicaria,6460924,Luggage Storage Arenaccia / Poderico,20,14,0,0.0,0,0,0.0
+2026-09-27,weekend,naples,vicaria,6460924,Luggage Storage Arenaccia / Poderico,20,14,1,5.0,0,1,0.5
 2026-09-23,weekday,naples,vicaria,9003,Luggage Storage Arenaccia,35,1,0,0.0,0,0,0.0
 2026-09-24,weekday,naples,vicaria,9003,Luggage Storage Arenaccia,35,4,0,0.0,0,0,0.0
 2026-09-25,weekday,naples,vicaria,9003,Luggage Storage Arenaccia,35,6,0,0.0,0,0,0.0
@@ -4397,7 +4397,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-09-24,weekday,rome,termini,5684,Luggage Storage Termini Rome,50,4,0,0.0,0,0,0.0
 2026-09-25,weekday,rome,termini,5684,Luggage Storage Termini Rome,50,10,0,0.0,0,0,0.0
 2026-09-26,weekend,rome,termini,5684,Luggage Storage Termini Rome,50,16,4,8.0,0,4,2.0
-2026-09-27,weekend,rome,termini,5684,Luggage Storage Termini Rome,50,16,9,18.0,2,9,5.5
+2026-09-27,weekend,rome,termini,5684,Luggage Storage Termini Rome,50,16,9,18.0,2,11,6.5
 2026-09-23,weekday,rome,termini,6452106,Luggage Storage Volturno/Cernaia,25,1,0,0.0,0,0,0.0
 2026-09-24,weekday,rome,termini,6452106,Luggage Storage Volturno/Cernaia,25,2,8,32.0,7,1,4.0
 2026-09-25,weekday,rome,termini,6452106,Luggage Storage Volturno/Cernaia,25,6,25,100.0,25,0,12.5
