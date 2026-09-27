@@ -97,7 +97,9 @@ jobs:
             python stow_occupancy.py shops
             python areas.py places && python areas.py fill
           elif [ "$c" = "competitors" ]; then
-            python competitors_census.py all && python dashboard.py
+            python competitors_census.py all || echo "STASHER/STOW CENSUS FAILED"
+            python other_operators.py || echo "OTHER OPERATORS FAILED"
+            python dashboard.py
           fi
 
       - name: Save the data in the repository

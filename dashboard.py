@@ -157,7 +157,12 @@ def build():
     for p, day, hour, city, area, pid, name, size, cap, occ, read_at in rows:
         last_read[p] = max(last_read.get(p, ""), read_at)
 
+    others = [dict(brand=r["brand"], city=r["city"], name=r["name"], address=r["address"],
+                   url=r["url"], reviews=r["reviews"])
+              for r in read_csv("other-operators.csv")]
+
     payload = dict(
+        others=others,
         built=dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         providers=[dict(id=k, label=v["label"], unit=v["unit"], note=v["note"],
                         last=last_read.get(k, "never")) for k, v in PROVIDERS.items()],
@@ -207,7 +212,8 @@ select,input{padding:8px 11px;border:1px solid var(--line);border-radius:9px;bac
 .card small{color:var(--mut);display:block;margin-top:3px;font-size:12.5px}
 .meter{height:7px;background:var(--soft);border-radius:4px;overflow:hidden;margin:9px 0 2px}
 .meter>i{display:block;height:100%}
-table{width:100%;border-collapse:collapse}#hourtbl{margin:14px 0 0;max-width:720px;min-width:420px}#tbl{min-width:640px}
+table{width:100%;border-collapse:collapse}#hourtbl{margin:14px 0 0;max-width:720px;min-width:420px}#others{min-width:640px}
+#others th{cursor:default}#others td a{color:inherit}#tbl{min-width:640px}
 .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
 #hourtbl th{cursor:default;text-align:right}#hourtbl th:first-child,#hourtbl td:first-child{text-align:left;width:88px}th,td{padding:7px 8px;border-bottom:1px solid var(--line);text-align:right;
 font-variant-numeric:tabular-nums}th:first-child,td:first-child,th:nth-child(2),td:nth-child(2){text-align:left}
@@ -247,6 +253,14 @@ tr.l1 td:first-child{padding-left:12px}tr.l2 td:first-child{padding-left:24px}tr
 <th data-k="capk">Capacity</th><th data-k="occ">Occupied at peak</th><th data-k="free">Free</th>
 <th data-k="fill">Fill</th><th data-k="fillpct">%</th></tr></thead><tbody></tbody></table></div>
 <p class="note" id="note"></p>
+
+<h2>Other operators mapped — no availability published</h2>
+<p class="note">Locker in the City and iVano publish where they are but not how full they are:
+Locker in the City builds its pages statically and keeps availability behind an authenticated
+booking API, iVano has no online booking at all. They are here as a competition map, not in the
+comparison above. iVano is the one to look at twice: it sits in Cannaregio and San Polo.</p>
+<div class="scroll"><table id="others"><thead><tr><th>Operator</th><th>City</th><th>Location</th>
+<th>Address</th><th>Reviews</th></tr></thead><tbody></tbody></table></div>
 </div><script>
 const D=__DATA__;
 const COLOR={radical:'#2f6df6',bounce:'#e0682a',stow:'#0f9d77'};
@@ -402,7 +416,16 @@ function table(){
   + '   Occupied at peak is the busiest single reading of the selected day for each location, added up across locations - never a sum of different hours, which would count the same bag twice.'
   + '   Drill: city, then neighbourhood (the same geography for every provider), then the exact location, then locker size where there is one.';
 }
-function draw(){cards();chart();table()}
+function others(){
+ const names={lockerinthecity:'Locker in the City', ivano:'iVano'};
+ const rows=(D.others||[]).slice().sort((a,b)=>(a.brand+a.city).localeCompare(b.brand+b.city));
+ document.querySelector('#others tbody').innerHTML=rows.map(r=>
+  `<tr><td>${names[r.brand]||r.brand}</td><td>${r.city}</td>
+   <td><a href="${r.url}" target="_blank" rel="noopener">${r.name}</a></td>
+   <td>${r.address||'—'}</td><td>${r.reviews||'—'}</td></tr>`).join('')
+  ||'<tr><td colspan="5">Nothing mapped yet.</td></tr>';
+}
+function draw(){cards();chart();table();others()}
 [day,city,metric].forEach(e=>e.oninput=draw);
 q.oninput=table;
 document.querySelectorAll('#tbl th').forEach(th=>th.onclick=()=>{const k=th.dataset.k;dir=(k===sortKey)?-dir:-1;sortKey=k;table()});

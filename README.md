@@ -11,7 +11,8 @@ Scripts that run on GitHub Actions and track public data about new business oppo
 | `bounce_occupancy.py` | The same for Bounce: 3.381 points in 92 Italian cities, with capacity and reservation counts | E-93 | every hour |
 | `stow_occupancy.py` | Free lockers per shop and size at Stow Your Bags, the one real locker operator among the four, read from its booking form | E-93 | every hour |
 | `competitors_census.py` | Weekly census of Stasher in Italy: points, declared capacity, prices | E-93 | Monday |
-| `dashboard.py` | Builds `docs/index.html` from all four sources | E-93 | after every hourly run |
+| `other_operators.py` | Where Locker in the City and iVano are, when their occupancy cannot be read | E-93 | Monday |
+| `dashboard.py` | Builds `docs/index.html` from every source | E-93 | after every hourly run |
 
 "Board item" refers to Nutrie's internal task board.
 
