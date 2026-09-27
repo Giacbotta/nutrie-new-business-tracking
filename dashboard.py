@@ -173,9 +173,11 @@ def build():
     for p, day, hour, city, area, pid, name, size, cap, occ, read_at in rows:
         last_read[p] = max(last_read.get(p, ""), read_at)
 
+    # Locker in the City is now a provider of its own (its readings begin when its backend recovers),
+    # so it leaves this table; iVano stays, as it publishes no availability at all.
     others = [dict(brand=r["brand"], city=r["city"], name=r["name"], address=r["address"],
                    url=r["url"], reviews=r["reviews"])
-              for r in read_csv("other-operators.csv")]
+              for r in read_csv("other-operators.csv") if r["brand"] != "lockerinthecity"]
 
     payload = dict(
         others=others,
