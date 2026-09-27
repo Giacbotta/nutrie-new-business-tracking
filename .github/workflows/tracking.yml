@@ -78,6 +78,7 @@ jobs:
             { python radical_occupancy.py scan && python radical_occupancy.py daily; } || echo "RADICAL FAILED"
             { python bounce_occupancy.py scan  && python bounce_occupancy.py daily;  } || echo "BOUNCE FAILED"
             { python stow_occupancy.py scan    && python stow_occupancy.py daily;    } || echo "STOW FAILED"
+            { python litc_occupancy.py scan    && python litc_occupancy.py daily;    } || echo "LITC FAILED"
             python areas.py fill || echo "AREAS FAILED"
             python dashboard.py  || echo "DASHBOARD FAILED"
           fi
@@ -99,6 +100,7 @@ jobs:
           elif [ "$c" = "competitors" ]; then
             python competitors_census.py all || echo "STASHER/STOW CENSUS FAILED"
             python other_operators.py || echo "OTHER OPERATORS FAILED"
+            python litc_occupancy.py shops || echo "LITC SHOPS FAILED"
             python dashboard.py
           fi
 

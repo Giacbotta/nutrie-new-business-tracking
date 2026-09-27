@@ -36,9 +36,14 @@ PROVIDERS = {
                    note="Occupied = luggage in the shop at the moment of the reading. Capacity is what "
                         "each point declares."),
     "stow": dict(label="Stow Your Bags", unit="lockers",
-                 note="The only real locker operator of the three. The booking form gives free lockers, "
+                 note="A real locker operator. The booking form gives free lockers, "
                       "so occupied is capacity minus free; capacity is the most ever seen free for that "
                       "shop and locker size, so it sharpens as the series grows."),
+    "litc": dict(label="Locker in the City", unit="lockers",
+                 note="A locker operator like Stow Your Bags, 13 Italian shops. The booking flow gives "
+                      "free lockers per size, so occupied is capacity minus free; capacity is the most "
+                      "ever seen free for that shop and size. Its backend was down when it was added, so "
+                      "its readings begin once that recovers."),
 }
 
 
@@ -124,6 +129,17 @@ def readings():
         shop = shops.get(r["shop_id"], {})
         out.append(("stow", *when(r["read_at"]), town(r["city"]), area(shop.get("lat"), shop.get("lng")),
                     r["shop_id"], r["name"], r["locker_type"], cap, cap - number(r["free"]), r["read_at"]))
+
+    litc_shops = {r["shop_id"]: r for r in read_csv("litc-shops.csv")}
+    litc_rows = [r for r in read_csv("litc-occupancy.csv") if r.get("status") == "read" and r["free"] != ""]
+    lbest = collections.defaultdict(int)
+    for r in litc_rows:
+        lbest[(r["shop_id"], r["locker_type"])] = max(lbest[(r["shop_id"], r["locker_type"])], number(r["free"]))
+    for r in litc_rows:
+        cap = lbest[(r["shop_id"], r["locker_type"])]
+        shop = litc_shops.get(r["shop_id"], {})
+        out.append(("litc", *when(r["read_at"]), town(r["city"]), area(shop.get("lat"), shop.get("lng")),
+                    r["shop_id"], r["name"], r["locker_type"], cap, cap - number(r["free"]), r["read_at"]))
     return out
 
 
@@ -188,7 +204,7 @@ TEMPLATE = """<!doctype html>
 <title>Luggage storage occupancy in Italy</title>
 <style>
 :root{--bg:#fff;--fg:#14171f;--mut:#6b7280;--line:#e5e7eb;--card:#f8fafc;--soft:#eef2f7;
---radical:#2f6df6;--bounce:#e0682a;--stow:#0f9d77}
+--radical:#2f6df6;--bounce:#e0682a;--stow:#0f9d77;--litc:#8b3fd6}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1218;--fg:#eef1f6;--mut:#98a2b3;
 --line:#242a35;--card:#161a22;--soft:#1b2029;color-scheme:dark}}
 :root[data-theme="dark"]{--bg:#0f1218;--fg:#eef1f6;--mut:#98a2b3;--line:#242a35;--card:#161a22;--soft:#1b2029;color-scheme:dark}
@@ -263,7 +279,7 @@ comparison above. iVano is the one to look at twice: it sits in Cannaregio and S
 <th>Address</th><th>Reviews</th></tr></thead><tbody></tbody></table></div>
 </div><script>
 const D=__DATA__;
-const COLOR={radical:'#2f6df6',bounce:'#e0682a',stow:'#0f9d77'};
+const COLOR={radical:'#2f6df6',bounce:'#e0682a',stow:'#0f9d77',litc:'#8b3fd6'};
 const LABEL={},UNIT={};D.providers.forEach(p=>{LABEL[p.id]=p.label;UNIT[p.id]=p.unit});
 const day=document.getElementById('day'),prov=document.getElementById('prov'),city=document.getElementById('city'),
       q=document.getElementById('q'),metric=document.getElementById('metric');
