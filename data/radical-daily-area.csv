@@ -1797,7 +1797,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-09-27,genoa,pegli,1,15,0,0.0,0,0,0.0
 2026-09-27,genoa,piazza-corvetto-piazza-de-ferrari,1,100,0,0.0,0,0,0.0
 2026-09-27,genoa,piazza-principe,1,300,0,0.0,0,0,0.0
-2026-09-27,la-spezia,la-spezia-centrale,7,265,27,10.2,9,18,13.5
+2026-09-27,la-spezia,la-spezia-centrale,7,265,27,10.2,9,19,14.0
 2026-09-27,la-spezia,migliarina,1,50,0,0.0,0,0,0.0
 2026-09-27,lecce,lecce-city-center,2,65,1,1.5,0,1,0.5
 2026-09-27,lecce,railway-station,5,160,13,8.1,0,13,6.5
@@ -1829,7 +1829,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-09-27,milan,lambrate,3,70,1,1.4,1,0,0.5
 2026-09-27,milan,loreto,4,90,0,0.0,0,0,0.0
 2026-09-27,milan,malpensa-airport,1,100,0,0.0,0,0,0.0
-2026-09-27,milan,milan-centrale-railway-station,21,1300,223,17.2,43,181,112.0
+2026-09-27,milan,milan-centrale-railway-station,21,1300,227,17.5,43,185,114.0
 2026-09-27,milan,milano-repubblica-station,2,120,103,85.8,0,103,51.5
 2026-09-27,milan,missori,5,145,74,51.0,9,68,38.5
 2026-09-27,milan,navigli,2,55,31,56.4,20,31,25.5
@@ -1864,7 +1864,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-09-27,naples,municipio,5,220,6,2.7,2,4,3.0
 2026-09-27,naples,naples-airport,2,230,4,1.7,4,0,2.0
 2026-09-27,naples,naples-cathedral,1,100,3,3.0,0,3,1.5
-2026-09-27,naples,naples-centrale-train-station,16,1275,70,5.5,11,59,35.0
+2026-09-27,naples,naples-centrale-train-station,16,1275,72,5.6,11,61,36.0
 2026-09-27,naples,naples-city-center,5,205,20,9.8,5,15,10.0
 2026-09-27,naples,napoli-port,1,10,3,30.0,1,2,1.5
 2026-09-27,naples,napoli-porta-nolana,4,183,2,1.1,0,2,1.0
@@ -1928,7 +1928,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-09-27,rome,brancaccio,1,20,0,0.0,0,0,0.0
 2026-09-27,rome,castel-sant-angelo,3,180,76,42.2,6,70,38.0
 2026-09-27,rome,cavour,1,50,2,4.0,2,0,1.0
-2026-09-27,rome,colosseum,4,145,21,14.5,2,19,10.5
+2026-09-27,rome,colosseum,4,145,20,13.8,2,18,10.0
 2026-09-27,rome,esquilino,6,370,27,7.3,11,16,13.5
 2026-09-27,rome,fiera-di-roma,1,30,0,0.0,0,0,0.0
 2026-09-27,rome,flaminio,2,75,0,0.0,0,0,0.0
@@ -1936,7 +1936,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-09-27,rome,garbatella,3,170,0,0.0,0,0,0.0
 2026-09-27,rome,labicana,1,35,4,11.4,0,4,2.0
 2026-09-27,rome,largo-di-torre-argentina,1,35,3,8.6,3,0,1.5
-2026-09-27,rome,lepanto,2,60,12,20.0,3,9,6.0
+2026-09-27,rome,lepanto,2,60,14,23.3,3,11,7.0
 2026-09-27,rome,manzoni,1,20,0,0.0,0,0,0.0
 2026-09-27,rome,monti,9,420,24,5.7,5,19,12.0
 2026-09-27,rome,navona,6,325,14,4.3,4,10,7.0
@@ -1986,7 +1986,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-09-27,siena,city-center,4,107,4,3.7,2,2,2.0
 2026-09-27,siena,istrice,1,50,3,6.0,0,3,1.5
 2026-09-27,siena,lupa,2,55,2,3.6,0,2,1.0
-2026-09-27,siena,siena-train-station,1,35,2,5.7,0,2,1.0
+2026-09-27,siena,siena-train-station,1,35,0,0.0,0,0,0.0
 2026-09-27,syracuse,apollo-temple,4,90,2,2.2,0,2,1.0
 2026-09-27,syracuse,arenella,1,50,0,0.0,0,0,0.0
 2026-09-27,syracuse,augusta,1,20,0,0.0,0,0,0.0
@@ -2000,9 +2000,9 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-09-27,trapani,train-station,1,10,0,0.0,0,0,0.0
 2026-09-27,trapani,trapani-port,2,80,6,7.5,1,5,3.0
 2026-09-27,trapani,trapani-train-station,1,30,0,0.0,0,0,0.0
-2026-09-27,trento,main-station,5,160,1,0.6,0,1,0.5
+2026-09-27,trento,main-station,5,160,3,1.9,0,3,1.5
 2026-09-27,treviso,city-center,1,20,0,0.0,0,0,0.0
-2026-09-27,treviso,treviso-train-station,1,75,15,20.0,0,16,8.0
+2026-09-27,treviso,treviso-train-station,1,75,15,20.0,0,15,7.5
 2026-09-27,trieste,trieste-train-station,3,125,14,11.2,5,9,7.0
 2026-09-27,turin,allianz-stadium,1,100,0,0.0,0,0,0.0
 2026-09-27,turin,aurora,1,20,0,0.0,0,0,0.0

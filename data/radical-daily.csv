@@ -1415,7 +1415,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-09-24,weekday,la-spezia,la-spezia-centrale,6459699,Luggage Storage La Spezia Station,60,3,7,11.7,0,7,3.5
 2026-09-25,weekday,la-spezia,la-spezia-centrale,6459699,Luggage Storage La Spezia Station,60,9,0,0.0,0,0,0.0
 2026-09-26,weekend,la-spezia,la-spezia-centrale,6459699,Luggage Storage La Spezia Station,60,15,10,16.7,0,11,5.5
-2026-09-27,weekend,la-spezia,la-spezia-centrale,6459699,Luggage Storage La Spezia Station,60,8,10,16.7,0,10,5.0
+2026-09-27,weekend,la-spezia,la-spezia-centrale,6459699,Luggage Storage La Spezia Station,60,8,10,16.7,0,11,5.5
 2026-09-23,weekday,la-spezia,la-spezia-centrale,6459737,Luggage Storage La Spezia Giardini Pubblici,35,2,0,0.0,0,0,0.0
 2026-09-24,weekday,la-spezia,la-spezia-centrale,6459737,Luggage Storage La Spezia Giardini Pubblici,35,2,0,0.0,0,0,0.0
 2026-09-25,weekday,la-spezia,la-spezia-centrale,6459737,Luggage Storage La Spezia Giardini Pubblici,35,8,0,0.0,0,0,0.0
@@ -2015,7 +2015,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-09-24,weekday,milan,milan-centrale-railway-station,6461511,Luggage Storage Ponte Seveso / Centrale,20,2,0,0.0,0,0,0.0
 2026-09-25,weekday,milan,milan-centrale-railway-station,6461511,Luggage Storage Ponte Seveso / Centrale,20,8,0,0.0,0,0,0.0
 2026-09-26,weekend,milan,milan-centrale-railway-station,6461511,Luggage Storage Ponte Seveso / Centrale,20,12,0,0.0,0,0,0.0
-2026-09-27,weekend,milan,milan-centrale-railway-station,6461511,Luggage Storage Ponte Seveso / Centrale,20,6,0,0.0,0,0,0.0
+2026-09-27,weekend,milan,milan-centrale-railway-station,6461511,Luggage Storage Ponte Seveso / Centrale,20,6,4,20.0,0,4,2.0
 2026-09-23,weekday,milan,milan-centrale-railway-station,6462294,Luggage Storage Vitruvio / Centrale,20,2,0,0.0,0,0,0.0
 2026-09-24,weekday,milan,milan-centrale-railway-station,6462294,Luggage Storage Vitruvio / Centrale,20,2,0,0.0,0,0,0.0
 2026-09-25,weekday,milan,milan-centrale-railway-station,6462294,Luggage Storage Vitruvio / Centrale,20,8,0,0.0,0,0,0.0
@@ -2586,7 +2586,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-09-24,weekday,naples,naples-centrale-train-station,1835,Luggage Storage Naples Train Station,45,9,2,4.4,0,2,1.0
 2026-09-25,weekday,naples,naples-centrale-train-station,1835,Luggage Storage Naples Train Station,45,12,1,2.2,0,1,0.5
 2026-09-26,weekend,naples,naples-centrale-train-station,1835,Luggage Storage Naples Train Station,45,23,0,0.0,0,0,0.0
-2026-09-27,weekend,naples,naples-centrale-train-station,1835,Luggage Storage Naples Train Station,45,16,8,17.8,0,8,4.0
+2026-09-27,weekend,naples,naples-centrale-train-station,1835,Luggage Storage Naples Train Station,45,16,10,22.2,0,10,5.0
 2026-09-23,weekday,naples,naples-centrale-train-station,188,Luggage Storage Naples Centrale,300,2,0,0.0,0,0,0.0
 2026-09-24,weekday,naples,naples-centrale-train-station,188,Luggage Storage Naples Centrale,300,9,0,0.0,0,0,0.0
 2026-09-25,weekday,naples,naples-centrale-train-station,188,Luggage Storage Naples Centrale,300,12,0,0.0,0,0,0.0
@@ -3645,7 +3645,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-09-26,weekend,rome,collatino,6455729,Luggage Storage Casal Bruciato,100,6,0,0.0,0,0,0.0
 2026-09-24,weekday,rome,colosseum,3690,Luggage Storage Colosseum Station,50,2,3,6.0,0,3,1.5
 2026-09-26,weekend,rome,colosseum,3690,Luggage Storage Colosseum Station,50,7,8,16.0,0,8,4.0
-2026-09-27,weekend,rome,colosseum,3690,Luggage Storage Colosseum Station,50,6,13,26.0,2,11,6.5
+2026-09-27,weekend,rome,colosseum,3690,Luggage Storage Colosseum Station,50,6,12,24.0,2,10,6.0
 2026-09-23,weekday,rome,colosseum,4124,Luggage Storage Colosseum,50,1,0,0.0,0,0,0.0
 2026-09-24,weekday,rome,colosseum,4124,Luggage Storage Colosseum,50,2,0,0.0,0,0,0.0
 2026-09-25,weekday,rome,colosseum,4124,Luggage Storage Colosseum,50,6,2,4.0,0,2,1.0
@@ -3777,7 +3777,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-09-24,weekday,rome,lepanto,6454985,Luggage Storage Roma Flaminio,25,4,0,0.0,0,0,0.0
 2026-09-25,weekday,rome,lepanto,6454985,Luggage Storage Roma Flaminio,25,8,0,0.0,0,0,0.0
 2026-09-26,weekend,rome,lepanto,6454985,Luggage Storage Roma Flaminio,25,14,2,8.0,0,2,1.0
-2026-09-27,weekend,rome,lepanto,6454985,Luggage Storage Roma Flaminio,25,9,1,4.0,0,1,0.5
+2026-09-27,weekend,rome,lepanto,6454985,Luggage Storage Roma Flaminio,25,9,3,12.0,0,3,1.5
 2026-09-23,weekday,rome,lepanto,6462316,Luggage Storage Roma Ottaviano,35,2,0,0.0,0,0,0.0
 2026-09-24,weekday,rome,lepanto,6462316,Luggage Storage Roma Ottaviano,35,2,2,5.7,1,1,1.0
 2026-09-25,weekday,rome,lepanto,6462316,Luggage Storage Roma Ottaviano,35,8,2,5.7,2,0,1.0
@@ -4453,7 +4453,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-09-24,weekday,rome,termini,6472962,Luggage Storage Termini / Amendola,18,2,17,94.4,12,5,8.5
 2026-09-25,weekday,rome,termini,6472962,Luggage Storage Termini / Amendola,18,8,18,100.0,18,15,16.5
 2026-09-26,weekend,rome,termini,6472962,Luggage Storage Termini / Amendola,18,12,17,94.4,16,8,12.0
-2026-09-27,weekend,rome,termini,6472962,Luggage Storage Termini / Amendola,18,4,18,100.0,17,2,9.5
+2026-09-27,weekend,rome,termini,6472962,Luggage Storage Termini / Amendola,18,5,18,100.0,17,2,9.5
 2026-09-23,weekday,rome,termini,6473095,Luggage Storage Viminale Bus Stop,40,2,0,0.0,0,0,0.0
 2026-09-24,weekday,rome,termini,6473095,Luggage Storage Viminale Bus Stop,40,3,0,0.0,0,0,0.0
 2026-09-25,weekday,rome,termini,6473095,Luggage Storage Viminale Bus Stop,40,8,0,0.0,0,0,0.0
@@ -4845,7 +4845,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-09-24,weekday,siena,siena-train-station,6452060,Luggage Storage Siena Railway Station,35,3,4,11.4,0,4,2.0
 2026-09-25,weekday,siena,siena-train-station,6452060,Luggage Storage Siena Railway Station,35,5,0,0.0,0,0,0.0
 2026-09-26,weekend,siena,siena-train-station,6452060,Luggage Storage Siena Railway Station,35,11,7,20.0,4,4,4.0
-2026-09-27,weekend,siena,siena-train-station,6452060,Luggage Storage Siena Railway Station,35,6,2,5.7,0,2,1.0
+2026-09-27,weekend,siena,siena-train-station,6452060,Luggage Storage Siena Railway Station,35,6,0,0.0,0,0,0.0
 2026-09-24,weekday,syracuse,apollo-temple,6455456,Luggage Storage Piazza Pantheon,10,1,0,0.0,0,0,0.0
 2026-09-26,weekend,syracuse,apollo-temple,6455456,Luggage Storage Piazza Pantheon,10,4,0,0.0,0,0,0.0
 2026-09-24,weekday,syracuse,apollo-temple,6455457,Luggage Storage Syracuse Temple Of Apollo,25,2,0,0.0,0,0,0.0
@@ -4992,7 +4992,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-09-24,weekday,trento,main-station,3884,Luggage Storage Trento Railway Station,40,5,5,12.5,0,5,2.5
 2026-09-25,weekday,trento,main-station,3884,Luggage Storage Trento Railway Station,40,10,3,7.5,0,3,1.5
 2026-09-26,weekend,trento,main-station,3884,Luggage Storage Trento Railway Station,40,18,1,2.5,0,2,1.0
-2026-09-27,weekend,trento,main-station,3884,Luggage Storage Trento Railway Station,40,11,0,0.0,0,0,0.0
+2026-09-27,weekend,trento,main-station,3884,Luggage Storage Trento Railway Station,40,11,2,5.0,0,2,1.0
 2026-09-23,weekday,trento,main-station,6456083,Luggage Storage Centa Brennero,50,1,0,0.0,0,0,0.0
 2026-09-24,weekday,trento,main-station,6456083,Luggage Storage Centa Brennero,50,2,0,0.0,0,0,0.0
 2026-09-25,weekday,trento,main-station,6456083,Luggage Storage Centa Brennero,50,6,0,0.0,0,0,0.0
@@ -5036,7 +5036,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-09-24,weekday,treviso,treviso-train-station,806,Luggage Storage Treviso Train Station,75,3,4,5.3,4,0,2.0
 2026-09-25,weekday,treviso,treviso-train-station,806,Luggage Storage Treviso Train Station,75,8,19,25.3,0,19,9.5
 2026-09-26,weekend,treviso,treviso-train-station,806,Luggage Storage Treviso Train Station,75,8,7,9.3,3,4,3.5
-2026-09-27,weekend,treviso,treviso-train-station,806,Luggage Storage Treviso Train Station,75,7,15,20.0,0,16,8.0
+2026-09-27,weekend,treviso,treviso-train-station,806,Luggage Storage Treviso Train Station,75,7,15,20.0,0,15,7.5
 2026-09-23,weekday,treviso,treviso-train-station,8263,Luggage Storage Treviso Railway Station,20,1,0,0.0,0,0,0.0
 2026-09-24,weekday,treviso,treviso-train-station,8263,Luggage Storage Treviso Railway Station,20,1,4,20.0,4,0,2.0
 2026-09-25,weekday,treviso,treviso-train-station,8263,Luggage Storage Treviso Railway Station,20,4,5,25.0,5,0,2.5
