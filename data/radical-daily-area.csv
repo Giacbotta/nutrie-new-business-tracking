@@ -2403,6 +2403,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-09-28,perugia,central-station,4,105,9,8.6,2,9,5.5
 2026-09-28,perugia,elce,2,30,0,0.0,0,0,0.0
 2026-09-28,perugia,piazza-della-repubblica,2,30,0,0.0,0,0,0.0
+2026-09-28,perugia,piazza-iv-novembre,1,30,0,0.0,0,0,0.0
 2026-09-28,pesaro,city-center,3,210,3,1.4,1,2,1.5
 2026-09-28,pescara,pescara-centrale-train-station,10,255,4,1.6,0,4,2.0
 2026-09-28,peschiera-del-garda,peschiera-del-garda-train-station,1,35,5,14.3,0,5,2.5
@@ -2456,7 +2457,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-09-28,rome,Quartiere-IX-appio-latino,1,35,2,5.7,0,2,1.0
 2026-09-28,rome,aventino,1,100,5,5.0,0,5,2.5
 2026-09-28,rome,baldo-degli-ubaldi-station,2,55,0,0.0,0,0,0.0
-2026-09-28,rome,bocca-della-verita,1,40,0,0.0,0,0,0.0
+2026-09-28,rome,bocca-della-verita,1,40,1,2.5,0,1,0.5
 2026-09-28,rome,brancaccio,1,20,0,0.0,0,0,0.0
 2026-09-28,rome,casal-monastero,1,100,0,0.0,0,0,0.0
 2026-09-28,rome,castel-sant-angelo,4,225,20,8.9,0,20,10.0
@@ -2483,7 +2484,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-09-28,rome,ostia-1,1,40,0,0.0,0,0,0.0
 2026-09-28,rome,ostiense,6,470,10,2.1,0,10,5.0
 2026-09-28,rome,ottaviano,5,130,3,2.3,2,1,1.5
-2026-09-28,rome,pantheon,18,1352,27,2.0,6,30,18.0
+2026-09-28,rome,pantheon,18,1352,27,2.0,6,31,18.5
 2026-09-28,rome,parco-regionale-appia-antica,1,15,0,0.0,0,0,0.0
 2026-09-28,rome,parioli,2,65,4,6.2,0,4,2.0
 2026-09-28,rome,piazza-campo-de-fiori,4,205,5,2.4,5,0,2.5
@@ -2553,7 +2554,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-09-28,syracuse,station,5,240,3,1.2,0,3,1.5
 2026-09-28,syracuse,syracuse-roman-amphitheater,1,25,0,0.0,0,0,0.0
 2026-09-28,syracuse,yacht-lub-lakkios-marina-porto-piccolo-ortigia,1,25,0,0.0,0,0,0.0
-2026-09-28,taormina,city-centre,1,50,4,8.0,0,4,2.0
+2026-09-28,taormina,city-centre,2,70,4,5.7,0,4,2.0
 2026-09-28,taranto,castello-aragonese,2,60,0,0.0,0,0,0.0
 2026-09-28,taranto,sacello-romano,3,70,0,0.0,0,0,0.0
 2026-09-28,terni,railway-station,1,300,0,0.0,0,0,0.0
@@ -2619,7 +2620,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-09-28,venice,san-marco,3,125,7,5.6,5,3,4.0
 2026-09-28,venice,san-polo,3,150,0,0.0,0,0,0.0
 2026-09-28,venice,santa-croce,1,20,0,0.0,0,0,0.0
-2026-09-28,venice,santa-lucia-station,2,240,42,17.5,12,30,21.0
+2026-09-28,venice,santa-lucia-station,2,240,42,17.5,12,31,21.5
 2026-09-28,venice,santa-lucia-train-station,1,15,6,40.0,0,6,3.0
 2026-09-28,venice,venice-castello,1,50,0,0.0,0,0,0.0
 2026-09-28,venice,venice-lido,1,25,0,0.0,0,0,0.0
