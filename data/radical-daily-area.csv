@@ -2084,7 +2084,9 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-09-27,viareggio,train-station,1,30,0,0.0,0,0,0.0
 2026-09-27,vicenza,city-center,2,70,11,15.7,3,8,5.5
 2026-09-27,vigevano,city-center,1,20,0,0.0,0,0,0.0
+2026-09-28,alghero,alghero-airport,1,30,4,13.3,4,0,2.0
 2026-09-28,ancona,ancona-train-station,1,100,0,0.0,0,0,0.0
+2026-09-28,assisi,city-center,1,25,0,0.0,0,0,0.0
 2026-09-28,bari,altamura,1,10,0,0.0,0,0,0.0
 2026-09-28,bari,fiera-del-levante,1,30,0,0.0,0,0,0.0
 2026-09-28,bologna,bologna-centrale-railway-station,1,55,0,0.0,0,0,0.0
@@ -2108,7 +2110,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-09-28,milan,milano-repubblica-station,2,120,0,0.0,0,0,0.0
 2026-09-28,milan,missori,1,40,0,0.0,0,0,0.0
 2026-09-28,milan,navigli,1,35,0,0.0,0,0,0.0
-2026-09-28,milan,niguarda,1,20,0,0.0,0,0,0.0
+2026-09-28,milan,niguarda,2,40,0,0.0,0,0,0.0
 2026-09-28,milan,palazzo-di-giustizia,1,30,0,0.0,0,0,0.0
 2026-09-28,milan,politecnico-di-milano-campus-bovisa-la-masa,1,20,0,0.0,0,0,0.0
 2026-09-28,milan,porta-genova,1,35,0,0.0,0,0,0.0
@@ -2144,14 +2146,17 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-09-28,rome,portuense,1,20,0,0.0,0,0,0.0
 2026-09-28,rome,repubblica,1,50,0,0.0,0,0,0.0
 2026-09-28,rome,termini,7,865,19,2.2,19,1,10.0
+2026-09-28,rome,tiburtina,1,65,0,0.0,0,0,0.0
 2026-09-28,rome,trastevere,2,130,0,0.0,0,0,0.0
 2026-09-28,rome,via-del-corso,1,25,0,0.0,0,0,0.0
 2026-09-28,sanremo,city-center,1,20,1,5.0,1,0,0.5
 2026-09-28,sassari,city-center,1,20,1,5.0,1,0,0.5
+2026-09-28,sestri-levante,sestri-levante-train-station,1,35,0,0.0,0,0,0.0
 2026-09-28,sorrento,sant-agnello,1,20,0,0.0,0,0,0.0
 2026-09-28,sorrento,sorrento-train-station,1,30,0,0.0,0,0,0.0
 2026-09-28,syracuse,station,1,30,0,0.0,0,0,0.0
 2026-09-28,trani,trani-transit-station,1,50,0,0.0,0,0,0.0
+2026-09-28,trento,main-station,1,40,0,0.0,0,0,0.0
 2026-09-28,trieste,trieste-train-station,1,45,0,0.0,0,0,0.0
 2026-09-28,turin,city-center,1,40,0,0.0,0,0,0.0
 2026-09-28,turin,museo-pietro-micca,1,95,1,1.1,1,0,0.5
