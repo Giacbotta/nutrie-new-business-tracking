@@ -1,0 +1,44 @@
+from,to,why
+Santa Lucia Train Station,Santa Lucia Station,venice: one station under two labels
+Constitution Bridge,Piazzale Roma,venice: same arrival area as Piazzale Roma
+Venice Santa Croce,Santa Croce,venice: drop the city prefix, one Santa Croce
+Turin Cathedral,Turin Historic Centre,turin: landmark inside the historic centre
+Egyptian Museum,Turin Historic Centre,turin: landmark inside the historic centre
+Piazza San Carlo,Turin Historic Centre,turin: landmark inside the historic centre
+Galleria Sabauda,Turin Historic Centre,turin: landmark inside the historic centre
+Torino Via Roma,Turin Historic Centre,turin: landmark inside the historic centre
+Palazzo Reale,Turin Historic Centre,turin: landmark inside the historic centre
+Piazza Castello,Turin Historic Centre,turin: landmark inside the historic centre
+Museo Del Risorgimento,Turin Historic Centre,turin: landmark inside the historic centre
+National Cinema Museum,Mole Antonelliana,turin: the cinema museum is inside the Mole
+Museo Pietro Micca,Quadrilatero Romano,turin: leftover of the Porta Susa cluster, Porta Susa kept apart
+Piazza Statuto,Quadrilatero Romano,turin: leftover of the Porta Susa cluster, Porta Susa kept apart
+Quadrilatero,Quadrilatero Romano,turin: one name for the Quadrilatero
+Porta Nuova Train Station,Stazione Porta Nuova,turin: one station under two labels
+Lingotto Fiere,Lingotto,turin: the fair is part of Lingotto
+Tower Of Pisa,Piazza Dei Miracoli,pisa: tower and duomo are one square
+Pisa Piazza Del Duomo,Piazza Dei Miracoli,pisa: tower and duomo are one square
+Piazza Dei Cavalieri,Pisa Historic Centre,pisa: centre with all the other squares
+Santa Maria,Pisa Historic Centre,pisa: centre with all the other squares
+San Francesco,Pisa Historic Centre,pisa: centre with all the other squares
+National Museum Of San Matteo,Pisa Historic Centre,pisa: centre with all the other squares
+Palazzo Blu,Pisa Historic Centre,pisa: centre with all the other squares
+Juliet S House,Verona Historic Centre,verona: landmark inside the historic centre
+Arena Di Verona,Verona Historic Centre,verona: landmark inside the historic centre
+Teatro Romano Di Verona,Verona Historic Centre,verona: landmark inside the historic centre
+Castelvecchio Museum,Verona Historic Centre,verona: landmark inside the historic centre
+Porta Borsari,Verona Historic Centre,verona: landmark inside the historic centre
+Galleria D'arte Moderna Achille Forti,Verona Historic Centre,verona: landmark inside the historic centre
+Arco Dei Gavi,Verona Historic Centre,verona: landmark inside the historic centre
+Piazza Delle Erbe,Verona Historic Centre,verona: landmark inside the historic centre
+Citta Antica,Verona Historic Centre,verona: citta antica is the historic centre
+Florence Duomo,Duomo - San Lorenzo,florence: Duomo and San Lorenzo are one area
+Duomo,Duomo - San Lorenzo,florence: Duomo and San Lorenzo are one area
+Battistero Di San Giovanni,Duomo - San Lorenzo,florence: Duomo and San Lorenzo are one area
+San Lorenzo,Duomo - San Lorenzo,florence: Duomo and San Lorenzo are one area
+Navona Square,Pantheon,rome: Pantheon and Navona are one area
+Genoa Cathedral,Genoa Historic Centre,genoa: cathedral and de Ferrari are the centre
+Piazza De Ferrari,Genoa Historic Centre,genoa: cathedral and de Ferrari are the centre
+Basilica San Nicola,Bari Old Town,bari: the basilica is inside the old town
+Palermo Botanical Garden,Palermo City Center,palermo: folded into the city centre
+Piazza Pretoria,Palermo City Center,palermo: folded into the city centre

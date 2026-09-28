@@ -188,8 +188,15 @@ GENERIC = {"city center", "city centre", "town center", "town centre", "railway 
 
 
 def pretty(slug, city=""):
-    """"santa-lucia-station" -> "Santa Lucia Station"; a generic name gets its city in front."""
-    name = " ".join(w.capitalize() for w in (slug or "").replace("_", "-").split("-") if w)
+    """"santa-lucia-station" -> "Santa Lucia Station"; a generic name gets its city in front.
+
+    Splits on spaces as well as dashes and underscores, so a multi-word name Title-cases the same
+    way whatever the source: a slug from the points file ("santa-lucia-station") and a proper name
+    from the zones file ("Venice Santa Lucia Station") must not end up as two different labels for
+    one place. Before this, capitalize() over a space-joined string produced "Peggy guggenheim
+    collection" next to "Peggy Guggenheim Collection"."""
+    words = [w for w in re.split(r"[-_\s]+", (slug or "").strip()) if w]
+    name = " ".join(w[:1].upper() + w[1:].lower() for w in words)
     if name.lower() in GENERIC and city:
         return f"{pretty(city)} {name}"
     return name
@@ -227,6 +234,12 @@ def fill_from_radical():
                    if r.get("lat") and r.get("name")], size=0.05)
     extra = [(float(r["lat"]), float(r["lng"]), r["name"], float(r.get("radius_km") or RADIUS_KM))
              for r in read_csv("extra-zones.csv") if r.get("lat")]
+    # Radical names its zones after single landmarks, so one neighbourhood arrives split across a
+    # handful of labels ("Turin Cathedral", "Egyptian Museum", "Palazzo Reale" are all the historic
+    # centre) and a place shows up under two labels ("Santa Lucia Station" and "Santa Lucia Train
+    # Station"). zone-merges.csv folds those into one name each. It lives apart from radical-zones.csv
+    # because the Monday census rewrites that file; this one is applied on top and survives.
+    merge = {r["from"]: r["to"] for r in read_csv("zone-merges.csv") if r.get("from") and r.get("to")}
     cache = {}
     for k in wanted():
         lat, lng = (float(x) for x in k.split(","))
@@ -238,6 +251,7 @@ def fill_from_radical():
                 d = math.dist(((plat - lat) * 111.0, (plng - lng) * 111.0 * math.cos(math.radians(lat))), (0, 0))
                 if d <= radius and (best_km is None or d < best_km):
                     name, km, best_km = pname, d, d
+        name = merge.get(name, name)
         guess, _ = nearest(osm, lat, lng, 3.0, size=0.05)
         cache[k] = dict(key=k, area=name, city_osm=guess,
                         source=f"radical {km:.2f} km" if name else "unknown")
