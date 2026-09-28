@@ -33,8 +33,11 @@ PROVIDERS = {
                     note="Occupied = bags booked for that hour, found by narrowing down how many more "
                          "bags still fit. Capacity is what each point declares."),
     "bounce": dict(label="Bounce", unit="bags",
-                   note="Occupied = luggage in the shop at the moment of the reading. Capacity is what "
-                        "each point declares."),
+                   note="Occupied = Bounce's own daily estimate: its reservationCount is bookings over "
+                        "the last seven days, so occupied is that divided by seven, exactly the figure "
+                        "bounce.com turns into 'current availability'. It is an average day, not a live "
+                        "hour, so within a day the Bounce line barely moves. Capacity is what the 14% of "
+                        "points that declare a maxCapacity say."),
     "stow": dict(label="Stow Your Bags", unit="lockers",
                  note="A real locker operator. The booking form gives free lockers, "
                       "so occupied is capacity minus free; capacity is the most ever seen free for that "
@@ -113,11 +116,17 @@ def readings():
     caps = collections.defaultdict(int)
     for r in bounce_rows:
         caps[r["spot_id"]] = max(caps[r["spot_id"]], number(r["capacity"]))
+    # Bounce's "reservations" is last7dReservationCount: bookings over the last seven days, not bags
+    # in the shop now. Verified on 28/09/2026 by matching a spot across the two endpoints at the same
+    # coordinates (269 vs 270) and by reproducing what bounce.com prints as "Current availability",
+    # which is maxCapacity - round(reservationCount / 7). So Bounce's own point-in-time occupancy is
+    # the weekly count divided by seven; using the raw count overstated it about sevenfold.
     for r in bounce_rows:
         if r["reservations"] == "":
             continue
+        occupied = max(0, round(number(r["reservations"]) / 7))
         out.append(("bounce", *when(r["read_at"]), town(r["city"]), area(r["lat"], r["lng"]),
-                    r["spot_id"], r["name"], "", caps[r["spot_id"]], number(r["reservations"]), r["read_at"]))
+                    r["spot_id"], r["name"], "", caps[r["spot_id"]], occupied, r["read_at"]))
 
     shops = {r["shop_id"]: r for r in read_csv("stow-shops.csv")}
     stow_rows = [r for r in read_csv("stow-occupancy.csv") if r.get("status") == "read" and r["free"] != ""]
