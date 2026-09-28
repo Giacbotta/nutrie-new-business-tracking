@@ -1622,7 +1622,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-09-25,weekday,florence,santa-maria-novella,6461689,Luggage Storage Galleria Commerciale Santa Maria Novella,125,5,19,15.2,16,3,9.5
 2026-09-26,weekend,florence,santa-maria-novella,6461689,Luggage Storage Galleria Commerciale Santa Maria Novella,125,10,31,24.8,5,34,19.5
 2026-09-27,weekend,florence,santa-maria-novella,6461689,Luggage Storage Galleria Commerciale Santa Maria Novella,125,10,46,36.8,6,40,23.0
-2026-09-28,weekday,florence,santa-maria-novella,6461689,Luggage Storage Galleria Commerciale Santa Maria Novella,125,10,19,15.2,3,16,9.5
+2026-09-28,weekday,florence,santa-maria-novella,6461689,Luggage Storage Galleria Commerciale Santa Maria Novella,125,10,19,15.2,3,17,10.0
 2026-09-23,weekday,florence,santa-maria-novella,6469294,Luggage Storage San Frediano,50,1,0,0.0,0,0,0.0
 2026-09-24,weekday,florence,santa-maria-novella,6469294,Luggage Storage San Frediano,50,2,0,0.0,0,0,0.0
 2026-09-25,weekday,florence,santa-maria-novella,6469294,Luggage Storage San Frediano,50,6,3,6.0,3,0,1.5
@@ -2008,7 +2008,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-09-25,weekday,livorno,livorno-train-station,6469841,Luggage Storage Livorno Cathedral,50,6,2,4.0,0,2,1.0
 2026-09-26,weekend,livorno,livorno-train-station,6469841,Luggage Storage Livorno Cathedral,50,10,0,0.0,0,0,0.0
 2026-09-27,weekend,livorno,livorno-train-station,6469841,Luggage Storage Livorno Cathedral,50,10,0,0.0,0,0,0.0
-2026-09-28,weekday,livorno,livorno-train-station,6469841,Luggage Storage Livorno Cathedral,50,6,0,0.0,0,0,0.0
+2026-09-28,weekday,livorno,livorno-train-station,6469841,Luggage Storage Livorno Cathedral,50,6,1,2.0,0,1,0.5
 2026-09-23,weekday,livorno,livorno-train-station,9547,Luggage Storage Livorno Centrale,25,1,0,0.0,0,0,0.0
 2026-09-24,weekday,livorno,livorno-train-station,9547,Luggage Storage Livorno Centrale,25,3,0,0.0,0,0,0.0
 2026-09-25,weekday,livorno,livorno-train-station,9547,Luggage Storage Livorno Centrale,25,7,0,0.0,0,0,0.0
@@ -6899,7 +6899,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-09-25,weekday,venice,santa-lucia-station,4896,Luggage Storage Venezia Santa Lucia Station,140,6,54,38.6,54,0,27.0
 2026-09-26,weekend,venice,santa-lucia-station,4896,Luggage Storage Venezia Santa Lucia Station,140,12,80,57.1,9,71,40.0
 2026-09-27,weekend,venice,santa-lucia-station,4896,Luggage Storage Venezia Santa Lucia Station,140,6,88,62.9,5,83,44.0
-2026-09-28,weekday,venice,santa-lucia-station,4896,Luggage Storage Venezia Santa Lucia Station,140,11,35,25.0,9,27,18.0
+2026-09-28,weekday,venice,santa-lucia-station,4896,Luggage Storage Venezia Santa Lucia Station,140,11,35,25.0,9,26,17.5
 2026-09-23,weekday,venice,santa-lucia-station,9596,Luggage Storage Venice Railway Station,100,1,2,2.0,2,0,1.0
 2026-09-24,weekday,venice,santa-lucia-station,9596,Luggage Storage Venice Railway Station,100,2,6,6.0,3,3,3.0
 2026-09-25,weekday,venice,santa-lucia-station,9596,Luggage Storage Venice Railway Station,100,5,13,13.0,13,0,6.5
