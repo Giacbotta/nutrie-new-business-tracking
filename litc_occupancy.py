@@ -1,30 +1,34 @@
 """How many lockers are still free at Locker in the City, shop by shop (board item E-93/E-94).
 
 Locker in the City is a real locker operator, 13 Italian shops in 8 cities. Like Stow Your Bags it
-publishes prices and addresses but not how full it is; the booking flow does. The site is a Next.js
-app that reads availability through its own proxy route, the same one a visitor's browser calls:
+publishes prices and addresses but not how full it is; the booking flow does. The marketing site is
+Astro, the booking app is Next.js, and the booking app reads availability through its own route, the
+same one a visitor's browser calls once a city and dates are chosen:
 
-  GET /api/stores/availability?cityId=:cityId&citySlug=:citySlug&checkIn=:checkIn&checkOut=:checkOut
+  GET /api/stores/availability?cityId=1&citySlug=:citySlug&checkIn=:checkIn&checkOut=:checkOut
 
-The response lists the city's stores, each with the number of lockers still free per size (M, XL,
-XXL) for that window - exactly the "Numero di lockers" the booking page shows at the locker step.
+Each store in the reply carries `availability: {M, XL, XXL}` - the lockers still free per size for
+that window, exactly the "Numero di lockers" the booking page shows - plus its id, slug and prices.
 Occupancy is read against the most ever seen free for that shop and size (`peak_seen` in the daily
 file), the same yardstick as Stow Your Bags, so occupied = capacity - free.
 
-BACKEND DOWN AT BIRTH (27/09/2026): that proxy answered 500 {"error":"Error fetching stores"} for
-every city and window while this was written - their backend, not ours; a visitor saw the same
-error. So the exact JSON shape of a healthy reply could not be observed. The parser is defensive and
-tries the plausible shapes; the first 200 reply is dumped whole to data/litc-sample.json so it can
-be checked against reality and the parser tightened. Until a 200 arrives, scan writes status rows
-("backend-500", "no-stores") and nothing wrong reaches the comparison: dashboard only ingests rows
-with status == "read", as it does for Stow Your Bags.
+TWO THINGS THAT MUST BE RIGHT (learned 28/09/2026, after ISO dates gave a 500 for days):
+  - checkIn/checkOut are DDMMYYYYHHMM, not ISO. A full day is DDMMYYYY0000 to DDMMYYYY2359. An ISO
+    date answers 500 "Error fetching stores", which looked like their backend was down but was our
+    format. Verified from plain Python (no browser, no cookies): the call answers 200.
+  - cityId is ignored (roma answers the same with 0, 1, 17 or 999); citySlug is what matters. And
+    Bologna's citySlug is the Spanish "bolonia", not "bologna" - see CITY_SLUG_ALIAS.
 
-ROBOTS.TXT: lockerinthecity.com has no robots.txt (nothing disallowed). The reading is kept to one
-request per city per round, a handful of calls an hour.
+scan stays tolerant: if a city ever answers non-200 it writes a status row ("http-500" etc.) and
+nothing wrong reaches the comparison, because the dashboard only ingests rows with status == "read",
+as it does for Stow Your Bags.
+
+ROBOTS.TXT: lockerinthecity.com has no robots.txt (nothing disallowed). The reading is one request
+per city per round, a handful of calls an hour.
 
 COMMANDS (run from the repository root)
   python litc_occupancy.py shops     # the Italian shops: store id, slug, city, lat/lng
-  python litc_occupancy.py scan      # free lockers per shop and size, in the next window
+  python litc_occupancy.py scan      # free lockers per shop and size, today
   python litc_occupancy.py daily     # the day's readings per shop, with the peak ever seen
 """
 import collections, csv, datetime as dt, json, os, re, sys, time
@@ -36,18 +40,15 @@ OTHER_CSV = os.path.join(DATA, "other-operators.csv")
 SHOPS_CSV = os.path.join(DATA, "litc-shops.csv")
 OCC_CSV = os.path.join(DATA, "litc-occupancy.csv")
 DAILY_CSV = os.path.join(DATA, "litc-daily.csv")
-SAMPLE_JSON = os.path.join(DATA, "litc-sample.json")
-CITIES_CSV = os.path.join(DATA, "litc-cities.csv")
 
 SITE = "https://lockerinthecity.com"
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 PAUSE = 1.2
 SIZES = ("M", "XL", "XXL")
 
-# The proxy needs a cityId as well as the citySlug. Roma is 1 (seen in the booking deep link); the
-# rest are discovered the first time the backend answers and cached to litc-cities.csv. citySlug is
-# what really identifies the city, so an unknown id (0) is still worth trying.
-CITY_ID_SEED = {"roma": 1}
+# citySlug is what the availability route keys on; cityId is ignored, so any value works.
+# Bologna is the only Italian shop whose API citySlug differs from its page slug: it is "bolonia".
+CITY_SLUG_ALIAS = {"bologna": "bolonia"}
 
 SHOP_FIELDS = ["shop_id", "city", "city_slug", "slug", "name", "address", "lat", "lng", "url"]
 OCC_FIELDS = ["read_at", "city", "city_slug", "shop_id", "slug", "name", "day", "hour", "weekday",
@@ -144,11 +145,6 @@ def shop_list():
     return read_csv(SHOPS_CSV) or shops()
 
 
-def city_ids():
-    cached = {r["city_slug"]: number(r.get("city_id")) for r in read_csv(CITIES_CSV) if r.get("city_slug")}
-    return {**CITY_ID_SEED, **{k: v for k, v in cached.items() if v}}
-
-
 def number(x, default=0):
     try:
         return int(float(x))
@@ -158,114 +154,45 @@ def number(x, default=0):
 
 # ----------------------------------------------------------------------------- availability
 
-def size_counts(store):
-    """Free lockers per size out of one store object, however the backend nests them.
+def city_availability(city_slug, check_in, check_out):
+    """The city's stores for the window, or (status, None). status is 'ok'/'http-<code>'/'empty'.
 
-    The healthy shape was not observable at birth, so this tries the plausible ones:
-      - flat keys: m/xl/xxl, m_lockers/xl_lockers/xxl_lockers, availableM ...
-      - a list under 'lockers'/'products'/'availability' with a type/size and a free/available/max
-    Returns {"M": n, "XL": n, "XXL": n} for the sizes it finds, or {}."""
-    out = {}
-    flat = {k.lower(): v for k, v in store.items() if isinstance(v, (int, float))}
-    for size in SIZES:
-        s = size.lower()
-        for key in (s, f"{s}_lockers", f"available{size.lower()}", f"available_{s}", f"{s}_available", f"free_{s}"):
-            if key in flat:
-                out[size] = int(flat[key])
-                break
-    if out:
-        return out
-    for holder in ("lockers", "products", "availability", "sizes", "inventory"):
-        items = store.get(holder)
-        if isinstance(items, list):
-            for it in items:
-                if not isinstance(it, dict):
-                    continue
-                label = str(it.get("type") or it.get("size") or it.get("name") or "").upper()
-                size = next((s for s in SIZES if s == label or label.startswith(s)), None)
-                if not size:
-                    continue
-                for f in ("free", "available", "max", "max_qta", "quantity", "count", "remaining"):
-                    if f in it:
-                        out[size] = int(it[f])
-                        break
-    return out
-
-
-def store_key(store):
-    """The store's own slug or id, so a reading can be matched to a shop."""
-    for k in ("slug", "storeSlug", "store_slug", "url"):
-        v = store.get(k)
-        if isinstance(v, str):
-            m = re.search(r"([a-z0-9-]+)/?$", v)
-            if m:
-                return m.group(1)
-    for k in ("id", "storeId", "store_id", "shopId", "shop_id"):
-        if k in store:
-            return str(store[k])
-    return ""
-
-
-def find_stores(payload):
-    """The list of store objects inside whatever envelope the reply uses."""
-    if isinstance(payload, list):
-        return [x for x in payload if isinstance(x, dict)]
-    if isinstance(payload, dict):
-        for k in ("stores", "data", "results", "shops", "items"):
-            v = payload.get(k)
-            if isinstance(v, list):
-                return [x for x in v if isinstance(x, dict)]
-            if isinstance(v, dict):
-                nested = find_stores(v)
-                if nested:
-                    return nested
-    return []
-
-
-def city_availability(city_slug, city_id, check_in, check_out):
-    """Raw stores of one city for the window, or (status, None). status is 'ok'/'backend-500'/'empty'."""
-    q = f"cityId={city_id}&citySlug={city_slug}&checkIn={check_in}&checkOut={check_out}"
+    cityId is ignored by the route, so 1 is sent for every city; citySlug is what identifies it."""
+    q = f"cityId=1&citySlug={city_slug}&checkIn={check_in}&checkOut={check_out}"
     code, body = get(f"{SITE}/api/stores/availability?{q}")
     if code != 200:
-        return (f"backend-{code}" if code else "no-response"), None
+        return (f"http-{code}" if code else "no-response"), None
     try:
         payload = json.loads(body)
     except Exception:
         return "bad-json", None
-    if not os.path.exists(SAMPLE_JSON):        # keep the first healthy reply to validate the parser
-        os.makedirs(DATA, exist_ok=True)
-        with open(SAMPLE_JSON, "w", encoding="utf8") as f:
-            f.write(body)
-        print(f"  first 200 reply saved -> {SAMPLE_JSON} (check the shape, tighten the parser)")
-    stores = find_stores(payload)
+    stores = payload if isinstance(payload, list) else (payload.get("stores") or payload.get("data") or [])
+    stores = [s for s in stores if isinstance(s, dict)]
     return ("ok" if stores else "empty"), stores
 
 
 # ----------------------------------------------------------------------------- scan
 
 def scan():
-    """One availability call per city, matched to the shops, free lockers per size written down."""
+    """One availability call per city, matched to the shops, free lockers per size written down.
+
+    The window is the whole of today (DDMMYYYY0000 to DDMMYYYY2359): the reply gives the lockers free
+    for that day, which shrinks as the day fills - the occupancy signal, read against the peak free
+    ever seen for that shop and size in daily()."""
     now = rome_now()
     read_at = now.strftime("%Y-%m-%d %H:%M")
     weekday = now.strftime("%a")
-    start = now.replace(minute=0, second=0, microsecond=0) + dt.timedelta(hours=1)
-    end = start + dt.timedelta(hours=8)
-    check_in = start.strftime("%Y-%m-%dT%H:00:00")
-    check_out = end.strftime("%Y-%m-%dT%H:00:00")
-    day, hour = start.strftime("%Y-%m-%d"), start.hour
+    day, hour = now.strftime("%Y-%m-%d"), now.hour
+    stamp = now.strftime("%d%m%Y")
+    check_in, check_out = f"{stamp}0000", f"{stamp}2359"
 
-    shops_by_slug = collections.defaultdict(list)
-    for s in shop_list():
-        shops_by_slug[s["slug"]].append(s)
-    ids = city_ids()
-
-    rows, discovered = [], {}
     by_city = collections.defaultdict(list)
     for s in shop_list():
         by_city[s["city_slug"]].append(s)
 
+    rows = []
     for city_slug, city_shops in sorted(by_city.items()):
-        status, stores = city_availability(city_slug, ids.get(city_slug, 0), check_in, check_out)
+        status, stores = city_availability(CITY_SLUG_ALIAS.get(city_slug, city_slug), check_in, check_out)
         if stores is None:
             for s in city_shops:                       # log the miss, keep the shop on record
                 rows.append(dict(read_at=read_at, city=s["city"], city_slug=city_slug,
@@ -273,23 +200,24 @@ def scan():
                                  hour=hour, weekday=weekday, locker_type="", free="", status=status))
             print(f"  {city_slug:20} {status}")
             continue
+        by_id = {str(st.get("id")): st for st in stores}
+        by_slug = {st.get("slug"): st for st in stores}
         matched = 0
-        for st in stores:
-            key = store_key(st)
-            shop = next((s for s in city_shops if s["slug"] == key or s["shop_id"] == key), None)
-            if not shop:
+        for shop in city_shops:
+            st = by_id.get(shop["shop_id"]) or by_slug.get(shop["slug"])
+            if not st:
+                rows.append(dict(read_at=read_at, city=shop["city"], city_slug=city_slug,
+                                 shop_id=shop["shop_id"], slug=shop["slug"], name=shop["name"], day=day,
+                                 hour=hour, weekday=weekday, locker_type="", free="", status="no-match"))
                 continue
             matched += 1
-            counts = size_counts(st)
-            if not counts:
-                rows.append(dict(read_at=read_at, city=shop["city"], city_slug=city_slug,
-                                 shop_id=shop["shop_id"], slug=shop["slug"], name=shop["name"], day=day,
-                                 hour=hour, weekday=weekday, locker_type="", free="", status="no-sizes"))
-                continue
-            for size, free in counts.items():
-                rows.append(dict(read_at=read_at, city=shop["city"], city_slug=city_slug,
-                                 shop_id=shop["shop_id"], slug=shop["slug"], name=shop["name"], day=day,
-                                 hour=hour, weekday=weekday, locker_type=size, free=free, status="read"))
+            avail = st.get("availability") or {}
+            for size in SIZES:
+                if size in avail and avail[size] is not None:
+                    rows.append(dict(read_at=read_at, city=shop["city"], city_slug=city_slug,
+                                     shop_id=shop["shop_id"], slug=shop["slug"], name=shop["name"], day=day,
+                                     hour=hour, weekday=weekday, locker_type=size,
+                                     free=int(avail[size]), status="read"))
         print(f"  {city_slug:20} {len(stores)} stores, {matched} matched")
     rows_to_csv(OCC_CSV, OCC_FIELDS, rows, append=True)
     read = sum(1 for r in rows if r["status"] == "read")
