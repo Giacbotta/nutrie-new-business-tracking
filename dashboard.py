@@ -83,12 +83,15 @@ def when(read_at):
 
 
 def city_alias():
-    """Providers file the same place under different city names: Radical has a "mestre" city while
-    Bounce puts the same points under "venice". The view merges them so the two can be compared;
-    the neighbourhood level keeps them apart (Mestre Train Station, Mestre City Center, Marghera).
-    Only places that really are one city belong here - Monza, Pompei and Riccione are their own
-    markets and stay separate."""
-    return {r["from"]: r["to"] for r in read_csv("city-aliases.csv") if r.get("from")}
+    """One canonical city name, in Italian, whatever spelling a provider uses.
+
+    Providers disagree two ways: language (Radical/Bounce say "rome", "florence", "naples", Locker in
+    the City says "roma", "firenze", "napoli") and case (StowCity sends "Venice", "Mestre" with a
+    capital). Both are the same city, so the key is matched lower-cased and mapped to the Italian name
+    in city-aliases.csv. Mestre rolls up into Venezia here; the neighbourhood level keeps it apart
+    (Mestre Train Station, Mestre City Center, Marghera). Places that really are their own market -
+    Monza, Pompei, Riccione, Grottaferrata - are not in the file and stay separate."""
+    return {r["from"].strip().lower(): r["to"].strip() for r in read_csv("city-aliases.csv") if r.get("from")}
 
 
 def readings():
@@ -97,7 +100,8 @@ def readings():
     zone = shared_areas.area_of()
     alias = city_alias()
     def town(name):
-        return alias.get(name, name)
+        key = (name or "").strip().lower()
+        return alias.get(key, key)
 
     def area(lat, lng):
         """Radical's own zone name, shared by every provider. Points with no Radical point within a
