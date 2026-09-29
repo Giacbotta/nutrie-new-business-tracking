@@ -121,6 +121,15 @@ def litc_shop_slugs():
     return sorted(set(pairs))
 
 
+# A couple of shop pages do not carry lat/lng (Bologna, Verona), so the census would leave them
+# blank and they would drop off the map. These are the known landmark coordinates, used as a
+# fallback so every shop keeps a position across the Monday census.
+FALLBACK_COORDS = {
+    "stazione-centrale-portici-piazza-maggiore": ("44.5058", "11.3430"),  # Bologna Centrale
+    "arena-casa-di-giulietta": ("45.4390", "10.9944"),                    # Verona, Arena
+}
+
+
 def shops():
     """Store id, slug, city, address and coordinates for each Italian shop, from its own page."""
     rows = []
@@ -130,14 +139,16 @@ def shops():
         name = re.search(r'"name"\s*:\s*"([^"]+)"', page)
         geo = re.search(r'"lat"\s*:\s*(-?\d+\.\d+)\s*,\s*"lng"\s*:\s*(-?\d+\.\d+)', page)
         addr = re.search(r"((?:Via|Viale|Piazza|Largo|Corso|Stazione)\s+[A-Za-zÀ-ú0-9.,' ]{3,50})", page)
+        lat, lng = (geo.group(1), geo.group(2)) if geo else FALLBACK_COORDS.get(slug, ("", ""))
         rows.append(dict(shop_id=shop_id.group(1) if shop_id else "", city=city, city_slug=city,
                          slug=slug, name=(name.group(1).strip() if name else slug.replace("-", " ").title()),
                          address=addr.group(1).strip() if addr else "",
-                         lat=geo.group(1) if geo else "", lng=geo.group(2) if geo else "",
+                         lat=lat, lng=lng,
                          url=f"{SITE}/it/locker/italia/{city}/{slug}/"))
         print(f"  {city:20} {slug:34} id={rows[-1]['shop_id'] or '-':>4}  {rows[-1]['lat'] or '-'}")
     rows_to_csv(SHOPS_CSV, SHOP_FIELDS, rows, append=False)
-    print(f"{len(rows)} Locker in the City shops -> {SHOPS_CSV}")
+    missing = [r["slug"] for r in rows if not r["lat"]]
+    print(f"{len(rows)} Locker in the City shops -> {SHOPS_CSV}" + (f"; senza coord: {missing}" if missing else "; tutte con coordinate"))
     return rows
 
 
