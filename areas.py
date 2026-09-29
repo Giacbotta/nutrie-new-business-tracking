@@ -48,6 +48,7 @@ SOURCES = [
     ("radical-points.csv", "storage_id", "lat", "lng", "city"),
     ("bounce-occupancy.csv", "spot_id", "lat", "lng", "city"),
     ("stow-shops.csv", "shop_id", "lat", "lng", "city"),
+    ("litc-shops.csv", "shop_id", "lat", "lng", "city"),
 ]
 
 

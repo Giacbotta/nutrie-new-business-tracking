@@ -1309,6 +1309,7 @@ key,area,city_osm,source
 "40.6746,14.7709",Salerno Train Station,Torrione,radical 0.04 km
 "40.6750,16.5969",Matera City Center,Rione Spine Bianche,radical 0.00 km
 "40.6750,16.5986",Matera City Center,Piazza Guglielmo Marconi Ex Mercato Ortofrutticolo,radical 0.15 km
+"40.6751,14.7701",Salerno Train Station,Torrione,radical 0.02 km
 "40.6751,14.7703",Salerno Train Station,Torrione,radical 0.00 km
 "40.6752,14.7708",Salerno Train Station,Torrione,radical 0.00 km
 "40.6752,14.7723",Salerno Train Station,Torrione,radical 0.00 km
@@ -1872,6 +1873,7 @@ key,area,city_osm,source
 "40.8563,14.2714",Naples Centrale Train Station,Rione Vasto,radical 0.16 km
 "40.8564,14.1685",,Pianura,unknown
 "40.8565,14.2486",Centro Storico,Rione Sanità,radical 0.23 km
+"40.8567,14.2710",Naples Centrale Train Station,Vicaria,radical 0.20 km
 "40.8570,14.2555",Rione Sanita,Rione Sanità,radical 0.00 km
 "40.8570,14.2583",Piazza Cavour,San Lorenzo,radical 0.15 km
 "40.8570,14.2892",,Rione Luzzatti,unknown
@@ -2296,6 +2298,7 @@ key,area,city_osm,source
 "41.1163,16.6795",,,unknown
 "41.1166,16.8652",Bari Centrale Train Station,Murat,radical 0.14 km
 "41.1167,16.8673",Bari Centrale Train Station,Murat,radical 0.00 km
+"41.1169,16.8689",Bari Centrale Train Station,Quartiere Umbertino,radical 0.13 km
 "41.1170,13.8970",,Borgo di Sant'Angelo,unknown
 "41.1172,16.8890",Madonnella,Madonnella,radical 0.28 km
 "41.1173,16.8765",Quartiere Umbertino,Quartiere Umbertino,radical 0.36 km
@@ -2898,6 +2901,7 @@ key,area,city_osm,source
 "41.8942,12.4894",Monti,Campitelli,radical 0.00 km
 "41.8943,12.4740",Pantheon,Regola,radical 0.01 km
 "41.8943,12.4742",Pantheon,Regola,radical 0.00 km
+"41.8943,12.4766",Pantheon,Sant'Angelo,radical 0.07 km
 "41.8943,12.4811",Piazza Venezia,Sant'Angelo,radical 0.04 km
 "41.8944,12.4742",Piazza Campo De Fiori,Regola,radical 0.00 km
 "41.8944,12.4910",Piazza Di San Pietro In Vincoli,Monti,radical 0.01 km
@@ -2955,6 +2959,7 @@ key,area,city_osm,source
 "41.8969,12.4957",Termini,Monti,radical 0.00 km
 "41.8970,12.4854",Trevi,Trevi,radical 0.19 km
 "41.8971,12.4773",Pantheon,Pigna,radical 0.12 km
+"41.8971,12.4904",Monti,Trevi,radical 0.15 km
 "41.8971,15.9581",Vico Del Gargano City Center,Terra,radical 0.00 km
 "41.8972,12.4773",Pantheon,Pigna,radical 0.11 km
 "41.8972,12.4900",Monti,Trevi,radical 0.15 km
@@ -2993,9 +2998,11 @@ key,area,city_osm,source
 "41.8987,12.5152",Duomo - San Lorenzo,San Lorenzo,radical 0.01 km
 "41.8987,12.5639",,Tor De' Schiavi,unknown
 "41.8988,12.4991",Termini,Castro Pretorio,radical 0.00 km
+"41.8989,12.4723",Navona,Parione,radical 0.04 km
 "41.8989,12.5151",Duomo - San Lorenzo,San Lorenzo,radical 0.00 km
 "41.8990,12.4270",Baldo Degli Ubaldi Station,Val Cannuta,radical 0.00 km
 "41.8990,12.4671",S Pietro,Ponte,radical 0.11 km
+"41.8990,12.4990",Termini,Castro Pretorio,radical 0.02 km
 "41.8990,12.5017",Termini,Castro Pretorio,radical 0.00 km
 "41.8990,12.5029",Termini,Castro Pretorio,radical 0.10 km
 "41.8991,12.4727",Navona,Parione,radical 0.00 km
@@ -3095,6 +3102,7 @@ key,area,city_osm,source
 "41.9038,12.4812",Pantheon,Colonna,radical 0.15 km
 "41.9039,12.4872",Trevi,Trevi,radical 0.00 km
 "41.9039,12.5006",Termini,Castro Pretorio,radical 0.01 km
+"41.9039,12.5012",Castro Pretorio,Castro Pretorio,radical 0.03 km
 "41.9039,12.5016",Castro Pretorio,Castro Pretorio,radical 0.00 km
 "41.9041,12.4625",Castel Sant Angelo,Borgo,radical 0.00 km
 "41.9043,12.4593",Vatican,Borgo,radical 0.00 km
@@ -3170,6 +3178,7 @@ key,area,city_osm,source
 "41.9085,12.4583",Prati,Prati,radical 0.00 km
 "41.9085,12.4974",Termini,Sallustiano,radical 0.41 km
 "41.9086,12.4555",Vatican,Civitas Vaticana - Città del Vaticano,radical 0.01 km
+"41.9087,12.4584",Prati,Prati,radical 0.02 km
 "41.9087,12.4776",Piazza Del Popolo,Campo Marzio,radical 0.00 km
 "41.9087,12.4883",Spanish Steps,Ludovisi,radical 0.00 km
 "41.9087,12.4884",Spanish Steps,Ludovisi,radical 0.01 km
@@ -3912,6 +3921,7 @@ key,area,city_osm,source
 "43.7777,11.2498",Santa Maria Novella,San Frediano,radical 0.00 km
 "43.7777,11.2549",Santa Maria Novella,Statuto,radical 0.00 km
 "43.7778,11.2545",Florence Mercato Centrale,Statuto,radical 0.00 km
+"43.7779,11.2455",Basilica Of Santa Maria Novella,San Iacopino,radical 0.15 km
 "43.7781,11.2510",Santa Maria Novella,Statuto,radical 0.07 km
 "43.7781,11.2543",Duomo - San Lorenzo,Statuto,radical 0.00 km
 "43.7782,11.2966",,Coverciano,unknown
@@ -4406,6 +4416,7 @@ key,area,city_osm,source
 "44.5054,11.3459",Bologna Centrale Railway Station,Bolognina,radical 0.01 km
 "44.5055,11.3399",Bologna Centrale,Manifattura delle Arti,radical 0.12 km
 "44.5057,11.8386",,,unknown
+"44.5058,11.3430",Bologna Centrale,Marconi,radical 0.13 km
 "44.5059,11.3315",Bologna Centrale Railway Station,Manifattura delle Arti,radical 0.78 km
 "44.5065,11.3032",,Santa Viola,unknown
 "44.5074,11.3432",Bologna Centrale Railway Station,Bolognina,radical 0.00 km
@@ -5002,6 +5013,7 @@ key,area,city_osm,source
 "45.4388,12.3186",Piazzale Roma,Santa Croce,radical 0.06 km
 "45.4388,12.3421",Venice City Center,San Marco,radical 0.01 km
 "45.4389,12.3286",San Polo,San Polo,radical 0.00 km
+"45.4390,10.9944",Verona Historic Centre,Città antica,radical 0.11 km
 "45.4391,12.3374",Venice Castello,San Marco,radical 0.03 km
 "45.4392,12.3231",Dorsoduro,Santa Croce,radical 0.02 km
 "45.4393,10.9905",Verona Historic Centre,Cittadella,radical 0.00 km
@@ -5209,6 +5221,7 @@ key,area,city_osm,source
 "45.4628,10.5365",Desenzano Train Station,,radical 0.00 km
 "45.4628,9.2323",Forlanini,Corsica,radical 0.01 km
 "45.4629,9.1966",Duomo - San Lorenzo,Verziere,radical 0.14 km
+"45.4631,10.5369",Desenzano Train Station,,radical 0.05 km
 "45.4631,8.8814",,Ponte Nuovo di Boffalora,unknown
 "45.4633,9.1893",Duomo - San Lorenzo,Duomo,radical 0.16 km
 "45.4634,9.1638",Milano Certosa,Porta Magenta,radical 0.48 km
