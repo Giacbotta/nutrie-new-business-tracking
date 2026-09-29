@@ -50,6 +50,7 @@ SOURCES = [
     ("stow-shops.csv", "shop_id", "lat", "lng", "city"),
     ("litc-shops.csv", "shop_id", "lat", "lng", "city"),
     ("stowcity-shops.csv", "shop_id", "lat", "lng", "city"),
+    ("ivano-shops.csv", "shop_id", "lat", "lng", "city"),
 ]
 
 

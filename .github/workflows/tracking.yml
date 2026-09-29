@@ -80,6 +80,7 @@ jobs:
             { python stow_occupancy.py scan    && python stow_occupancy.py daily;    } || echo "STOW FAILED"
             { python litc_occupancy.py scan    && python litc_occupancy.py daily;    } || echo "LITC FAILED"
             { python stowcity_occupancy.py scan && python stowcity_occupancy.py daily; } || echo "STOWCITY FAILED"
+            { python ivano_occupancy.py scan   && python ivano_occupancy.py daily;   } || echo "IVANO FAILED"
             python areas.py fill || echo "AREAS FAILED"
             python dashboard.py  || echo "DASHBOARD FAILED"
           fi
@@ -98,6 +99,7 @@ jobs:
             python other_operators.py || echo "OTHER OPERATORS FAILED"
             python litc_occupancy.py shops || echo "LITC SHOPS FAILED"
             python stowcity_occupancy.py shops || echo "STOWCITY SHOPS FAILED"
+            python ivano_occupancy.py shops || echo "IVANO SHOPS FAILED"
             python dashboard.py
           fi
 

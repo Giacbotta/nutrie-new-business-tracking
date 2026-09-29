@@ -51,6 +51,12 @@ PROVIDERS = {
                           "(Cannaregio) and Mestre station. Its booking API gives free lockers per size "
                           "and, unlike the others, the real capacity too, so occupied is the declared "
                           "capacity minus free."),
+    "ivano": dict(label="iVano", unit="lockers",
+                  note="An automatic locker operator, 7 Italian shops, two next to Nutrie (Cannaregio "
+                       "and San Polo). Its booking runs on the Ermes platform, whose API gives free "
+                       "boxes per size, so occupied is capacity minus free; capacity is the most ever "
+                       "seen free for that shop and size. Torino has no online booking, so it is not "
+                       "read."),
 }
 
 
@@ -166,6 +172,17 @@ def readings():
         shop = sc_shops.get(r["shop_id"], {})
         out.append(("stowcity", *when(r["read_at"]), town(r["city"]), area(shop.get("lat"), shop.get("lng")),
                     r["shop_id"], r["name"], r["locker_type"], cap, cap - number(r["free"]), r["read_at"]))
+
+    iv_shops = {r["shop_id"]: r for r in read_csv("ivano-shops.csv")}
+    iv_rows = [r for r in read_csv("ivano-occupancy.csv") if r.get("status") == "read" and r["free"] != ""]
+    iv_best = collections.defaultdict(int)
+    for r in iv_rows:
+        iv_best[(r["shop_id"], r["locker_type"])] = max(iv_best[(r["shop_id"], r["locker_type"])], number(r["free"]))
+    for r in iv_rows:
+        cap = iv_best[(r["shop_id"], r["locker_type"])]
+        shop = iv_shops.get(r["shop_id"], {})
+        out.append(("ivano", *when(r["read_at"]), town(r["city"]), area(shop.get("lat"), shop.get("lng")),
+                    r["shop_id"], r["name"], r["locker_type"], cap, cap - number(r["free"]), r["read_at"]))
     return out
 
 
@@ -203,7 +220,7 @@ def build():
     # so it leaves this table; iVano stays, as it publishes no availability at all.
     others = [dict(brand=r["brand"], city=r["city"], name=r["name"], address=r["address"],
                    url=r["url"], reviews=r["reviews"])
-              for r in read_csv("other-operators.csv") if r["brand"] != "lockerinthecity"]
+              for r in read_csv("other-operators.csv") if r["brand"] not in ("lockerinthecity","ivano")]
 
     payload = dict(
         others=others,
@@ -232,7 +249,7 @@ TEMPLATE = """<!doctype html>
 <title>Luggage storage occupancy in Italy</title>
 <style>
 :root{--bg:#fff;--fg:#14171f;--mut:#6b7280;--line:#e5e7eb;--card:#f8fafc;--soft:#eef2f7;
---radical:#2f6df6;--bounce:#e0682a;--stow:#0f9d77;--litc:#8b3fd6;--stowcity:#e11d8f}
+--radical:#2f6df6;--bounce:#e0682a;--stow:#0f9d77;--litc:#8b3fd6;--stowcity:#e11d8f;--ivano:#0891b2}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1218;--fg:#eef1f6;--mut:#98a2b3;
 --line:#242a35;--card:#161a22;--soft:#1b2029;color-scheme:dark}}
 :root[data-theme="dark"]{--bg:#0f1218;--fg:#eef1f6;--mut:#98a2b3;--line:#242a35;--card:#161a22;--soft:#1b2029;color-scheme:dark}
@@ -307,7 +324,7 @@ comparison above. iVano is the one to look at twice: it sits in Cannaregio and S
 <th>Address</th><th>Reviews</th></tr></thead><tbody></tbody></table></div>
 </div><script>
 const D=__DATA__;
-const COLOR={radical:'#2f6df6',bounce:'#e0682a',stow:'#0f9d77',litc:'#8b3fd6',stowcity:'#e11d8f'};
+const COLOR={radical:'#2f6df6',bounce:'#e0682a',stow:'#0f9d77',litc:'#8b3fd6',stowcity:'#e11d8f',ivano:'#0891b2'};
 const LABEL={},UNIT={};D.providers.forEach(p=>{LABEL[p.id]=p.label;UNIT[p.id]=p.unit});
 const day=document.getElementById('day'),prov=document.getElementById('prov'),city=document.getElementById('city'),
       q=document.getElementById('q'),metric=document.getElementById('metric');
