@@ -5,8 +5,9 @@ name: tracking
 
 on:
   schedule:
-    - cron: "1 5-21/2 * * *"   # Playtomic "read", every 2 hours
-    - cron: "1 19 * * *"       # Playtomic "lead", once a day
+    # Playtomic is NOT here on purpose: it answers 403 to every data centre (GitHub, Google Apps
+    # Script, and so Railway too), so it only works from Giacomo's PC via local_run.py. Removed from
+    # the cloud on 29/09/2026 - keeping it here just wrote empty runs and fought the PC over the CSVs.
     - cron: "1 7 * * 1"        # municipal tenders, Monday
     - cron: "31 7 * * 1"       # laundromats for sale (E-91), Monday
     # E-91 retries: a portal can block for a whole day. "weekly" stops by itself once the week's
@@ -14,15 +15,15 @@ on:
     - cron: "31 11,17 * * 1"   # same Monday, a few hours later
     - cron: "31 7,17 * * 2"    # Tuesday
     - cron: "31 7 * * 3"       # Wednesday, last attempt of the week
-    - cron: "6 * * * *"        # luggage storage occupancy (E-93): Radical, Bounce and Stow Your Bags, every hour, day and night
+    - cron: "6 * * * *"        # luggage storage occupancy (E-93): Radical, Bounce, Stow Your Bags, Locker in the City, StowCity, every hour (backup; Railway is the primary engine)
     - cron: "6 3 * * 1"        # Radical Storage census (E-93), Monday
     - cron: "36 3 * * 1"       # Stasher and Stow Your Bags census (E-93), Monday
   workflow_dispatch:
     inputs:
       command:
-        description: "playtomic, playtomic-lead, tenders, laundromats (skips if the week worked), laundromats-now, radical or radical-census"
+        description: "occupancy, tenders, laundromats (skips if the week worked), laundromats-now, radical-census or competitors"
         required: true
-        default: "laundromats"
+        default: "occupancy"
 
 permissions:
   contents: write
@@ -53,7 +54,6 @@ jobs:
         id: cmd
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then c="${{ github.event.inputs.command }}"
-          elif [ "${{ github.event.schedule }}" = "1 19 * * *" ]; then c="playtomic-lead"
           elif [ "${{ github.event.schedule }}" = "1 7 * * 1" ]; then c="tenders"
           elif [ "${{ github.event.schedule }}" = "31 7 * * 1" ]; then c="laundromats"
           elif [ "${{ github.event.schedule }}" = "31 11,17 * * 1" ]; then c="laundromats"
@@ -62,7 +62,7 @@ jobs:
           elif [ "${{ github.event.schedule }}" = "6 * * * *" ]; then c="occupancy"
           elif [ "${{ github.event.schedule }}" = "6 3 * * 1" ]; then c="radical-census"
           elif [ "${{ github.event.schedule }}" = "36 3 * * 1" ]; then c="competitors"
-          else c="playtomic"; fi
+          else c="occupancy"; fi
           echo "c=$c" >> "$GITHUB_OUTPUT"
 
       - name: Run
@@ -79,16 +79,12 @@ jobs:
             { python bounce_occupancy.py scan  && python bounce_occupancy.py daily;  } || echo "BOUNCE FAILED"
             { python stow_occupancy.py scan    && python stow_occupancy.py daily;    } || echo "STOW FAILED"
             { python litc_occupancy.py scan    && python litc_occupancy.py daily;    } || echo "LITC FAILED"
+            { python stowcity_occupancy.py scan && python stowcity_occupancy.py daily; } || echo "STOWCITY FAILED"
             python areas.py fill || echo "AREAS FAILED"
             python dashboard.py  || echo "DASHBOARD FAILED"
           fi
 
-          if [ "$c" = "playtomic" ] || [ "$c" = "playtomic-lead" ]; then
-            if [ "$(date +%Y%m%d)" -gt 20261009 ]; then echo "Playtomic sampling ended on 09/10/2026 (S-16)"; exit 0; fi
-            pip install --quiet curl_cffi || true   # Playtomic answers 403 to plain requests from GitHub (23/09/2026)
-            if [ "$c" = "playtomic" ]; then python playtomic_occupancy.py read; else python playtomic_occupancy.py lead; fi
-            python playtomic_occupancy.py summary_csv
-          elif [ "$c" = "tenders" ]; then python municipal_tenders.py check
+          if [ "$c" = "tenders" ]; then python municipal_tenders.py check
           elif [ "$c" = "laundromats" ] || [ "$c" = "laundromats-now" ]; then
             pip install --quiet curl_cffi
             if [ "$c" = "laundromats" ]; then python laundromats_for_sale.py weekly; else python laundromats_for_sale.py check; fi
@@ -101,6 +97,7 @@ jobs:
             python competitors_census.py all || echo "STASHER/STOW CENSUS FAILED"
             python other_operators.py || echo "OTHER OPERATORS FAILED"
             python litc_occupancy.py shops || echo "LITC SHOPS FAILED"
+            python stowcity_occupancy.py shops || echo "STOWCITY SHOPS FAILED"
             python dashboard.py
           fi
 

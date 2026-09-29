@@ -45,8 +45,12 @@ PROVIDERS = {
     "litc": dict(label="Locker in the City", unit="lockers",
                  note="A locker operator like Stow Your Bags, 13 Italian shops. The booking flow gives "
                       "free lockers per size, so occupied is capacity minus free; capacity is the most "
-                      "ever seen free for that shop and size. Its backend was down when it was added, so "
-                      "its readings begin once that recovers."),
+                      "ever seen free for that shop and size."),
+    "stowcity": dict(label="StowCity", unit="lockers",
+                     note="A small locker operator with two shops on Nutrie's doorstep, Venice Old Town "
+                          "(Cannaregio) and Mestre station. Its booking API gives free lockers per size "
+                          "and, unlike the others, the real capacity too, so occupied is the declared "
+                          "capacity minus free."),
 }
 
 
@@ -149,6 +153,15 @@ def readings():
         shop = litc_shops.get(r["shop_id"], {})
         out.append(("litc", *when(r["read_at"]), town(r["city"]), area(shop.get("lat"), shop.get("lng")),
                     r["shop_id"], r["name"], r["locker_type"], cap, cap - number(r["free"]), r["read_at"]))
+
+    sc_shops = {r["shop_id"]: r for r in read_csv("stowcity-shops.csv")}
+    for r in read_csv("stowcity-occupancy.csv"):
+        if r.get("status") != "read" or r.get("free") == "":
+            continue
+        cap = number(r["capacity"])           # StowCity declares the real capacity per size
+        shop = sc_shops.get(r["shop_id"], {})
+        out.append(("stowcity", *when(r["read_at"]), town(r["city"]), area(shop.get("lat"), shop.get("lng")),
+                    r["shop_id"], r["name"], r["locker_type"], cap, cap - number(r["free"]), r["read_at"]))
     return out
 
 
@@ -215,7 +228,7 @@ TEMPLATE = """<!doctype html>
 <title>Luggage storage occupancy in Italy</title>
 <style>
 :root{--bg:#fff;--fg:#14171f;--mut:#6b7280;--line:#e5e7eb;--card:#f8fafc;--soft:#eef2f7;
---radical:#2f6df6;--bounce:#e0682a;--stow:#0f9d77;--litc:#8b3fd6}
+--radical:#2f6df6;--bounce:#e0682a;--stow:#0f9d77;--litc:#8b3fd6;--stowcity:#e11d8f}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1218;--fg:#eef1f6;--mut:#98a2b3;
 --line:#242a35;--card:#161a22;--soft:#1b2029;color-scheme:dark}}
 :root[data-theme="dark"]{--bg:#0f1218;--fg:#eef1f6;--mut:#98a2b3;--line:#242a35;--card:#161a22;--soft:#1b2029;color-scheme:dark}
@@ -290,7 +303,7 @@ comparison above. iVano is the one to look at twice: it sits in Cannaregio and S
 <th>Address</th><th>Reviews</th></tr></thead><tbody></tbody></table></div>
 </div><script>
 const D=__DATA__;
-const COLOR={radical:'#2f6df6',bounce:'#e0682a',stow:'#0f9d77',litc:'#8b3fd6'};
+const COLOR={radical:'#2f6df6',bounce:'#e0682a',stow:'#0f9d77',litc:'#8b3fd6',stowcity:'#e11d8f'};
 const LABEL={},UNIT={};D.providers.forEach(p=>{LABEL[p.id]=p.label;UNIT[p.id]=p.unit});
 const day=document.getElementById('day'),prov=document.getElementById('prov'),city=document.getElementById('city'),
       q=document.getElementById('q'),metric=document.getElementById('metric');

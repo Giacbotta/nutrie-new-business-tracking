@@ -18,6 +18,7 @@ git config user.email "actions@users.noreply.github.com"
 { python bounce_occupancy.py scan  && python bounce_occupancy.py daily;  } || echo "BOUNCE FAILED"
 { python stow_occupancy.py scan    && python stow_occupancy.py daily;    } || echo "STOW FAILED"
 { python litc_occupancy.py scan    && python litc_occupancy.py daily;    } || echo "LITC FAILED"
+{ python stowcity_occupancy.py scan && python stowcity_occupancy.py daily; } || echo "STOWCITY FAILED"
 python areas.py fill || echo "AREAS FAILED"
 python dashboard.py  || echo "DASHBOARD FAILED"
 

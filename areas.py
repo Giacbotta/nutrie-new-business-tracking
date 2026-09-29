@@ -49,6 +49,7 @@ SOURCES = [
     ("bounce-occupancy.csv", "spot_id", "lat", "lng", "city"),
     ("stow-shops.csv", "shop_id", "lat", "lng", "city"),
     ("litc-shops.csv", "shop_id", "lat", "lng", "city"),
+    ("stowcity-shops.csv", "shop_id", "lat", "lng", "city"),
 ]
 
 
