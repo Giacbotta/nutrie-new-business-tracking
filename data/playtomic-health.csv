@@ -822,3 +822,13 @@ read_at,command,slug,stage,outcome
 2026-09-30 20:00,read,h-farm-campus,availability,6 half hours
 2026-09-30 20:00,read,sph-treviso-sporting,availability,28 half hours
 2026-09-30 20:00,read,marina-sporting,availability,6 half hours
+2026-09-30 21:00,read,sporting-club-mestre,club page,URLError: <urlopen error _ssl.c:1064: The handshake operation timed ou
+2026-09-30 21:00,read,padel-by-fitup-di-zero-branco,club page,URLError: <urlopen error _ssl.c:1064: The handshake operation timed ou
+2026-09-30 21:00,read,aquafit-padel,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-09-30 21:00,read,sph-venezia,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-09-30 21:00,read,padel-treviso,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-09-30 21:00,read,altino-sport-village,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-09-30 21:00,read,barchessa-pickleball,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-09-30 21:00,read,h-farm-campus,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-09-30 21:00,read,sph-treviso-sporting,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-09-30 21:00,read,marina-sporting,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
