@@ -3386,7 +3386,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-09-30,marsala,train-station,1,50,0,0.0,0,0,0.0
 2026-09-30,martina-franca,city-center,1,10,0,0.0,0,0,0.0
 2026-09-30,massa,city-center,2,40,0,0.0,0,0,0.0
-2026-09-30,matera,city-center,7,170,2,1.2,0,2,1.0
+2026-09-30,matera,city-center,7,170,4,2.4,0,4,2.0
 2026-09-30,matera,via-dei-messapi,1,60,0,0.0,0,0,0.0
 2026-09-30,mazara-del-vallo,train-station,1,10,0,0.0,0,0,0.0
 2026-09-30,merano,city-center,2,30,0,0.0,0,0,0.0
@@ -3417,7 +3417,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-09-30,milan,fiera,1,200,0,0.0,0,0,0.0
 2026-09-30,milan,forlanini,1,20,3,15.0,0,3,1.5
 2026-09-30,milan,guastalla,2,45,4,8.9,0,4,2.0
-2026-09-30,milan,lambrate,4,85,5,5.9,0,5,2.5
+2026-09-30,milan,lambrate,4,85,6,7.1,0,6,3.0
 2026-09-30,milan,lanza,1,45,3,6.7,3,0,1.5
 2026-09-30,milan,loreto,6,160,1,0.6,0,1,0.5
 2026-09-30,milan,malpensa-airport,1,100,0,0.0,0,0,0.0
@@ -3507,7 +3507,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-09-30,palermo,mondello,2,40,1,2.5,0,1,0.5
 2026-09-30,palermo,mont-di-pieta,2,45,20,44.4,2,18,10.0
 2026-09-30,palermo,palazzo-comitini,1,50,0,0.0,0,0,0.0
-2026-09-30,palermo,palermo-centrale,5,210,48,22.9,4,44,24.0
+2026-09-30,palermo,palermo-centrale,5,210,53,25.2,4,49,26.5
 2026-09-30,palermo,palermo-city-center,8,335,8,2.4,0,8,4.0
 2026-09-30,palermo,piazza-verdi,1,40,12,30.0,1,11,6.0
 2026-09-30,palermo,port-palermo,4,250,2,0.8,1,1,1.0
@@ -3629,10 +3629,10 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-09-30,rome,santa-maria-maggiore,2,200,0,0.0,0,0,0.0
 2026-09-30,rome,spanish-steps,2,95,9,9.5,2,7,4.5
 2026-09-30,rome,st-peter-basilica,1,35,8,22.9,8,0,4.0
-2026-09-30,rome,termini,34,3118,122,3.9,37,92,64.5
+2026-09-30,rome,termini,34,3118,122,3.9,37,96,66.5
 2026-09-30,rome,tiburtina,7,260,18,6.9,0,18,9.0
 2026-09-30,rome,torre-maura,1,100,0,0.0,0,0,0.0
-2026-09-30,rome,trastevere,15,755,45,6.0,34,11,22.5
+2026-09-30,rome,trastevere,16,780,45,5.8,34,11,22.5
 2026-09-30,rome,trevi,4,235,20,8.5,2,18,10.0
 2026-09-30,rome,trieste,1,300,0,0.0,0,0,0.0
 2026-09-30,rome,vatican,18,797,49,6.1,11,42,26.5
