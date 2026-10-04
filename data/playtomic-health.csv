@@ -179,7 +179,6 @@ read_at,command,slug,stage,outcome
 2026-09-25 16:10,read,h-farm-campus,availability,4 half hours
 2026-09-25 16:10,read,sph-treviso-sporting,availability,28 half hours
 2026-09-25 16:10,read,marina-sporting,availability,8 half hours
-<<<<<<< Updated upstream
 2026-09-25 17:53,read,sporting-club-mestre,club page,"HTTP 403 plain, HTTP 403 as browser too"
 2026-09-25 17:53,read,padel-by-fitup-di-zero-branco,club page,"HTTP 403 plain, HTTP 403 as browser too"
 2026-09-25 17:53,read,aquafit-padel,club page,"HTTP 403 plain, HTTP 403 as browser too"
@@ -190,6 +189,16 @@ read_at,command,slug,stage,outcome
 2026-09-25 17:53,read,h-farm-campus,club page,"HTTP 403 plain, HTTP 403 as browser too"
 2026-09-25 17:53,read,sph-treviso-sporting,club page,"HTTP 403 plain, HTTP 403 as browser too"
 2026-09-25 17:53,read,marina-sporting,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-25 19:46,read,sporting-club-mestre,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-09-25 19:46,read,padel-by-fitup-di-zero-branco,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-09-25 19:46,read,aquafit-padel,availability,8 half hours
+2026-09-25 19:46,read,sph-venezia,availability,20 half hours
+2026-09-25 19:46,read,padel-treviso,availability,48 half hours
+2026-09-25 19:46,read,altino-sport-village,availability,8 half hours
+2026-09-25 19:46,read,barchessa-pickleball,availability,12 half hours
+2026-09-25 19:46,read,h-farm-campus,availability,8 half hours
+2026-09-25 19:46,read,sph-treviso-sporting,availability,28 half hours
+2026-09-25 19:46,read,marina-sporting,availability,8 half hours
 2026-09-25 22:21,read,sporting-club-mestre,club page,"HTTP 403 plain, HTTP 403 as browser too"
 2026-09-25 22:21,read,padel-by-fitup-di-zero-branco,club page,"HTTP 403 plain, HTTP 403 as browser too"
 2026-09-25 22:21,read,aquafit-padel,club page,"HTTP 403 plain, HTTP 403 as browser too"
@@ -250,18 +259,6 @@ read_at,command,slug,stage,outcome
 2026-09-27 17:39,read,h-farm-campus,club page,"HTTP 403 plain, HTTP 403 as browser too"
 2026-09-27 17:39,read,sph-treviso-sporting,club page,"HTTP 403 plain, HTTP 403 as browser too"
 2026-09-27 17:39,read,marina-sporting,club page,"HTTP 403 plain, HTTP 403 as browser too"
-=======
-2026-09-25 19:46,read,sporting-club-mestre,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
-2026-09-25 19:46,read,padel-by-fitup-di-zero-branco,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
-2026-09-25 19:46,read,aquafit-padel,availability,8 half hours
-2026-09-25 19:46,read,sph-venezia,availability,20 half hours
-2026-09-25 19:46,read,padel-treviso,availability,48 half hours
-2026-09-25 19:46,read,altino-sport-village,availability,8 half hours
-2026-09-25 19:46,read,barchessa-pickleball,availability,12 half hours
-2026-09-25 19:46,read,h-farm-campus,availability,8 half hours
-2026-09-25 19:46,read,sph-treviso-sporting,availability,28 half hours
-2026-09-25 19:46,read,marina-sporting,availability,8 half hours
->>>>>>> Stashed changes
 2026-09-27 18:43,read,sporting-club-mestre,availability,closed now or no slots
 2026-09-27 18:43,read,padel-by-fitup-di-zero-branco,availability,closed now or no slots
 2026-09-27 18:43,read,aquafit-padel,availability,closed now or no slots
@@ -512,6 +509,16 @@ read_at,command,slug,stage,outcome
 2026-09-28 21:35,read,h-farm-campus,availability,closed now or no slots
 2026-09-28 21:35,read,sph-treviso-sporting,availability,14 half hours
 2026-09-28 21:35,read,marina-sporting,availability,closed now or no slots
+2026-09-28 22:10,read,sporting-club-mestre,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-28 22:10,read,padel-by-fitup-di-zero-branco,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-28 22:10,read,aquafit-padel,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-28 22:10,read,sph-venezia,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-28 22:10,read,padel-treviso,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-28 22:10,read,altino-sport-village,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-28 22:10,read,barchessa-pickleball,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-28 22:10,read,h-farm-campus,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-28 22:10,read,sph-treviso-sporting,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-28 22:10,read,marina-sporting,club page,"HTTP 403 plain, HTTP 403 as browser too"
 2026-09-28 22:35,read,sporting-club-mestre,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 2026-09-28 22:35,read,padel-by-fitup-di-zero-branco,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 2026-09-28 22:35,read,aquafit-padel,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
@@ -552,6 +559,26 @@ read_at,command,slug,stage,outcome
 2026-09-29 01:35,read,h-farm-campus,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 2026-09-29 01:35,read,sph-treviso-sporting,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 2026-09-29 01:35,read,marina-sporting,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-09-29 01:57,lead,sporting-club-mestre,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-29 01:57,lead,padel-by-fitup-di-zero-branco,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-29 01:57,lead,aquafit-padel,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-29 01:57,lead,sph-venezia,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-29 01:57,lead,padel-treviso,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-29 01:57,lead,altino-sport-village,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-29 01:57,lead,barchessa-pickleball,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-29 01:57,lead,h-farm-campus,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-29 01:57,lead,sph-treviso-sporting,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-29 01:57,lead,marina-sporting,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-29 03:00,read,sporting-club-mestre,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-29 03:00,read,padel-by-fitup-di-zero-branco,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-29 03:00,read,aquafit-padel,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-29 03:00,read,sph-venezia,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-29 03:00,read,padel-treviso,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-29 03:00,read,altino-sport-village,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-29 03:00,read,barchessa-pickleball,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-29 03:00,read,h-farm-campus,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-29 03:00,read,sph-treviso-sporting,club page,"HTTP 403 plain, HTTP 403 as browser too"
+2026-09-29 03:00,read,marina-sporting,club page,"HTTP 403 plain, HTTP 403 as browser too"
 2026-09-29 07:00,read,sporting-club-mestre,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 2026-09-29 07:00,read,padel-by-fitup-di-zero-branco,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 2026-09-29 07:00,read,aquafit-padel,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
@@ -592,36 +619,6 @@ read_at,command,slug,stage,outcome
 2026-09-29 10:00,read,h-farm-campus,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 2026-09-29 10:00,read,sph-treviso-sporting,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 2026-09-29 10:00,read,marina-sporting,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
-2026-09-28 22:10,read,sporting-club-mestre,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-28 22:10,read,padel-by-fitup-di-zero-branco,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-28 22:10,read,aquafit-padel,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-28 22:10,read,sph-venezia,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-28 22:10,read,padel-treviso,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-28 22:10,read,altino-sport-village,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-28 22:10,read,barchessa-pickleball,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-28 22:10,read,h-farm-campus,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-28 22:10,read,sph-treviso-sporting,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-28 22:10,read,marina-sporting,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-29 01:57,lead,sporting-club-mestre,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-29 01:57,lead,padel-by-fitup-di-zero-branco,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-29 01:57,lead,aquafit-padel,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-29 01:57,lead,sph-venezia,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-29 01:57,lead,padel-treviso,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-29 01:57,lead,altino-sport-village,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-29 01:57,lead,barchessa-pickleball,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-29 01:57,lead,h-farm-campus,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-29 01:57,lead,sph-treviso-sporting,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-29 01:57,lead,marina-sporting,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-29 03:00,read,sporting-club-mestre,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-29 03:00,read,padel-by-fitup-di-zero-branco,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-29 03:00,read,aquafit-padel,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-29 03:00,read,sph-venezia,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-29 03:00,read,padel-treviso,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-29 03:00,read,altino-sport-village,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-29 03:00,read,barchessa-pickleball,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-29 03:00,read,h-farm-campus,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-29 03:00,read,sph-treviso-sporting,club page,"HTTP 403 plain, HTTP 403 as browser too"
-2026-09-29 03:00,read,marina-sporting,club page,"HTTP 403 plain, HTTP 403 as browser too"
 2026-09-29 11:00,read,sporting-club-mestre,availability,16 half hours
 2026-09-29 11:00,read,padel-by-fitup-di-zero-branco,availability,4 half hours
 2026-09-29 11:00,read,aquafit-padel,availability,8 half hours
@@ -942,3 +939,33 @@ read_at,command,slug,stage,outcome
 2026-10-04 16:36,read,h-farm-campus,availability,8 half hours
 2026-10-04 16:36,read,sph-treviso-sporting,availability,28 half hours
 2026-10-04 16:36,read,marina-sporting,availability,8 half hours
+2026-10-04 17:36,read,sporting-club-mestre,availability,8 half hours
+2026-10-04 17:36,read,padel-by-fitup-di-zero-branco,availability,closed now or no slots
+2026-10-04 17:36,read,aquafit-padel,availability,closed now or no slots
+2026-10-04 17:36,read,sph-venezia,availability,20 half hours
+2026-10-04 17:36,read,padel-treviso,availability,48 half hours
+2026-10-04 17:36,read,altino-sport-village,availability,8 half hours
+2026-10-04 17:36,read,barchessa-pickleball,availability,9 half hours
+2026-10-04 17:36,read,h-farm-campus,availability,8 half hours
+2026-10-04 17:36,read,sph-treviso-sporting,availability,21 half hours
+2026-10-04 17:36,read,marina-sporting,availability,8 half hours
+2026-10-04 18:36,read,sporting-club-mestre,availability,closed now or no slots
+2026-10-04 18:36,read,padel-by-fitup-di-zero-branco,availability,closed now or no slots
+2026-10-04 18:36,read,aquafit-padel,availability,closed now or no slots
+2026-10-04 18:36,read,sph-venezia,availability,15 half hours
+2026-10-04 18:36,read,padel-treviso,availability,24 half hours
+2026-10-04 18:36,read,altino-sport-village,availability,8 half hours
+2026-10-04 18:36,read,barchessa-pickleball,availability,3 half hours
+2026-10-04 18:36,read,h-farm-campus,availability,8 half hours
+2026-10-04 18:36,read,sph-treviso-sporting,availability,7 half hours
+2026-10-04 18:36,read,marina-sporting,availability,8 half hours
+2026-10-04 19:36,read,sporting-club-mestre,availability,closed now or no slots
+2026-10-04 19:36,read,padel-by-fitup-di-zero-branco,availability,closed now or no slots
+2026-10-04 19:36,read,aquafit-padel,availability,closed now or no slots
+2026-10-04 19:36,read,sph-venezia,availability,5 half hours
+2026-10-04 19:36,read,padel-treviso,availability,closed now or no slots
+2026-10-04 19:36,read,altino-sport-village,availability,4 half hours
+2026-10-04 19:36,read,barchessa-pickleball,availability,closed now or no slots
+2026-10-04 19:36,read,h-farm-campus,availability,8 half hours
+2026-10-04 19:36,read,sph-treviso-sporting,availability,closed now or no slots
+2026-10-04 19:36,read,marina-sporting,availability,8 half hours
