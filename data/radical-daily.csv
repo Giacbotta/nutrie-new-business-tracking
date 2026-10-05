@@ -5505,7 +5505,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-09-29,weekday,milan,santa-maria-delle-grazie,8990,Luggage Storage Piazza Virgilio / Cadorna,35,11,10,28.6,10,0,5.0
 2026-09-30,weekday,milan,santa-maria-delle-grazie,8990,Luggage Storage Piazza Virgilio / Cadorna,35,11,0,0.0,0,0,0.0
 2026-10-01,weekday,milan,santa-maria-delle-grazie,8990,Luggage Storage Piazza Virgilio / Cadorna,35,7,0,0.0,0,0,0.0
-2026-10-05,weekday,milan,santa-maria-delle-grazie,8990,Luggage Storage Piazza Virgilio / Cadorna,35,3,0,0.0,0,0,0.0
+2026-10-05,weekday,milan,santa-maria-delle-grazie,8990,Luggage Storage Piazza Virgilio / Cadorna,35,3,1,2.9,0,1,0.5
 2026-09-23,weekday,milan,via-torino-via-palla,6469337,Luggage Storage Via Varesina,26,1,0,0.0,0,0,0.0
 2026-09-24,weekday,milan,via-torino-via-palla,6469337,Luggage Storage Via Varesina,26,2,0,0.0,0,0,0.0
 2026-09-25,weekday,milan,via-torino-via-palla,6469337,Luggage Storage Via Varesina,26,7,0,0.0,0,0,0.0
@@ -10341,7 +10341,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-09-29,weekday,rome,termini,6472962,Luggage Storage Termini / Amendola,18,12,14,77.8,12,5,8.5
 2026-09-30,weekday,rome,termini,6472962,Luggage Storage Termini / Amendola,18,12,16,88.9,5,19,12.0
 2026-10-01,weekday,rome,termini,6472962,Luggage Storage Termini / Amendola,18,5,18,100.0,9,9,9.0
-2026-10-05,weekday,rome,termini,6472962,Luggage Storage Termini / Amendola,18,3,14,77.8,14,5,9.5
+2026-10-05,weekday,rome,termini,6472962,Luggage Storage Termini / Amendola,18,3,14,77.8,14,6,10.0
 2026-09-23,weekday,rome,termini,6473095,Luggage Storage Viminale Bus Stop,40,2,0,0.0,0,0,0.0
 2026-09-24,weekday,rome,termini,6473095,Luggage Storage Viminale Bus Stop,40,3,0,0.0,0,0,0.0
 2026-09-25,weekday,rome,termini,6473095,Luggage Storage Viminale Bus Stop,40,8,0,0.0,0,0,0.0

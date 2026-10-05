@@ -2,6 +2,36 @@
 
 Written by `municipal_tenders.py`; the latest runs are on top.
 
+## Run of 2026-10-05
+
+**4 new items.**
+
+- **Mogliano Veneto**, 30/09/2026: RIQUALIFICAZIONE DELL’AREA VERDE SITA TRA VIA DE GASPERI E IL PARCO DELLA CULTURA “ANTONIO CAREGARO NEGRIN”. AFFIDAMENTO SERVIZIO DI REDAZIONE DEL DOCUMENTO DI FATTIBILITA’ DELLE ALTERNATIVE PROGETTUALI (DOCFAP), IMPORTO EURO 10.048,90. CIG BD1178B510. — https://moglianoveneto.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1779284 (keywords: area verde, affidamento)
+- **Mogliano Veneto**, 24/09/2026: CONTRATTO DI CONCESSIONE IN USO E GESTIONE DEGLI IMPIANTI SPORTIVI DEI QUARTIERI ZERMAN E BONISIOLO. RIDETERMINAZIONE DELLA DURATA AI SENSI DELL'ART. 7 DEL REGOLAMENTO PER L'USO E GESTIONE DEGLI IMPIANTI SPORTIVI COMUNALI — https://moglianoveneto.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1774019 (keywords: impianti sportivi, concessione, gestione)
+- **Preganziol**, 01/10/2026: Aggiudicazione definitiva efficace per l'affidamento in concessione della gestione e dell'utilizzo dell'impianto sportivo per il calcio di via Manzoni per la durata di cinque anni, ai sensi del D.Lgs n. 36/2023 e del D.Lgs n.38/2021, con indizione di procedura aperta mediante RDO sul MePA, con il criterio dell'offerta economicamente vantaggiosa — https://servizionline.comune.preganziol.tv.it/mc/mc_p_dettaglio.php?id_pubbl=22792 (keywords: impianto sportivo, concessione, gestione, affidamento)
+- **Zero Branco**, 01/10/2026: SOSTITUZIONE DELLE POMPE DELLE CALDAIE PRESSO IL CAMPO SPORTIVO DI S. ALBERTO E PALAZZETTO COMUNALE. DETERMINA A CONTRARRE E AFFIDAMENTO DIRETTO AI SENSI DEL D.LGS. 36/2023 A FAVORE DELLA DITTA VEOLIA ITALIA S.P.A. CON SEDE LEGALE A MILANO (MI) Registro generale 591 Data registro generale 29/09/2026 Data inizio 01/10/2026 Data fine 16/10/2026 Allegati 0 Numero pubblicazione 1169 Mittente COMUNE DI — https://servizionline.comune.zerobranco.tv.it/mc/mc_p_dettaglio.php?id_pubbl=19284 (keywords: palazzetto, affidamento)
+
+Sources read:
+
+- Mogliano Veneto (JCity notice board): 115 items read, 2 with the keywords
+- Spresiano (JCity notice board): 64 items read, 0 with the keywords
+- Preganziol (Halley notice board): 63 items read, 1 with the keywords
+- Marcon (Halley notice board): 57 items read, 0 with the keywords
+- Casale sul Sile (Halley notice board): 63 items read, 0 with the keywords
+- Zero Branco (Halley notice board): 63 items read, 1 with the keywords
+- Casier (Halley notice board): 58 items read, 0 with the keywords
+- Quarto d'Altino (Halley notice board): 30 items read, 0 with the keywords
+- Scorzè (Hypersic notice board): 62 items read, 0 with the keywords
+- Treviso (J-Ente notice board): 288 items read, 0 with the keywords
+- Veneto (Sport e Salute) (aggregator): 3 items read, 1 with the keywords
+- Preganziol (site notices): 5 items read, 0 with the keywords
+- Marcon (site notices): 9 items read, 0 with the keywords
+- Casale sul Sile (site notices): 5 items read, 0 with the keywords
+- Zero Branco (site notices): 8 items read, 0 with the keywords
+- Casier (site notices): 9 items read, 0 with the keywords
+- Quarto d'Altino (site notices): 15 items read, 0 with the keywords
+- Venezia: not covered, www.comune.venezia.it answers with an anti-bot protection (Incapsula): not forced
+
 
 ## Earlier runs (in Italian, kept as written)
 
