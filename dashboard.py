@@ -126,16 +126,15 @@ def readings():
         out.append(("radical", *when(r["read_at"]), town(r["city"]), area(lat, lng), r["storage_id"],
                     r["name"], "", number(r["capacity"]), number(r["booked"]), r["read_at"]))
 
-    bounce_rows = read_csv("bounce-occupancy.csv")
     caps = collections.defaultdict(int)
-    for r in bounce_rows:
+    for r in shared_areas.iter_shards("bounce-occupancy"):
         caps[r["spot_id"]] = max(caps[r["spot_id"]], number(r["capacity"]))
     # Bounce's "reservations" is last7dReservationCount: bookings over the last seven days, not bags
     # in the shop now. Verified on 28/09/2026 by matching a spot across the two endpoints at the same
     # coordinates (269 vs 270) and by reproducing what bounce.com prints as "Current availability",
     # which is maxCapacity - round(reservationCount / 7). So Bounce's own point-in-time occupancy is
     # the weekly count divided by seven; using the raw count overstated it about sevenfold.
-    for r in bounce_rows:
+    for r in shared_areas.iter_shards("bounce-occupancy"):      # second pass: capacities are now known
         if r["reservations"] == "":
             continue
         occupied = max(0, round(number(r["reservations"]) / 7))

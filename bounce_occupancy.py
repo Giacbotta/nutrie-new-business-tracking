@@ -35,7 +35,11 @@ from concurrent.futures import ThreadPoolExecutor
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
 CITIES_CSV = os.path.join(DATA, "bounce-cities.csv")
-SPOTS_CSV = os.path.join(DATA, "bounce-occupancy.csv")
+# One file per day (data/bounce-occupancy/2026-10-05.csv), not one file for everything. A full round is
+# about 6.000 rows, so a day is about 18 MB and the old single file passed GitHub's 100 MiB limit on
+# 01/10/2026: every push was refused and the readings after that were lost. A week would be about
+# 125 MiB, still over the limit; a day leaves a wide margin.
+SPOTS_DIR = os.path.join(DATA, "bounce-occupancy")
 DAILY_CSV = os.path.join(DATA, "bounce-daily.csv")
 CITY_CSV = os.path.join(DATA, "bounce-daily-city.csv")
 AREAS_CSV = os.path.join(DATA, "bounce-areas.csv")
@@ -91,7 +95,7 @@ def city_stores(slug):
 
 
 def rows_to_csv(path, fields, rows, append=True):
-    os.makedirs(DATA, exist_ok=True)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
     new = not (append and os.path.exists(path))
     with open(path, "a" if append else "w", newline="", encoding="utf8") as f:
         w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
@@ -110,6 +114,21 @@ def read_csv(path):
         return []
     with open(path, encoding="utf8") as f:
         return list(csv.DictReader(f))
+
+
+def spots_path(day):
+    return os.path.join(SPOTS_DIR, f"{day}.csv")
+
+
+def iter_spots():
+    """Every reading of every day, oldest day first, one row at a time: the whole history is too
+    big to hold in memory as a list."""
+    if not os.path.isdir(SPOTS_DIR):
+        return
+    for name in sorted(os.listdir(SPOTS_DIR)):
+        if name.endswith(".csv"):
+            with open(os.path.join(SPOTS_DIR, name), encoding="utf8", newline="") as f:
+                yield from csv.DictReader(f)
 
 
 def rome_now():
@@ -145,7 +164,7 @@ def areas():
     Only points missing from the cache are looked up, so a run after the first costs almost nothing."""
     cached = {r["spot_id"]: r for r in read_csv(AREAS_CSV)}
     points, seen = [], set()
-    for r in read_csv(SPOTS_CSV):
+    for r in iter_spots():
         if r["spot_id"] not in seen and r["lat"]:
             seen.add(r["spot_id"])
             points.append(r)
@@ -246,11 +265,11 @@ def scan(only=None):
                       rating=round(s["rating"], 2) if s.get("rating") else "",
                       open_24_7=s.get("isOpen247"), day=now.date().isoformat(), hour=now.hour)
                  for s in spots]
-        rows_to_csv(SPOTS_CSV, FIELDS, fresh)
+        rows_to_csv(spots_path(now.date().isoformat()), FIELDS, fresh)
         rows += fresh
         print(f"  {city:20} {len(fresh):4} points, {sum(r['reservations'] or 0 for r in fresh):5} reservations", flush=True)
     print(f"{stamp}: {len(rows)} points in {len(wanted)} cities, "
-          f"{sum(r['reservations'] or 0 for r in rows)} reservations -> {SPOTS_CSV}")
+          f"{sum(r['reservations'] or 0 for r in rows)} reservations -> {spots_path(now.date().isoformat())}")
 
 
 def daily():
@@ -261,7 +280,7 @@ def daily():
     area_of = {r["spot_id"]: r["area"] for r in read_csv(AREAS_CSV)}
     hours = collections.defaultdict(dict)      # (city, spot, day) -> hour -> (read_at, occupied)
     meta, caps = {}, collections.defaultdict(int)
-    for r in read_csv(SPOTS_CSV):
+    for r in iter_spots():
         if r["reservations"] == "":
             continue
         key = (r["city"], r["spot_id"], r["day"])

@@ -46,7 +46,7 @@ LEVELS = ["suburb", "city_district", "borough", "quarter", "neighbourhood", "tow
 SOURCES = [
     # file, id column, lat column, lng column, city column
     ("radical-points.csv", "storage_id", "lat", "lng", "city"),
-    ("bounce-occupancy.csv", "spot_id", "lat", "lng", "city"),
+    ("bounce-occupancy/", "spot_id", "lat", "lng", "city"),   # a folder: one file per day
     ("stow-shops.csv", "shop_id", "lat", "lng", "city"),
     ("litc-shops.csv", "shop_id", "lat", "lng", "city"),
     ("stowcity-shops.csv", "shop_id", "lat", "lng", "city"),
@@ -64,6 +64,18 @@ def read_csv(name):
         return []
     with open(path, encoding="utf8") as f:
         return list(csv.DictReader(f))
+
+
+def iter_shards(folder):
+    """Rows of a folder of one-file-per-day CSVs (data/<folder>/YYYY-MM-DD.csv), oldest day first,
+    one row at a time. The history is too big to hold in memory as a list."""
+    path = os.path.join(DATA, folder)
+    if not os.path.isdir(path):
+        return
+    for name in sorted(os.listdir(path)):
+        if name.endswith(".csv"):
+            with open(os.path.join(path, name), encoding="utf8", newline="") as f:
+                yield from csv.DictReader(f)
 
 
 def key(lat, lng):
@@ -86,7 +98,7 @@ def wanted():
     """Every distinct rounded position across the three providers."""
     out = {}
     for name, ident, lat_col, lng_col, city_col in SOURCES:
-        for r in read_csv(name):
+        for r in (iter_shards(name.rstrip("/")) if name.endswith("/") else read_csv(name)):
             if not r.get(lat_col) or not r.get(lng_col):
                 continue
             try:
