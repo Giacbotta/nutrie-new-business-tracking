@@ -119,7 +119,7 @@ def readings():
 
     out = []
     where = {r["storage_id"]: (r["lat"], r["lng"]) for r in read_csv("radical-points.csv")}
-    for r in read_csv("radical-occupancy.csv"):
+    for r in shared_areas.iter_shards("radical-occupancy"):
         if r.get("status") != "read" or r["booked"] == "":
             continue
         lat, lng = where.get(r["storage_id"], (None, None))

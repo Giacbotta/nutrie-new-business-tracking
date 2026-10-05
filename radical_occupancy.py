@@ -43,7 +43,10 @@ DATA = os.path.join(HERE, "data")
 DOCS = os.path.join(HERE, "docs")
 CITIES_CSV = os.path.join(DATA, "radical-cities.csv")
 POINTS_CSV = os.path.join(DATA, "radical-points.csv")
-OCC_CSV = os.path.join(DATA, "radical-occupancy.csv")
+# One file per day (data/radical-occupancy/2026-10-05.csv, named after the `day` column, the hour
+# slot being read), not one growing file: about 2 MB a day, and GitHub refuses files over 100 MiB.
+# The same split was made for Bounce on 05/10/2026, whose single file had reached the limit.
+OCC_DIR = os.path.join(DATA, "radical-occupancy")
 DAILY_CSV = os.path.join(DATA, "radical-daily.csv")
 AREA_CSV = os.path.join(DATA, "radical-daily-area.csv")
 CITY_CSV = os.path.join(DATA, "radical-daily-city.csv")
@@ -115,7 +118,7 @@ def area_of(point):
 
 
 def rows_to_csv(path, fields, rows, append=True):
-    os.makedirs(DATA, exist_ok=True)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
     new = not (append and os.path.exists(path))
     with open(path, "a" if append else "w", newline="", encoding="utf8") as f:
         w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
@@ -134,6 +137,20 @@ def read_csv(path):
         return []
     with open(path, encoding="utf8") as f:
         return list(csv.DictReader(f))
+
+
+def occ_path(day):
+    return os.path.join(OCC_DIR, f"{day}.csv")
+
+
+def iter_occ():
+    """Every reading of every day, oldest day first, one row at a time."""
+    if not os.path.isdir(OCC_DIR):
+        return
+    for name in sorted(os.listdir(OCC_DIR)):
+        if name.endswith(".csv"):
+            with open(os.path.join(OCC_DIR, name), encoding="utf8", newline="") as f:
+                yield from csv.DictReader(f)
 
 
 # ---------------------------------------------------------------- cities and census
@@ -255,7 +272,7 @@ def opening_today(point):
 def last_readings():
     """Last bags booked seen for each point, to start the search from."""
     out = {}
-    for r in read_csv(OCC_CSV):
+    for r in iter_occ():
         if r["booked"] != "":
             out[r["storage_id"]] = int(r["booked"])
     return out
@@ -307,7 +324,7 @@ def scan(only=None):
 
         with ThreadPoolExecutor(THREADS) as ex:
             fresh = [r for r in ex.map(one, due) if r]
-        rows_to_csv(OCC_CSV, OCC_FIELDS, fresh)
+        rows_to_csv(occ_path(slot.date().isoformat()), OCC_FIELDS, fresh)
         rows += fresh
         print(f"  {city:20} {len(fresh):3} points, {sum(r['booked'] for r in fresh if r['booked'] != ''):4} bags, "
               f"{_spent[0]} requests so far", flush=True)
@@ -316,7 +333,7 @@ def scan(only=None):
             break
     total = sum(r["booked"] for r in rows if r["booked"] != "")
     print(f"{stamp} hour {slot.hour:02d}: {len(rows)} points read in {len(wanted)} cities, "
-          f"{total} bags booked, {_spent[0]} requests -> {OCC_CSV}")
+          f"{total} bags booked, {_spent[0]} requests -> {occ_path(slot.date().isoformat())}")
 
 
 # ---------------------------------------------------------------- deposits per day
@@ -330,7 +347,7 @@ def daily():
     Deposits = bags_in / BAGS_PER_BOOKING."""
     curve = collections.defaultdict(dict)
     meta = {}
-    for r in read_csv(OCC_CSV):
+    for r in iter_occ():
         if r["booked"] == "":
             continue
         key = (r["city"], r["area"], r["storage_id"], r["day"])

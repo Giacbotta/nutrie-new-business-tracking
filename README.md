@@ -24,7 +24,8 @@ Everything is written to `data/` and committed by each run:
 - `tenders-seen.csv`: every tender seen; `tenders-new.md`: what each run found.
 - `laundromats.csv`: every laundromat listing seen, active or gone; `laundromats-new.md`: what changed in each run.
 - `radical-cities.csv`, `radical-points.csv`: the 86 Italian cities Radical Storage covers and their 1.386 points, with capacity, reviews and price.
-- `radical-occupancy.csv`: one row per point per hour, with the bags already booked in that hour.
+- `radical-occupancy/`: one file per day (`YYYY-MM-DD.csv`), one row per point per hour, with the bags already booked in that hour. Split by day because GitHub refuses files over 100 MiB.
+- `bounce-occupancy/`: the same for Bounce, one file per day, one row per point per reading (about 18 MB a day).
 - `radical-daily.csv`, `radical-daily-area.csv`, `radical-daily-city.csv`: deposits per day, by point, by neighbourhood and by city.
 
 ### How the Radical numbers are built
