@@ -4363,7 +4363,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-05,bologna,porta-castiglione,1,25,0,0.0,0,0,0.0
 2026-10-05,bologna,porta-maggiore,1,20,0,0.0,0,0,0.0
 2026-10-05,bologna,san-donato,1,20,0,0.0,0,0,0.0
-2026-10-05,bologna,stadio-senato-dall-aria,1,50,0,0.0,0,0,0.0
+2026-10-05,bologna,stadio-senato-dall-aria,1,50,1,2.0,0,1,0.5
 2026-10-05,bologna,two-towers,2,60,0,0.0,0,0,0.0
 2026-10-05,bolzano,bolzano-train-station,4,150,8,5.3,8,0,4.0
 2026-10-05,bolzano,city-center,1,30,0,0.0,0,0,0.0
@@ -4457,7 +4457,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-05,gallipoli,baia-verde,1,35,0,0.0,0,0,0.0
 2026-10-05,gallipoli,gallipoli-station,4,90,0,0.0,0,0,0.0
 2026-10-05,genoa,aquarium-genoa,1,100,0,0.0,0,0,0.0
-2026-10-05,genoa,brignole,4,85,2,2.4,2,0,1.0
+2026-10-05,genoa,brignole,4,85,2,2.4,2,1,1.5
 2026-10-05,genoa,genoa-port,2,50,0,0.0,0,0,0.0
 2026-10-05,genoa,maddalena,2,50,0,0.0,0,0,0.0
 2026-10-05,genoa,orefici,1,15,0,0.0,0,0,0.0
@@ -4483,7 +4483,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-05,lampedusa,city-center,1,50,0,0.0,0,0,0.0
 2026-10-05,latina,city-center,1,200,0,0.0,0,0,0.0
 2026-10-05,lecce,lecce-city-center,8,305,0,0.0,0,0,0.0
-2026-10-05,lecce,railway-station,6,170,4,2.4,4,0,2.0
+2026-10-05,lecce,railway-station,6,170,4,2.4,4,1,2.5
 2026-10-05,lecco,lecco-train-station,2,30,0,0.0,0,0,0.0
 2026-10-05,lecco,train-station,2,50,0,0.0,0,0,0.0
 2026-10-05,livorno,city-center,3,100,0,0.0,0,0,0.0
@@ -4533,7 +4533,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-05,milan,milan-centrale-railway-station,26,1570,91,5.8,88,3,45.5
 2026-10-05,milan,milano-certosa,1,25,0,0.0,0,0,0.0
 2026-10-05,milan,milano-repubblica-station,2,120,0,0.0,0,0,0.0
-2026-10-05,milan,missori,7,190,17,8.9,17,0,8.5
+2026-10-05,milan,missori,7,190,17,8.9,17,1,9.0
 2026-10-05,milan,navigli,2,55,6,10.9,6,0,3.0
 2026-10-05,milan,niguarda,2,40,0,0.0,0,0,0.0
 2026-10-05,milan,piazza-gae-aulenti,1,40,0,0.0,0,0,0.0
