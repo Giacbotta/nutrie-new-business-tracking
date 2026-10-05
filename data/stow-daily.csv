@@ -29,9 +29,9 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-09-23,genoa,25,Genoa Piazza Principe Train Station,Maxi,1,7,7,8,12.5
 2026-09-23,genoa,25,Genoa Piazza Principe Train Station,Small,1,7,7,8,12.5
 2026-09-23,genoa,25,Genoa Piazza Principe Train Station,Standard,1,10,10,11,9.1
-2026-09-23,milan,3,Milano Centrale Train Station,Maxi,1,40,40,46,13.0
+2026-09-23,milan,3,Milano Centrale Train Station,Maxi,1,40,40,47,14.9
 2026-09-23,milan,3,Milano Centrale Train Station,Small,1,30,30,35,14.3
-2026-09-23,milan,3,Milano Centrale Train Station,Standard,1,54,54,65,16.9
+2026-09-23,milan,3,Milano Centrale Train Station,Standard,1,54,54,66,18.2
 2026-09-23,milan,36,Cadorna Train Station,Maxi,1,17,17,25,32.0
 2026-09-23,milan,36,Cadorna Train Station,Small,1,33,33,36,8.3
 2026-09-23,milan,36,Cadorna Train Station,Standard,1,36,36,38,5.3
@@ -128,9 +128,9 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-09-24,genoa,25,Genoa Piazza Principe Train Station,Maxi,14,7,8,8,12.5
 2026-09-24,genoa,25,Genoa Piazza Principe Train Station,Small,14,7,8,8,12.5
 2026-09-24,genoa,25,Genoa Piazza Principe Train Station,Standard,14,4,10,11,63.6
-2026-09-24,milan,3,Milano Centrale Train Station,Maxi,14,25,44,46,45.7
+2026-09-24,milan,3,Milano Centrale Train Station,Maxi,14,25,44,47,46.8
 2026-09-24,milan,3,Milano Centrale Train Station,Small,14,5,33,35,85.7
-2026-09-24,milan,3,Milano Centrale Train Station,Standard,14,30,62,65,53.8
+2026-09-24,milan,3,Milano Centrale Train Station,Standard,14,30,62,66,54.5
 2026-09-24,milan,36,Cadorna Train Station,Maxi,14,1,25,25,96.0
 2026-09-24,milan,36,Cadorna Train Station,Small,14,24,36,36,33.3
 2026-09-24,milan,36,Cadorna Train Station,Standard,14,9,38,38,76.3
@@ -227,9 +227,9 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-09-25,genoa,25,Genoa Piazza Principe Train Station,Maxi,16,3,8,8,62.5
 2026-09-25,genoa,25,Genoa Piazza Principe Train Station,Small,16,3,8,8,62.5
 2026-09-25,genoa,25,Genoa Piazza Principe Train Station,Standard,16,6,11,11,45.5
-2026-09-25,milan,3,Milano Centrale Train Station,Maxi,16,6,41,46,87.0
+2026-09-25,milan,3,Milano Centrale Train Station,Maxi,16,6,41,47,87.2
 2026-09-25,milan,3,Milano Centrale Train Station,Small,16,9,33,35,74.3
-2026-09-25,milan,3,Milano Centrale Train Station,Standard,16,25,63,65,61.5
+2026-09-25,milan,3,Milano Centrale Train Station,Standard,16,25,63,66,62.1
 2026-09-25,milan,36,Cadorna Train Station,Maxi,16,0,25,25,100.0
 2026-09-25,milan,36,Cadorna Train Station,Small,16,14,36,36,61.1
 2026-09-25,milan,36,Cadorna Train Station,Standard,16,1,37,38,97.4
@@ -326,9 +326,9 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-09-26,genoa,25,Genoa Piazza Principe Train Station,Maxi,29,4,8,8,50.0
 2026-09-26,genoa,25,Genoa Piazza Principe Train Station,Small,29,4,8,8,50.0
 2026-09-26,genoa,25,Genoa Piazza Principe Train Station,Standard,29,2,11,11,81.8
-2026-09-26,milan,3,Milano Centrale Train Station,Maxi,29,3,42,46,93.5
+2026-09-26,milan,3,Milano Centrale Train Station,Maxi,29,3,42,47,93.6
 2026-09-26,milan,3,Milano Centrale Train Station,Small,29,0,35,35,100.0
-2026-09-26,milan,3,Milano Centrale Train Station,Standard,29,18,65,65,72.3
+2026-09-26,milan,3,Milano Centrale Train Station,Standard,29,18,65,66,72.7
 2026-09-26,milan,36,Cadorna Train Station,Maxi,29,0,25,25,100.0
 2026-09-26,milan,36,Cadorna Train Station,Small,29,18,36,36,50.0
 2026-09-26,milan,36,Cadorna Train Station,Standard,29,3,38,38,92.1
@@ -425,9 +425,9 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-09-27,genoa,25,Genoa Piazza Principe Train Station,Maxi,31,5,8,8,37.5
 2026-09-27,genoa,25,Genoa Piazza Principe Train Station,Small,31,5,8,8,37.5
 2026-09-27,genoa,25,Genoa Piazza Principe Train Station,Standard,31,0,11,11,100.0
-2026-09-27,milan,3,Milano Centrale Train Station,Maxi,31,0,46,46,100.0
+2026-09-27,milan,3,Milano Centrale Train Station,Maxi,31,0,46,47,100.0
 2026-09-27,milan,3,Milano Centrale Train Station,Small,31,0,34,35,100.0
-2026-09-27,milan,3,Milano Centrale Train Station,Standard,31,0,64,65,100.0
+2026-09-27,milan,3,Milano Centrale Train Station,Standard,31,0,64,66,100.0
 2026-09-27,milan,36,Cadorna Train Station,Maxi,31,0,25,25,100.0
 2026-09-27,milan,36,Cadorna Train Station,Small,31,0,36,36,100.0
 2026-09-27,milan,36,Cadorna Train Station,Standard,31,0,38,38,100.0
@@ -524,9 +524,9 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-09-28,genoa,25,Genoa Piazza Principe Train Station,Maxi,29,6,8,8,25.0
 2026-09-28,genoa,25,Genoa Piazza Principe Train Station,Small,29,6,8,8,25.0
 2026-09-28,genoa,25,Genoa Piazza Principe Train Station,Standard,29,6,11,11,45.5
-2026-09-28,milan,3,Milano Centrale Train Station,Maxi,29,0,42,46,100.0
+2026-09-28,milan,3,Milano Centrale Train Station,Maxi,29,0,42,47,100.0
 2026-09-28,milan,3,Milano Centrale Train Station,Small,29,16,34,35,54.3
-2026-09-28,milan,3,Milano Centrale Train Station,Standard,29,22,61,65,66.2
+2026-09-28,milan,3,Milano Centrale Train Station,Standard,29,22,61,66,66.7
 2026-09-28,milan,36,Cadorna Train Station,Maxi,29,0,25,25,100.0
 2026-09-28,milan,36,Cadorna Train Station,Small,29,0,36,36,100.0
 2026-09-28,milan,36,Cadorna Train Station,Standard,29,0,38,38,100.0
@@ -623,9 +623,9 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-09-29,genoa,25,Genoa Piazza Principe Train Station,Maxi,30,7,8,8,12.5
 2026-09-29,genoa,25,Genoa Piazza Principe Train Station,Small,30,7,8,8,12.5
 2026-09-29,genoa,25,Genoa Piazza Principe Train Station,Standard,30,3,11,11,72.7
-2026-09-29,milan,3,Milano Centrale Train Station,Maxi,30,13,43,46,71.7
+2026-09-29,milan,3,Milano Centrale Train Station,Maxi,30,13,43,47,72.3
 2026-09-29,milan,3,Milano Centrale Train Station,Small,30,7,35,35,80.0
-2026-09-29,milan,3,Milano Centrale Train Station,Standard,30,33,60,65,49.2
+2026-09-29,milan,3,Milano Centrale Train Station,Standard,30,33,60,66,50.0
 2026-09-29,milan,36,Cadorna Train Station,Maxi,30,4,25,25,84.0
 2026-09-29,milan,36,Cadorna Train Station,Small,30,24,36,36,33.3
 2026-09-29,milan,36,Cadorna Train Station,Standard,30,6,37,38,84.2
@@ -722,9 +722,9 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-09-30,genoa,25,Genoa Piazza Principe Train Station,Maxi,27,6,8,8,25.0
 2026-09-30,genoa,25,Genoa Piazza Principe Train Station,Small,27,6,8,8,25.0
 2026-09-30,genoa,25,Genoa Piazza Principe Train Station,Standard,27,8,11,11,27.3
-2026-09-30,milan,3,Milano Centrale Train Station,Maxi,27,0,42,46,100.0
+2026-09-30,milan,3,Milano Centrale Train Station,Maxi,27,0,42,47,100.0
 2026-09-30,milan,3,Milano Centrale Train Station,Small,27,0,35,35,100.0
-2026-09-30,milan,3,Milano Centrale Train Station,Standard,27,17,60,65,73.8
+2026-09-30,milan,3,Milano Centrale Train Station,Standard,27,17,60,66,74.2
 2026-09-30,milan,36,Cadorna Train Station,Maxi,27,0,25,25,100.0
 2026-09-30,milan,36,Cadorna Train Station,Small,27,25,36,36,30.6
 2026-09-30,milan,36,Cadorna Train Station,Standard,27,7,35,38,81.6
@@ -821,9 +821,9 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-01,genoa,25,Genoa Piazza Principe Train Station,Maxi,18,6,8,8,25.0
 2026-10-01,genoa,25,Genoa Piazza Principe Train Station,Small,18,6,8,8,25.0
 2026-10-01,genoa,25,Genoa Piazza Principe Train Station,Standard,18,4,11,11,63.6
-2026-10-01,milan,3,Milano Centrale Train Station,Maxi,18,0,42,46,100.0
+2026-10-01,milan,3,Milano Centrale Train Station,Maxi,18,0,42,47,100.0
 2026-10-01,milan,3,Milano Centrale Train Station,Small,18,4,34,35,88.6
-2026-10-01,milan,3,Milano Centrale Train Station,Standard,18,7,61,65,89.2
+2026-10-01,milan,3,Milano Centrale Train Station,Standard,18,7,61,66,89.4
 2026-10-01,milan,36,Cadorna Train Station,Maxi,18,9,25,25,64.0
 2026-10-01,milan,36,Cadorna Train Station,Small,18,22,36,36,38.9
 2026-10-01,milan,36,Cadorna Train Station,Standard,18,18,37,38,52.6
@@ -920,9 +920,9 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-05,genoa,25,Genoa Piazza Principe Train Station,Maxi,9,6,8,8,25.0
 2026-10-05,genoa,25,Genoa Piazza Principe Train Station,Small,9,6,8,8,25.0
 2026-10-05,genoa,25,Genoa Piazza Principe Train Station,Standard,9,9,11,11,18.2
-2026-10-05,milan,3,Milano Centrale Train Station,Maxi,9,17,42,46,63.0
+2026-10-05,milan,3,Milano Centrale Train Station,Maxi,9,17,42,47,63.8
 2026-10-05,milan,3,Milano Centrale Train Station,Small,9,15,32,35,57.1
-2026-10-05,milan,3,Milano Centrale Train Station,Standard,9,34,63,65,47.7
+2026-10-05,milan,3,Milano Centrale Train Station,Standard,9,34,63,66,48.5
 2026-10-05,milan,36,Cadorna Train Station,Maxi,9,3,24,25,88.0
 2026-10-05,milan,36,Cadorna Train Station,Small,9,21,35,36,41.7
 2026-10-05,milan,36,Cadorna Train Station,Standard,9,9,36,38,76.3
@@ -989,3 +989,102 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-05,verona,14,Verona Arena,Maxi,9,8,15,15,46.7
 2026-10-05,verona,14,Verona Arena,Small,9,8,15,15,46.7
 2026-10-05,verona,14,Verona Arena,Standard,9,8,13,13,38.5
+2026-10-06,bari,18,Bari Centrale Train Station,Maxi,1,19,19,19,0.0
+2026-10-06,bari,18,Bari Centrale Train Station,Small,1,13,13,13,0.0
+2026-10-06,bari,18,Bari Centrale Train Station,Standard,1,23,23,23,0.0
+2026-10-06,bologna,32,Bologna Centrale Train Station,Maxi,1,21,21,21,0.0
+2026-10-06,bologna,32,Bologna Centrale Train Station,Small,1,19,19,20,5.0
+2026-10-06,bologna,32,Bologna Centrale Train Station,Standard,1,30,30,30,0.0
+2026-10-06,bologna,48,Sant'Orsola Hospital,Maxi,1,10,10,10,0.0
+2026-10-06,bologna,48,Sant'Orsola Hospital,Small,1,29,29,29,0.0
+2026-10-06,bologna,48,Sant'Orsola Hospital,Standard,1,10,10,10,0.0
+2026-10-06,bologna,56,Piazza Maggiore | City Center,Maxi,1,31,31,31,0.0
+2026-10-06,bologna,56,Piazza Maggiore | City Center,Small,1,22,22,22,0.0
+2026-10-06,bologna,56,Piazza Maggiore | City Center,Standard,1,37,37,37,0.0
+2026-10-06,brescia,40,Brescia Train Station,Maxi,1,13,13,13,0.0
+2026-10-06,brescia,40,Brescia Train Station,Small,1,4,4,4,0.0
+2026-10-06,brescia,40,Brescia Train Station,Standard,1,16,16,16,0.0
+2026-10-06,catania,10,Via Etnea | Bellini Theater,Maxi,1,9,9,9,0.0
+2026-10-06,catania,10,Via Etnea | Bellini Theater,Small,1,9,9,9,0.0
+2026-10-06,catania,10,Via Etnea | Bellini Theater,Standard,1,14,14,14,0.0
+2026-10-06,florence,24,Florence SMN Train Station,Maxi,1,21,21,21,0.0
+2026-10-06,florence,24,Florence SMN Train Station,Small,1,20,20,20,0.0
+2026-10-06,florence,24,Florence SMN Train Station,Standard,1,30,30,30,0.0
+2026-10-06,florence,5,Uffizi District,Maxi,1,19,19,19,0.0
+2026-10-06,florence,5,Uffizi District,Small,1,19,19,19,0.0
+2026-10-06,florence,5,Uffizi District,Standard,1,10,10,10,0.0
+2026-10-06,florence,6,City Center |  Florence Station,Maxi,1,16,16,16,0.0
+2026-10-06,florence,6,City Center |  Florence Station,Small,1,16,16,16,0.0
+2026-10-06,florence,6,City Center |  Florence Station,Standard,1,8,8,8,0.0
+2026-10-06,genoa,25,Genoa Piazza Principe Train Station,Maxi,1,8,8,8,0.0
+2026-10-06,genoa,25,Genoa Piazza Principe Train Station,Small,1,8,8,8,0.0
+2026-10-06,genoa,25,Genoa Piazza Principe Train Station,Standard,1,11,11,11,0.0
+2026-10-06,milan,3,Milano Centrale Train Station,Maxi,1,47,47,47,0.0
+2026-10-06,milan,3,Milano Centrale Train Station,Small,1,33,33,35,5.7
+2026-10-06,milan,3,Milano Centrale Train Station,Standard,1,66,66,66,0.0
+2026-10-06,milan,36,Cadorna Train Station,Maxi,1,25,25,25,0.0
+2026-10-06,milan,36,Cadorna Train Station,Small,1,36,36,36,0.0
+2026-10-06,milan,36,Cadorna Train Station,Standard,1,38,38,38,0.0
+2026-10-06,milan,47,Duomo District,Maxi,1,18,18,18,0.0
+2026-10-06,milan,47,Duomo District,Small,1,11,11,11,0.0
+2026-10-06,milan,47,Duomo District,Standard,1,21,21,21,0.0
+2026-10-06,milan,59,Porta Garibaldi Train Station,Maxi,1,30,30,30,0.0
+2026-10-06,milan,59,Porta Garibaldi Train Station,Small,1,13,13,14,7.1
+2026-10-06,milan,59,Porta Garibaldi Train Station,Standard,1,34,34,34,0.0
+2026-10-06,naples,60,Naples Port - Molo Beverello,Maxi,1,24,24,24,0.0
+2026-10-06,naples,60,Naples Port - Molo Beverello,Small,1,13,13,14,7.1
+2026-10-06,naples,60,Naples Port - Molo Beverello,Standard,1,33,33,34,2.9
+2026-10-06,naples,7,Naples Centrale Train Station,Maxi,1,15,15,17,11.8
+2026-10-06,naples,7,Naples Centrale Train Station,Small,1,15,15,17,11.8
+2026-10-06,naples,7,Naples Centrale Train Station,Standard,1,7,7,7,0.0
+2026-10-06,palermo,26,City Center | Massimo Theater,Maxi,1,12,12,13,7.7
+2026-10-06,palermo,26,City Center | Massimo Theater,Small,1,12,12,13,7.7
+2026-10-06,palermo,26,City Center | Massimo Theater,Standard,1,16,16,18,11.1
+2026-10-06,parma,50,Parma Train Station,Maxi,1,31,31,31,0.0
+2026-10-06,parma,50,Parma Train Station,Small,1,31,31,31,0.0
+2026-10-06,parma,50,Parma Train Station,Standard,1,31,31,31,0.0
+2026-10-06,pisa,13,City Center | Pisa Station,Maxi,1,12,12,12,0.0
+2026-10-06,pisa,13,City Center | Pisa Station,Small,1,12,12,12,0.0
+2026-10-06,pisa,13,City Center | Pisa Station,Standard,1,12,12,12,0.0
+2026-10-06,pisa,39,Pisa Centrale Train Station,Maxi,1,16,16,16,0.0
+2026-10-06,pisa,39,Pisa Centrale Train Station,Small,1,13,13,14,7.1
+2026-10-06,pisa,39,Pisa Centrale Train Station,Standard,1,26,26,26,0.0
+2026-10-06,rome,1,Vatican Museums,Maxi,1,28,28,28,0.0
+2026-10-06,rome,1,Vatican Museums,Small,1,28,28,28,0.0
+2026-10-06,rome,1,Vatican Museums,Standard,1,6,6,7,14.3
+2026-10-06,rome,2,City Center | Termini Station,Maxi,1,14,14,15,6.7
+2026-10-06,rome,2,City Center | Termini Station,Small,1,6,6,6,0.0
+2026-10-06,rome,2,City Center | Termini Station,Standard,1,20,20,21,4.8
+2026-10-06,rome,21,Colosseum,Maxi,1,22,22,23,4.3
+2026-10-06,rome,21,Colosseum,Small,1,22,22,23,4.3
+2026-10-06,rome,21,Colosseum,Standard,1,19,19,19,0.0
+2026-10-06,rome,22,Trastevere,Maxi,1,15,15,15,0.0
+2026-10-06,rome,22,Trastevere,Small,1,15,15,15,0.0
+2026-10-06,rome,22,Trastevere,Standard,1,9,9,9,0.0
+2026-10-06,rome,31,Termini Train Station,Maxi,1,17,17,17,0.0
+2026-10-06,rome,31,Termini Train Station,Small,1,10,10,11,9.1
+2026-10-06,rome,31,Termini Train Station,Standard,1,19,19,21,9.5
+2026-10-06,rome,37,St. Peter's Basilica,Maxi,1,17,17,18,5.6
+2026-10-06,rome,37,St. Peter's Basilica,Small,1,6,6,6,0.0
+2026-10-06,rome,37,St. Peter's Basilica,Standard,1,22,22,22,0.0
+2026-10-06,rome,4,Spanish Steps District,Maxi,1,17,17,17,0.0
+2026-10-06,rome,4,Spanish Steps District,Small,1,17,17,17,0.0
+2026-10-06,rome,4,Spanish Steps District,Standard,1,4,4,4,0.0
+2026-10-06,siena,38,Piazza del Campo,Maxi,1,21,21,21,0.0
+2026-10-06,siena,38,Piazza del Campo,Small,1,6,6,6,0.0
+2026-10-06,siena,38,Piazza del Campo,Standard,1,28,28,29,3.4
+2026-10-06,turin,17,Turin Porta Nuova Train Station,Maxi,1,14,14,14,0.0
+2026-10-06,turin,17,Turin Porta Nuova Train Station,Small,1,14,14,14,0.0
+2026-10-06,turin,17,Turin Porta Nuova Train Station,Standard,1,12,12,12,0.0
+2026-10-06,venice,51,Rialto Bridge,Maxi,1,25,25,25,0.0
+2026-10-06,venice,51,Rialto Bridge,Small,1,14,14,14,0.0
+2026-10-06,venice,51,Rialto Bridge,Standard,1,30,30,30,0.0
+2026-10-06,venice,8,City Center | Rialto District,Maxi,1,17,17,17,0.0
+2026-10-06,venice,8,City Center | Rialto District,Small,1,17,17,17,0.0
+2026-10-06,venice,8,City Center | Rialto District,Standard,1,17,17,17,0.0
+2026-10-06,venice,9,Santa Lucia Train Station,Maxi,1,13,13,16,18.8
+2026-10-06,venice,9,Santa Lucia Train Station,Small,1,13,13,16,18.8
+2026-10-06,venice,9,Santa Lucia Train Station,Standard,1,16,16,18,11.1
+2026-10-06,verona,14,Verona Arena,Maxi,1,15,15,15,0.0
+2026-10-06,verona,14,Verona Arena,Small,1,15,15,15,0.0
+2026-10-06,verona,14,Verona Arena,Standard,1,13,13,13,0.0
