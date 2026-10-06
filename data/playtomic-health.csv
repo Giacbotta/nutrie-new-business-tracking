@@ -1079,3 +1079,43 @@ read_at,command,slug,stage,outcome
 2026-10-06 14:07,read,h-farm-campus,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 2026-10-06 14:07,read,sph-treviso-sporting,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 2026-10-06 14:07,read,marina-sporting,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-06 15:07,read,sporting-club-mestre,availability,16 half hours
+2026-10-06 15:07,read,padel-by-fitup-di-zero-branco,availability,4 half hours
+2026-10-06 15:07,read,aquafit-padel,availability,8 half hours
+2026-10-06 15:07,read,sph-venezia,availability,20 half hours
+2026-10-06 15:07,read,padel-treviso,availability,48 half hours
+2026-10-06 15:07,read,altino-sport-village,availability,8 half hours
+2026-10-06 15:07,read,barchessa-pickleball,availability,12 half hours
+2026-10-06 15:07,read,h-farm-campus,availability,closed now or no slots
+2026-10-06 15:07,read,sph-treviso-sporting,availability,28 half hours
+2026-10-06 15:07,read,marina-sporting,availability,8 half hours
+2026-10-06 22:21,lead,sporting-club-mestre,availability,608 half hours
+2026-10-06 22:21,lead,padel-by-fitup-di-zero-branco,availability,95 half hours
+2026-10-06 22:21,lead,aquafit-padel,availability,308 half hours
+2026-10-06 22:21,lead,sph-venezia,availability,870 half hours
+2026-10-06 22:21,lead,padel-treviso,availability,1968 half hours
+2026-10-06 22:21,lead,altino-sport-village,availability,328 half hours
+2026-10-06 22:21,lead,barchessa-pickleball,availability,486 half hours
+2026-10-06 22:21,lead,h-farm-campus,availability,184 half hours
+2026-10-06 22:21,lead,sph-treviso-sporting,availability,1190 half hours
+2026-10-06 22:21,lead,marina-sporting,availability,336 half hours
+2026-10-06 23:07,read,sporting-club-mestre,availability,closed now or no slots
+2026-10-06 23:07,read,padel-by-fitup-di-zero-branco,availability,closed now or no slots
+2026-10-06 23:07,read,aquafit-padel,availability,2 half hours
+2026-10-06 23:07,read,sph-venezia,availability,closed now or no slots
+2026-10-06 23:07,read,padel-treviso,availability,12 half hours
+2026-10-06 23:07,read,altino-sport-village,availability,closed now or no slots
+2026-10-06 23:07,read,barchessa-pickleball,availability,closed now or no slots
+2026-10-06 23:07,read,h-farm-campus,availability,closed now or no slots
+2026-10-06 23:07,read,sph-treviso-sporting,availability,closed now or no slots
+2026-10-06 23:07,read,marina-sporting,availability,closed now or no slots
+2026-10-07 00:18,read,sporting-club-mestre,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-07 00:18,read,padel-by-fitup-di-zero-branco,availability,closed now or no slots
+2026-10-07 00:18,read,aquafit-padel,availability,closed now or no slots
+2026-10-07 00:18,read,sph-venezia,availability,closed now or no slots
+2026-10-07 00:18,read,padel-treviso,availability,closed now or no slots
+2026-10-07 00:18,read,altino-sport-village,availability,closed now or no slots
+2026-10-07 00:18,read,barchessa-pickleball,availability,closed now or no slots
+2026-10-07 00:18,read,h-farm-campus,availability,closed now or no slots
+2026-10-07 00:18,read,sph-treviso-sporting,availability,closed now or no slots
+2026-10-07 00:18,read,marina-sporting,availability,closed now or no slots
