@@ -5170,7 +5170,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-06,palermo,settecannoli,1,50,0,0.0,0,0,0.0
 2026-10-06,paola,paola-train-station,1,10,0,0.0,0,0,0.0
 2026-10-06,parma,city-center,3,45,0,0.0,0,0,0.0
-2026-10-06,parma,station,4,75,0,0.0,0,0,0.0
+2026-10-06,parma,station,4,75,1,1.3,0,1,0.5
 2026-10-06,pavia,downtown,1,30,0,0.0,0,0,0.0
 2026-10-06,pavia,pavia-train-station,3,55,26,47.3,0,26,13.0
 2026-10-06,perugia,bus-station,1,25,0,0.0,0,0,0.0
@@ -5256,7 +5256,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-06,rome,ostia-1,1,40,0,0.0,0,0,0.0
 2026-10-06,rome,ostiense,5,450,2,0.4,0,2,1.0
 2026-10-06,rome,ottaviano,5,130,3,2.3,0,3,1.5
-2026-10-06,rome,pantheon,18,1352,21,1.6,10,15,12.5
+2026-10-06,rome,pantheon,18,1352,21,1.6,10,16,13.0
 2026-10-06,rome,parco-regionale-appia-antica,1,15,0,0.0,0,0,0.0
 2026-10-06,rome,parioli,2,65,0,0.0,0,0,0.0
 2026-10-06,rome,piazza-campo-de-fiori,4,205,0,0.0,0,0,0.0
