@@ -313,6 +313,7 @@ tr.l2 td:first-child{padding-left:44px}tr.l3 td:first-child{padding-left:66px;co
 svg{width:100%;height:240px;display:block}
 .note{color:var(--mut);font-size:13px;margin:10px 0 0}
 .tag{font-size:12px;color:var(--mut)}
+label.rng{display:flex;align-items:center;gap:6px;color:var(--mut);font-size:13px}
 .ext{margin-left:6px;text-decoration:none;color:var(--mut)}
 .ext:hover{color:inherit}
 @media (max-width:640px){body{padding:16px 12px 48px}table{font-size:13px}th,td{padding:6px 4px}
@@ -324,7 +325,7 @@ tr.l1 td:first-child{padding-left:12px}tr.l2 td:first-child{padding-left:24px}tr
 <p class="sub" id="sub"></p>
 
 <div class="controls">
-<div class="chips" id="prov"></div><select id="day"></select><select id="city"></select>
+<div class="chips" id="prov"></div><label class="rng">From <input type="date" id="from"></label><label class="rng">to <input type="date" id="to"></label><select id="city"></select>
 <select id="metric"><option value="abs">show how many occupied</option><option value="pct">show fill %</option></select>
 <input id="q" placeholder="filter by name or area">
 </div>
@@ -339,7 +340,7 @@ tr.l1 td:first-child{padding-left:12px}tr.l2 td:first-child{padding-left:24px}tr
 <h2>City by city, provider by provider</h2>
 <div class="scroll"><table id="tbl"><thead><tr>
 <th data-k="label">City / neighbourhood / location</th><th data-k="kind">What</th><th data-k="pts">Locations</th>
-<th data-k="capk">Capacity</th><th data-k="occ">Occupied at peak</th><th data-k="free">Free</th>
+<th data-k="capk">Capacity per day</th><th data-k="occ" id="occh">Occupied at peak</th><th data-k="perday">Per day</th><th data-k="free">Free per day</th>
 <th data-k="fill">Fill</th><th data-k="fillpct">%</th></tr></thead><tbody></tbody></table></div>
 <p class="note" id="note"></p>
 
@@ -354,11 +355,13 @@ comparison above. iVano is the one to look at twice: it sits in Cannaregio and S
 const D=__DATA__;
 const COLOR={radical:'#2f6df6',bounce:'#e0682a',stow:'#0f9d77',litc:'#8b3fd6',stowcity:'#e11d8f',ivano:'#0891b2'};
 const LABEL={},UNIT={};D.providers.forEach(p=>{LABEL[p.id]=p.label;UNIT[p.id]=p.unit});
-const day=document.getElementById('day'),prov=document.getElementById('prov'),city=document.getElementById('city'),
+const from=document.getElementById('from'),to=document.getElementById('to'),prov=document.getElementById('prov'),city=document.getElementById('city'),
       q=document.getElementById('q'),metric=document.getElementById('metric');
 const days=[...new Set(D.hourly.map(h=>h.day))].sort();
-day.innerHTML=days.map(d=>`<option>${d}</option>`).join('')+'<option value="">all days</option>';
-day.value=days[days.length-1]||'';
+from.min=to.min=days[0]||'';from.max=to.max=days[days.length-1]||'';
+from.value=to.value=days[days.length-1]||'';       // one day to begin with, the latest
+// the range may be typed in either order; empty means open on that side
+const inRange=d=>{const a=from.value,b=to.value,lo=a&&b&&a>b?b:a,hi=a&&b&&a>b?a:b;return(!lo||d>=lo)&&(!hi||d<=hi)};
 const chosen=new Set(D.providers.map(p=>p.id));   // all three on at the start
 function drawChips(){prov.innerHTML=D.providers.map(p=>
   `<button type="button" data-id="${p.id}" aria-pressed="${chosen.has(p.id)}">
@@ -373,9 +376,9 @@ city.innerHTML='<option value="">all cities</option>'+cities.map(c=>`<option>${c
 let sortKey='occ',dir=-1,open=new Set();
 const pct=(o,c)=>c?100*o/c:0, fmt=n=>Math.round(n).toLocaleString('en-US');
 
-const hsel=()=>D.hourly.filter(h=>(!day.value||h.day===day.value)&&(!city.value||h.city===city.value)
+const hsel=()=>D.hourly.filter(h=>inRange(h.day)&&(!city.value||h.city===city.value)
   &&chosen.has(h.p));
-const psel=()=>D.points.filter(p=>(!day.value||p.day===day.value)&&(!city.value||p.city===city.value)
+const psel=()=>D.points.filter(p=>inRange(p.day)&&(!city.value||p.city===city.value)
   &&chosen.has(p.p)&&(!q.value||(p.name+' '+p.area+' '+p.city).toLowerCase().includes(q.value.toLowerCase())));
 
 function cards(){
@@ -407,7 +410,10 @@ function cards(){
 function chart(){
  const rows=hsel(),series={},abs=metric.value==='abs';
  for(const h of rows){const s=series[h.p]=series[h.p]||{};const a=s[h.hour]=s[h.hour]||{cap:0,occ:0,capk:0,occk:0,pts:0};
-  a.cap+=h.cap;a.occ+=h.occ;a.capk+=h.capk;a.occk+=h.occk;a.pts+=h.pts}
+  a.cap+=h.cap;a.occ+=h.occ;a.capk+=h.capk;a.occk+=h.occk;a.pts+=h.pts;(a.days=a.days||new Set()).add(h.day)}
+ // over several days an hour is the average of its days: adding them would count the same hour again
+ for(const s of Object.values(series))for(const a of Object.values(s)){const n=a.days.size;
+  if(n>1){a.cap/=n;a.occ/=n;a.capk/=n;a.occk/=n;a.pts/=n}}
  const val=v=>abs?v.occ:pct(v.occk,v.capk);
  const W=1000,H=240,L=46,B=26,T=10;
  const raw=Math.max(1,...Object.values(series).flatMap(s=>Object.values(s).map(val)));
@@ -449,12 +455,13 @@ function hourTable(series){
  document.querySelector('#hourtbl tbody').innerHTML=body||'<tr><td colspan="4">No readings yet.</td></tr>';
 }
 
+let ND=1;            // days with readings in the selection: the divisor of every per-day figure
 function group(rows,keys){const m=new Map();
  for(const r of rows){const k=keys.map(f=>f(r)).join(' / ');
   const a=m.get(k)||{key:k,label:keys[keys.length-1](r),cap:0,occ:0,capk:0,occk:0,pts:new Set(),provs:new Set()};
   a.cap+=r.cap;a.occ+=r.occ;if(r.cap>0){a.capk+=r.cap;a.occk+=r.occ}
   a.pts.add(r.p+'|'+r.id+'|'+r.size);a.provs.add(r.p);m.set(k,a)}
- return [...m.values()].map(a=>({...a,pts:a.pts.size,free:Math.max(0,a.capk-a.occk),
+ return [...m.values()].map(a=>({...a,pts:a.pts.size,perday:a.occ/ND,free:Math.max(0,a.capk-a.occk),
    fill:pct(a.occk,a.capk),fillpct:pct(a.occk,a.capk),prov:a.provs.size===1?[...a.provs][0]:''}))}
 const srt=r=>r.sort((a,b)=>((a[sortKey]>b[sortKey])?1:(a[sortKey]<b[sortKey])?-1:0)*dir);
 
@@ -464,19 +471,14 @@ function row(r,kind,cls){
  const label=r.url?`${r.label} <a class="ext" href="${r.url}" target="_blank" rel="noopener" title="Open this location's own page">↗</a>`:r.label;
  return `<tr class="${cls}" data-key="${r.open?r.key:''}"><td>${label}</td>
  <td><span class="tag" ${r.prov?`style="color:${color}"`:''}>${tag}</span></td><td>${fmt(r.pts)}</td>
- <td>${r.capk?fmt(r.capk):'—'}</td><td>${fmt(r.occ)}</td><td>${r.capk?fmt(r.free):'—'}</td>
+ <td>${r.capk?fmt(r.capk/ND):'—'}</td><td>${fmt(r.occ)}</td><td>${ND>1?fmt(r.perday):'—'}</td><td>${r.capk?fmt(r.free/ND):'—'}</td>
  <td><div class="bar"><i style="width:${Math.min(100,r.fill).toFixed(0)}%;background:${color}"></i></div></td>
  <td>${r.fillpct.toFixed(1)}%</td></tr>`}
 
-function peaks(rows){
- // one entry per location: the busiest reading in the selection. Never a sum over hours or days.
- const best=new Map();
- for(const r of rows){const k=r.p+'|'+r.id+'|'+r.size;const b=best.get(k);
-  if(!b||r.occ>b.occ)best.set(k,r); else if(r.occ===b.occ&&r.hour>b.hour)best.set(k,r)}
- return [...best.values()]}
-
 function table(){
- const rows=peaks(psel()),out=[];
+ const rows=psel(),out=[];
+ ND=Math.max(1,new Set(rows.map(r=>r.day)).size);
+ document.getElementById('occh').textContent=ND>1?'Occupied, sum of daily peaks':'Occupied at peak';
  const cityKey=r=>r.city, areaKey=r=>r.area, locKey=r=>r.p+'|'+r.id, sizeKey=r=>r.size||'—';
  for(const c of srt(group(rows,[cityKey]))){
   out.push(row({...c,open:1},'city','l0'));
@@ -496,7 +498,7 @@ function table(){
       out.push(row({...z,prov:l.prov},'size','l3'));
    }}}
  const body=document.querySelector('#tbl tbody');
- body.innerHTML=out.join('')||'<tr><td colspan="8">No readings for this selection yet.</td></tr>';
+ body.innerHTML=out.join('')||'<tr><td colspan="9">No readings for this selection yet.</td></tr>';
  [...body.querySelectorAll('tr')].forEach(tr=>{if(!tr.dataset.key)return;
   tr.style.cursor='pointer';
   tr.onclick=e=>{if(e.target.closest('a'))return;const k=tr.dataset.key;open.has(k)?open.delete(k):open.add(k);table()}});
@@ -504,7 +506,7 @@ function table(){
   ? D.providers.find(p=>p.id===prov.value).note
   : D.providers.map(p=>p.label+' — '+p.note).join('   '))
   + '   Occupied is always the comparable number: bags on Radical and Bounce, lockers on Stow Your Bags. Capacity, free and % are shown only where the provider declares a capacity — 84% of Bounce points do not.'
-  + '   Occupied at peak is the busiest single reading of the selected day for each location, added up across locations - never a sum of different hours, which would count the same bag twice.'
+  + '   Occupied is, for each location, the busiest single reading of each day (its daily peak); over a range of days the daily peaks are added up, and Per day is that sum divided by the '+ND+' day'+(ND===1?'':'s')+' with readings. Never a sum of different hours of the same day, which would count the same bag twice. Capacity and Free are per day, the % is the sum of peaks over the sum of daily capacities.'
   + '   Drill: city, then neighbourhood (the same geography for every provider), then the exact location, then locker size where there is one.';
 }
 function others(){
@@ -517,7 +519,7 @@ function others(){
   ||'<tr><td colspan="5">Nothing mapped yet.</td></tr>';
 }
 function draw(){cards();chart();table();others()}
-[day,city,metric].forEach(e=>e.oninput=draw);
+[from,to,city,metric].forEach(e=>e.oninput=draw);
 q.oninput=table;
 document.querySelectorAll('#tbl th').forEach(th=>th.onclick=()=>{const k=th.dataset.k;dir=(k===sortKey)?-dir:-1;sortKey=k;table()});
 draw();
