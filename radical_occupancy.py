@@ -117,6 +117,12 @@ def area_of(point):
     return parts[2] if len(parts) > 3 else ""
 
 
+def page_url(point):
+    """The exact public page of one point, in English: the same path the site itself links to."""
+    path = (point.get("HTMLURIs") or {}).get("en", "")
+    return "https://radicalstorage.com" + path if path else ""
+
+
 def rows_to_csv(path, fields, rows, append=True):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     new = not (append and os.path.exists(path))
@@ -204,9 +210,9 @@ def census():
                              lat=p["lat"], lng=p["lng"], capacity=p.get("capacity"),
                              is_locker=p.get("isLocker"), open_24_7=p.get("is247"),
                              reviews=p.get("reviews"), rating=p.get("rating"),
-                             price_eur=p["price"]["amount"] / 100))
+                             price_eur=p["price"]["amount"] / 100, url=page_url(p)))
     rows_to_csv(POINTS_CSV, ["seen_on", "city", "area", "storage_id", "name", "lat", "lng", "capacity",
-                             "is_locker", "open_24_7", "reviews", "rating", "price_eur"], rows, append=False)
+                             "is_locker", "open_24_7", "reviews", "rating", "price_eur", "url"], rows, append=False)
     print(f"{len(rows)} points -> {POINTS_CSV}")
 
 

@@ -185,8 +185,34 @@ def readings():
     return out
 
 
+def page_urls():
+    """The public page of each point, keyed by (provider, point id), so every location in the table
+    opens its own listing and not the operator's home page (Giacomo, 06/10/2026).
+
+    Radical: exact page of the point (radical-points.csv). Bounce: bounce.com/stores/<city>/<slug>,
+    kept only where bounce-pages.csv says the page exists. Stow Your Bags, Locker in the City: page of the shop. StowCity:
+    booking page opened on that shop. iVano has one booking engine for every shop, so its link is
+    the engine and not a page of the single point."""
+    out = {}
+    for r in read_csv("radical-points.csv"):
+        if r.get("url"):
+            out[("radical", r["storage_id"])] = r["url"]
+    for fname, prov in (("stow-shops.csv", "stow"), ("litc-shops.csv", "litc"),
+                        ("stowcity-shops.csv", "stowcity"), ("ivano-shops.csv", "ivano")):
+        for r in read_csv(fname):
+            if r.get("url"):
+                out[(prov, r["shop_id"])] = r["url"]
+    # Bounce publishes no page for about four points in ten (bounce-occupancy `pages` checks each
+    # one), so only an address that answered 200 becomes a link, never a guess.
+    for r in read_csv("bounce-pages.csv"):
+        if r.get("status") == "200":
+            out[("bounce", r["spot_id"])] = r["url"]
+    return out
+
+
 def build():
     rows = readings()
+    urls = page_urls()
     latest_hour = {}
     for p, day, hour, city, area, pid, name, size, cap, occ, read_at in rows:
         key = (p, city, area, pid, name, size, day, hour)
@@ -222,6 +248,7 @@ def build():
               for r in read_csv("other-operators.csv") if r["brand"] not in ("lockerinthecity","ivano")]
 
     payload = dict(
+        urls={f"{p}|{pid}": u for (p, pid), u in urls.items()},
         others=others,
         built=dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         providers=[dict(id=k, label=v["label"], unit=v["unit"], note=v["note"],
@@ -286,6 +313,8 @@ tr.l2 td:first-child{padding-left:44px}tr.l3 td:first-child{padding-left:66px;co
 svg{width:100%;height:240px;display:block}
 .note{color:var(--mut);font-size:13px;margin:10px 0 0}
 .tag{font-size:12px;color:var(--mut)}
+.ext{margin-left:6px;text-decoration:none;color:var(--mut)}
+.ext:hover{color:inherit}
 @media (max-width:640px){body{padding:16px 12px 48px}table{font-size:13px}th,td{padding:6px 4px}
 #tbl th:nth-child(2),#tbl td:nth-child(2),#tbl th:nth-child(4),#tbl td:nth-child(4){display:none}
 svg{height:200px}.legend{font-size:12px;gap:10px}
@@ -432,7 +461,8 @@ const srt=r=>r.sort((a,b)=>((a[sortKey]>b[sortKey])?1:(a[sortKey]<b[sortKey])?-1
 function row(r,kind,cls){
  const color=r.prov?COLOR[r.prov]:'var(--mut)';
  const tag=kind==='location'?(LABEL[r.prov]||kind):kind==='size'?r.label:kind;
- return `<tr class="${cls}" data-key="${r.open?r.key:''}"><td>${r.label}</td>
+ const label=r.url?`${r.label} <a class="ext" href="${r.url}" target="_blank" rel="noopener" title="Open this location's own page">↗</a>`:r.label;
+ return `<tr class="${cls}" data-key="${r.open?r.key:''}"><td>${label}</td>
  <td><span class="tag" ${r.prov?`style="color:${color}"`:''}>${tag}</span></td><td>${fmt(r.pts)}</td>
  <td>${r.capk?fmt(r.capk):'—'}</td><td>${fmt(r.occ)}</td><td>${r.capk?fmt(r.free):'—'}</td>
  <td><div class="bar"><i style="width:${Math.min(100,r.fill).toFixed(0)}%;background:${color}"></i></div></td>
@@ -457,9 +487,10 @@ function table(){
    if(!open.has(a.key))continue;
    const inArea=inCity.filter(r=>r.area===a.label);
    for(const l of srt(group(inArea,[cityKey,areaKey,locKey]))){
-    const inLoc=inArea.filter(r=>LABEL[r.p]+' · '+r.name===l.label);
+    const inLoc=inArea.filter(r=>locKey(r)===l.label);
     const sizes=inLoc.filter(r=>r.size);
-    out.push(row({...l,label:l.label.split(' · ').slice(1).join(' · '),open:sizes.length?1:0},'location','l2'));
+    const link=(D.urls||{})[l.label]||'';
+    out.push(row({...l,url:link,label:inLoc[0].name,open:sizes.length?1:0},'location','l2'));
     if(sizes.length&&open.has(l.key))
      for(const z of srt(group(sizes,[cityKey,areaKey,locKey,sizeKey])))
       out.push(row({...z,prov:l.prov},'size','l3'));
@@ -468,7 +499,7 @@ function table(){
  body.innerHTML=out.join('')||'<tr><td colspan="8">No readings for this selection yet.</td></tr>';
  [...body.querySelectorAll('tr')].forEach(tr=>{if(!tr.dataset.key)return;
   tr.style.cursor='pointer';
-  tr.onclick=()=>{const k=tr.dataset.key;open.has(k)?open.delete(k):open.add(k);table()}});
+  tr.onclick=e=>{if(e.target.closest('a'))return;const k=tr.dataset.key;open.has(k)?open.delete(k):open.add(k);table()}});
  document.getElementById('note').textContent=(prov.value
   ? D.providers.find(p=>p.id===prov.value).note
   : D.providers.map(p=>p.label+' — '+p.note).join('   '))

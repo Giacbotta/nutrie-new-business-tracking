@@ -28,8 +28,9 @@ COMMANDS (run from the repository root)
   python bounce_occupancy.py scan pisa,venice
   python bounce_occupancy.py areas       # give every point a neighbourhood, once, and cache it
   python bounce_occupancy.py daily       # level and change per point, per area and per city
+  python bounce_occupancy.py pages       # which points have a public page on bounce.com, checked once
 """
-import collections, csv, datetime as dt, json, os, sys, time, urllib.request
+import collections, csv, datetime as dt, json, os, sys, time, urllib.error, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -43,6 +44,7 @@ SPOTS_DIR = os.path.join(DATA, "bounce-occupancy")
 DAILY_CSV = os.path.join(DATA, "bounce-daily.csv")
 CITY_CSV = os.path.join(DATA, "bounce-daily-city.csv")
 AREAS_CSV = os.path.join(DATA, "bounce-areas.csv")
+PAGES_CSV = os.path.join(DATA, "bounce-pages.csv")
 
 API = "https://graphql.usebounce.com"
 UA = {"content-type": "application/json", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
@@ -315,7 +317,57 @@ def daily():
     print(f"{len(rows)} point-days -> {DAILY_CSV}; {len(out)} city-days -> {CITY_CSV}")
 
 
+def page_url(city, slug):
+    return f"https://bounce.com/stores/{city}/{slug}"
+
+
+def pages():
+    """Which points have a public page on bounce.com/stores/<city>/<slug>, so the dashboard links
+    each location to its own page (Giacomo, 06/10/2026).
+
+    Checked on 06/10/2026: about four points in ten have no page. bounce.com answers them with a 404
+    to a script and with a redirect to the city page in a browser, whatever their capacity, so the
+    address cannot be taken on trust. A point is checked once and the answer kept: only points not
+    in bounce-pages.csv are asked, which keeps a scan of new points to a few requests."""
+    # a network error is not an answer: those points are asked again on the next run
+    done = {r["spot_id"]: r for r in read_csv(PAGES_CSV) if r["status"] != "error"}
+    todo = {}
+    for r in iter_spots():
+        if r["spot_id"] not in done and r.get("slug"):
+            todo[r["spot_id"]] = r
+    today = rome_now().date().isoformat()
+
+    def check(r):
+        url = page_url(r["city"], r["slug"])
+        for _ in range(2):
+            try:
+                status = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA["User-Agent"]}),
+                                                timeout=30).status
+                break
+            except urllib.error.HTTPError as e:
+                status = e.code
+                if status == 404:
+                    break
+            except Exception:
+                status = "error"
+            time.sleep(2)
+        time.sleep(PAUSE)
+        return dict(spot_id=r["spot_id"], city=r["city"], slug=r["slug"], url=url, status=status, checked_on=today)
+
+    print(f"{len(todo)} points to check, {len(done)} already known", flush=True)
+    fresh = []
+    with ThreadPoolExecutor(THREADS) as ex:
+        for i, row in enumerate(ex.map(check, todo.values()), 1):
+            fresh.append(row)
+            if i % 250 == 0:
+                print(f"  {i}/{len(todo)}", flush=True)
+    rows = list(done.values()) + fresh
+    rows_to_csv(PAGES_CSV, ["spot_id", "city", "slug", "url", "status", "checked_on"], rows, append=False)
+    ok = sum(1 for r in rows if str(r["status"]) == "200")
+    print(f"{ok} of {len(rows)} have a page -> {PAGES_CSV}")
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "scan"
     only = sys.argv[2].split(",") if len(sys.argv) > 2 else None
-    {"cities": cities, "scan": lambda: scan(only), "areas": areas, "daily": daily}[cmd]()
+    {"cities": cities, "scan": lambda: scan(only), "areas": areas, "daily": daily, "pages": pages}[cmd]()

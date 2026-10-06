@@ -15,7 +15,7 @@ git config user.email "actions@users.noreply.github.com"
 
 # One provider failing must not cost the others their reading.
 { python radical_occupancy.py scan && python radical_occupancy.py daily; } || echo "RADICAL FAILED"
-{ python bounce_occupancy.py scan  && python bounce_occupancy.py daily;  } || echo "BOUNCE FAILED"
+{ python bounce_occupancy.py scan  && python bounce_occupancy.py daily && python bounce_occupancy.py pages; } || echo "BOUNCE FAILED"
 { python stow_occupancy.py scan    && python stow_occupancy.py daily;    } || echo "STOW FAILED"
 { python litc_occupancy.py scan    && python litc_occupancy.py daily;    } || echo "LITC FAILED"
 { python stowcity_occupancy.py scan && python stowcity_occupancy.py daily; } || echo "STOWCITY FAILED"
