@@ -1349,3 +1349,13 @@ read_at,command,slug,stage,outcome
 2026-10-08 21:00,lead,h-farm-campus,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 2026-10-08 21:00,lead,sph-treviso-sporting,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 2026-10-08 21:00,lead,marina-sporting,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-08 21:22,read,sporting-club-mestre,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-08 21:22,read,padel-by-fitup-di-zero-branco,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-08 21:22,read,aquafit-padel,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-08 21:22,read,sph-venezia,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-08 21:22,read,padel-treviso,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-08 21:22,read,altino-sport-village,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-08 21:22,read,barchessa-pickleball,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-08 21:22,read,h-farm-campus,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-08 21:22,read,sph-treviso-sporting,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-08 21:22,read,marina-sporting,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
