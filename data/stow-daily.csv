@@ -1286,102 +1286,102 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-08,verona,14,Verona Arena,Maxi,25,11,15,15,26.7
 2026-10-08,verona,14,Verona Arena,Small,25,11,15,15,26.7
 2026-10-08,verona,14,Verona Arena,Standard,25,5,13,13,61.5
-2026-10-09,bari,18,Bari Centrale Train Station,Maxi,13,12,19,19,36.8
-2026-10-09,bari,18,Bari Centrale Train Station,Small,13,6,13,13,53.8
-2026-10-09,bari,18,Bari Centrale Train Station,Standard,13,10,23,23,56.5
-2026-10-09,bologna,32,Bologna Centrale Train Station,Maxi,13,13,21,21,38.1
-2026-10-09,bologna,32,Bologna Centrale Train Station,Small,13,12,20,20,40.0
-2026-10-09,bologna,32,Bologna Centrale Train Station,Standard,13,12,29,30,60.0
-2026-10-09,bologna,48,Sant'Orsola Hospital,Maxi,13,9,10,10,10.0
-2026-10-09,bologna,48,Sant'Orsola Hospital,Small,13,29,29,29,0.0
-2026-10-09,bologna,48,Sant'Orsola Hospital,Standard,13,9,10,10,10.0
-2026-10-09,bologna,56,Piazza Maggiore | City Center,Maxi,13,28,31,31,9.7
-2026-10-09,bologna,56,Piazza Maggiore | City Center,Small,13,17,22,22,22.7
-2026-10-09,bologna,56,Piazza Maggiore | City Center,Standard,13,32,36,37,13.5
-2026-10-09,brescia,40,Brescia Train Station,Maxi,13,10,13,13,23.1
-2026-10-09,brescia,40,Brescia Train Station,Small,13,1,4,4,75.0
-2026-10-09,brescia,40,Brescia Train Station,Standard,13,17,17,17,0.0
-2026-10-09,catania,10,Via Etnea | Bellini Theater,Maxi,13,9,9,9,0.0
-2026-10-09,catania,10,Via Etnea | Bellini Theater,Small,13,9,9,9,0.0
-2026-10-09,catania,10,Via Etnea | Bellini Theater,Standard,13,14,14,14,0.0
-2026-10-09,florence,24,Florence SMN Train Station,Maxi,13,0,21,21,100.0
-2026-10-09,florence,24,Florence SMN Train Station,Small,13,0,19,20,100.0
-2026-10-09,florence,24,Florence SMN Train Station,Standard,13,0,29,30,100.0
-2026-10-09,florence,5,Uffizi District,Maxi,13,0,19,19,100.0
-2026-10-09,florence,5,Uffizi District,Small,13,0,19,19,100.0
-2026-10-09,florence,5,Uffizi District,Standard,13,0,10,10,100.0
-2026-10-09,florence,6,City Center |  Florence Station,Maxi,13,1,16,16,93.8
-2026-10-09,florence,6,City Center |  Florence Station,Small,13,1,16,16,93.8
-2026-10-09,florence,6,City Center |  Florence Station,Standard,13,0,9,9,100.0
-2026-10-09,genoa,25,Genoa Piazza Principe Train Station,Maxi,13,5,8,8,37.5
-2026-10-09,genoa,25,Genoa Piazza Principe Train Station,Small,13,5,8,8,37.5
-2026-10-09,genoa,25,Genoa Piazza Principe Train Station,Standard,13,7,12,12,41.7
-2026-10-09,milan,3,Milano Centrale Train Station,Maxi,13,24,43,47,48.9
-2026-10-09,milan,3,Milano Centrale Train Station,Small,13,17,33,35,51.4
-2026-10-09,milan,3,Milano Centrale Train Station,Standard,13,29,66,66,56.1
-2026-10-09,milan,36,Cadorna Train Station,Maxi,13,1,25,25,96.0
-2026-10-09,milan,36,Cadorna Train Station,Small,13,30,36,36,16.7
-2026-10-09,milan,36,Cadorna Train Station,Standard,13,21,38,39,46.2
-2026-10-09,milan,47,Duomo District,Maxi,13,4,17,18,77.8
-2026-10-09,milan,47,Duomo District,Small,13,4,9,11,63.6
-2026-10-09,milan,47,Duomo District,Standard,13,11,22,22,50.0
-2026-10-09,milan,59,Porta Garibaldi Train Station,Maxi,13,26,31,31,16.1
-2026-10-09,milan,59,Porta Garibaldi Train Station,Small,13,10,14,14,28.6
-2026-10-09,milan,59,Porta Garibaldi Train Station,Standard,13,33,34,34,2.9
-2026-10-09,naples,60,Naples Port - Molo Beverello,Maxi,13,22,24,24,8.3
-2026-10-09,naples,60,Naples Port - Molo Beverello,Small,13,13,13,14,7.1
-2026-10-09,naples,60,Naples Port - Molo Beverello,Standard,13,31,34,34,8.8
-2026-10-09,naples,7,Naples Centrale Train Station,Maxi,13,10,13,17,41.2
-2026-10-09,naples,7,Naples Centrale Train Station,Small,13,10,13,17,41.2
-2026-10-09,naples,7,Naples Centrale Train Station,Standard,13,0,6,7,100.0
-2026-10-09,palermo,26,City Center | Massimo Theater,Maxi,13,5,12,13,61.5
-2026-10-09,palermo,26,City Center | Massimo Theater,Small,13,5,12,13,61.5
-2026-10-09,palermo,26,City Center | Massimo Theater,Standard,13,12,16,18,33.3
-2026-10-09,parma,50,Parma Train Station,Maxi,13,28,31,31,9.7
-2026-10-09,parma,50,Parma Train Station,Small,13,28,31,31,9.7
-2026-10-09,parma,50,Parma Train Station,Standard,13,28,31,31,9.7
-2026-10-09,pisa,13,City Center | Pisa Station,Maxi,13,0,12,12,100.0
-2026-10-09,pisa,13,City Center | Pisa Station,Small,13,0,12,12,100.0
-2026-10-09,pisa,13,City Center | Pisa Station,Standard,13,2,12,12,83.3
-2026-10-09,pisa,39,Pisa Centrale Train Station,Maxi,13,0,16,16,100.0
-2026-10-09,pisa,39,Pisa Centrale Train Station,Small,13,13,14,14,7.1
-2026-10-09,pisa,39,Pisa Centrale Train Station,Standard,13,16,26,26,38.5
-2026-10-09,rome,1,Vatican Museums,Maxi,13,16,28,28,42.9
-2026-10-09,rome,1,Vatican Museums,Small,13,16,28,28,42.9
-2026-10-09,rome,1,Vatican Museums,Standard,13,0,6,7,100.0
-2026-10-09,rome,2,City Center | Termini Station,Maxi,13,0,12,15,100.0
-2026-10-09,rome,2,City Center | Termini Station,Small,13,0,6,6,100.0
-2026-10-09,rome,2,City Center | Termini Station,Standard,13,0,21,21,100.0
-2026-10-09,rome,21,Colosseum,Maxi,13,14,22,23,39.1
-2026-10-09,rome,21,Colosseum,Small,13,14,22,23,39.1
-2026-10-09,rome,21,Colosseum,Standard,13,2,20,20,90.0
-2026-10-09,rome,22,Trastevere,Maxi,13,12,15,15,20.0
-2026-10-09,rome,22,Trastevere,Small,13,12,15,15,20.0
-2026-10-09,rome,22,Trastevere,Standard,13,3,9,9,66.7
-2026-10-09,rome,31,Termini Train Station,Maxi,13,0,17,17,100.0
-2026-10-09,rome,31,Termini Train Station,Small,13,0,10,11,100.0
-2026-10-09,rome,31,Termini Train Station,Standard,13,0,20,21,100.0
-2026-10-09,rome,37,St. Peter's Basilica,Maxi,13,6,18,18,66.7
-2026-10-09,rome,37,St. Peter's Basilica,Small,13,0,6,6,100.0
-2026-10-09,rome,37,St. Peter's Basilica,Standard,13,15,22,22,31.8
-2026-10-09,rome,4,Spanish Steps District,Maxi,13,4,17,17,76.5
-2026-10-09,rome,4,Spanish Steps District,Small,13,4,17,17,76.5
-2026-10-09,rome,4,Spanish Steps District,Standard,13,0,4,4,100.0
-2026-10-09,siena,38,Piazza del Campo,Maxi,13,15,21,21,28.6
-2026-10-09,siena,38,Piazza del Campo,Small,13,6,6,6,0.0
-2026-10-09,siena,38,Piazza del Campo,Standard,13,26,29,29,10.3
-2026-10-09,turin,17,Turin Porta Nuova Train Station,Maxi,13,8,14,14,42.9
-2026-10-09,turin,17,Turin Porta Nuova Train Station,Small,13,8,14,14,42.9
-2026-10-09,turin,17,Turin Porta Nuova Train Station,Standard,13,0,10,12,100.0
-2026-10-09,venice,51,Rialto Bridge,Maxi,13,24,25,25,4.0
-2026-10-09,venice,51,Rialto Bridge,Small,13,6,14,14,57.1
-2026-10-09,venice,51,Rialto Bridge,Standard,13,30,30,30,0.0
-2026-10-09,venice,8,City Center | Rialto District,Maxi,13,13,17,17,23.5
-2026-10-09,venice,8,City Center | Rialto District,Small,13,13,17,17,23.5
-2026-10-09,venice,8,City Center | Rialto District,Standard,13,13,17,17,23.5
-2026-10-09,venice,9,Santa Lucia Train Station,Maxi,13,0,16,16,100.0
-2026-10-09,venice,9,Santa Lucia Train Station,Small,13,0,16,16,100.0
-2026-10-09,venice,9,Santa Lucia Train Station,Standard,13,0,16,18,100.0
-2026-10-09,verona,14,Verona Arena,Maxi,13,14,15,15,6.7
-2026-10-09,verona,14,Verona Arena,Small,13,14,15,15,6.7
-2026-10-09,verona,14,Verona Arena,Standard,13,7,13,13,46.2
+2026-10-09,bari,18,Bari Centrale Train Station,Maxi,14,11,19,19,42.1
+2026-10-09,bari,18,Bari Centrale Train Station,Small,14,6,13,13,53.8
+2026-10-09,bari,18,Bari Centrale Train Station,Standard,14,9,23,23,60.9
+2026-10-09,bologna,32,Bologna Centrale Train Station,Maxi,14,12,21,21,42.9
+2026-10-09,bologna,32,Bologna Centrale Train Station,Small,14,10,20,20,50.0
+2026-10-09,bologna,32,Bologna Centrale Train Station,Standard,14,12,29,30,60.0
+2026-10-09,bologna,48,Sant'Orsola Hospital,Maxi,14,9,10,10,10.0
+2026-10-09,bologna,48,Sant'Orsola Hospital,Small,14,29,29,29,0.0
+2026-10-09,bologna,48,Sant'Orsola Hospital,Standard,14,9,10,10,10.0
+2026-10-09,bologna,56,Piazza Maggiore | City Center,Maxi,14,28,31,31,9.7
+2026-10-09,bologna,56,Piazza Maggiore | City Center,Small,14,17,22,22,22.7
+2026-10-09,bologna,56,Piazza Maggiore | City Center,Standard,14,32,36,37,13.5
+2026-10-09,brescia,40,Brescia Train Station,Maxi,14,10,13,13,23.1
+2026-10-09,brescia,40,Brescia Train Station,Small,14,1,4,4,75.0
+2026-10-09,brescia,40,Brescia Train Station,Standard,14,17,17,17,0.0
+2026-10-09,catania,10,Via Etnea | Bellini Theater,Maxi,14,9,9,9,0.0
+2026-10-09,catania,10,Via Etnea | Bellini Theater,Small,14,9,9,9,0.0
+2026-10-09,catania,10,Via Etnea | Bellini Theater,Standard,14,14,14,14,0.0
+2026-10-09,florence,24,Florence SMN Train Station,Maxi,14,0,21,21,100.0
+2026-10-09,florence,24,Florence SMN Train Station,Small,14,0,19,20,100.0
+2026-10-09,florence,24,Florence SMN Train Station,Standard,14,0,29,30,100.0
+2026-10-09,florence,5,Uffizi District,Maxi,14,0,19,19,100.0
+2026-10-09,florence,5,Uffizi District,Small,14,0,19,19,100.0
+2026-10-09,florence,5,Uffizi District,Standard,14,0,10,10,100.0
+2026-10-09,florence,6,City Center |  Florence Station,Maxi,14,1,16,16,93.8
+2026-10-09,florence,6,City Center |  Florence Station,Small,14,1,16,16,93.8
+2026-10-09,florence,6,City Center |  Florence Station,Standard,14,0,9,9,100.0
+2026-10-09,genoa,25,Genoa Piazza Principe Train Station,Maxi,14,5,8,8,37.5
+2026-10-09,genoa,25,Genoa Piazza Principe Train Station,Small,14,5,8,8,37.5
+2026-10-09,genoa,25,Genoa Piazza Principe Train Station,Standard,14,7,12,12,41.7
+2026-10-09,milan,3,Milano Centrale Train Station,Maxi,14,19,43,47,59.6
+2026-10-09,milan,3,Milano Centrale Train Station,Small,14,13,33,35,62.9
+2026-10-09,milan,3,Milano Centrale Train Station,Standard,14,28,66,66,57.6
+2026-10-09,milan,36,Cadorna Train Station,Maxi,14,0,25,25,100.0
+2026-10-09,milan,36,Cadorna Train Station,Small,14,28,36,36,22.2
+2026-10-09,milan,36,Cadorna Train Station,Standard,14,14,38,39,64.1
+2026-10-09,milan,47,Duomo District,Maxi,14,0,17,18,100.0
+2026-10-09,milan,47,Duomo District,Small,14,0,9,11,100.0
+2026-10-09,milan,47,Duomo District,Standard,14,2,22,22,90.9
+2026-10-09,milan,59,Porta Garibaldi Train Station,Maxi,14,26,31,31,16.1
+2026-10-09,milan,59,Porta Garibaldi Train Station,Small,14,9,14,14,35.7
+2026-10-09,milan,59,Porta Garibaldi Train Station,Standard,14,32,34,34,5.9
+2026-10-09,naples,60,Naples Port - Molo Beverello,Maxi,14,19,24,24,20.8
+2026-10-09,naples,60,Naples Port - Molo Beverello,Small,14,13,13,14,7.1
+2026-10-09,naples,60,Naples Port - Molo Beverello,Standard,14,29,34,34,14.7
+2026-10-09,naples,7,Naples Centrale Train Station,Maxi,14,10,13,17,41.2
+2026-10-09,naples,7,Naples Centrale Train Station,Small,14,10,13,17,41.2
+2026-10-09,naples,7,Naples Centrale Train Station,Standard,14,0,6,7,100.0
+2026-10-09,palermo,26,City Center | Massimo Theater,Maxi,14,5,12,13,61.5
+2026-10-09,palermo,26,City Center | Massimo Theater,Small,14,5,12,13,61.5
+2026-10-09,palermo,26,City Center | Massimo Theater,Standard,14,12,16,18,33.3
+2026-10-09,parma,50,Parma Train Station,Maxi,14,27,31,31,12.9
+2026-10-09,parma,50,Parma Train Station,Small,14,27,31,31,12.9
+2026-10-09,parma,50,Parma Train Station,Standard,14,27,31,31,12.9
+2026-10-09,pisa,13,City Center | Pisa Station,Maxi,14,0,12,12,100.0
+2026-10-09,pisa,13,City Center | Pisa Station,Small,14,0,12,12,100.0
+2026-10-09,pisa,13,City Center | Pisa Station,Standard,14,0,12,12,100.0
+2026-10-09,pisa,39,Pisa Centrale Train Station,Maxi,14,0,16,16,100.0
+2026-10-09,pisa,39,Pisa Centrale Train Station,Small,14,12,14,14,14.3
+2026-10-09,pisa,39,Pisa Centrale Train Station,Standard,14,9,26,26,65.4
+2026-10-09,rome,1,Vatican Museums,Maxi,14,15,28,28,46.4
+2026-10-09,rome,1,Vatican Museums,Small,14,15,28,28,46.4
+2026-10-09,rome,1,Vatican Museums,Standard,14,0,6,7,100.0
+2026-10-09,rome,2,City Center | Termini Station,Maxi,14,0,12,15,100.0
+2026-10-09,rome,2,City Center | Termini Station,Small,14,0,6,6,100.0
+2026-10-09,rome,2,City Center | Termini Station,Standard,14,0,21,21,100.0
+2026-10-09,rome,21,Colosseum,Maxi,14,8,22,23,65.2
+2026-10-09,rome,21,Colosseum,Small,14,8,22,23,65.2
+2026-10-09,rome,21,Colosseum,Standard,14,0,20,20,100.0
+2026-10-09,rome,22,Trastevere,Maxi,14,12,15,15,20.0
+2026-10-09,rome,22,Trastevere,Small,14,12,15,15,20.0
+2026-10-09,rome,22,Trastevere,Standard,14,3,9,9,66.7
+2026-10-09,rome,31,Termini Train Station,Maxi,14,0,17,17,100.0
+2026-10-09,rome,31,Termini Train Station,Small,14,0,10,11,100.0
+2026-10-09,rome,31,Termini Train Station,Standard,14,0,20,21,100.0
+2026-10-09,rome,37,St. Peter's Basilica,Maxi,14,6,18,18,66.7
+2026-10-09,rome,37,St. Peter's Basilica,Small,14,0,6,6,100.0
+2026-10-09,rome,37,St. Peter's Basilica,Standard,14,14,22,22,36.4
+2026-10-09,rome,4,Spanish Steps District,Maxi,14,4,17,17,76.5
+2026-10-09,rome,4,Spanish Steps District,Small,14,4,17,17,76.5
+2026-10-09,rome,4,Spanish Steps District,Standard,14,0,4,4,100.0
+2026-10-09,siena,38,Piazza del Campo,Maxi,14,14,21,21,33.3
+2026-10-09,siena,38,Piazza del Campo,Small,14,5,6,6,16.7
+2026-10-09,siena,38,Piazza del Campo,Standard,14,25,29,29,13.8
+2026-10-09,turin,17,Turin Porta Nuova Train Station,Maxi,14,8,14,14,42.9
+2026-10-09,turin,17,Turin Porta Nuova Train Station,Small,14,8,14,14,42.9
+2026-10-09,turin,17,Turin Porta Nuova Train Station,Standard,14,0,10,12,100.0
+2026-10-09,venice,51,Rialto Bridge,Maxi,14,24,25,25,4.0
+2026-10-09,venice,51,Rialto Bridge,Small,14,6,14,14,57.1
+2026-10-09,venice,51,Rialto Bridge,Standard,14,29,30,30,3.3
+2026-10-09,venice,8,City Center | Rialto District,Maxi,14,12,17,17,29.4
+2026-10-09,venice,8,City Center | Rialto District,Small,14,12,17,17,29.4
+2026-10-09,venice,8,City Center | Rialto District,Standard,14,12,17,17,29.4
+2026-10-09,venice,9,Santa Lucia Train Station,Maxi,14,0,16,16,100.0
+2026-10-09,venice,9,Santa Lucia Train Station,Small,14,0,16,16,100.0
+2026-10-09,venice,9,Santa Lucia Train Station,Standard,14,0,16,18,100.0
+2026-10-09,verona,14,Verona Arena,Maxi,14,11,15,15,26.7
+2026-10-09,verona,14,Verona Arena,Small,14,11,15,15,26.7
+2026-10-09,verona,14,Verona Arena,Standard,14,4,13,13,69.2
