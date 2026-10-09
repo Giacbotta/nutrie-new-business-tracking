@@ -2542,3 +2542,231 @@ read_at,city,shop_id,name,day,hour,weekday,locker_type,free,status
 2026-10-09 00:16,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,0,Fri,medium,6,read
 2026-10-09 00:16,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,0,Fri,large,8,read
 2026-10-09 00:16,Torino,Maifermi-007,i-Vano Luggage Storage Torino,2026-10-09,0,Fri,,,no-online-booking
+2026-10-09 01:18,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,1,Fri,small,5,read
+2026-10-09 01:18,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,1,Fri,medium,12,read
+2026-10-09 01:18,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,1,Fri,large,10,read
+2026-10-09 01:18,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,1,Fri,small,3,read
+2026-10-09 01:18,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,1,Fri,medium,6,read
+2026-10-09 01:18,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,1,Fri,large,12,read
+2026-10-09 01:18,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,1,Fri,small,1,read
+2026-10-09 01:18,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,1,Fri,medium,8,read
+2026-10-09 01:18,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,1,Fri,large,6,read
+2026-10-09 01:18,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,1,Fri,small,5,read
+2026-10-09 01:18,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,1,Fri,medium,12,read
+2026-10-09 01:18,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,1,Fri,large,8,read
+2026-10-09 01:18,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,1,Fri,small,5,read
+2026-10-09 01:18,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,1,Fri,medium,5,read
+2026-10-09 01:18,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,1,Fri,large,4,read
+2026-10-09 01:18,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,1,Fri,small,5,read
+2026-10-09 01:18,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,1,Fri,medium,6,read
+2026-10-09 01:18,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,1,Fri,large,8,read
+2026-10-09 01:18,Torino,Maifermi-007,i-Vano Luggage Storage Torino,2026-10-09,1,Fri,,,no-online-booking
+2026-10-09 02:18,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,2,Fri,small,5,read
+2026-10-09 02:18,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,2,Fri,medium,12,read
+2026-10-09 02:18,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,2,Fri,large,10,read
+2026-10-09 02:18,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,2,Fri,small,3,read
+2026-10-09 02:18,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,2,Fri,medium,6,read
+2026-10-09 02:18,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,2,Fri,large,12,read
+2026-10-09 02:18,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,2,Fri,small,1,read
+2026-10-09 02:18,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,2,Fri,medium,8,read
+2026-10-09 02:18,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,2,Fri,large,6,read
+2026-10-09 02:18,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,2,Fri,small,5,read
+2026-10-09 02:18,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,2,Fri,medium,12,read
+2026-10-09 02:18,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,2,Fri,large,8,read
+2026-10-09 02:18,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,2,Fri,small,5,read
+2026-10-09 02:18,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,2,Fri,medium,5,read
+2026-10-09 02:18,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,2,Fri,large,4,read
+2026-10-09 02:18,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,2,Fri,small,5,read
+2026-10-09 02:18,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,2,Fri,medium,6,read
+2026-10-09 02:18,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,2,Fri,large,8,read
+2026-10-09 02:18,Torino,Maifermi-007,i-Vano Luggage Storage Torino,2026-10-09,2,Fri,,,no-online-booking
+2026-10-09 03:17,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,3,Fri,small,5,read
+2026-10-09 03:17,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,3,Fri,medium,12,read
+2026-10-09 03:17,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,3,Fri,large,10,read
+2026-10-09 03:17,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,3,Fri,small,3,read
+2026-10-09 03:17,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,3,Fri,medium,6,read
+2026-10-09 03:17,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,3,Fri,large,12,read
+2026-10-09 03:17,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,3,Fri,small,1,read
+2026-10-09 03:17,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,3,Fri,medium,8,read
+2026-10-09 03:17,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,3,Fri,large,6,read
+2026-10-09 03:17,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,3,Fri,small,5,read
+2026-10-09 03:17,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,3,Fri,medium,12,read
+2026-10-09 03:17,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,3,Fri,large,8,read
+2026-10-09 03:17,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,3,Fri,small,5,read
+2026-10-09 03:17,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,3,Fri,medium,5,read
+2026-10-09 03:17,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,3,Fri,large,4,read
+2026-10-09 03:17,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,3,Fri,small,5,read
+2026-10-09 03:17,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,3,Fri,medium,6,read
+2026-10-09 03:17,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,3,Fri,large,8,read
+2026-10-09 03:17,Torino,Maifermi-007,i-Vano Luggage Storage Torino,2026-10-09,3,Fri,,,no-online-booking
+2026-10-09 04:20,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,4,Fri,small,5,read
+2026-10-09 04:20,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,4,Fri,medium,12,read
+2026-10-09 04:20,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,4,Fri,large,10,read
+2026-10-09 04:20,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,4,Fri,small,3,read
+2026-10-09 04:20,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,4,Fri,medium,6,read
+2026-10-09 04:20,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,4,Fri,large,12,read
+2026-10-09 04:20,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,4,Fri,small,1,read
+2026-10-09 04:20,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,4,Fri,medium,8,read
+2026-10-09 04:20,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,4,Fri,large,6,read
+2026-10-09 04:20,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,4,Fri,small,5,read
+2026-10-09 04:20,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,4,Fri,medium,12,read
+2026-10-09 04:20,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,4,Fri,large,8,read
+2026-10-09 04:20,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,4,Fri,small,5,read
+2026-10-09 04:20,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,4,Fri,medium,5,read
+2026-10-09 04:20,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,4,Fri,large,4,read
+2026-10-09 04:20,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,4,Fri,small,5,read
+2026-10-09 04:20,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,4,Fri,medium,6,read
+2026-10-09 04:20,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,4,Fri,large,8,read
+2026-10-09 04:20,Torino,Maifermi-007,i-Vano Luggage Storage Torino,2026-10-09,4,Fri,,,no-online-booking
+2026-10-09 05:19,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,5,Fri,small,5,read
+2026-10-09 05:19,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,5,Fri,medium,12,read
+2026-10-09 05:19,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,5,Fri,large,10,read
+2026-10-09 05:19,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,5,Fri,small,3,read
+2026-10-09 05:19,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,5,Fri,medium,6,read
+2026-10-09 05:19,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,5,Fri,large,12,read
+2026-10-09 05:19,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,5,Fri,small,1,read
+2026-10-09 05:19,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,5,Fri,medium,8,read
+2026-10-09 05:19,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,5,Fri,large,6,read
+2026-10-09 05:19,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,5,Fri,small,5,read
+2026-10-09 05:19,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,5,Fri,medium,12,read
+2026-10-09 05:19,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,5,Fri,large,8,read
+2026-10-09 05:19,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,5,Fri,small,5,read
+2026-10-09 05:19,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,5,Fri,medium,5,read
+2026-10-09 05:19,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,5,Fri,large,4,read
+2026-10-09 05:19,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,5,Fri,small,5,read
+2026-10-09 05:19,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,5,Fri,medium,6,read
+2026-10-09 05:19,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,5,Fri,large,8,read
+2026-10-09 05:19,Torino,Maifermi-007,i-Vano Luggage Storage Torino,2026-10-09,5,Fri,,,no-online-booking
+2026-10-09 06:17,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,6,Fri,small,5,read
+2026-10-09 06:17,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,6,Fri,medium,12,read
+2026-10-09 06:17,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,6,Fri,large,10,read
+2026-10-09 06:17,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,6,Fri,small,3,read
+2026-10-09 06:17,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,6,Fri,medium,6,read
+2026-10-09 06:17,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,6,Fri,large,12,read
+2026-10-09 06:17,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,6,Fri,small,1,read
+2026-10-09 06:17,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,6,Fri,medium,8,read
+2026-10-09 06:17,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,6,Fri,large,6,read
+2026-10-09 06:17,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,6,Fri,small,5,read
+2026-10-09 06:17,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,6,Fri,medium,12,read
+2026-10-09 06:17,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,6,Fri,large,8,read
+2026-10-09 06:17,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,6,Fri,small,5,read
+2026-10-09 06:17,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,6,Fri,medium,5,read
+2026-10-09 06:17,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,6,Fri,large,4,read
+2026-10-09 06:17,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,6,Fri,small,5,read
+2026-10-09 06:17,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,6,Fri,medium,6,read
+2026-10-09 06:17,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,6,Fri,large,8,read
+2026-10-09 06:17,Torino,Maifermi-007,i-Vano Luggage Storage Torino,2026-10-09,6,Fri,,,no-online-booking
+2026-10-09 07:17,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,7,Fri,small,5,read
+2026-10-09 07:17,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,7,Fri,medium,12,read
+2026-10-09 07:17,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,7,Fri,large,10,read
+2026-10-09 07:17,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,7,Fri,small,3,read
+2026-10-09 07:17,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,7,Fri,medium,6,read
+2026-10-09 07:17,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,7,Fri,large,12,read
+2026-10-09 07:17,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,7,Fri,small,1,read
+2026-10-09 07:17,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,7,Fri,medium,8,read
+2026-10-09 07:17,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,7,Fri,large,6,read
+2026-10-09 07:17,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,7,Fri,small,5,read
+2026-10-09 07:17,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,7,Fri,medium,12,read
+2026-10-09 07:17,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,7,Fri,large,8,read
+2026-10-09 07:17,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,7,Fri,small,5,read
+2026-10-09 07:17,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,7,Fri,medium,5,read
+2026-10-09 07:17,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,7,Fri,large,4,read
+2026-10-09 07:17,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,7,Fri,small,5,read
+2026-10-09 07:17,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,7,Fri,medium,6,read
+2026-10-09 07:17,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,7,Fri,large,8,read
+2026-10-09 07:17,Torino,Maifermi-007,i-Vano Luggage Storage Torino,2026-10-09,7,Fri,,,no-online-booking
+2026-10-09 08:22,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,8,Fri,small,5,read
+2026-10-09 08:22,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,8,Fri,medium,12,read
+2026-10-09 08:22,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,8,Fri,large,10,read
+2026-10-09 08:22,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,8,Fri,small,3,read
+2026-10-09 08:22,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,8,Fri,medium,6,read
+2026-10-09 08:22,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,8,Fri,large,12,read
+2026-10-09 08:22,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,8,Fri,small,1,read
+2026-10-09 08:22,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,8,Fri,medium,8,read
+2026-10-09 08:22,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,8,Fri,large,4,read
+2026-10-09 08:22,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,8,Fri,small,5,read
+2026-10-09 08:22,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,8,Fri,medium,12,read
+2026-10-09 08:22,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,8,Fri,large,8,read
+2026-10-09 08:22,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,8,Fri,small,5,read
+2026-10-09 08:22,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,8,Fri,medium,5,read
+2026-10-09 08:22,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,8,Fri,large,3,read
+2026-10-09 08:22,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,8,Fri,small,5,read
+2026-10-09 08:22,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,8,Fri,medium,6,read
+2026-10-09 08:22,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,8,Fri,large,8,read
+2026-10-09 08:22,Torino,Maifermi-007,i-Vano Luggage Storage Torino,2026-10-09,8,Fri,,,no-online-booking
+2026-10-09 09:22,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,9,Fri,small,5,read
+2026-10-09 09:22,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,9,Fri,medium,12,read
+2026-10-09 09:22,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,9,Fri,large,9,read
+2026-10-09 09:22,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,9,Fri,small,2,read
+2026-10-09 09:22,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,9,Fri,medium,6,read
+2026-10-09 09:22,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,9,Fri,large,12,read
+2026-10-09 09:22,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,9,Fri,small,1,read
+2026-10-09 09:22,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,9,Fri,medium,8,read
+2026-10-09 09:22,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,9,Fri,large,4,read
+2026-10-09 09:22,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,9,Fri,small,5,read
+2026-10-09 09:22,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,9,Fri,medium,12,read
+2026-10-09 09:22,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,9,Fri,large,8,read
+2026-10-09 09:22,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,9,Fri,small,5,read
+2026-10-09 09:22,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,9,Fri,medium,5,read
+2026-10-09 09:22,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,9,Fri,large,3,read
+2026-10-09 09:22,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,9,Fri,small,5,read
+2026-10-09 09:22,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,9,Fri,medium,6,read
+2026-10-09 09:22,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,9,Fri,large,8,read
+2026-10-09 09:22,Torino,Maifermi-007,i-Vano Luggage Storage Torino,2026-10-09,9,Fri,,,no-online-booking
+2026-10-09 10:22,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,10,Fri,small,3,read
+2026-10-09 10:22,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,10,Fri,medium,12,read
+2026-10-09 10:22,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,10,Fri,large,6,read
+2026-10-09 10:22,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,10,Fri,small,2,read
+2026-10-09 10:22,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,10,Fri,medium,6,read
+2026-10-09 10:22,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,10,Fri,large,12,read
+2026-10-09 10:22,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,10,Fri,small,1,read
+2026-10-09 10:22,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,10,Fri,medium,8,read
+2026-10-09 10:22,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,10,Fri,large,4,read
+2026-10-09 10:22,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,10,Fri,small,5,read
+2026-10-09 10:22,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,10,Fri,medium,11,read
+2026-10-09 10:22,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,10,Fri,large,7,read
+2026-10-09 10:22,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,10,Fri,small,5,read
+2026-10-09 10:22,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,10,Fri,medium,5,read
+2026-10-09 10:22,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,10,Fri,large,3,read
+2026-10-09 10:22,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,10,Fri,small,5,read
+2026-10-09 10:22,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,10,Fri,medium,6,read
+2026-10-09 10:22,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,10,Fri,large,8,read
+2026-10-09 10:22,Torino,Maifermi-007,i-Vano Luggage Storage Torino,2026-10-09,10,Fri,,,no-online-booking
+2026-10-09 11:25,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,11,Fri,small,3,read
+2026-10-09 11:25,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,11,Fri,medium,12,read
+2026-10-09 11:25,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,11,Fri,large,5,read
+2026-10-09 11:25,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,11,Fri,small,2,read
+2026-10-09 11:25,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,11,Fri,medium,6,read
+2026-10-09 11:25,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,11,Fri,large,12,read
+2026-10-09 11:25,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,11,Fri,small,1,read
+2026-10-09 11:25,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,11,Fri,medium,7,read
+2026-10-09 11:25,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,11,Fri,large,1,read
+2026-10-09 11:25,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,11,Fri,small,5,read
+2026-10-09 11:25,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,11,Fri,medium,11,read
+2026-10-09 11:25,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,11,Fri,large,8,read
+2026-10-09 11:25,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,11,Fri,small,5,read
+2026-10-09 11:25,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,11,Fri,medium,5,read
+2026-10-09 11:25,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,11,Fri,large,3,read
+2026-10-09 11:25,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,11,Fri,small,5,read
+2026-10-09 11:25,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,11,Fri,medium,6,read
+2026-10-09 11:25,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,11,Fri,large,7,read
+2026-10-09 11:25,Torino,Maifermi-007,i-Vano Luggage Storage Torino,2026-10-09,11,Fri,,,no-online-booking
+2026-10-09 12:26,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,12,Fri,small,3,read
+2026-10-09 12:26,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,12,Fri,medium,12,read
+2026-10-09 12:26,Venezia,Maifermi-001,i-Vano Luggage Storage Venezia,2026-10-09,12,Fri,large,5,read
+2026-10-09 12:26,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,12,Fri,small,3,read
+2026-10-09 12:26,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,12,Fri,medium,6,read
+2026-10-09 12:26,Napoli,Maifermi-002,i-Vano Luggage Storage Napoli,2026-10-09,12,Fri,large,12,read
+2026-10-09 12:26,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,12,Fri,small,1,read
+2026-10-09 12:26,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,12,Fri,medium,11,read
+2026-10-09 12:26,Venezia,Maifermi-003,i-Vano Luggage Storage San Polo,2026-10-09,12,Fri,large,2,read
+2026-10-09 12:26,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,12,Fri,small,5,read
+2026-10-09 12:26,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,12,Fri,medium,11,read
+2026-10-09 12:26,Palermo,Maifermi-004,i-Vano Luggage Storage Palermo,2026-10-09,12,Fri,large,8,read
+2026-10-09 12:26,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,12,Fri,small,5,read
+2026-10-09 12:26,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,12,Fri,medium,4,read
+2026-10-09 12:26,Ortigia,Maifermi-005,i-Vano Luggage Storage Ortigia,2026-10-09,12,Fri,large,3,read
+2026-10-09 12:26,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,12,Fri,small,5,read
+2026-10-09 12:26,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,12,Fri,medium,6,read
+2026-10-09 12:26,Roma,Maifermi-006,i-Vano Luggage Storage Roma,2026-10-09,12,Fri,large,7,read
+2026-10-09 12:26,Torino,Maifermi-007,i-Vano Luggage Storage Torino,2026-10-09,12,Fri,,,no-online-booking
