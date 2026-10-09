@@ -1559,3 +1559,13 @@ read_at,command,slug,stage,outcome
 2026-10-09 20:41,read,h-farm-campus,availability,4 half hours
 2026-10-09 20:41,read,sph-treviso-sporting,availability,28 half hours
 2026-10-09 20:41,read,marina-sporting,availability,4 half hours
+2026-10-09 21:00,lead,sporting-club-mestre,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-09 21:00,lead,padel-by-fitup-di-zero-branco,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-09 21:00,lead,aquafit-padel,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-09 21:00,lead,sph-venezia,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-09 21:00,lead,padel-treviso,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-09 21:00,lead,altino-sport-village,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-09 21:00,lead,barchessa-pickleball,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-09 21:00,lead,h-farm-campus,availability,184 half hours
+2026-10-09 21:00,lead,sph-treviso-sporting,availability,1190 half hours
+2026-10-09 21:00,lead,marina-sporting,availability,336 half hours
