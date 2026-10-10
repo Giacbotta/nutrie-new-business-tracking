@@ -7104,7 +7104,9 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-09,vico-del-gargano,city-center,1,10,0,0.0,0,0,0.0
 2026-10-09,vigevano,city-center,1,20,0,0.0,0,0,0.0
 2026-10-09,villasimius,viale-matteotti,1,10,0,0.0,0,0,0.0
+2026-10-10,alghero,alghero-airport,1,30,4,13.3,4,0,2.0
 2026-10-10,ancona,ancona-train-station,1,100,0,0.0,0,0,0.0
+2026-10-10,assisi,city-center,1,25,0,0.0,0,0,0.0
 2026-10-10,bari,altamura,1,10,0,0.0,0,0,0.0
 2026-10-10,bari,fiera-del-levante,1,30,0,0.0,0,0,0.0
 2026-10-10,bologna,bologna-centrale-railway-station,1,55,0,0.0,0,0,0.0
@@ -7127,7 +7129,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-10,milan,milano-repubblica-station,2,120,0,0.0,0,0,0.0
 2026-10-10,milan,missori,1,40,0,0.0,0,0,0.0
 2026-10-10,milan,navigli,2,55,1,1.8,1,0,0.5
-2026-10-10,milan,niguarda,1,20,0,0.0,0,0,0.0
+2026-10-10,milan,niguarda,2,40,0,0.0,0,0,0.0
 2026-10-10,milan,palazzo-di-giustizia,1,30,0,0.0,0,0,0.0
 2026-10-10,milan,politecnico-di-milano-campus-bovisa-la-masa,1,20,0,0.0,0,0,0.0
 2026-10-10,milan,porta-genova,1,35,0,0.0,0,0,0.0
@@ -7164,14 +7166,17 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-10,rome,portuense,1,20,0,0.0,0,0,0.0
 2026-10-10,rome,repubblica,1,50,0,0.0,0,0,0.0
 2026-10-10,rome,termini,6,845,11,1.3,11,0,5.5
+2026-10-10,rome,tiburtina,1,65,0,0.0,0,0,0.0
 2026-10-10,rome,trastevere,3,180,0,0.0,0,0,0.0
 2026-10-10,rome,via-del-corso,1,25,0,0.0,0,0,0.0
 2026-10-10,sanremo,city-center,1,20,0,0.0,0,0,0.0
 2026-10-10,sassari,city-center,1,20,0,0.0,0,0,0.0
+2026-10-10,sestri-levante,sestri-levante-train-station,1,35,0,0.0,0,0,0.0
 2026-10-10,sorrento,sant-agnello,1,20,0,0.0,0,0,0.0
 2026-10-10,sorrento,sorrento-train-station,2,60,0,0.0,0,0,0.0
 2026-10-10,syracuse,station,1,30,0,0.0,0,0,0.0
 2026-10-10,trani,trani-transit-station,1,50,0,0.0,0,0,0.0
+2026-10-10,trento,main-station,1,40,0,0.0,0,0,0.0
 2026-10-10,trieste,trieste-train-station,1,45,5,11.1,5,0,2.5
 2026-10-10,turin,city-center,1,40,0,0.0,0,0,0.0
 2026-10-10,turin,museo-pietro-micca,1,95,1,1.1,1,0,0.5
