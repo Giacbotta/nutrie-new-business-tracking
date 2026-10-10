@@ -7130,7 +7130,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-10,avola,city-center,1,10,0,0.0,0,0,0.0
 2026-10-10,bari,altamura,1,10,0,0.0,0,0,0.0
 2026-10-10,bari,bari-centrale-train-station,19,1305,22,1.7,6,18,12.0
-2026-10-10,bari,bari-vecchia,2,120,21,17.5,3,18,10.5
+2026-10-10,bari,bari-vecchia,2,120,21,17.5,3,23,13.0
 2026-10-10,bari,basilica-san-nicola,1,30,15,50.0,0,15,7.5
 2026-10-10,bari,city-center,2,200,0,0.0,0,0,0.0
 2026-10-10,bari,fiera-del-levante,1,30,0,0.0,0,0,0.0
@@ -7272,7 +7272,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-10,lampedusa,city-center,1,50,0,0.0,0,0,0.0
 2026-10-10,lecce,lecce-city-center,7,255,2,0.8,0,2,1.0
 2026-10-10,lecce,railway-station,6,170,8,4.7,1,7,4.0
-2026-10-10,lecco,lecco-train-station,2,30,3,10.0,0,3,1.5
+2026-10-10,lecco,lecco-train-station,2,30,2,6.7,0,2,1.0
 2026-10-10,lecco,train-station,1,30,0,0.0,0,0,0.0
 2026-10-10,livorno,city-center,3,100,0,0.0,0,0,0.0
 2026-10-10,livorno,livorno-train-station,3,95,10,10.5,0,10,5.0
@@ -7298,7 +7298,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-10,milan,bicocca,1,20,0,0.0,0,0,0.0
 2026-10-10,milan,bueno-aires,1,30,0,0.0,0,0,0.0
 2026-10-10,milan,bullona,6,280,2,0.7,0,2,1.0
-2026-10-10,milan,cadorna,1,200,8,4.0,2,6,4.0
+2026-10-10,milan,cadorna,1,200,8,4.0,2,7,4.5
 2026-10-10,milan,cairoli-subway-station,1,45,12,26.7,0,12,6.0
 2026-10-10,milan,carrobbio,1,30,0,0.0,0,0,0.0
 2026-10-10,milan,casoretto,2,40,0,0.0,0,0,0.0
@@ -7507,7 +7507,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-10,rome,repubblica,5,225,13,5.8,6,7,6.5
 2026-10-10,rome,rione-ix-pigna,2,80,14,17.5,2,12,7.0
 2026-10-10,rome,roma-stadio-olimpico,1,30,0,0.0,0,0,0.0
-2026-10-10,rome,roma-vatican-museums,2,61,17,27.9,4,16,10.0
+2026-10-10,rome,roma-vatican-museums,2,61,17,27.9,4,17,10.5
 2026-10-10,rome,roman-forum,2,380,2,0.5,0,2,1.0
 2026-10-10,rome,s-pietro,4,135,16,11.9,6,10,8.0
 2026-10-10,rome,san-giovanni,6,420,0,0.0,0,0,0.0
@@ -7515,11 +7515,11 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-10,rome,santa-maria-maggiore,2,200,0,0.0,0,0,0.0
 2026-10-10,rome,st-peter-basilica,1,35,8,22.9,2,6,4.0
 2026-10-10,rome,termini,33,2833,191,6.7,44,150,97.0
-2026-10-10,rome,tiburtina,6,240,14,5.8,4,10,7.0
+2026-10-10,rome,tiburtina,6,240,14,5.8,4,12,8.0
 2026-10-10,rome,torre-maura,1,100,0,0.0,0,0,0.0
 2026-10-10,rome,trastevere,15,600,15,2.5,3,12,7.5
 2026-10-10,rome,trevi,4,235,15,6.4,5,10,7.5
-2026-10-10,rome,vatican,17,747,42,5.6,5,42,23.5
+2026-10-10,rome,vatican,17,747,42,5.6,5,41,23.0
 2026-10-10,rome,via-del-corso,1,25,2,8.0,0,2,1.0
 2026-10-10,rome,villa-borghese,1,35,1,2.9,1,0,0.5
 2026-10-10,rome,vittorio-emanuele,2,70,0,0.0,0,0,0.0

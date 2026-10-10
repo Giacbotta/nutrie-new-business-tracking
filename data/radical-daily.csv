@@ -922,7 +922,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-07,weekday,bari,bari-vecchia,6461890,Luggage Storage Basilica San Nicola,100,11,8,8.0,0,8,4.0
 2026-10-08,weekday,bari,bari-vecchia,6461890,Luggage Storage Basilica San Nicola,100,12,8,8.0,0,9,4.5
 2026-10-09,weekday,bari,bari-vecchia,6461890,Luggage Storage Basilica San Nicola,100,12,12,12.0,1,11,6.0
-2026-10-10,weekend,bari,bari-vecchia,6461890,Luggage Storage Basilica San Nicola,100,8,21,21.0,3,18,10.5
+2026-10-10,weekend,bari,bari-vecchia,6461890,Luggage Storage Basilica San Nicola,100,8,21,21.0,3,23,13.0
 2026-09-23,weekday,bari,bari-vecchia,6463189,Luggage Storage Crispi-Trevisani,20,1,0,0.0,0,0,0.0
 2026-09-24,weekday,bari,bari-vecchia,6463189,Luggage Storage Crispi-Trevisani,20,1,0,0.0,0,0,0.0
 2026-09-25,weekday,bari,bari-vecchia,6463189,Luggage Storage Crispi-Trevisani,20,3,0,0.0,0,0,0.0
@@ -5767,7 +5767,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-07,weekday,lecco,lecco-train-station,6470206,Luggage Storage Lecco Railway Station,20,11,0,0.0,0,0,0.0
 2026-10-08,weekday,lecco,lecco-train-station,6470206,Luggage Storage Lecco Railway Station,20,12,0,0.0,0,0,0.0
 2026-10-09,weekday,lecco,lecco-train-station,6470206,Luggage Storage Lecco Railway Station,20,12,0,0.0,0,0,0.0
-2026-10-10,weekend,lecco,lecco-train-station,6470206,Luggage Storage Lecco Railway Station,20,6,3,15.0,0,3,1.5
+2026-10-10,weekend,lecco,lecco-train-station,6470206,Luggage Storage Lecco Railway Station,20,6,2,10.0,0,2,1.0
 2026-09-23,weekday,lecco,lecco-train-station,6470300,Luggage Storage near Lake Como Museum,10,1,0,0.0,0,0,0.0
 2026-09-24,weekday,lecco,lecco-train-station,6470300,Luggage Storage near Lake Como Museum,10,2,0,0.0,0,0,0.0
 2026-09-25,weekday,lecco,lecco-train-station,6470300,Luggage Storage near Lake Como Museum,10,6,0,0.0,0,0,0.0
@@ -6728,7 +6728,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-07,weekday,milan,cadorna,9047,Luggage Storage Cadorna Railway Station,200,8,6,3.0,3,3,3.0
 2026-10-08,weekday,milan,cadorna,9047,Luggage Storage Cadorna Railway Station,200,9,5,2.5,5,0,2.5
 2026-10-09,weekday,milan,cadorna,9047,Luggage Storage Cadorna Railway Station,200,9,11,5.5,5,6,5.5
-2026-10-10,weekend,milan,cadorna,9047,Luggage Storage Cadorna Railway Station,200,7,8,4.0,2,6,4.0
+2026-10-10,weekend,milan,cadorna,9047,Luggage Storage Cadorna Railway Station,200,7,8,4.0,2,7,4.5
 2026-09-29,weekday,milan,caiazzo,8926,Luggage Storage Caiazzo Metro Station,100,10,0,0.0,0,0,0.0
 2026-09-30,weekday,milan,caiazzo,8926,Luggage Storage Caiazzo Metro Station,100,10,2,2.0,0,2,1.0
 2026-10-06,weekday,milan,caiazzo,8926,Luggage Storage Caiazzo Metro Station,100,10,3,3.0,0,3,1.5
@@ -15423,7 +15423,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-07,weekday,rome,roma-vatican-museums,6473172,Luggage Storage St Peter's Square,12,7,6,50.0,2,5,3.5
 2026-10-08,weekday,rome,roma-vatican-museums,6473172,Luggage Storage St Peter's Square,12,8,5,41.7,3,3,3.0
 2026-10-09,weekday,rome,roma-vatican-museums,6473172,Luggage Storage St Peter's Square,11,8,7,63.6,4,7,5.5
-2026-10-10,weekend,rome,roma-vatican-museums,6473172,Luggage Storage St Peter's Square,11,8,7,63.6,4,6,5.0
+2026-10-10,weekend,rome,roma-vatican-museums,6473172,Luggage Storage St Peter's Square,11,8,7,63.6,4,7,5.5
 2026-09-24,weekday,rome,roman-forum,34,Luggage Storage Fori Imperiali,300,2,0,0.0,0,0,0.0
 2026-09-25,weekday,rome,roman-forum,34,Luggage Storage Fori Imperiali,300,4,0,0.0,0,0,0.0
 2026-09-26,weekend,rome,roman-forum,34,Luggage Storage Fori Imperiali,300,9,0,0.0,0,0,0.0
@@ -16228,7 +16228,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-07,weekday,rome,tiburtina,4599,Luggage Storage Tiburtina Train Station,80,10,6,7.5,0,7,3.5
 2026-10-08,weekday,rome,tiburtina,4599,Luggage Storage Tiburtina Train Station,80,11,7,8.8,0,7,3.5
 2026-10-09,weekday,rome,tiburtina,4599,Luggage Storage Tiburtina Train Station,80,11,14,17.5,4,10,7.0
-2026-10-10,weekend,rome,tiburtina,4599,Luggage Storage Tiburtina Train Station,80,8,11,13.8,4,7,5.5
+2026-10-10,weekend,rome,tiburtina,4599,Luggage Storage Tiburtina Train Station,80,8,11,13.8,4,9,6.5
 2026-09-23,weekday,rome,tiburtina,4763,Luggage Storage Tiburtina Terminal,65,1,4,6.2,4,0,2.0
 2026-09-24,weekday,rome,tiburtina,4763,Luggage Storage Tiburtina Terminal,65,5,7,10.8,0,7,3.5
 2026-09-25,weekday,rome,tiburtina,4763,Luggage Storage Tiburtina Terminal,65,6,17,26.2,6,12,9.0
@@ -16860,7 +16860,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-07,weekday,rome,vatican,6473173,Luggage Storage Rome Vatican Museums,12,7,10,83.3,7,12,9.5
 2026-10-08,weekday,rome,vatican,6473173,Luggage Storage Rome Vatican Museums,12,8,9,75.0,5,13,9.0
 2026-10-09,weekday,rome,vatican,6473173,Luggage Storage Rome Vatican Museums,12,8,10,83.3,6,4,5.0
-2026-10-10,weekend,rome,vatican,6473173,Luggage Storage Rome Vatican Museums,12,8,10,83.3,5,10,7.5
+2026-10-10,weekend,rome,vatican,6473173,Luggage Storage Rome Vatican Museums,12,8,10,83.3,5,9,7.0
 2026-09-24,weekday,rome,via-del-corso,5660,Luggage Storage Via Del Corso,25,9,2,8.0,0,2,1.0
 2026-09-25,weekday,rome,via-del-corso,5660,Luggage Storage Via Del Corso,25,7,12,48.0,0,12,6.0
 2026-09-26,weekend,rome,via-del-corso,5660,Luggage Storage Via Del Corso,25,18,0,0.0,0,0,0.0
@@ -18414,7 +18414,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-07,weekday,trieste,trieste-train-station,3904,Luggage Storage near Trieste Central Station,45,22,0,0.0,0,0,0.0
 2026-10-08,weekday,trieste,trieste-train-station,3904,Luggage Storage near Trieste Central Station,45,23,1,2.2,0,1,0.5
 2026-10-09,weekday,trieste,trieste-train-station,3904,Luggage Storage near Trieste Central Station,45,23,5,11.1,5,0,2.5
-2026-10-10,weekend,trieste,trieste-train-station,3904,Luggage Storage near Trieste Central Station,45,14,5,11.1,5,5,5.0
+2026-10-10,weekend,trieste,trieste-train-station,3904,Luggage Storage near Trieste Central Station,45,15,5,11.1,5,5,5.0
 2026-09-23,weekday,trieste,trieste-train-station,4943,Luggage Storage Trieste Train Station,15,1,0,0.0,0,0,0.0
 2026-09-24,weekday,trieste,trieste-train-station,4943,Luggage Storage Trieste Train Station,15,2,5,33.3,0,5,2.5
 2026-09-25,weekday,trieste,trieste-train-station,4943,Luggage Storage Trieste Train Station,15,5,3,20.0,2,1,1.5
