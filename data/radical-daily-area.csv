@@ -7681,21 +7681,22 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-11,cagliari,city-center,2,120,0,0.0,0,0,0.0
 2026-10-11,cagliari,lazzaretto,1,20,0,0.0,0,0,0.0
 2026-10-11,cagliari,marina,7,165,5,3.0,0,5,2.5
-2026-10-11,cagliari,stazione,2,50,1,2.0,0,1,0.5
+2026-10-11,cagliari,stazione,2,50,3,6.0,0,3,1.5
 2026-10-11,cagliari,villanova,1,20,0,0.0,0,0,0.0
 2026-10-11,caltanissetta,caltanissetta-centrale,2,40,10,25.0,0,10,5.0
+2026-10-11,caltanissetta,caltanissetta-old-town,1,10,0,0.0,0,0,0.0
 2026-10-11,camogli,camogli-s-fruttuoso-train-station,1,40,0,0.0,0,0,0.0
 2026-10-11,caserta,city-center,3,150,2,1.3,2,0,1.0
 2026-10-11,castellammare-di-stabia,castellammare-di-stabia-train-station,1,300,0,0.0,0,0,0.0
 2026-10-11,catania,borgo-sanzio,2,170,20,11.8,0,20,10.0
 2026-10-11,catania,catania-airport,2,150,7,4.7,3,5,4.0
 2026-10-11,catania,catania-centrale,8,385,12,3.1,4,8,6.0
-2026-10-11,catania,city-center,10,295,66,22.4,2,64,33.0
+2026-10-11,catania,city-center,10,295,66,22.4,2,67,34.5
 2026-10-11,catania,piazza-stesicoro,1,20,0,0.0,0,0,0.0
 2026-10-11,catania,porta-garibaldi,1,50,0,0.0,0,0,0.0
 2026-10-11,catania,university-of-catania,1,50,0,0.0,0,0,0.0
 2026-10-11,cefalu,cefalu-transit-station,1,35,0,0.0,0,0,0.0
-2026-10-11,cefalu,city-center,1,25,0,0.0,0,0,0.0
+2026-10-11,cefalu,city-center,2,55,0,0.0,0,0,0.0
 2026-10-11,cervia,city-center,1,20,0,0.0,0,0,0.0
 2026-10-11,cervia,milano-marittima,1,10,0,0.0,0,0,0.0
 2026-10-11,chiavari,chiavari-train-station,1,20,0,0.0,0,0,0.0
@@ -7758,7 +7759,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-11,la-spezia,migliarina,1,50,0,0.0,0,0,0.0
 2026-10-11,lamezia-terme,train-station,1,30,0,0.0,0,0,0.0
 2026-10-11,lecce,lecce-city-center,2,65,6,9.2,0,6,3.0
-2026-10-11,lecce,railway-station,5,160,11,6.9,1,11,6.0
+2026-10-11,lecce,railway-station,6,170,11,6.5,1,11,6.0
 2026-10-11,lecco,lecco-train-station,2,30,3,10.0,0,3,1.5
 2026-10-11,lecco,train-station,1,30,2,6.7,0,2,1.0
 2026-10-11,livorno,livorno-train-station,2,75,7,9.3,0,7,3.5
@@ -7815,7 +7816,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-11,milan,washington,1,35,0,0.0,0,0,0.0
 2026-10-11,milan,zone-7-of-milan,2,40,2,5.0,2,0,1.0
 2026-10-11,milazzo,port,1,200,0,0.0,0,0,0.0
-2026-10-11,modena,central-station,2,75,8,10.7,2,6,4.0
+2026-10-11,modena,central-station,2,75,9,12.0,2,7,4.5
 2026-10-11,modena,city-centre,1,20,0,0.0,0,0,0.0
 2026-10-11,modica,city-center,1,10,0,0.0,0,0,0.0
 2026-10-11,monopoli,castello-carlo-v,1,25,0,0.0,0,0,0.0
@@ -7853,7 +7854,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-11,padua,city-center,1,50,2,4.0,0,4,2.0
 2026-10-11,padua,main-station,3,160,11,6.9,3,8,5.5
 2026-10-11,palau,palau-ferry-terminal,1,20,0,0.0,0,0,0.0
-2026-10-11,palermo,albergheria,1,30,1,3.3,0,1,0.5
+2026-10-11,palermo,albergheria,1,30,2,6.7,0,2,1.0
 2026-10-11,palermo,historical-centre-of-palermo,1,25,0,0.0,0,0,0.0
 2026-10-11,palermo,mondello,1,20,20,100.0,0,20,10.0
 2026-10-11,palermo,palermo-centrale,5,210,15,7.1,3,16,9.5
@@ -7869,7 +7870,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-11,pesaro,city-center,2,200,0,0.0,0,0,0.0
 2026-10-11,pescara,pescara-centrale-train-station,6,135,10,7.4,2,8,5.0
 2026-10-11,peschiera-del-garda,peschiera-del-garda-train-station,1,35,2,5.7,0,2,1.0
-2026-10-11,piacenza,piacenza-train-station,1,25,0,0.0,0,0,0.0
+2026-10-11,piacenza,piacenza-train-station,1,25,1,4.0,0,1,0.5
 2026-10-11,pisa,national-museum-of-san-matteo,1,50,0,0.0,0,0,0.0
 2026-10-11,pisa,piazza-dei-cavalieri,2,50,2,4.0,2,0,1.0
 2026-10-11,pisa,pisa-centrale-train-station,12,815,50,6.1,9,44,26.5
@@ -7897,7 +7898,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-11,ravenna,main-station,5,135,40,29.6,19,21,20.0
 2026-10-11,reggio-calabria,center,1,50,50,100.0,2,48,25.0
 2026-10-11,reggio-calabria,villa-san-giovanni,1,50,0,0.0,0,0,0.0
-2026-10-11,reggio-emilia,railway-station,1,65,4,6.2,0,4,2.0
+2026-10-11,reggio-emilia,railway-station,1,65,5,7.7,0,5,2.5
 2026-10-11,riccione,city-center,2,95,0,0.0,0,0,0.0
 2026-10-11,riccione,terme,1,10,0,0.0,0,0,0.0
 2026-10-11,rimini,bellariva,1,50,0,0.0,0,0,0.0
@@ -7929,7 +7930,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-11,rome,ostia-1,1,40,7,17.5,7,0,3.5
 2026-10-11,rome,ostiense,3,400,2,0.5,0,2,1.0
 2026-10-11,rome,ottaviano,2,60,7,11.7,0,7,3.5
-2026-10-11,rome,pantheon,14,967,47,4.9,41,12,26.5
+2026-10-11,rome,pantheon,14,967,47,4.9,41,13,27.0
 2026-10-11,rome,parco-regionale-appia-antica,1,15,0,0.0,0,0,0.0
 2026-10-11,rome,parioli,2,65,0,0.0,0,0,0.0
 2026-10-11,rome,piazza-campo-de-fiori,4,205,7,3.4,0,7,3.5
@@ -7942,7 +7943,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-11,rome,repubblica,6,275,11,4.0,0,11,5.5
 2026-10-11,rome,rione-ix-pigna,2,80,6,7.5,3,3,3.0
 2026-10-11,rome,roma-stadio-olimpico,1,30,6,20.0,0,6,3.0
-2026-10-11,rome,roma-vatican-museums,1,50,2,4.0,0,2,1.0
+2026-10-11,rome,roma-vatican-museums,1,50,5,10.0,0,7,3.5
 2026-10-11,rome,roman-forum,2,380,0,0.0,0,0,0.0
 2026-10-11,rome,s-pietro,3,95,2,2.1,0,2,1.0
 2026-10-11,rome,san-giovanni,2,330,0,0.0,0,0,0.0
@@ -7950,7 +7951,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-11,rome,santa-maria-maggiore,2,200,0,0.0,0,0,0.0
 2026-10-11,rome,spanish-steps,1,45,0,0.0,0,0,0.0
 2026-10-11,rome,st-peter-basilica,1,35,4,11.4,0,4,2.0
-2026-10-11,rome,termini,29,2728,194,7.1,51,151,101.0
+2026-10-11,rome,termini,29,2728,197,7.2,51,154,102.5
 2026-10-11,rome,tiburtina,3,140,21,15.0,4,17,10.5
 2026-10-11,rome,torre-maura,1,100,0,0.0,0,0,0.0
 2026-10-11,rome,trastevere,12,520,122,23.5,55,92,73.5
@@ -7969,6 +7970,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-11,sassari,city-center,1,20,1,5.0,0,1,0.5
 2026-10-11,savona,public-beach-lo-scaletto-dei-pescatori,1,20,5,25.0,0,5,2.5
 2026-10-11,savona,train-station,1,20,0,0.0,0,0,0.0
+2026-10-11,scicli,city-center,1,10,0,0.0,0,0,0.0
 2026-10-11,sestri-levante,sestri-levante-train-station,2,55,2,3.6,0,2,1.0
 2026-10-11,siena,city-center,4,107,0,0.0,0,0,0.0
 2026-10-11,siena,istrice,1,50,0,0.0,0,0,0.0
