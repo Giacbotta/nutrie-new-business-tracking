@@ -17633,7 +17633,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-10-08,florence,battistero-di-san-giovanni,16bcd5d3-6300-4cfd-a6fa-3b217cc371ba,J&J's,0,24,19,18,,22
 2026-10-09,florence,battistero-di-san-giovanni,16bcd5d3-6300-4cfd-a6fa-3b217cc371ba,J&J's,0,24,17,16,,18
 2026-10-10,florence,battistero-di-san-giovanni,16bcd5d3-6300-4cfd-a6fa-3b217cc371ba,J&J's,0,24,23,23,,24
-2026-10-11,florence,battistero-di-san-giovanni,16bcd5d3-6300-4cfd-a6fa-3b217cc371ba,J&J's,0,4,23,23,,23
+2026-10-11,florence,battistero-di-san-giovanni,16bcd5d3-6300-4cfd-a6fa-3b217cc371ba,J&J's,0,4,24,24,,24
 2026-09-23,florence,capalle,17250aaa-f355-4711-9de7-3a245055736a,J&J's,0,3,0,0,,0
 2026-09-24,florence,capalle,17250aaa-f355-4711-9de7-3a245055736a,J&J's,0,8,0,0,,0
 2026-09-25,florence,capalle,17250aaa-f355-4711-9de7-3a245055736a,J&J's,0,14,0,0,,0
@@ -18017,7 +18017,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-10-08,florence,basilica-of-santa-maria-novella,4975dde1-4ec5-48c4-9d2b-025f96242739,J&J's,0,24,28,23,,29
 2026-10-09,florence,basilica-of-santa-maria-novella,4975dde1-4ec5-48c4-9d2b-025f96242739,J&J's,0,24,23,23,,23
 2026-10-10,florence,basilica-of-santa-maria-novella,4975dde1-4ec5-48c4-9d2b-025f96242739,J&J's,0,24,22,21,,23
-2026-10-11,florence,basilica-of-santa-maria-novella,4975dde1-4ec5-48c4-9d2b-025f96242739,J&J's,0,4,22,22,,22
+2026-10-11,florence,basilica-of-santa-maria-novella,4975dde1-4ec5-48c4-9d2b-025f96242739,J&J's,0,4,22,21,,22
 2026-09-23,florence,quartiere-5,4acae942-8188-4124-84d0-5240386c5f50,J&J's,0,3,0,0,,0
 2026-09-24,florence,quartiere-5,4acae942-8188-4124-84d0-5240386c5f50,J&J's,0,8,0,0,,0
 2026-09-25,florence,quartiere-5,4acae942-8188-4124-84d0-5240386c5f50,J&J's,0,14,0,0,,0
@@ -26595,7 +26595,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-10-08,milan,dergano,0223d734-649d-433f-a381-92b163aa0a56,J&J's,0,24,1,1,,1
 2026-10-09,milan,dergano,0223d734-649d-433f-a381-92b163aa0a56,J&J's,0,24,1,1,,1
 2026-10-10,milan,dergano,0223d734-649d-433f-a381-92b163aa0a56,J&J's,0,24,1,1,,1
-2026-10-11,milan,dergano,0223d734-649d-433f-a381-92b163aa0a56,J&J's,0,4,1,1,,1
+2026-10-11,milan,dergano,0223d734-649d-433f-a381-92b163aa0a56,J&J's,0,4,1,0,,1
 2026-09-23,milan,quartiere-lodovico-il-moro,03926c93-68f9-40ee-b041-eefe9dfbe0ce,J&J's,50,3,0,0,0.0,0
 2026-09-24,milan,quartiere-lodovico-il-moro,03926c93-68f9-40ee-b041-eefe9dfbe0ce,J&J's,50,9,0,0,0.0,0
 2026-09-25,milan,quartiere-lodovico-il-moro,03926c93-68f9-40ee-b041-eefe9dfbe0ce,J&J's,50,14,0,0,0.0,0
@@ -51820,7 +51820,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-10-08,rome,colosseum,4ce96670-644f-48d2-a81e-03565b2db110,J&J's,0,24,50,50,,55
 2026-10-09,rome,colosseum,4ce96670-644f-48d2-a81e-03565b2db110,J&J's,0,24,58,58,,59
 2026-10-10,rome,colosseum,4ce96670-644f-48d2-a81e-03565b2db110,J&J's,0,24,64,60,,66
-2026-10-11,rome,colosseum,4ce96670-644f-48d2-a81e-03565b2db110,J&J's,0,4,59,59,,59
+2026-10-11,rome,colosseum,4ce96670-644f-48d2-a81e-03565b2db110,J&J's,0,4,60,60,,60
 2026-09-23,rome,trastevere,4ced0aa0-839a-43c9-b741-6e8fe55865dc,J&J's,0,3,13,13,,13
 2026-09-24,rome,trastevere,4ced0aa0-839a-43c9-b741-6e8fe55865dc,J&J's,0,9,14,13,,15
 2026-09-25,rome,trastevere,4ced0aa0-839a-43c9-b741-6e8fe55865dc,J&J's,0,14,15,15,,15
@@ -68595,7 +68595,7 @@ day,city,area,spot_id,name,capacity,readings,peak,last,peak_pct,arrivals
 2026-10-08,venice,piazzale-roma,fc815f33-9dec-4611-86e0-8ddc6079132d,J&J's,15,24,24,24,160.0,26
 2026-10-09,venice,piazzale-roma,fc815f33-9dec-4611-86e0-8ddc6079132d,J&J's,15,24,24,24,160.0,26
 2026-10-10,venice,piazzale-roma,fc815f33-9dec-4611-86e0-8ddc6079132d,J&J's,15,24,29,29,193.3,34
-2026-10-11,venice,piazzale-roma,fc815f33-9dec-4611-86e0-8ddc6079132d,J&J's,15,4,30,30,200.0,30
+2026-10-11,venice,piazzale-roma,fc815f33-9dec-4611-86e0-8ddc6079132d,J&J's,15,4,31,31,206.7,31
 2026-09-27,ventimiglia,,27aed5a5-32b1-4bec-add2-df23597f5ce8,J&J's,0,4,0,0,,0
 2026-09-28,ventimiglia,,27aed5a5-32b1-4bec-add2-df23597f5ce8,J&J's,0,24,0,0,,0
 2026-09-29,ventimiglia,,27aed5a5-32b1-4bec-add2-df23597f5ce8,J&J's,0,24,0,0,,0
