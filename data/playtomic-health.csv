@@ -1649,3 +1649,113 @@ read_at,command,slug,stage,outcome
 2026-10-10 01:41,read,h-farm-campus,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 2026-10-10 01:41,read,sph-treviso-sporting,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 2026-10-10 01:41,read,marina-sporting,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-10 04:57,read,sporting-club-mestre,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-10 04:57,read,padel-by-fitup-di-zero-branco,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-10 04:57,read,aquafit-padel,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-10 04:57,read,sph-venezia,availability,closed now or no slots
+2026-10-10 04:57,read,padel-treviso,availability,closed now or no slots
+2026-10-10 04:57,read,altino-sport-village,availability,closed now or no slots
+2026-10-10 04:57,read,barchessa-pickleball,availability,closed now or no slots
+2026-10-10 04:57,read,h-farm-campus,availability,closed now or no slots
+2026-10-10 04:57,read,sph-treviso-sporting,availability,closed now or no slots
+2026-10-10 04:57,read,marina-sporting,availability,closed now or no slots
+2026-10-11 10:32,lead,sporting-club-mestre,availability,640 half hours
+2026-10-11 10:32,lead,padel-by-fitup-di-zero-branco,availability,117 half hours
+2026-10-11 10:32,lead,aquafit-padel,availability,334 half hours
+2026-10-11 10:32,lead,sph-venezia,availability,900 half hours
+2026-10-11 10:32,lead,padel-treviso,availability,2064 half hours
+2026-10-11 10:32,lead,altino-sport-village,availability,338 half hours
+2026-10-11 10:32,lead,barchessa-pickleball,availability,504 half hours
+2026-10-11 10:32,lead,h-farm-campus,availability,146 half hours
+2026-10-11 10:32,lead,sph-treviso-sporting,availability,1239 half hours
+2026-10-11 10:32,lead,marina-sporting,availability,336 half hours
+2026-10-11 13:44,read,sporting-club-mestre,club page,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-10-11 13:44,read,padel-by-fitup-di-zero-branco,availability,closed now or no slots
+2026-10-11 13:44,read,aquafit-padel,availability,8 half hours
+2026-10-11 13:44,read,sph-venezia,availability,20 half hours
+2026-10-11 13:44,read,padel-treviso,availability,48 half hours
+2026-10-11 13:44,read,altino-sport-village,availability,8 half hours
+2026-10-11 13:44,read,barchessa-pickleball,availability,12 half hours
+2026-10-11 13:44,read,h-farm-campus,availability,8 half hours
+2026-10-11 13:44,read,sph-treviso-sporting,availability,28 half hours
+2026-10-11 13:44,read,marina-sporting,availability,8 half hours
+2026-10-11 22:32,read,sporting-club-mestre,availability,closed now or no slots
+2026-10-11 22:32,read,padel-by-fitup-di-zero-branco,availability,closed now or no slots
+2026-10-11 22:32,read,aquafit-padel,availability,closed now or no slots
+2026-10-11 22:32,read,sph-venezia,availability,closed now or no slots
+2026-10-11 22:32,read,padel-treviso,availability,closed now or no slots
+2026-10-11 22:32,read,altino-sport-village,availability,closed now or no slots
+2026-10-11 22:32,read,barchessa-pickleball,availability,closed now or no slots
+2026-10-11 22:32,read,h-farm-campus,availability,closed now or no slots
+2026-10-11 22:32,read,sph-treviso-sporting,availability,closed now or no slots
+2026-10-11 22:32,read,marina-sporting,availability,closed now or no slots
+2026-10-11 23:32,read,sporting-club-mestre,availability,closed now or no slots
+2026-10-11 23:32,read,padel-by-fitup-di-zero-branco,availability,closed now or no slots
+2026-10-11 23:32,read,aquafit-padel,availability,closed now or no slots
+2026-10-11 23:32,read,sph-venezia,availability,closed now or no slots
+2026-10-11 23:32,read,padel-treviso,availability,closed now or no slots
+2026-10-11 23:32,read,altino-sport-village,availability,closed now or no slots
+2026-10-11 23:32,read,barchessa-pickleball,availability,closed now or no slots
+2026-10-11 23:32,read,h-farm-campus,availability,closed now or no slots
+2026-10-11 23:32,read,sph-treviso-sporting,availability,closed now or no slots
+2026-10-11 23:32,read,marina-sporting,availability,closed now or no slots
+2026-10-12 14:47,read,sporting-club-mestre,availability,16 half hours
+2026-10-12 14:47,read,padel-by-fitup-di-zero-branco,availability,4 half hours
+2026-10-12 14:47,read,aquafit-padel,availability,8 half hours
+2026-10-12 14:47,read,sph-venezia,availability,20 half hours
+2026-10-12 14:47,read,padel-treviso,availability,48 half hours
+2026-10-12 14:47,read,altino-sport-village,availability,8 half hours
+2026-10-12 14:47,read,barchessa-pickleball,availability,12 half hours
+2026-10-12 14:47,read,h-farm-campus,availability,closed now or no slots
+2026-10-12 14:47,read,sph-treviso-sporting,availability,28 half hours
+2026-10-12 14:47,read,marina-sporting,availability,8 half hours
+2026-10-12 14:53,read,sporting-club-mestre,availability,16 half hours
+2026-10-12 14:53,read,padel-by-fitup-di-zero-branco,availability,4 half hours
+2026-10-12 14:53,read,aquafit-padel,availability,8 half hours
+2026-10-12 14:53,read,sph-venezia,availability,20 half hours
+2026-10-12 14:53,read,padel-treviso,availability,48 half hours
+2026-10-12 14:53,read,altino-sport-village,availability,8 half hours
+2026-10-12 14:53,read,barchessa-pickleball,availability,12 half hours
+2026-10-12 14:53,read,h-farm-campus,availability,closed now or no slots
+2026-10-12 14:53,read,sph-treviso-sporting,availability,28 half hours
+2026-10-12 14:53,read,marina-sporting,availability,8 half hours
+2026-10-12 15:53,read,sporting-club-mestre,availability,16 half hours
+2026-10-12 15:53,read,padel-by-fitup-di-zero-branco,availability,4 half hours
+2026-10-12 15:53,read,aquafit-padel,availability,8 half hours
+2026-10-12 15:53,read,sph-venezia,availability,20 half hours
+2026-10-12 15:53,read,padel-treviso,availability,48 half hours
+2026-10-12 15:53,read,altino-sport-village,availability,8 half hours
+2026-10-12 15:53,read,barchessa-pickleball,availability,12 half hours
+2026-10-12 15:53,read,h-farm-campus,availability,2 half hours
+2026-10-12 15:53,read,sph-treviso-sporting,availability,28 half hours
+2026-10-12 15:53,read,marina-sporting,availability,8 half hours
+2026-10-12 16:53,read,sporting-club-mestre,availability,16 half hours
+2026-10-12 16:53,read,padel-by-fitup-di-zero-branco,availability,4 half hours
+2026-10-12 16:53,read,aquafit-padel,club page,HTTP 504
+2026-10-12 16:53,read,sph-venezia,availability,20 half hours
+2026-10-12 16:53,read,padel-treviso,availability,48 half hours
+2026-10-12 16:53,read,altino-sport-village,availability,8 half hours
+2026-10-12 16:53,read,barchessa-pickleball,availability,12 half hours
+2026-10-12 16:53,read,h-farm-campus,availability,6 half hours
+2026-10-12 16:53,read,sph-treviso-sporting,availability,28 half hours
+2026-10-12 16:53,read,marina-sporting,availability,8 half hours
+2026-10-12 17:53,read,sporting-club-mestre,availability,16 half hours
+2026-10-12 17:53,read,padel-by-fitup-di-zero-branco,availability,4 half hours
+2026-10-12 17:53,read,aquafit-padel,availability,8 half hours
+2026-10-12 17:53,read,sph-venezia,availability,20 half hours
+2026-10-12 17:53,read,padel-treviso,availability,48 half hours
+2026-10-12 17:53,read,altino-sport-village,availability,8 half hours
+2026-10-12 17:53,read,barchessa-pickleball,availability,12 half hours
+2026-10-12 17:53,read,h-farm-campus,availability,8 half hours
+2026-10-12 17:53,read,sph-treviso-sporting,availability,28 half hours
+2026-10-12 17:53,read,marina-sporting,availability,8 half hours
+2026-10-12 18:53,read,sporting-club-mestre,availability,16 half hours
+2026-10-12 18:53,read,padel-by-fitup-di-zero-branco,availability,3 half hours
+2026-10-12 18:53,read,aquafit-padel,availability,8 half hours
+2026-10-12 18:53,read,sph-venezia,availability,20 half hours
+2026-10-12 18:53,read,padel-treviso,availability,48 half hours
+2026-10-12 18:53,read,altino-sport-village,availability,8 half hours
+2026-10-12 18:53,read,barchessa-pickleball,availability,12 half hours
+2026-10-12 18:53,read,h-farm-campus,availability,8 half hours
+2026-10-12 18:53,read,sph-treviso-sporting,availability,28 half hours
+2026-10-12 18:53,read,marina-sporting,availability,8 half hours
