@@ -2,6 +2,35 @@
 
 Written by `municipal_tenders.py`; the latest runs are on top.
 
+## Run of 2026-10-12
+
+**3 new items.**
+
+- **Marcon**, 07/10/2026: BANDO D'ASTA PUBBLICA IMMOBILIARE N.03/2026 SECONDO INCANTO PROCEDIMENTO DI VENDITA PER COMPENDIO IMMOBILIARE "LOTTO N.2 TERRENO EDIFICABILE - COMPARTO C/26 SITO IN VIA ELSA MORANTE A MARCON (VE)" — https://servizionline.comune.marcon.ve.it/c027020/mc/mc_p_dettaglio.php?id_pubbl=25685 (keywords: terreno, asta pubblica, bando)
+- **Marcon**, 07/10/2026: BANDO D'ASTA PUBBLICA IMMOBILIARE N.02/2026 SECONDO INCANTO PROCEDIMENTO DI VENDITA PER COMPENDIO IMMOBILIARE "LOTTO N.1 TERRENO EDIFICABILE - COMPARTO C/25 SITO IN VIA ELSA MORANTE A MARCON (VE)" — https://servizionline.comune.marcon.ve.it/c027020/mc/mc_p_dettaglio.php?id_pubbl=25684 (keywords: terreno, asta pubblica, bando)
+- **Marcon**, 07/10/2026: APPROVAZIONE DEI BANDI D'ASTA PUBBLICA IMMOBILIARI N. 02/2026 E N. 03/2026 PER LA VENDITA DI TERRENI EDIFICABILI IN VIA ELSA MORANTE A MARCON (VE). COMPARTI C/25 E C/26. SECONDO INCANTO. — https://servizionline.comune.marcon.ve.it/c027020/mc/mc_p_dettaglio.php?id_pubbl=25682 (keywords: terreni, asta pubblica)
+
+Sources read:
+
+- Mogliano Veneto (JCity notice board): 123 items read, 1 with the keywords
+- Spresiano (JCity notice board): 67 items read, 0 with the keywords
+- Preganziol (Halley notice board): 63 items read, 1 with the keywords
+- Marcon (Halley notice board): 70 items read, 3 with the keywords
+- Casale sul Sile (Halley notice board): 63 items read, 0 with the keywords
+- Zero Branco (Halley notice board): 63 items read, 1 with the keywords
+- Casier (Halley notice board): 55 items read, 0 with the keywords
+- Quarto d'Altino (Halley notice board): 31 items read, 0 with the keywords
+- Scorzè (Hypersic notice board): 62 items read, 0 with the keywords
+- Treviso (J-Ente notice board): 349 items read, 0 with the keywords
+- Veneto (Sport e Salute) (aggregator): 2 items read, 1 with the keywords
+- Preganziol (site notices): 6 items read, 0 with the keywords
+- Marcon (site notices): 8 items read, 0 with the keywords
+- Casale sul Sile (site notices): 6 items read, 0 with the keywords
+- Zero Branco (site notices): 9 items read, 0 with the keywords
+- Casier (site notices): 9 items read, 0 with the keywords
+- Quarto d'Altino (site notices): 15 items read, 0 with the keywords
+- Venezia: not covered, www.comune.venezia.it answers with an anti-bot protection (Incapsula): not forced
+
 ## Run of 2026-10-05
 
 **4 new items.**
