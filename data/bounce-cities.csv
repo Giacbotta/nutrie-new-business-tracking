@@ -1,14 +1,14 @@
 city,name,points,capacity
-rome,Rome,491,8053
-naples,Naples,416,3093
-milan,Milan,305,3106
-catania,Catania,138,1020
+rome,Rome,484,8043
+naples,Naples,416,3088
+milan,Milan,306,3091
+catania,Catania,137,1020
 florence,Florence,115,1146
-palermo,Palermo,107,1166
-caserta,Caserta,107,120
+caserta,Caserta,106,120
+palermo,Palermo,105,1066
 bologna,Bologna,100,1168
-turin,Turin,98,612
-venice,Venice,93,1541
+turin,Turin,96,582
+venice,Venice,91,1549
 bari,Bari,68,1067
 verona,Verona,65,243
 salerno,Salerno,58,595
@@ -17,33 +17,33 @@ bergamo,Bergamo,48,275
 pompei,Pompei,46,320
 frosinone,Frosinone,43,0
 messina,Messina,42,120
-genoa,Genoa,37,256
 pisa,Pisa,37,897
+genoa,Genoa,36,246
 latina,Latina,35,0
 padova,Padova,33,267
 cagliari,Cagliari,33,0
-ercolano,Ercolano,31,60
+ercolano,Ercolano,30,60
 como,Como,29,245
-pescara,Pescara,29,45
-modena,Modena,26,110
+pescara,Pescara,28,45
 cesena,Cesena,26,105
 treviso,Treviso,26,5
 vicenza,Vicenza,25,10
+modena,Modena,24,110
+trieste,Trieste,24,16
 parma,Parma,24,60
-lecce,Lecce,24,525
-trieste,Trieste,23,16
-battipaglia,Battipaglia,23,0
 cosenza,Cosenza,23,0
+lecce,Lecce,23,425
+battipaglia,Battipaglia,22,0
 cassino,Cassino,21,0
-siracusa,Siracusa,21,100
 milazzo,Milazzo,21,100
 udine,Udine,21,0
+perugia,Perugia,20,155
+siracusa,Siracusa,20,100
 sorrento,Sorrento,20,567
-perugia,Perugia,19,155
-rimini,Rimini,19,160
 cardano-al-campo,Cardano Al Campo,19,0
 reggio-calabria,Reggio Calabria,19,300
 san-sebastiano-al-vesuvio,San Sebastiano al Vesuvio,19,45
+rimini,Rimini,18,160
 lampedusa,Lampedusa,18,50
 trapani,Trapani,18,195
 matera,Matera,17,35
@@ -54,10 +54,10 @@ piacenza,Piacenza,16,25
 castellammare-di-stabia,Castellammare di Stabia,16,5
 avellino,Avellino,16,0
 sperlonga,Sperlonga,15,0
+siena,Siena,15,32
 vibo-valentia,Vibo Valentia,15,0
 taranto,Taranto,15,90
 la-spezia,La Spezia,14,81
-siena,Siena,14,32
 lamezia-terme,Lamezia Terme,14,0
 potenza,Potenza,14,0
 treviglio,Treviglio,14,10
@@ -78,6 +78,7 @@ chieti,Chieti,12,25
 ravenna,Ravenna,12,100
 vittoria,Vittoria,11,0
 assisi,Assisi,11,125
+lucca,Lucca,11,146
 brindisi,Brindisi,11,200
 trento,Trento,11,20
 sanremo,Sanremo,11,90
@@ -85,10 +86,7 @@ polignano-a-mare,Polignano a Mare,11,373
 legnano,Legnano,11,100
 catanzaro,Catanzaro,11,0
 monopoli,Monopoli,10,150
-lucca,Lucca,10,142
 ferrara,Ferrara,10,50
-saletti,Saletti,10,0
-livorno,Livorno,10,55
 cellole,Cellole,10,0
 paratico,Paratico,9,0
 alberobello,Alberobello,9,25
@@ -97,37 +95,38 @@ gallipoli,Gallipoli,9,0
 sassari,Sassari,9,0
 alghero,Alghero,9,20
 savona,Savona,9,0
+bolzano,Bolzano,9,10
 capo-d'orlando,Capo d'Orlando,9,0
 montagnana,Montagnana,9,10
 pavia,Pavia,9,35
-formia,Formia,9,0
+viareggio,Viareggio,9,60
+saletti,Saletti,9,0
+livorno,Livorno,9,55
 reggio-emilia,Reggio Emilia,8,0
 teramo,Teramo,8,0
 ostuni,Ostuni,8,0
 laquila,L'Aquila,8,0
+taormina,Taormina,8,150
 sommatino,Sommatino,8,0
-desenzano-del-garda,Desenzano Del Garda,8,40
 arezzo,Arezzo,8,15
 canosa-di-puglia,Canosa di Puglia,8,100
 civitanova-marche,Civitanova Marche,8,0
 sondrio,Sondrio,8,0
-bolzano,Bolzano,8,0
-viareggio,Viareggio,8,60
+formia,Formia,8,0
 borgo-valbelluna,Borgo Valbelluna,8,0
 elba,Elba Island,8,190
 montecatini-terme,Montecatini Terme,8,20
 rossano-stazione,Rossano Stazione,7,0
 capistrello,Capistrello,7,0
-taormina,Taormina,7,150
 taurisano,Taurisano,7,0
 cremona,Cremona,7,0
+desenzano-del-garda,Desenzano Del Garda,7,40
 torre-de'-passeri,Torre de' Passeri,7,0
 manfredonia,Manfredonia,7,0
 cervignano-del-friuli,Cervignano del Friuli,7,0
 sala-consilina,Sala Consilina,7,0
 bronte,Bronte,7,0
 locri,Locri,6,0
-olbia,Olbia,6,0
 rapallo,Rapallo,6,0
 terni,Terni,6,6
 notaresco-stazione,Notaresco Stazione,6,0
@@ -140,13 +139,12 @@ imola,Imola,6,0
 teano,Teano,6,0
 corridonia,Corridonia,6,0
 belluno,Belluno,6,0
-riccione,Riccione,6,0
 conegliano,Conegliano,5,0
 orvieto,Orvieto,5,10
 crotone,Crotone,5,100
 iesi,Iesi,5,0
-arona,Arona,5,0
 cefalu,Cefalù,5,130
+olbia,Olbia,5,0
 positano,Positano,5,300
 cattolica,Cattolica,5,60
 meta,Meta,5,100
@@ -158,6 +156,7 @@ benevento,Benevento,5,0
 ottaviano,Ottaviano,5,0
 cittanova,Cittanova,5,0
 castellammare-del-golfo,Castellammare del Golfo,5,50
+capri,Capri,5,100
 lipari,Lipari,5,30
 san-cataldo,San Cataldo,5,0
 nicosia-28,Nicosia,5,0
@@ -165,9 +164,11 @@ vasto,Vasto,5,0
 buja,Buja,5,0
 augusta-9d,Augusta,5,0
 montepaone,Montepaone,5,0
+riccione,Riccione,5,0
 castelcovati,Castelcovati,4,0
 rovereto,Rovereto,4,0
 oderzo,Oderzo,4,0
+arona,Arona,4,0
 isernia,Isernia,4,30
 borno-it,Borno,4,0
 montalcino,Montalcino,4,15
@@ -190,7 +191,6 @@ villanova-mondovì,Villanova Mondovì,4,0
 otranto,Otranto,4,10
 sant'agnello,Sant'Agnello,4,200
 grammichele,Grammichele,4,0
-oliena,Oliena,4,0
 faenza,Faenza,4,35
 sanluri,Sanluri,4,20
 vezzano-ligure,Vezzano Ligure,4,0
@@ -230,15 +230,14 @@ vobarno,Vobarno,3,0
 corleone,Corleone,3,0
 bordighera,Bordighera,3,0
 san-giovanni-rotondo,San Giovanni Rotondo,3,30
-procida,Procida,3,0
 massa-lubrense,Massa Lubrense,3,20
 forio,Forio,3,0
-capri,Capri,3,100
 peschiera-del-garda,Peschiera del Garda,3,35
 isola-di-salina,Salina,3,0
 fasano,Fasano,3,100
 campobasso,Campobasso,3,100
 ivrea,Ivrea,3,20
+oliena,Oliena,3,0
 mantua-d6,Mantua,3,0
 iglesias,Iglesias,3,0
 tempio-pausania,Tempio Pausania,3,0
@@ -254,7 +253,6 @@ laino-castello,Laino Castello,3,0
 fossano,Fossano,3,0
 portopalo-di-capo-passero,Portopalo di Capo Passero,3,0
 gagliano-del-capo,Gagliano del Capo,3,0
-ilbono,Ilbono,3,0
 chiusi,Chiusi,3,15
 santantioco,Sant'Antioco,3,0
 montalbano-jonico,Montalbano Jonico,3,0
@@ -312,6 +310,7 @@ san-vincenzo,San Vincenzo,2,10
 sciacca,Sciacca,2,0
 niscemi,Niscemi,2,0
 stromboli,Stromboli,2,0
+procida,Procida,2,0
 linosa,Linosa,2,0
 camogli,Camogli,2,0
 maiori,Maiori,2,30
@@ -334,6 +333,7 @@ mottafollone,Mottafollone,2,0
 ronciglione,Ronciglione,2,0
 monte-argentario,Monte Argentario,2,0
 castelnovo-ne'-monti,Castelnovo ne' Monti,2,0
+ilbono,Ilbono,2,0
 pantelleria,Pantelleria,2,0
 amantea,Amantea,1,0
 aprilia,Aprilia,1,0
@@ -373,7 +373,6 @@ pofi,Pofi,1,0
 magenta,Magenta,1,0
 sassuolo,Sassuolo,1,0
 siniscola,Siniscola,1,0
-voghera,Voghera,1,0
 castel-volturno,Castel Volturno,1,0
 santadi,Santadi,1,0
 vieste,Vieste,1,0
