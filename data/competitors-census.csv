@@ -32,3 +32,861 @@ seen_on,brand,city,name,lat,lng,capacity,reviews,rating,price_from,note,url
 2026-09-23,stowyourbags,bologna,Piazza Maggiore | City Center,44.49541,11.340592,,99,4.9,1.49,"sizes=3;address=Via Calcavinazzi 2e, 40121 Bologna",https://www.stowyourbags.com/en/shop/bologna/luggage-storage-bologna-city-center/
 2026-09-23,stowyourbags,milan,Porta Garibaldi Train Station,45.482192,9.187991,,62,4.8,1.49,"sizes=3;address=Via Carlo de Cristoforis 2, 20124 Milano",https://www.stowyourbags.com/en/shop/milan/luggage-storage-porta-garibaldi/
 2026-09-23,stowyourbags,naples,Naples Port - Molo Beverello,40.839324,14.251338,,70,4.9,1.49,"sizes=3;address=Via Giuseppe Pisanelli 25, 80133 Napoli NA",https://www.stowyourbags.com/en/shop/naples/luggage-storage-port-molo-beverello/
+2026-10-12,stasher,ancona,Hotel near Ancona,43.60681,13.4981,20,211,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/ancona
+2026-10-12,stasher,arezzo,Restaurant near Piazza Grande,43.464302,11.884251,30,45,4.91,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/arezzo
+2026-10-12,stasher,bari,Tech Shop near Bari Centrale,41.119523,16.8689811,200,807,5,1.49,bookings_bucket=500;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/bari
+2026-10-12,stasher,bari,Tech Shop near Stazione Centrale Bari,41.11888250000001,16.871007,60,73,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/bari
+2026-10-12,stasher,bari,Locker near Basilica San Nicola,41.1305386,16.8694758,11,63,4.94,1.49,bookings_bucket=50;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/bari
+2026-10-12,stasher,bari,Shop near Teatro Margherita,41.1252219,16.8687318,100,48,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/bari
+2026-10-12,stasher,bari,Postal Shop near Piazza Umberto ,41.121592,16.8690729,200,34,4.97,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/bari
+2026-10-12,stasher,bari,Luggage Storage Shop near Bari Centrale,41.1196718,16.8690192,100,23,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/bari
+2026-10-12,stasher,bari,Shop near Teatro Abeliano,41.110561,16.896563,400,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/bari
+2026-10-12,stasher,bari,Shop near Bari Centrale Station,41.1195211,16.8691084,80,7,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/bari
+2026-10-12,stasher,bari,Shop near Bari Centrale,41.1218471,16.8646298,50,2,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/bari
+2026-10-12,stasher,bari,Newsagent near Poggiofranco,41.0968572,16.8550058,10,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/bari
+2026-10-12,stasher,bergamo,Smoke Shop near Stazione autobus e treni,45.6242342,9.3341165,24,7,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/bergamo
+2026-10-12,stasher,bologna,Luggage Storage Shop near Piazza maggiore,44.4985824,11.3468,200,94,4.97,1.49,bookings_bucket=100;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/bologna
+2026-10-12,stasher,bologna,Luggage Storage Shop near Due Torri,44.49381109999999,11.3471308,100,87,4.98,1.49,bookings_bucket=50;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/bologna
+2026-10-12,stasher,bologna,Smoke Shop near centro di Bologna,44.4982416,11.3301976,100,46,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/bologna
+2026-10-12,stasher,bologna,Tech Shop near Piazza Maggiore,44.4956295,11.3386315,10,25,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/bologna
+2026-10-12,stasher,bologna,Smoke Shop near Centro storico Bologna ,44.475891,11.2767098,24,2,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/bologna
+2026-10-12,stasher,bolzano,Cafe near Poste Italia,46.4979188,11.3527034,50,89,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/bolzano
+2026-10-12,stasher,brindisi,Postal Shop near ibis hotel ,40.6270432,17.931672,48,7,4.57,1.49,bookings_bucket=5;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/brindisi
+2026-10-12,stasher,cagliari,Shop near Bastione di Saint Remy,39.2159254,9.1091505,10,3,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/cagliari
+2026-10-12,stasher,cagliari,Hotel near Giulio Cesare Bus Stop,39.25642759999999,9.1431722,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/cagliari
+2026-10-12,stasher,catania,Hotel near Villa Bellini,37.510574,15.0857248,60,195,4.95,1.49,bookings_bucket=100;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/catania
+2026-10-12,stasher,catania,Hostel near Catania,37.507179,15.08621,200,183,4.97,1.49,bookings_bucket=100;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/catania
+2026-10-12,stasher,catania,"Hotel near Central Train Station,   Terminal Bus for all of town in Sicily",37.5102379,15.0975934,10,76,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/catania
+2026-10-12,stasher,catania,Hotel near Teatro Vincenzo Bellini,37.5037762,15.0901138,100,72,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/catania
+2026-10-12,stasher,catania,Postal Shop near Villa Bellini - Tribunale,37.51219,15.0937913,200,19,4.84,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/catania
+2026-10-12,stasher,catania,Postal Shop near Piazza Carlo Alberto di Savoia,37.5099104,15.0873376,40,18,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/catania
+2026-10-12,stasher,catania,Postal Shop near Roman Amphitheater of Catania,37.5082137,15.082746,170,12,4.67,1.49,bookings_bucket=10;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/catania
+2026-10-12,stasher,catania,Smoke Shop near Massimo Bellini Theater,37.50495069999999,15.0882554,33,2,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/catania
+2026-10-12,stasher,catania,Rental Shop near Cattedrale di Sant'Agata,37.509043,15.0793285,20,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/catania
+2026-10-12,stasher,catania,Shop near Borgo Metro Station,37.524082416500676,15.082182451444956,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/catania
+2026-10-12,stasher,como,Luggage Storage Shop near altro,45.80337129999999,9.0852762,10,16,4.81,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/como
+2026-10-12,stasher,ferrara,Hotel near Stazione,44.83996,11.615455,100,192,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/ferrara
+2026-10-12,stasher,florence,Office near Piazza duomo firenze,43.7762396,11.2520844,900,84,4.99,1.49,bookings_bucket=50;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/florence
+2026-10-12,stasher,florence,Shop near Verdi,43.77152,11.26038,10,56,4.89,1.49,bookings_bucket=50;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/florence
+2026-10-12,stasher,florence,Hotel near Firenze Santa Maria Novella,43.7760001,11.2509536,29,49,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/florence
+2026-10-12,stasher,florence,Health & Beauty Business near Firenze Santa Maria Novella,43.773577,11.2468771,10,42,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/florence
+2026-10-12,stasher,florence,Shop near Basílica de Santa Maria Novella,43.7758862,11.2543641,15,26,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/florence
+2026-10-12,stasher,florence,Tech Shop near Firenze Santa Maria Novella,43.7772721,11.2558541,40,18,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/florence
+2026-10-12,stasher,florence,Food & Beverage Business near Verdi,43.769941,11.2632342,10,15,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/florence
+2026-10-12,stasher,florence,Hotel near Piazza della Signoria,43.7704805,11.25677,10,1,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/florence
+2026-10-12,stasher,florence,Restaurant near Cattedrale di Santa Maria del Fiore,43.7686913,11.2580285,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/florence
+2026-10-12,stasher,florence,Rental Shop near Cattedrale di Santa Maria del Fiore,43.769981,11.263198,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/florence
+2026-10-12,stasher,genoa,Hotel near Stazione,44.4155718,8.9226802,600,177,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/genoa
+2026-10-12,stasher,genoa,Cafe near Acquario di Genova,44.4085625,8.9284375,40,62,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/genoa
+2026-10-12,stasher,genoa,Restaurant near Genova Brignole,44.4035714,8.9427317,30,5,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/genoa
+2026-10-12,stasher,genoa,Food & Beverage Business near Old City / Duomo,44.4072035,8.9310337,10,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/genoa
+2026-10-12,stasher,genoa,Restaurant near Cruise Terminal,44.4101448,8.9075255,25,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/genoa
+2026-10-12,stasher,lecce,Smoke Shop near Parco Simone Renda,40.3595568,18.1834953,30,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/lecce
+2026-10-12,stasher,lucca,Hotel near Lucca,43.8404,10.50395,7,74,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/lucca
+2026-10-12,stasher,lucca,Hotel near Mura di Lucca,43.8440463,10.5188382,24,25,4.92,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/lucca
+2026-10-12,stasher,messina,Smoke Shop near Messina Centrale,38.18384383530709,15.55794048769684,30,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/messina
+2026-10-12,stasher,milan,Food & Beverage Business near Trattoria Pizzeria La Fermata,45.46334299999999,9.189306,192,1677,4.97,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/milan
+2026-10-12,stasher,milan,Restaurant near Duomo,45.463228,9.188958,60,1291,4.98,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/milan
+2026-10-12,stasher,milan,Car Park near Duomo,45.4670839,9.192258,420,757,5,1.49,bookings_bucket=500;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/milan
+2026-10-12,stasher,milan,Laundry Business near Duomo di Milano,45.46180349999999,9.1869883,100,105,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/milan
+2026-10-12,stasher,milan,Smoke Shop near castello sforzesco,45.4682015,9.1826769,30,71,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/milan
+2026-10-12,stasher,milan,Shop near Colonne,45.460834,9.18103,20,55,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/milan
+2026-10-12,stasher,milan,Smoke Shop near Duomo di Milano,45.46470009999999,9.1973966,20,35,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/milan
+2026-10-12,stasher,milan,Cafe near Piccolo Teatro Milan,45.4646302,9.181684800000001,9,13,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/milan
+2026-10-12,stasher,milan,Health & Beauty Business near Piccolo Teatro Grassi,45.4657689,9.1815102,10,5,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/milan
+2026-10-12,stasher,milan,Hotel near Duomo di Milano,45.4585529,9.1884716,100,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/milan
+2026-10-12,stasher,naples,Hotel near Naples - Piazza Garibaldi Corso Umberto,40.8504013,14.2649954,94,1068,4.99,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/naples
+2026-10-12,stasher,naples,Hotel near Stazione Centrale Garibaldi di Napoli,40.8531058,14.2710624,29,398,4.98,1.49,bookings_bucket=250;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/naples
+2026-10-12,stasher,naples,Rental Shop near Stazione Centrale Di Napoli,40.850743,14.2723873,180,149,4.93,1.49,bookings_bucket=100;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/naples
+2026-10-12,stasher,naples,Shop near Metro station ,40.8505775,14.272648,50,108,4.96,1.49,bookings_bucket=100;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/naples
+2026-10-12,stasher,naples,Shop near Napoli Porta Nolana,40.850814,14.2670932,100,73,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/naples
+2026-10-12,stasher,naples,Hotel near Stazione Centrale,40.8533366,14.2692689683658,100,44,4.86,1.49,bookings_bucket=50;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/naples
+2026-10-12,stasher,naples,Restaurant near Napoli Centrale,40.8533283,14.2711142,200,30,4.87,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/naples
+2026-10-12,stasher,naples,Shop near Principe Umberto Tram Stop,40.8532294,14.2677807,160,14,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/naples
+2026-10-12,stasher,naples,Shop near Napoli Centrale,40.84989789999999,14.2683827,10,1,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/naples
+2026-10-12,stasher,naples,Tech Shop near Napoli Porta Nolana,40.8501516,14.2696036,50,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/naples
+2026-10-12,stasher,padua,Hotel near Stazione Padova,45.418424,11.874332,100,303,5,1.49,bookings_bucket=250;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/padua
+2026-10-12,stasher,palermo,Hotel near Teatro Politeama Garibaldi,38.12340055077892,13.359080465401606,20,43,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/palermo
+2026-10-12,stasher,palermo,Office near Mercado de la Vucciria,38.1176781,13.3645311,40,25,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/palermo
+2026-10-12,stasher,palermo,Newsagent near Politeama,38.123875,13.3599754,30,14,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/palermo
+2026-10-12,stasher,palermo,Smoke Shop near Stadio Renzo Barbera,38.1465583,13.3390495,50,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/palermo
+2026-10-12,stasher,palermo,Shop near Parco Ninni Cassarà,38.1007,13.33495,40,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/palermo
+2026-10-12,stasher,palermo,Cafe near Teatro Massimo,38.1193182,13.3526811,10,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/palermo
+2026-10-12,stasher,palermo,Shop near chiesa santissima mediatrice,38.1007,13.33495,40,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/palermo
+2026-10-12,stasher,palermo,Shop near Aeroporto Boccadifalco,38.11096,13.32929,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/palermo
+2026-10-12,stasher,palermo,Office near IL TUAREG T.O.,38.140371,13.3342968,24,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/palermo
+2026-10-12,stasher,parma,Cafe near Ospedale maggiore,44.809489,10.3054293,20,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/parma
+2026-10-12,stasher,perugia,Postal Shop near Perugia Railway Station,43.1016975,12.3771526,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/perugia
+2026-10-12,stasher,pescara,Office near Pescara Centrale,42.4712778,14.2054573,40,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/pescara
+2026-10-12,stasher,pisa,Hostel near Pisa Centrale,43.70703,10.40437,46,972,5,6.78,bookings_bucket=1000;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/pisa
+2026-10-12,stasher,pisa,Tech Shop near Train station ,43.7098873,10.4006981,100,221,4.99,1.49,bookings_bucket=250;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/pisa
+2026-10-12,stasher,pisa,Shop near Pisa Centrale,43.7078814,10.4073151,20,6,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/pisa
+2026-10-12,stasher,pordenone,Shop near Dolomiti ,45.9727964,12.6493281,100,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/pordenone
+2026-10-12,stasher,rimini,Hotel near Centro storico ,44.0675002,12.5770926,20,33,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/rimini
+2026-10-12,stasher,rimini,Hotel near spiaggia,44.06423,12.5829734,24,17,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/rimini
+2026-10-12,stasher,rimini,Hostel near Rimini Nord - Stazione,44.075236,12.5607071,48,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/rimini
+2026-10-12,stasher,rimini,Hotel near Rimini Centra Station - New Dock,44.0712873,12.5686132,48,7,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/rimini
+2026-10-12,stasher,rome,Hotel near Roma Termini,41.899152,12.499555,24,4236,4.99,1.49,bookings_bucket=2500;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/rome
+2026-10-12,stasher,rome,Shop near Roma Termini,41.8998754,12.5011437,392,1210,4.98,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/rome
+2026-10-12,stasher,rome,Shop near Roma Termini,41.9017162,12.4972151,198,335,5,1.49,bookings_bucket=250;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/rome
+2026-10-12,stasher,rome,Health & Beauty Business near Roma Termini,41.8994447,12.5005109,1000,193,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/rome
+2026-10-12,stasher,rome,Tech Shop near rifugio romano,41.9043278,12.4997119,200,56,4.71,1.49,bookings_bucket=50;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/rome
+2026-10-12,stasher,rome,Laundry Business near Teatro dell'Opera di Roma,41.9006827,12.4943461,100,35,4.97,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/rome
+2026-10-12,stasher,rome,Luggage Storage Shop near Roma Termini,41.9014221,12.4945492,100,29,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/rome
+2026-10-12,stasher,rome,Hotel near Roma Termini,41.90447899999999,12.500224,50,10,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/rome
+2026-10-12,stasher,rome,Souvenir Shop near Roma Termini,41.9037497,12.5007283,10,3,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/rome
+2026-10-12,stasher,rome,Laundry Business near Roma Termini,41.9051965,12.4998123,20,2,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/rome
+2026-10-12,stasher,salerno,Postal Shop near Salerno,40.677139,14.766728,100,54,4.96,1.49,bookings_bucket=50;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/salerno
+2026-10-12,stasher,trapani,Rental Shop near Las Olas,38.013755,12.511565,300,50,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/trapani
+2026-10-12,stasher,trapani,Rental Shop near Porto di Trapani,38.0150331,12.51258,200,16,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/trapani
+2026-10-12,stasher,trapani,Office near Trapani Port,38.01392,12.51302,200,14,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/trapani
+2026-10-12,stasher,trapani,Rental Shop near Porto di Trapani,38.0138836,12.5126928,20,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/trapani
+2026-10-12,stasher,treviso,Hostel near Porta San Marco,45.6734879,12.2237946,20,2,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/treviso
+2026-10-12,stasher,turin,Postal Shop near Mole Antonelliana,45.0696897,7.6534688,60,34,4.97,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/turin
+2026-10-12,stasher,turin,Hotel near Torino Porta Susa,45.07225649999999,7.6636454,10,31,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/turin
+2026-10-12,stasher,turin,Tech Shop near Stazione di Torino Porta Nuova,45.0597273,7.6791901,10,18,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/turin
+2026-10-12,stasher,turin,Convenience Store near Duomo di Torino,45.07108239999999,7.6818783,10,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/turin
+2026-10-12,stasher,turin,Food & Beverage Business near Galleria Arte Moderna,45.0602805,7.6583706,16,5,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/turin
+2026-10-12,stasher,turin,Luggage Storage Shop near Piazza Castello,45.07013610000001,7.686993099999999,69,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/turin
+2026-10-12,stasher,turin,Restaurant near Porta Nuova Station,45.0633948,7.681815199999999,10,4,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/turin
+2026-10-12,stasher,turin,Rental Shop near centro,45.0874759,7.7002476,24,3,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/turin
+2026-10-12,stasher,turin,Health & Beauty Business near Parco Dora,45.0849244,7.6643548,39,2,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/turin
+2026-10-12,stasher,turin,Convenience Store near Mole Antonelliana,45.0722225,7.693210299999999,10,1,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/turin
+2026-10-12,stasher,venice,Laundry Business near Stazione Santa Lucia ,45.4393125,12.3230625,26,915,4.97,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/venice
+2026-10-12,stasher,venice,Hotel near Ponte di Rialto,45.43729,12.3361147,18,267,4.99,1.49,bookings_bucket=250;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/venice
+2026-10-12,stasher,venice,Hotel near Ca d'oro e Casino di Venezia,45.4429188,12.3324706,10,185,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/venice
+2026-10-12,stasher,venice,Hotel near Centro ,45.4405402,12.3346376,40,138,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/venice
+2026-10-12,stasher,venice,Health & Beauty Business near Centro storico,45.42909,12.32798,20,77,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/venice
+2026-10-12,stasher,venice,Luggage Storage Shop near Bembo Tram Stop,45.4863893,12.240305,48,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/venice
+2026-10-12,stasher,venice,Hotel near Venice Mestre,45.4829031,12.2372419,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/venice
+2026-10-12,stasher,venice,Hotel near Venezia Mestre,45.4834492,12.2371989,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/venice
+2026-10-12,stasher,venice,Restaurant near Consorzio Manzoni Spiagge,45.4836715,12.2352819,10,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/venice
+2026-10-12,stasher,venice,Hotel near Venezia Mestre,45.48943939999999,12.2400846,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/venice
+2026-10-12,stasher,verona,Shop near Via Valverde Pardaval Bus Stop,45.4368805,10.9878004,20,36,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/de/gepackaufbewahrung/italy/verona
+2026-10-12,stasher,ancona,Hotel near Ancona,43.60681,13.4981,20,211,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/es/consignas-equipaje/italy/ancona
+2026-10-12,stasher,arezzo,Restaurant near Piazza Grande,43.464302,11.884251,30,45,4.91,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/arezzo
+2026-10-12,stasher,bari,Tech Shop near Bari Centrale,41.119523,16.8689811,200,807,5,1.49,bookings_bucket=500;often_full=False,https://stasher.com/es/consignas-equipaje/italy/bari
+2026-10-12,stasher,bari,Tech Shop near Stazione Centrale Bari,41.11888250000001,16.871007,60,73,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/es/consignas-equipaje/italy/bari
+2026-10-12,stasher,bari,Locker near Basilica San Nicola,41.1305386,16.8694758,11,63,4.94,1.49,bookings_bucket=50;often_full=False,https://stasher.com/es/consignas-equipaje/italy/bari
+2026-10-12,stasher,bari,Shop near Teatro Margherita,41.1252219,16.8687318,100,48,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/es/consignas-equipaje/italy/bari
+2026-10-12,stasher,bari,Postal Shop near Piazza Umberto ,41.121592,16.8690729,200,34,4.97,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/bari
+2026-10-12,stasher,bari,Luggage Storage Shop near Bari Centrale,41.1196718,16.8690192,100,23,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/bari
+2026-10-12,stasher,bari,Shop near Teatro Abeliano,41.110561,16.896563,400,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/es/consignas-equipaje/italy/bari
+2026-10-12,stasher,bari,Shop near Bari Centrale Station,41.1195211,16.8691084,80,7,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/es/consignas-equipaje/italy/bari
+2026-10-12,stasher,bari,Shop near Bari Centrale,41.1218471,16.8646298,50,2,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/bari
+2026-10-12,stasher,bari,Newsagent near Poggiofranco,41.0968572,16.8550058,10,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/bari
+2026-10-12,stasher,bergamo,Smoke Shop near Stazione autobus e treni,45.6242342,9.3341165,24,7,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/es/consignas-equipaje/italy/bergamo
+2026-10-12,stasher,bologna,Luggage Storage Shop near Piazza maggiore,44.4985824,11.3468,200,94,4.97,1.49,bookings_bucket=100;often_full=False,https://stasher.com/es/consignas-equipaje/italy/bologna
+2026-10-12,stasher,bologna,Luggage Storage Shop near Due Torri,44.49381109999999,11.3471308,100,87,4.98,1.49,bookings_bucket=50;often_full=False,https://stasher.com/es/consignas-equipaje/italy/bologna
+2026-10-12,stasher,bologna,Smoke Shop near centro di Bologna,44.4982416,11.3301976,100,46,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/bologna
+2026-10-12,stasher,bologna,Tech Shop near Piazza Maggiore,44.4956295,11.3386315,10,25,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/bologna
+2026-10-12,stasher,bologna,Smoke Shop near Centro storico Bologna ,44.475891,11.2767098,24,2,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/es/consignas-equipaje/italy/bologna
+2026-10-12,stasher,bolzano,Cafe near Poste Italia,46.4979188,11.3527034,50,89,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/es/consignas-equipaje/italy/bolzano
+2026-10-12,stasher,brindisi,Postal Shop near ibis hotel ,40.6270432,17.931672,48,7,4.57,1.49,bookings_bucket=5;often_full=False,https://stasher.com/es/consignas-equipaje/italy/brindisi
+2026-10-12,stasher,cagliari,Shop near Bastione di Saint Remy,39.2159254,9.1091505,10,3,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/es/consignas-equipaje/italy/cagliari
+2026-10-12,stasher,cagliari,Hotel near Giulio Cesare Bus Stop,39.25642759999999,9.1431722,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/cagliari
+2026-10-12,stasher,catania,Hotel near Villa Bellini,37.510574,15.0857248,60,195,4.95,1.49,bookings_bucket=100;often_full=False,https://stasher.com/es/consignas-equipaje/italy/catania
+2026-10-12,stasher,catania,Hostel near Catania,37.507179,15.08621,200,183,4.97,1.49,bookings_bucket=100;often_full=False,https://stasher.com/es/consignas-equipaje/italy/catania
+2026-10-12,stasher,catania,"Hotel near Central Train Station,   Terminal Bus for all of town in Sicily",37.5102379,15.0975934,10,76,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/es/consignas-equipaje/italy/catania
+2026-10-12,stasher,catania,Hotel near Teatro Vincenzo Bellini,37.5037762,15.0901138,100,72,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/es/consignas-equipaje/italy/catania
+2026-10-12,stasher,catania,Postal Shop near Villa Bellini - Tribunale,37.51219,15.0937913,200,19,4.84,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/catania
+2026-10-12,stasher,catania,Postal Shop near Piazza Carlo Alberto di Savoia,37.5099104,15.0873376,40,18,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/es/consignas-equipaje/italy/catania
+2026-10-12,stasher,catania,Postal Shop near Roman Amphitheater of Catania,37.5082137,15.082746,170,12,4.67,1.49,bookings_bucket=10;often_full=False,https://stasher.com/es/consignas-equipaje/italy/catania
+2026-10-12,stasher,catania,Smoke Shop near Massimo Bellini Theater,37.50495069999999,15.0882554,33,2,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/es/consignas-equipaje/italy/catania
+2026-10-12,stasher,catania,Rental Shop near Cattedrale di Sant'Agata,37.509043,15.0793285,20,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/catania
+2026-10-12,stasher,catania,Shop near Borgo Metro Station,37.524082416500676,15.082182451444956,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/catania
+2026-10-12,stasher,como,Luggage Storage Shop near altro,45.80337129999999,9.0852762,10,16,4.81,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/como
+2026-10-12,stasher,ferrara,Hotel near Stazione,44.83996,11.615455,100,192,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/es/consignas-equipaje/italy/ferrara
+2026-10-12,stasher,florence,Office near Piazza duomo firenze,43.7762396,11.2520844,900,84,4.99,1.49,bookings_bucket=50;often_full=False,https://stasher.com/es/consignas-equipaje/italy/florence
+2026-10-12,stasher,florence,Shop near Verdi,43.77152,11.26038,10,56,4.89,1.49,bookings_bucket=50;often_full=False,https://stasher.com/es/consignas-equipaje/italy/florence
+2026-10-12,stasher,florence,Hotel near Firenze Santa Maria Novella,43.7760001,11.2509536,29,49,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/es/consignas-equipaje/italy/florence
+2026-10-12,stasher,florence,Health & Beauty Business near Firenze Santa Maria Novella,43.773577,11.2468771,10,42,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/florence
+2026-10-12,stasher,florence,Shop near Basílica de Santa Maria Novella,43.7758862,11.2543641,15,26,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/florence
+2026-10-12,stasher,florence,Tech Shop near Firenze Santa Maria Novella,43.7772721,11.2558541,40,18,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/florence
+2026-10-12,stasher,florence,Food & Beverage Business near Verdi,43.769941,11.2632342,10,15,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/florence
+2026-10-12,stasher,florence,Hotel near Piazza della Signoria,43.7704805,11.25677,10,1,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/es/consignas-equipaje/italy/florence
+2026-10-12,stasher,florence,Restaurant near Cattedrale di Santa Maria del Fiore,43.7686913,11.2580285,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/florence
+2026-10-12,stasher,florence,Rental Shop near Cattedrale di Santa Maria del Fiore,43.769981,11.263198,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/florence
+2026-10-12,stasher,genoa,Hotel near Stazione,44.4155718,8.9226802,600,177,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/es/consignas-equipaje/italy/genoa
+2026-10-12,stasher,genoa,Cafe near Acquario di Genova,44.4085625,8.9284375,40,62,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/es/consignas-equipaje/italy/genoa
+2026-10-12,stasher,genoa,Restaurant near Genova Brignole,44.4035714,8.9427317,30,5,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/es/consignas-equipaje/italy/genoa
+2026-10-12,stasher,genoa,Food & Beverage Business near Old City / Duomo,44.4072035,8.9310337,10,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/genoa
+2026-10-12,stasher,genoa,Restaurant near Cruise Terminal,44.4101448,8.9075255,25,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/genoa
+2026-10-12,stasher,lecce,Smoke Shop near Parco Simone Renda,40.3595568,18.1834953,30,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/es/consignas-equipaje/italy/lecce
+2026-10-12,stasher,lucca,Hotel near Lucca,43.8404,10.50395,7,74,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/es/consignas-equipaje/italy/lucca
+2026-10-12,stasher,lucca,Hotel near Mura di Lucca,43.8440463,10.5188382,24,25,4.92,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/lucca
+2026-10-12,stasher,matera,"Office near Parco Murgia, Chiese Rupestri, Sassi",40.6898439,16.5869219,100,1,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/es/consignas-equipaje/italy/matera
+2026-10-12,stasher,matera,Luggage Storage Shop near Parco dei Quattro Evangelisti,40.6766176,16.5747026,100,2,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/matera
+2026-10-12,stasher,matera,"Office near Parco Murgia, Sassi, ",40.6898439,16.5869219,160,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/matera
+2026-10-12,stasher,messina,Smoke Shop near Messina Centrale,38.18384383530709,15.55794048769684,30,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/messina
+2026-10-12,stasher,milan,Food & Beverage Business near Trattoria Pizzeria La Fermata,45.46334299999999,9.189306,192,1677,4.97,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/es/consignas-equipaje/italy/milan
+2026-10-12,stasher,milan,Restaurant near Duomo,45.463228,9.188958,60,1291,4.98,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/es/consignas-equipaje/italy/milan
+2026-10-12,stasher,milan,Car Park near Duomo,45.4670839,9.192258,420,757,5,1.49,bookings_bucket=500;often_full=False,https://stasher.com/es/consignas-equipaje/italy/milan
+2026-10-12,stasher,milan,Laundry Business near Duomo di Milano,45.46180349999999,9.1869883,100,105,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/es/consignas-equipaje/italy/milan
+2026-10-12,stasher,milan,Smoke Shop near castello sforzesco,45.4682015,9.1826769,30,71,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/es/consignas-equipaje/italy/milan
+2026-10-12,stasher,milan,Shop near Colonne,45.460834,9.18103,20,55,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/es/consignas-equipaje/italy/milan
+2026-10-12,stasher,milan,Smoke Shop near Duomo di Milano,45.46470009999999,9.1973966,20,35,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/milan
+2026-10-12,stasher,milan,Cafe near Piccolo Teatro Milan,45.4646302,9.181684800000001,9,13,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/es/consignas-equipaje/italy/milan
+2026-10-12,stasher,milan,Health & Beauty Business near Piccolo Teatro Grassi,45.4657689,9.1815102,10,5,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/es/consignas-equipaje/italy/milan
+2026-10-12,stasher,milan,Hotel near Duomo di Milano,45.4585529,9.1884716,100,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/es/consignas-equipaje/italy/milan
+2026-10-12,stasher,naples,Hotel near Naples - Piazza Garibaldi Corso Umberto,40.8504013,14.2649954,94,1068,4.99,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/es/consignas-equipaje/italy/naples
+2026-10-12,stasher,naples,Hotel near Stazione Centrale Garibaldi di Napoli,40.8531058,14.2710624,29,398,4.98,1.49,bookings_bucket=250;often_full=False,https://stasher.com/es/consignas-equipaje/italy/naples
+2026-10-12,stasher,naples,Rental Shop near Stazione Centrale Di Napoli,40.850743,14.2723873,180,149,4.93,1.49,bookings_bucket=100;often_full=False,https://stasher.com/es/consignas-equipaje/italy/naples
+2026-10-12,stasher,naples,Shop near Metro station ,40.8505775,14.272648,50,108,4.96,1.49,bookings_bucket=100;often_full=False,https://stasher.com/es/consignas-equipaje/italy/naples
+2026-10-12,stasher,naples,Shop near Napoli Porta Nolana,40.850814,14.2670932,100,73,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/es/consignas-equipaje/italy/naples
+2026-10-12,stasher,naples,Hotel near Stazione Centrale,40.8533366,14.2692689683658,100,44,4.86,1.49,bookings_bucket=50;often_full=False,https://stasher.com/es/consignas-equipaje/italy/naples
+2026-10-12,stasher,naples,Restaurant near Napoli Centrale,40.8533283,14.2711142,200,30,4.87,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/naples
+2026-10-12,stasher,naples,Shop near Principe Umberto Tram Stop,40.8532294,14.2677807,160,14,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/naples
+2026-10-12,stasher,naples,Shop near Napoli Centrale,40.84989789999999,14.2683827,10,1,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/naples
+2026-10-12,stasher,naples,Tech Shop near Napoli Porta Nolana,40.8501516,14.2696036,50,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/naples
+2026-10-12,stasher,padua,Hotel near Stazione Padova,45.418424,11.874332,100,303,5,1.49,bookings_bucket=250;often_full=False,https://stasher.com/es/consignas-equipaje/italy/padua
+2026-10-12,stasher,palermo,Hotel near Teatro Politeama Garibaldi,38.12340055077892,13.359080465401606,20,43,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/palermo
+2026-10-12,stasher,palermo,Office near Mercado de la Vucciria,38.1176781,13.3645311,40,25,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/palermo
+2026-10-12,stasher,palermo,Newsagent near Politeama,38.123875,13.3599754,30,14,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/es/consignas-equipaje/italy/palermo
+2026-10-12,stasher,palermo,Smoke Shop near Stadio Renzo Barbera,38.1465583,13.3390495,50,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/es/consignas-equipaje/italy/palermo
+2026-10-12,stasher,palermo,Shop near Parco Ninni Cassarà,38.1007,13.33495,40,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/palermo
+2026-10-12,stasher,palermo,Cafe near Teatro Massimo,38.1193182,13.3526811,10,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/palermo
+2026-10-12,stasher,palermo,Shop near chiesa santissima mediatrice,38.1007,13.33495,40,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/palermo
+2026-10-12,stasher,palermo,Shop near Aeroporto Boccadifalco,38.11096,13.32929,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/palermo
+2026-10-12,stasher,palermo,Office near IL TUAREG T.O.,38.140371,13.3342968,24,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/palermo
+2026-10-12,stasher,parma,Cafe near Ospedale maggiore,44.809489,10.3054293,20,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/es/consignas-equipaje/italy/parma
+2026-10-12,stasher,perugia,Postal Shop near Perugia Railway Station,43.1016975,12.3771526,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/perugia
+2026-10-12,stasher,pescara,Office near Pescara Centrale,42.4712778,14.2054573,40,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/pescara
+2026-10-12,stasher,pisa,Hostel near Pisa Centrale,43.70703,10.40437,46,972,5,6.78,bookings_bucket=1000;often_full=False,https://stasher.com/es/consignas-equipaje/italy/pisa
+2026-10-12,stasher,pisa,Tech Shop near Train station ,43.7098873,10.4006981,100,221,4.99,1.49,bookings_bucket=250;often_full=False,https://stasher.com/es/consignas-equipaje/italy/pisa
+2026-10-12,stasher,pisa,Shop near Pisa Centrale,43.7078814,10.4073151,20,6,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/es/consignas-equipaje/italy/pisa
+2026-10-12,stasher,pordenone,Shop near Dolomiti ,45.9727964,12.6493281,100,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/es/consignas-equipaje/italy/pordenone
+2026-10-12,stasher,rimini,Hotel near Centro storico ,44.0675002,12.5770926,20,33,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/rimini
+2026-10-12,stasher,rimini,Hotel near spiaggia,44.06423,12.5829734,24,17,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/es/consignas-equipaje/italy/rimini
+2026-10-12,stasher,rimini,Hostel near Rimini Nord - Stazione,44.075236,12.5607071,48,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/es/consignas-equipaje/italy/rimini
+2026-10-12,stasher,rimini,Hotel near Rimini Centra Station - New Dock,44.0712873,12.5686132,48,7,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/es/consignas-equipaje/italy/rimini
+2026-10-12,stasher,rome,Hotel near Roma Termini,41.899152,12.499555,24,4236,4.99,1.49,bookings_bucket=2500;often_full=False,https://stasher.com/es/consignas-equipaje/italy/rome
+2026-10-12,stasher,rome,Shop near Roma Termini,41.8998754,12.5011437,392,1210,4.98,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/es/consignas-equipaje/italy/rome
+2026-10-12,stasher,rome,Shop near Roma Termini,41.9017162,12.4972151,198,335,5,1.49,bookings_bucket=250;often_full=False,https://stasher.com/es/consignas-equipaje/italy/rome
+2026-10-12,stasher,rome,Health & Beauty Business near Roma Termini,41.8994447,12.5005109,1000,193,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/es/consignas-equipaje/italy/rome
+2026-10-12,stasher,rome,Tech Shop near rifugio romano,41.9043278,12.4997119,200,56,4.71,1.49,bookings_bucket=50;often_full=False,https://stasher.com/es/consignas-equipaje/italy/rome
+2026-10-12,stasher,rome,Laundry Business near Teatro dell'Opera di Roma,41.9006827,12.4943461,100,35,4.97,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/rome
+2026-10-12,stasher,rome,Luggage Storage Shop near Roma Termini,41.9014221,12.4945492,100,29,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/rome
+2026-10-12,stasher,rome,Hotel near Roma Termini,41.90447899999999,12.500224,50,10,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/es/consignas-equipaje/italy/rome
+2026-10-12,stasher,rome,Souvenir Shop near Roma Termini,41.9037497,12.5007283,10,3,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/es/consignas-equipaje/italy/rome
+2026-10-12,stasher,rome,Laundry Business near Roma Termini,41.9051965,12.4998123,20,2,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/rome
+2026-10-12,stasher,salerno,Postal Shop near Salerno,40.677139,14.766728,100,54,4.96,1.49,bookings_bucket=50;often_full=False,https://stasher.com/es/consignas-equipaje/italy/salerno
+2026-10-12,stasher,trapani,Rental Shop near Las Olas,38.013755,12.511565,300,50,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/es/consignas-equipaje/italy/trapani
+2026-10-12,stasher,trapani,Rental Shop near Porto di Trapani,38.0150331,12.51258,200,16,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/trapani
+2026-10-12,stasher,trapani,Office near Trapani Port,38.01392,12.51302,200,14,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/es/consignas-equipaje/italy/trapani
+2026-10-12,stasher,trapani,Rental Shop near Porto di Trapani,38.0138836,12.5126928,20,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/trapani
+2026-10-12,stasher,treviso,Hostel near Porta San Marco,45.6734879,12.2237946,20,2,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/es/consignas-equipaje/italy/treviso
+2026-10-12,stasher,turin,Postal Shop near Mole Antonelliana,45.0696897,7.6534688,60,34,4.97,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/turin
+2026-10-12,stasher,turin,Hotel near Torino Porta Susa,45.07225649999999,7.6636454,10,31,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/turin
+2026-10-12,stasher,turin,Tech Shop near Stazione di Torino Porta Nuova,45.0597273,7.6791901,10,18,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/es/consignas-equipaje/italy/turin
+2026-10-12,stasher,turin,Convenience Store near Duomo di Torino,45.07108239999999,7.6818783,10,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/es/consignas-equipaje/italy/turin
+2026-10-12,stasher,turin,Food & Beverage Business near Galleria Arte Moderna,45.0602805,7.6583706,16,5,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/es/consignas-equipaje/italy/turin
+2026-10-12,stasher,turin,Luggage Storage Shop near Piazza Castello,45.07013610000001,7.686993099999999,69,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/es/consignas-equipaje/italy/turin
+2026-10-12,stasher,turin,Restaurant near Porta Nuova Station,45.0633948,7.681815199999999,10,4,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/es/consignas-equipaje/italy/turin
+2026-10-12,stasher,turin,Rental Shop near centro,45.0874759,7.7002476,24,3,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/es/consignas-equipaje/italy/turin
+2026-10-12,stasher,turin,Health & Beauty Business near Parco Dora,45.0849244,7.6643548,39,2,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/es/consignas-equipaje/italy/turin
+2026-10-12,stasher,turin,Convenience Store near Mole Antonelliana,45.0722225,7.693210299999999,10,1,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/es/consignas-equipaje/italy/turin
+2026-10-12,stasher,venice,Laundry Business near Stazione Santa Lucia ,45.4393125,12.3230625,26,915,4.97,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/es/consignas-equipaje/italy/venice
+2026-10-12,stasher,venice,Hotel near Ponte di Rialto,45.43729,12.3361147,18,267,4.99,1.49,bookings_bucket=250;often_full=False,https://stasher.com/es/consignas-equipaje/italy/venice
+2026-10-12,stasher,venice,Hotel near Ca d'oro e Casino di Venezia,45.4429188,12.3324706,10,185,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/es/consignas-equipaje/italy/venice
+2026-10-12,stasher,venice,Hotel near Centro ,45.4405402,12.3346376,40,138,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/es/consignas-equipaje/italy/venice
+2026-10-12,stasher,venice,Health & Beauty Business near Centro storico,45.42909,12.32798,20,77,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/es/consignas-equipaje/italy/venice
+2026-10-12,stasher,venice,Luggage Storage Shop near Bembo Tram Stop,45.4863893,12.240305,48,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/es/consignas-equipaje/italy/venice
+2026-10-12,stasher,venice,Hotel near Venice Mestre,45.4829031,12.2372419,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/venice
+2026-10-12,stasher,venice,Hotel near Venezia Mestre,45.4834492,12.2371989,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/venice
+2026-10-12,stasher,venice,Restaurant near Consorzio Manzoni Spiagge,45.4836715,12.2352819,10,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/venice
+2026-10-12,stasher,venice,Hotel near Venezia Mestre,45.48943939999999,12.2400846,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/es/consignas-equipaje/italy/venice
+2026-10-12,stasher,verona,Shop near Via Valverde Pardaval Bus Stop,45.4368805,10.9878004,20,36,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/es/consignas-equipaje/italy/verona
+2026-10-12,stasher,ancona,Hotel near Ancona,43.60681,13.4981,20,211,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/fr/consigne-bagages/italy/ancona
+2026-10-12,stasher,arezzo,Restaurant near Piazza Grande,43.464302,11.884251,30,45,4.91,1.49,bookings_bucket=20;often_full=False,https://stasher.com/fr/consigne-bagages/italy/arezzo
+2026-10-12,stasher,bari,Tech Shop near Bari Centrale,41.119523,16.8689811,200,807,5,1.49,bookings_bucket=500;often_full=False,https://stasher.com/fr/consigne-bagages/italy/bari
+2026-10-12,stasher,bari,Tech Shop near Stazione Centrale Bari,41.11888250000001,16.871007,60,73,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/fr/consigne-bagages/italy/bari
+2026-10-12,stasher,bari,Locker near Basilica San Nicola,41.1305386,16.8694758,11,63,4.94,1.49,bookings_bucket=50;often_full=False,https://stasher.com/fr/consigne-bagages/italy/bari
+2026-10-12,stasher,bari,Shop near Teatro Margherita,41.1252219,16.8687318,100,48,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/fr/consigne-bagages/italy/bari
+2026-10-12,stasher,bari,Postal Shop near Piazza Umberto ,41.121592,16.8690729,200,34,4.97,1.49,bookings_bucket=20;often_full=False,https://stasher.com/fr/consigne-bagages/italy/bari
+2026-10-12,stasher,bari,Luggage Storage Shop near Bari Centrale,41.1196718,16.8690192,100,23,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/fr/consigne-bagages/italy/bari
+2026-10-12,stasher,bari,Shop near Teatro Abeliano,41.110561,16.896563,400,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/fr/consigne-bagages/italy/bari
+2026-10-12,stasher,bari,Shop near Bari Centrale Station,41.1195211,16.8691084,80,7,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/fr/consigne-bagages/italy/bari
+2026-10-12,stasher,bari,Shop near Bari Centrale,41.1218471,16.8646298,50,2,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/bari
+2026-10-12,stasher,bari,Newsagent near Poggiofranco,41.0968572,16.8550058,10,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/bari
+2026-10-12,stasher,bergamo,Smoke Shop near Stazione autobus e treni,45.6242342,9.3341165,24,7,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/fr/consigne-bagages/italy/bergamo
+2026-10-12,stasher,bologna,Luggage Storage Shop near Piazza maggiore,44.4985824,11.3468,200,94,4.97,1.49,bookings_bucket=100;often_full=False,https://stasher.com/fr/consigne-bagages/italy/bologna
+2026-10-12,stasher,bologna,Luggage Storage Shop near Due Torri,44.49381109999999,11.3471308,100,87,4.98,1.49,bookings_bucket=50;often_full=False,https://stasher.com/fr/consigne-bagages/italy/bologna
+2026-10-12,stasher,bologna,Smoke Shop near centro di Bologna,44.4982416,11.3301976,100,46,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/fr/consigne-bagages/italy/bologna
+2026-10-12,stasher,bologna,Tech Shop near Piazza Maggiore,44.4956295,11.3386315,10,25,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/fr/consigne-bagages/italy/bologna
+2026-10-12,stasher,bologna,Smoke Shop near Centro storico Bologna ,44.475891,11.2767098,24,2,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/fr/consigne-bagages/italy/bologna
+2026-10-12,stasher,bolzano,Cafe near Poste Italia,46.4979188,11.3527034,50,89,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/fr/consigne-bagages/italy/bolzano
+2026-10-12,stasher,brindisi,Postal Shop near ibis hotel ,40.6270432,17.931672,48,7,4.57,1.49,bookings_bucket=5;often_full=False,https://stasher.com/fr/consigne-bagages/italy/brindisi
+2026-10-12,stasher,cagliari,Shop near Bastione di Saint Remy,39.2159254,9.1091505,10,3,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/fr/consigne-bagages/italy/cagliari
+2026-10-12,stasher,cagliari,Hotel near Giulio Cesare Bus Stop,39.25642759999999,9.1431722,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/cagliari
+2026-10-12,stasher,catania,Hotel near Villa Bellini,37.510574,15.0857248,60,195,4.95,1.49,bookings_bucket=100;often_full=False,https://stasher.com/fr/consigne-bagages/italy/catania
+2026-10-12,stasher,catania,Hostel near Catania,37.507179,15.08621,200,183,4.97,1.49,bookings_bucket=100;often_full=False,https://stasher.com/fr/consigne-bagages/italy/catania
+2026-10-12,stasher,catania,"Hotel near Central Train Station,   Terminal Bus for all of town in Sicily",37.5102379,15.0975934,10,76,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/fr/consigne-bagages/italy/catania
+2026-10-12,stasher,catania,Hotel near Teatro Vincenzo Bellini,37.5037762,15.0901138,100,72,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/fr/consigne-bagages/italy/catania
+2026-10-12,stasher,catania,Postal Shop near Villa Bellini - Tribunale,37.51219,15.0937913,200,19,4.84,1.49,bookings_bucket=20;often_full=False,https://stasher.com/fr/consigne-bagages/italy/catania
+2026-10-12,stasher,catania,Postal Shop near Piazza Carlo Alberto di Savoia,37.5099104,15.0873376,40,18,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/fr/consigne-bagages/italy/catania
+2026-10-12,stasher,catania,Postal Shop near Roman Amphitheater of Catania,37.5082137,15.082746,170,12,4.67,1.49,bookings_bucket=10;often_full=False,https://stasher.com/fr/consigne-bagages/italy/catania
+2026-10-12,stasher,catania,Smoke Shop near Massimo Bellini Theater,37.50495069999999,15.0882554,33,2,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/fr/consigne-bagages/italy/catania
+2026-10-12,stasher,catania,Rental Shop near Cattedrale di Sant'Agata,37.509043,15.0793285,20,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/catania
+2026-10-12,stasher,catania,Shop near Borgo Metro Station,37.524082416500676,15.082182451444956,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/catania
+2026-10-12,stasher,como,Luggage Storage Shop near altro,45.80337129999999,9.0852762,10,16,4.81,1.49,bookings_bucket=20;often_full=False,https://stasher.com/fr/consigne-bagages/italy/como
+2026-10-12,stasher,ferrara,Hotel near Stazione,44.83996,11.615455,100,192,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/fr/consigne-bagages/italy/ferrara
+2026-10-12,stasher,florence,Office near Piazza duomo firenze,43.7762396,11.2520844,900,84,4.99,1.49,bookings_bucket=50;often_full=False,https://stasher.com/fr/consigne-bagages/italy/florence
+2026-10-12,stasher,florence,Shop near Verdi,43.77152,11.26038,10,56,4.89,1.49,bookings_bucket=50;often_full=False,https://stasher.com/fr/consigne-bagages/italy/florence
+2026-10-12,stasher,florence,Hotel near Firenze Santa Maria Novella,43.7760001,11.2509536,29,49,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/fr/consigne-bagages/italy/florence
+2026-10-12,stasher,florence,Health & Beauty Business near Firenze Santa Maria Novella,43.773577,11.2468771,10,42,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/fr/consigne-bagages/italy/florence
+2026-10-12,stasher,florence,Shop near Basílica de Santa Maria Novella,43.7758862,11.2543641,15,26,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/fr/consigne-bagages/italy/florence
+2026-10-12,stasher,florence,Tech Shop near Firenze Santa Maria Novella,43.7772721,11.2558541,40,18,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/fr/consigne-bagages/italy/florence
+2026-10-12,stasher,florence,Food & Beverage Business near Verdi,43.769941,11.2632342,10,15,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/fr/consigne-bagages/italy/florence
+2026-10-12,stasher,florence,Hotel near Piazza della Signoria,43.7704805,11.25677,10,1,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/fr/consigne-bagages/italy/florence
+2026-10-12,stasher,florence,Restaurant near Cattedrale di Santa Maria del Fiore,43.7686913,11.2580285,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/florence
+2026-10-12,stasher,florence,Rental Shop near Cattedrale di Santa Maria del Fiore,43.769981,11.263198,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/florence
+2026-10-12,stasher,genoa,Hotel near Stazione,44.4155718,8.9226802,600,177,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/fr/consigne-bagages/italy/genoa
+2026-10-12,stasher,genoa,Cafe near Acquario di Genova,44.4085625,8.9284375,40,62,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/fr/consigne-bagages/italy/genoa
+2026-10-12,stasher,genoa,Restaurant near Genova Brignole,44.4035714,8.9427317,30,5,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/fr/consigne-bagages/italy/genoa
+2026-10-12,stasher,genoa,Food & Beverage Business near Old City / Duomo,44.4072035,8.9310337,10,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/genoa
+2026-10-12,stasher,genoa,Restaurant near Cruise Terminal,44.4101448,8.9075255,25,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/genoa
+2026-10-12,stasher,lecce,Smoke Shop near Parco Simone Renda,40.3595568,18.1834953,30,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/fr/consigne-bagages/italy/lecce
+2026-10-12,stasher,matera,"Office near Parco Murgia, Chiese Rupestri, Sassi",40.6898439,16.5869219,100,1,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/fr/consigne-bagages/italy/matera
+2026-10-12,stasher,matera,Luggage Storage Shop near Parco dei Quattro Evangelisti,40.6766176,16.5747026,100,2,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/matera
+2026-10-12,stasher,matera,"Office near Parco Murgia, Sassi, ",40.6898439,16.5869219,160,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/matera
+2026-10-12,stasher,messina,Smoke Shop near Messina Centrale,38.18384383530709,15.55794048769684,30,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/messina
+2026-10-12,stasher,milan,Food & Beverage Business near Trattoria Pizzeria La Fermata,45.46334299999999,9.189306,192,1677,4.97,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/fr/consigne-bagages/italy/milan
+2026-10-12,stasher,milan,Restaurant near Duomo,45.463228,9.188958,60,1291,4.98,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/fr/consigne-bagages/italy/milan
+2026-10-12,stasher,milan,Car Park near Duomo,45.4670839,9.192258,420,757,5,1.49,bookings_bucket=500;often_full=False,https://stasher.com/fr/consigne-bagages/italy/milan
+2026-10-12,stasher,milan,Laundry Business near Duomo di Milano,45.46180349999999,9.1869883,100,105,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/fr/consigne-bagages/italy/milan
+2026-10-12,stasher,milan,Smoke Shop near castello sforzesco,45.4682015,9.1826769,30,71,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/fr/consigne-bagages/italy/milan
+2026-10-12,stasher,milan,Shop near Colonne,45.460834,9.18103,20,55,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/fr/consigne-bagages/italy/milan
+2026-10-12,stasher,milan,Smoke Shop near Duomo di Milano,45.46470009999999,9.1973966,20,35,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/fr/consigne-bagages/italy/milan
+2026-10-12,stasher,milan,Cafe near Piccolo Teatro Milan,45.4646302,9.181684800000001,9,13,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/fr/consigne-bagages/italy/milan
+2026-10-12,stasher,milan,Health & Beauty Business near Piccolo Teatro Grassi,45.4657689,9.1815102,10,5,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/fr/consigne-bagages/italy/milan
+2026-10-12,stasher,milan,Hotel near Duomo di Milano,45.4585529,9.1884716,100,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/fr/consigne-bagages/italy/milan
+2026-10-12,stasher,naples,Hotel near Naples - Piazza Garibaldi Corso Umberto,40.8504013,14.2649954,94,1068,4.99,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/fr/consigne-bagages/italy/naples
+2026-10-12,stasher,naples,Hotel near Stazione Centrale Garibaldi di Napoli,40.8531058,14.2710624,29,398,4.98,1.49,bookings_bucket=250;often_full=False,https://stasher.com/fr/consigne-bagages/italy/naples
+2026-10-12,stasher,naples,Rental Shop near Stazione Centrale Di Napoli,40.850743,14.2723873,180,149,4.93,1.49,bookings_bucket=100;often_full=False,https://stasher.com/fr/consigne-bagages/italy/naples
+2026-10-12,stasher,naples,Shop near Metro station ,40.8505775,14.272648,50,108,4.96,1.49,bookings_bucket=100;often_full=False,https://stasher.com/fr/consigne-bagages/italy/naples
+2026-10-12,stasher,naples,Shop near Napoli Porta Nolana,40.850814,14.2670932,100,73,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/fr/consigne-bagages/italy/naples
+2026-10-12,stasher,naples,Hotel near Stazione Centrale,40.8533366,14.2692689683658,100,44,4.86,1.49,bookings_bucket=50;often_full=False,https://stasher.com/fr/consigne-bagages/italy/naples
+2026-10-12,stasher,naples,Restaurant near Napoli Centrale,40.8533283,14.2711142,200,30,4.87,1.49,bookings_bucket=20;often_full=False,https://stasher.com/fr/consigne-bagages/italy/naples
+2026-10-12,stasher,naples,Shop near Principe Umberto Tram Stop,40.8532294,14.2677807,160,14,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/fr/consigne-bagages/italy/naples
+2026-10-12,stasher,naples,Shop near Napoli Centrale,40.84989789999999,14.2683827,10,1,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/naples
+2026-10-12,stasher,naples,Tech Shop near Napoli Porta Nolana,40.8501516,14.2696036,50,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/naples
+2026-10-12,stasher,padua,Hotel near Stazione Padova,45.418424,11.874332,100,303,5,1.49,bookings_bucket=250;often_full=False,https://stasher.com/fr/consigne-bagages/italy/padua
+2026-10-12,stasher,palermo,Hotel near Teatro Politeama Garibaldi,38.12340055077892,13.359080465401606,20,43,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/fr/consigne-bagages/italy/palermo
+2026-10-12,stasher,palermo,Office near Mercado de la Vucciria,38.1176781,13.3645311,40,25,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/fr/consigne-bagages/italy/palermo
+2026-10-12,stasher,palermo,Newsagent near Politeama,38.123875,13.3599754,30,14,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/fr/consigne-bagages/italy/palermo
+2026-10-12,stasher,palermo,Smoke Shop near Stadio Renzo Barbera,38.1465583,13.3390495,50,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/fr/consigne-bagages/italy/palermo
+2026-10-12,stasher,palermo,Shop near Parco Ninni Cassarà,38.1007,13.33495,40,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/palermo
+2026-10-12,stasher,palermo,Cafe near Teatro Massimo,38.1193182,13.3526811,10,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/palermo
+2026-10-12,stasher,palermo,Shop near chiesa santissima mediatrice,38.1007,13.33495,40,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/palermo
+2026-10-12,stasher,palermo,Shop near Aeroporto Boccadifalco,38.11096,13.32929,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/palermo
+2026-10-12,stasher,palermo,Office near IL TUAREG T.O.,38.140371,13.3342968,24,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/palermo
+2026-10-12,stasher,parma,Cafe near Ospedale maggiore,44.809489,10.3054293,20,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/fr/consigne-bagages/italy/parma
+2026-10-12,stasher,perugia,Postal Shop near Perugia Railway Station,43.1016975,12.3771526,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/perugia
+2026-10-12,stasher,pescara,Office near Pescara Centrale,42.4712778,14.2054573,40,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/pescara
+2026-10-12,stasher,pisa,Hostel near Pisa Centrale,43.70703,10.40437,46,972,5,6.78,bookings_bucket=1000;often_full=False,https://stasher.com/fr/consigne-bagages/italy/pisa
+2026-10-12,stasher,pisa,Tech Shop near Train station ,43.7098873,10.4006981,100,221,4.99,1.49,bookings_bucket=250;often_full=False,https://stasher.com/fr/consigne-bagages/italy/pisa
+2026-10-12,stasher,pisa,Shop near Pisa Centrale,43.7078814,10.4073151,20,6,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/fr/consigne-bagages/italy/pisa
+2026-10-12,stasher,rimini,Hotel near Centro storico ,44.0675002,12.5770926,20,33,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/fr/consigne-bagages/italy/rimini
+2026-10-12,stasher,rimini,Hotel near spiaggia,44.06423,12.5829734,24,17,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/fr/consigne-bagages/italy/rimini
+2026-10-12,stasher,rimini,Hostel near Rimini Nord - Stazione,44.075236,12.5607071,48,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/fr/consigne-bagages/italy/rimini
+2026-10-12,stasher,rimini,Hotel near Rimini Centra Station - New Dock,44.0712873,12.5686132,48,7,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/fr/consigne-bagages/italy/rimini
+2026-10-12,stasher,rome,Hotel near Roma Termini,41.899152,12.499555,24,4236,4.99,1.49,bookings_bucket=2500;often_full=False,https://stasher.com/fr/consigne-bagages/italy/rome
+2026-10-12,stasher,rome,Shop near Roma Termini,41.8998754,12.5011437,392,1210,4.98,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/fr/consigne-bagages/italy/rome
+2026-10-12,stasher,rome,Shop near Roma Termini,41.9017162,12.4972151,198,335,5,1.49,bookings_bucket=250;often_full=False,https://stasher.com/fr/consigne-bagages/italy/rome
+2026-10-12,stasher,rome,Health & Beauty Business near Roma Termini,41.8994447,12.5005109,1000,193,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/fr/consigne-bagages/italy/rome
+2026-10-12,stasher,rome,Tech Shop near rifugio romano,41.9043278,12.4997119,200,56,4.71,1.49,bookings_bucket=50;often_full=False,https://stasher.com/fr/consigne-bagages/italy/rome
+2026-10-12,stasher,rome,Laundry Business near Teatro dell'Opera di Roma,41.9006827,12.4943461,100,35,4.97,1.49,bookings_bucket=20;often_full=False,https://stasher.com/fr/consigne-bagages/italy/rome
+2026-10-12,stasher,rome,Luggage Storage Shop near Roma Termini,41.9014221,12.4945492,100,29,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/fr/consigne-bagages/italy/rome
+2026-10-12,stasher,rome,Hotel near Roma Termini,41.90447899999999,12.500224,50,10,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/fr/consigne-bagages/italy/rome
+2026-10-12,stasher,rome,Souvenir Shop near Roma Termini,41.9037497,12.5007283,10,3,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/fr/consigne-bagages/italy/rome
+2026-10-12,stasher,rome,Laundry Business near Roma Termini,41.9051965,12.4998123,20,2,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/rome
+2026-10-12,stasher,salerno,Postal Shop near Salerno,40.677139,14.766728,100,54,4.96,1.49,bookings_bucket=50;often_full=False,https://stasher.com/fr/consigne-bagages/italy/salerno
+2026-10-12,stasher,trapani,Rental Shop near Las Olas,38.013755,12.511565,300,50,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/fr/consigne-bagages/italy/trapani
+2026-10-12,stasher,trapani,Rental Shop near Porto di Trapani,38.0150331,12.51258,200,16,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/fr/consigne-bagages/italy/trapani
+2026-10-12,stasher,trapani,Office near Trapani Port,38.01392,12.51302,200,14,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/fr/consigne-bagages/italy/trapani
+2026-10-12,stasher,trapani,Rental Shop near Porto di Trapani,38.0138836,12.5126928,20,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/trapani
+2026-10-12,stasher,treviso,Hostel near Porta San Marco,45.6734879,12.2237946,20,2,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/fr/consigne-bagages/italy/treviso
+2026-10-12,stasher,turin,Postal Shop near Mole Antonelliana,45.0696897,7.6534688,60,34,4.97,1.49,bookings_bucket=20;often_full=False,https://stasher.com/fr/consigne-bagages/italy/turin
+2026-10-12,stasher,turin,Hotel near Torino Porta Susa,45.07225649999999,7.6636454,10,31,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/fr/consigne-bagages/italy/turin
+2026-10-12,stasher,turin,Tech Shop near Stazione di Torino Porta Nuova,45.0597273,7.6791901,10,18,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/fr/consigne-bagages/italy/turin
+2026-10-12,stasher,turin,Convenience Store near Duomo di Torino,45.07108239999999,7.6818783,10,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/fr/consigne-bagages/italy/turin
+2026-10-12,stasher,turin,Food & Beverage Business near Galleria Arte Moderna,45.0602805,7.6583706,16,5,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/fr/consigne-bagages/italy/turin
+2026-10-12,stasher,turin,Luggage Storage Shop near Piazza Castello,45.07013610000001,7.686993099999999,69,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/fr/consigne-bagages/italy/turin
+2026-10-12,stasher,turin,Restaurant near Porta Nuova Station,45.0633948,7.681815199999999,10,4,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/fr/consigne-bagages/italy/turin
+2026-10-12,stasher,turin,Rental Shop near centro,45.0874759,7.7002476,24,3,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/fr/consigne-bagages/italy/turin
+2026-10-12,stasher,turin,Health & Beauty Business near Parco Dora,45.0849244,7.6643548,39,2,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/fr/consigne-bagages/italy/turin
+2026-10-12,stasher,turin,Convenience Store near Mole Antonelliana,45.0722225,7.693210299999999,10,1,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/fr/consigne-bagages/italy/turin
+2026-10-12,stasher,venice,Laundry Business near Stazione Santa Lucia ,45.4393125,12.3230625,26,915,4.97,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/fr/consigne-bagages/italy/venice
+2026-10-12,stasher,venice,Hotel near Ponte di Rialto,45.43729,12.3361147,18,267,4.99,1.49,bookings_bucket=250;often_full=False,https://stasher.com/fr/consigne-bagages/italy/venice
+2026-10-12,stasher,venice,Hotel near Ca d'oro e Casino di Venezia,45.4429188,12.3324706,10,185,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/fr/consigne-bagages/italy/venice
+2026-10-12,stasher,venice,Hotel near Centro ,45.4405402,12.3346376,40,138,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/fr/consigne-bagages/italy/venice
+2026-10-12,stasher,venice,Health & Beauty Business near Centro storico,45.42909,12.32798,20,77,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/fr/consigne-bagages/italy/venice
+2026-10-12,stasher,venice,Luggage Storage Shop near Bembo Tram Stop,45.4863893,12.240305,48,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/fr/consigne-bagages/italy/venice
+2026-10-12,stasher,venice,Hotel near Venice Mestre,45.4829031,12.2372419,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/venice
+2026-10-12,stasher,venice,Hotel near Venezia Mestre,45.4834492,12.2371989,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/venice
+2026-10-12,stasher,venice,Restaurant near Consorzio Manzoni Spiagge,45.4836715,12.2352819,10,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/venice
+2026-10-12,stasher,venice,Hotel near Venezia Mestre,45.48943939999999,12.2400846,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/fr/consigne-bagages/italy/venice
+2026-10-12,stasher,verona,Shop near Via Valverde Pardaval Bus Stop,45.4368805,10.9878004,20,36,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/fr/consigne-bagages/italy/verona
+2026-10-12,stasher,ancona,Hotel near Ancona,43.60681,13.4981,20,211,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/it/deposito-bagagli/italy/ancona
+2026-10-12,stasher,arezzo,Restaurant near Piazza Grande,43.464302,11.884251,30,45,4.91,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/arezzo
+2026-10-12,stasher,bari,Tech Shop near Bari Centrale,41.119523,16.8689811,200,807,5,1.49,bookings_bucket=500;often_full=False,https://stasher.com/it/deposito-bagagli/italy/bari
+2026-10-12,stasher,bari,Tech Shop near Stazione Centrale Bari,41.11888250000001,16.871007,60,73,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/it/deposito-bagagli/italy/bari
+2026-10-12,stasher,bari,Locker near Basilica San Nicola,41.1305386,16.8694758,11,63,4.94,1.49,bookings_bucket=50;often_full=False,https://stasher.com/it/deposito-bagagli/italy/bari
+2026-10-12,stasher,bari,Shop near Teatro Margherita,41.1252219,16.8687318,100,48,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/it/deposito-bagagli/italy/bari
+2026-10-12,stasher,bari,Postal Shop near Piazza Umberto ,41.121592,16.8690729,200,34,4.97,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/bari
+2026-10-12,stasher,bari,Luggage Storage Shop near Bari Centrale,41.1196718,16.8690192,100,23,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/bari
+2026-10-12,stasher,bari,Shop near Teatro Abeliano,41.110561,16.896563,400,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/it/deposito-bagagli/italy/bari
+2026-10-12,stasher,bari,Shop near Bari Centrale Station,41.1195211,16.8691084,80,7,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/it/deposito-bagagli/italy/bari
+2026-10-12,stasher,bari,Shop near Bari Centrale,41.1218471,16.8646298,50,2,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/bari
+2026-10-12,stasher,bari,Newsagent near Poggiofranco,41.0968572,16.8550058,10,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/bari
+2026-10-12,stasher,bergamo,Smoke Shop near Stazione autobus e treni,45.6242342,9.3341165,24,7,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/it/deposito-bagagli/italy/bergamo
+2026-10-12,stasher,bologna,Luggage Storage Shop near Piazza maggiore,44.4985824,11.3468,200,94,4.97,1.49,bookings_bucket=100;often_full=False,https://stasher.com/it/deposito-bagagli/italy/bologna
+2026-10-12,stasher,bologna,Luggage Storage Shop near Due Torri,44.49381109999999,11.3471308,100,87,4.98,1.49,bookings_bucket=50;often_full=False,https://stasher.com/it/deposito-bagagli/italy/bologna
+2026-10-12,stasher,bologna,Smoke Shop near centro di Bologna,44.4982416,11.3301976,100,46,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/bologna
+2026-10-12,stasher,bologna,Tech Shop near Piazza Maggiore,44.4956295,11.3386315,10,25,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/bologna
+2026-10-12,stasher,bologna,Smoke Shop near Centro storico Bologna ,44.475891,11.2767098,24,2,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/it/deposito-bagagli/italy/bologna
+2026-10-12,stasher,bolzano,Cafe near Poste Italia,46.4979188,11.3527034,50,89,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/it/deposito-bagagli/italy/bolzano
+2026-10-12,stasher,brindisi,Postal Shop near ibis hotel ,40.6270432,17.931672,48,7,4.57,1.49,bookings_bucket=5;often_full=False,https://stasher.com/it/deposito-bagagli/italy/brindisi
+2026-10-12,stasher,cagliari,Shop near Bastione di Saint Remy,39.2159254,9.1091505,10,3,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/it/deposito-bagagli/italy/cagliari
+2026-10-12,stasher,cagliari,Hotel near Giulio Cesare Bus Stop,39.25642759999999,9.1431722,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/cagliari
+2026-10-12,stasher,catania,Hotel near Villa Bellini,37.510574,15.0857248,60,195,4.95,1.49,bookings_bucket=100;often_full=False,https://stasher.com/it/deposito-bagagli/italy/catania
+2026-10-12,stasher,catania,Hostel near Catania,37.507179,15.08621,200,183,4.97,1.49,bookings_bucket=100;often_full=False,https://stasher.com/it/deposito-bagagli/italy/catania
+2026-10-12,stasher,catania,"Hotel near Central Train Station,   Terminal Bus for all of town in Sicily",37.5102379,15.0975934,10,76,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/it/deposito-bagagli/italy/catania
+2026-10-12,stasher,catania,Hotel near Teatro Vincenzo Bellini,37.5037762,15.0901138,100,72,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/it/deposito-bagagli/italy/catania
+2026-10-12,stasher,catania,Postal Shop near Villa Bellini - Tribunale,37.51219,15.0937913,200,19,4.84,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/catania
+2026-10-12,stasher,catania,Postal Shop near Piazza Carlo Alberto di Savoia,37.5099104,15.0873376,40,18,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/it/deposito-bagagli/italy/catania
+2026-10-12,stasher,catania,Postal Shop near Roman Amphitheater of Catania,37.5082137,15.082746,170,12,4.67,1.49,bookings_bucket=10;often_full=False,https://stasher.com/it/deposito-bagagli/italy/catania
+2026-10-12,stasher,catania,Smoke Shop near Massimo Bellini Theater,37.50495069999999,15.0882554,33,2,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/it/deposito-bagagli/italy/catania
+2026-10-12,stasher,catania,Rental Shop near Cattedrale di Sant'Agata,37.509043,15.0793285,20,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/catania
+2026-10-12,stasher,catania,Shop near Borgo Metro Station,37.524082416500676,15.082182451444956,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/catania
+2026-10-12,stasher,como,Luggage Storage Shop near altro,45.80337129999999,9.0852762,10,16,4.81,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/como
+2026-10-12,stasher,ferrara,Hotel near Stazione,44.83996,11.615455,100,192,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/it/deposito-bagagli/italy/ferrara
+2026-10-12,stasher,florence,Office near Piazza duomo firenze,43.7762396,11.2520844,900,84,4.99,1.49,bookings_bucket=50;often_full=False,https://stasher.com/it/deposito-bagagli/italy/florence
+2026-10-12,stasher,florence,Shop near Verdi,43.77152,11.26038,10,56,4.89,1.49,bookings_bucket=50;often_full=False,https://stasher.com/it/deposito-bagagli/italy/florence
+2026-10-12,stasher,florence,Hotel near Firenze Santa Maria Novella,43.7760001,11.2509536,29,49,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/it/deposito-bagagli/italy/florence
+2026-10-12,stasher,florence,Health & Beauty Business near Firenze Santa Maria Novella,43.773577,11.2468771,10,42,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/florence
+2026-10-12,stasher,florence,Shop near Basílica de Santa Maria Novella,43.7758862,11.2543641,15,26,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/florence
+2026-10-12,stasher,florence,Tech Shop near Firenze Santa Maria Novella,43.7772721,11.2558541,40,18,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/florence
+2026-10-12,stasher,florence,Food & Beverage Business near Verdi,43.769941,11.2632342,10,15,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/florence
+2026-10-12,stasher,florence,Hotel near Piazza della Signoria,43.7704805,11.25677,10,1,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/it/deposito-bagagli/italy/florence
+2026-10-12,stasher,florence,Restaurant near Cattedrale di Santa Maria del Fiore,43.7686913,11.2580285,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/florence
+2026-10-12,stasher,florence,Rental Shop near Cattedrale di Santa Maria del Fiore,43.769981,11.263198,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/florence
+2026-10-12,stasher,genoa,Hotel near Stazione,44.4155718,8.9226802,600,177,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/it/deposito-bagagli/italy/genoa
+2026-10-12,stasher,genoa,Cafe near Acquario di Genova,44.4085625,8.9284375,40,62,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/it/deposito-bagagli/italy/genoa
+2026-10-12,stasher,genoa,Restaurant near Genova Brignole,44.4035714,8.9427317,30,5,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/it/deposito-bagagli/italy/genoa
+2026-10-12,stasher,genoa,Food & Beverage Business near Old City / Duomo,44.4072035,8.9310337,10,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/genoa
+2026-10-12,stasher,genoa,Restaurant near Cruise Terminal,44.4101448,8.9075255,25,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/genoa
+2026-10-12,stasher,latina,Postal Shop near Circeo,41.4555129,12.9071836,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/latina
+2026-10-12,stasher,lecce,Smoke Shop near Parco Simone Renda,40.3595568,18.1834953,30,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/it/deposito-bagagli/italy/lecce
+2026-10-12,stasher,lucca,Hotel near Lucca,43.8404,10.50395,7,74,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/it/deposito-bagagli/italy/lucca
+2026-10-12,stasher,lucca,Hotel near Mura di Lucca,43.8440463,10.5188382,24,25,4.92,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/lucca
+2026-10-12,stasher,matera,"Office near Parco Murgia, Chiese Rupestri, Sassi",40.6898439,16.5869219,100,1,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/it/deposito-bagagli/italy/matera
+2026-10-12,stasher,matera,Luggage Storage Shop near Parco dei Quattro Evangelisti,40.6766176,16.5747026,100,2,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/matera
+2026-10-12,stasher,matera,"Office near Parco Murgia, Sassi, ",40.6898439,16.5869219,160,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/matera
+2026-10-12,stasher,messina,Smoke Shop near Messina Centrale,38.18384383530709,15.55794048769684,30,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/messina
+2026-10-12,stasher,milan,Food & Beverage Business near Trattoria Pizzeria La Fermata,45.46334299999999,9.189306,192,1677,4.97,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/it/deposito-bagagli/italy/milan
+2026-10-12,stasher,milan,Restaurant near Duomo,45.463228,9.188958,60,1291,4.98,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/it/deposito-bagagli/italy/milan
+2026-10-12,stasher,milan,Car Park near Duomo,45.4670839,9.192258,420,757,5,1.49,bookings_bucket=500;often_full=False,https://stasher.com/it/deposito-bagagli/italy/milan
+2026-10-12,stasher,milan,Laundry Business near Duomo di Milano,45.46180349999999,9.1869883,100,105,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/it/deposito-bagagli/italy/milan
+2026-10-12,stasher,milan,Smoke Shop near castello sforzesco,45.4682015,9.1826769,30,71,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/it/deposito-bagagli/italy/milan
+2026-10-12,stasher,milan,Shop near Colonne,45.460834,9.18103,20,55,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/it/deposito-bagagli/italy/milan
+2026-10-12,stasher,milan,Smoke Shop near Duomo di Milano,45.46470009999999,9.1973966,20,35,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/milan
+2026-10-12,stasher,milan,Cafe near Piccolo Teatro Milan,45.4646302,9.181684800000001,9,13,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/it/deposito-bagagli/italy/milan
+2026-10-12,stasher,milan,Health & Beauty Business near Piccolo Teatro Grassi,45.4657689,9.1815102,10,5,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/it/deposito-bagagli/italy/milan
+2026-10-12,stasher,milan,Hotel near Duomo di Milano,45.4585529,9.1884716,100,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/it/deposito-bagagli/italy/milan
+2026-10-12,stasher,naples,Hotel near Naples - Piazza Garibaldi Corso Umberto,40.8504013,14.2649954,94,1068,4.99,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/it/deposito-bagagli/italy/naples
+2026-10-12,stasher,naples,Hotel near Stazione Centrale Garibaldi di Napoli,40.8531058,14.2710624,29,398,4.98,1.49,bookings_bucket=250;often_full=False,https://stasher.com/it/deposito-bagagli/italy/naples
+2026-10-12,stasher,naples,Rental Shop near Stazione Centrale Di Napoli,40.850743,14.2723873,180,149,4.93,1.49,bookings_bucket=100;often_full=False,https://stasher.com/it/deposito-bagagli/italy/naples
+2026-10-12,stasher,naples,Shop near Metro station ,40.8505775,14.272648,50,108,4.96,1.49,bookings_bucket=100;often_full=False,https://stasher.com/it/deposito-bagagli/italy/naples
+2026-10-12,stasher,naples,Shop near Napoli Porta Nolana,40.850814,14.2670932,100,73,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/it/deposito-bagagli/italy/naples
+2026-10-12,stasher,naples,Hotel near Stazione Centrale,40.8533366,14.2692689683658,100,44,4.86,1.49,bookings_bucket=50;often_full=False,https://stasher.com/it/deposito-bagagli/italy/naples
+2026-10-12,stasher,naples,Restaurant near Napoli Centrale,40.8533283,14.2711142,200,30,4.87,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/naples
+2026-10-12,stasher,naples,Shop near Principe Umberto Tram Stop,40.8532294,14.2677807,160,14,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/naples
+2026-10-12,stasher,naples,Shop near Napoli Centrale,40.84989789999999,14.2683827,10,1,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/naples
+2026-10-12,stasher,naples,Tech Shop near Napoli Porta Nolana,40.8501516,14.2696036,50,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/naples
+2026-10-12,stasher,padua,Hotel near Stazione Padova,45.418424,11.874332,100,303,5,1.49,bookings_bucket=250;often_full=False,https://stasher.com/it/deposito-bagagli/italy/padua
+2026-10-12,stasher,palermo,Hotel near Teatro Politeama Garibaldi,38.12340055077892,13.359080465401606,20,43,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/palermo
+2026-10-12,stasher,palermo,Office near Mercado de la Vucciria,38.1176781,13.3645311,40,25,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/palermo
+2026-10-12,stasher,palermo,Newsagent near Politeama,38.123875,13.3599754,30,14,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/it/deposito-bagagli/italy/palermo
+2026-10-12,stasher,palermo,Smoke Shop near Stadio Renzo Barbera,38.1465583,13.3390495,50,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/it/deposito-bagagli/italy/palermo
+2026-10-12,stasher,palermo,Shop near Parco Ninni Cassarà,38.1007,13.33495,40,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/palermo
+2026-10-12,stasher,palermo,Cafe near Teatro Massimo,38.1193182,13.3526811,10,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/palermo
+2026-10-12,stasher,palermo,Shop near chiesa santissima mediatrice,38.1007,13.33495,40,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/palermo
+2026-10-12,stasher,palermo,Shop near Aeroporto Boccadifalco,38.11096,13.32929,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/palermo
+2026-10-12,stasher,palermo,Office near IL TUAREG T.O.,38.140371,13.3342968,24,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/palermo
+2026-10-12,stasher,parma,Cafe near Ospedale maggiore,44.809489,10.3054293,20,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/it/deposito-bagagli/italy/parma
+2026-10-12,stasher,perugia,Postal Shop near Perugia Railway Station,43.1016975,12.3771526,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/perugia
+2026-10-12,stasher,pescara,Office near Pescara Centrale,42.4712778,14.2054573,40,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/pescara
+2026-10-12,stasher,pisa,Hostel near Pisa Centrale,43.70703,10.40437,46,972,5,6.78,bookings_bucket=1000;often_full=False,https://stasher.com/it/deposito-bagagli/italy/pisa
+2026-10-12,stasher,pisa,Tech Shop near Train station ,43.7098873,10.4006981,100,221,4.99,1.49,bookings_bucket=250;often_full=False,https://stasher.com/it/deposito-bagagli/italy/pisa
+2026-10-12,stasher,pisa,Shop near Pisa Centrale,43.7078814,10.4073151,20,6,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/it/deposito-bagagli/italy/pisa
+2026-10-12,stasher,pordenone,Shop near Dolomiti ,45.9727964,12.6493281,100,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/it/deposito-bagagli/italy/pordenone
+2026-10-12,stasher,rimini,Hotel near Centro storico ,44.0675002,12.5770926,20,33,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/rimini
+2026-10-12,stasher,rimini,Hotel near spiaggia,44.06423,12.5829734,24,17,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/it/deposito-bagagli/italy/rimini
+2026-10-12,stasher,rimini,Hostel near Rimini Nord - Stazione,44.075236,12.5607071,48,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/it/deposito-bagagli/italy/rimini
+2026-10-12,stasher,rimini,Hotel near Rimini Centra Station - New Dock,44.0712873,12.5686132,48,7,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/it/deposito-bagagli/italy/rimini
+2026-10-12,stasher,rome,Hotel near Roma Termini,41.899152,12.499555,24,4236,4.99,1.49,bookings_bucket=2500;often_full=False,https://stasher.com/it/deposito-bagagli/italy/rome
+2026-10-12,stasher,rome,Shop near Roma Termini,41.8998754,12.5011437,392,1210,4.98,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/it/deposito-bagagli/italy/rome
+2026-10-12,stasher,rome,Shop near Roma Termini,41.9017162,12.4972151,198,335,5,1.49,bookings_bucket=250;often_full=False,https://stasher.com/it/deposito-bagagli/italy/rome
+2026-10-12,stasher,rome,Health & Beauty Business near Roma Termini,41.8994447,12.5005109,1000,193,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/it/deposito-bagagli/italy/rome
+2026-10-12,stasher,rome,Tech Shop near rifugio romano,41.9043278,12.4997119,200,56,4.71,1.49,bookings_bucket=50;often_full=False,https://stasher.com/it/deposito-bagagli/italy/rome
+2026-10-12,stasher,rome,Laundry Business near Teatro dell'Opera di Roma,41.9006827,12.4943461,100,35,4.97,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/rome
+2026-10-12,stasher,rome,Luggage Storage Shop near Roma Termini,41.9014221,12.4945492,100,29,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/rome
+2026-10-12,stasher,rome,Hotel near Roma Termini,41.90447899999999,12.500224,50,10,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/it/deposito-bagagli/italy/rome
+2026-10-12,stasher,rome,Souvenir Shop near Roma Termini,41.9037497,12.5007283,10,3,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/it/deposito-bagagli/italy/rome
+2026-10-12,stasher,rome,Laundry Business near Roma Termini,41.9051965,12.4998123,20,2,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/rome
+2026-10-12,stasher,salerno,Postal Shop near Salerno,40.677139,14.766728,100,54,4.96,1.49,bookings_bucket=50;often_full=False,https://stasher.com/it/deposito-bagagli/italy/salerno
+2026-10-12,stasher,trapani,Rental Shop near Las Olas,38.013755,12.511565,300,50,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/it/deposito-bagagli/italy/trapani
+2026-10-12,stasher,trapani,Rental Shop near Porto di Trapani,38.0150331,12.51258,200,16,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/trapani
+2026-10-12,stasher,trapani,Office near Trapani Port,38.01392,12.51302,200,14,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/it/deposito-bagagli/italy/trapani
+2026-10-12,stasher,trapani,Rental Shop near Porto di Trapani,38.0138836,12.5126928,20,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/trapani
+2026-10-12,stasher,treviso,Hostel near Porta San Marco,45.6734879,12.2237946,20,2,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/it/deposito-bagagli/italy/treviso
+2026-10-12,stasher,turin,Postal Shop near Mole Antonelliana,45.0696897,7.6534688,60,34,4.97,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/turin
+2026-10-12,stasher,turin,Hotel near Torino Porta Susa,45.07225649999999,7.6636454,10,31,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/turin
+2026-10-12,stasher,turin,Tech Shop near Stazione di Torino Porta Nuova,45.0597273,7.6791901,10,18,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/it/deposito-bagagli/italy/turin
+2026-10-12,stasher,turin,Convenience Store near Duomo di Torino,45.07108239999999,7.6818783,10,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/it/deposito-bagagli/italy/turin
+2026-10-12,stasher,turin,Food & Beverage Business near Galleria Arte Moderna,45.0602805,7.6583706,16,5,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/it/deposito-bagagli/italy/turin
+2026-10-12,stasher,turin,Luggage Storage Shop near Piazza Castello,45.07013610000001,7.686993099999999,69,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/it/deposito-bagagli/italy/turin
+2026-10-12,stasher,turin,Restaurant near Porta Nuova Station,45.0633948,7.681815199999999,10,4,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/it/deposito-bagagli/italy/turin
+2026-10-12,stasher,turin,Rental Shop near centro,45.0874759,7.7002476,24,3,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/it/deposito-bagagli/italy/turin
+2026-10-12,stasher,turin,Health & Beauty Business near Parco Dora,45.0849244,7.6643548,39,2,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/it/deposito-bagagli/italy/turin
+2026-10-12,stasher,turin,Convenience Store near Mole Antonelliana,45.0722225,7.693210299999999,10,1,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/it/deposito-bagagli/italy/turin
+2026-10-12,stasher,venice,Laundry Business near Stazione Santa Lucia ,45.4393125,12.3230625,26,915,4.97,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/it/deposito-bagagli/italy/venice
+2026-10-12,stasher,venice,Hotel near Ponte di Rialto,45.43729,12.3361147,18,267,4.99,1.49,bookings_bucket=250;often_full=False,https://stasher.com/it/deposito-bagagli/italy/venice
+2026-10-12,stasher,venice,Hotel near Ca d'oro e Casino di Venezia,45.4429188,12.3324706,10,185,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/it/deposito-bagagli/italy/venice
+2026-10-12,stasher,venice,Hotel near Centro ,45.4405402,12.3346376,40,138,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/it/deposito-bagagli/italy/venice
+2026-10-12,stasher,venice,Health & Beauty Business near Centro storico,45.42909,12.32798,20,77,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/it/deposito-bagagli/italy/venice
+2026-10-12,stasher,venice,Luggage Storage Shop near Bembo Tram Stop,45.4863893,12.240305,48,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/it/deposito-bagagli/italy/venice
+2026-10-12,stasher,venice,Hotel near Venice Mestre,45.4829031,12.2372419,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/venice
+2026-10-12,stasher,venice,Hotel near Venezia Mestre,45.4834492,12.2371989,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/venice
+2026-10-12,stasher,venice,Restaurant near Consorzio Manzoni Spiagge,45.4836715,12.2352819,10,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/venice
+2026-10-12,stasher,venice,Hotel near Venezia Mestre,45.48943939999999,12.2400846,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/it/deposito-bagagli/italy/venice
+2026-10-12,stasher,verona,Shop near Via Valverde Pardaval Bus Stop,45.4368805,10.9878004,20,36,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/it/deposito-bagagli/italy/verona
+2026-10-12,stasher,ancona,Hotel near Ancona,43.60681,13.4981,20,211,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/luggage-storage/italy/ancona
+2026-10-12,stasher,arezzo,Restaurant near Piazza Grande,43.464302,11.884251,30,45,4.91,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/arezzo
+2026-10-12,stasher,bari,Tech Shop near Bari Centrale,41.119523,16.8689811,200,807,5,1.49,bookings_bucket=500;often_full=False,https://stasher.com/luggage-storage/italy/bari
+2026-10-12,stasher,bari,Tech Shop near Stazione Centrale Bari,41.11888250000001,16.871007,60,73,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/luggage-storage/italy/bari
+2026-10-12,stasher,bari,Locker near Basilica San Nicola,41.1305386,16.8694758,11,63,4.94,1.49,bookings_bucket=50;often_full=False,https://stasher.com/luggage-storage/italy/bari
+2026-10-12,stasher,bari,Shop near Teatro Margherita,41.1252219,16.8687318,100,48,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/luggage-storage/italy/bari
+2026-10-12,stasher,bari,Postal Shop near Piazza Umberto ,41.121592,16.8690729,200,34,4.97,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/bari
+2026-10-12,stasher,bari,Luggage Storage Shop near Bari Centrale,41.1196718,16.8690192,100,23,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/bari
+2026-10-12,stasher,bari,Shop near Teatro Abeliano,41.110561,16.896563,400,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/luggage-storage/italy/bari
+2026-10-12,stasher,bari,Shop near Bari Centrale Station,41.1195211,16.8691084,80,7,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/luggage-storage/italy/bari
+2026-10-12,stasher,bari,Shop near Bari Centrale,41.1218471,16.8646298,50,2,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/bari
+2026-10-12,stasher,bari,Newsagent near Poggiofranco,41.0968572,16.8550058,10,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/bari
+2026-10-12,stasher,bergamo,Smoke Shop near Stazione autobus e treni,45.6242342,9.3341165,24,7,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/luggage-storage/italy/bergamo
+2026-10-12,stasher,bologna,Luggage Storage Shop near Piazza maggiore,44.4985824,11.3468,200,94,4.97,1.49,bookings_bucket=100;often_full=False,https://stasher.com/luggage-storage/italy/bologna
+2026-10-12,stasher,bologna,Luggage Storage Shop near Due Torri,44.49381109999999,11.3471308,100,87,4.98,1.49,bookings_bucket=50;often_full=False,https://stasher.com/luggage-storage/italy/bologna
+2026-10-12,stasher,bologna,Smoke Shop near centro di Bologna,44.4982416,11.3301976,100,46,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/bologna
+2026-10-12,stasher,bologna,Tech Shop near Piazza Maggiore,44.4956295,11.3386315,10,25,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/bologna
+2026-10-12,stasher,bologna,Smoke Shop near Centro storico Bologna ,44.475891,11.2767098,24,2,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/luggage-storage/italy/bologna
+2026-10-12,stasher,bolzano,Cafe near Poste Italia,46.4979188,11.3527034,50,89,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/luggage-storage/italy/bolzano
+2026-10-12,stasher,brindisi,Postal Shop near ibis hotel ,40.6270432,17.931672,48,7,4.57,1.49,bookings_bucket=5;often_full=False,https://stasher.com/luggage-storage/italy/brindisi
+2026-10-12,stasher,cagliari,Shop near Bastione di Saint Remy,39.2159254,9.1091505,10,3,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/luggage-storage/italy/cagliari
+2026-10-12,stasher,cagliari,Hotel near Giulio Cesare Bus Stop,39.25642759999999,9.1431722,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/cagliari
+2026-10-12,stasher,catania,Hotel near Villa Bellini,37.510574,15.0857248,60,195,4.95,1.49,bookings_bucket=100;often_full=False,https://stasher.com/luggage-storage/italy/catania
+2026-10-12,stasher,catania,Hostel near Catania,37.507179,15.08621,200,183,4.97,1.49,bookings_bucket=100;often_full=False,https://stasher.com/luggage-storage/italy/catania
+2026-10-12,stasher,catania,"Hotel near Central Train Station,   Terminal Bus for all of town in Sicily",37.5102379,15.0975934,10,76,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/luggage-storage/italy/catania
+2026-10-12,stasher,catania,Hotel near Teatro Vincenzo Bellini,37.5037762,15.0901138,100,72,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/luggage-storage/italy/catania
+2026-10-12,stasher,catania,Postal Shop near Villa Bellini - Tribunale,37.51219,15.0937913,200,19,4.84,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/catania
+2026-10-12,stasher,catania,Postal Shop near Piazza Carlo Alberto di Savoia,37.5099104,15.0873376,40,18,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/luggage-storage/italy/catania
+2026-10-12,stasher,catania,Postal Shop near Roman Amphitheater of Catania,37.5082137,15.082746,170,12,4.67,1.49,bookings_bucket=10;often_full=False,https://stasher.com/luggage-storage/italy/catania
+2026-10-12,stasher,catania,Smoke Shop near Massimo Bellini Theater,37.50495069999999,15.0882554,33,2,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/luggage-storage/italy/catania
+2026-10-12,stasher,catania,Rental Shop near Cattedrale di Sant'Agata,37.509043,15.0793285,20,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/catania
+2026-10-12,stasher,catania,Shop near Borgo Metro Station,37.524082416500676,15.082182451444956,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/catania
+2026-10-12,stasher,como,Luggage Storage Shop near altro,45.80337129999999,9.0852762,10,16,4.81,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/como
+2026-10-12,stasher,ferrara,Hotel near Stazione,44.83996,11.615455,100,192,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/luggage-storage/italy/ferrara
+2026-10-12,stasher,florence,Office near Piazza duomo firenze,43.7762396,11.2520844,900,84,4.99,1.49,bookings_bucket=50;often_full=False,https://stasher.com/luggage-storage/italy/florence
+2026-10-12,stasher,florence,Shop near Verdi,43.77152,11.26038,10,56,4.89,1.49,bookings_bucket=50;often_full=False,https://stasher.com/luggage-storage/italy/florence
+2026-10-12,stasher,florence,Hotel near Firenze Santa Maria Novella,43.7760001,11.2509536,29,49,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/luggage-storage/italy/florence
+2026-10-12,stasher,florence,Health & Beauty Business near Firenze Santa Maria Novella,43.773577,11.2468771,10,42,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/florence
+2026-10-12,stasher,florence,Shop near Basílica de Santa Maria Novella,43.7758862,11.2543641,15,26,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/florence
+2026-10-12,stasher,florence,Tech Shop near Firenze Santa Maria Novella,43.7772721,11.2558541,40,18,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/florence
+2026-10-12,stasher,florence,Food & Beverage Business near Verdi,43.769941,11.2632342,10,15,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/florence
+2026-10-12,stasher,florence,Hotel near Piazza della Signoria,43.7704805,11.25677,10,1,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/luggage-storage/italy/florence
+2026-10-12,stasher,florence,Restaurant near Cattedrale di Santa Maria del Fiore,43.7686913,11.2580285,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/florence
+2026-10-12,stasher,florence,Rental Shop near Cattedrale di Santa Maria del Fiore,43.769981,11.263198,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/florence
+2026-10-12,stasher,genoa,Hotel near Stazione,44.4155718,8.9226802,600,177,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/luggage-storage/italy/genoa
+2026-10-12,stasher,genoa,Cafe near Acquario di Genova,44.4085625,8.9284375,40,62,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/luggage-storage/italy/genoa
+2026-10-12,stasher,genoa,Restaurant near Genova Brignole,44.4035714,8.9427317,30,5,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/luggage-storage/italy/genoa
+2026-10-12,stasher,genoa,Food & Beverage Business near Old City / Duomo,44.4072035,8.9310337,10,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/genoa
+2026-10-12,stasher,genoa,Restaurant near Cruise Terminal,44.4101448,8.9075255,25,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/genoa
+2026-10-12,stasher,latina,Postal Shop near Circeo,41.4555129,12.9071836,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/latina
+2026-10-12,stasher,lecce,Smoke Shop near Parco Simone Renda,40.3595568,18.1834953,30,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/luggage-storage/italy/lecce
+2026-10-12,stasher,lucca,Hotel near Lucca,43.8404,10.50395,7,74,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/luggage-storage/italy/lucca
+2026-10-12,stasher,lucca,Hotel near Mura di Lucca,43.8440463,10.5188382,24,25,4.92,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/lucca
+2026-10-12,stasher,matera,"Office near Parco Murgia, Chiese Rupestri, Sassi",40.6898439,16.5869219,100,1,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/luggage-storage/italy/matera
+2026-10-12,stasher,matera,Luggage Storage Shop near Parco dei Quattro Evangelisti,40.6766176,16.5747026,100,2,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/matera
+2026-10-12,stasher,matera,"Office near Parco Murgia, Sassi, ",40.6898439,16.5869219,160,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/matera
+2026-10-12,stasher,messina,Smoke Shop near Messina Centrale,38.18384383530709,15.55794048769684,30,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/messina
+2026-10-12,stasher,milan,Food & Beverage Business near Trattoria Pizzeria La Fermata,45.46334299999999,9.189306,192,1677,4.97,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/luggage-storage/italy/milan
+2026-10-12,stasher,milan,Restaurant near Duomo,45.463228,9.188958,60,1291,4.98,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/luggage-storage/italy/milan
+2026-10-12,stasher,milan,Car Park near Duomo,45.4670839,9.192258,420,757,5,1.49,bookings_bucket=500;often_full=False,https://stasher.com/luggage-storage/italy/milan
+2026-10-12,stasher,milan,Laundry Business near Duomo di Milano,45.46180349999999,9.1869883,100,105,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/luggage-storage/italy/milan
+2026-10-12,stasher,milan,Smoke Shop near castello sforzesco,45.4682015,9.1826769,30,71,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/luggage-storage/italy/milan
+2026-10-12,stasher,milan,Shop near Colonne,45.460834,9.18103,20,55,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/luggage-storage/italy/milan
+2026-10-12,stasher,milan,Smoke Shop near Duomo di Milano,45.46470009999999,9.1973966,20,35,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/milan
+2026-10-12,stasher,milan,Cafe near Piccolo Teatro Milan,45.4646302,9.181684800000001,9,13,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/luggage-storage/italy/milan
+2026-10-12,stasher,milan,Health & Beauty Business near Piccolo Teatro Grassi,45.4657689,9.1815102,10,5,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/luggage-storage/italy/milan
+2026-10-12,stasher,milan,Hotel near Duomo di Milano,45.4585529,9.1884716,100,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/luggage-storage/italy/milan
+2026-10-12,stasher,naples,Hotel near Naples - Piazza Garibaldi Corso Umberto,40.8504013,14.2649954,94,1068,4.99,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/luggage-storage/italy/naples
+2026-10-12,stasher,naples,Hotel near Stazione Centrale Garibaldi di Napoli,40.8531058,14.2710624,29,398,4.98,1.49,bookings_bucket=250;often_full=False,https://stasher.com/luggage-storage/italy/naples
+2026-10-12,stasher,naples,Rental Shop near Stazione Centrale Di Napoli,40.850743,14.2723873,180,149,4.93,1.49,bookings_bucket=100;often_full=False,https://stasher.com/luggage-storage/italy/naples
+2026-10-12,stasher,naples,Shop near Metro station ,40.8505775,14.272648,50,108,4.96,1.49,bookings_bucket=100;often_full=False,https://stasher.com/luggage-storage/italy/naples
+2026-10-12,stasher,naples,Shop near Napoli Porta Nolana,40.850814,14.2670932,100,73,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/luggage-storage/italy/naples
+2026-10-12,stasher,naples,Hotel near Stazione Centrale,40.8533366,14.2692689683658,100,44,4.86,1.49,bookings_bucket=50;often_full=False,https://stasher.com/luggage-storage/italy/naples
+2026-10-12,stasher,naples,Restaurant near Napoli Centrale,40.8533283,14.2711142,200,30,4.87,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/naples
+2026-10-12,stasher,naples,Shop near Principe Umberto Tram Stop,40.8532294,14.2677807,160,14,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/naples
+2026-10-12,stasher,naples,Shop near Napoli Centrale,40.84989789999999,14.2683827,10,1,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/naples
+2026-10-12,stasher,naples,Tech Shop near Napoli Porta Nolana,40.8501516,14.2696036,50,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/naples
+2026-10-12,stasher,padua,Hotel near Stazione Padova,45.418424,11.874332,100,303,5,1.49,bookings_bucket=250;often_full=False,https://stasher.com/luggage-storage/italy/padua
+2026-10-12,stasher,palermo,Hotel near Teatro Politeama Garibaldi,38.12340055077892,13.359080465401606,20,43,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/palermo
+2026-10-12,stasher,palermo,Office near Mercado de la Vucciria,38.1176781,13.3645311,40,25,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/palermo
+2026-10-12,stasher,palermo,Newsagent near Politeama,38.123875,13.3599754,30,14,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/luggage-storage/italy/palermo
+2026-10-12,stasher,palermo,Smoke Shop near Stadio Renzo Barbera,38.1465583,13.3390495,50,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/luggage-storage/italy/palermo
+2026-10-12,stasher,palermo,Shop near Parco Ninni Cassarà,38.1007,13.33495,40,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/palermo
+2026-10-12,stasher,palermo,Cafe near Teatro Massimo,38.1193182,13.3526811,10,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/palermo
+2026-10-12,stasher,palermo,Shop near chiesa santissima mediatrice,38.1007,13.33495,40,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/palermo
+2026-10-12,stasher,palermo,Shop near Aeroporto Boccadifalco,38.11096,13.32929,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/palermo
+2026-10-12,stasher,palermo,Office near IL TUAREG T.O.,38.140371,13.3342968,24,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/palermo
+2026-10-12,stasher,parma,Cafe near Ospedale maggiore,44.809489,10.3054293,20,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/luggage-storage/italy/parma
+2026-10-12,stasher,perugia,Postal Shop near Perugia Railway Station,43.1016975,12.3771526,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/perugia
+2026-10-12,stasher,pescara,Office near Pescara Centrale,42.4712778,14.2054573,40,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/pescara
+2026-10-12,stasher,pisa,Hostel near Pisa Centrale,43.70703,10.40437,46,972,5,6.78,bookings_bucket=1000;often_full=False,https://stasher.com/luggage-storage/italy/pisa
+2026-10-12,stasher,pisa,Tech Shop near Train station ,43.7098873,10.4006981,100,221,4.99,1.49,bookings_bucket=250;often_full=False,https://stasher.com/luggage-storage/italy/pisa
+2026-10-12,stasher,pisa,Shop near Pisa Centrale,43.7078814,10.4073151,20,6,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/luggage-storage/italy/pisa
+2026-10-12,stasher,pordenone,Shop near Dolomiti ,45.9727964,12.6493281,100,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/luggage-storage/italy/pordenone
+2026-10-12,stasher,rimini,Hotel near Centro storico ,44.0675002,12.5770926,20,33,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/rimini
+2026-10-12,stasher,rimini,Hotel near spiaggia,44.06423,12.5829734,24,17,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/luggage-storage/italy/rimini
+2026-10-12,stasher,rimini,Hostel near Rimini Nord - Stazione,44.075236,12.5607071,48,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/luggage-storage/italy/rimini
+2026-10-12,stasher,rimini,Hotel near Rimini Centra Station - New Dock,44.0712873,12.5686132,48,7,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/luggage-storage/italy/rimini
+2026-10-12,stasher,rome,Hotel near Roma Termini,41.899152,12.499555,24,4236,4.99,1.49,bookings_bucket=2500;often_full=False,https://stasher.com/luggage-storage/italy/rome
+2026-10-12,stasher,rome,Shop near Roma Termini,41.8998754,12.5011437,392,1210,4.98,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/luggage-storage/italy/rome
+2026-10-12,stasher,rome,Shop near Roma Termini,41.9017162,12.4972151,198,335,5,1.49,bookings_bucket=250;often_full=False,https://stasher.com/luggage-storage/italy/rome
+2026-10-12,stasher,rome,Health & Beauty Business near Roma Termini,41.8994447,12.5005109,1000,193,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/luggage-storage/italy/rome
+2026-10-12,stasher,rome,Tech Shop near rifugio romano,41.9043278,12.4997119,200,56,4.71,1.49,bookings_bucket=50;often_full=False,https://stasher.com/luggage-storage/italy/rome
+2026-10-12,stasher,rome,Laundry Business near Teatro dell'Opera di Roma,41.9006827,12.4943461,100,35,4.97,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/rome
+2026-10-12,stasher,rome,Luggage Storage Shop near Roma Termini,41.9014221,12.4945492,100,29,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/rome
+2026-10-12,stasher,rome,Hotel near Roma Termini,41.90447899999999,12.500224,50,10,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/luggage-storage/italy/rome
+2026-10-12,stasher,rome,Souvenir Shop near Roma Termini,41.9037497,12.5007283,10,3,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/luggage-storage/italy/rome
+2026-10-12,stasher,rome,Laundry Business near Roma Termini,41.9051965,12.4998123,20,2,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/rome
+2026-10-12,stasher,salerno,Postal Shop near Salerno,40.677139,14.766728,100,54,4.96,1.49,bookings_bucket=50;often_full=False,https://stasher.com/luggage-storage/italy/salerno
+2026-10-12,stasher,trapani,Rental Shop near Las Olas,38.013755,12.511565,300,50,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/luggage-storage/italy/trapani
+2026-10-12,stasher,trapani,Rental Shop near Porto di Trapani,38.0150331,12.51258,200,16,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/trapani
+2026-10-12,stasher,trapani,Office near Trapani Port,38.01392,12.51302,200,14,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/luggage-storage/italy/trapani
+2026-10-12,stasher,trapani,Rental Shop near Porto di Trapani,38.0138836,12.5126928,20,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/trapani
+2026-10-12,stasher,treviso,Hostel near Porta San Marco,45.6734879,12.2237946,20,2,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/luggage-storage/italy/treviso
+2026-10-12,stasher,turin,Postal Shop near Mole Antonelliana,45.0696897,7.6534688,60,34,4.97,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/turin
+2026-10-12,stasher,turin,Hotel near Torino Porta Susa,45.07225649999999,7.6636454,10,31,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/turin
+2026-10-12,stasher,turin,Tech Shop near Stazione di Torino Porta Nuova,45.0597273,7.6791901,10,18,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/luggage-storage/italy/turin
+2026-10-12,stasher,turin,Convenience Store near Duomo di Torino,45.07108239999999,7.6818783,10,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/luggage-storage/italy/turin
+2026-10-12,stasher,turin,Food & Beverage Business near Galleria Arte Moderna,45.0602805,7.6583706,16,5,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/luggage-storage/italy/turin
+2026-10-12,stasher,turin,Luggage Storage Shop near Piazza Castello,45.07013610000001,7.686993099999999,69,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/luggage-storage/italy/turin
+2026-10-12,stasher,turin,Restaurant near Porta Nuova Station,45.0633948,7.681815199999999,10,4,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/luggage-storage/italy/turin
+2026-10-12,stasher,turin,Rental Shop near centro,45.0874759,7.7002476,24,3,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/luggage-storage/italy/turin
+2026-10-12,stasher,turin,Health & Beauty Business near Parco Dora,45.0849244,7.6643548,39,2,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/luggage-storage/italy/turin
+2026-10-12,stasher,turin,Convenience Store near Mole Antonelliana,45.0722225,7.693210299999999,10,1,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/luggage-storage/italy/turin
+2026-10-12,stasher,venice,Laundry Business near Stazione Santa Lucia ,45.4393125,12.3230625,26,915,4.97,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/luggage-storage/italy/venice
+2026-10-12,stasher,venice,Hotel near Ponte di Rialto,45.43729,12.3361147,18,267,4.99,1.49,bookings_bucket=250;often_full=False,https://stasher.com/luggage-storage/italy/venice
+2026-10-12,stasher,venice,Hotel near Ca d'oro e Casino di Venezia,45.4429188,12.3324706,10,185,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/luggage-storage/italy/venice
+2026-10-12,stasher,venice,Hotel near Centro ,45.4405402,12.3346376,40,138,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/luggage-storage/italy/venice
+2026-10-12,stasher,venice,Health & Beauty Business near Centro storico,45.42909,12.32798,20,77,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/luggage-storage/italy/venice
+2026-10-12,stasher,venice,Luggage Storage Shop near Bembo Tram Stop,45.4863893,12.240305,48,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/luggage-storage/italy/venice
+2026-10-12,stasher,venice,Hotel near Venice Mestre,45.4829031,12.2372419,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/venice
+2026-10-12,stasher,venice,Hotel near Venezia Mestre,45.4834492,12.2371989,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/venice
+2026-10-12,stasher,venice,Restaurant near Consorzio Manzoni Spiagge,45.4836715,12.2352819,10,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/venice
+2026-10-12,stasher,venice,Hotel near Venezia Mestre,45.48943939999999,12.2400846,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/luggage-storage/italy/venice
+2026-10-12,stasher,verona,Shop near Via Valverde Pardaval Bus Stop,45.4368805,10.9878004,20,36,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/luggage-storage/italy/verona
+2026-10-12,stasher,bologna,Luggage Storage Shop near Piazza maggiore,44.4985824,11.3468,200,94,4.97,1.49,bookings_bucket=100;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/bologna
+2026-10-12,stasher,bologna,Luggage Storage Shop near Due Torri,44.49381109999999,11.3471308,100,87,4.98,1.49,bookings_bucket=50;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/bologna
+2026-10-12,stasher,bologna,Smoke Shop near centro di Bologna,44.4982416,11.3301976,100,46,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/bologna
+2026-10-12,stasher,bologna,Tech Shop near Piazza Maggiore,44.4956295,11.3386315,10,25,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/bologna
+2026-10-12,stasher,bologna,Smoke Shop near Centro storico Bologna ,44.475891,11.2767098,24,2,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/bologna
+2026-10-12,stasher,milan,Food & Beverage Business near Trattoria Pizzeria La Fermata,45.46334299999999,9.189306,192,1677,4.97,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/milan
+2026-10-12,stasher,milan,Restaurant near Duomo,45.463228,9.188958,60,1291,4.98,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/milan
+2026-10-12,stasher,milan,Car Park near Duomo,45.4670839,9.192258,420,757,5,1.49,bookings_bucket=500;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/milan
+2026-10-12,stasher,milan,Laundry Business near Duomo di Milano,45.46180349999999,9.1869883,100,105,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/milan
+2026-10-12,stasher,milan,Smoke Shop near castello sforzesco,45.4682015,9.1826769,30,71,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/milan
+2026-10-12,stasher,milan,Shop near Colonne,45.460834,9.18103,20,55,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/milan
+2026-10-12,stasher,milan,Smoke Shop near Duomo di Milano,45.46470009999999,9.1973966,20,35,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/milan
+2026-10-12,stasher,milan,Cafe near Piccolo Teatro Milan,45.4646302,9.181684800000001,9,13,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/milan
+2026-10-12,stasher,milan,Health & Beauty Business near Piccolo Teatro Grassi,45.4657689,9.1815102,10,5,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/milan
+2026-10-12,stasher,milan,Hotel near Duomo di Milano,45.4585529,9.1884716,100,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/milan
+2026-10-12,stasher,rome,Hotel near Roma Termini,41.899152,12.499555,24,4236,4.99,1.49,bookings_bucket=2500;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/rome
+2026-10-12,stasher,rome,Shop near Roma Termini,41.8998754,12.5011437,392,1210,4.98,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/rome
+2026-10-12,stasher,rome,Shop near Roma Termini,41.9017162,12.4972151,198,335,5,1.49,bookings_bucket=250;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/rome
+2026-10-12,stasher,rome,Health & Beauty Business near Roma Termini,41.8994447,12.5005109,1000,193,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/rome
+2026-10-12,stasher,rome,Tech Shop near rifugio romano,41.9043278,12.4997119,200,56,4.71,1.49,bookings_bucket=50;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/rome
+2026-10-12,stasher,rome,Laundry Business near Teatro dell'Opera di Roma,41.9006827,12.4943461,100,35,4.97,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/rome
+2026-10-12,stasher,rome,Luggage Storage Shop near Roma Termini,41.9014221,12.4945492,100,29,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/rome
+2026-10-12,stasher,rome,Hotel near Roma Termini,41.90447899999999,12.500224,50,10,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/rome
+2026-10-12,stasher,rome,Souvenir Shop near Roma Termini,41.9037497,12.5007283,10,3,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/rome
+2026-10-12,stasher,rome,Laundry Business near Roma Termini,41.9051965,12.4998123,20,2,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/rome
+2026-10-12,stasher,venice,Laundry Business near Stazione Santa Lucia ,45.4393125,12.3230625,26,915,4.97,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/venice
+2026-10-12,stasher,venice,Hotel near Ponte di Rialto,45.43729,12.3361147,18,267,4.99,1.49,bookings_bucket=250;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/venice
+2026-10-12,stasher,venice,Hotel near Ca d'oro e Casino di Venezia,45.4429188,12.3324706,10,185,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/venice
+2026-10-12,stasher,venice,Hotel near Centro ,45.4405402,12.3346376,40,138,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/venice
+2026-10-12,stasher,venice,Health & Beauty Business near Centro storico,45.42909,12.32798,20,77,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/venice
+2026-10-12,stasher,venice,Luggage Storage Shop near Bembo Tram Stop,45.4863893,12.240305,48,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/venice
+2026-10-12,stasher,venice,Hotel near Venice Mestre,45.4829031,12.2372419,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/venice
+2026-10-12,stasher,venice,Hotel near Venezia Mestre,45.4834492,12.2371989,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/venice
+2026-10-12,stasher,venice,Restaurant near Consorzio Manzoni Spiagge,45.4836715,12.2352819,10,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/venice
+2026-10-12,stasher,venice,Hotel near Venezia Mestre,45.48943939999999,12.2400846,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pl/przechowalnia-bagazu/italy/venice
+2026-10-12,stasher,ancona,Hotel near Ancona,43.60681,13.4981,20,211,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/ancona
+2026-10-12,stasher,bari,Tech Shop near Bari Centrale,41.119523,16.8689811,200,807,5,1.49,bookings_bucket=500;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/bari
+2026-10-12,stasher,bari,Tech Shop near Stazione Centrale Bari,41.11888250000001,16.871007,60,73,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/bari
+2026-10-12,stasher,bari,Locker near Basilica San Nicola,41.1305386,16.8694758,11,63,4.94,1.49,bookings_bucket=50;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/bari
+2026-10-12,stasher,bari,Shop near Teatro Margherita,41.1252219,16.8687318,100,48,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/bari
+2026-10-12,stasher,bari,Postal Shop near Piazza Umberto ,41.121592,16.8690729,200,34,4.97,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/bari
+2026-10-12,stasher,bari,Luggage Storage Shop near Bari Centrale,41.1196718,16.8690192,100,23,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/bari
+2026-10-12,stasher,bari,Shop near Teatro Abeliano,41.110561,16.896563,400,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/bari
+2026-10-12,stasher,bari,Shop near Bari Centrale Station,41.1195211,16.8691084,80,7,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/bari
+2026-10-12,stasher,bari,Shop near Bari Centrale,41.1218471,16.8646298,50,2,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/bari
+2026-10-12,stasher,bari,Newsagent near Poggiofranco,41.0968572,16.8550058,10,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/bari
+2026-10-12,stasher,bergamo,Smoke Shop near Stazione autobus e treni,45.6242342,9.3341165,24,7,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/bergamo
+2026-10-12,stasher,bologna,Luggage Storage Shop near Piazza maggiore,44.4985824,11.3468,200,94,4.97,1.49,bookings_bucket=100;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/bologna
+2026-10-12,stasher,bologna,Luggage Storage Shop near Due Torri,44.49381109999999,11.3471308,100,87,4.98,1.49,bookings_bucket=50;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/bologna
+2026-10-12,stasher,bologna,Smoke Shop near centro di Bologna,44.4982416,11.3301976,100,46,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/bologna
+2026-10-12,stasher,bologna,Tech Shop near Piazza Maggiore,44.4956295,11.3386315,10,25,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/bologna
+2026-10-12,stasher,bologna,Smoke Shop near Centro storico Bologna ,44.475891,11.2767098,24,2,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/bologna
+2026-10-12,stasher,brindisi,Postal Shop near ibis hotel ,40.6270432,17.931672,48,7,4.57,1.49,bookings_bucket=5;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/brindisi
+2026-10-12,stasher,cagliari,Shop near Bastione di Saint Remy,39.2159254,9.1091505,10,3,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/cagliari
+2026-10-12,stasher,cagliari,Hotel near Giulio Cesare Bus Stop,39.25642759999999,9.1431722,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/cagliari
+2026-10-12,stasher,catania,Hotel near Villa Bellini,37.510574,15.0857248,60,195,4.95,1.49,bookings_bucket=100;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/catania
+2026-10-12,stasher,catania,Hostel near Catania,37.507179,15.08621,200,183,4.97,1.49,bookings_bucket=100;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/catania
+2026-10-12,stasher,catania,"Hotel near Central Train Station,   Terminal Bus for all of town in Sicily",37.5102379,15.0975934,10,76,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/catania
+2026-10-12,stasher,catania,Hotel near Teatro Vincenzo Bellini,37.5037762,15.0901138,100,72,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/catania
+2026-10-12,stasher,catania,Postal Shop near Villa Bellini - Tribunale,37.51219,15.0937913,200,19,4.84,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/catania
+2026-10-12,stasher,catania,Postal Shop near Piazza Carlo Alberto di Savoia,37.5099104,15.0873376,40,18,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/catania
+2026-10-12,stasher,catania,Postal Shop near Roman Amphitheater of Catania,37.5082137,15.082746,170,12,4.67,1.49,bookings_bucket=10;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/catania
+2026-10-12,stasher,catania,Smoke Shop near Massimo Bellini Theater,37.50495069999999,15.0882554,33,2,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/catania
+2026-10-12,stasher,catania,Rental Shop near Cattedrale di Sant'Agata,37.509043,15.0793285,20,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/catania
+2026-10-12,stasher,catania,Shop near Borgo Metro Station,37.524082416500676,15.082182451444956,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/catania
+2026-10-12,stasher,como,Luggage Storage Shop near altro,45.80337129999999,9.0852762,10,16,4.81,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/como
+2026-10-12,stasher,ferrara,Hotel near Stazione,44.83996,11.615455,100,192,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/ferrara
+2026-10-12,stasher,florence,Office near Piazza duomo firenze,43.7762396,11.2520844,900,84,4.99,1.49,bookings_bucket=50;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/florence
+2026-10-12,stasher,florence,Shop near Verdi,43.77152,11.26038,10,56,4.89,1.49,bookings_bucket=50;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/florence
+2026-10-12,stasher,florence,Hotel near Firenze Santa Maria Novella,43.7760001,11.2509536,29,49,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/florence
+2026-10-12,stasher,florence,Health & Beauty Business near Firenze Santa Maria Novella,43.773577,11.2468771,10,42,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/florence
+2026-10-12,stasher,florence,Shop near Basílica de Santa Maria Novella,43.7758862,11.2543641,15,26,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/florence
+2026-10-12,stasher,florence,Tech Shop near Firenze Santa Maria Novella,43.7772721,11.2558541,40,18,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/florence
+2026-10-12,stasher,florence,Food & Beverage Business near Verdi,43.769941,11.2632342,10,15,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/florence
+2026-10-12,stasher,florence,Hotel near Piazza della Signoria,43.7704805,11.25677,10,1,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/florence
+2026-10-12,stasher,florence,Restaurant near Cattedrale di Santa Maria del Fiore,43.7686913,11.2580285,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/florence
+2026-10-12,stasher,florence,Rental Shop near Cattedrale di Santa Maria del Fiore,43.769981,11.263198,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/florence
+2026-10-12,stasher,genoa,Hotel near Stazione,44.4155718,8.9226802,600,177,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/genoa
+2026-10-12,stasher,genoa,Cafe near Acquario di Genova,44.4085625,8.9284375,40,62,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/genoa
+2026-10-12,stasher,genoa,Restaurant near Genova Brignole,44.4035714,8.9427317,30,5,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/genoa
+2026-10-12,stasher,genoa,Food & Beverage Business near Old City / Duomo,44.4072035,8.9310337,10,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/genoa
+2026-10-12,stasher,genoa,Restaurant near Cruise Terminal,44.4101448,8.9075255,25,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/genoa
+2026-10-12,stasher,lecce,Smoke Shop near Parco Simone Renda,40.3595568,18.1834953,30,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/lecce
+2026-10-12,stasher,lucca,Hotel near Lucca,43.8404,10.50395,7,74,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/lucca
+2026-10-12,stasher,lucca,Hotel near Mura di Lucca,43.8440463,10.5188382,24,25,4.92,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/lucca
+2026-10-12,stasher,matera,"Office near Parco Murgia, Chiese Rupestri, Sassi",40.6898439,16.5869219,100,1,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/matera
+2026-10-12,stasher,matera,Luggage Storage Shop near Parco dei Quattro Evangelisti,40.6766176,16.5747026,100,2,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/matera
+2026-10-12,stasher,matera,"Office near Parco Murgia, Sassi, ",40.6898439,16.5869219,160,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/matera
+2026-10-12,stasher,milan,Food & Beverage Business near Trattoria Pizzeria La Fermata,45.46334299999999,9.189306,192,1677,4.97,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/milan
+2026-10-12,stasher,milan,Restaurant near Duomo,45.463228,9.188958,60,1291,4.98,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/milan
+2026-10-12,stasher,milan,Car Park near Duomo,45.4670839,9.192258,420,757,5,1.49,bookings_bucket=500;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/milan
+2026-10-12,stasher,milan,Laundry Business near Duomo di Milano,45.46180349999999,9.1869883,100,105,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/milan
+2026-10-12,stasher,milan,Smoke Shop near castello sforzesco,45.4682015,9.1826769,30,71,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/milan
+2026-10-12,stasher,milan,Shop near Colonne,45.460834,9.18103,20,55,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/milan
+2026-10-12,stasher,milan,Smoke Shop near Duomo di Milano,45.46470009999999,9.1973966,20,35,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/milan
+2026-10-12,stasher,milan,Cafe near Piccolo Teatro Milan,45.4646302,9.181684800000001,9,13,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/milan
+2026-10-12,stasher,milan,Health & Beauty Business near Piccolo Teatro Grassi,45.4657689,9.1815102,10,5,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/milan
+2026-10-12,stasher,milan,Hotel near Duomo di Milano,45.4585529,9.1884716,100,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/milan
+2026-10-12,stasher,naples,Hotel near Naples - Piazza Garibaldi Corso Umberto,40.8504013,14.2649954,94,1068,4.99,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/naples
+2026-10-12,stasher,naples,Hotel near Stazione Centrale Garibaldi di Napoli,40.8531058,14.2710624,29,398,4.98,1.49,bookings_bucket=250;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/naples
+2026-10-12,stasher,naples,Rental Shop near Stazione Centrale Di Napoli,40.850743,14.2723873,180,149,4.93,1.49,bookings_bucket=100;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/naples
+2026-10-12,stasher,naples,Shop near Metro station ,40.8505775,14.272648,50,108,4.96,1.49,bookings_bucket=100;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/naples
+2026-10-12,stasher,naples,Shop near Napoli Porta Nolana,40.850814,14.2670932,100,73,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/naples
+2026-10-12,stasher,naples,Hotel near Stazione Centrale,40.8533366,14.2692689683658,100,44,4.86,1.49,bookings_bucket=50;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/naples
+2026-10-12,stasher,naples,Restaurant near Napoli Centrale,40.8533283,14.2711142,200,30,4.87,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/naples
+2026-10-12,stasher,naples,Shop near Principe Umberto Tram Stop,40.8532294,14.2677807,160,14,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/naples
+2026-10-12,stasher,naples,Shop near Napoli Centrale,40.84989789999999,14.2683827,10,1,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/naples
+2026-10-12,stasher,naples,Tech Shop near Napoli Porta Nolana,40.8501516,14.2696036,50,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/naples
+2026-10-12,stasher,padua,Hotel near Stazione Padova,45.418424,11.874332,100,303,5,1.49,bookings_bucket=250;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/padua
+2026-10-12,stasher,palermo,Hotel near Teatro Politeama Garibaldi,38.12340055077892,13.359080465401606,20,43,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/palermo
+2026-10-12,stasher,palermo,Office near Mercado de la Vucciria,38.1176781,13.3645311,40,25,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/palermo
+2026-10-12,stasher,palermo,Newsagent near Politeama,38.123875,13.3599754,30,14,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/palermo
+2026-10-12,stasher,palermo,Smoke Shop near Stadio Renzo Barbera,38.1465583,13.3390495,50,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/palermo
+2026-10-12,stasher,palermo,Shop near Parco Ninni Cassarà,38.1007,13.33495,40,1,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/palermo
+2026-10-12,stasher,palermo,Cafe near Teatro Massimo,38.1193182,13.3526811,10,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/palermo
+2026-10-12,stasher,palermo,Shop near chiesa santissima mediatrice,38.1007,13.33495,40,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/palermo
+2026-10-12,stasher,palermo,Shop near Aeroporto Boccadifalco,38.11096,13.32929,30,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/palermo
+2026-10-12,stasher,palermo,Office near IL TUAREG T.O.,38.140371,13.3342968,24,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/palermo
+2026-10-12,stasher,perugia,Postal Shop near Perugia Railway Station,43.1016975,12.3771526,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/perugia
+2026-10-12,stasher,pisa,Hostel near Pisa Centrale,43.70703,10.40437,46,972,5,6.78,bookings_bucket=1000;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/pisa
+2026-10-12,stasher,pisa,Tech Shop near Train station ,43.7098873,10.4006981,100,221,4.99,1.49,bookings_bucket=250;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/pisa
+2026-10-12,stasher,pisa,Shop near Pisa Centrale,43.7078814,10.4073151,20,6,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/pisa
+2026-10-12,stasher,rimini,Hotel near Centro storico ,44.0675002,12.5770926,20,33,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/rimini
+2026-10-12,stasher,rimini,Hotel near spiaggia,44.06423,12.5829734,24,17,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/rimini
+2026-10-12,stasher,rimini,Hostel near Rimini Nord - Stazione,44.075236,12.5607071,48,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/rimini
+2026-10-12,stasher,rimini,Hotel near Rimini Centra Station - New Dock,44.0712873,12.5686132,48,7,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/rimini
+2026-10-12,stasher,rome,Hotel near Roma Termini,41.899152,12.499555,24,4236,4.99,1.49,bookings_bucket=2500;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/rome
+2026-10-12,stasher,rome,Shop near Roma Termini,41.8998754,12.5011437,392,1210,4.98,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/rome
+2026-10-12,stasher,rome,Shop near Roma Termini,41.9017162,12.4972151,198,335,5,1.49,bookings_bucket=250;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/rome
+2026-10-12,stasher,rome,Health & Beauty Business near Roma Termini,41.8994447,12.5005109,1000,193,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/rome
+2026-10-12,stasher,rome,Tech Shop near rifugio romano,41.9043278,12.4997119,200,56,4.71,1.49,bookings_bucket=50;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/rome
+2026-10-12,stasher,rome,Laundry Business near Teatro dell'Opera di Roma,41.9006827,12.4943461,100,35,4.97,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/rome
+2026-10-12,stasher,rome,Luggage Storage Shop near Roma Termini,41.9014221,12.4945492,100,29,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/rome
+2026-10-12,stasher,rome,Hotel near Roma Termini,41.90447899999999,12.500224,50,10,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/rome
+2026-10-12,stasher,rome,Souvenir Shop near Roma Termini,41.9037497,12.5007283,10,3,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/rome
+2026-10-12,stasher,rome,Laundry Business near Roma Termini,41.9051965,12.4998123,20,2,5,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/rome
+2026-10-12,stasher,salerno,Postal Shop near Salerno,40.677139,14.766728,100,54,4.96,1.49,bookings_bucket=50;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/salerno
+2026-10-12,stasher,treviso,Hostel near Porta San Marco,45.6734879,12.2237946,20,2,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/treviso
+2026-10-12,stasher,turin,Postal Shop near Mole Antonelliana,45.0696897,7.6534688,60,34,4.97,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/turin
+2026-10-12,stasher,turin,Hotel near Torino Porta Susa,45.07225649999999,7.6636454,10,31,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/turin
+2026-10-12,stasher,turin,Tech Shop near Stazione di Torino Porta Nuova,45.0597273,7.6791901,10,18,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/turin
+2026-10-12,stasher,turin,Convenience Store near Duomo di Torino,45.07108239999999,7.6818783,10,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/turin
+2026-10-12,stasher,turin,Food & Beverage Business near Galleria Arte Moderna,45.0602805,7.6583706,16,5,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/turin
+2026-10-12,stasher,turin,Luggage Storage Shop near Piazza Castello,45.07013610000001,7.686993099999999,69,3,5,1.49,bookings_bucket=5;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/turin
+2026-10-12,stasher,turin,Restaurant near Porta Nuova Station,45.0633948,7.681815199999999,10,4,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/turin
+2026-10-12,stasher,turin,Rental Shop near centro,45.0874759,7.7002476,24,3,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/turin
+2026-10-12,stasher,turin,Health & Beauty Business near Parco Dora,45.0849244,7.6643548,39,2,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/turin
+2026-10-12,stasher,turin,Convenience Store near Mole Antonelliana,45.0722225,7.693210299999999,10,1,5,1.49,bookings_bucket=3;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/turin
+2026-10-12,stasher,venice,Laundry Business near Stazione Santa Lucia ,45.4393125,12.3230625,26,915,4.97,1.49,bookings_bucket=1000;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/venice
+2026-10-12,stasher,venice,Hotel near Ponte di Rialto,45.43729,12.3361147,18,267,4.99,1.49,bookings_bucket=250;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/venice
+2026-10-12,stasher,venice,Hotel near Ca d'oro e Casino di Venezia,45.4429188,12.3324706,10,185,4.99,1.49,bookings_bucket=100;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/venice
+2026-10-12,stasher,venice,Hotel near Centro ,45.4405402,12.3346376,40,138,5,1.49,bookings_bucket=100;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/venice
+2026-10-12,stasher,venice,Health & Beauty Business near Centro storico,45.42909,12.32798,20,77,5,1.49,bookings_bucket=50;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/venice
+2026-10-12,stasher,venice,Luggage Storage Shop near Bembo Tram Stop,45.4863893,12.240305,48,9,5,1.49,bookings_bucket=10;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/venice
+2026-10-12,stasher,venice,Hotel near Venice Mestre,45.4829031,12.2372419,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/venice
+2026-10-12,stasher,venice,Hotel near Venezia Mestre,45.4834492,12.2371989,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/venice
+2026-10-12,stasher,venice,Restaurant near Consorzio Manzoni Spiagge,45.4836715,12.2352819,10,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/venice
+2026-10-12,stasher,venice,Hotel near Venezia Mestre,45.48943939999999,12.2400846,100,0,4.7,1.49,bookings_bucket=0;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/venice
+2026-10-12,stasher,verona,Shop near Via Valverde Pardaval Bus Stop,45.4368805,10.9878004,20,36,5,1.49,bookings_bucket=20;often_full=False,https://stasher.com/pt/deposito-bagagem/italy/verona
+2026-10-12,stowyourbags,rome,Vatican Museums,41.9073597,12.456266899999946,,1740,4.7,2.49,"sizes=2;address=Via Germanico 20, 00192 Roma",https://www.stowyourbags.com/en/shop/rome/luggage-storage-vatican-st-peter/
+2026-10-12,stowyourbags,milan,Milano Centrale Train Station,45.4858701,9.209189700000024,,4364,4.7,1.49,"sizes=3;address=Via G. Battista Pergolesi, 22 20124 Milano",https://www.stowyourbags.com/en/shop/milan/luggage-storage-milan-central-station/
+2026-10-12,stowyourbags,rome,Spanish Steps District,41.9037594,12.481190800000036,,1064,4.7,2.49,"sizes=2;address=Via della Vite 42, 00187 Roma",https://www.stowyourbags.com/en/shop/rome/luggage-storage-spanish-steps/
+2026-10-12,stowyourbags,florence,Uffizi District,43.7698913,11.258183499999973,,841,4.7,2.49,"sizes=2;address=Via dell'Anguillara 58, 50122 Firenze",https://www.stowyourbags.com/en/shop/florence/luggage-storage-florence-piazza-signoria-duomo/
+2026-10-12,stowyourbags,rome,City Center | Termini Station,41.8986364,12.50191510000002,,2002,4.6,1.49,"sizes=3;address=Via Filippo Turati 52, 00185 Roma",https://www.stowyourbags.com/en/shop/rome/luggage-storage-termini-train-station-rome/
+2026-10-12,stowyourbags,florence,City Center |  Florence Station,43.7749487,11.246065799999997,,1339,4.6,2.49,"sizes=2;address=Via dell'Albero 22, 50123 Firenze",https://www.stowyourbags.com/en/shop/florence/luggage-storage-florence-train-station/
+2026-10-12,stowyourbags,naples,Naples Centrale Train Station,40.8551683,14.270551100000034,,1343,4.5,2.49,"sizes=2;address=Via Venezia 64, 80142 Napoli",https://www.stowyourbags.com/en/shop/naples/luggage-storage-naples-central-station/
+2026-10-12,stowyourbags,venice,City Center | Rialto District,45.437976,12.337400099999968,,551,4.6,2.99,"sizes=1;address=Calle de l'Orso 5512 A, 30124 Venezia",https://www.stowyourbags.com/en/shop/venice/rialto-bridge-san-marco/
+2026-10-12,stowyourbags,venice,Santa Lucia Train Station,45.4424789,12.32434950000004,,2048,4.7,2.49,"sizes=2;address=Calle dello Spezier 193, 30100 Venezia",https://www.stowyourbags.com/en/shop/venice/luggage-storage-santa-lucia-train-station-venice/
+2026-10-12,stowyourbags,catania,Via Etnea | Bellini Theater,37.5045378,15.087672300000008,,559,4.7,2.49,"sizes=2;address=Via Antonino Mancini 22, 95131 Catania",https://www.stowyourbags.com/en/shop/catania/luggage-storage-catania-city-center/
+2026-10-12,stowyourbags,pisa,City Center | Pisa Station,43.709743,10.400825,,1405,4.6,2.49,"sizes=2;address=Via Cristoforo Colombo 6, 56125 Pisa",https://www.stowyourbags.com/en/shop/pisa/luggage-storage-pisa-centrale-station/
+2026-10-12,stowyourbags,verona,Verona Arena,45.4392923,10.991848,,863,4.8,2.49,"sizes=2;address=Via Dietro Listone, 19 C, 37121 Verona",https://www.stowyourbags.com/en/shop/verona/luggage-storage-arena-of-verona/
+2026-10-12,stowyourbags,turin,Turin Porta Nuova Train Station,45.063847,7.677491,,1161,4.7,2.49,"sizes=2;address=Via Alessandro Volta 1G, 10121 Torino",https://www.stowyourbags.com/en/shop/turin/luggage-storage-porta-nuova-station/
+2026-10-12,stowyourbags,bari,Bari Centrale Train Station,41.118786,16.871065,,1640,4.7,1.49,"sizes=3;address=Piazza Aldo Moro 29, 70121 Bari",https://www.stowyourbags.com/en/shop/bari/luggage-storage-bari-central-station/
+2026-10-12,stowyourbags,rome,Colosseum,41.893041,12.488991,,1160,4.8,2.49,"sizes=2;address=Via del Colosseo 2, 00184 Roma",https://www.stowyourbags.com/en/shop/rome/colosseum-roman-forum/
+2026-10-12,stowyourbags,rome,Trastevere,41.8887010000002,12.47099435853575,,470,4.7,2.49,"sizes=2;address=Via della Cisterna 15B, 00153 Roma",https://www.stowyourbags.com/en/shop/rome/trastevere-basilica-of-our-lady/
+2026-10-12,stowyourbags,florence,Florence SMN Train Station,43.776742,11.250287,,1529,4.7,1.49,"sizes=3;address=Via Fiume 5R, 50123 Firenze",https://www.stowyourbags.com/en/shop/florence/luggage-storage-florence-city-center-train-station/
+2026-10-12,stowyourbags,genoa,Genoa Piazza Principe Train Station,44.416389,8.9235753,,456,4.6,2.49,"sizes=2;address=Via Balbi 95, 16126 Genova",https://www.stowyourbags.com/en/shop/genoa/luggage-storage-piazza-principe-station/
+2026-10-12,stowyourbags,palermo,City Center | Massimo Theater,38.120327,13.359364,,438,4.8,2.49,"sizes=2;address=Via Orologio 25, 90133 Palermo",https://www.stowyourbags.com/en/shop/palermo/luggage-storage-city-center/
+2026-10-12,stowyourbags,rome,Termini Train Station,41.902158,12.504518,,1521,4.8,1.49,"sizes=3;address=Via Milazzo 20 A, 00185 Roma",https://www.stowyourbags.com/en/shop/rome/luggage-storage-termini-train-station-via-marsala/
+2026-10-12,stowyourbags,bologna,Bologna Centrale Train Station,44.505488,11.3398833,,1597,4.8,1.49,"sizes=3;address=Viale Pietro Pietramellara, 27 C,  40121 Bologna",https://www.stowyourbags.com/en/shop/bologna/luggage-storage-bologna-centrale-station/
+2026-10-12,stowyourbags,milan,Cadorna Train Station,45.46866520562012,9.176107591724891,,1286,4.8,1.49,"sizes=3;address=Piazzale Luigi Cadorna 10, 20123 Milano",https://www.stowyourbags.com/en/shop/milan/luggage-storage-cadorna-station/
+2026-10-12,stowyourbags,siena,Piazza del Campo,43.319704,11.331724,,139,4.8,1.49,"sizes=3;address=Via di Calzoleria 13, 53100 Siena",https://www.stowyourbags.com/en/shop/siena/luggage-storage-piazza-del-campo/
+2026-10-12,stowyourbags,brescia,Brescia Train Station,45.5330686,10.2131944,,157,4.8,1.49,"sizes=3;address=Viale della Stazione 72, 25124 Brescia",https://www.stowyourbags.com/en/shop/brescia/luggage-storage-train-station/
+2026-10-12,stowyourbags,pisa,Pisa Centrale Train Station,43.708755,10.401779,,271,4.8,1.49,"sizes=3;address=Via Amerigo Vespucci 91, 56125 Pisa",https://www.stowyourbags.com/en/shop/pisa/pisa-city-center/
+2026-10-12,stowyourbags,rome,St. Peter's Basilica,41.899606,12.466173,,300,4.9,1.49,"sizes=3;address=Corso Vittorio Emanuele II 310, 00186 Roma",https://www.stowyourbags.com/en/shop/rome/st-peter-castel-sant-angelo/
+2026-10-12,stowyourbags,milan,Duomo District,45.462142,9.185314,,615,4.8,1.49,"sizes=3;address=Via Valpetrosa 5,  20123 Milano",https://www.stowyourbags.com/en/shop/milan/milan-cathedral/
+2026-10-12,stowyourbags,bologna,Sant'Orsola Hospital,44.490235,11.363857,,16,4.9,0.99,"sizes=2;address=Via Pietro Albertoni, 15, 40138 Bologna BO",https://www.stowyourbags.com/en/shop/bologna/santorsola-hospital/
+2026-10-12,stowyourbags,venice,Rialto Bridge,45.4391,12.337428,,99,4.9,1.49,"sizes=3;address=Cannaregio 5886 a, 30121 Venezia",https://www.stowyourbags.com/en/shop/venice/san-marco-rialto-bridge/
+2026-10-12,stowyourbags,parma,Parma Train Station,44.809235,10.327646,,65,4.6,2.99,"sizes=1;address=Piazzale Carlo Alberto Dalla Chiesa 7D, 43121 Parma",https://www.stowyourbags.com/en/shop/parma/luggage-storage-train-station-parma/
+2026-10-12,stowyourbags,bologna,Piazza Maggiore | City Center,44.49541,11.340592,,108,4.9,1.49,"sizes=3;address=Via Calcavinazzi 2e, 40121 Bologna",https://www.stowyourbags.com/en/shop/bologna/luggage-storage-bologna-city-center/
+2026-10-12,stowyourbags,milan,Porta Garibaldi Train Station,45.482192,9.187991,,68,4.9,1.49,"sizes=3;address=Via Carlo de Cristoforis 2, 20124 Milano",https://www.stowyourbags.com/en/shop/milan/luggage-storage-porta-garibaldi/
+2026-10-12,stowyourbags,naples,Naples Port - Molo Beverello,40.839324,14.251338,,79,4.9,1.49,"sizes=3;address=Via Giuseppe Pisanelli 25, 80133 Napoli NA",https://www.stowyourbags.com/en/shop/naples/luggage-storage-port-molo-beverello/
