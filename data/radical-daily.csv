@@ -1316,7 +1316,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-07,weekday,bergamo,bergamo-train-station,6000,Luggage Storage Bergamo Train Station,45,10,2,4.4,0,2,1.0
 2026-10-08,weekday,bergamo,bergamo-train-station,6000,Luggage Storage Bergamo Train Station,45,11,0,0.0,0,0,0.0
 2026-10-09,weekday,bergamo,bergamo-train-station,6000,Luggage Storage Bergamo Train Station,45,11,45,100.0,5,40,22.5
-2026-10-12,weekday,bergamo,bergamo-train-station,6000,Luggage Storage Bergamo Train Station,45,8,10,22.2,2,8,5.0
+2026-10-12,weekday,bergamo,bergamo-train-station,6000,Luggage Storage Bergamo Train Station,45,8,6,13.3,2,4,3.0
 2026-09-23,weekday,bergamo,bergamo-train-station,6457968,Luggage Storage Bergamo Bus Station,30,1,0,0.0,0,0,0.0
 2026-09-24,weekday,bergamo,bergamo-train-station,6457968,Luggage Storage Bergamo Bus Station,30,4,4,13.3,0,4,2.0
 2026-09-25,weekday,bergamo,bergamo-train-station,6457968,Luggage Storage Bergamo Bus Station,30,6,0,0.0,0,0,0.0
@@ -7522,7 +7522,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-09,weekday,milan,cadorna,9047,Luggage Storage Cadorna Railway Station,200,9,11,5.5,5,6,5.5
 2026-10-10,weekend,milan,cadorna,9047,Luggage Storage Cadorna Railway Station,200,9,8,4.0,2,7,4.5
 2026-10-11,weekend,milan,cadorna,9047,Luggage Storage Cadorna Railway Station,200,9,24,12.0,6,18,12.0
-2026-10-12,weekday,milan,cadorna,9047,Luggage Storage Cadorna Railway Station,200,8,10,5.0,2,8,5.0
+2026-10-12,weekday,milan,cadorna,9047,Luggage Storage Cadorna Railway Station,200,8,10,5.0,2,9,5.5
 2026-09-29,weekday,milan,caiazzo,8926,Luggage Storage Caiazzo Metro Station,100,10,0,0.0,0,0,0.0
 2026-09-30,weekday,milan,caiazzo,8926,Luggage Storage Caiazzo Metro Station,100,10,2,2.0,0,2,1.0
 2026-10-06,weekday,milan,caiazzo,8926,Luggage Storage Caiazzo Metro Station,100,10,3,3.0,0,3,1.5
@@ -8265,7 +8265,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-09,weekday,milan,milan-centrale-railway-station,5782,Luggage Storage Centrale FS,100,10,19,19.0,12,7,9.5
 2026-10-10,weekend,milan,milan-centrale-railway-station,5782,Luggage Storage Centrale FS,100,9,36,36.0,11,25,18.0
 2026-10-11,weekend,milan,milan-centrale-railway-station,5782,Luggage Storage Centrale FS,100,6,65,65.0,11,54,32.5
-2026-10-12,weekday,milan,milan-centrale-railway-station,5782,Luggage Storage Centrale FS,100,9,36,36.0,11,27,19.0
+2026-10-12,weekday,milan,milan-centrale-railway-station,5782,Luggage Storage Centrale FS,100,9,36,36.0,11,25,18.0
 2026-09-23,weekday,milan,milan-centrale-railway-station,6451052,Luggage Storage Malpensa Shuttle / Milano Centrale,50,2,0,0.0,0,0,0.0
 2026-09-24,weekday,milan,milan-centrale-railway-station,6451052,Luggage Storage Malpensa Shuttle / Milano Centrale,50,2,0,0.0,0,0,0.0
 2026-09-25,weekday,milan,milan-centrale-railway-station,6451052,Luggage Storage Malpensa Shuttle / Milano Centrale,50,8,19,38.0,19,2,10.5
@@ -8703,7 +8703,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-09,weekday,milan,missori,6470159,Luggage Storage Santa Sofia,20,13,8,40.0,5,3,4.0
 2026-10-10,weekend,milan,missori,6470159,Luggage Storage Santa Sofia,20,13,5,25.0,5,0,2.5
 2026-10-11,weekend,milan,missori,6470159,Luggage Storage Santa Sofia,18,11,20,111.1,16,4,10.0
-2026-10-12,weekday,milan,missori,6470159,Luggage Storage Santa Sofia,18,10,8,44.4,5,3,4.0
+2026-10-12,weekday,milan,missori,6470159,Luggage Storage Santa Sofia,18,10,8,44.4,5,6,5.5
 2026-09-23,weekday,milan,missori,6470560,Luggage Storage near Duomo Square,40,1,0,0.0,0,0,0.0
 2026-09-24,weekday,milan,missori,6470560,Luggage Storage near Duomo Square,40,2,6,15.0,4,2,3.0
 2026-09-25,weekday,milan,missori,6470560,Luggage Storage near Duomo Square,40,6,9,22.5,6,3,4.5
@@ -18027,7 +18027,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-09,weekday,rome,termini,6472962,Luggage Storage Termini / Amendola,18,12,15,83.3,8,20,14.0
 2026-10-10,weekend,rome,termini,6472962,Luggage Storage Termini / Amendola,18,12,17,94.4,13,18,15.5
 2026-10-11,weekend,rome,termini,6472962,Luggage Storage Termini / Amendola,18,11,18,100.0,17,9,13.0
-2026-10-12,weekday,rome,termini,6472962,Luggage Storage Termini / Amendola,18,8,14,77.8,12,13,12.5
+2026-10-12,weekday,rome,termini,6472962,Luggage Storage Termini / Amendola,18,8,14,77.8,12,14,13.0
 2026-09-23,weekday,rome,termini,6473095,Luggage Storage Viminale Bus Stop,40,2,0,0.0,0,0,0.0
 2026-09-24,weekday,rome,termini,6473095,Luggage Storage Viminale Bus Stop,40,3,0,0.0,0,0,0.0
 2026-09-25,weekday,rome,termini,6473095,Luggage Storage Viminale Bus Stop,40,8,0,0.0,0,0,0.0
