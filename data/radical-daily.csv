@@ -4061,7 +4061,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-10,weekend,como,city-center,6473498,Luggage Storage Como S. Giovanni Station,35,13,1,2.9,0,1,0.5
 2026-10-11,weekend,como,city-center,6473498,Luggage Storage Como S. Giovanni Station,35,12,27,77.1,0,27,13.5
 2026-10-12,weekday,como,city-center,6473498,Luggage Storage Como S. Giovanni Station,35,13,1,2.9,1,0,0.5
-2026-10-13,weekday,como,city-center,6473498,Luggage Storage Como S. Giovanni Station,35,8,1,2.9,1,0,0.5
+2026-10-13,weekday,como,city-center,6473498,Luggage Storage Como S. Giovanni Station,35,8,3,8.6,1,2,1.5
 2026-09-23,weekday,como,city-center,6473954,Luggage Storage near Como S. Giovanni Stn.,10,2,0,0.0,0,0,0.0
 2026-09-24,weekday,como,city-center,6473954,Luggage Storage near Como S. Giovanni Stn.,10,2,0,0.0,0,0,0.0
 2026-09-25,weekday,como,city-center,6473954,Luggage Storage near Como S. Giovanni Stn.,10,9,0,0.0,0,0,0.0
@@ -6150,7 +6150,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-09,weekday,gorizia,gorizia-train-station,9040,Luggage Storage Gorizia Train Station,25,13,0,0.0,0,0,0.0
 2026-10-10,weekend,gorizia,gorizia-train-station,9040,Luggage Storage Gorizia Train Station,25,7,0,0.0,0,0,0.0
 2026-10-12,weekday,gorizia,gorizia-train-station,9040,Luggage Storage Gorizia Train Station,25,13,0,0.0,0,0,0.0
-2026-10-13,weekday,gorizia,gorizia-train-station,9040,Luggage Storage Gorizia Train Station,25,9,0,0.0,0,0,0.0
+2026-10-13,weekday,gorizia,gorizia-train-station,9040,Luggage Storage Gorizia Train Station,25,9,3,12.0,0,3,1.5
 2026-09-28,weekday,gravina-in-puglia,city-center,4532,Luggage Storage Gravina Sotterranea,50,11,0,0.0,0,0,0.0
 2026-09-29,weekday,gravina-in-puglia,city-center,4532,Luggage Storage Gravina Sotterranea,50,11,0,0.0,0,0,0.0
 2026-09-30,weekday,gravina-in-puglia,city-center,4532,Luggage Storage Gravina Sotterranea,50,11,0,0.0,0,0,0.0
@@ -18343,7 +18343,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-09,weekday,rome,roma-vatican-museums,6473172,Luggage Storage St Peter's Square,11,8,7,63.6,4,7,5.5
 2026-10-10,weekend,rome,roma-vatican-museums,6473172,Luggage Storage St Peter's Square,11,8,7,63.6,4,7,5.5
 2026-10-12,weekday,rome,roma-vatican-museums,6473172,Luggage Storage St Peter's Square,11,8,10,90.9,0,12,6.0
-2026-10-13,weekday,rome,roma-vatican-museums,6473172,Luggage Storage St Peter's Square,11,6,4,36.4,4,3,3.5
+2026-10-13,weekday,rome,roma-vatican-museums,6473172,Luggage Storage St Peter's Square,11,6,6,54.5,4,6,5.0
 2026-09-24,weekday,rome,roman-forum,34,Luggage Storage Fori Imperiali,300,2,0,0.0,0,0,0.0
 2026-09-25,weekday,rome,roman-forum,34,Luggage Storage Fori Imperiali,300,4,0,0.0,0,0,0.0
 2026-09-26,weekend,rome,roman-forum,34,Luggage Storage Fori Imperiali,300,9,0,0.0,0,0,0.0
@@ -20051,7 +20051,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-09,weekday,rome,vatican,6473173,Luggage Storage Rome Vatican Museums,12,8,10,83.3,6,4,5.0
 2026-10-10,weekend,rome,vatican,6473173,Luggage Storage Rome Vatican Museums,12,8,10,83.3,5,9,7.0
 2026-10-12,weekday,rome,vatican,6473173,Luggage Storage Rome Vatican Museums,12,8,9,75.0,6,9,7.5
-2026-10-13,weekday,rome,vatican,6473173,Luggage Storage Rome Vatican Museums,12,6,9,75.0,6,9,7.5
+2026-10-13,weekday,rome,vatican,6473173,Luggage Storage Rome Vatican Museums,12,6,9,75.0,6,8,7.0
 2026-09-24,weekday,rome,via-del-corso,5660,Luggage Storage Via Del Corso,25,9,2,8.0,0,2,1.0
 2026-09-25,weekday,rome,via-del-corso,5660,Luggage Storage Via Del Corso,25,7,12,48.0,0,12,6.0
 2026-09-26,weekend,rome,via-del-corso,5660,Luggage Storage Via Del Corso,25,18,0,0.0,0,0,0.0
@@ -21884,7 +21884,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-10,weekend,treviso,treviso-train-station,806,Luggage Storage Treviso Train Station,75,14,19,25.3,0,21,10.5
 2026-10-11,weekend,treviso,treviso-train-station,806,Luggage Storage Treviso Train Station,75,4,59,78.7,11,48,29.5
 2026-10-12,weekday,treviso,treviso-train-station,806,Luggage Storage Treviso Train Station,75,13,28,37.3,0,28,14.0
-2026-10-13,weekday,treviso,treviso-train-station,806,Luggage Storage Treviso Train Station,75,8,11,14.7,0,11,5.5
+2026-10-13,weekday,treviso,treviso-train-station,806,Luggage Storage Treviso Train Station,75,8,12,16.0,0,12,6.0
 2026-09-23,weekday,treviso,treviso-train-station,8263,Luggage Storage Treviso Railway Station,20,1,0,0.0,0,0,0.0
 2026-09-24,weekday,treviso,treviso-train-station,8263,Luggage Storage Treviso Railway Station,20,1,4,20.0,4,0,2.0
 2026-09-25,weekday,treviso,treviso-train-station,8263,Luggage Storage Treviso Railway Station,20,4,5,25.0,5,0,2.5
