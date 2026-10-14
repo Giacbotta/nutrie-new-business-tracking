@@ -9159,6 +9159,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-14,agrigento,city-center,3,120,0,0.0,0,0,0.0
 2026-10-14,alberobello,alberobello-train-station,1,25,0,0.0,0,0,0.0
 2026-10-14,alberobello,city-center,1,30,0,0.0,0,0,0.0
+2026-10-14,alessandria,tortona,1,15,0,0.0,0,0,0.0
 2026-10-14,alghero,alghero-airport,1,30,2,6.7,0,2,1.0
 2026-10-14,alghero,alghero-coral-museum,1,15,2,13.3,0,2,1.0
 2026-10-14,alghero,alghero-old-town,1,20,0,0.0,0,0,0.0
@@ -9171,7 +9172,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-14,ancona,ancona-train-station,5,280,0,0.0,0,0,0.0
 2026-10-14,angri,train-station,1,50,0,0.0,0,0,0.0
 2026-10-14,aosta,aosta-train-station,3,40,0,0.0,0,0,0.0
-2026-10-14,aosta,city-center,1,100,0,0.0,0,0,0.0
+2026-10-14,aosta,city-center,2,120,0,0.0,0,0,0.0
 2026-10-14,aosta,train-station,2,75,1,1.3,0,1,0.5
 2026-10-14,arezzo,arezzo-train-station,2,40,0,0.0,0,0,0.0
 2026-10-14,arezzo,city-center,4,145,9,6.2,0,9,4.5
@@ -9196,7 +9197,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-14,bergamo,borgo-santa-caterina,1,20,0,0.0,0,0,0.0
 2026-10-14,bergamo,citta-alta,2,75,13,17.3,9,4,6.5
 2026-10-14,bologna,belvedere-mercato-delle-erbe,1,30,3,10.0,0,3,1.5
-2026-10-14,bologna,bologna-centrale-railway-station,14,725,23,3.2,2,21,11.5
+2026-10-14,bologna,bologna-centrale-railway-station,14,725,27,3.7,2,25,13.5
 2026-10-14,bologna,bologna-city-center,2,65,6,9.2,1,5,3.0
 2026-10-14,bologna,bologna-university,3,70,8,11.4,8,0,4.0
 2026-10-14,bologna,costa-saragozza,1,20,0,0.0,0,0,0.0
@@ -9217,7 +9218,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-14,brescia,train-station,5,80,1,1.2,0,1,0.5
 2026-10-14,bressanone-brixen,bressanone-brixen-train-station,3,60,1,1.7,0,1,0.5
 2026-10-14,bressanone-brixen,train-station,2,50,0,0.0,0,0,0.0
-2026-10-14,brindisi,central-station,5,455,6,1.3,0,6,3.0
+2026-10-14,brindisi,central-station,5,455,8,1.8,0,8,4.0
 2026-10-14,brindisi,city-centre,1,30,0,0.0,0,0,0.0
 2026-10-14,brindisi,corso-garibaldi,1,45,0,0.0,0,0,0.0
 2026-10-14,cagliari,bonaria,2,30,0,0.0,0,0,0.0
@@ -9255,7 +9256,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-14,civitavecchia,civitavecchia-1,1,20,0,0.0,0,0,0.0
 2026-10-14,civitavecchia,port,1,30,0,0.0,0,0,0.0
 2026-10-14,civitavecchia,railway-station,3,65,7,10.8,7,0,3.5
-2026-10-14,como,city-center,6,200,9,4.5,4,5,4.5
+2026-10-14,como,city-center,6,200,10,5.0,4,6,5.0
 2026-10-14,como,como-lago-train-station,1,30,0,0.0,0,0,0.0
 2026-10-14,corigliano-calabro,lungomare-di-schiavonea,1,10,0,0.0,0,0,0.0
 2026-10-14,cortina-d-ampezzo,cortina-bus-station,1,65,0,0.0,0,0,0.0
@@ -9341,7 +9342,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-14,lucca,lucca-train-station,8,690,2,0.3,0,2,1.0
 2026-10-14,lucca,walled-city,2,60,0,0.0,0,0,0.0
 2026-10-14,maglie,old-town,1,10,0,0.0,0,0,0.0
-2026-10-14,mantua,city-center,1,25,0,0.0,0,0,0.0
+2026-10-14,mantua,city-center,1,25,2,8.0,0,2,1.0
 2026-10-14,marsala,porta-garibaldi,1,30,0,0.0,0,0,0.0
 2026-10-14,marsala,train-station,1,50,0,0.0,0,0,0.0
 2026-10-14,martina-franca,city-center,1,10,0,0.0,0,0,0.0
@@ -9354,7 +9355,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-14,messina,borgo-del-ringo,1,30,0,0.0,0,0,0.0
 2026-10-14,messina,messina-centrale,7,210,4,1.9,2,2,2.0
 2026-10-14,mestre,city-center,4,380,0,0.0,0,0,0.0
-2026-10-14,mestre,mestre-train-station,7,225,2,0.9,0,2,1.0
+2026-10-14,mestre,mestre-train-station,7,225,3,1.3,0,4,2.0
 2026-10-14,milan,assago,1,20,0,0.0,0,0,0.0
 2026-10-14,milan,bicocca,1,20,0,0.0,0,0,0.0
 2026-10-14,milan,bueno-aires,1,30,0,0.0,0,0,0.0
@@ -9431,7 +9432,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-14,naples,municipio,7,290,2,0.7,2,0,1.0
 2026-10-14,naples,naples-airport,2,230,3,1.3,1,2,1.5
 2026-10-14,naples,naples-cathedral,2,135,0,0.0,0,0,0.0
-2026-10-14,naples,naples-centrale-train-station,23,1525,26,1.7,21,7,14.0
+2026-10-14,naples,naples-centrale-train-station,23,1525,26,1.7,21,8,14.5
 2026-10-14,naples,naples-city-center,8,365,6,1.6,0,6,3.0
 2026-10-14,naples,napoli-port,1,10,0,0.0,0,0,0.0
 2026-10-14,naples,napoli-porta-nolana,11,513,0,0.0,0,0,0.0
@@ -9444,7 +9445,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-14,naples,quartieri-spagnoli,2,95,0,0.0,0,0,0.0
 2026-10-14,naples,quattro-giornate-station,1,50,0,0.0,0,0,0.0
 2026-10-14,naples,rione-sanita,3,80,0,0.0,0,0,0.0
-2026-10-14,naples,san-lorenzo,1,20,0,0.0,0,0,0.0
+2026-10-14,naples,san-lorenzo,1,20,3,15.0,0,3,1.5
 2026-10-14,naples,santa-lucia,2,120,0,0.0,0,0,0.0
 2026-10-14,naples,universita,8,305,3,1.0,1,2,1.5
 2026-10-14,naples,via-chiaia,4,200,4,2.0,0,4,2.0
@@ -9482,12 +9483,12 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-14,perugia,piazza-della-repubblica,2,30,0,0.0,0,0,0.0
 2026-10-14,perugia,piazza-iv-novembre,1,30,0,0.0,0,0,0.0
 2026-10-14,pesaro,city-center,3,210,0,0.0,0,0,0.0
-2026-10-14,pescara,pescara-centrale-train-station,10,245,0,0.0,0,0,0.0
+2026-10-14,pescara,pescara-centrale-train-station,11,275,0,0.0,0,0,0.0
 2026-10-14,peschiera-del-garda,peschiera-del-garda-train-station,1,35,0,0.0,0,0,0.0
 2026-10-14,piacenza,piacenza-train-station,1,25,0,0.0,0,0,0.0
 2026-10-14,pisa,national-museum-of-san-matteo,1,50,0,0.0,0,0,0.0
 2026-10-14,pisa,piazza-dei-cavalieri,1,20,2,10.0,0,2,1.0
-2026-10-14,pisa,pisa-centrale-train-station,15,1005,23,2.3,4,19,11.5
+2026-10-14,pisa,pisa-centrale-train-station,15,1005,24,2.4,4,20,12.0
 2026-10-14,pisa,pisa-piazza-del-duomo,2,35,0,0.0,0,0,0.0
 2026-10-14,pisa,santa-maria,4,115,0,0.0,0,0,0.0
 2026-10-14,pisa,tower-of-pisa,2,80,0,0.0,0,0,0.0
@@ -9534,7 +9535,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-14,rome,Municipio-Roma-X,1,30,0,0.0,0,0,0.0
 2026-10-14,rome,Quartiere-IX-appio-latino,1,35,5,14.3,3,2,2.5
 2026-10-14,rome,aventino,1,100,0,0.0,0,0,0.0
-2026-10-14,rome,baldo-degli-ubaldi-station,2,55,12,21.8,0,12,6.0
+2026-10-14,rome,baldo-degli-ubaldi-station,2,55,13,23.6,0,13,6.5
 2026-10-14,rome,bocca-della-verita,1,40,7,17.5,7,0,3.5
 2026-10-14,rome,brancaccio,1,20,0,0.0,0,0,0.0
 2026-10-14,rome,casal-monastero,1,100,0,0.0,0,0,0.0
@@ -9575,12 +9576,12 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-14,rome,porta-s-paolo,1,60,10,16.7,0,10,5.0
 2026-10-14,rome,portuense,3,140,0,0.0,0,0,0.0
 2026-10-14,rome,prati,6,275,4,1.5,0,4,2.0
-2026-10-14,rome,primavalle,2,80,8,10.0,0,8,4.0
+2026-10-14,rome,primavalle,2,80,9,11.2,0,9,4.5
 2026-10-14,rome,quartiere-xii-gianicolense,3,90,0,0.0,0,0,0.0
 2026-10-14,rome,quartiere-xv-della-vittoria,1,20,4,20.0,0,4,2.0
 2026-10-14,rome,repubblica,8,350,10,2.9,8,2,5.0
 2026-10-14,rome,rione-ix-pigna,2,80,0,0.0,0,0,0.0
-2026-10-14,rome,roma-stadio-olimpico,1,30,0,0.0,0,0,0.0
+2026-10-14,rome,roma-stadio-olimpico,1,30,3,10.0,0,3,1.5
 2026-10-14,rome,roma-vatican-museums,3,161,20,12.4,12,14,13.0
 2026-10-14,rome,roman-forum,2,380,0,0.0,0,0,0.0
 2026-10-14,rome,s-pietro,4,135,14,10.4,9,5,7.0
@@ -9589,13 +9590,13 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-14,rome,santa-maria-maggiore,2,200,0,0.0,0,0,0.0
 2026-10-14,rome,spanish-steps,2,95,0,0.0,0,0,0.0
 2026-10-14,rome,st-peter-basilica,1,35,3,8.6,0,3,1.5
-2026-10-14,rome,termini,34,3133,141,4.5,47,101,74.0
+2026-10-14,rome,termini,34,3133,142,4.5,47,104,75.5
 2026-10-14,rome,tiburtina,7,260,29,11.2,4,26,15.0
 2026-10-14,rome,torre-maura,1,100,0,0.0,0,0,0.0
 2026-10-14,rome,trastevere,16,790,19,2.4,3,16,9.5
 2026-10-14,rome,trevi,4,235,11,4.7,2,9,5.5
 2026-10-14,rome,trieste,1,300,0,0.0,0,0,0.0
-2026-10-14,rome,vatican,18,797,60,7.5,23,37,30.0
+2026-10-14,rome,vatican,18,797,61,7.7,23,38,30.5
 2026-10-14,rome,via-del-corso,1,25,10,40.0,0,10,5.0
 2026-10-14,rome,villa-borghese,1,35,0,0.0,0,0,0.0
 2026-10-14,rome,vittorio-emanuele,2,70,3,4.3,1,2,1.5
@@ -9618,7 +9619,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-14,siena,city-center,10,342,2,0.6,2,0,1.0
 2026-10-14,siena,istrice,2,70,0,0.0,0,0,0.0
 2026-10-14,siena,lupa,2,55,1,1.8,0,1,0.5
-2026-10-14,siena,siena-train-station,1,35,2,5.7,0,2,1.0
+2026-10-14,siena,siena-train-station,1,35,4,11.4,0,4,2.0
 2026-10-14,sirmione,city-center,2,50,3,6.0,3,0,1.5
 2026-10-14,sirmione,porto-di-lugana,1,100,0,0.0,0,0,0.0
 2026-10-14,sorrento,city-center,5,580,4,0.7,0,4,2.0
@@ -9681,7 +9682,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-14,venice,brondolo,1,200,0,0.0,0,0,0.0
 2026-10-14,venice,campo-dei-frari,1,25,0,0.0,0,0,0.0
 2026-10-14,venice,cannaregio,4,450,3,0.7,0,3,1.5
-2026-10-14,venice,city-center,1,30,0,0.0,0,0,0.0
+2026-10-14,venice,city-center,2,80,0,0.0,0,0,0.0
 2026-10-14,venice,constitution-bridge,1,90,12,13.3,0,12,6.0
 2026-10-14,venice,doge-s-palace,2,150,11,7.3,0,11,5.5
 2026-10-14,venice,dorsoduro,1,60,0,0.0,0,0,0.0
@@ -9697,7 +9698,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-14,venice,santa-croce,1,20,2,10.0,2,0,1.0
 2026-10-14,venice,santa-lucia-station,2,240,42,17.5,3,39,21.0
 2026-10-14,venice,santa-lucia-train-station,1,15,0,0.0,0,0,0.0
-2026-10-14,venice,venice-castello,1,50,0,0.0,0,0,0.0
+2026-10-14,venice,venice-castello,1,50,1,2.0,0,1,0.5
 2026-10-14,venice,venice-lido,1,25,0,0.0,0,0,0.0
 2026-10-14,venice,venice-marco-polo-airport,1,45,0,0.0,0,0,0.0
 2026-10-14,ventimiglia,city-center-ventimiglia,2,150,3,2.0,0,3,1.5
