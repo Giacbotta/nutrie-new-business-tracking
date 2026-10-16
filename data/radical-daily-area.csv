@@ -10285,7 +10285,9 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-15,vico-del-gargano,city-center,1,10,0,0.0,0,0,0.0
 2026-10-15,vigevano,city-center,1,20,0,0.0,0,0,0.0
 2026-10-15,villasimius,viale-matteotti,1,10,0,0.0,0,0,0.0
+2026-10-16,alghero,alghero-airport,1,30,0,0.0,0,0,0.0
 2026-10-16,ancona,ancona-train-station,1,100,0,0.0,0,0,0.0
+2026-10-16,assisi,city-center,1,25,0,0.0,0,0,0.0
 2026-10-16,bari,altamura,1,25,0,0.0,0,0,0.0
 2026-10-16,bari,fiera-del-levante,1,30,0,0.0,0,0,0.0
 2026-10-16,bologna,bologna-centrale-railway-station,1,55,0,0.0,0,0,0.0
@@ -10299,6 +10301,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-16,imola,city-center,1,200,0,0.0,0,0,0.0
 2026-10-16,lamezia-terme,train-station,1,30,0,0.0,0,0,0.0
 2026-10-16,lecce,railway-station,1,70,2,2.9,2,0,1.0
+2026-10-16,merano,merano-train-station,1,15,0,0.0,0,0,0.0
 2026-10-16,mestre,mestre-train-station,1,100,2,2.0,2,0,1.0
 2026-10-16,milan,bicocca,1,20,0,0.0,0,0,0.0
 2026-10-16,milan,corso-buenos-aires,1,20,0,0.0,0,0,0.0
@@ -10307,7 +10310,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-16,milan,milano-repubblica-station,2,120,0,0.0,0,0,0.0
 2026-10-16,milan,missori,1,40,0,0.0,0,0,0.0
 2026-10-16,milan,navigli,2,55,3,5.5,2,1,1.5
-2026-10-16,milan,niguarda,1,20,0,0.0,0,0,0.0
+2026-10-16,milan,niguarda,2,40,0,0.0,0,0,0.0
 2026-10-16,milan,palazzo-di-giustizia,1,30,0,0.0,0,0,0.0
 2026-10-16,milan,politecnico-di-milano-campus-bovisa-la-masa,1,20,0,0.0,0,0,0.0
 2026-10-16,milan,porta-genova,1,35,0,0.0,0,0,0.0
@@ -10344,14 +10347,17 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-16,rome,portuense,1,20,0,0.0,0,0,0.0
 2026-10-16,rome,repubblica,1,50,0,0.0,0,0,0.0
 2026-10-16,rome,termini,7,865,39,4.5,39,0,19.5
+2026-10-16,rome,tiburtina,1,65,2,3.1,2,0,1.0
 2026-10-16,rome,trastevere,3,160,32,20.0,32,0,16.0
 2026-10-16,rome,via-del-corso,1,25,0,0.0,0,0,0.0
 2026-10-16,sanremo,city-center,1,20,0,0.0,0,0,0.0
 2026-10-16,sassari,city-center,1,20,0,0.0,0,0,0.0
+2026-10-16,sestri-levante,sestri-levante-train-station,1,35,0,0.0,0,0,0.0
 2026-10-16,sorrento,sant-agnello,1,20,0,0.0,0,0,0.0
 2026-10-16,sorrento,sorrento-train-station,2,60,0,0.0,0,0,0.0
 2026-10-16,syracuse,station,1,30,0,0.0,0,0,0.0
 2026-10-16,trani,trani-transit-station,1,50,0,0.0,0,0,0.0
+2026-10-16,trento,main-station,1,40,0,0.0,0,0,0.0
 2026-10-16,trieste,trieste-train-station,1,45,0,0.0,0,0,0.0
 2026-10-16,turin,city-center,1,40,0,0.0,0,0,0.0
 2026-10-16,turin,museo-pietro-micca,1,95,3,3.2,3,0,1.5
