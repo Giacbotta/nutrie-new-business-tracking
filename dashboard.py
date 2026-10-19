@@ -2,6 +2,9 @@
 
   python dashboard.py
 
+The page holds only the frame; the readings go to docs/data/YYYY-MM-DD.js, one file per day, which
+the page loads for the days it shows (see write_days).
+
 Three sources, one yardstick. Every reading becomes the same three numbers — capacity, occupied,
 free — so the providers can be compared side by side. Whether the number arrives by addition or by
 subtraction is this script's problem, not the reader's:
@@ -266,27 +269,83 @@ def build():
                    url=r["url"], reviews=r["reviews"])
               for r in read_csv("other-operators.csv") if r["brand"] not in ("lockerinthecity","ivano")]
 
+    hourly_rows = [(p, day, hour, city, v[0], v[1], len(v[2]), v[3], v[4], len(v[5]))
+                   for (p, day, hour, city), v in sorted(hourly.items())]
+    point_rows = [(p, city, area, pid, name, size, day, hour, cap, occ)
+                  for (p, city, area, pid, name, size, day), (cap, occ, hour) in sorted(points.items())]
+    days = sorted({r[1] for r in hourly_rows} | {r[6] for r in point_rows})
     payload = dict(
         urls={f"{p}|{pid}": u for (p, pid), u in urls.items()},
         others=others,
         built=dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         providers=[dict(id=k, label=v["label"], unit=v["unit"], note=v["note"],
                         last=last_read.get(k, "never")) for k, v in PROVIDERS.items()],
-        hourly=[dict(p=p, day=day, hour=hour, city=city, cap=v[0], occ=v[1], pts=len(v[2]),
-                     capk=v[3], occk=v[4], ptsk=len(v[5]))
-                for (p, day, hour, city), v in sorted(hourly.items())],
-        points=[dict(p=p, city=city, area=area, id=pid, name=name, size=size, day=day,
-                     hour=hour, cap=cap, occ=occ)
-                for (p, city, area, pid, name, size, day), (cap, occ, hour) in sorted(points.items())],
+        # what the page used to count over the whole inline series, now worked out here because the
+        # series itself lives in the day files and the page only loads the days it shows
+        days=days,
+        cities=sorted({r[3] for r in hourly_rows}),
+        nloc=len({(r[0], r[3]) for r in point_rows}),
+        nhours=len(hourly_rows),
+        nunknown=len({(r[0], r[3]) for r in point_rows if r[2] == "Unknown neighbourhood"}),
     )
     os.makedirs(DOCS, exist_ok=True)
+    write_days(hourly_rows, point_rows, days)
     with open(os.path.join(DOCS, "index.html"), "w", encoding="utf8") as f:
         f.write(TEMPLATE.replace("__DATA__", json.dumps(payload, separators=(",", ":"))))
-    days = sorted({h["day"] for h in payload["hourly"]})
-    print(f"{len(payload['hourly'])} city-hours, {len(payload['points'])} points, days {days} "
-          f"-> {os.path.join(DOCS, 'index.html')}")
+    print(f"{len(hourly_rows)} city-hours, {len(point_rows)} points, {len(days)} days "
+          f"({days[0] if days else '-'} to {days[-1] if days else '-'}) -> {os.path.join(DOCS, 'index.html')} "
+          f"+ {DAYDIR}")
     for p in payload["providers"]:
         print(f"  {p['label']:18} last reading {p['last']}")
+
+
+DAYDIR = os.path.join(DOCS, "data")
+
+
+def write_days(hourly_rows, point_rows, days):
+    """One file per day, docs/data/YYYY-MM-DD.js, which the page loads only for the days it shows.
+
+    The series used to sit inline in index.html, which reached 54.6 MB on 19/10/2026 (GitHub warns
+    at 50 MB and refuses at 100 MB, which would stop the hourly round saving). A day file is a
+    script, not JSON, so the page also works opened from disk, where fetch() is blocked. Each one
+    carries its own string table and rows as plain arrays, which is what keeps it small; only the
+    current day changes from one round to the next, unless a best-ever capacity moves an old day.
+    The CSVs in data/ still keep every reading: this is only how the page receives them."""
+    by_day = collections.defaultdict(lambda: ([], []))
+    for r in hourly_rows:
+        by_day[r[1]][0].append(r)
+    for r in point_rows:
+        by_day[r[6]][1].append(r)
+    os.makedirs(DAYDIR, exist_ok=True)
+    keep = set()
+    for day in days:
+        strings, index = [], {}
+        def s(x):
+            if x not in index:
+                index[x] = len(strings)
+                strings.append(x)
+            return index[x]
+        hs, ps = by_day[day]
+        h = [[s(p), hour, s(city), cap, occ, pts, capk, occk, ptsk]
+             for p, _, hour, city, cap, occ, pts, capk, occk, ptsk in hs]
+        q = [[s(p), s(city), s(area), s(pid), s(name), s(size), hour, cap, occ]
+             for p, city, area, pid, name, size, _, hour, cap, occ in ps]
+        body = (f"DAY({json.dumps(day)},"
+                f"{json.dumps(dict(s=strings, h=h, q=q), ensure_ascii=False, separators=(',', ':'))});\n")
+        name = f"{day}.js"
+        keep.add(name)
+        path = os.path.join(DAYDIR, name)
+        try:
+            with open(path, encoding="utf8") as f:
+                if f.read() == body:
+                    continue
+        except FileNotFoundError:
+            pass
+        with open(path, "w", encoding="utf8", newline="\n") as f:
+            f.write(body)
+    for name in os.listdir(DAYDIR):          # a day that no longer has readings leaves no stale file
+        if name.endswith(".js") and name not in keep:
+            os.remove(os.path.join(DAYDIR, name))
 
 
 TEMPLATE = """<!doctype html>
@@ -376,7 +435,15 @@ const COLOR={radical:'#2f6df6',bounce:'#e0682a',stow:'#0f9d77',litc:'#8b3fd6',st
 const LABEL={},UNIT={};D.providers.forEach(p=>{LABEL[p.id]=p.label;UNIT[p.id]=p.unit});
 const from=document.getElementById('from'),to=document.getElementById('to'),prov=document.getElementById('prov'),city=document.getElementById('city'),
       q=document.getElementById('q'),metric=document.getElementById('metric');
-const days=[...new Set(D.hourly.map(h=>h.day))].sort();
+// the series lives in docs/data/<day>.js, one script per day, loaded only for the days in the range
+D.hourly=[];D.points=[];
+const LOADED={},PENDING={};
+window.DAY=(d,o)=>{const s=o.s;
+ LOADED[d]={h:o.h.map(r=>({p:s[r[0]],day:d,hour:r[1],city:s[r[2]],cap:r[3],occ:r[4],pts:r[5],capk:r[6],occk:r[7],ptsk:r[8]})),
+  q:o.q.map(r=>({p:s[r[0]],city:s[r[1]],area:s[r[2]],id:s[r[3]],name:s[r[4]],size:s[r[5]],day:d,hour:r[6],cap:r[7],occ:r[8]}))}};
+function load(d){return PENDING[d]=PENDING[d]||new Promise(ok=>{const t=document.createElement('script');
+ t.src='data/'+d+'.js';t.onload=t.onerror=()=>{LOADED[d]=LOADED[d]||{h:[],q:[]};ok()};document.head.appendChild(t)})}
+const days=D.days;
 from.min=to.min=days[0]||'';from.max=to.max=days[days.length-1]||'';
 from.value=to.value=days[days.length-1]||'';       // one day to begin with, the latest
 // the range may be typed in either order; empty means open on that side
@@ -390,7 +457,7 @@ function drawChips(){prov.innerHTML=D.providers.map(p=>
    if(chosen.has(id)&&chosen.size>1)chosen.delete(id); else chosen.add(id);
    drawChips();draw()})}
 drawChips();
-const cities=[...new Set(D.hourly.map(h=>h.city))].sort();
+const cities=D.cities;
 city.innerHTML='<option value="">all cities</option>'+cities.map(c=>`<option>${c}</option>`).join('');
 let sortKey='occ',dir=-1,open=new Set();
 const pct=(o,c)=>c?100*o/c:0, fmt=n=>Math.round(n).toLocaleString('en-US');
@@ -421,9 +488,9 @@ function cards(){
    <small>${f.toFixed(1)}% full, counting the ${fmt(l.ptsk)} locations that declare a capacity (${fmt(l.capk)} places)</small>
    <small>busiest hour ${best?best[0].split(' ')[1]+':00 with '+fmt(best[1].occ)+' '+UNIT[p.id]:'—'}</small>
    <small>last run ${p.last}</small></div>`}).join('');
- document.getElementById('sub').textContent='Built '+D.built+' · '+fmt(new Set(D.points.map(p=>p.p+'|'+p.id)).size)+' locations · '
-  +fmt(D.hourly.length)+' city-hours collected · occupied means bags on Radical and Bounce, lockers on Stow Your Bags'
-  +' · '+fmt(new Set(D.points.filter(p=>p.area==='Unknown neighbourhood').map(p=>p.p+'|'+p.id)).size)+' locations still without a known neighbourhood';
+ document.getElementById('sub').textContent='Built '+D.built+' · '+fmt(D.nloc)+' locations · '
+  +fmt(D.nhours)+' city-hours collected · occupied means bags on Radical and Bounce, lockers on Stow Your Bags'
+  +' · '+fmt(D.nunknown)+' locations still without a known neighbourhood';
 }
 
 function chart(){
@@ -537,7 +604,18 @@ function others(){
    <td>${r.address||'—'}</td><td>${r.reviews||'—'}</td></tr>`).join('')
   ||'<tr><td colspan="5">Nothing mapped yet.</td></tr>';
 }
-function draw(){cards();chart();table();others()}
+function render(){cards();chart();table();others()}
+// load the days of the range first; whichever load finishes last draws the selection as it is then
+function draw(){const want=days.filter(inRange).filter(d=>!LOADED[d]);
+ if(!want.length){render();return}
+ document.getElementById('chartnote').textContent='Loading '+want.length+' day'+(want.length===1?'':'s')+' of readings…';
+ Promise.all(want.map(load)).then(()=>{
+  const ds=Object.keys(LOADED).sort();
+  // the order the inline series had, so ties in the table and busiest-hour sort the same way
+  D.hourly=ds.flatMap(d=>LOADED[d].h).sort(by(['p','day','hour','city']));
+  D.points=ds.flatMap(d=>LOADED[d].q).sort(by(['p','city','area','id','name','size','day']));
+  render()})}
+const by=ks=>(a,b)=>{for(const k of ks){if(a[k]<b[k])return -1;if(a[k]>b[k])return 1}return 0};
 [from,to,city,metric].forEach(e=>e.oninput=draw);
 q.oninput=table;
 document.querySelectorAll('#tbl th').forEach(th=>th.onclick=()=>{const k=th.dataset.k;dir=(k===sortKey)?-dir:-1;sortKey=k;table()});
