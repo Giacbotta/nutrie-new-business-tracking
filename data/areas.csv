@@ -395,10 +395,11 @@ key,area,city_osm,source
 "37.8065,12.4634",,,unknown
 "37.8083,15.1775",,,unknown
 "37.8154,13.3003",,,unknown
-"37.8237,15.2706",Giardini Naxos City Center,,radical 0.00 km
-"37.8239,15.2680",Giardini Naxos City Center,,radical 0.23 km
-"37.8240,15.2706",Giardini Naxos City Center,,radical 0.03 km
-"37.8268,15.2679",Giardini Naxos City Center,,radical 0.42 km
+"37.8237,15.2706",Giardini Naxos City Center,,radical 0.36 km
+"37.8239,15.2680",Giardini Naxos City Center,,radical 0.58 km
+"37.8240,15.2706",Giardini Naxos City Center,,radical 0.35 km
+"37.8248,15.2745",Giardini Naxos City Center,,radical 0.00 km
+"37.8268,15.2679",Giardini Naxos City Center,,radical 0.62 km
 "37.8277,14.8660",,,unknown
 "37.8282,12.4895",,,unknown
 "37.8336,15.2710",Giardini Naxos City Center,,radical 0.00 km
@@ -834,7 +835,6 @@ key,area,city_osm,source
 "39.1627,16.0874",,,unknown
 "39.1636,8.5211",,,unknown
 "39.1806,17.0105",,,unknown
-"39.1946,9.1420",Lazzaretto,,radical 0.01 km
 "39.2012,9.1618",Poetto,,radical 0.00 km
 "39.2046,16.3334",,,unknown
 "39.2046,9.1636",Poetto,,radical 0.41 km
@@ -878,9 +878,9 @@ key,area,city_osm,source
 "39.2417,9.0918",,,unknown
 "39.2430,17.1117",,,unknown
 "39.2451,9.1859",,,unknown
-"39.2535,9.1656",Selargius,,radical 0.30 km
-"39.2537,9.1699",Selargius,,radical 0.11 km
-"39.2543,9.1689",Selargius,,radical 0.00 km
+"39.2535,9.1656",,,unknown
+"39.2537,9.1699",,,unknown
+"39.2543,9.1689",,,unknown
 "39.2545,9.1434",,,unknown
 "39.2559,9.1402",,,unknown
 "39.2573,16.6921",,,unknown
@@ -1179,8 +1179,7 @@ key,area,city_osm,source
 "40.6276,14.3798",Sorrento Train Station,,radical 0.00 km
 "40.6276,14.3831",Sorrento City Center,,radical 0.00 km
 "40.6276,14.3832",Sorrento City Center,,radical 0.01 km
-"40.6280,14.4882",Positano City Center,,radical 0.25 km
-"40.6282,14.4853",Positano City Center,,radical 0.00 km
+"40.6280,14.4882",Chiesa Nuova,,radical 0.65 km
 "40.6284,14.3751",Sorrento City Center,,radical 0.06 km
 "40.6284,14.3827",Sorrento City Center,,radical 0.10 km
 "40.6284,14.4803",Chiesa Nuova,,radical 0.01 km
@@ -1196,7 +1195,6 @@ key,area,city_osm,source
 "40.6306,17.9237",,,unknown
 "40.6308,8.2974",Alghero Airport,,radical 0.00 km
 "40.6309,14.3992",Sant Agnello,,radical 0.08 km
-"40.6310,14.4849",Positano City Center,,radical 0.00 km
 "40.6312,14.3898",Sorrento City Center,,radical 0.46 km
 "40.6318,14.3964",Sant Agnello,,radical 0.00 km
 "40.6319,17.9468",Central Station,,radical 0.45 km
@@ -1360,18 +1358,19 @@ key,area,city_osm,source
 "40.6976,14.4824",Castellammare Di Stabia Train Station,,radical 0.01 km
 "40.6977,14.4826",Castellammare Di Stabia Train Station,,radical 0.00 km
 "40.6994,14.7091",,,unknown
-"40.6997,14.4850",Castellammare Di Stabia Train Station,,radical 0.30 km
+"40.6996,14.4864",Castellammare Di Stabia Train Station,,radical 0.00 km
+"40.6997,14.4850",Castellammare Di Stabia Train Station,,radical 0.12 km
 "40.6998,14.7083",,,unknown
 "40.6999,14.7015",,,unknown
-"40.7007,14.4854",Castellammare Di Stabia Train Station,,radical 0.40 km
+"40.7007,14.4854",Castellammare Di Stabia Train Station,,radical 0.15 km
 "40.7007,14.7111",,,unknown
 "40.7033,17.3417",Martina Franca City Center,,radical 0.00 km
 "40.7038,14.7070",,,unknown
-"40.7043,14.4849",Castellammare Di Stabia Train Station,,radical 0.75 km
-"40.7045,14.4830",Castellammare Di Stabia Train Station,,radical 0.75 km
-"40.7047,14.4880",Castellammare Di Stabia Train Station,,radical 0.90 km
+"40.7043,14.4849",Castellammare Di Stabia Train Station,,radical 0.54 km
+"40.7045,14.4830",Castellammare Di Stabia Train Station,,radical 0.61 km
+"40.7047,14.4880",Castellammare Di Stabia Train Station,,radical 0.58 km
 "40.7051,14.7043",,,unknown
-"40.7054,14.4892",Castellammare Di Stabia Train Station,,spread 0.13 km
+"40.7054,14.4892",Castellammare Di Stabia Train Station,,radical 0.68 km
 "40.7054,14.7042",,,unknown
 "40.7080,17.6626",Carovigno City Center,,radical 0.00 km
 "40.7083,14.7005",,,unknown
@@ -1490,8 +1489,7 @@ key,area,city_osm,source
 "40.7611,14.7928",,,unknown
 "40.7621,14.5043",,,unknown
 "40.7653,14.0298",Procida Port,,radical 0.24 km
-"40.7654,14.0255",Procida Port,,radical 0.04 km
-"40.7656,14.0259",Procida Port,,radical 0.01 km
+"40.7654,14.0255",Procida Port,,radical 0.13 km
 "40.7656,14.0270",Procida Port,,radical 0.00 km
 "40.7702,14.7977",,,unknown
 "40.7705,14.4765",Boscotrecase City Center,,radical 0.97 km
@@ -1695,8 +1693,8 @@ key,area,city_osm,source
 "40.8434,14.2494",Via Toledo,,radical 0.00 km
 "40.8434,14.2495",Via Toledo,,radical 0.01 km
 "40.8434,14.3699",,,unknown
-"40.8435,14.2496",Via Toledo,,radical 0.01 km
 "40.8436,14.2273",Naples City Center,,radical 0.33 km
+"40.8436,14.2493",Via Toledo,,radical 0.00 km
 "40.8438,14.2320",Vomero,,radical 0.50 km
 "40.8439,14.2836",Napoli Porta Nolana,,radical 0.79 km
 "40.8441,14.2229",Vomero,,radical 0.20 km
@@ -2155,7 +2153,7 @@ key,area,city_osm,source
 "40.9534,17.3035",Castello Carlo V,,radical 0.11 km
 "40.9536,14.2713",,,unknown
 "40.9536,17.2962",Monopoli City Center,,radical 0.15 km
-"40.9538,17.2999",Monopoli City Center,,radical 0.00 km
+"40.9538,17.2999",Monopoli City Center,,radical 0.31 km
 "40.9544,17.2905",Monopoli City Center,,radical 0.00 km
 "40.9574,14.2533",,,unknown
 "40.9576,14.1647",,,unknown
@@ -2836,8 +2834,8 @@ key,area,city_osm,source
 "41.8850,12.5110",San Giovanni,,radical 0.00 km
 "41.8850,12.5122",San Giovanni,,radical 0.10 km
 "41.8850,12.5150",San Giovanni,,radical 0.33 km
+"41.8858,12.5220",Furio Camillo,,radical 0.33 km
 "41.8859,12.4693",Trastevere,,radical 0.06 km
-"41.8860,12.4713",Trastevere,,radical 0.00 km
 "41.8861,12.4726",Pantheon,,radical 0.00 km
 "41.8864,12.4692",Trastevere,,radical 0.00 km
 "41.8868,12.5076",San Giovanni,,radical 0.09 km
@@ -2929,7 +2927,7 @@ key,area,city_osm,source
 "41.8946,12.4809",Piazza Venezia,,radical 0.00 km
 "41.8946,12.5067",Esquilino,,radical 0.02 km
 "41.8947,12.5068",Esquilino,,radical 0.00 km
-"41.8948,12.4723",Piazza Campo De Fiori,,radical 0.00 km
+"41.8948,12.4723",Piazza Campo De Fiori,,radical 0.11 km
 "41.8948,12.5015",Monti,,radical 0.00 km
 "41.8949,12.4991",Brancaccio,,radical 0.00 km
 "41.8949,12.4992",Brancaccio,,radical 0.01 km
@@ -2942,7 +2940,7 @@ key,area,city_osm,source
 "41.8953,12.4457",S Pietro,,radical 0.69 km
 "41.8953,12.4741",Piazza Campo De Fiori,,radical 0.00 km
 "41.8953,12.4932",Monti,,radical 0.00 km
-"41.8955,12.4699",Piazza Campo De Fiori,,radical 0.21 km
+"41.8955,12.4699",Piazza Campo De Fiori,,radical 0.24 km
 "41.8955,12.5143",Duomo - San Lorenzo,,radical 0.37 km
 "41.8957,12.4730",Piazza Campo De Fiori,,radical 0.00 km
 "41.8957,12.5012",Termini,,radical 0.01 km
@@ -3151,7 +3149,7 @@ key,area,city_osm,source
 "41.9065,12.4818",Pantheon,,radical 0.26 km
 "41.9065,12.5010",Repubblica,,radical 0.22 km
 "41.9066,12.4439",Vatican,,radical 0.00 km
-"41.9066,12.4502",Vatican,,radical 0.00 km
+"41.9066,12.4502",Vatican,,radical 0.12 km
 "41.9066,12.5168",Nomentano,,radical 0.01 km
 "41.9067,12.4524",Vatican,,radical 0.03 km
 "41.9067,12.5361",Tiburtina,,radical 0.17 km
@@ -3237,6 +3235,7 @@ key,area,city_osm,source
 "41.9106,12.4549",Roma Vatican Museums,,radical 0.05 km
 "41.9108,12.4496",Vatican,,radical 0.00 km
 "41.9110,12.4550",Roma Vatican Museums,,radical 0.00 km
+"41.9110,12.5281",Nomentano,,radical 0.00 km
 "41.9112,12.5715",,,unknown
 "41.9115,12.5042",Termini,,radical 0.83 km
 "41.9115,12.5358",Tiburtina,,radical 0.53 km
@@ -3274,6 +3273,7 @@ key,area,city_osm,source
 "41.9172,12.4559",Quartiere Xv Della Vittoria,,radical 0.00 km
 "41.9188,12.7260",,,unknown
 "41.9195,12.2395",,,unknown
+"41.9196,12.4548",Quartiere Xv Della Vittoria,,radical 0.28 km
 "41.9196,15.8033",,,unknown
 "41.9197,12.4600",Flaminio,,radical 0.30 km
 "41.9198,12.5253",Tiburtina,,radical 0.85 km
@@ -3338,8 +3338,8 @@ key,area,city_osm,source
 "41.9606,12.5307",Vigne Nuove,,radical 0.05 km
 "41.9608,12.5301",Vigne Nuove,,radical 0.00 km
 "41.9610,13.4771",,,unknown
-"41.9636,12.7994",Villa D Este,,radical 0.02 km
-"41.9637,12.7996",Villa D Este,,radical 0.01 km
+"41.9636,12.7994",Villa D Este,,radical 0.87 km
+"41.9637,12.7996",Villa D Este,,radical 0.87 km
 "41.9638,12.4448",,,unknown
 "41.9650,12.5247",Vigne Nuove,,radical 0.65 km
 "41.9656,12.4517",,,unknown
@@ -3888,7 +3888,7 @@ key,area,city_osm,source
 "43.7720,11.2668",Santa Croce,,radical 0.01 km
 "43.7721,11.2548",Duomo - San Lorenzo,,radical 0.11 km
 "43.7724,11.2521",Basilica Of Santa Maria Novella,,radical 0.00 km
-"43.7726,11.2569",Basilica Of Santa Maria Novella,,radical 0.00 km
+"43.7725,11.2576",Basilica Of Santa Maria Novella,,radical 0.00 km
 "43.7727,11.2451",Flixbus Florence,,radical 0.18 km
 "43.7728,11.2837",Campo Di Marte,,radical 0.75 km
 "43.7730,11.2253",,,unknown
@@ -4292,8 +4292,8 @@ key,area,city_osm,source
 "44.4062,8.9433",Brignole,,radical 0.00 km
 "44.4062,8.9439",Brignole,,radical 0.05 km
 "44.4062,8.9656",,,unknown
-"44.4063,8.9406",Brignole,,radical 0.00 km
 "44.4064,8.9516",Brignole,,radical 0.01 km
+"44.4073,8.9418",Brignole,,radical 0.00 km
 "44.4074,8.9331",Piazza Corvetto Piazza De Ferrari,,radical 0.13 km
 "44.4075,8.9335",Piazza Corvetto Piazza De Ferrari,,radical 0.12 km
 "44.4077,8.9277",Maddalena,,radical 0.01 km
@@ -4334,7 +4334,7 @@ key,area,city_osm,source
 "44.4179,8.9264",Piazza Principe,,radical 0.39 km
 "44.4180,12.2065",Main Station,,radical 0.00 km
 "44.4180,8.9187",Piazza Principe,,radical 0.10 km
-"44.4181,12.2070",Main Station,,radical 0.00 km
+"44.4181,12.2067",Main Station,,radical 0.01 km
 "44.4181,8.8858",Sampierdarena,,radical 0.01 km
 "44.4182,12.2076",Main Station,,radical 0.00 km
 "44.4190,12.2047",Main Station,,radical 0.18 km
@@ -5207,7 +5207,7 @@ key,area,city_osm,source
 "45.4573,9.1807",Missori,,radical 0.00 km
 "45.4574,9.1457",Santa Maria Delle Grazie,,radical 0.76 km
 "45.4574,9.1558",Santa Maria Delle Grazie,,radical 0.10 km
-"45.4577,9.1710",Porta Genova,,radical 0.11 km
+"45.4577,9.1710",Porta Genova,,radical 0.36 km
 "45.4578,9.1751",Porta Genova,,radical 0.29 km
 "45.4579,9.2233",Porta Venezia,,radical 0.09 km
 "45.4582,12.3530",Murano,,radical 0.00 km
@@ -5217,7 +5217,6 @@ key,area,city_osm,source
 "45.4585,9.1861",Missori,,radical 0.19 km
 "45.4585,9.2226",Porta Venezia,,radical 0.00 km
 "45.4586,11.0640",,,unknown
-"45.4586,9.1705",Porta Genova,,radical 0.00 km
 "45.4586,9.1885",Missori,,radical 0.07 km
 "45.4588,9.1809",Missori,,radical 0.16 km
 "45.4590,10.4147",,,unknown
@@ -5236,7 +5235,7 @@ key,area,city_osm,source
 "45.4601,10.6268",Porto Di Lugana,,radical 0.01 km
 "45.4601,9.1555",Washington,,radical 0.00 km
 "45.4601,9.1826",Carrobbio,,radical 0.14 km
-"45.4603,9.1647",Porta Genova,,radical 0.49 km
+"45.4603,9.1647",Santa Maria Delle Grazie,,radical 0.64 km
 "45.4604,9.1549",Washington,,radical 0.06 km
 "45.4604,9.2079",Guastalla,,radical 0.00 km
 "45.4606,10.5311",Desenzano Train Station,,radical 0.48 km
@@ -5714,7 +5713,6 @@ key,area,city_osm,source
 "45.5750,12.8232",,,unknown
 "45.5768,8.7896",,,unknown
 "45.5778,9.2718",Monza Train Station,,radical 0.00 km
-"45.5779,9.2719",Downtown,,radical 0.00 km
 "45.5780,9.2715",Monza Train Station,,radical 0.03 km
 "45.5783,9.2554",,,unknown
 "45.5787,9.2822",Monza Train Station,,radical 0.78 km
