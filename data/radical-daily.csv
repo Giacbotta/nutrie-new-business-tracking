@@ -146,7 +146,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-16,weekday,alberobello,alberobello-train-station,6930,Luggage Storage Alberobello Train Station,25,10,2,8.0,0,2,1.0
 2026-10-17,weekend,alberobello,alberobello-train-station,6930,Luggage Storage Alberobello Train Station,25,10,0,0.0,0,0,0.0
 2026-10-18,weekend,alberobello,alberobello-train-station,6930,Luggage Storage Alberobello Train Station,25,10,0,0.0,0,0,0.0
-2026-10-19,weekday,alberobello,alberobello-train-station,6930,Luggage Storage Alberobello Train Station,25,2,0,0.0,0,0,0.0
+2026-10-19,weekday,alberobello,alberobello-train-station,6930,Luggage Storage Alberobello Train Station,25,2,2,8.0,0,2,1.0
 2026-09-28,weekday,alberobello,city-center,6455991,Luggage Storage Via Piave,30,12,0,0.0,0,0,0.0
 2026-09-29,weekday,alberobello,city-center,6455991,Luggage Storage Via Piave,30,12,4,13.3,0,4,2.0
 2026-09-30,weekday,alberobello,city-center,6455991,Luggage Storage Via Piave,30,12,12,40.0,0,12,6.0
@@ -19004,7 +19004,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-16,weekday,pisa,pisa-centrale-train-station,151,Luggage Storage Pisa Centrale Station,70,11,15,21.4,1,14,7.5
 2026-10-17,weekend,pisa,pisa-centrale-train-station,151,Luggage Storage Pisa Centrale Station,70,11,20,28.6,0,20,10.0
 2026-10-18,weekend,pisa,pisa-centrale-train-station,151,Luggage Storage Pisa Centrale Station,70,11,7,10.0,0,7,3.5
-2026-10-19,weekday,pisa,pisa-centrale-train-station,151,Luggage Storage Pisa Centrale Station,70,5,5,7.1,5,2,3.5
+2026-10-19,weekday,pisa,pisa-centrale-train-station,151,Luggage Storage Pisa Centrale Station,70,5,5,7.1,5,1,3.0
 2026-09-23,weekday,pisa,pisa-centrale-train-station,3855,Luggage Storage Pisa Centrale,40,1,0,0.0,0,0,0.0
 2026-09-24,weekday,pisa,pisa-centrale-train-station,3855,Luggage Storage Pisa Centrale,40,2,0,0.0,0,0,0.0
 2026-09-25,weekday,pisa,pisa-centrale-train-station,3855,Luggage Storage Pisa Centrale,40,7,0,0.0,0,0,0.0
@@ -19373,7 +19373,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-16,weekday,pisa,pisa-piazza-del-duomo,7168,Luggage Storage Pisa San Rossore,25,4,0,0.0,0,0,0.0
 2026-10-17,weekend,pisa,pisa-piazza-del-duomo,7168,Luggage Storage Pisa San Rossore,25,12,0,0.0,0,0,0.0
 2026-10-18,weekend,pisa,pisa-piazza-del-duomo,7168,Luggage Storage Pisa San Rossore,25,12,6,24.0,0,6,3.0
-2026-10-19,weekday,pisa,pisa-piazza-del-duomo,7168,Luggage Storage Pisa San Rossore,25,5,2,8.0,0,2,1.0
+2026-10-19,weekday,pisa,pisa-piazza-del-duomo,7168,Luggage Storage Pisa San Rossore,25,5,7,28.0,0,7,3.5
 2026-09-23,weekday,pisa,santa-maria,6456938,Luggage Storage Chiesa di San Michele in Borgo,50,1,0,0.0,0,0,0.0
 2026-09-24,weekday,pisa,santa-maria,6456938,Luggage Storage Chiesa di San Michele in Borgo,50,2,0,0.0,0,0,0.0
 2026-09-25,weekday,pisa,santa-maria,6456938,Luggage Storage Chiesa di San Michele in Borgo,50,5,0,0.0,0,0,0.0
@@ -22033,7 +22033,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-16,weekday,rome,flaminio,6472354,Luggage Storage near Piazza del Popolo,50,12,0,0.0,0,0,0.0
 2026-10-17,weekend,rome,flaminio,6472354,Luggage Storage near Piazza del Popolo,50,12,0,0.0,0,0,0.0
 2026-10-18,weekend,rome,flaminio,6472354,Luggage Storage near Piazza del Popolo,50,12,0,0.0,0,0,0.0
-2026-10-19,weekday,rome,flaminio,6472354,Luggage Storage near Piazza del Popolo,50,5,0,0.0,0,0,0.0
+2026-10-19,weekday,rome,flaminio,6472354,Luggage Storage near Piazza del Popolo,50,5,2,4.0,0,2,1.0
 2026-09-23,weekday,rome,furio-camillo,4573,Luggage Storage Lodi Metro Station,40,1,0,0.0,0,0,0.0
 2026-09-24,weekday,rome,furio-camillo,4573,Luggage Storage Lodi Metro Station,40,4,10,25.0,0,10,5.0
 2026-09-25,weekday,rome,furio-camillo,4573,Luggage Storage Lodi Metro Station,40,6,7,17.5,0,7,3.5
@@ -26830,7 +26830,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-15,weekday,rome,vatican,6473173,Luggage Storage Rome Vatican Museums,12,8,9,75.0,9,12,10.5
 2026-10-16,weekday,rome,vatican,6473173,Luggage Storage Rome Vatican Museums,12,8,10,83.3,3,10,6.5
 2026-10-17,weekend,rome,vatican,6473173,Luggage Storage Rome Vatican Museums,12,8,10,83.3,9,10,9.5
-2026-10-19,weekday,rome,vatican,6473173,Luggage Storage Rome Vatican Museums,12,5,8,66.7,5,6,5.5
+2026-10-19,weekday,rome,vatican,6473173,Luggage Storage Rome Vatican Museums,12,5,8,66.7,5,10,7.5
 2026-09-24,weekday,rome,via-del-corso,5660,Luggage Storage Via Del Corso,25,9,2,8.0,0,2,1.0
 2026-09-25,weekday,rome,via-del-corso,5660,Luggage Storage Via Del Corso,25,7,12,48.0,0,12,6.0
 2026-09-26,weekend,rome,via-del-corso,5660,Luggage Storage Via Del Corso,25,18,0,0.0,0,0,0.0

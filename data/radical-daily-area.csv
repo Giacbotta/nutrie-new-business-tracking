@@ -11779,7 +11779,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-18,vigevano,city-center,1,20,0,0.0,0,0,0.0
 2026-10-19,agrigento,agrigento-train-staion,3,100,0,0.0,0,0,0.0
 2026-10-19,agrigento,city-center,3,120,0,0.0,0,0,0.0
-2026-10-19,alberobello,alberobello-train-station,1,25,0,0.0,0,0,0.0
+2026-10-19,alberobello,alberobello-train-station,1,25,2,8.0,0,2,1.0
 2026-10-19,alberobello,city-center,1,30,0,0.0,0,0,0.0
 2026-10-19,alessandria,tortona,1,15,0,0.0,0,0,0.0
 2026-10-19,alghero,alghero-airport,1,30,0,0.0,0,0,0.0
@@ -12097,8 +12097,8 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-19,piacenza,piacenza-train-station,1,25,0,0.0,0,0,0.0
 2026-10-19,pisa,national-museum-of-san-matteo,1,50,0,0.0,0,0,0.0
 2026-10-19,pisa,piazza-dei-cavalieri,2,50,30,60.0,30,0,15.0
-2026-10-19,pisa,pisa-centrale-train-station,15,1005,48,4.8,20,30,25.0
-2026-10-19,pisa,pisa-piazza-del-duomo,2,35,4,11.4,0,4,2.0
+2026-10-19,pisa,pisa-centrale-train-station,15,1005,48,4.8,20,29,24.5
+2026-10-19,pisa,pisa-piazza-del-duomo,2,35,9,25.7,0,9,4.5
 2026-10-19,pisa,santa-maria,4,115,1,0.9,0,1,0.5
 2026-10-19,pisa,tower-of-pisa,1,30,0,0.0,0,0,0.0
 2026-10-19,pistoia,pistoia-train-station,1,25,0,0.0,0,0,0.0
@@ -12155,7 +12155,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-19,rome,esquilino,8,420,9,2.1,0,9,4.5
 2026-10-19,rome,fiera-di-roma,1,30,0,0.0,0,0,0.0
 2026-10-19,rome,finocchio,1,20,0,0.0,0,0,0.0
-2026-10-19,rome,flaminio,5,165,0,0.0,0,0,0.0
+2026-10-19,rome,flaminio,5,165,2,1.2,0,2,1.0
 2026-10-19,rome,furio-camillo,4,120,10,8.3,2,8,5.0
 2026-10-19,rome,garbatella,3,170,1,0.6,1,0,0.5
 2026-10-19,rome,la-rustica,1,30,0,0.0,0,0,0.0
@@ -12202,7 +12202,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-19,rome,trastevere,15,770,56,7.3,18,38,28.0
 2026-10-19,rome,trevi,4,235,26,11.1,4,22,13.0
 2026-10-19,rome,trieste,1,300,0,0.0,0,0,0.0
-2026-10-19,rome,vatican,18,797,40,5.0,17,26,21.5
+2026-10-19,rome,vatican,18,797,40,5.0,17,30,23.5
 2026-10-19,rome,via-del-corso,1,25,0,0.0,0,0,0.0
 2026-10-19,rome,villa-borghese,1,35,0,0.0,0,0,0.0
 2026-10-19,rome,vittorio-emanuele,3,90,2,2.2,0,2,1.0
