@@ -2,6 +2,34 @@
 
 Written by `municipal_tenders.py`; the latest runs are on top.
 
+## Run of 2026-10-19
+
+**2 new items.**
+
+- **Preganziol**, 15/10/2026: approvazione schema di contratto locazione porzione di terreno per il mantenimento di infrastrutture per reti di telecomunicazioni mobili - sito TV041 (id:6032) - Comune di Preganziol via Galvani, fg 15 mappale 1294 — https://servizionline.comune.preganziol.tv.it/mc/mc_p_dettaglio.php?id_pubbl=22846 (keywords: terreno, locazione)
+- **Preganziol**, 15/10/2026: approvazione schema di contratto di locazione porzione di terreno per il mantenimento di infrastrutture per reti di telecomunicazioni mobili - sito TV2326-A - Comune di Preganziol via Manzoni 32, sez B foglio 10 mappale 1187 sub 3 — https://servizionline.comune.preganziol.tv.it/mc/mc_p_dettaglio.php?id_pubbl=22845 (keywords: terreno, locazione)
+
+Sources read:
+
+- Mogliano Veneto (JCity notice board): 123 items read, 0 with the keywords
+- Spresiano (JCity notice board): 61 items read, 0 with the keywords
+- Preganziol (Halley notice board): 63 items read, 2 with the keywords
+- Marcon (Halley notice board): 44 items read, 2 with the keywords
+- Casale sul Sile (Halley notice board): 63 items read, 0 with the keywords
+- Zero Branco (Halley notice board): 63 items read, 0 with the keywords
+- Casier (Halley notice board): 57 items read, 0 with the keywords
+- Quarto d'Altino (Halley notice board): 45 items read, 0 with the keywords
+- Scorzè (Hypersic notice board): 94 items read, 0 with the keywords
+- Treviso (J-Ente notice board): 388 items read, 0 with the keywords
+- Veneto (Sport e Salute) (aggregator): 2 items read, 1 with the keywords
+- Preganziol (site notices): 4 items read, 0 with the keywords
+- Marcon (site notices): 9 items read, 0 with the keywords
+- Casale sul Sile (site notices): 6 items read, 0 with the keywords
+- Zero Branco (site notices): 9 items read, 0 with the keywords
+- Casier (site notices): 9 items read, 0 with the keywords
+- Quarto d'Altino (site notices): 15 items read, 0 with the keywords
+- Venezia: not covered, www.comune.venezia.it answers with an anti-bot protection (Incapsula): not forced
+
 ## Run of 2026-10-12
 
 **3 new items.**
