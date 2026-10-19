@@ -1,8 +1,8 @@
 city,points,capacity
-rome,280,15838
-milan,168,7555
+rome,278,15773
+milan,167,7535
 naples,124,6113
-florence,72,3295
+florence,72,3310
 turin,53,2220
 catania,42,1670
 bari,40,2435
@@ -10,7 +10,7 @@ venice,40,2820
 palermo,37,1640
 bologna,35,1705
 pisa,29,1435
-cagliari,23,570
+cagliari,21,525
 genoa,18,875
 lucca,17,1050
 verona,17,935
@@ -27,11 +27,11 @@ pescara,12,295
 trapani,11,815
 alghero,10,270
 bergamo,10,320
-monopoli,10,260
 pompei,10,450
 reggio-calabria,10,680
 bolzano,9,270
 ferrara,9,410
+monopoli,9,250
 trento,9,295
 aosta,8,535
 brindisi,8,630
@@ -41,7 +41,6 @@ modena,8,210
 agrigento,7,250
 brescia,7,105
 como,7,230
-monza,7,455
 parma,7,120
 polignano-a-mare,7,205
 ravenna,7,195
@@ -50,8 +49,9 @@ trieste,7,250
 ancona,6,300
 arezzo,6,185
 caserta,6,230
-civitavecchia,6,155
+civitavecchia,6,170
 livorno,6,195
+monza,6,455
 padua,6,285
 ragusa,6,105
 bressanone-brixen,5,110
@@ -64,6 +64,7 @@ taranto,5,130
 treviso,5,240
 viareggio,5,185
 assisi,4,120
+castellammare-di-stabia,4,520
 cremona,4,175
 giardini-naxos,4,105
 ischia,4,160
@@ -76,7 +77,6 @@ riccione,4,115
 altamura,3,40
 amalfi,3,115
 caltanissetta,3,50
-castellammare-di-stabia,3,510
 cosenza,3,140
 desenzano,3,125
 donnalucata,3,40
@@ -84,7 +84,6 @@ la-maddalena,3,75
 merano,3,45
 ostuni,3,200
 pesaro,3,210
-positano,3,60
 prato,3,70
 reggio-emilia,3,85
 sirmione,3,150
@@ -105,13 +104,11 @@ massa,2,40
 milazzo,2,220
 novara,2,225
 potenza,2,120
-procida,2,350
 rovereto,2,50
 sanremo,2,40
 sestri-levante,2,55
 stromboli,2,40
 taormina,2,70
-tivoli,2,40
 tropea,2,130
 ventimiglia,2,150
 alessandria,1,15
@@ -153,6 +150,8 @@ pistoia,1,25
 pizzo-calabro,1,20
 ponza,1,20
 portici,1,50
+positano,1,20
+procida,1,250
 rho,1,20
 riomaggiore,1,35
 rivoli,1,20
@@ -161,6 +160,7 @@ san-teodoro,1,45
 san-vito-lo-capo,1,50
 scicli,1,10
 terni,1,300
+tivoli,1,20
 trani,1,50
 varese,1,20
 vasto,1,10

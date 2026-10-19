@@ -1,14 +1,14 @@
 city,name,points,capacity
-rome,Rome,484,8043
+rome,Rome,497,8043
 naples,Naples,416,3088
-milan,Milan,306,3091
-catania,Catania,137,1020
+milan,Milan,307,3081
+catania,Catania,136,1020
 florence,Florence,115,1146
 caserta,Caserta,106,120
 palermo,Palermo,105,1066
-bologna,Bologna,100,1168
+bologna,Bologna,101,1168
 turin,Turin,96,582
-venice,Venice,91,1549
+venice,Venice,91,1552
 bari,Bari,68,1067
 verona,Verona,65,243
 salerno,Salerno,58,595
@@ -40,10 +40,10 @@ udine,Udine,21,0
 perugia,Perugia,20,155
 siracusa,Siracusa,20,100
 sorrento,Sorrento,20,567
+rimini,Rimini,19,160
 cardano-al-campo,Cardano Al Campo,19,0
 reggio-calabria,Reggio Calabria,19,300
 san-sebastiano-al-vesuvio,San Sebastiano al Vesuvio,19,45
-rimini,Rimini,18,160
 lampedusa,Lampedusa,18,50
 trapani,Trapani,18,195
 matera,Matera,17,35
@@ -51,14 +51,14 @@ san-benedetto-del-tronto,San Benedetto del Tronto,17,100
 trani,Trani,17,0
 ragusa,Ragusa,16,80
 piacenza,Piacenza,16,25
+vibo-valentia,Vibo Valentia,16,0
 castellammare-di-stabia,Castellammare di Stabia,16,5
 avellino,Avellino,16,0
 sperlonga,Sperlonga,15,0
 siena,Siena,15,32
-vibo-valentia,Vibo Valentia,15,0
+lamezia-terme,Lamezia Terme,15,0
 taranto,Taranto,15,90
 la-spezia,La Spezia,14,81
-lamezia-terme,Lamezia Terme,14,0
 potenza,Potenza,14,0
 treviglio,Treviglio,14,10
 ancona,Ancona,13,110
@@ -126,8 +126,8 @@ manfredonia,Manfredonia,7,0
 cervignano-del-friuli,Cervignano del Friuli,7,0
 sala-consilina,Sala Consilina,7,0
 bronte,Bronte,7,0
-locri,Locri,6,0
 rapallo,Rapallo,6,0
+locri,Locri,6,0
 terni,Terni,6,6
 notaresco-stazione,Notaresco Stazione,6,0
 oristano,Oristano,6,0
