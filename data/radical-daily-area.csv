@@ -11785,9 +11785,9 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-19,caserta,city-center,1,30,0,0.0,0,0,0.0
 2026-10-19,catania,borgo-sanzio,1,20,0,0.0,0,0,0.0
 2026-10-19,catania,catania-airport,1,50,0,0.0,0,0,0.0
-2026-10-19,catania,city-center,1,35,0,0.0,0,0,0.0
+2026-10-19,catania,city-center,1,35,35,100.0,0,35,17.5
 2026-10-19,ferrara,city-center,2,65,0,0.0,0,0,0.0
-2026-10-19,florence,basilica-of-santa-maria-novella,1,20,0,0.0,0,0,0.0
+2026-10-19,florence,basilica-of-santa-maria-novella,1,20,20,100.0,0,20,10.0
 2026-10-19,florence,santa-maria-novella,1,140,1,0.7,1,0,0.5
 2026-10-19,imola,city-center,1,200,0,0.0,0,0,0.0
 2026-10-19,lamezia-terme,train-station,1,30,0,0.0,0,0,0.0
@@ -11797,9 +11797,9 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-19,milan,corso-buenos-aires,1,20,0,0.0,0,0,0.0
 2026-10-19,milan,lambrate,1,20,0,0.0,0,0,0.0
 2026-10-19,milan,milan-centrale-railway-station,5,320,7,2.2,7,0,3.5
-2026-10-19,milan,milano-repubblica-station,2,120,0,0.0,0,0,0.0
+2026-10-19,milan,milano-repubblica-station,2,120,100,83.3,0,100,50.0
 2026-10-19,milan,missori,1,40,0,0.0,0,0,0.0
-2026-10-19,milan,navigli,1,35,0,0.0,0,0,0.0
+2026-10-19,milan,navigli,1,35,35,100.0,0,35,17.5
 2026-10-19,milan,niguarda,1,20,0,0.0,0,0,0.0
 2026-10-19,milan,palazzo-di-giustizia,1,30,0,0.0,0,0,0.0
 2026-10-19,milan,politecnico-di-milano-campus-bovisa-la-masa,1,20,0,0.0,0,0,0.0
@@ -11828,7 +11828,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-19,prato,prato-centrale,1,40,0,0.0,0,0,0.0
 2026-10-19,ravenna,main-station,1,20,0,0.0,0,0,0.0
 2026-10-19,reggio-calabria,villa-san-giovanni,1,50,0,0.0,0,0,0.0
-2026-10-19,rimini,bellariva,1,50,0,0.0,0,0,0.0
+2026-10-19,rimini,bellariva,1,50,50,100.0,0,50,25.0
 2026-10-19,rimini,federico-fellini-international-airport,1,20,0,0.0,0,0,0.0
 2026-10-19,rimini,lungomare-augusto-murri,1,15,0,0.0,0,0,0.0
 2026-10-19,rimini,rimini-train-station,1,300,0,0.0,0,0,0.0
