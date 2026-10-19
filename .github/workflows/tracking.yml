@@ -15,7 +15,7 @@ on:
     - cron: "31 11,17 * * 1"   # same Monday, a few hours later
     - cron: "31 7,17 * * 2"    # Tuesday
     - cron: "31 7 * * 3"       # Wednesday, last attempt of the week
-    - cron: "6 * * * *"        # luggage storage occupancy (E-93): Radical, Bounce, Stow Your Bags, Locker in the City, StowCity, every hour (backup; Railway is the primary engine)
+    - cron: "6 * * * *"        # luggage storage occupancy (E-93): Radical, Bounce, Stow Your Bags, Locker in the City, StowCity, iVano, Store My Luggage, every hour (backup; Railway is the primary engine)
     - cron: "6 3 * * 1"        # Radical Storage census (E-93), Monday
     - cron: "36 3 * * 1"       # Stasher and Stow Your Bags census (E-93), Monday
   workflow_dispatch:
@@ -81,6 +81,7 @@ jobs:
             { python litc_occupancy.py scan    && python litc_occupancy.py daily;    } || echo "LITC FAILED"
             { python stowcity_occupancy.py scan && python stowcity_occupancy.py daily; } || echo "STOWCITY FAILED"
             { python ivano_occupancy.py scan   && python ivano_occupancy.py daily;   } || echo "IVANO FAILED"
+            { python smluggage_occupancy.py scan && python smluggage_occupancy.py daily; } || echo "SMLUGGAGE FAILED"
             python areas.py fill || echo "AREAS FAILED"
             python dashboard.py  || echo "DASHBOARD FAILED"
           fi
@@ -100,6 +101,7 @@ jobs:
             python litc_occupancy.py shops || echo "LITC SHOPS FAILED"
             python stowcity_occupancy.py shops || echo "STOWCITY SHOPS FAILED"
             python ivano_occupancy.py shops || echo "IVANO SHOPS FAILED"
+            python smluggage_occupancy.py shops || echo "SMLUGGAGE SHOPS FAILED"
             python dashboard.py
           fi
 

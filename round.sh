@@ -20,6 +20,7 @@ git config user.email "actions@users.noreply.github.com"
 { python litc_occupancy.py scan    && python litc_occupancy.py daily;    } || echo "LITC FAILED"
 { python stowcity_occupancy.py scan && python stowcity_occupancy.py daily; } || echo "STOWCITY FAILED"
 { python ivano_occupancy.py scan   && python ivano_occupancy.py daily;   } || echo "IVANO FAILED"
+{ python smluggage_occupancy.py scan && python smluggage_occupancy.py daily; } || echo "SMLUGGAGE FAILED"
 python areas.py fill || echo "AREAS FAILED"
 python dashboard.py  || echo "DASHBOARD FAILED"
 

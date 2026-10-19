@@ -57,6 +57,12 @@ PROVIDERS = {
                        "boxes per size, so occupied is capacity minus free; capacity is the most ever "
                        "seen free for that shop and size. Torino has no online booking, so it is not "
                        "read."),
+    "smluggage": dict(label="Store My Luggage", unit="lockers",
+                      note="An automatic locker operator, 14 points in 10 cities, among them Venezia "
+                           "Santa Lucia and Pisa station. Its booking API gives the real capacity and "
+                           "the free lockers per size, but never says more than 6 free: below that the "
+                           "reading is exact, above it a point counts as 0 occupied. So it is a floor "
+                           "that only moves when a point gets close to full."),
 }
 
 
@@ -182,6 +188,18 @@ def readings():
         shop = iv_shops.get(r["shop_id"], {})
         out.append(("ivano", *when(r["read_at"]), town(r["city"]), area(shop.get("lat"), shop.get("lng")),
                     r["shop_id"], r["name"], r["locker_type"], cap, cap - number(r["free"]), r["read_at"]))
+
+    # Store My Luggage declares the capacity but caps free at 6 (see smluggage_occupancy.py): a capped
+    # reading says "6 or more free", so it counts as 0 occupied and the figure stays a floor.
+    sml_shops = {r["shop_id"]: r for r in read_csv("smluggage-shops.csv")}
+    for r in read_csv("smluggage-occupancy.csv"):
+        if r.get("status") != "read" or r.get("free") == "":
+            continue
+        cap = number(r["capacity"])
+        occupied = 0 if r.get("capped") == "1" else cap - number(r["free"])
+        shop = sml_shops.get(r["shop_id"], {})
+        out.append(("smluggage", *when(r["read_at"]), town(r["city"]), area(shop.get("lat"), shop.get("lng")),
+                    r["shop_id"], r["name"], r["locker_type"], cap, occupied, r["read_at"]))
     return out
 
 
@@ -198,7 +216,8 @@ def page_urls():
         if r.get("url"):
             out[("radical", r["storage_id"])] = r["url"]
     for fname, prov in (("stow-shops.csv", "stow"), ("litc-shops.csv", "litc"),
-                        ("stowcity-shops.csv", "stowcity"), ("ivano-shops.csv", "ivano")):
+                        ("stowcity-shops.csv", "stowcity"), ("ivano-shops.csv", "ivano"),
+                        ("smluggage-shops.csv", "smluggage")):
         for r in read_csv(fname):
             if r.get("url"):
                 out[(prov, r["shop_id"])] = r["url"]
@@ -275,7 +294,7 @@ TEMPLATE = """<!doctype html>
 <title>Luggage storage occupancy in Italy</title>
 <style>
 :root{--bg:#fff;--fg:#14171f;--mut:#6b7280;--line:#e5e7eb;--card:#f8fafc;--soft:#eef2f7;
---radical:#2f6df6;--bounce:#e0682a;--stow:#0f9d77;--litc:#8b3fd6;--stowcity:#e11d8f;--ivano:#0891b2}
+--radical:#2f6df6;--bounce:#e0682a;--stow:#0f9d77;--litc:#8b3fd6;--stowcity:#e11d8f;--ivano:#0891b2;--smluggage:#ca8a04}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1218;--fg:#eef1f6;--mut:#98a2b3;
 --line:#242a35;--card:#161a22;--soft:#1b2029;color-scheme:dark}}
 :root[data-theme="dark"]{--bg:#0f1218;--fg:#eef1f6;--mut:#98a2b3;--line:#242a35;--card:#161a22;--soft:#1b2029;color-scheme:dark}
@@ -353,7 +372,7 @@ comparison above. iVano is the one to look at twice: it sits in Cannaregio and S
 <th>Address</th><th>Reviews</th></tr></thead><tbody></tbody></table></div>
 </div><script>
 const D=__DATA__;
-const COLOR={radical:'#2f6df6',bounce:'#e0682a',stow:'#0f9d77',litc:'#8b3fd6',stowcity:'#e11d8f',ivano:'#0891b2'};
+const COLOR={radical:'#2f6df6',bounce:'#e0682a',stow:'#0f9d77',litc:'#8b3fd6',stowcity:'#e11d8f',ivano:'#0891b2',smluggage:'#ca8a04'};
 const LABEL={},UNIT={};D.providers.forEach(p=>{LABEL[p.id]=p.label;UNIT[p.id]=p.unit});
 const from=document.getElementById('from'),to=document.getElementById('to'),prov=document.getElementById('prov'),city=document.getElementById('city'),
       q=document.getElementById('q'),metric=document.getElementById('metric');

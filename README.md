@@ -10,6 +10,7 @@ Scripts that run on GitHub Actions and track public data about new business oppo
 | `radical_occupancy.py` | How full the Radical Storage luggage points are in 86 Italian province capitals, and how many deposits they take per day | E-93 | every hour |
 | `bounce_occupancy.py` | The same for Bounce: 3.381 points in 92 Italian cities, with capacity and reservation counts | E-93 | every hour |
 | `stow_occupancy.py` | Free lockers per shop and size at Stow Your Bags, the one real locker operator among the four, read from its booking form | E-93 | every hour |
+| `smluggage_occupancy.py` | Free lockers per point and size at Store My Luggage, 14 points in 10 cities, with the real capacity; free is capped at 6, so it is a floor | E-100 | every hour |
 | `competitors_census.py` | Weekly census of Stasher in Italy: points, declared capacity, prices | E-93 | Monday |
 | `other_operators.py` | Where Locker in the City and iVano are, when their occupancy cannot be read | E-93 | Monday |
 | `dashboard.py` | Builds `docs/index.html` from every source | E-93 | after every hourly run |
@@ -72,6 +73,14 @@ size: the fill figure only gets more accurate as the series grows.
 `www.stowyourbags.com` allows robots, but `customer.stowyourbags.com`, where the booking form
 lives, disallows them. Giacomo asked for the reading anyway on 23/09/2026, knowing that, so it is
 kept to one slot per shop every two hours, one shop at a time.
+
+### Store My Luggage
+
+Its booking app reads a public backend (`rooms`, `rooms/:id/get_all_count_free_boxs`) that gives the real
+capacity per size (700 standard, 1000 maxi) and the free lockers. **Free never goes above 6**: on the first
+reading, 19/10/2026, 12 points out of 13 answered exactly 6 whatever their size. Below 6 the reading is
+exact; at 6 the row is marked `capped` and the dashboard counts it as 0 occupied. It is a saturation
+signal, a floor, not a headcount. robots.txt disallows nothing.
 
 ### Stasher
 
