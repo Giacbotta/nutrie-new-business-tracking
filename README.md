@@ -103,6 +103,12 @@ Each hourly run re-matches any new point offline, and the Monday census download
 again, so the cache keeps up on its own. Venice and many other neighbourhoods are mapped as areas
 rather than points, so the query asks for nodes, ways and relations and uses their centres.
 
+Where the providers' own labels are not usable, `data/city-zones.csv` draws the zones of a whole
+city by hand: centre, radius, name. A point of that city takes the nearest centre whose radius covers
+it, or `<City> Outskirts` when none does. Bologna is the first one (20/10/2026): Radical tagged points
+up to 1,8 km from the station as "station", Bounce counts the whole metropolitan area as Bologna, and
+the historic centre was split into eight labels of one to thirteen points each.
+
 ### Dashboard
 
 `docs/index.html`, rebuilt after every run: city → neighbourhood → single point, with the bags-by-hour

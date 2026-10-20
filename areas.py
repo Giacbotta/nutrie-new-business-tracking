@@ -10,7 +10,13 @@ takes the zone of the nearest Radical point within RADIUS_KM.
 Some areas have no Radical point at all — Mestre, where Bounce has 17 points and Radical none —
 so data/extra-zones.csv holds zones added by hand, each with its own radius. Their names still come
 from Radical's own pages (Radical publishes a Mestre page with its centre) so the vocabulary stays
-one. Ask for a zone and it goes in that file. What is left keeps the label
+one. Ask for a zone and it goes in that file.
+
+In a few cities Radical's own labels are not usable: in Bologna it tags points 1,8 km from the
+station as "bologna-centrale-railway-station" because it sells them as near the station, and Bounce
+calls the whole metropolitan area "Bologna". For a city listed in data/city-zones.csv the zone comes
+from the position alone: the nearest of those centres whose radius covers the point, or
+"<City> Outskirts" when none does. Radical's labels are ignored there (20/10/2026). What is left keeps the label
 "Unknown neighbourhood" and is searched for in the background — the nearest OpenStreetMap place is
 still written next to it, as a candidate to look at, never as the label.
 
@@ -256,9 +262,27 @@ def fill_from_radical():
     # Station"). zone-merges.csv folds those into one name each. It lives apart from radical-zones.csv
     # because the Monday census rewrites that file; this one is applied on top and survives.
     merge = {r["from"]: r["to"] for r in read_csv("zone-merges.csv") if r.get("from") and r.get("to")}
+    by_city = collections.defaultdict(list)
+    for r in read_csv("city-zones.csv"):
+        if r.get("lat"):
+            by_city[r["city"].strip().lower()].append(
+                (float(r["lat"]), float(r["lng"]), r["name"], float(r.get("radius_km") or RADIUS_KM)))
     cache = {}
-    for k in wanted():
+    for k, city in wanted().items():
         lat, lng = (float(x) for x in k.split(","))
+        fixed = by_city.get((city or "").strip().lower())
+        if fixed:                         # zones drawn by hand for the whole city: position only
+            import math
+            best = None
+            for plat, plng, pname, radius in fixed:
+                d = math.dist(((plat - lat) * 111.0, (plng - lng) * 111.0 * math.cos(math.radians(lat))), (0, 0))
+                if d <= radius and (best is None or d < best[1]):
+                    best = (pname, d)
+            name = best[0] if best else f"{pretty(city)} Outskirts"
+            guess, _ = nearest(osm, lat, lng, 3.0, size=0.05)
+            cache[k] = dict(key=k, area=name, city_osm=guess,
+                            source=f"city-zones {best[1]:.2f} km" if best else "city-zones outside")
+            continue
         name, km = nearest(zones, lat, lng, RADIUS_KM)
         if not name:                      # zones added by hand, each with its own reach
             import math
