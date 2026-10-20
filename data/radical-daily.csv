@@ -2286,7 +2286,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-17,weekend,bologna,bologna-centrale-railway-station,6460518,Luggage Storage near Bologna Station,55,15,8,14.5,0,10,5.0
 2026-10-18,weekend,bologna,bologna-centrale-railway-station,6460518,Luggage Storage near Bologna Station,55,15,26,47.3,1,25,13.0
 2026-10-19,weekday,bologna,bologna-centrale-railway-station,6460518,Luggage Storage near Bologna Station,55,14,0,0.0,0,0,0.0
-2026-10-20,weekday,bologna,bologna-centrale-railway-station,6460518,Luggage Storage near Bologna Station,55,7,55,100.0,0,55,27.5
+2026-10-20,weekday,bologna,bologna-centrale-railway-station,6460518,Luggage Storage near Bologna Station,55,7,55,100.0,0,58,29.0
 2026-09-23,weekday,bologna,bologna-centrale-railway-station,6463282,Luggage Storage Via Amendola / Centrale,50,1,0,0.0,0,0,0.0
 2026-09-24,weekday,bologna,bologna-centrale-railway-station,6463282,Luggage Storage Via Amendola / Centrale,50,2,0,0.0,0,0,0.0
 2026-09-25,weekday,bologna,bologna-centrale-railway-station,6463282,Luggage Storage Via Amendola / Centrale,50,6,1,2.0,0,1,0.5
@@ -12352,7 +12352,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-17,weekend,milan,milan-centrale-railway-station,5777,Luggage Storage Milano Centrale,90,12,1,1.1,0,1,0.5
 2026-10-18,weekend,milan,milan-centrale-railway-station,5777,Luggage Storage Milano Centrale,90,2,0,0.0,0,0,0.0
 2026-10-19,weekday,milan,milan-centrale-railway-station,5777,Luggage Storage Milano Centrale,90,10,0,0.0,0,0,0.0
-2026-10-20,weekday,milan,milan-centrale-railway-station,5777,Luggage Storage Milano Centrale,90,6,3,3.3,0,3,1.5
+2026-10-20,weekday,milan,milan-centrale-railway-station,5777,Luggage Storage Milano Centrale,90,6,6,6.7,0,6,3.0
 2026-09-23,weekday,milan,milan-centrale-railway-station,5778,Luggage Storage Vtrans Milano,30,1,9,30.0,9,0,4.5
 2026-09-24,weekday,milan,milan-centrale-railway-station,5778,Luggage Storage Vtrans Milano,30,2,9,30.0,9,0,4.5
 2026-09-25,weekday,milan,milan-centrale-railway-station,5778,Luggage Storage Vtrans Milano,30,5,10,33.3,10,8,9.0
@@ -20224,7 +20224,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-17,weekend,pisa,pisa-centrale-train-station,7633,Luggage Storage Pisa Train Station,65,12,0,0.0,0,0,0.0
 2026-10-18,weekend,pisa,pisa-centrale-train-station,7633,Luggage Storage Pisa Train Station,65,12,0,0.0,0,0,0.0
 2026-10-19,weekday,pisa,pisa-centrale-train-station,7633,Luggage Storage Pisa Train Station,65,10,8,12.3,2,6,4.0
-2026-10-20,weekday,pisa,pisa-centrale-train-station,7633,Luggage Storage Pisa Train Station,65,6,5,7.7,0,5,2.5
+2026-10-20,weekday,pisa,pisa-centrale-train-station,7633,Luggage Storage Pisa Train Station,65,6,7,10.8,0,7,3.5
 2026-09-23,weekday,pisa,pisa-piazza-del-duomo,6652,Luggage Storage Piazza Dante,10,1,0,0.0,0,0,0.0
 2026-09-24,weekday,pisa,pisa-piazza-del-duomo,6652,Luggage Storage Piazza Dante,10,3,1,10.0,1,0,0.5
 2026-09-25,weekday,pisa,pisa-piazza-del-duomo,6652,Luggage Storage Piazza Dante,10,7,3,30.0,3,0,1.5
@@ -25695,7 +25695,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-16,weekday,rome,roma-vatican-museums,6473172,Luggage Storage St Peter's Square,11,8,5,45.5,3,8,5.5
 2026-10-17,weekend,rome,roma-vatican-museums,6473172,Luggage Storage St Peter's Square,11,8,10,90.9,4,9,6.5
 2026-10-19,weekday,rome,roma-vatican-museums,6473172,Luggage Storage St Peter's Square,11,6,8,72.7,8,5,6.5
-2026-10-20,weekday,rome,roma-vatican-museums,6473172,Luggage Storage St Peter's Square,11,5,6,54.5,5,2,3.5
+2026-10-20,weekday,rome,roma-vatican-museums,6473172,Luggage Storage St Peter's Square,11,5,6,54.5,5,3,4.0
 2026-09-24,weekday,rome,roman-forum,34,Luggage Storage Fori Imperiali,300,2,0,0.0,0,0,0.0
 2026-09-25,weekday,rome,roman-forum,34,Luggage Storage Fori Imperiali,300,4,0,0.0,0,0,0.0
 2026-09-26,weekend,rome,roman-forum,34,Luggage Storage Fori Imperiali,300,9,0,0.0,0,0,0.0
@@ -26456,7 +26456,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-17,weekend,rome,termini,6453333,Luggage Storage Termini / Piazza Dei Cinquecento,100,15,10,10.0,0,10,5.0
 2026-10-18,weekend,rome,termini,6453333,Luggage Storage Termini / Piazza Dei Cinquecento,100,15,17,17.0,5,12,8.5
 2026-10-19,weekday,rome,termini,6453333,Luggage Storage Termini / Piazza Dei Cinquecento,100,13,10,10.0,1,10,5.5
-2026-10-20,weekday,rome,termini,6453333,Luggage Storage Termini / Piazza Dei Cinquecento,100,6,7,7.0,3,4,3.5
+2026-10-20,weekday,rome,termini,6453333,Luggage Storage Termini / Piazza Dei Cinquecento,100,6,8,8.0,3,8,5.5
 2026-09-23,weekday,rome,termini,6453452,Luggage Storage Acquario Romano,100,1,0,0.0,0,0,0.0
 2026-09-24,weekday,rome,termini,6453452,Luggage Storage Acquario Romano,100,3,3,3.0,0,3,1.5
 2026-09-25,weekday,rome,termini,6453452,Luggage Storage Acquario Romano,100,7,0,0.0,0,0,0.0
@@ -28069,7 +28069,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-16,weekday,rome,vatican,6473173,Luggage Storage Rome Vatican Museums,12,8,10,83.3,3,10,6.5
 2026-10-17,weekend,rome,vatican,6473173,Luggage Storage Rome Vatican Museums,12,8,10,83.3,9,10,9.5
 2026-10-19,weekday,rome,vatican,6473173,Luggage Storage Rome Vatican Museums,12,6,8,66.7,5,11,8.0
-2026-10-20,weekday,rome,vatican,6473173,Luggage Storage Rome Vatican Museums,12,5,9,75.0,3,11,7.0
+2026-10-20,weekday,rome,vatican,6473173,Luggage Storage Rome Vatican Museums,12,5,9,75.0,3,8,5.5
 2026-09-24,weekday,rome,via-del-corso,5660,Luggage Storage Via Del Corso,25,9,2,8.0,0,2,1.0
 2026-09-25,weekday,rome,via-del-corso,5660,Luggage Storage Via Del Corso,25,7,12,48.0,0,12,6.0
 2026-09-26,weekend,rome,via-del-corso,5660,Luggage Storage Via Del Corso,25,18,0,0.0,0,0,0.0
@@ -30378,7 +30378,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-17,weekend,trapani,trapani-train-station,6515,Luggage Storage Trapani Square Station,30,8,0,0.0,0,0,0.0
 2026-10-18,weekend,trapani,trapani-train-station,6515,Luggage Storage Trapani Square Station,30,8,0,0.0,0,0,0.0
 2026-10-19,weekday,trapani,trapani-train-station,6515,Luggage Storage Trapani Square Station,30,6,0,0.0,0,0,0.0
-2026-10-20,weekday,trapani,trapani-train-station,6515,Luggage Storage Trapani Square Station,30,5,0,0.0,0,0,0.0
+2026-10-20,weekday,trapani,trapani-train-station,6515,Luggage Storage Trapani Square Station,30,5,2,6.7,0,2,1.0
 2026-09-24,weekday,trento,city-center,8012,Luggage Storage Piazza Cesare Battisti,40,1,0,0.0,0,0,0.0
 2026-09-25,weekday,trento,city-center,8012,Luggage Storage Piazza Cesare Battisti,40,3,0,0.0,0,0,0.0
 2026-09-26,weekend,trento,city-center,8012,Luggage Storage Piazza Cesare Battisti,40,7,0,0.0,0,0,0.0
@@ -32541,7 +32541,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-17,weekend,venice,piazzale-roma,9579,Luggage Storage Piazzale Roma Terminal Bus,55,15,4,7.3,0,4,2.0
 2026-10-18,weekend,venice,piazzale-roma,9579,Luggage Storage Piazzale Roma Terminal Bus,55,15,14,25.5,0,14,7.0
 2026-10-19,weekday,venice,piazzale-roma,9579,Luggage Storage Piazzale Roma Terminal Bus,55,13,0,0.0,0,0,0.0
-2026-10-20,weekday,venice,piazzale-roma,9579,Luggage Storage Piazzale Roma Terminal Bus,55,7,4,7.3,0,4,2.0
+2026-10-20,weekday,venice,piazzale-roma,9579,Luggage Storage Piazzale Roma Terminal Bus,55,7,6,10.9,0,6,3.0
 2026-09-23,weekday,venice,rialto,149,Luggage Storage Rialto Bridge,300,2,0,0.0,0,0,0.0
 2026-09-24,weekday,venice,rialto,149,Luggage Storage Rialto Bridge,300,5,0,0.0,0,0,0.0
 2026-09-25,weekday,venice,rialto,149,Luggage Storage Rialto Bridge,300,10,0,0.0,0,0,0.0
