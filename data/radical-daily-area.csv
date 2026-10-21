@@ -12885,13 +12885,13 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-21,bari,altamura,1,25,25,100.0,0,25,12.5
 2026-10-21,bari,fiera-del-levante,1,30,0,0.0,0,0,0.0
 2026-10-21,bologna,bologna-centrale-railway-station,1,55,55,100.0,0,55,27.5
-2026-10-21,caltanissetta,caltanissetta-centrale,1,10,0,0.0,0,0,0.0
+2026-10-21,caltanissetta,caltanissetta-centrale,1,10,10,100.0,0,10,5.0
 2026-10-21,catania,borgo-sanzio,1,20,20,100.0,0,20,10.0
 2026-10-21,catania,catania-airport,1,50,1,2.0,1,0,0.5
-2026-10-21,catania,city-center,1,35,0,0.0,0,0,0.0
+2026-10-21,catania,city-center,1,35,35,100.0,0,35,17.5
 2026-10-21,civitavecchia,civitavecchia-1,1,40,0,0.0,0,0,0.0
 2026-10-21,ferrara,city-center,2,65,0,0.0,0,0,0.0
-2026-10-21,florence,basilica-of-santa-maria-novella,1,20,0,0.0,0,0,0.0
+2026-10-21,florence,basilica-of-santa-maria-novella,1,20,20,100.0,0,20,10.0
 2026-10-21,florence,santa-maria-novella,1,140,2,1.4,2,0,1.0
 2026-10-21,imola,city-center,1,200,0,0.0,0,0,0.0
 2026-10-21,lamezia-terme,train-station,1,30,0,0.0,0,0,0.0
@@ -12901,9 +12901,9 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-21,milan,corso-buenos-aires,1,20,0,0.0,0,0,0.0
 2026-10-21,milan,lambrate,1,20,20,100.0,0,20,10.0
 2026-10-21,milan,milan-centrale-railway-station,5,320,212,66.2,7,205,106.0
-2026-10-21,milan,milano-repubblica-station,2,120,20,16.7,0,20,10.0
+2026-10-21,milan,milano-repubblica-station,2,120,120,100.0,0,120,60.0
 2026-10-21,milan,missori,1,40,40,100.0,0,40,20.0
-2026-10-21,milan,navigli,2,55,20,36.4,0,20,10.0
+2026-10-21,milan,navigli,2,55,55,100.0,0,55,27.5
 2026-10-21,milan,niguarda,1,20,20,100.0,0,20,10.0
 2026-10-21,milan,palazzo-di-giustizia,1,30,0,0.0,0,0,0.0
 2026-10-21,milan,politecnico-di-milano-campus-bovisa-la-masa,1,20,0,0.0,0,0,0.0
@@ -12932,7 +12932,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-21,prato,prato-centrale,1,40,0,0.0,0,0,0.0
 2026-10-21,ravenna,main-station,1,20,0,0.0,0,0,0.0
 2026-10-21,reggio-calabria,villa-san-giovanni,1,50,0,0.0,0,0,0.0
-2026-10-21,rimini,bellariva,1,50,0,0.0,0,0,0.0
+2026-10-21,rimini,bellariva,1,50,50,100.0,0,50,25.0
 2026-10-21,rimini,federico-fellini-international-airport,1,20,0,0.0,0,0,0.0
 2026-10-21,rimini,lungomare-augusto-murri,1,15,0,0.0,0,0,0.0
 2026-10-21,rimini,rimini-train-station,1,300,0,0.0,0,0,0.0
