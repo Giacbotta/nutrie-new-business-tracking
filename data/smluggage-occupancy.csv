@@ -374,3 +374,348 @@ read_at,city,shop_id,name,day,hour,weekday,locker_type,free,capacity,capped,stat
 2026-10-20 15:09,Lucca,17,Lucca Centrale,2026-10-20,15,Tue,maxi,6,20,1,read
 2026-10-20 15:09,Genova,18,Genova Centro Storico,2026-10-20,15,Tue,maxi,6,13,1,read
 2026-10-20 15:09,Firenze,19,Firenze Santa Croce,2026-10-20,15,Tue,standard,0,1,0,read
+2026-10-20 16:25,Firenze,1,Firenze Uffizi,2026-10-20,16,Tue,maxi,6,26,1,read
+2026-10-20 16:25,Firenze,2,Firenze Stazione SMN,2026-10-20,16,Tue,maxi,6,17,1,read
+2026-10-20 16:25,Pisa,3,Pisa Stazione Centrale,2026-10-20,16,Tue,maxi,6,38,1,read
+2026-10-20 16:25,Bologna,4,Bologna P.zza Maggiore,2026-10-20,16,Tue,maxi,6,11,1,read
+2026-10-20 16:25,Empoli,7,Empoli Stazione,2026-10-20,16,Tue,maxi,6,17,1,read
+2026-10-20 16:25,Roma,8,Roma P.zza Venezia,2026-10-20,16,Tue,maxi,6,14,1,read
+2026-10-20 16:25,Torino,10,Torino Porta Nuova,2026-10-20,16,Tue,standard,6,14,1,read
+2026-10-20 16:25,Venezia,11,Venezia Santa Lucia,2026-10-20,16,Tue,standard,6,23,1,read
+2026-10-20 16:25,Venezia,11,Venezia Santa Lucia,2026-10-20,16,Tue,maxi,6,8,1,read
+2026-10-20 16:25,Milano,12,Milano Centrale,2026-10-20,16,Tue,maxi,6,28,1,read
+2026-10-20 16:25,La Spezia,13,La Spezia Centrale,2026-10-20,16,Tue,maxi,6,14,1,read
+2026-10-20 16:25,Napoli,14,Napoli Centrale,2026-10-20,16,Tue,maxi,6,17,1,read
+2026-10-20 16:25,Lucca,17,Lucca Centrale,2026-10-20,16,Tue,maxi,6,20,1,read
+2026-10-20 16:25,Genova,18,Genova Centro Storico,2026-10-20,16,Tue,maxi,6,13,1,read
+2026-10-20 16:25,Firenze,19,Firenze Santa Croce,2026-10-20,16,Tue,standard,0,1,0,read
+2026-10-20 17:05,Firenze,1,Firenze Uffizi,2026-10-20,17,Tue,maxi,6,26,1,read
+2026-10-20 17:05,Firenze,2,Firenze Stazione SMN,2026-10-20,17,Tue,maxi,6,17,1,read
+2026-10-20 17:05,Pisa,3,Pisa Stazione Centrale,2026-10-20,17,Tue,maxi,6,38,1,read
+2026-10-20 17:05,Bologna,4,Bologna P.zza Maggiore,2026-10-20,17,Tue,maxi,6,11,1,read
+2026-10-20 17:05,Empoli,7,Empoli Stazione,2026-10-20,17,Tue,maxi,6,17,1,read
+2026-10-20 17:05,Roma,8,Roma P.zza Venezia,2026-10-20,17,Tue,maxi,6,14,1,read
+2026-10-20 17:05,Torino,10,Torino Porta Nuova,2026-10-20,17,Tue,standard,6,14,1,read
+2026-10-20 17:05,Venezia,11,Venezia Santa Lucia,2026-10-20,17,Tue,standard,6,23,1,read
+2026-10-20 17:05,Venezia,11,Venezia Santa Lucia,2026-10-20,17,Tue,maxi,6,8,1,read
+2026-10-20 17:05,Milano,12,Milano Centrale,2026-10-20,17,Tue,maxi,6,28,1,read
+2026-10-20 17:05,La Spezia,13,La Spezia Centrale,2026-10-20,17,Tue,maxi,6,14,1,read
+2026-10-20 17:05,Napoli,14,Napoli Centrale,2026-10-20,17,Tue,maxi,6,17,1,read
+2026-10-20 17:05,Lucca,17,Lucca Centrale,2026-10-20,17,Tue,maxi,6,20,1,read
+2026-10-20 17:05,Genova,18,Genova Centro Storico,2026-10-20,17,Tue,maxi,6,13,1,read
+2026-10-20 17:05,Firenze,19,Firenze Santa Croce,2026-10-20,17,Tue,standard,0,1,0,read
+2026-10-20 17:22,Firenze,1,Firenze Uffizi,2026-10-20,17,Tue,maxi,6,26,1,read
+2026-10-20 17:22,Firenze,2,Firenze Stazione SMN,2026-10-20,17,Tue,maxi,6,17,1,read
+2026-10-20 17:22,Pisa,3,Pisa Stazione Centrale,2026-10-20,17,Tue,maxi,6,38,1,read
+2026-10-20 17:22,Bologna,4,Bologna P.zza Maggiore,2026-10-20,17,Tue,maxi,6,11,1,read
+2026-10-20 17:22,Empoli,7,Empoli Stazione,2026-10-20,17,Tue,maxi,6,17,1,read
+2026-10-20 17:22,Roma,8,Roma P.zza Venezia,2026-10-20,17,Tue,maxi,6,14,1,read
+2026-10-20 17:22,Torino,10,Torino Porta Nuova,2026-10-20,17,Tue,standard,6,14,1,read
+2026-10-20 17:22,Venezia,11,Venezia Santa Lucia,2026-10-20,17,Tue,standard,6,23,1,read
+2026-10-20 17:22,Venezia,11,Venezia Santa Lucia,2026-10-20,17,Tue,maxi,6,8,1,read
+2026-10-20 17:22,Milano,12,Milano Centrale,2026-10-20,17,Tue,maxi,6,28,1,read
+2026-10-20 17:22,La Spezia,13,La Spezia Centrale,2026-10-20,17,Tue,maxi,6,14,1,read
+2026-10-20 17:22,Napoli,14,Napoli Centrale,2026-10-20,17,Tue,maxi,6,17,1,read
+2026-10-20 17:22,Lucca,17,Lucca Centrale,2026-10-20,17,Tue,maxi,6,20,1,read
+2026-10-20 17:22,Genova,18,Genova Centro Storico,2026-10-20,17,Tue,maxi,6,13,1,read
+2026-10-20 17:22,Firenze,19,Firenze Santa Croce,2026-10-20,17,Tue,standard,0,1,0,read
+2026-10-20 18:20,Firenze,1,Firenze Uffizi,2026-10-20,18,Tue,maxi,6,26,1,read
+2026-10-20 18:20,Firenze,2,Firenze Stazione SMN,2026-10-20,18,Tue,maxi,6,17,1,read
+2026-10-20 18:20,Pisa,3,Pisa Stazione Centrale,2026-10-20,18,Tue,maxi,6,38,1,read
+2026-10-20 18:20,Bologna,4,Bologna P.zza Maggiore,2026-10-20,18,Tue,maxi,6,11,1,read
+2026-10-20 18:20,Empoli,7,Empoli Stazione,2026-10-20,18,Tue,maxi,6,17,1,read
+2026-10-20 18:20,Roma,8,Roma P.zza Venezia,2026-10-20,18,Tue,maxi,6,14,1,read
+2026-10-20 18:20,Torino,10,Torino Porta Nuova,2026-10-20,18,Tue,standard,6,14,1,read
+2026-10-20 18:20,Venezia,11,Venezia Santa Lucia,2026-10-20,18,Tue,standard,6,23,1,read
+2026-10-20 18:20,Venezia,11,Venezia Santa Lucia,2026-10-20,18,Tue,maxi,6,8,1,read
+2026-10-20 18:20,Milano,12,Milano Centrale,2026-10-20,18,Tue,maxi,6,28,1,read
+2026-10-20 18:20,La Spezia,13,La Spezia Centrale,2026-10-20,18,Tue,maxi,6,14,1,read
+2026-10-20 18:20,Napoli,14,Napoli Centrale,2026-10-20,18,Tue,maxi,6,17,1,read
+2026-10-20 18:20,Lucca,17,Lucca Centrale,2026-10-20,18,Tue,maxi,6,20,1,read
+2026-10-20 18:20,Genova,18,Genova Centro Storico,2026-10-20,18,Tue,maxi,6,13,1,read
+2026-10-20 18:20,Firenze,19,Firenze Santa Croce,2026-10-20,18,Tue,standard,0,1,0,read
+2026-10-20 19:20,Firenze,1,Firenze Uffizi,2026-10-20,19,Tue,maxi,6,26,1,read
+2026-10-20 19:20,Firenze,2,Firenze Stazione SMN,2026-10-20,19,Tue,maxi,6,17,1,read
+2026-10-20 19:20,Pisa,3,Pisa Stazione Centrale,2026-10-20,19,Tue,maxi,6,38,1,read
+2026-10-20 19:20,Bologna,4,Bologna P.zza Maggiore,2026-10-20,19,Tue,maxi,6,11,1,read
+2026-10-20 19:20,Empoli,7,Empoli Stazione,2026-10-20,19,Tue,maxi,6,17,1,read
+2026-10-20 19:20,Roma,8,Roma P.zza Venezia,2026-10-20,19,Tue,maxi,6,14,1,read
+2026-10-20 19:20,Torino,10,Torino Porta Nuova,2026-10-20,19,Tue,standard,6,14,1,read
+2026-10-20 19:20,Venezia,11,Venezia Santa Lucia,2026-10-20,19,Tue,standard,6,23,1,read
+2026-10-20 19:20,Venezia,11,Venezia Santa Lucia,2026-10-20,19,Tue,maxi,6,8,1,read
+2026-10-20 19:20,Milano,12,Milano Centrale,2026-10-20,19,Tue,maxi,6,28,1,read
+2026-10-20 19:20,La Spezia,13,La Spezia Centrale,2026-10-20,19,Tue,maxi,6,14,1,read
+2026-10-20 19:20,Napoli,14,Napoli Centrale,2026-10-20,19,Tue,maxi,6,17,1,read
+2026-10-20 19:20,Lucca,17,Lucca Centrale,2026-10-20,19,Tue,maxi,6,20,1,read
+2026-10-20 19:20,Genova,18,Genova Centro Storico,2026-10-20,19,Tue,maxi,6,13,1,read
+2026-10-20 19:20,Firenze,19,Firenze Santa Croce,2026-10-20,19,Tue,standard,0,1,0,read
+2026-10-20 20:19,Firenze,1,Firenze Uffizi,2026-10-20,20,Tue,maxi,6,26,1,read
+2026-10-20 20:19,Firenze,2,Firenze Stazione SMN,2026-10-20,20,Tue,maxi,6,17,1,read
+2026-10-20 20:19,Pisa,3,Pisa Stazione Centrale,2026-10-20,20,Tue,maxi,6,38,1,read
+2026-10-20 20:19,Bologna,4,Bologna P.zza Maggiore,2026-10-20,20,Tue,maxi,6,11,1,read
+2026-10-20 20:19,Empoli,7,Empoli Stazione,2026-10-20,20,Tue,maxi,6,17,1,read
+2026-10-20 20:19,Roma,8,Roma P.zza Venezia,2026-10-20,20,Tue,maxi,6,14,1,read
+2026-10-20 20:19,Torino,10,Torino Porta Nuova,2026-10-20,20,Tue,standard,6,14,1,read
+2026-10-20 20:19,Venezia,11,Venezia Santa Lucia,2026-10-20,20,Tue,standard,6,23,1,read
+2026-10-20 20:19,Venezia,11,Venezia Santa Lucia,2026-10-20,20,Tue,maxi,6,8,1,read
+2026-10-20 20:19,Milano,12,Milano Centrale,2026-10-20,20,Tue,maxi,6,28,1,read
+2026-10-20 20:19,La Spezia,13,La Spezia Centrale,2026-10-20,20,Tue,maxi,6,14,1,read
+2026-10-20 20:19,Napoli,14,Napoli Centrale,2026-10-20,20,Tue,maxi,6,17,1,read
+2026-10-20 20:19,Lucca,17,Lucca Centrale,2026-10-20,20,Tue,maxi,6,20,1,read
+2026-10-20 20:19,Genova,18,Genova Centro Storico,2026-10-20,20,Tue,maxi,6,13,1,read
+2026-10-20 20:19,Firenze,19,Firenze Santa Croce,2026-10-20,20,Tue,standard,0,1,0,read
+2026-10-20 21:15,Firenze,1,Firenze Uffizi,2026-10-20,21,Tue,maxi,6,26,1,read
+2026-10-20 21:15,Firenze,2,Firenze Stazione SMN,2026-10-20,21,Tue,maxi,6,17,1,read
+2026-10-20 21:15,Pisa,3,Pisa Stazione Centrale,2026-10-20,21,Tue,maxi,6,38,1,read
+2026-10-20 21:15,Bologna,4,Bologna P.zza Maggiore,2026-10-20,21,Tue,maxi,6,11,1,read
+2026-10-20 21:15,Empoli,7,Empoli Stazione,2026-10-20,21,Tue,maxi,6,17,1,read
+2026-10-20 21:15,Roma,8,Roma P.zza Venezia,2026-10-20,21,Tue,maxi,6,14,1,read
+2026-10-20 21:15,Torino,10,Torino Porta Nuova,2026-10-20,21,Tue,standard,6,14,1,read
+2026-10-20 21:15,Venezia,11,Venezia Santa Lucia,2026-10-20,21,Tue,standard,6,23,1,read
+2026-10-20 21:15,Venezia,11,Venezia Santa Lucia,2026-10-20,21,Tue,maxi,6,8,1,read
+2026-10-20 21:15,Milano,12,Milano Centrale,2026-10-20,21,Tue,maxi,6,28,1,read
+2026-10-20 21:15,La Spezia,13,La Spezia Centrale,2026-10-20,21,Tue,maxi,6,14,1,read
+2026-10-20 21:15,Napoli,14,Napoli Centrale,2026-10-20,21,Tue,maxi,6,17,1,read
+2026-10-20 21:15,Lucca,17,Lucca Centrale,2026-10-20,21,Tue,maxi,6,20,1,read
+2026-10-20 21:15,Genova,18,Genova Centro Storico,2026-10-20,21,Tue,maxi,6,13,1,read
+2026-10-20 21:15,Firenze,19,Firenze Santa Croce,2026-10-20,21,Tue,standard,0,1,0,read
+2026-10-20 22:54,Firenze,1,Firenze Uffizi,2026-10-20,22,Tue,maxi,6,26,1,read
+2026-10-20 22:54,Firenze,2,Firenze Stazione SMN,2026-10-20,22,Tue,maxi,6,17,1,read
+2026-10-20 22:54,Pisa,3,Pisa Stazione Centrale,2026-10-20,22,Tue,maxi,6,38,1,read
+2026-10-20 22:54,Bologna,4,Bologna P.zza Maggiore,2026-10-20,22,Tue,maxi,6,11,1,read
+2026-10-20 22:54,Empoli,7,Empoli Stazione,2026-10-20,22,Tue,maxi,6,17,1,read
+2026-10-20 22:54,Roma,8,Roma P.zza Venezia,2026-10-20,22,Tue,maxi,6,14,1,read
+2026-10-20 22:54,Torino,10,Torino Porta Nuova,2026-10-20,22,Tue,standard,6,14,1,read
+2026-10-20 22:54,Venezia,11,Venezia Santa Lucia,2026-10-20,22,Tue,standard,6,23,1,read
+2026-10-20 22:54,Venezia,11,Venezia Santa Lucia,2026-10-20,22,Tue,maxi,6,8,1,read
+2026-10-20 22:54,Milano,12,Milano Centrale,2026-10-20,22,Tue,maxi,6,28,1,read
+2026-10-20 22:54,La Spezia,13,La Spezia Centrale,2026-10-20,22,Tue,maxi,6,14,1,read
+2026-10-20 22:54,Napoli,14,Napoli Centrale,2026-10-20,22,Tue,maxi,6,17,1,read
+2026-10-20 22:54,Lucca,17,Lucca Centrale,2026-10-20,22,Tue,maxi,6,20,1,read
+2026-10-20 22:54,Genova,18,Genova Centro Storico,2026-10-20,22,Tue,maxi,6,13,1,read
+2026-10-20 22:54,Firenze,19,Firenze Santa Croce,2026-10-20,22,Tue,standard,0,1,0,read
+2026-10-20 23:21,Firenze,1,Firenze Uffizi,2026-10-20,23,Tue,maxi,6,26,1,read
+2026-10-20 23:21,Firenze,2,Firenze Stazione SMN,2026-10-20,23,Tue,maxi,6,17,1,read
+2026-10-20 23:21,Pisa,3,Pisa Stazione Centrale,2026-10-20,23,Tue,maxi,6,38,1,read
+2026-10-20 23:21,Bologna,4,Bologna P.zza Maggiore,2026-10-20,23,Tue,maxi,6,11,1,read
+2026-10-20 23:21,Empoli,7,Empoli Stazione,2026-10-20,23,Tue,maxi,6,17,1,read
+2026-10-20 23:21,Roma,8,Roma P.zza Venezia,2026-10-20,23,Tue,maxi,6,14,1,read
+2026-10-20 23:21,Torino,10,Torino Porta Nuova,2026-10-20,23,Tue,standard,6,14,1,read
+2026-10-20 23:21,Venezia,11,Venezia Santa Lucia,2026-10-20,23,Tue,standard,6,23,1,read
+2026-10-20 23:21,Venezia,11,Venezia Santa Lucia,2026-10-20,23,Tue,maxi,6,8,1,read
+2026-10-20 23:21,Milano,12,Milano Centrale,2026-10-20,23,Tue,maxi,6,28,1,read
+2026-10-20 23:21,La Spezia,13,La Spezia Centrale,2026-10-20,23,Tue,maxi,6,14,1,read
+2026-10-20 23:21,Napoli,14,Napoli Centrale,2026-10-20,23,Tue,maxi,6,17,1,read
+2026-10-20 23:21,Lucca,17,Lucca Centrale,2026-10-20,23,Tue,maxi,6,20,1,read
+2026-10-20 23:21,Genova,18,Genova Centro Storico,2026-10-20,23,Tue,maxi,6,13,1,read
+2026-10-20 23:21,Firenze,19,Firenze Santa Croce,2026-10-20,23,Tue,standard,0,1,0,read
+2026-10-21 00:21,Firenze,1,Firenze Uffizi,2026-10-21,0,Wed,maxi,6,26,1,read
+2026-10-21 00:21,Firenze,2,Firenze Stazione SMN,2026-10-21,0,Wed,maxi,6,17,1,read
+2026-10-21 00:21,Pisa,3,Pisa Stazione Centrale,2026-10-21,0,Wed,maxi,6,38,1,read
+2026-10-21 00:21,Bologna,4,Bologna P.zza Maggiore,2026-10-21,0,Wed,maxi,6,11,1,read
+2026-10-21 00:21,Empoli,7,Empoli Stazione,2026-10-21,0,Wed,maxi,6,17,1,read
+2026-10-21 00:21,Roma,8,Roma P.zza Venezia,2026-10-21,0,Wed,maxi,6,14,1,read
+2026-10-21 00:21,Torino,10,Torino Porta Nuova,2026-10-21,0,Wed,standard,6,14,1,read
+2026-10-21 00:21,Venezia,11,Venezia Santa Lucia,2026-10-21,0,Wed,standard,6,23,1,read
+2026-10-21 00:21,Venezia,11,Venezia Santa Lucia,2026-10-21,0,Wed,maxi,6,8,1,read
+2026-10-21 00:21,Milano,12,Milano Centrale,2026-10-21,0,Wed,maxi,6,28,1,read
+2026-10-21 00:21,La Spezia,13,La Spezia Centrale,2026-10-21,0,Wed,maxi,6,14,1,read
+2026-10-21 00:21,Napoli,14,Napoli Centrale,2026-10-21,0,Wed,maxi,6,17,1,read
+2026-10-21 00:21,Lucca,17,Lucca Centrale,2026-10-21,0,Wed,maxi,6,20,1,read
+2026-10-21 00:21,Genova,18,Genova Centro Storico,2026-10-21,0,Wed,maxi,6,13,1,read
+2026-10-21 00:21,Firenze,19,Firenze Santa Croce,2026-10-21,0,Wed,standard,0,1,0,read
+2026-10-21 01:20,Firenze,1,Firenze Uffizi,2026-10-21,1,Wed,maxi,6,26,1,read
+2026-10-21 01:20,Firenze,2,Firenze Stazione SMN,2026-10-21,1,Wed,maxi,6,17,1,read
+2026-10-21 01:20,Pisa,3,Pisa Stazione Centrale,2026-10-21,1,Wed,maxi,6,38,1,read
+2026-10-21 01:20,Bologna,4,Bologna P.zza Maggiore,2026-10-21,1,Wed,maxi,6,11,1,read
+2026-10-21 01:20,Empoli,7,Empoli Stazione,2026-10-21,1,Wed,maxi,6,17,1,read
+2026-10-21 01:20,Roma,8,Roma P.zza Venezia,2026-10-21,1,Wed,maxi,6,14,1,read
+2026-10-21 01:20,Torino,10,Torino Porta Nuova,2026-10-21,1,Wed,standard,6,14,1,read
+2026-10-21 01:20,Venezia,11,Venezia Santa Lucia,2026-10-21,1,Wed,standard,6,23,1,read
+2026-10-21 01:20,Venezia,11,Venezia Santa Lucia,2026-10-21,1,Wed,maxi,6,8,1,read
+2026-10-21 01:20,Milano,12,Milano Centrale,2026-10-21,1,Wed,maxi,6,28,1,read
+2026-10-21 01:20,La Spezia,13,La Spezia Centrale,2026-10-21,1,Wed,maxi,6,14,1,read
+2026-10-21 01:20,Napoli,14,Napoli Centrale,2026-10-21,1,Wed,maxi,6,17,1,read
+2026-10-21 01:20,Lucca,17,Lucca Centrale,2026-10-21,1,Wed,maxi,6,20,1,read
+2026-10-21 01:20,Genova,18,Genova Centro Storico,2026-10-21,1,Wed,maxi,6,13,1,read
+2026-10-21 01:20,Firenze,19,Firenze Santa Croce,2026-10-21,1,Wed,standard,0,1,0,read
+2026-10-21 02:17,Firenze,1,Firenze Uffizi,2026-10-21,2,Wed,maxi,6,26,1,read
+2026-10-21 02:17,Firenze,2,Firenze Stazione SMN,2026-10-21,2,Wed,maxi,6,17,1,read
+2026-10-21 02:17,Pisa,3,Pisa Stazione Centrale,2026-10-21,2,Wed,maxi,6,38,1,read
+2026-10-21 02:17,Bologna,4,Bologna P.zza Maggiore,2026-10-21,2,Wed,maxi,6,11,1,read
+2026-10-21 02:17,Empoli,7,Empoli Stazione,2026-10-21,2,Wed,maxi,6,17,1,read
+2026-10-21 02:17,Roma,8,Roma P.zza Venezia,2026-10-21,2,Wed,maxi,6,14,1,read
+2026-10-21 02:17,Torino,10,Torino Porta Nuova,2026-10-21,2,Wed,standard,6,14,1,read
+2026-10-21 02:17,Venezia,11,Venezia Santa Lucia,2026-10-21,2,Wed,standard,6,23,1,read
+2026-10-21 02:17,Venezia,11,Venezia Santa Lucia,2026-10-21,2,Wed,maxi,6,8,1,read
+2026-10-21 02:17,Milano,12,Milano Centrale,2026-10-21,2,Wed,maxi,6,28,1,read
+2026-10-21 02:17,La Spezia,13,La Spezia Centrale,2026-10-21,2,Wed,maxi,6,14,1,read
+2026-10-21 02:17,Napoli,14,Napoli Centrale,2026-10-21,2,Wed,maxi,6,17,1,read
+2026-10-21 02:17,Lucca,17,Lucca Centrale,2026-10-21,2,Wed,maxi,6,20,1,read
+2026-10-21 02:17,Genova,18,Genova Centro Storico,2026-10-21,2,Wed,maxi,6,13,1,read
+2026-10-21 02:17,Firenze,19,Firenze Santa Croce,2026-10-21,2,Wed,standard,1,1,0,read
+2026-10-21 03:20,Firenze,1,Firenze Uffizi,2026-10-21,3,Wed,maxi,6,26,1,read
+2026-10-21 03:20,Firenze,2,Firenze Stazione SMN,2026-10-21,3,Wed,maxi,6,17,1,read
+2026-10-21 03:20,Pisa,3,Pisa Stazione Centrale,2026-10-21,3,Wed,maxi,6,38,1,read
+2026-10-21 03:20,Bologna,4,Bologna P.zza Maggiore,2026-10-21,3,Wed,maxi,6,11,1,read
+2026-10-21 03:20,Empoli,7,Empoli Stazione,2026-10-21,3,Wed,maxi,6,17,1,read
+2026-10-21 03:20,Roma,8,Roma P.zza Venezia,2026-10-21,3,Wed,maxi,6,14,1,read
+2026-10-21 03:20,Torino,10,Torino Porta Nuova,2026-10-21,3,Wed,standard,6,14,1,read
+2026-10-21 03:20,Venezia,11,Venezia Santa Lucia,2026-10-21,3,Wed,standard,6,23,1,read
+2026-10-21 03:20,Venezia,11,Venezia Santa Lucia,2026-10-21,3,Wed,maxi,6,8,1,read
+2026-10-21 03:20,Milano,12,Milano Centrale,2026-10-21,3,Wed,maxi,6,28,1,read
+2026-10-21 03:20,La Spezia,13,La Spezia Centrale,2026-10-21,3,Wed,maxi,6,14,1,read
+2026-10-21 03:20,Napoli,14,Napoli Centrale,2026-10-21,3,Wed,maxi,6,17,1,read
+2026-10-21 03:20,Lucca,17,Lucca Centrale,2026-10-21,3,Wed,maxi,6,20,1,read
+2026-10-21 03:20,Genova,18,Genova Centro Storico,2026-10-21,3,Wed,maxi,6,13,1,read
+2026-10-21 03:20,Firenze,19,Firenze Santa Croce,2026-10-21,3,Wed,standard,1,1,0,read
+2026-10-21 03:36,Firenze,1,Firenze Uffizi,2026-10-21,3,Wed,maxi,6,26,1,read
+2026-10-21 03:36,Firenze,2,Firenze Stazione SMN,2026-10-21,3,Wed,maxi,6,17,1,read
+2026-10-21 03:36,Pisa,3,Pisa Stazione Centrale,2026-10-21,3,Wed,maxi,6,38,1,read
+2026-10-21 03:36,Bologna,4,Bologna P.zza Maggiore,2026-10-21,3,Wed,maxi,6,11,1,read
+2026-10-21 03:36,Empoli,7,Empoli Stazione,2026-10-21,3,Wed,maxi,6,17,1,read
+2026-10-21 03:36,Roma,8,Roma P.zza Venezia,2026-10-21,3,Wed,maxi,6,14,1,read
+2026-10-21 03:36,Torino,10,Torino Porta Nuova,2026-10-21,3,Wed,standard,6,14,1,read
+2026-10-21 03:36,Venezia,11,Venezia Santa Lucia,2026-10-21,3,Wed,standard,6,23,1,read
+2026-10-21 03:36,Venezia,11,Venezia Santa Lucia,2026-10-21,3,Wed,maxi,6,8,1,read
+2026-10-21 03:36,Milano,12,Milano Centrale,2026-10-21,3,Wed,maxi,6,28,1,read
+2026-10-21 03:36,La Spezia,13,La Spezia Centrale,2026-10-21,3,Wed,maxi,6,14,1,read
+2026-10-21 03:36,Napoli,14,Napoli Centrale,2026-10-21,3,Wed,maxi,6,17,1,read
+2026-10-21 03:36,Lucca,17,Lucca Centrale,2026-10-21,3,Wed,maxi,6,20,1,read
+2026-10-21 03:36,Genova,18,Genova Centro Storico,2026-10-21,3,Wed,maxi,6,13,1,read
+2026-10-21 03:36,Firenze,19,Firenze Santa Croce,2026-10-21,3,Wed,standard,1,1,0,read
+2026-10-21 04:20,Firenze,1,Firenze Uffizi,2026-10-21,4,Wed,maxi,6,26,1,read
+2026-10-21 04:20,Firenze,2,Firenze Stazione SMN,2026-10-21,4,Wed,maxi,6,17,1,read
+2026-10-21 04:20,Pisa,3,Pisa Stazione Centrale,2026-10-21,4,Wed,maxi,6,38,1,read
+2026-10-21 04:20,Bologna,4,Bologna P.zza Maggiore,2026-10-21,4,Wed,maxi,6,11,1,read
+2026-10-21 04:20,Empoli,7,Empoli Stazione,2026-10-21,4,Wed,maxi,6,17,1,read
+2026-10-21 04:20,Roma,8,Roma P.zza Venezia,2026-10-21,4,Wed,maxi,6,14,1,read
+2026-10-21 04:20,Torino,10,Torino Porta Nuova,2026-10-21,4,Wed,standard,6,14,1,read
+2026-10-21 04:20,Venezia,11,Venezia Santa Lucia,2026-10-21,4,Wed,standard,6,23,1,read
+2026-10-21 04:20,Venezia,11,Venezia Santa Lucia,2026-10-21,4,Wed,maxi,6,8,1,read
+2026-10-21 04:20,Milano,12,Milano Centrale,2026-10-21,4,Wed,maxi,6,28,1,read
+2026-10-21 04:20,La Spezia,13,La Spezia Centrale,2026-10-21,4,Wed,maxi,6,14,1,read
+2026-10-21 04:20,Napoli,14,Napoli Centrale,2026-10-21,4,Wed,maxi,6,17,1,read
+2026-10-21 04:20,Lucca,17,Lucca Centrale,2026-10-21,4,Wed,maxi,6,20,1,read
+2026-10-21 04:20,Genova,18,Genova Centro Storico,2026-10-21,4,Wed,maxi,6,13,1,read
+2026-10-21 04:20,Firenze,19,Firenze Santa Croce,2026-10-21,4,Wed,standard,1,1,0,read
+2026-10-21 05:18,Firenze,1,Firenze Uffizi,2026-10-21,5,Wed,maxi,6,26,1,read
+2026-10-21 05:18,Firenze,2,Firenze Stazione SMN,2026-10-21,5,Wed,maxi,6,17,1,read
+2026-10-21 05:18,Pisa,3,Pisa Stazione Centrale,2026-10-21,5,Wed,maxi,6,38,1,read
+2026-10-21 05:18,Bologna,4,Bologna P.zza Maggiore,2026-10-21,5,Wed,maxi,6,11,1,read
+2026-10-21 05:18,Empoli,7,Empoli Stazione,2026-10-21,5,Wed,maxi,6,17,1,read
+2026-10-21 05:18,Roma,8,Roma P.zza Venezia,2026-10-21,5,Wed,maxi,6,14,1,read
+2026-10-21 05:18,Torino,10,Torino Porta Nuova,2026-10-21,5,Wed,standard,6,14,1,read
+2026-10-21 05:18,Venezia,11,Venezia Santa Lucia,2026-10-21,5,Wed,standard,6,23,1,read
+2026-10-21 05:18,Venezia,11,Venezia Santa Lucia,2026-10-21,5,Wed,maxi,6,8,1,read
+2026-10-21 05:18,Milano,12,Milano Centrale,2026-10-21,5,Wed,maxi,6,28,1,read
+2026-10-21 05:18,La Spezia,13,La Spezia Centrale,2026-10-21,5,Wed,maxi,6,14,1,read
+2026-10-21 05:18,Napoli,14,Napoli Centrale,2026-10-21,5,Wed,maxi,6,17,1,read
+2026-10-21 05:18,Lucca,17,Lucca Centrale,2026-10-21,5,Wed,maxi,6,20,1,read
+2026-10-21 05:18,Genova,18,Genova Centro Storico,2026-10-21,5,Wed,maxi,6,13,1,read
+2026-10-21 05:18,Firenze,19,Firenze Santa Croce,2026-10-21,5,Wed,standard,1,1,0,read
+2026-10-21 06:19,Firenze,1,Firenze Uffizi,2026-10-21,6,Wed,maxi,6,26,1,read
+2026-10-21 06:19,Firenze,2,Firenze Stazione SMN,2026-10-21,6,Wed,maxi,6,17,1,read
+2026-10-21 06:19,Pisa,3,Pisa Stazione Centrale,2026-10-21,6,Wed,maxi,6,38,1,read
+2026-10-21 06:19,Bologna,4,Bologna P.zza Maggiore,2026-10-21,6,Wed,maxi,6,11,1,read
+2026-10-21 06:19,Empoli,7,Empoli Stazione,2026-10-21,6,Wed,maxi,6,17,1,read
+2026-10-21 06:19,Roma,8,Roma P.zza Venezia,2026-10-21,6,Wed,maxi,6,14,1,read
+2026-10-21 06:19,Torino,10,Torino Porta Nuova,2026-10-21,6,Wed,standard,6,14,1,read
+2026-10-21 06:19,Venezia,11,Venezia Santa Lucia,2026-10-21,6,Wed,standard,6,23,1,read
+2026-10-21 06:19,Venezia,11,Venezia Santa Lucia,2026-10-21,6,Wed,maxi,6,8,1,read
+2026-10-21 06:19,Milano,12,Milano Centrale,2026-10-21,6,Wed,maxi,6,28,1,read
+2026-10-21 06:19,La Spezia,13,La Spezia Centrale,2026-10-21,6,Wed,maxi,6,14,1,read
+2026-10-21 06:19,Napoli,14,Napoli Centrale,2026-10-21,6,Wed,maxi,6,17,1,read
+2026-10-21 06:19,Lucca,17,Lucca Centrale,2026-10-21,6,Wed,maxi,6,20,1,read
+2026-10-21 06:19,Genova,18,Genova Centro Storico,2026-10-21,6,Wed,maxi,6,13,1,read
+2026-10-21 06:19,Firenze,19,Firenze Santa Croce,2026-10-21,6,Wed,standard,1,1,0,read
+2026-10-21 07:21,Firenze,1,Firenze Uffizi,2026-10-21,7,Wed,maxi,6,26,1,read
+2026-10-21 07:21,Firenze,2,Firenze Stazione SMN,2026-10-21,7,Wed,maxi,6,17,1,read
+2026-10-21 07:21,Pisa,3,Pisa Stazione Centrale,2026-10-21,7,Wed,maxi,6,38,1,read
+2026-10-21 07:21,Bologna,4,Bologna P.zza Maggiore,2026-10-21,7,Wed,maxi,6,11,1,read
+2026-10-21 07:21,Empoli,7,Empoli Stazione,2026-10-21,7,Wed,maxi,6,17,1,read
+2026-10-21 07:21,Roma,8,Roma P.zza Venezia,2026-10-21,7,Wed,maxi,6,14,1,read
+2026-10-21 07:21,Torino,10,Torino Porta Nuova,2026-10-21,7,Wed,standard,6,14,1,read
+2026-10-21 07:21,Venezia,11,Venezia Santa Lucia,2026-10-21,7,Wed,standard,6,23,1,read
+2026-10-21 07:21,Venezia,11,Venezia Santa Lucia,2026-10-21,7,Wed,maxi,6,8,1,read
+2026-10-21 07:21,Milano,12,Milano Centrale,2026-10-21,7,Wed,maxi,6,28,1,read
+2026-10-21 07:21,La Spezia,13,La Spezia Centrale,2026-10-21,7,Wed,maxi,6,14,1,read
+2026-10-21 07:21,Napoli,14,Napoli Centrale,2026-10-21,7,Wed,maxi,6,17,1,read
+2026-10-21 07:21,Lucca,17,Lucca Centrale,2026-10-21,7,Wed,maxi,6,20,1,read
+2026-10-21 07:21,Genova,18,Genova Centro Storico,2026-10-21,7,Wed,maxi,6,13,1,read
+2026-10-21 07:21,Firenze,19,Firenze Santa Croce,2026-10-21,7,Wed,standard,1,1,0,read
+2026-10-21 08:19,Firenze,1,Firenze Uffizi,2026-10-21,8,Wed,maxi,6,26,1,read
+2026-10-21 08:19,Firenze,2,Firenze Stazione SMN,2026-10-21,8,Wed,maxi,6,17,1,read
+2026-10-21 08:19,Pisa,3,Pisa Stazione Centrale,2026-10-21,8,Wed,maxi,6,38,1,read
+2026-10-21 08:19,Bologna,4,Bologna P.zza Maggiore,2026-10-21,8,Wed,maxi,6,11,1,read
+2026-10-21 08:19,Empoli,7,Empoli Stazione,2026-10-21,8,Wed,maxi,6,17,1,read
+2026-10-21 08:19,Roma,8,Roma P.zza Venezia,2026-10-21,8,Wed,maxi,6,14,1,read
+2026-10-21 08:19,Torino,10,Torino Porta Nuova,2026-10-21,8,Wed,standard,6,14,1,read
+2026-10-21 08:19,Venezia,11,Venezia Santa Lucia,2026-10-21,8,Wed,standard,6,23,1,read
+2026-10-21 08:19,Venezia,11,Venezia Santa Lucia,2026-10-21,8,Wed,maxi,6,8,1,read
+2026-10-21 08:19,Milano,12,Milano Centrale,2026-10-21,8,Wed,maxi,6,28,1,read
+2026-10-21 08:19,La Spezia,13,La Spezia Centrale,2026-10-21,8,Wed,maxi,6,14,1,read
+2026-10-21 08:19,Napoli,14,Napoli Centrale,2026-10-21,8,Wed,maxi,6,17,1,read
+2026-10-21 08:19,Lucca,17,Lucca Centrale,2026-10-21,8,Wed,maxi,6,20,1,read
+2026-10-21 08:19,Genova,18,Genova Centro Storico,2026-10-21,8,Wed,maxi,6,13,1,read
+2026-10-21 08:19,Firenze,19,Firenze Santa Croce,2026-10-21,8,Wed,standard,1,1,0,read
+2026-10-21 09:22,Firenze,1,Firenze Uffizi,2026-10-21,9,Wed,maxi,6,26,1,read
+2026-10-21 09:22,Firenze,2,Firenze Stazione SMN,2026-10-21,9,Wed,maxi,6,17,1,read
+2026-10-21 09:22,Pisa,3,Pisa Stazione Centrale,2026-10-21,9,Wed,maxi,6,38,1,read
+2026-10-21 09:22,Bologna,4,Bologna P.zza Maggiore,2026-10-21,9,Wed,maxi,6,11,1,read
+2026-10-21 09:22,Empoli,7,Empoli Stazione,2026-10-21,9,Wed,maxi,6,17,1,read
+2026-10-21 09:22,Roma,8,Roma P.zza Venezia,2026-10-21,9,Wed,maxi,6,14,1,read
+2026-10-21 09:22,Torino,10,Torino Porta Nuova,2026-10-21,9,Wed,standard,6,14,1,read
+2026-10-21 09:22,Venezia,11,Venezia Santa Lucia,2026-10-21,9,Wed,standard,6,23,1,read
+2026-10-21 09:22,Venezia,11,Venezia Santa Lucia,2026-10-21,9,Wed,maxi,6,8,1,read
+2026-10-21 09:22,Milano,12,Milano Centrale,2026-10-21,9,Wed,maxi,6,28,1,read
+2026-10-21 09:22,La Spezia,13,La Spezia Centrale,2026-10-21,9,Wed,maxi,6,14,1,read
+2026-10-21 09:22,Napoli,14,Napoli Centrale,2026-10-21,9,Wed,maxi,6,17,1,read
+2026-10-21 09:22,Lucca,17,Lucca Centrale,2026-10-21,9,Wed,maxi,6,20,1,read
+2026-10-21 09:22,Genova,18,Genova Centro Storico,2026-10-21,9,Wed,maxi,6,13,1,read
+2026-10-21 09:22,Firenze,19,Firenze Santa Croce,2026-10-21,9,Wed,standard,1,1,0,read
+2026-10-21 11:43,Firenze,1,Firenze Uffizi,2026-10-21,11,Wed,maxi,6,26,1,read
+2026-10-21 11:43,Firenze,2,Firenze Stazione SMN,2026-10-21,11,Wed,maxi,6,17,1,read
+2026-10-21 11:43,Pisa,3,Pisa Stazione Centrale,2026-10-21,11,Wed,maxi,6,38,1,read
+2026-10-21 11:43,Bologna,4,Bologna P.zza Maggiore,2026-10-21,11,Wed,maxi,6,11,1,read
+2026-10-21 11:43,Empoli,7,Empoli Stazione,2026-10-21,11,Wed,maxi,6,17,1,read
+2026-10-21 11:43,Roma,8,Roma P.zza Venezia,2026-10-21,11,Wed,maxi,6,14,1,read
+2026-10-21 11:43,Torino,10,Torino Porta Nuova,2026-10-21,11,Wed,standard,6,14,1,read
+2026-10-21 11:43,Venezia,11,Venezia Santa Lucia,2026-10-21,11,Wed,standard,6,22,1,read
+2026-10-21 11:43,Venezia,11,Venezia Santa Lucia,2026-10-21,11,Wed,maxi,2,8,0,read
+2026-10-21 11:43,Milano,12,Milano Centrale,2026-10-21,11,Wed,maxi,6,28,1,read
+2026-10-21 11:43,La Spezia,13,La Spezia Centrale,2026-10-21,11,Wed,maxi,6,14,1,read
+2026-10-21 11:43,Napoli,14,Napoli Centrale,2026-10-21,11,Wed,maxi,6,17,1,read
+2026-10-21 11:43,Lucca,17,Lucca Centrale,2026-10-21,11,Wed,maxi,6,20,1,read
+2026-10-21 11:43,Genova,18,Genova Centro Storico,2026-10-21,11,Wed,maxi,6,13,1,read
+2026-10-21 11:43,Firenze,19,Firenze Santa Croce,2026-10-21,11,Wed,,,0,,no-lockers
+2026-10-21 12:23,Firenze,1,Firenze Uffizi,2026-10-21,12,Wed,maxi,6,26,1,read
+2026-10-21 12:23,Firenze,2,Firenze Stazione SMN,2026-10-21,12,Wed,maxi,6,17,1,read
+2026-10-21 12:23,Pisa,3,Pisa Stazione Centrale,2026-10-21,12,Wed,maxi,6,38,1,read
+2026-10-21 12:23,Bologna,4,Bologna P.zza Maggiore,2026-10-21,12,Wed,maxi,6,11,1,read
+2026-10-21 12:23,Empoli,7,Empoli Stazione,2026-10-21,12,Wed,maxi,6,17,1,read
+2026-10-21 12:23,Roma,8,Roma P.zza Venezia,2026-10-21,12,Wed,maxi,6,14,1,read
+2026-10-21 12:23,Torino,10,Torino Porta Nuova,2026-10-21,12,Wed,standard,6,14,1,read
+2026-10-21 12:23,Venezia,11,Venezia Santa Lucia,2026-10-21,12,Wed,standard,6,22,1,read
+2026-10-21 12:23,Venezia,11,Venezia Santa Lucia,2026-10-21,12,Wed,maxi,3,8,0,read
+2026-10-21 12:23,Milano,12,Milano Centrale,2026-10-21,12,Wed,maxi,6,28,1,read
+2026-10-21 12:23,La Spezia,13,La Spezia Centrale,2026-10-21,12,Wed,maxi,6,14,1,read
+2026-10-21 12:23,Napoli,14,Napoli Centrale,2026-10-21,12,Wed,maxi,6,17,1,read
+2026-10-21 12:23,Lucca,17,Lucca Centrale,2026-10-21,12,Wed,maxi,6,20,1,read
+2026-10-21 12:23,Genova,18,Genova Centro Storico,2026-10-21,12,Wed,maxi,6,13,1,read
+2026-10-21 12:23,Firenze,19,Firenze Santa Croce,2026-10-21,12,Wed,,,0,,no-lockers
+2026-10-21 13:24,Firenze,1,Firenze Uffizi,2026-10-21,13,Wed,maxi,6,26,1,read
+2026-10-21 13:24,Firenze,2,Firenze Stazione SMN,2026-10-21,13,Wed,maxi,6,17,1,read
+2026-10-21 13:24,Pisa,3,Pisa Stazione Centrale,2026-10-21,13,Wed,maxi,6,38,1,read
+2026-10-21 13:24,Bologna,4,Bologna P.zza Maggiore,2026-10-21,13,Wed,maxi,6,11,1,read
+2026-10-21 13:24,Empoli,7,Empoli Stazione,2026-10-21,13,Wed,maxi,6,17,1,read
+2026-10-21 13:24,Roma,8,Roma P.zza Venezia,2026-10-21,13,Wed,maxi,6,14,1,read
+2026-10-21 13:24,Torino,10,Torino Porta Nuova,2026-10-21,13,Wed,standard,6,14,1,read
+2026-10-21 13:24,Venezia,11,Venezia Santa Lucia,2026-10-21,13,Wed,standard,6,22,1,read
+2026-10-21 13:24,Venezia,11,Venezia Santa Lucia,2026-10-21,13,Wed,maxi,6,8,1,read
+2026-10-21 13:24,Milano,12,Milano Centrale,2026-10-21,13,Wed,maxi,6,28,1,read
+2026-10-21 13:24,La Spezia,13,La Spezia Centrale,2026-10-21,13,Wed,maxi,6,14,1,read
+2026-10-21 13:24,Napoli,14,Napoli Centrale,2026-10-21,13,Wed,maxi,6,17,1,read
+2026-10-21 13:24,Lucca,17,Lucca Centrale,2026-10-21,13,Wed,maxi,6,20,1,read
+2026-10-21 13:24,Genova,18,Genova Centro Storico,2026-10-21,13,Wed,maxi,6,13,1,read
+2026-10-21 13:24,Firenze,19,Firenze Santa Croce,2026-10-21,13,Wed,,,0,,no-lockers
