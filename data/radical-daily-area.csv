@@ -12881,7 +12881,9 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-20,vico-del-gargano,city-center,1,10,10,100.0,0,10,5.0
 2026-10-20,vigevano,city-center,1,20,0,0.0,0,0,0.0
 2026-10-20,villasimius,viale-matteotti,1,10,0,0.0,0,0,0.0
+2026-10-21,alghero,alghero-airport,1,30,0,0.0,0,0,0.0
 2026-10-21,ancona,ancona-train-station,1,100,0,0.0,0,0,0.0
+2026-10-21,assisi,city-center,1,25,0,0.0,0,0,0.0
 2026-10-21,bari,altamura,1,25,25,100.0,0,25,12.5
 2026-10-21,bari,fiera-del-levante,1,30,0,0.0,0,0,0.0
 2026-10-21,bologna,bologna-centrale-railway-station,1,55,55,100.0,0,55,27.5
@@ -12904,7 +12906,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-21,milan,milano-repubblica-station,2,120,120,100.0,0,120,60.0
 2026-10-21,milan,missori,1,40,40,100.0,0,40,20.0
 2026-10-21,milan,navigli,2,55,55,100.0,0,55,27.5
-2026-10-21,milan,niguarda,1,20,20,100.0,0,20,10.0
+2026-10-21,milan,niguarda,2,40,20,50.0,0,20,10.0
 2026-10-21,milan,palazzo-di-giustizia,1,30,0,0.0,0,0,0.0
 2026-10-21,milan,politecnico-di-milano-campus-bovisa-la-masa,1,20,0,0.0,0,0,0.0
 2026-10-21,milan,porta-genova,1,35,35,100.0,0,35,17.5
@@ -12941,14 +12943,17 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-21,rome,portuense,1,20,20,100.0,0,20,10.0
 2026-10-21,rome,repubblica,1,50,50,100.0,0,50,25.0
 2026-10-21,rome,termini,7,865,225,26.0,4,221,112.5
+2026-10-21,rome,tiburtina,1,65,1,1.5,1,0,0.5
 2026-10-21,rome,trastevere,3,160,80,50.0,0,80,40.0
 2026-10-21,rome,via-del-corso,1,25,0,0.0,0,0,0.0
 2026-10-21,sanremo,city-center,1,20,0,0.0,0,0,0.0
 2026-10-21,sassari,city-center,1,20,0,0.0,0,0,0.0
+2026-10-21,sestri-levante,sestri-levante-train-station,1,35,0,0.0,0,0,0.0
 2026-10-21,sorrento,sant-agnello,1,20,0,0.0,0,0,0.0
 2026-10-21,sorrento,sorrento-train-station,2,60,30,50.0,0,30,15.0
 2026-10-21,syracuse,station,1,30,0,0.0,0,0,0.0
 2026-10-21,trani,trani-transit-station,1,50,50,100.0,0,50,25.0
+2026-10-21,trento,main-station,1,40,0,0.0,0,0,0.0
 2026-10-21,trieste,trieste-train-station,1,45,1,2.2,1,0,0.5
 2026-10-21,turin,city-center,1,40,40,100.0,0,40,20.0
 2026-10-21,turin,museo-pietro-micca,1,95,0,0.0,0,0,0.0
