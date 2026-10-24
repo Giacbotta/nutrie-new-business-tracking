@@ -18293,7 +18293,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-21,weekday,naples,naples-centrale-train-station,1835,Luggage Storage Naples Train Station,45,19,0,0.0,0,0,0.0
 2026-10-22,weekday,naples,naples-centrale-train-station,1835,Luggage Storage Naples Train Station,45,23,0,0.0,0,0,0.0
 2026-10-23,weekday,naples,naples-centrale-train-station,1835,Luggage Storage Naples Train Station,45,23,0,0.0,0,0,0.0
-2026-10-24,weekend,naples,naples-centrale-train-station,1835,Luggage Storage Naples Train Station,45,9,0,0.0,0,0,0.0
+2026-10-24,weekend,naples,naples-centrale-train-station,1835,Luggage Storage Naples Train Station,45,9,1,2.2,0,1,0.5
 2026-09-23,weekday,naples,naples-centrale-train-station,188,Luggage Storage Naples Centrale,300,2,0,0.0,0,0,0.0
 2026-09-24,weekday,naples,naples-centrale-train-station,188,Luggage Storage Naples Centrale,300,9,0,0.0,0,0,0.0
 2026-09-25,weekday,naples,naples-centrale-train-station,188,Luggage Storage Naples Centrale,300,12,0,0.0,0,0,0.0
@@ -29379,7 +29379,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-21,weekday,rome,roma-vatican-museums,6459809,Luggage Storage near Vatican Museums,50,12,5,10.0,1,4,2.5
 2026-10-22,weekday,rome,roma-vatican-museums,6459809,Luggage Storage near Vatican Museums,50,16,4,8.0,4,0,2.0
 2026-10-23,weekday,rome,roma-vatican-museums,6459809,Luggage Storage near Vatican Museums,50,16,2,4.0,0,2,1.0
-2026-10-24,weekend,rome,roma-vatican-museums,6459809,Luggage Storage near Vatican Museums,50,2,5,10.0,5,0,2.5
+2026-10-24,weekend,rome,roma-vatican-museums,6459809,Luggage Storage near Vatican Museums,50,2,9,18.0,5,4,4.5
 2026-09-23,weekday,rome,roma-vatican-museums,6473149,Luggage Storage Via della Giuliana,100,1,0,0.0,0,0,0.0
 2026-09-24,weekday,rome,roma-vatican-museums,6473149,Luggage Storage Via della Giuliana,100,1,0,0.0,0,0,0.0
 2026-09-25,weekday,rome,roma-vatican-museums,6473149,Luggage Storage Via della Giuliana,100,4,0,0.0,0,0,0.0
@@ -30853,7 +30853,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-21,weekday,rome,termini,739,Luggage Storage Marsala - Termini,200,15,200,100.0,1,202,101.5
 2026-10-22,weekday,rome,termini,739,Luggage Storage Marsala - Termini,200,19,200,100.0,1,205,103.0
 2026-10-23,weekday,rome,termini,739,Luggage Storage Marsala - Termini,200,19,200,100.0,1,199,100.0
-2026-10-24,weekend,rome,termini,739,Luggage Storage Marsala - Termini,200,5,200,100.0,1,199,100.0
+2026-10-24,weekend,rome,termini,739,Luggage Storage Marsala - Termini,200,5,200,100.0,1,200,100.5
 2026-09-23,weekday,rome,termini,7703,Luggage Storage Termini Railway Station,100,2,2,2.0,2,0,1.0
 2026-09-24,weekday,rome,termini,7703,Luggage Storage Termini Railway Station,100,3,2,2.0,2,0,1.0
 2026-09-25,weekday,rome,termini,7703,Luggage Storage Termini Railway Station,100,8,7,7.0,4,4,4.0
@@ -37007,7 +37007,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-21,weekday,venice,constitution-bridge,6457620,Luggage Storage Venice Bus Terminal,90,9,9,10.0,0,9,4.5
 2026-10-22,weekday,venice,constitution-bridge,6457620,Luggage Storage Venice Bus Terminal,90,12,9,10.0,4,5,4.5
 2026-10-23,weekday,venice,constitution-bridge,6457620,Luggage Storage Venice Bus Terminal,90,12,17,18.9,0,17,8.5
-2026-10-24,weekend,venice,constitution-bridge,6457620,Luggage Storage Venice Bus Terminal,90,2,5,5.6,1,4,2.5
+2026-10-24,weekend,venice,constitution-bridge,6457620,Luggage Storage Venice Bus Terminal,90,2,8,8.9,1,7,4.0
 2026-10-05,weekday,venice,doge-s-palace,6469768,Luggage Storage Santa Maria Formosa Church,100,4,0,0.0,0,0,0.0
 2026-10-06,weekday,venice,doge-s-palace,6469768,Luggage Storage Santa Maria Formosa Church,100,9,3,3.0,3,0,1.5
 2026-10-07,weekday,venice,doge-s-palace,6469768,Luggage Storage Santa Maria Formosa Church,100,4,0,0.0,0,0,0.0
@@ -37524,7 +37524,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-10-21,weekday,venice,santa-lucia-station,4896,Luggage Storage Venezia Santa Lucia Station,140,8,49,35.0,9,40,24.5
 2026-10-22,weekday,venice,santa-lucia-station,4896,Luggage Storage Venezia Santa Lucia Station,140,12,19,13.6,5,14,9.5
 2026-10-23,weekday,venice,santa-lucia-station,4896,Luggage Storage Venezia Santa Lucia Station,140,12,46,32.9,1,45,23.0
-2026-10-24,weekend,venice,santa-lucia-station,4896,Luggage Storage Venezia Santa Lucia Station,140,1,7,5.0,7,0,3.5
+2026-10-24,weekend,venice,santa-lucia-station,4896,Luggage Storage Venezia Santa Lucia Station,140,1,15,10.7,15,0,7.5
 2026-09-23,weekday,venice,santa-lucia-station,9596,Luggage Storage Venice Railway Station,100,1,2,2.0,2,0,1.0
 2026-09-24,weekday,venice,santa-lucia-station,9596,Luggage Storage Venice Railway Station,100,2,6,6.0,3,3,3.0
 2026-09-25,weekday,venice,santa-lucia-station,9596,Luggage Storage Venice Railway Station,100,5,13,13.0,13,0,6.5

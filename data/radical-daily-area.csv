@@ -14682,7 +14682,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-24,naples,municipio,1,50,50,100.0,0,50,25.0
 2026-10-24,naples,naples-airport,1,30,0,0.0,0,0,0.0
 2026-10-24,naples,naples-cathedral,2,135,0,0.0,0,0,0.0
-2026-10-24,naples,naples-centrale-train-station,9,770,0,0.0,0,0,0.0
+2026-10-24,naples,naples-centrale-train-station,9,770,1,0.1,0,1,0.5
 2026-10-24,naples,naples-city-center,2,65,15,23.1,0,15,7.5
 2026-10-24,naples,napoli-porta-nolana,4,203,0,0.0,0,0,0.0
 2026-10-24,naples,piazza-cavour,1,50,0,0.0,0,0,0.0
@@ -14749,11 +14749,11 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-24,rome,prati,1,40,0,0.0,0,0,0.0
 2026-10-24,rome,primavalle,1,50,0,0.0,0,0,0.0
 2026-10-24,rome,quartiere-xii-gianicolense,1,20,0,0.0,0,0,0.0
-2026-10-24,rome,roma-vatican-museums,1,50,5,10.0,5,0,2.5
+2026-10-24,rome,roma-vatican-museums,1,50,9,18.0,5,4,4.5
 2026-10-24,rome,roman-forum,1,80,0,0.0,0,0,0.0
 2026-10-24,rome,s-pietro,1,20,1,5.0,1,0,0.5
 2026-10-24,rome,san-giovanni,2,65,0,0.0,0,0,0.0
-2026-10-24,rome,termini,17,1805,218,12.1,14,206,110.0
+2026-10-24,rome,termini,17,1805,218,12.1,14,207,110.5
 2026-10-24,rome,tiburtina,2,105,0,0.0,0,0,0.0
 2026-10-24,rome,trastevere,3,180,101,56.1,1,100,50.5
 2026-10-24,rome,vatican,3,270,0,0.0,0,0,0.0
@@ -14800,12 +14800,12 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-10-24,turin,stazione-porta-nuova,3,160,0,0.0,0,0,0.0
 2026-10-24,venice,cannaregio,1,35,0,0.0,0,0,0.0
 2026-10-24,venice,city-center,1,20,0,0.0,0,0,0.0
-2026-10-24,venice,constitution-bridge,1,90,5,5.6,1,4,2.5
+2026-10-24,venice,constitution-bridge,1,90,8,8.9,1,7,4.0
 2026-10-24,venice,murano-da-mula,1,200,0,0.0,0,0,0.0
 2026-10-24,venice,piazzale-roma,2,155,7,4.5,6,1,3.5
 2026-10-24,venice,rialto,1,300,0,0.0,0,0,0.0
 2026-10-24,venice,san-polo,1,100,0,0.0,0,0,0.0
-2026-10-24,venice,santa-lucia-station,1,140,7,5.0,7,0,3.5
+2026-10-24,venice,santa-lucia-station,1,140,15,10.7,15,0,7.5
 2026-10-24,venice,venice-marco-polo-airport,1,45,2,4.4,2,0,1.0
 2026-10-24,ventimiglia,city-center-ventimiglia,1,50,50,100.0,0,50,25.0
 2026-10-24,verona,avesa,1,20,0,0.0,0,0,0.0
