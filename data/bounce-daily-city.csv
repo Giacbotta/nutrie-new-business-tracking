@@ -13420,7 +13420,7 @@ day,city,points,capacity,peak,peak_pct,last,arrivals
 2026-10-26,amantea,1,0,0,,0,0
 2026-10-26,ancona,13,110,5,4.5,4,5
 2026-10-26,antey-saint-andre-it,1,0,0,,0,0
-2026-10-26,aosta,6,0,0,,0,0
+2026-10-26,aosta,6,0,1,,1,1
 2026-10-26,aprilia,1,0,0,,0,0
 2026-10-26,arce,1,0,0,,0,0
 2026-10-26,arcidosso,1,0,0,,0,0
@@ -13436,7 +13436,7 @@ day,city,points,capacity,peak,peak_pct,last,arrivals
 2026-10-26,avellino,16,0,0,,0,0
 2026-10-26,aviano,1,0,0,,0,0
 2026-10-26,bardi,1,0,0,,0,0
-2026-10-26,bari,68,1067,124,11.6,117,127
+2026-10-26,bari,68,1067,124,11.6,116,127
 2026-10-26,barisciano,1,0,0,,0,0
 2026-10-26,battipaglia,22,0,0,,0,0
 2026-10-26,bedonia,1,0,0,,0,0
@@ -13444,12 +13444,12 @@ day,city,points,capacity,peak,peak_pct,last,arrivals
 2026-10-26,belluno,6,0,0,,0,0
 2026-10-26,belmonte-calabro,3,0,0,,0,0
 2026-10-26,benevento,5,0,0,,0,0
-2026-10-26,bergamo,48,275,103,37.5,92,103
+2026-10-26,bergamo,48,275,104,37.8,92,104
 2026-10-26,biancavilla,1,0,0,,0,0
 2026-10-26,biella,6,0,0,,0,0
 2026-10-26,bojano,1,0,0,,0,0
 2026-10-26,bolgheri,1,0,0,,0,0
-2026-10-26,bologna,101,1168,301,25.8,268,312
+2026-10-26,bologna,101,1168,303,25.9,268,314
 2026-10-26,bolzano,10,10,14,140.0,14,14
 2026-10-26,bordighera,3,0,0,,0,0
 2026-10-26,borgo-valbelluna,8,0,0,,0,0
@@ -13462,7 +13462,7 @@ day,city,points,capacity,peak,peak_pct,last,arrivals
 2026-10-26,bronte,7,0,0,,0,0
 2026-10-26,bruneck,2,0,0,,0,0
 2026-10-26,buja,5,0,0,,0,0
-2026-10-26,cagliari,33,0,13,,9,13
+2026-10-26,cagliari,33,0,13,,8,13
 2026-10-26,cairo-montenotte,1,0,0,,0,0
 2026-10-26,camogli,2,0,5,,5,5
 2026-10-26,campobasso,3,100,0,0.0,0,0
@@ -13493,11 +13493,11 @@ day,city,points,capacity,peak,peak_pct,last,arrivals
 2026-10-26,castelvetrano,3,0,0,,0,0
 2026-10-26,castiglione-del-lago,2,50,0,0.0,0,0
 2026-10-26,castrovillari,1,0,0,,0,0
-2026-10-26,catania,136,1020,106,10.4,99,109
+2026-10-26,catania,136,1020,110,10.8,103,113
 2026-10-26,catanzaro,11,0,0,,0,0
 2026-10-26,cattolica,5,60,0,0.0,0,0
 2026-10-26,cecina,2,0,0,,0,0
-2026-10-26,cefalu,5,130,17,13.1,15,17
+2026-10-26,cefalu,5,130,17,13.1,14,17
 2026-10-26,celano,3,0,0,,0,0
 2026-10-26,cellole,10,0,0,,0,0
 2026-10-26,cervignano-del-friuli,7,0,0,,0,0
@@ -13517,7 +13517,7 @@ day,city,points,capacity,peak,peak_pct,last,arrivals
 2026-10-26,civitella-del-tronto,1,0,0,,0,0
 2026-10-26,cles,2,0,0,,0,0
 2026-10-26,colletorto,1,0,0,,0,0
-2026-10-26,como,29,245,85,34.7,81,87
+2026-10-26,como,29,245,85,34.7,82,88
 2026-10-26,conegliano,5,0,0,,0,0
 2026-10-26,conselice,1,0,0,,0,0
 2026-10-26,conselve,1,0,0,,0,0
@@ -13548,7 +13548,7 @@ day,city,points,capacity,peak,peak_pct,last,arrivals
 2026-10-26,filicudi,1,30,0,0.0,0,0
 2026-10-26,finale-ligure,2,0,1,,1,1
 2026-10-26,fiumicino,1,0,0,,0,0
-2026-10-26,florence,115,1166,827,70.9,784,844
+2026-10-26,florence,115,1166,832,71.4,784,856
 2026-10-26,foggia,13,20,0,0.0,0,0
 2026-10-26,follonica,1,0,0,,0,0
 2026-10-26,fondi,1,0,0,,0,0
@@ -13594,7 +13594,7 @@ day,city,points,capacity,peak,peak_pct,last,arrivals
 2026-10-26,isola-di-salina,3,0,0,,0,0
 2026-10-26,ivrea,3,20,1,5.0,1,1
 2026-10-26,jesolo,4,0,0,,0,0
-2026-10-26,la-spezia,14,81,27,33.3,19,27
+2026-10-26,la-spezia,14,81,27,33.3,20,28
 2026-10-26,laino-castello,3,0,0,,0,0
 2026-10-26,lamezia-terme,15,0,0,,0,0
 2026-10-26,lampedusa,18,50,0,0.0,0,0
@@ -13604,7 +13604,7 @@ day,city,points,capacity,peak,peak_pct,last,arrivals
 2026-10-26,latronico,1,0,0,,0,0
 2026-10-26,lauria,3,0,0,,0,0
 2026-10-26,lauro,1,0,0,,0,0
-2026-10-26,lecce,24,425,16,3.8,13,16
+2026-10-26,lecce,24,425,16,3.8,12,16
 2026-10-26,lecco,12,80,10,12.5,10,10
 2026-10-26,legnano,11,100,0,0.0,0,0
 2026-10-26,lesina,1,0,0,,0,0
@@ -13644,7 +13644,7 @@ day,city,points,capacity,peak,peak_pct,last,arrivals
 2026-10-26,merano,4,0,0,,0,0
 2026-10-26,messina,42,120,19,15.8,18,19
 2026-10-26,meta,5,100,0,0.0,0,0
-2026-10-26,milan,307,3126,1545,49.4,1454,1591
+2026-10-26,milan,307,3126,1553,49.7,1453,1605
 2026-10-26,milazzo,21,100,2,2.0,2,2
 2026-10-26,mira,1,25,0,0.0,0,0
 2026-10-26,mirabella-imbaccari,4,0,0,,0,0
@@ -13653,7 +13653,7 @@ day,city,points,capacity,peak,peak_pct,last,arrivals
 2026-10-26,modena,24,110,13,11.8,13,13
 2026-10-26,monasterace-marina,3,0,0,,0,0
 2026-10-26,moneglia,1,0,0,,0,0
-2026-10-26,monopoli,10,150,28,18.7,26,29
+2026-10-26,monopoli,10,150,28,18.7,24,29
 2026-10-26,monreale-fr,1,0,0,,0,0
 2026-10-26,montagnana,9,10,0,0.0,0,0
 2026-10-26,montalbano-jonico,3,0,0,,0,0
@@ -13673,7 +13673,7 @@ day,city,points,capacity,peak,peak_pct,last,arrivals
 2026-10-26,mottafollone,2,0,0,,0,0
 2026-10-26,muccia,1,0,0,,0,0
 2026-10-26,muravera,1,0,0,,0,0
-2026-10-26,naples,416,3109,358,11.5,320,363
+2026-10-26,naples,416,3109,359,11.5,316,365
 2026-10-26,nicorvo,3,0,0,,0,0
 2026-10-26,nicosia-28,5,0,0,,0,0
 2026-10-26,niscemi,2,0,0,,0,0
@@ -13698,7 +13698,7 @@ day,city,points,capacity,peak,peak_pct,last,arrivals
 2026-10-26,palau,3,0,0,,0,0
 2026-10-26,palazzo-san-gervasio,1,0,0,,0,0
 2026-10-26,palazzolo-acreide,1,0,0,,0,0
-2026-10-26,palermo,104,1066,203,19.0,194,209
+2026-10-26,palermo,104,1066,204,19.1,194,211
 2026-10-26,palma-di-montechiaro,1,0,0,,0,0
 2026-10-26,palmi,3,0,0,,0,0
 2026-10-26,panarea,1,0,0,,0,0
@@ -13719,11 +13719,11 @@ day,city,points,capacity,peak,peak_pct,last,arrivals
 2026-10-26,pieve-di-cento,2,0,0,,0,0
 2026-10-26,pioltello-mi-it,1,0,0,,0,0
 2026-10-26,piove-di-sacco,2,0,0,,0,0
-2026-10-26,pisa,37,897,184,20.5,149,186
+2026-10-26,pisa,37,897,185,20.6,148,188
 2026-10-26,ploaghe,1,0,0,,0,0
 2026-10-26,pofi,1,0,0,,0,0
 2026-10-26,polignano-a-mare,11,373,10,2.7,10,10
-2026-10-26,pompei,46,320,36,11.2,31,37
+2026-10-26,pompei,46,320,36,11.2,32,38
 2026-10-26,pontinia,1,0,0,,0,0
 2026-10-26,ponza,1,0,0,,0,0
 2026-10-26,poppi,1,5,0,0.0,0,0
@@ -13764,7 +13764,7 @@ day,city,points,capacity,peak,peak_pct,last,arrivals
 2026-10-26,roccapalumba,2,0,0,,0,0
 2026-10-26,roccaspinalveti,2,0,0,,0,0
 2026-10-26,rodi-garganico,2,5,0,0.0,0,0
-2026-10-26,rome,501,8043,2925,36.4,2670,3005
+2026-10-26,rome,501,8043,2933,36.5,2660,3035
 2026-10-26,ronciglione,2,0,0,,0,0
 2026-10-26,rossano-stazione,7,0,0,,0,0
 2026-10-26,rovereto,4,0,0,,0,0
@@ -13774,7 +13774,7 @@ day,city,points,capacity,peak,peak_pct,last,arrivals
 2026-10-26,sabbionara,1,0,0,,0,0
 2026-10-26,sala-consilina,7,0,0,,0,0
 2026-10-26,salandra,1,0,0,,0,0
-2026-10-26,salerno,58,595,24,4.0,21,25
+2026-10-26,salerno,58,595,24,4.0,20,25
 2026-10-26,saletti,9,0,0,,0,0
 2026-10-26,san-benedetto-del-tronto,17,100,3,3.0,3,3
 2026-10-26,san-cataldo,5,0,0,,0,0
@@ -13799,7 +13799,7 @@ day,city,points,capacity,peak,peak_pct,last,arrivals
 2026-10-26,sant'apollinare,1,0,0,,0,0
 2026-10-26,santa-caterina-di-valfurva,2,50,0,0.0,0,0
 2026-10-26,santa-margherita-di-belice,2,0,0,,0,0
-2026-10-26,santa-margherita-ligure,5,37,17,45.9,17,18
+2026-10-26,santa-margherita-ligure,5,37,17,45.9,16,18
 2026-10-26,santa-maria-degli-angeli-pg-it,1,0,0,,0,0
 2026-10-26,santa-maria-di-castellabate,3,5,0,0.0,0,0
 2026-10-26,santadi,1,0,0,,0,0
@@ -13828,7 +13828,7 @@ day,city,points,capacity,peak,peak_pct,last,arrivals
 2026-10-26,sirmione,3,0,0,,0,0
 2026-10-26,sommatino,8,0,0,,0,0
 2026-10-26,sondrio,8,0,0,,0,0
-2026-10-26,sorrento,20,567,31,5.5,29,32
+2026-10-26,sorrento,20,567,33,5.8,31,34
 2026-10-26,sparanise,1,0,0,,0,0
 2026-10-26,spello-perugia,1,0,0,,0,0
 2026-10-26,sperlonga,15,0,0,,0,0
@@ -13866,12 +13866,12 @@ day,city,points,capacity,peak,peak_pct,last,arrivals
 2026-10-26,trento,11,20,0,0.0,0,0
 2026-10-26,treviglio,14,10,0,0.0,0,0
 2026-10-26,treviso,26,5,13,260.0,12,14
-2026-10-26,trieste,24,16,17,106.2,17,17
+2026-10-26,trieste,24,16,17,106.2,16,17
 2026-10-26,triggiano-ba-it,1,0,0,,0,0
 2026-10-26,tronca,3,0,0,,0,0
 2026-10-26,tronzano-vercellese,1,0,0,,0,0
 2026-10-26,tropea,4,0,2,,2,2
-2026-10-26,turin,96,582,230,39.5,220,237
+2026-10-26,turin,96,582,230,39.5,220,238
 2026-10-26,udine,21,0,0,,0,0
 2026-10-26,umbertide,2,0,0,,0,0
 2026-10-26,urbania,2,0,1,,1,1
@@ -13882,12 +13882,12 @@ day,city,points,capacity,peak,peak_pct,last,arrivals
 2026-10-26,varese,13,100,4,4.0,4,4
 2026-10-26,vasto,5,0,0,,0,0
 2026-10-26,venasca,1,0,0,,0,0
-2026-10-26,venice,91,1574,898,57.1,868,925
+2026-10-26,venice,91,1574,905,57.5,873,936
 2026-10-26,ventimiglia,3,0,7,,7,7
-2026-10-26,verbania,12,210,6,2.9,6,8
+2026-10-26,verbania,12,210,7,3.3,7,9
 2026-10-26,vercelli,3,10,0,0.0,0,0
 2026-10-26,vernazza,1,8,0,0.0,0,0
-2026-10-26,verona,65,243,142,58.4,128,143
+2026-10-26,verona,65,243,142,58.4,127,143
 2026-10-26,vezzano-ligure,4,0,0,,0,0
 2026-10-26,viareggio,9,60,0,0.0,0,0
 2026-10-26,vibo-valentia,17,0,0,,0,0
@@ -13899,7 +13899,7 @@ day,city,points,capacity,peak,peak_pct,last,arrivals
 2026-10-26,villacidro,2,0,0,,0,0
 2026-10-26,villanova-mondovì,4,0,0,,0,0
 2026-10-26,villaurbana,2,0,0,,0,0
-2026-10-26,viterbo,5,10,1,10.0,1,1
+2026-10-26,viterbo,5,10,1,10.0,0,1
 2026-10-26,vittoria,11,0,0,,0,0
 2026-10-26,vobarno,3,0,0,,0,0
 2026-10-26,vulcano-porto,2,50,0,0.0,0,0
