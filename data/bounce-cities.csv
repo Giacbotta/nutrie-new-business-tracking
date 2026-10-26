@@ -1,14 +1,14 @@
 city,name,points,capacity
-rome,Rome,497,8043
+rome,Rome,501,8043
 naples,Naples,416,3088
-milan,Milan,307,3081
+milan,Milan,307,3101
 catania,Catania,136,1020
-florence,Florence,115,1146
+florence,Florence,115,1136
 caserta,Caserta,106,120
-palermo,Palermo,105,1066
+palermo,Palermo,104,1066
 bologna,Bologna,101,1168
 turin,Turin,96,582
-venice,Venice,91,1552
+venice,Venice,91,1562
 bari,Bari,68,1067
 verona,Verona,65,243
 salerno,Salerno,58,595
@@ -20,8 +20,8 @@ messina,Messina,42,120
 pisa,Pisa,37,897
 genoa,Genoa,36,246
 latina,Latina,35,0
-padova,Padova,33,267
 cagliari,Cagliari,33,0
+padova,Padova,33,267
 ercolano,Ercolano,30,60
 como,Como,29,245
 pescara,Pescara,28,45
@@ -49,9 +49,9 @@ trapani,Trapani,18,195
 matera,Matera,17,35
 san-benedetto-del-tronto,San Benedetto del Tronto,17,100
 trani,Trani,17,0
+vibo-valentia,Vibo Valentia,17,0
 ragusa,Ragusa,16,80
 piacenza,Piacenza,16,25
-vibo-valentia,Vibo Valentia,16,0
 castellammare-di-stabia,Castellammare di Stabia,16,5
 avellino,Avellino,16,0
 sperlonga,Sperlonga,15,0
@@ -69,23 +69,24 @@ foggia,Foggia,13,20
 terrasini,Terrasini,13,0
 thiene,Thiene,13,10
 pordenone,Pordenone,12,0
-agrigento,Agrigento,12,120
 lecco,Lecco,12,80
 verbania,Verbania,12,210
 ischia,Ischia,12,450
-marsala,Marsala,12,100
 chieti,Chieti,12,25
 ravenna,Ravenna,12,100
 vittoria,Vittoria,11,0
 assisi,Assisi,11,125
 lucca,Lucca,11,146
 brindisi,Brindisi,11,200
+agrigento,Agrigento,11,100
 trento,Trento,11,20
+marsala,Marsala,11,100
 sanremo,Sanremo,11,90
 polignano-a-mare,Polignano a Mare,11,373
 legnano,Legnano,11,100
 catanzaro,Catanzaro,11,0
 monopoli,Monopoli,10,150
+bolzano,Bolzano,10,10
 ferrara,Ferrara,10,50
 cellole,Cellole,10,0
 paratico,Paratico,9,0
@@ -95,7 +96,6 @@ gallipoli,Gallipoli,9,0
 sassari,Sassari,9,0
 alghero,Alghero,9,20
 savona,Savona,9,0
-bolzano,Bolzano,9,10
 capo-d'orlando,Capo d'Orlando,9,0
 montagnana,Montagnana,9,10
 pavia,Pavia,9,35
@@ -140,7 +140,6 @@ teano,Teano,6,0
 corridonia,Corridonia,6,0
 belluno,Belluno,6,0
 conegliano,Conegliano,5,0
-orvieto,Orvieto,5,10
 crotone,Crotone,5,100
 iesi,Iesi,5,0
 cefalu,Cefalù,5,130
@@ -166,6 +165,7 @@ augusta-9d,Augusta,5,0
 montepaone,Montepaone,5,0
 riccione,Riccione,5,0
 castelcovati,Castelcovati,4,0
+orvieto,Orvieto,4,10
 rovereto,Rovereto,4,0
 oderzo,Oderzo,4,0
 arona,Arona,4,0
