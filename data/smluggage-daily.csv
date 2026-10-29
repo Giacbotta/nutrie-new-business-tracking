@@ -142,3 +142,17 @@ day,shop_id,name,city,locker_type,capacity,min_free,max_occupied,exact_readings,
 2026-10-28,4,Bologna P.zza Maggiore,Bologna,maxi,12,6,,0,5
 2026-10-28,7,Empoli Stazione,Empoli,maxi,17,6,,0,5
 2026-10-28,8,Roma P.zza Venezia,Roma,maxi,14,6,,0,5
+2026-10-29,1,Firenze Uffizi,Firenze,maxi,26,6,,0,3
+2026-10-29,10,Torino Porta Nuova,Torino,standard,14,6,,0,3
+2026-10-29,11,Venezia Santa Lucia,Venezia,maxi,8,3,5,1,3
+2026-10-29,11,Venezia Santa Lucia,Venezia,standard,23,6,,0,3
+2026-10-29,12,Milano Centrale,Milano,maxi,28,6,,0,3
+2026-10-29,13,La Spezia Centrale,La Spezia,maxi,14,6,,0,3
+2026-10-29,14,Napoli Centrale,Napoli,maxi,17,6,,0,3
+2026-10-29,17,Lucca Centrale,Lucca,maxi,20,6,,0,3
+2026-10-29,18,Genova Centro Storico,Genova,maxi,13,6,,0,3
+2026-10-29,2,Firenze Stazione SMN,Firenze,maxi,17,6,,0,3
+2026-10-29,3,Pisa Stazione Centrale,Pisa,maxi,36,6,,0,3
+2026-10-29,4,Bologna P.zza Maggiore,Bologna,maxi,12,6,,0,3
+2026-10-29,7,Empoli Stazione,Empoli,maxi,16,6,,0,3
+2026-10-29,8,Roma P.zza Venezia,Roma,maxi,14,6,,0,3
