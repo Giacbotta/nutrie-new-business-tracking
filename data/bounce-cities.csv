@@ -1,14 +1,14 @@
 city,name,points,capacity
-rome,Rome,501,8043
-naples,Naples,416,3088
-milan,Milan,307,3101
+rome,Rome,501,7990
+naples,Naples,415,2988
+milan,Milan,305,3116
 catania,Catania,136,1020
-florence,Florence,115,1136
+florence,Florence,114,1136
 caserta,Caserta,106,120
-palermo,Palermo,104,1066
+palermo,Palermo,105,1066
 bologna,Bologna,101,1168
 turin,Turin,96,582
-venice,Venice,91,1562
+venice,Venice,89,1492
 bari,Bari,68,1067
 verona,Verona,65,243
 salerno,Salerno,58,595
@@ -23,7 +23,7 @@ latina,Latina,35,0
 cagliari,Cagliari,33,0
 padova,Padova,33,267
 ercolano,Ercolano,30,60
-como,Como,29,245
+como,Como,28,245
 pescara,Pescara,28,45
 cesena,Cesena,26,105
 treviso,Treviso,26,5
@@ -31,8 +31,8 @@ vicenza,Vicenza,25,10
 modena,Modena,24,110
 trieste,Trieste,24,16
 parma,Parma,24,60
+lecce,Lecce,24,425
 cosenza,Cosenza,23,0
-lecce,Lecce,23,425
 battipaglia,Battipaglia,22,0
 cassino,Cassino,21,0
 milazzo,Milazzo,21,100
@@ -45,7 +45,7 @@ cardano-al-campo,Cardano Al Campo,19,0
 reggio-calabria,Reggio Calabria,19,300
 san-sebastiano-al-vesuvio,San Sebastiano al Vesuvio,19,45
 lampedusa,Lampedusa,18,50
-trapani,Trapani,18,195
+trapani,Trapani,18,205
 matera,Matera,17,35
 san-benedetto-del-tronto,San Benedetto del Tronto,17,100
 trani,Trani,17,0
@@ -76,7 +76,7 @@ chieti,Chieti,12,25
 ravenna,Ravenna,12,100
 vittoria,Vittoria,11,0
 assisi,Assisi,11,125
-lucca,Lucca,11,146
+lucca,Lucca,11,141
 brindisi,Brindisi,11,200
 agrigento,Agrigento,11,100
 trento,Trento,11,20
@@ -85,12 +85,13 @@ sanremo,Sanremo,11,90
 polignano-a-mare,Polignano a Mare,11,373
 legnano,Legnano,11,100
 catanzaro,Catanzaro,11,0
-monopoli,Monopoli,10,150
 bolzano,Bolzano,10,10
 ferrara,Ferrara,10,50
 cellole,Cellole,10,0
+reggio-emilia,Reggio Emilia,9,0
 paratico,Paratico,9,0
 alberobello,Alberobello,9,25
+monopoli,Monopoli,9,150
 amalfi,Amalfi,9,280
 gallipoli,Gallipoli,9,0
 sassari,Sassari,9,0
@@ -102,7 +103,6 @@ pavia,Pavia,9,35
 viareggio,Viareggio,9,60
 saletti,Saletti,9,0
 livorno,Livorno,9,55
-reggio-emilia,Reggio Emilia,8,0
 teramo,Teramo,8,0
 ostuni,Ostuni,8,0
 laquila,L'Aquila,8,0
@@ -114,8 +114,8 @@ civitanova-marche,Civitanova Marche,8,0
 sondrio,Sondrio,8,0
 formia,Formia,8,0
 borgo-valbelluna,Borgo Valbelluna,8,0
-elba,Elba Island,8,190
 montecatini-terme,Montecatini Terme,8,20
+elba,Elba Island,8,190
 rossano-stazione,Rossano Stazione,7,0
 capistrello,Capistrello,7,0
 taurisano,Taurisano,7,0
@@ -140,6 +140,7 @@ teano,Teano,6,0
 corridonia,Corridonia,6,0
 belluno,Belluno,6,0
 conegliano,Conegliano,5,0
+orvieto,Orvieto,5,10
 crotone,Crotone,5,100
 iesi,Iesi,5,0
 cefalu,Cefalù,5,130
@@ -165,7 +166,6 @@ augusta-9d,Augusta,5,0
 montepaone,Montepaone,5,0
 riccione,Riccione,5,0
 castelcovati,Castelcovati,4,0
-orvieto,Orvieto,4,10
 rovereto,Rovereto,4,0
 oderzo,Oderzo,4,0
 arona,Arona,4,0
@@ -252,7 +252,6 @@ palmi,Palmi,3,0
 laino-castello,Laino Castello,3,0
 fossano,Fossano,3,0
 portopalo-di-capo-passero,Portopalo di Capo Passero,3,0
-gagliano-del-capo,Gagliano del Capo,3,0
 chiusi,Chiusi,3,15
 santantioco,Sant'Antioco,3,0
 montalbano-jonico,Montalbano Jonico,3,0
@@ -288,6 +287,7 @@ lodi-75,Lodi,2,0
 torchiarolo,Torchiarolo,2,20
 monzuno,Monzuno,2,0
 cecina,Cecina,2,0
+cortina-dampezzo,Cortina d'Ampezzo,2,0
 castel-madama,Castel Madama,2,0
 bruneck,Bruneck,2,0
 san-nicolò-d'arcidano,San Nicolò d'Arcidano,2,0
@@ -302,7 +302,6 @@ piove-di-sacco,Piove di Sacco,2,0
 carlentini,Carlentini,2,0
 chiavari,Chiavari,2,0
 rodi-garganico,Rodi Garganico,2,5
-bellagio,Bellagio,2,0
 santa-caterina-di-valfurva,Santa Caterina di Valfurva,2,50
 finale-ligure,Finale Ligure,2,0
 torino,Torino,2,0
@@ -333,6 +332,7 @@ mottafollone,Mottafollone,2,0
 ronciglione,Ronciglione,2,0
 monte-argentario,Monte Argentario,2,0
 castelnovo-ne'-monti,Castelnovo ne' Monti,2,0
+gagliano-del-capo,Gagliano del Capo,2,0
 ilbono,Ilbono,2,0
 pantelleria,Pantelleria,2,0
 amantea,Amantea,1,0
@@ -429,7 +429,6 @@ casarsa-della-delizia,Casarsa della Delizia,1,0
 bedonia,Bedonia,1,0
 mistretta,Mistretta,1,0
 larino,Larino,1,0
-cortina-dampezzo,Cortina d'Ampezzo,1,0
 marsico-nuovo,Marsico Nuovo,1,0
 serracapriola,Serracapriola,1,0
 nule,Nule,1,0
@@ -443,6 +442,7 @@ gioiosa-marea,Gioiosa Marea,1,0
 ploaghe,Ploaghe,1,0
 mira,Mira,1,25
 arcidosso,Arcidosso,1,0
+bellagio,Bellagio,1,0
 colletorto,Colletorto,1,0
 atrani,Atrani,1,0
 porto-viro,Porto Viro,1,0
@@ -500,3 +500,4 @@ porto-torres,Porto Torres,1,0
 gallarate,Gallarate,1,0
 grottaferrata-rome,Grottaferrata,1,10
 marzocca,Marzocca,1,0
+mezzolombardo,Mezzolombardo,1,0
