@@ -2,6 +2,37 @@
 
 Written by `municipal_tenders.py`; the latest runs are on top.
 
+## Run of 2026-11-02
+
+**5 new items.**
+
+- **Casale sul Sile**, 02/11/2026: ING. SCHIAVON ALESSIO. AFFIDAMENTO INCARICO PROFESSIONALE DI SUPPORTO TECNICO ED AMMINISTRATIVO PER LA PARTECIPAZIONE AL "BANDO CONTRIBUTI PER LA RIDUZIONE DI CONSUMI IDRICI E IL RIUSO DELL'ACQUA NEGLI IMPIANTI SPORTIVI COMUNALI - PER I COMUNI" DELLA PROVINCIA DI TREVISO. CIG BD7BAD83C0. RETTIFICA IMPUTAZIONE CONTABILE. — https://servizionline.comune.casalesulsile.tv.it/mc/mc_p_dettaglio.php?id_pubbl=22650 (keywords: impianti sportivi, affidamento, bando)
+- **Casale sul Sile**, 23/10/2026: ING. SCHIAVON ALESSIO. AFFIDAMENTO INCARICO PROFESSIONALE DI SUPPORTO TECNICO ED AMMINISTRATIVO PER LA PARTECIPAZIONE AL "BANDO CONTRIBUTI PER LA RIDUZIONE DI CONSUMI IDRICI E IL RIUSO DELL'ACQUA NEGLI IMPIANTI SPORTIVI COMUNALI - PER I COMUNI" DELLA PROVINCIA DI TREVISO. CIG BD7BAD83C0 — https://servizionline.comune.casalesulsile.tv.it/mc/mc_p_dettaglio.php?id_pubbl=22631 (keywords: impianti sportivi, affidamento, bando)
+- **Zero Branco**, 22/10/2026: ACCERTAMENTO INTROITO CONCESSIONE UTILIZZO PALAZZETTO COMUNALE PER SABATO 9 E DOMENICA 10 GENNAIO 2027 DA PARTE DELL'A.S.D. ARCIERI VILLA GUIDINI Registro generale 639 Data registro generale 22/10/2026 Data inizio 22/10/2026 Data fine 06/11/2026 Allegati 0 Numero pubblicazione 1280 Mittente COMUNE DI ZERO BRANCO Tipo Determine Oggetto ACCERTAMENTO INTROITO CONCESSIONE UTILIZZO PALAZZETTO COMUNALE  — https://servizionline.comune.zerobranco.tv.it/mc/mc_p_dettaglio.php?id_pubbl=19395 (keywords: palazzetto, concessione)
+- **Scorzè**, 22/10/2026: DETERMINA N.824 DEL 22/10/2026 - SETTORE POLITICHE CULTURALI E RISORSE UMANE: VERSAMENTO DI CONTRIBUTI DI GARA PER IL PERFEZIONAMENTO DELLE PROCEDURE DI AFFIDAMENTO DEL SERVIZIO DI GESTIONE DEGLI IMPIANTI SPORTIVI DEL CALCIO DI PESEGGIA, DEL CALCIO DI RIO SAN MARTINO E DELLO STADIO DI SCORZE’, PERIODO 01.07.2025 - 30.06.2031 — https://servizionline.hspromilaprod.hypersicapp.net/cmsscorze/portale/albopretorio/albopretorioconsultazione.aspx?P=400 (keywords: impianti sportivi, gestione, affidamento)
+- **Treviso**, 20/10/2026: Riqualificazione e gestione dell’impianto sportivo comunale dello Stadio di calcio “Omobono Tenni”. "TREVISO FOOTBALL CLUB SOCIETÀ SPORTIVA A RESPONSABILITÀ LIMITATA" – Revisione schema di addendum contrattuale e atti contabili - CUP E42H26000520004. — https://servizitreviso.jentecloud.net/jalbopretorio01/AlboPretorio?servizio=dettaglio&idPratica=15737& (keywords: impianto sportivo, gestione)
+
+Sources read:
+
+- Mogliano Veneto (JCity notice board): 120 items read, 0 with the keywords
+- Spresiano (JCity notice board): 80 items read, 0 with the keywords
+- Preganziol (Halley notice board): 63 items read, 0 with the keywords
+- Marcon (Halley notice board): 89 items read, 2 with the keywords
+- Casale sul Sile (Halley notice board): 63 items read, 2 with the keywords
+- Zero Branco (Halley notice board): 63 items read, 1 with the keywords
+- Casier (Halley notice board): 58 items read, 0 with the keywords
+- Quarto d'Altino (Halley notice board): 45 items read, 0 with the keywords
+- Scorzè (Hypersic notice board): 90 items read, 1 with the keywords
+- Treviso (J-Ente notice board): 318 items read, 1 with the keywords
+- Veneto (Sport e Salute) (aggregator): 0 items read, 0 with the keywords
+- Preganziol (site notices): 5 items read, 0 with the keywords
+- Marcon (site notices): 9 items read, 0 with the keywords
+- Casale sul Sile (site notices): 6 items read, 0 with the keywords
+- Zero Branco (site notices): 9 items read, 0 with the keywords
+- Casier (site notices): 9 items read, 0 with the keywords
+- Quarto d'Altino (site notices): 15 items read, 0 with the keywords
+- Venezia: not covered, www.comune.venezia.it answers with an anti-bot protection (Incapsula): not forced
+
 ## Run of 2026-10-19
 
 **2 new items.**
