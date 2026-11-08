@@ -3059,3 +3059,18 @@ read_at,city,shop_id,name,day,hour,weekday,locker_type,free,capacity,capped,stat
 2026-11-08 06:29,Lucca,17,Lucca Centrale,2026-11-08,6,Sun,maxi,6,20,1,read
 2026-11-08 06:29,Genova,18,Genova Centro Storico,2026-11-08,6,Sun,maxi,6,13,1,read
 2026-11-08 06:29,Firenze,19,Firenze Santa Croce,2026-11-08,6,Sun,,,0,,no-lockers
+2026-11-08 14:15,Firenze,1,Firenze Uffizi,2026-11-08,14,Sun,maxi,6,26,1,read
+2026-11-08 14:15,Firenze,2,Firenze Stazione SMN,2026-11-08,14,Sun,maxi,6,17,1,read
+2026-11-08 14:15,Pisa,3,Pisa Stazione Centrale,2026-11-08,14,Sun,maxi,6,34,1,read
+2026-11-08 14:15,Bologna,4,Bologna P.zza Maggiore,2026-11-08,14,Sun,maxi,2,10,0,read
+2026-11-08 14:15,Empoli,7,Empoli Stazione,2026-11-08,14,Sun,maxi,6,17,1,read
+2026-11-08 14:15,Roma,8,Roma P.zza Venezia,2026-11-08,14,Sun,maxi,6,14,1,read
+2026-11-08 14:15,Torino,10,Torino Porta Nuova,2026-11-08,14,Sun,standard,3,14,0,read
+2026-11-08 14:15,Venezia,11,Venezia Santa Lucia,2026-11-08,14,Sun,standard,1,20,0,read
+2026-11-08 14:15,Venezia,11,Venezia Santa Lucia,2026-11-08,14,Sun,maxi,0,8,0,read
+2026-11-08 14:15,Milano,12,Milano Centrale,2026-11-08,14,Sun,maxi,6,28,1,read
+2026-11-08 14:15,La Spezia,13,La Spezia Centrale,2026-11-08,14,Sun,maxi,6,14,1,read
+2026-11-08 14:15,Napoli,14,Napoli Centrale,2026-11-08,14,Sun,maxi,6,17,1,read
+2026-11-08 14:15,Lucca,17,Lucca Centrale,2026-11-08,14,Sun,maxi,6,20,1,read
+2026-11-08 14:15,Genova,18,Genova Centro Storico,2026-11-08,14,Sun,maxi,6,13,1,read
+2026-11-08 14:15,Firenze,19,Firenze Santa Croce,2026-11-08,14,Sun,,,0,,no-lockers
