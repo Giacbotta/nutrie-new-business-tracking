@@ -1,5 +1,13 @@
 # Laundromats for sale, weekly changes (E-91)
 
+## Run of 2026-11-09
+
+Portals read: Subito, immobiliare.it, Trovit. Active listings in the provinces of Padova, Treviso and Venezia: 17.
+
+**No longer online** (sold, withdrawn or expired):
+
+- **Vigonza (PD)**, Casse centralizzate per lavanderie self Service: €6,500. Type: equipment. Subito: https://www.subito.it/attrezzature/casse-centralizzate-per-lavanderie-self-service-padova-659281686.htm
+
 ## Run of 2026-11-02
 
 Portals read: Subito, immobiliare.it, Trovit. Active listings in the provinces of Padova, Treviso and Venezia: 18.

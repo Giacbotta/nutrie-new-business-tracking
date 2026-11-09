@@ -2,6 +2,33 @@
 
 Written by `municipal_tenders.py`; the latest runs are on top.
 
+## Run of 2026-11-09
+
+**1 new items.**
+
+- **Spresiano**, 03/11/2026: RINNOVO DEL CERTIFICATO DI PREVENZIONE INCENDI PER I SEGUENTI EDIFICI: MUSEO E BIBLIOTECA COMUNALE, SCUOLA MEDIA E PALESTRA. DETERMINA A CONTRARRE ED AFFIDAMENTO SERVIZIO ALL'ING. PEDRON SIMONE E AI VV.FF PER ONERI DOVUTI - CIG BD8AFF168F — https://spresiano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10613516 (keywords: palestra, affidamento)
+
+Sources read:
+
+- Mogliano Veneto (JCity notice board): 101 items read, 0 with the keywords
+- Spresiano (JCity notice board): 75 items read, 1 with the keywords
+- Preganziol (Halley notice board): 61 items read, 0 with the keywords
+- Marcon (Halley notice board): 80 items read, 0 with the keywords
+- Casale sul Sile (Halley notice board): 63 items read, 1 with the keywords
+- Zero Branco (Halley notice board): 63 items read, 0 with the keywords
+- Casier (Halley notice board): 63 items read, 0 with the keywords
+- Quarto d'Altino (Halley notice board): 52 items read, 0 with the keywords
+- Scorzè (Hypersic notice board): 107 items read, 1 with the keywords
+- Treviso (J-Ente notice board): 344 items read, 0 with the keywords
+- Veneto (Sport e Salute) (aggregator): 0 items read, 0 with the keywords
+- Preganziol (site notices): 5 items read, 0 with the keywords
+- Marcon (site notices): 9 items read, 0 with the keywords
+- Casale sul Sile (site notices): 6 items read, 0 with the keywords
+- Zero Branco (site notices): 9 items read, 0 with the keywords
+- Casier (site notices): 8 items read, 0 with the keywords
+- Quarto d'Altino (site notices): 15 items read, 0 with the keywords
+- Venezia: not covered, www.comune.venezia.it answers with an anti-bot protection (Incapsula): not forced
+
 ## Run of 2026-11-02
 
 **5 new items.**

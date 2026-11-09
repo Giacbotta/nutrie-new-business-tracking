@@ -3841,3 +3841,15 @@ read_at,city,shop_id,name,day,hour,weekday,locker_type,free,capacity,status
 2026-11-09 12:24,Mestre,mestre,Mestre Central Station,2026-11-09,12,Mon,,,,http-500
 2026-11-09 13:15,Venice,venice-old-town,Venice Old Town,2026-11-09,13,Mon,,,,http-500
 2026-11-09 13:15,Mestre,mestre,Mestre Central Station,2026-11-09,13,Mon,,,,http-500
+2026-11-09 18:30,Venice,venice-old-town,Venice Old Town,2026-11-09,18,Mon,small,12,12,read
+2026-11-09 18:30,Venice,venice-old-town,Venice Old Town,2026-11-09,18,Mon,medium,8,8,read
+2026-11-09 18:30,Venice,venice-old-town,Venice Old Town,2026-11-09,18,Mon,large,4,4,read
+2026-11-09 18:30,Mestre,mestre,Mestre Central Station,2026-11-09,18,Mon,small,12,12,read
+2026-11-09 18:30,Mestre,mestre,Mestre Central Station,2026-11-09,18,Mon,medium,8,8,read
+2026-11-09 18:30,Mestre,mestre,Mestre Central Station,2026-11-09,18,Mon,large,4,4,read
+2026-11-09 18:57,Venice,venice-old-town,Venice Old Town,2026-11-09,18,Mon,small,12,12,read
+2026-11-09 18:57,Venice,venice-old-town,Venice Old Town,2026-11-09,18,Mon,medium,8,8,read
+2026-11-09 18:57,Venice,venice-old-town,Venice Old Town,2026-11-09,18,Mon,large,4,4,read
+2026-11-09 18:57,Mestre,mestre,Mestre Central Station,2026-11-09,18,Mon,small,12,12,read
+2026-11-09 18:57,Mestre,mestre,Mestre Central Station,2026-11-09,18,Mon,medium,8,8,read
+2026-11-09 18:57,Mestre,mestre,Mestre Central Station,2026-11-09,18,Mon,large,4,4,read
