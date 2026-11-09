@@ -296,17 +296,18 @@ day,shop_id,name,city,locker_type,capacity,min_free,max_occupied,exact_readings,
 2026-11-08,4,Bologna P.zza Maggiore,Bologna,maxi,12,2,10,1,5
 2026-11-08,7,Empoli Stazione,Empoli,maxi,17,6,,0,5
 2026-11-08,8,Roma P.zza Venezia,Roma,maxi,14,6,,0,5
-2026-11-09,1,Firenze Uffizi,Firenze,maxi,26,6,,0,2
-2026-11-09,10,Torino Porta Nuova,Torino,standard,14,6,,0,3
-2026-11-09,11,Venezia Santa Lucia,Venezia,maxi,8,6,,0,3
-2026-11-09,11,Venezia Santa Lucia,Venezia,standard,21,6,,0,3
-2026-11-09,12,Milano Centrale,Milano,maxi,28,6,,0,3
-2026-11-09,13,La Spezia Centrale,La Spezia,maxi,14,6,,0,3
-2026-11-09,14,Napoli Centrale,Napoli,maxi,17,6,,0,3
-2026-11-09,17,Lucca Centrale,Lucca,maxi,20,6,,0,3
-2026-11-09,18,Genova Centro Storico,Genova,maxi,13,6,,0,3
-2026-11-09,2,Firenze Stazione SMN,Firenze,maxi,17,6,,0,2
-2026-11-09,3,Pisa Stazione Centrale,Pisa,maxi,34,6,,0,3
-2026-11-09,4,Bologna P.zza Maggiore,Bologna,maxi,12,6,,0,3
-2026-11-09,7,Empoli Stazione,Empoli,maxi,17,6,,0,3
-2026-11-09,8,Roma P.zza Venezia,Roma,maxi,14,6,,0,3
+2026-11-09,1,Firenze Uffizi,Firenze,maxi,26,6,,0,3
+2026-11-09,10,Torino Porta Nuova,Torino,standard,14,6,,0,4
+2026-11-09,11,Venezia Santa Lucia,Venezia,maxi,8,6,,0,4
+2026-11-09,11,Venezia Santa Lucia,Venezia,standard,21,6,,0,4
+2026-11-09,12,Milano Centrale,Milano,maxi,28,6,,0,4
+2026-11-09,13,La Spezia Centrale,La Spezia,maxi,14,6,,0,4
+2026-11-09,14,Napoli Centrale,Napoli,maxi,17,6,,0,4
+2026-11-09,17,Lucca Centrale,Lucca,maxi,20,6,,0,4
+2026-11-09,18,Genova Centro Storico,Genova,maxi,13,6,,0,4
+2026-11-09,19,Firenze Santa Croce,Firenze,standard,3,3,0,1,1
+2026-11-09,2,Firenze Stazione SMN,Firenze,maxi,17,6,,0,3
+2026-11-09,3,Pisa Stazione Centrale,Pisa,maxi,34,6,,0,4
+2026-11-09,4,Bologna P.zza Maggiore,Bologna,maxi,12,6,,0,4
+2026-11-09,7,Empoli Stazione,Empoli,maxi,17,6,,0,4
+2026-11-09,8,Roma P.zza Venezia,Roma,maxi,14,6,,0,4
