@@ -22175,6 +22175,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-11-11,bergamo,borgo-palazzo,1,20,0,0.0,0,0,0.0
 2026-11-11,bergamo,borgo-santa-caterina,1,20,0,0.0,0,0,0.0
 2026-11-11,bergamo,citta-alta,2,75,0,0.0,0,0,0.0
+2026-11-11,bergamo,city-center,1,20,0,0.0,0,0,0.0
 2026-11-11,bologna,belvedere-mercato-delle-erbe,1,30,1,3.3,0,1,0.5
 2026-11-11,bologna,bologna-centrale-railway-station,14,725,5,0.7,5,0,2.5
 2026-11-11,bologna,bologna-city-center,3,95,1,1.1,1,0,0.5
@@ -22271,13 +22272,13 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-11-11,lecco,lecco-train-station,3,60,0,0.0,0,0,0.0
 2026-11-11,livorno,city-center,3,100,0,0.0,0,0,0.0
 2026-11-11,livorno,livorno-train-station,2,75,0,0.0,0,0,0.0
-2026-11-11,lucca,city-center,5,155,0,0.0,0,0,0.0
+2026-11-11,lucca,city-center,6,275,0,0.0,0,0,0.0
 2026-11-11,lucca,lucca-train-station,7,640,0,0.0,0,0,0.0
 2026-11-11,lucca,walled-city,1,30,0,0.0,0,0,0.0
 2026-11-11,macerata,macerata-train-station,1,10,0,0.0,0,0,0.0
 2026-11-11,mantua,city-center,1,25,2,8.0,2,0,1.0
 2026-11-11,massa,city-center,2,40,0,0.0,0,0,0.0
-2026-11-11,matera,city-center,7,170,3,1.8,0,3,1.5
+2026-11-11,matera,city-center,7,170,4,2.4,0,4,2.0
 2026-11-11,matera,via-dei-messapi,1,60,0,0.0,0,0,0.0
 2026-11-11,messina,borgo-del-ringo,1,30,0,0.0,0,0,0.0
 2026-11-11,messina,messina-centrale,7,210,0,0.0,0,0,0.0
@@ -22319,7 +22320,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-11-11,milan,piazza-gae-aulenti,1,40,0,0.0,0,0,0.0
 2026-11-11,milan,politecnico-di-milano-campus-bovisa-la-masa,1,20,0,0.0,0,0,0.0
 2026-11-11,milan,porta-garibaldi,1,300,0,0.0,0,0,0.0
-2026-11-11,milan,porta-garibaldi-train-station,5,140,0,0.0,0,0,0.0
+2026-11-11,milan,porta-garibaldi-train-station,5,140,1,0.7,0,1,0.5
 2026-11-11,milan,porta-genova,6,255,2,0.8,2,0,1.0
 2026-11-11,milan,porta-romana,7,185,8,4.3,8,0,4.0
 2026-11-11,milan,porta-ticinese,4,120,0,0.0,0,0,0.0
@@ -22389,6 +22390,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-11-11,palermo,piazza-verdi,1,40,0,0.0,0,0,0.0
 2026-11-11,palermo,port-palermo,4,250,11,4.4,2,9,5.5
 2026-11-11,palermo,settecannoli,1,50,0,0.0,0,0,0.0
+2026-11-11,palermo,teatro-massimo,1,40,0,0.0,0,0,0.0
 2026-11-11,parma,city-center,3,45,0,0.0,0,0,0.0
 2026-11-11,parma,station,4,75,0,0.0,0,0,0.0
 2026-11-11,pavia,downtown,1,30,0,0.0,0,0,0.0
@@ -22471,10 +22473,10 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-11-11,rome,policlinico-station,1,50,0,0.0,0,0,0.0
 2026-11-11,rome,porta-pinciana,1,5,0,0.0,0,0,0.0
 2026-11-11,rome,porta-s-paolo,1,60,8,13.3,1,7,4.0
-2026-11-11,rome,portuense,2,40,0,0.0,0,0,0.0
+2026-11-11,rome,portuense,3,140,0,0.0,0,0,0.0
 2026-11-11,rome,prati,7,305,1,0.3,1,0,0.5
 2026-11-11,rome,primavalle,2,80,0,0.0,0,0,0.0
-2026-11-11,rome,quartiere-xii-gianicolense,2,70,0,0.0,0,0,0.0
+2026-11-11,rome,quartiere-xii-gianicolense,3,100,0,0.0,0,0,0.0
 2026-11-11,rome,quartiere-xv-della-vittoria,1,20,0,0.0,0,0,0.0
 2026-11-11,rome,repubblica,7,300,1,0.3,1,0,0.5
 2026-11-11,rome,rione-ix-pigna,3,100,0,0.0,0,0,0.0
@@ -22487,7 +22489,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-11-11,rome,santa-maria-maggiore,1,100,0,0.0,0,0,0.0
 2026-11-11,rome,spanish-steps,2,95,0,0.0,0,0,0.0
 2026-11-11,rome,st-peter-basilica,1,35,5,14.3,0,5,2.5
-2026-11-11,rome,termini,34,3140,62,2.0,54,8,31.0
+2026-11-11,rome,termini,34,3140,63,2.0,54,9,31.5
 2026-11-11,rome,tiburtina,7,260,6,2.3,6,0,3.0
 2026-11-11,rome,torre-maura,1,100,0,0.0,0,0,0.0
 2026-11-11,rome,trastevere,15,740,12,1.6,6,6,6.0
@@ -22544,7 +22546,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-11-11,turin,lingotto,5,125,0,0.0,0,0,0.0
 2026-11-11,turin,lingotto-fiere,1,50,0,0.0,0,0,0.0
 2026-11-11,turin,mole-antonelliana,1,10,0,0.0,0,0,0.0
-2026-11-11,turin,museo-pietro-micca,1,95,7,7.4,0,7,3.5
+2026-11-11,turin,museo-pietro-micca,1,95,8,8.4,0,8,4.0
 2026-11-11,turin,national-cinema-museum,1,30,0,0.0,0,0,0.0
 2026-11-11,turin,palazzo-madama,1,20,0,0.0,0,0,0.0
 2026-11-11,turin,palazzo-reale,1,30,0,0.0,0,0,0.0
