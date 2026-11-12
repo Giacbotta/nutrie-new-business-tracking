@@ -46,7 +46,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-09-23,naples,60,Naples Port - Molo Beverello,Standard,1,32,32,34,5.9
 2026-09-23,naples,7,Naples Centrale Train Station,Maxi,1,15,15,18,16.7
 2026-09-23,naples,7,Naples Centrale Train Station,Small,1,15,15,18,16.7
-2026-09-23,naples,7,Naples Centrale Train Station,Standard,1,1,1,7,85.7
+2026-09-23,naples,7,Naples Centrale Train Station,Standard,1,1,1,9,88.9
 2026-09-23,palermo,26,City Center | Massimo Theater,Maxi,1,12,12,13,7.7
 2026-09-23,palermo,26,City Center | Massimo Theater,Small,1,12,12,13,7.7
 2026-09-23,palermo,26,City Center | Massimo Theater,Standard,1,16,16,18,11.1
@@ -145,7 +145,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-09-24,naples,60,Naples Port - Molo Beverello,Standard,14,25,34,34,26.5
 2026-09-24,naples,7,Naples Centrale Train Station,Maxi,14,6,15,18,66.7
 2026-09-24,naples,7,Naples Centrale Train Station,Small,14,6,15,18,66.7
-2026-09-24,naples,7,Naples Centrale Train Station,Standard,14,0,5,7,100.0
+2026-09-24,naples,7,Naples Centrale Train Station,Standard,14,0,5,9,100.0
 2026-09-24,palermo,26,City Center | Massimo Theater,Maxi,14,11,13,13,15.4
 2026-09-24,palermo,26,City Center | Massimo Theater,Small,14,11,13,13,15.4
 2026-09-24,palermo,26,City Center | Massimo Theater,Standard,14,9,18,18,50.0
@@ -244,7 +244,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-09-25,naples,60,Naples Port - Molo Beverello,Standard,16,26,32,34,23.5
 2026-09-25,naples,7,Naples Centrale Train Station,Maxi,16,6,14,18,66.7
 2026-09-25,naples,7,Naples Centrale Train Station,Small,16,6,14,18,66.7
-2026-09-25,naples,7,Naples Centrale Train Station,Standard,16,0,6,7,100.0
+2026-09-25,naples,7,Naples Centrale Train Station,Standard,16,0,6,9,100.0
 2026-09-25,palermo,26,City Center | Massimo Theater,Maxi,16,4,13,13,69.2
 2026-09-25,palermo,26,City Center | Massimo Theater,Small,16,4,13,13,69.2
 2026-09-25,palermo,26,City Center | Massimo Theater,Standard,16,11,18,18,38.9
@@ -343,7 +343,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-09-26,naples,60,Naples Port - Molo Beverello,Standard,29,26,33,34,23.5
 2026-09-26,naples,7,Naples Centrale Train Station,Maxi,29,1,15,18,94.4
 2026-09-26,naples,7,Naples Centrale Train Station,Small,29,1,15,18,94.4
-2026-09-26,naples,7,Naples Centrale Train Station,Standard,29,0,6,7,100.0
+2026-09-26,naples,7,Naples Centrale Train Station,Standard,29,0,6,9,100.0
 2026-09-26,palermo,26,City Center | Massimo Theater,Maxi,29,8,13,13,38.5
 2026-09-26,palermo,26,City Center | Massimo Theater,Small,29,8,13,13,38.5
 2026-09-26,palermo,26,City Center | Massimo Theater,Standard,29,1,18,18,94.4
@@ -442,7 +442,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-09-27,naples,60,Naples Port - Molo Beverello,Standard,31,26,33,34,23.5
 2026-09-27,naples,7,Naples Centrale Train Station,Maxi,31,0,16,18,100.0
 2026-09-27,naples,7,Naples Centrale Train Station,Small,31,0,16,18,100.0
-2026-09-27,naples,7,Naples Centrale Train Station,Standard,31,0,7,7,100.0
+2026-09-27,naples,7,Naples Centrale Train Station,Standard,31,0,7,9,100.0
 2026-09-27,palermo,26,City Center | Massimo Theater,Maxi,31,6,13,13,53.8
 2026-09-27,palermo,26,City Center | Massimo Theater,Small,31,6,13,13,53.8
 2026-09-27,palermo,26,City Center | Massimo Theater,Standard,31,9,18,18,50.0
@@ -541,7 +541,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-09-28,naples,60,Naples Port - Molo Beverello,Standard,29,25,33,34,26.5
 2026-09-28,naples,7,Naples Centrale Train Station,Maxi,29,6,16,18,66.7
 2026-09-28,naples,7,Naples Centrale Train Station,Small,29,6,16,18,66.7
-2026-09-28,naples,7,Naples Centrale Train Station,Standard,29,0,7,7,100.0
+2026-09-28,naples,7,Naples Centrale Train Station,Standard,29,0,7,9,100.0
 2026-09-28,palermo,26,City Center | Massimo Theater,Maxi,29,10,13,13,23.1
 2026-09-28,palermo,26,City Center | Massimo Theater,Small,29,10,13,13,23.1
 2026-09-28,palermo,26,City Center | Massimo Theater,Standard,29,8,18,18,55.6
@@ -640,7 +640,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-09-29,naples,60,Naples Port - Molo Beverello,Standard,30,32,33,34,5.9
 2026-09-29,naples,7,Naples Centrale Train Station,Maxi,30,2,16,18,88.9
 2026-09-29,naples,7,Naples Centrale Train Station,Small,30,2,16,18,88.9
-2026-09-29,naples,7,Naples Centrale Train Station,Standard,30,0,7,7,100.0
+2026-09-29,naples,7,Naples Centrale Train Station,Standard,30,0,7,9,100.0
 2026-09-29,palermo,26,City Center | Massimo Theater,Maxi,30,9,13,13,30.8
 2026-09-29,palermo,26,City Center | Massimo Theater,Small,30,9,13,13,30.8
 2026-09-29,palermo,26,City Center | Massimo Theater,Standard,30,12,18,18,33.3
@@ -739,7 +739,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-09-30,naples,60,Naples Port - Molo Beverello,Standard,27,28,33,34,17.6
 2026-09-30,naples,7,Naples Centrale Train Station,Maxi,27,9,17,18,50.0
 2026-09-30,naples,7,Naples Centrale Train Station,Small,27,9,17,18,50.0
-2026-09-30,naples,7,Naples Centrale Train Station,Standard,27,0,6,7,100.0
+2026-09-30,naples,7,Naples Centrale Train Station,Standard,27,0,6,9,100.0
 2026-09-30,palermo,26,City Center | Massimo Theater,Maxi,27,7,13,13,46.2
 2026-09-30,palermo,26,City Center | Massimo Theater,Small,27,7,13,13,46.2
 2026-09-30,palermo,26,City Center | Massimo Theater,Standard,27,11,18,18,38.9
@@ -838,7 +838,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-01,naples,60,Naples Port - Molo Beverello,Standard,18,27,33,34,20.6
 2026-10-01,naples,7,Naples Centrale Train Station,Maxi,18,6,17,18,66.7
 2026-10-01,naples,7,Naples Centrale Train Station,Small,18,6,17,18,66.7
-2026-10-01,naples,7,Naples Centrale Train Station,Standard,18,0,5,7,100.0
+2026-10-01,naples,7,Naples Centrale Train Station,Standard,18,0,5,9,100.0
 2026-10-01,palermo,26,City Center | Massimo Theater,Maxi,18,9,13,13,30.8
 2026-10-01,palermo,26,City Center | Massimo Theater,Small,18,9,13,13,30.8
 2026-10-01,palermo,26,City Center | Massimo Theater,Standard,18,10,18,18,44.4
@@ -937,7 +937,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-05,naples,60,Naples Port - Molo Beverello,Standard,9,26,33,34,23.5
 2026-10-05,naples,7,Naples Centrale Train Station,Maxi,9,6,15,18,66.7
 2026-10-05,naples,7,Naples Centrale Train Station,Small,9,6,15,18,66.7
-2026-10-05,naples,7,Naples Centrale Train Station,Standard,9,0,6,7,100.0
+2026-10-05,naples,7,Naples Centrale Train Station,Standard,9,0,6,9,100.0
 2026-10-05,palermo,26,City Center | Massimo Theater,Maxi,9,9,12,13,30.8
 2026-10-05,palermo,26,City Center | Massimo Theater,Small,9,9,12,13,30.8
 2026-10-05,palermo,26,City Center | Massimo Theater,Standard,9,13,16,18,27.8
@@ -1036,7 +1036,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-06,naples,60,Naples Port - Molo Beverello,Standard,25,25,34,34,26.5
 2026-10-06,naples,7,Naples Centrale Train Station,Maxi,25,4,15,18,77.8
 2026-10-06,naples,7,Naples Centrale Train Station,Small,25,4,15,18,77.8
-2026-10-06,naples,7,Naples Centrale Train Station,Standard,25,0,7,7,100.0
+2026-10-06,naples,7,Naples Centrale Train Station,Standard,25,0,7,9,100.0
 2026-10-06,palermo,26,City Center | Massimo Theater,Maxi,25,9,12,13,30.8
 2026-10-06,palermo,26,City Center | Massimo Theater,Small,25,9,12,13,30.8
 2026-10-06,palermo,26,City Center | Massimo Theater,Standard,25,10,16,18,44.4
@@ -1135,7 +1135,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-07,naples,60,Naples Port - Molo Beverello,Standard,27,31,34,34,8.8
 2026-10-07,naples,7,Naples Centrale Train Station,Maxi,27,1,15,18,94.4
 2026-10-07,naples,7,Naples Centrale Train Station,Small,27,1,15,18,94.4
-2026-10-07,naples,7,Naples Centrale Train Station,Standard,27,0,6,7,100.0
+2026-10-07,naples,7,Naples Centrale Train Station,Standard,27,0,6,9,100.0
 2026-10-07,palermo,26,City Center | Massimo Theater,Maxi,27,10,12,13,23.1
 2026-10-07,palermo,26,City Center | Massimo Theater,Small,27,10,12,13,23.1
 2026-10-07,palermo,26,City Center | Massimo Theater,Standard,27,13,16,18,27.8
@@ -1234,7 +1234,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-08,naples,60,Naples Port - Molo Beverello,Standard,25,32,34,34,5.9
 2026-10-08,naples,7,Naples Centrale Train Station,Maxi,25,4,13,18,77.8
 2026-10-08,naples,7,Naples Centrale Train Station,Small,25,4,13,18,77.8
-2026-10-08,naples,7,Naples Centrale Train Station,Standard,25,0,6,7,100.0
+2026-10-08,naples,7,Naples Centrale Train Station,Standard,25,0,6,9,100.0
 2026-10-08,palermo,26,City Center | Massimo Theater,Maxi,25,10,12,13,23.1
 2026-10-08,palermo,26,City Center | Massimo Theater,Small,25,10,12,13,23.1
 2026-10-08,palermo,26,City Center | Massimo Theater,Standard,25,11,16,18,38.9
@@ -1333,7 +1333,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-09,naples,60,Naples Port - Molo Beverello,Standard,24,28,34,34,17.6
 2026-10-09,naples,7,Naples Centrale Train Station,Maxi,24,10,14,18,44.4
 2026-10-09,naples,7,Naples Centrale Train Station,Small,24,10,14,18,44.4
-2026-10-09,naples,7,Naples Centrale Train Station,Standard,24,0,6,7,100.0
+2026-10-09,naples,7,Naples Centrale Train Station,Standard,24,0,6,9,100.0
 2026-10-09,palermo,26,City Center | Massimo Theater,Maxi,24,5,12,13,61.5
 2026-10-09,palermo,26,City Center | Massimo Theater,Small,24,5,12,13,61.5
 2026-10-09,palermo,26,City Center | Massimo Theater,Standard,24,12,16,18,33.3
@@ -1432,7 +1432,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-10,naples,60,Naples Port - Molo Beverello,Standard,28,26,34,34,23.5
 2026-10-10,naples,7,Naples Centrale Train Station,Maxi,28,0,14,18,100.0
 2026-10-10,naples,7,Naples Centrale Train Station,Small,28,0,14,18,100.0
-2026-10-10,naples,7,Naples Centrale Train Station,Standard,28,0,7,7,100.0
+2026-10-10,naples,7,Naples Centrale Train Station,Standard,28,0,7,9,100.0
 2026-10-10,palermo,26,City Center | Massimo Theater,Maxi,28,6,11,13,53.8
 2026-10-10,palermo,26,City Center | Massimo Theater,Small,28,6,11,13,53.8
 2026-10-10,palermo,26,City Center | Massimo Theater,Standard,28,5,16,18,72.2
@@ -1531,7 +1531,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-11,naples,60,Naples Port - Molo Beverello,Standard,28,27,34,34,20.6
 2026-10-11,naples,7,Naples Centrale Train Station,Maxi,28,1,14,18,94.4
 2026-10-11,naples,7,Naples Centrale Train Station,Small,28,1,14,18,94.4
-2026-10-11,naples,7,Naples Centrale Train Station,Standard,28,0,7,7,100.0
+2026-10-11,naples,7,Naples Centrale Train Station,Standard,28,0,7,9,100.0
 2026-10-11,palermo,26,City Center | Massimo Theater,Maxi,28,0,12,13,100.0
 2026-10-11,palermo,26,City Center | Massimo Theater,Small,28,0,12,13,100.0
 2026-10-11,palermo,26,City Center | Massimo Theater,Standard,28,6,17,18,66.7
@@ -1630,7 +1630,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-12,naples,60,Naples Port - Molo Beverello,Standard,29,26,34,34,23.5
 2026-10-12,naples,7,Naples Centrale Train Station,Maxi,29,8,14,18,55.6
 2026-10-12,naples,7,Naples Centrale Train Station,Small,29,8,14,18,55.6
-2026-10-12,naples,7,Naples Centrale Train Station,Standard,29,0,7,7,100.0
+2026-10-12,naples,7,Naples Centrale Train Station,Standard,29,0,7,9,100.0
 2026-10-12,palermo,26,City Center | Massimo Theater,Maxi,29,9,12,13,30.8
 2026-10-12,palermo,26,City Center | Massimo Theater,Small,29,9,12,13,30.8
 2026-10-12,palermo,26,City Center | Massimo Theater,Standard,29,10,17,18,44.4
@@ -1729,7 +1729,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-13,naples,60,Naples Port - Molo Beverello,Standard,27,31,34,34,8.8
 2026-10-13,naples,7,Naples Centrale Train Station,Maxi,27,5,14,18,72.2
 2026-10-13,naples,7,Naples Centrale Train Station,Small,27,5,14,18,72.2
-2026-10-13,naples,7,Naples Centrale Train Station,Standard,27,0,6,7,100.0
+2026-10-13,naples,7,Naples Centrale Train Station,Standard,27,0,6,9,100.0
 2026-10-13,palermo,26,City Center | Massimo Theater,Maxi,27,11,13,13,15.4
 2026-10-13,palermo,26,City Center | Massimo Theater,Small,27,11,13,13,15.4
 2026-10-13,palermo,26,City Center | Massimo Theater,Standard,27,13,17,18,27.8
@@ -1828,7 +1828,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-14,naples,60,Naples Port - Molo Beverello,Standard,25,28,34,34,17.6
 2026-10-14,naples,7,Naples Centrale Train Station,Maxi,25,12,15,18,33.3
 2026-10-14,naples,7,Naples Centrale Train Station,Small,25,12,15,18,33.3
-2026-10-14,naples,7,Naples Centrale Train Station,Standard,25,0,6,7,100.0
+2026-10-14,naples,7,Naples Centrale Train Station,Standard,25,0,6,9,100.0
 2026-10-14,palermo,26,City Center | Massimo Theater,Maxi,25,8,13,13,38.5
 2026-10-14,palermo,26,City Center | Massimo Theater,Small,25,8,13,13,38.5
 2026-10-14,palermo,26,City Center | Massimo Theater,Standard,25,10,17,18,44.4
@@ -1927,7 +1927,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-15,naples,60,Naples Port - Molo Beverello,Standard,25,29,34,34,14.7
 2026-10-15,naples,7,Naples Centrale Train Station,Maxi,25,8,14,18,55.6
 2026-10-15,naples,7,Naples Centrale Train Station,Small,25,8,14,18,55.6
-2026-10-15,naples,7,Naples Centrale Train Station,Standard,25,0,6,7,100.0
+2026-10-15,naples,7,Naples Centrale Train Station,Standard,25,0,6,9,100.0
 2026-10-15,palermo,26,City Center | Massimo Theater,Maxi,25,1,13,13,92.3
 2026-10-15,palermo,26,City Center | Massimo Theater,Small,25,1,13,13,92.3
 2026-10-15,palermo,26,City Center | Massimo Theater,Standard,25,10,18,18,44.4
@@ -2026,7 +2026,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-16,naples,60,Naples Port - Molo Beverello,Standard,26,25,34,34,26.5
 2026-10-16,naples,7,Naples Centrale Train Station,Maxi,26,9,14,18,50.0
 2026-10-16,naples,7,Naples Centrale Train Station,Small,26,9,14,18,50.0
-2026-10-16,naples,7,Naples Centrale Train Station,Standard,26,0,6,7,100.0
+2026-10-16,naples,7,Naples Centrale Train Station,Standard,26,0,6,9,100.0
 2026-10-16,palermo,26,City Center | Massimo Theater,Maxi,26,5,13,13,61.5
 2026-10-16,palermo,26,City Center | Massimo Theater,Small,26,5,13,13,61.5
 2026-10-16,palermo,26,City Center | Massimo Theater,Standard,26,12,18,18,33.3
@@ -2125,7 +2125,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-17,naples,60,Naples Port - Molo Beverello,Standard,27,24,34,34,29.4
 2026-10-17,naples,7,Naples Centrale Train Station,Maxi,27,2,14,18,88.9
 2026-10-17,naples,7,Naples Centrale Train Station,Small,27,2,14,18,88.9
-2026-10-17,naples,7,Naples Centrale Train Station,Standard,27,0,6,7,100.0
+2026-10-17,naples,7,Naples Centrale Train Station,Standard,27,0,6,9,100.0
 2026-10-17,palermo,26,City Center | Massimo Theater,Maxi,27,10,13,13,23.1
 2026-10-17,palermo,26,City Center | Massimo Theater,Small,27,10,13,13,23.1
 2026-10-17,palermo,26,City Center | Massimo Theater,Standard,27,7,18,18,61.1
@@ -2224,7 +2224,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-18,naples,60,Naples Port - Molo Beverello,Standard,29,29,34,34,14.7
 2026-10-18,naples,7,Naples Centrale Train Station,Maxi,29,2,14,18,88.9
 2026-10-18,naples,7,Naples Centrale Train Station,Small,29,2,14,18,88.9
-2026-10-18,naples,7,Naples Centrale Train Station,Standard,29,0,6,7,100.0
+2026-10-18,naples,7,Naples Centrale Train Station,Standard,29,0,6,9,100.0
 2026-10-18,palermo,26,City Center | Massimo Theater,Maxi,29,13,13,13,0.0
 2026-10-18,palermo,26,City Center | Massimo Theater,Small,29,13,13,13,0.0
 2026-10-18,palermo,26,City Center | Massimo Theater,Standard,29,9,18,18,50.0
@@ -2323,7 +2323,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-19,naples,60,Naples Port - Molo Beverello,Standard,27,29,34,34,14.7
 2026-10-19,naples,7,Naples Centrale Train Station,Maxi,27,5,14,18,72.2
 2026-10-19,naples,7,Naples Centrale Train Station,Small,27,5,14,18,72.2
-2026-10-19,naples,7,Naples Centrale Train Station,Standard,27,0,6,7,100.0
+2026-10-19,naples,7,Naples Centrale Train Station,Standard,27,0,6,9,100.0
 2026-10-19,palermo,26,City Center | Massimo Theater,Maxi,27,10,13,13,23.1
 2026-10-19,palermo,26,City Center | Massimo Theater,Small,27,10,13,13,23.1
 2026-10-19,palermo,26,City Center | Massimo Theater,Standard,27,4,18,18,77.8
@@ -2422,7 +2422,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-20,naples,60,Naples Port - Molo Beverello,Standard,24,29,34,34,14.7
 2026-10-20,naples,7,Naples Centrale Train Station,Maxi,24,4,14,18,77.8
 2026-10-20,naples,7,Naples Centrale Train Station,Small,24,4,14,18,77.8
-2026-10-20,naples,7,Naples Centrale Train Station,Standard,24,0,4,7,100.0
+2026-10-20,naples,7,Naples Centrale Train Station,Standard,24,0,4,9,100.0
 2026-10-20,palermo,26,City Center | Massimo Theater,Maxi,24,7,13,13,46.2
 2026-10-20,palermo,26,City Center | Massimo Theater,Small,24,7,13,13,46.2
 2026-10-20,palermo,26,City Center | Massimo Theater,Standard,24,13,18,18,27.8
@@ -2521,7 +2521,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-21,naples,60,Naples Port - Molo Beverello,Standard,23,31,34,34,8.8
 2026-10-21,naples,7,Naples Centrale Train Station,Maxi,23,9,15,18,50.0
 2026-10-21,naples,7,Naples Centrale Train Station,Small,23,9,15,18,50.0
-2026-10-21,naples,7,Naples Centrale Train Station,Standard,23,0,4,7,100.0
+2026-10-21,naples,7,Naples Centrale Train Station,Standard,23,0,4,9,100.0
 2026-10-21,palermo,26,City Center | Massimo Theater,Maxi,23,10,13,13,23.1
 2026-10-21,palermo,26,City Center | Massimo Theater,Small,23,10,13,13,23.1
 2026-10-21,palermo,26,City Center | Massimo Theater,Standard,23,13,18,18,27.8
@@ -2620,7 +2620,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-22,naples,60,Naples Port - Molo Beverello,Standard,27,29,34,34,14.7
 2026-10-22,naples,7,Naples Centrale Train Station,Maxi,27,6,15,18,66.7
 2026-10-22,naples,7,Naples Centrale Train Station,Small,27,6,15,18,66.7
-2026-10-22,naples,7,Naples Centrale Train Station,Standard,27,0,5,7,100.0
+2026-10-22,naples,7,Naples Centrale Train Station,Standard,27,0,5,9,100.0
 2026-10-22,palermo,26,City Center | Massimo Theater,Maxi,27,11,13,13,15.4
 2026-10-22,palermo,26,City Center | Massimo Theater,Small,27,11,13,13,15.4
 2026-10-22,palermo,26,City Center | Massimo Theater,Standard,27,10,18,18,44.4
@@ -2719,7 +2719,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-23,naples,60,Naples Port - Molo Beverello,Standard,25,28,34,34,17.6
 2026-10-23,naples,7,Naples Centrale Train Station,Maxi,25,5,15,18,72.2
 2026-10-23,naples,7,Naples Centrale Train Station,Small,25,5,15,18,72.2
-2026-10-23,naples,7,Naples Centrale Train Station,Standard,25,0,6,7,100.0
+2026-10-23,naples,7,Naples Centrale Train Station,Standard,25,0,6,9,100.0
 2026-10-23,palermo,26,City Center | Massimo Theater,Maxi,25,12,13,13,7.7
 2026-10-23,palermo,26,City Center | Massimo Theater,Small,25,12,13,13,7.7
 2026-10-23,palermo,26,City Center | Massimo Theater,Standard,25,12,18,18,33.3
@@ -2818,7 +2818,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-24,naples,60,Naples Port - Molo Beverello,Standard,20,24,34,34,29.4
 2026-10-24,naples,7,Naples Centrale Train Station,Maxi,20,5,15,18,72.2
 2026-10-24,naples,7,Naples Centrale Train Station,Small,20,5,15,18,72.2
-2026-10-24,naples,7,Naples Centrale Train Station,Standard,20,0,6,7,100.0
+2026-10-24,naples,7,Naples Centrale Train Station,Standard,20,0,6,9,100.0
 2026-10-24,palermo,26,City Center | Massimo Theater,Maxi,20,6,13,13,53.8
 2026-10-24,palermo,26,City Center | Massimo Theater,Small,20,6,13,13,53.8
 2026-10-24,palermo,26,City Center | Massimo Theater,Standard,20,15,18,18,16.7
@@ -2917,7 +2917,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-25,naples,60,Naples Port - Molo Beverello,Standard,7,24,34,34,29.4
 2026-10-25,naples,7,Naples Centrale Train Station,Maxi,7,0,14,18,100.0
 2026-10-25,naples,7,Naples Centrale Train Station,Small,7,0,14,18,100.0
-2026-10-25,naples,7,Naples Centrale Train Station,Standard,7,0,7,7,100.0
+2026-10-25,naples,7,Naples Centrale Train Station,Standard,7,0,7,9,100.0
 2026-10-25,palermo,26,City Center | Massimo Theater,Maxi,7,8,13,13,38.5
 2026-10-25,palermo,26,City Center | Massimo Theater,Small,7,8,13,13,38.5
 2026-10-25,palermo,26,City Center | Massimo Theater,Standard,7,9,18,18,50.0
@@ -3016,7 +3016,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-26,naples,60,Naples Port - Molo Beverello,Standard,9,30,34,34,11.8
 2026-10-26,naples,7,Naples Centrale Train Station,Maxi,9,2,12,18,88.9
 2026-10-26,naples,7,Naples Centrale Train Station,Small,9,2,12,18,88.9
-2026-10-26,naples,7,Naples Centrale Train Station,Standard,9,0,6,7,100.0
+2026-10-26,naples,7,Naples Centrale Train Station,Standard,9,0,6,9,100.0
 2026-10-26,palermo,26,City Center | Massimo Theater,Maxi,9,10,13,13,23.1
 2026-10-26,palermo,26,City Center | Massimo Theater,Small,9,10,13,13,23.1
 2026-10-26,palermo,26,City Center | Massimo Theater,Standard,9,9,18,18,50.0
@@ -3115,7 +3115,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-27,naples,60,Naples Port - Molo Beverello,Standard,6,29,34,34,14.7
 2026-10-27,naples,7,Naples Centrale Train Station,Maxi,6,7,14,18,61.1
 2026-10-27,naples,7,Naples Centrale Train Station,Small,6,7,14,18,61.1
-2026-10-27,naples,7,Naples Centrale Train Station,Standard,6,2,7,7,71.4
+2026-10-27,naples,7,Naples Centrale Train Station,Standard,6,2,7,9,77.8
 2026-10-27,palermo,26,City Center | Massimo Theater,Maxi,6,11,13,13,15.4
 2026-10-27,palermo,26,City Center | Massimo Theater,Small,6,11,13,13,15.4
 2026-10-27,palermo,26,City Center | Massimo Theater,Standard,6,16,18,18,11.1
@@ -3214,7 +3214,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-28,naples,60,Naples Port - Molo Beverello,Standard,5,30,34,34,11.8
 2026-10-28,naples,7,Naples Centrale Train Station,Maxi,5,10,15,18,44.4
 2026-10-28,naples,7,Naples Centrale Train Station,Small,5,10,15,18,44.4
-2026-10-28,naples,7,Naples Centrale Train Station,Standard,5,2,7,7,71.4
+2026-10-28,naples,7,Naples Centrale Train Station,Standard,5,2,7,9,77.8
 2026-10-28,palermo,26,City Center | Massimo Theater,Maxi,5,11,13,13,15.4
 2026-10-28,palermo,26,City Center | Massimo Theater,Small,5,11,13,13,15.4
 2026-10-28,palermo,26,City Center | Massimo Theater,Standard,5,16,18,18,11.1
@@ -3313,7 +3313,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-29,naples,60,Naples Port - Molo Beverello,Standard,4,31,34,34,8.8
 2026-10-29,naples,7,Naples Centrale Train Station,Maxi,4,16,16,18,11.1
 2026-10-29,naples,7,Naples Centrale Train Station,Small,4,16,16,18,11.1
-2026-10-29,naples,7,Naples Centrale Train Station,Standard,4,6,7,7,14.3
+2026-10-29,naples,7,Naples Centrale Train Station,Standard,4,6,7,9,33.3
 2026-10-29,palermo,26,City Center | Massimo Theater,Maxi,4,10,13,13,23.1
 2026-10-29,palermo,26,City Center | Massimo Theater,Small,4,10,13,13,23.1
 2026-10-29,palermo,26,City Center | Massimo Theater,Standard,4,13,18,18,27.8
@@ -3412,7 +3412,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-30,naples,60,Naples Port - Molo Beverello,Standard,4,34,34,34,0.0
 2026-10-30,naples,7,Naples Centrale Train Station,Maxi,4,10,16,18,44.4
 2026-10-30,naples,7,Naples Centrale Train Station,Small,4,10,16,18,44.4
-2026-10-30,naples,7,Naples Centrale Train Station,Standard,4,0,6,7,100.0
+2026-10-30,naples,7,Naples Centrale Train Station,Standard,4,0,6,9,100.0
 2026-10-30,palermo,26,City Center | Massimo Theater,Maxi,4,12,13,13,7.7
 2026-10-30,palermo,26,City Center | Massimo Theater,Small,4,12,13,13,7.7
 2026-10-30,palermo,26,City Center | Massimo Theater,Standard,4,11,18,18,38.9
@@ -3511,7 +3511,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-10-31,naples,60,Naples Port - Molo Beverello,Standard,4,24,34,34,29.4
 2026-10-31,naples,7,Naples Centrale Train Station,Maxi,4,14,16,18,22.2
 2026-10-31,naples,7,Naples Centrale Train Station,Small,4,14,16,18,22.2
-2026-10-31,naples,7,Naples Centrale Train Station,Standard,4,3,7,7,57.1
+2026-10-31,naples,7,Naples Centrale Train Station,Standard,4,3,7,9,66.7
 2026-10-31,palermo,26,City Center | Massimo Theater,Maxi,4,8,13,13,38.5
 2026-10-31,palermo,26,City Center | Massimo Theater,Small,4,8,13,13,38.5
 2026-10-31,palermo,26,City Center | Massimo Theater,Standard,4,11,18,18,38.9
@@ -3610,7 +3610,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-11-01,naples,60,Naples Port - Molo Beverello,Standard,5,34,34,34,0.0
 2026-11-01,naples,7,Naples Centrale Train Station,Maxi,5,16,16,18,11.1
 2026-11-01,naples,7,Naples Centrale Train Station,Small,5,16,16,18,11.1
-2026-11-01,naples,7,Naples Centrale Train Station,Standard,5,6,7,7,14.3
+2026-11-01,naples,7,Naples Centrale Train Station,Standard,5,6,7,9,33.3
 2026-11-01,palermo,26,City Center | Massimo Theater,Maxi,5,10,13,13,23.1
 2026-11-01,palermo,26,City Center | Massimo Theater,Small,5,10,13,13,23.1
 2026-11-01,palermo,26,City Center | Massimo Theater,Standard,5,15,18,18,16.7
@@ -3709,7 +3709,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-11-02,naples,60,Naples Port - Molo Beverello,Standard,7,33,34,34,2.9
 2026-11-02,naples,7,Naples Centrale Train Station,Maxi,7,15,17,18,16.7
 2026-11-02,naples,7,Naples Centrale Train Station,Small,7,15,17,18,16.7
-2026-11-02,naples,7,Naples Centrale Train Station,Standard,7,5,7,7,28.6
+2026-11-02,naples,7,Naples Centrale Train Station,Standard,7,5,7,9,44.4
 2026-11-02,palermo,26,City Center | Massimo Theater,Maxi,7,12,13,13,7.7
 2026-11-02,palermo,26,City Center | Massimo Theater,Small,7,12,13,13,7.7
 2026-11-02,palermo,26,City Center | Massimo Theater,Standard,7,10,18,18,44.4
@@ -3811,7 +3811,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-11-03,naples,60,Naples Port - Molo Beverello,Standard,4,34,34,34,0.0
 2026-11-03,naples,7,Naples Centrale Train Station,Maxi,5,16,17,18,11.1
 2026-11-03,naples,7,Naples Centrale Train Station,Small,5,16,17,18,11.1
-2026-11-03,naples,7,Naples Centrale Train Station,Standard,5,6,7,7,14.3
+2026-11-03,naples,7,Naples Centrale Train Station,Standard,5,6,7,9,33.3
 2026-11-03,palermo,26,City Center | Massimo Theater,Maxi,4,12,13,13,7.7
 2026-11-03,palermo,26,City Center | Massimo Theater,Small,4,12,13,13,7.7
 2026-11-03,palermo,26,City Center | Massimo Theater,Standard,4,16,17,18,11.1
@@ -3913,7 +3913,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-11-04,naples,60,Naples Port - Molo Beverello,Standard,5,33,34,34,2.9
 2026-11-04,naples,7,Naples Centrale Train Station,Maxi,5,16,17,18,11.1
 2026-11-04,naples,7,Naples Centrale Train Station,Small,5,16,17,18,11.1
-2026-11-04,naples,7,Naples Centrale Train Station,Standard,5,6,7,7,14.3
+2026-11-04,naples,7,Naples Centrale Train Station,Standard,5,6,7,9,33.3
 2026-11-04,palermo,26,City Center | Massimo Theater,Maxi,5,12,13,13,7.7
 2026-11-04,palermo,26,City Center | Massimo Theater,Small,5,12,13,13,7.7
 2026-11-04,palermo,26,City Center | Massimo Theater,Standard,5,16,18,18,11.1
@@ -4015,7 +4015,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-11-05,naples,60,Naples Port - Molo Beverello,Standard,4,33,34,34,2.9
 2026-11-05,naples,7,Naples Centrale Train Station,Maxi,4,16,17,18,11.1
 2026-11-05,naples,7,Naples Centrale Train Station,Small,4,16,17,18,11.1
-2026-11-05,naples,7,Naples Centrale Train Station,Standard,4,5,7,7,28.6
+2026-11-05,naples,7,Naples Centrale Train Station,Standard,4,5,7,9,44.4
 2026-11-05,palermo,26,City Center | Massimo Theater,Maxi,4,10,13,13,23.1
 2026-11-05,palermo,26,City Center | Massimo Theater,Small,4,10,13,13,23.1
 2026-11-05,palermo,26,City Center | Massimo Theater,Standard,4,12,18,18,33.3
@@ -4117,7 +4117,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-11-06,naples,60,Naples Port - Molo Beverello,Standard,4,33,34,34,2.9
 2026-11-06,naples,7,Naples Centrale Train Station,Maxi,4,16,17,18,11.1
 2026-11-06,naples,7,Naples Centrale Train Station,Small,4,16,17,18,11.1
-2026-11-06,naples,7,Naples Centrale Train Station,Standard,4,7,7,7,0.0
+2026-11-06,naples,7,Naples Centrale Train Station,Standard,4,7,7,9,22.2
 2026-11-06,palermo,26,City Center | Massimo Theater,Maxi,4,12,12,13,7.7
 2026-11-06,palermo,26,City Center | Massimo Theater,Small,4,12,12,13,7.7
 2026-11-06,palermo,26,City Center | Massimo Theater,Standard,4,16,17,18,11.1
@@ -4219,7 +4219,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-11-07,naples,60,Naples Port - Molo Beverello,Standard,4,31,34,34,8.8
 2026-11-07,naples,7,Naples Centrale Train Station,Maxi,4,17,17,18,5.6
 2026-11-07,naples,7,Naples Centrale Train Station,Small,4,17,17,18,5.6
-2026-11-07,naples,7,Naples Centrale Train Station,Standard,4,4,7,7,42.9
+2026-11-07,naples,7,Naples Centrale Train Station,Standard,4,4,7,9,55.6
 2026-11-07,palermo,26,City Center | Massimo Theater,Maxi,4,11,12,13,15.4
 2026-11-07,palermo,26,City Center | Massimo Theater,Small,4,11,12,13,15.4
 2026-11-07,palermo,26,City Center | Massimo Theater,Standard,4,15,17,18,16.7
@@ -4321,7 +4321,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-11-08,naples,60,Naples Port - Molo Beverello,Standard,4,31,34,34,8.8
 2026-11-08,naples,7,Naples Centrale Train Station,Maxi,4,16,17,18,11.1
 2026-11-08,naples,7,Naples Centrale Train Station,Small,4,16,17,18,11.1
-2026-11-08,naples,7,Naples Centrale Train Station,Standard,4,5,7,7,28.6
+2026-11-08,naples,7,Naples Centrale Train Station,Standard,4,5,7,9,44.4
 2026-11-08,palermo,26,City Center | Massimo Theater,Maxi,4,8,11,13,38.5
 2026-11-08,palermo,26,City Center | Massimo Theater,Small,4,8,11,13,38.5
 2026-11-08,palermo,26,City Center | Massimo Theater,Standard,4,5,17,18,72.2
@@ -4423,7 +4423,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-11-09,naples,60,Naples Port - Molo Beverello,Standard,6,33,34,34,2.9
 2026-11-09,naples,7,Naples Centrale Train Station,Maxi,7,16,17,18,11.1
 2026-11-09,naples,7,Naples Centrale Train Station,Small,7,16,17,18,11.1
-2026-11-09,naples,7,Naples Centrale Train Station,Standard,7,5,7,7,28.6
+2026-11-09,naples,7,Naples Centrale Train Station,Standard,7,5,7,9,44.4
 2026-11-09,palermo,26,City Center | Massimo Theater,Maxi,7,4,12,13,69.2
 2026-11-09,palermo,26,City Center | Massimo Theater,Small,7,4,12,13,69.2
 2026-11-09,palermo,26,City Center | Massimo Theater,Standard,7,10,17,18,44.4
@@ -4525,7 +4525,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-11-10,naples,60,Naples Port - Molo Beverello,Standard,5,34,34,34,0.0
 2026-11-10,naples,7,Naples Centrale Train Station,Maxi,5,17,17,18,5.6
 2026-11-10,naples,7,Naples Centrale Train Station,Small,5,17,17,18,5.6
-2026-11-10,naples,7,Naples Centrale Train Station,Standard,5,5,6,7,28.6
+2026-11-10,naples,7,Naples Centrale Train Station,Standard,5,5,6,9,44.4
 2026-11-10,palermo,26,City Center | Massimo Theater,Maxi,5,10,12,13,23.1
 2026-11-10,palermo,26,City Center | Massimo Theater,Small,5,10,12,13,23.1
 2026-11-10,palermo,26,City Center | Massimo Theater,Standard,5,14,17,18,22.2
@@ -4627,7 +4627,7 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-11-11,naples,60,Naples Port - Molo Beverello,Standard,5,34,34,34,0.0
 2026-11-11,naples,7,Naples Centrale Train Station,Maxi,5,17,17,18,5.6
 2026-11-11,naples,7,Naples Centrale Train Station,Small,5,17,17,18,5.6
-2026-11-11,naples,7,Naples Centrale Train Station,Standard,5,5,6,7,28.6
+2026-11-11,naples,7,Naples Centrale Train Station,Standard,5,5,6,9,44.4
 2026-11-11,palermo,26,City Center | Massimo Theater,Maxi,5,11,12,13,15.4
 2026-11-11,palermo,26,City Center | Massimo Theater,Small,5,11,12,13,15.4
 2026-11-11,palermo,26,City Center | Massimo Theater,Standard,5,15,17,18,16.7
@@ -4682,105 +4682,105 @@ day,city,shop_id,name,locker_type,readings,free_min,free_max,peak_seen,busiest_p
 2026-11-11,verona,14,Verona Arena,Maxi,5,13,15,15,13.3
 2026-11-11,verona,14,Verona Arena,Small,5,13,15,15,13.3
 2026-11-11,verona,14,Verona Arena,Standard,5,11,12,13,15.4
-2026-11-12,bari,18,Bari Centrale Train Station,Maxi,2,19,19,19,0.0
-2026-11-12,bari,18,Bari Centrale Train Station,Small,2,12,12,13,7.7
-2026-11-12,bari,18,Bari Centrale Train Station,Standard,2,23,23,23,0.0
-2026-11-12,bologna,32,Bologna Centrale Train Station,Maxi,2,20,20,21,4.8
-2026-11-12,bologna,32,Bologna Centrale Train Station,Small,2,18,20,20,10.0
-2026-11-12,bologna,32,Bologna Centrale Train Station,Standard,2,27,28,30,10.0
-2026-11-12,bologna,48,Sant'Orsola Hospital,Maxi,2,10,10,10,0.0
-2026-11-12,bologna,48,Sant'Orsola Hospital,Small,2,29,29,29,0.0
-2026-11-12,bologna,48,Sant'Orsola Hospital,Standard,2,10,10,10,0.0
-2026-11-12,bologna,56,Piazza Maggiore | City Center,Maxi,2,31,31,31,0.0
-2026-11-12,bologna,56,Piazza Maggiore | City Center,Small,2,22,22,22,0.0
-2026-11-12,bologna,56,Piazza Maggiore | City Center,Standard,2,36,36,37,2.7
-2026-11-12,brescia,40,Brescia Train Station,Maxi,2,13,13,13,0.0
-2026-11-12,brescia,40,Brescia Train Station,Small,2,3,3,5,40.0
-2026-11-12,brescia,40,Brescia Train Station,Standard,2,17,17,17,0.0
-2026-11-12,catania,10,Via Etnea | Bellini Theater,Maxi,2,9,9,9,0.0
-2026-11-12,catania,10,Via Etnea | Bellini Theater,Small,2,9,9,9,0.0
-2026-11-12,catania,10,Via Etnea | Bellini Theater,Standard,2,14,14,14,0.0
-2026-11-12,florence,24,Florence SMN Train Station,Maxi,2,20,20,21,4.8
-2026-11-12,florence,24,Florence SMN Train Station,Small,2,19,19,20,5.0
-2026-11-12,florence,24,Florence SMN Train Station,Standard,2,25,25,30,16.7
-2026-11-12,florence,5,Uffizi District,Maxi,2,18,18,19,5.3
-2026-11-12,florence,5,Uffizi District,Small,2,18,18,19,5.3
-2026-11-12,florence,5,Uffizi District,Standard,2,9,9,10,10.0
-2026-11-12,florence,6,City Center |  Florence Station,Maxi,2,15,15,16,6.2
-2026-11-12,florence,6,City Center |  Florence Station,Small,2,15,15,16,6.2
-2026-11-12,florence,6,City Center |  Florence Station,Standard,2,9,9,9,0.0
-2026-11-12,genoa,25,Genoa Piazza Principe Train Station,Maxi,2,8,8,8,0.0
-2026-11-12,genoa,25,Genoa Piazza Principe Train Station,Small,2,8,8,8,0.0
-2026-11-12,genoa,25,Genoa Piazza Principe Train Station,Standard,2,12,12,12,0.0
-2026-11-12,milan,3,Milano Centrale Train Station,Maxi,2,49,49,50,2.0
-2026-11-12,milan,3,Milano Centrale Train Station,Small,2,35,35,36,2.8
-2026-11-12,milan,3,Milano Centrale Train Station,Standard,2,62,62,67,7.5
-2026-11-12,milan,36,Cadorna Train Station,Maxi,2,24,24,25,4.0
-2026-11-12,milan,36,Cadorna Train Station,Small,2,35,35,36,2.8
-2026-11-12,milan,36,Cadorna Train Station,Standard,2,38,38,39,2.6
-2026-11-12,milan,47,Duomo District,Maxi,2,18,18,18,0.0
-2026-11-12,milan,47,Duomo District,Small,2,10,10,11,9.1
-2026-11-12,milan,47,Duomo District,Standard,2,21,21,22,4.5
-2026-11-12,milan,59,Porta Garibaldi Train Station,Maxi,2,31,31,31,0.0
-2026-11-12,milan,59,Porta Garibaldi Train Station,Small,2,14,14,14,0.0
-2026-11-12,milan,59,Porta Garibaldi Train Station,Standard,2,34,34,34,0.0
-2026-11-12,naples,60,Naples Port - Molo Beverello,Maxi,2,23,23,24,4.2
-2026-11-12,naples,60,Naples Port - Molo Beverello,Small,2,14,14,14,0.0
-2026-11-12,naples,60,Naples Port - Molo Beverello,Standard,2,34,34,34,0.0
-2026-11-12,naples,7,Naples Centrale Train Station,Maxi,2,18,18,18,0.0
-2026-11-12,naples,7,Naples Centrale Train Station,Small,2,18,18,18,0.0
-2026-11-12,naples,7,Naples Centrale Train Station,Standard,2,7,7,7,0.0
-2026-11-12,palermo,26,City Center | Massimo Theater,Maxi,2,12,12,13,7.7
-2026-11-12,palermo,26,City Center | Massimo Theater,Small,2,12,12,13,7.7
-2026-11-12,palermo,26,City Center | Massimo Theater,Standard,2,17,17,18,5.6
-2026-11-12,parma,50,Parma Train Station,Maxi,2,31,31,31,0.0
-2026-11-12,parma,50,Parma Train Station,Small,2,31,31,31,0.0
-2026-11-12,parma,50,Parma Train Station,Standard,2,31,31,31,0.0
-2026-11-12,pisa,13,City Center | Pisa Station,Maxi,2,12,12,12,0.0
-2026-11-12,pisa,13,City Center | Pisa Station,Small,2,12,12,12,0.0
-2026-11-12,pisa,13,City Center | Pisa Station,Standard,2,10,11,12,16.7
-2026-11-12,pisa,39,Pisa Centrale Train Station,Maxi,2,16,16,16,0.0
-2026-11-12,pisa,39,Pisa Centrale Train Station,Small,2,13,14,14,7.1
-2026-11-12,pisa,39,Pisa Centrale Train Station,Standard,2,26,26,26,0.0
-2026-11-12,rome,1,Vatican Museums,Maxi,2,32,32,32,0.0
-2026-11-12,rome,1,Vatican Museums,Small,2,32,32,32,0.0
-2026-11-12,rome,1,Vatican Museums,Standard,2,13,13,13,0.0
-2026-11-12,rome,2,City Center | Termini Station,Maxi,2,11,11,15,26.7
-2026-11-12,rome,2,City Center | Termini Station,Small,2,6,6,6,0.0
-2026-11-12,rome,2,City Center | Termini Station,Standard,2,21,21,21,0.0
-2026-11-12,rome,21,Colosseum,Maxi,2,24,24,24,0.0
-2026-11-12,rome,21,Colosseum,Small,2,24,24,24,0.0
-2026-11-12,rome,21,Colosseum,Standard,2,19,20,21,9.5
-2026-11-12,rome,22,Trastevere,Maxi,2,15,15,15,0.0
-2026-11-12,rome,22,Trastevere,Small,2,15,15,15,0.0
-2026-11-12,rome,22,Trastevere,Standard,2,8,8,9,11.1
-2026-11-12,rome,31,Termini Train Station,Maxi,2,15,15,18,16.7
-2026-11-12,rome,31,Termini Train Station,Small,2,11,12,14,21.4
-2026-11-12,rome,31,Termini Train Station,Standard,2,20,20,22,9.1
-2026-11-12,rome,37,St. Peter's Basilica,Maxi,2,17,17,18,5.6
-2026-11-12,rome,37,St. Peter's Basilica,Small,2,6,6,6,0.0
-2026-11-12,rome,37,St. Peter's Basilica,Standard,2,22,22,22,0.0
-2026-11-12,rome,4,Spanish Steps District,Maxi,2,16,16,17,5.9
-2026-11-12,rome,4,Spanish Steps District,Small,2,16,16,17,5.9
-2026-11-12,rome,4,Spanish Steps District,Standard,2,4,4,4,0.0
-2026-11-12,rome,69,Piazza Navona,Maxi,2,40,40,40,0.0
-2026-11-12,rome,69,Piazza Navona,Small,2,22,22,22,0.0
-2026-11-12,rome,69,Piazza Navona,Standard,2,54,54,54,0.0
-2026-11-12,siena,38,Piazza del Campo,Maxi,2,21,21,21,0.0
-2026-11-12,siena,38,Piazza del Campo,Small,2,6,6,6,0.0
-2026-11-12,siena,38,Piazza del Campo,Standard,2,29,29,29,0.0
-2026-11-12,turin,17,Turin Porta Nuova Train Station,Maxi,2,14,14,14,0.0
-2026-11-12,turin,17,Turin Porta Nuova Train Station,Small,2,14,14,14,0.0
-2026-11-12,turin,17,Turin Porta Nuova Train Station,Standard,2,12,12,12,0.0
-2026-11-12,venice,51,Rialto Bridge,Maxi,2,25,25,25,0.0
-2026-11-12,venice,51,Rialto Bridge,Small,2,14,14,14,0.0
-2026-11-12,venice,51,Rialto Bridge,Standard,2,30,30,30,0.0
-2026-11-12,venice,8,City Center | Rialto District,Maxi,2,17,17,17,0.0
-2026-11-12,venice,8,City Center | Rialto District,Small,2,17,17,17,0.0
-2026-11-12,venice,8,City Center | Rialto District,Standard,2,17,17,17,0.0
-2026-11-12,venice,9,Santa Lucia Train Station,Maxi,2,15,15,16,6.2
-2026-11-12,venice,9,Santa Lucia Train Station,Small,2,15,15,16,6.2
-2026-11-12,venice,9,Santa Lucia Train Station,Standard,2,12,18,18,33.3
-2026-11-12,verona,14,Verona Arena,Maxi,2,15,15,15,0.0
-2026-11-12,verona,14,Verona Arena,Small,2,15,15,15,0.0
-2026-11-12,verona,14,Verona Arena,Standard,2,12,12,13,7.7
+2026-11-12,bari,18,Bari Centrale Train Station,Maxi,3,18,19,19,5.3
+2026-11-12,bari,18,Bari Centrale Train Station,Small,3,10,12,13,23.1
+2026-11-12,bari,18,Bari Centrale Train Station,Standard,3,21,23,23,8.7
+2026-11-12,bologna,32,Bologna Centrale Train Station,Maxi,3,20,20,21,4.8
+2026-11-12,bologna,32,Bologna Centrale Train Station,Small,3,17,20,20,15.0
+2026-11-12,bologna,32,Bologna Centrale Train Station,Standard,3,25,28,30,16.7
+2026-11-12,bologna,48,Sant'Orsola Hospital,Maxi,3,10,10,10,0.0
+2026-11-12,bologna,48,Sant'Orsola Hospital,Small,3,29,29,29,0.0
+2026-11-12,bologna,48,Sant'Orsola Hospital,Standard,3,10,10,10,0.0
+2026-11-12,bologna,56,Piazza Maggiore | City Center,Maxi,3,31,31,31,0.0
+2026-11-12,bologna,56,Piazza Maggiore | City Center,Small,3,22,22,22,0.0
+2026-11-12,bologna,56,Piazza Maggiore | City Center,Standard,3,36,36,37,2.7
+2026-11-12,brescia,40,Brescia Train Station,Maxi,3,13,13,13,0.0
+2026-11-12,brescia,40,Brescia Train Station,Small,3,3,3,5,40.0
+2026-11-12,brescia,40,Brescia Train Station,Standard,3,17,17,17,0.0
+2026-11-12,catania,10,Via Etnea | Bellini Theater,Maxi,3,9,9,9,0.0
+2026-11-12,catania,10,Via Etnea | Bellini Theater,Small,3,9,9,9,0.0
+2026-11-12,catania,10,Via Etnea | Bellini Theater,Standard,3,14,14,14,0.0
+2026-11-12,florence,24,Florence SMN Train Station,Maxi,3,17,20,21,19.0
+2026-11-12,florence,24,Florence SMN Train Station,Small,3,18,19,20,10.0
+2026-11-12,florence,24,Florence SMN Train Station,Standard,3,25,25,30,16.7
+2026-11-12,florence,5,Uffizi District,Maxi,3,18,18,19,5.3
+2026-11-12,florence,5,Uffizi District,Small,3,18,18,19,5.3
+2026-11-12,florence,5,Uffizi District,Standard,3,9,9,10,10.0
+2026-11-12,florence,6,City Center |  Florence Station,Maxi,3,14,15,16,12.5
+2026-11-12,florence,6,City Center |  Florence Station,Small,3,14,15,16,12.5
+2026-11-12,florence,6,City Center |  Florence Station,Standard,3,9,9,9,0.0
+2026-11-12,genoa,25,Genoa Piazza Principe Train Station,Maxi,3,8,8,8,0.0
+2026-11-12,genoa,25,Genoa Piazza Principe Train Station,Small,3,8,8,8,0.0
+2026-11-12,genoa,25,Genoa Piazza Principe Train Station,Standard,3,12,12,12,0.0
+2026-11-12,milan,3,Milano Centrale Train Station,Maxi,3,47,49,50,6.0
+2026-11-12,milan,3,Milano Centrale Train Station,Small,3,34,35,36,5.6
+2026-11-12,milan,3,Milano Centrale Train Station,Standard,3,56,62,67,16.4
+2026-11-12,milan,36,Cadorna Train Station,Maxi,3,21,24,25,16.0
+2026-11-12,milan,36,Cadorna Train Station,Small,3,34,35,36,5.6
+2026-11-12,milan,36,Cadorna Train Station,Standard,3,35,38,39,10.3
+2026-11-12,milan,47,Duomo District,Maxi,3,18,18,18,0.0
+2026-11-12,milan,47,Duomo District,Small,3,6,10,11,45.5
+2026-11-12,milan,47,Duomo District,Standard,3,19,21,22,13.6
+2026-11-12,milan,59,Porta Garibaldi Train Station,Maxi,3,30,31,31,3.2
+2026-11-12,milan,59,Porta Garibaldi Train Station,Small,3,14,14,14,0.0
+2026-11-12,milan,59,Porta Garibaldi Train Station,Standard,3,34,34,34,0.0
+2026-11-12,naples,60,Naples Port - Molo Beverello,Maxi,3,23,23,24,4.2
+2026-11-12,naples,60,Naples Port - Molo Beverello,Small,3,14,14,14,0.0
+2026-11-12,naples,60,Naples Port - Molo Beverello,Standard,3,33,34,34,2.9
+2026-11-12,naples,7,Naples Centrale Train Station,Maxi,3,18,18,18,0.0
+2026-11-12,naples,7,Naples Centrale Train Station,Small,3,18,18,18,0.0
+2026-11-12,naples,7,Naples Centrale Train Station,Standard,3,7,9,9,22.2
+2026-11-12,palermo,26,City Center | Massimo Theater,Maxi,3,11,12,13,15.4
+2026-11-12,palermo,26,City Center | Massimo Theater,Small,3,11,12,13,15.4
+2026-11-12,palermo,26,City Center | Massimo Theater,Standard,3,17,17,18,5.6
+2026-11-12,parma,50,Parma Train Station,Maxi,3,31,31,31,0.0
+2026-11-12,parma,50,Parma Train Station,Small,3,31,31,31,0.0
+2026-11-12,parma,50,Parma Train Station,Standard,3,31,31,31,0.0
+2026-11-12,pisa,13,City Center | Pisa Station,Maxi,3,12,12,12,0.0
+2026-11-12,pisa,13,City Center | Pisa Station,Small,3,12,12,12,0.0
+2026-11-12,pisa,13,City Center | Pisa Station,Standard,3,10,11,12,16.7
+2026-11-12,pisa,39,Pisa Centrale Train Station,Maxi,3,15,16,16,6.2
+2026-11-12,pisa,39,Pisa Centrale Train Station,Small,3,12,14,14,14.3
+2026-11-12,pisa,39,Pisa Centrale Train Station,Standard,3,26,26,26,0.0
+2026-11-12,rome,1,Vatican Museums,Maxi,3,32,32,32,0.0
+2026-11-12,rome,1,Vatican Museums,Small,3,32,32,32,0.0
+2026-11-12,rome,1,Vatican Museums,Standard,3,13,13,13,0.0
+2026-11-12,rome,2,City Center | Termini Station,Maxi,3,11,12,15,26.7
+2026-11-12,rome,2,City Center | Termini Station,Small,3,4,6,6,33.3
+2026-11-12,rome,2,City Center | Termini Station,Standard,3,20,21,21,4.8
+2026-11-12,rome,21,Colosseum,Maxi,3,24,24,24,0.0
+2026-11-12,rome,21,Colosseum,Small,3,24,24,24,0.0
+2026-11-12,rome,21,Colosseum,Standard,3,19,20,21,9.5
+2026-11-12,rome,22,Trastevere,Maxi,3,14,15,15,6.7
+2026-11-12,rome,22,Trastevere,Small,3,14,15,15,6.7
+2026-11-12,rome,22,Trastevere,Standard,3,6,8,9,33.3
+2026-11-12,rome,31,Termini Train Station,Maxi,3,14,15,18,22.2
+2026-11-12,rome,31,Termini Train Station,Small,3,11,13,14,21.4
+2026-11-12,rome,31,Termini Train Station,Standard,3,15,20,22,31.8
+2026-11-12,rome,37,St. Peter's Basilica,Maxi,3,17,17,18,5.6
+2026-11-12,rome,37,St. Peter's Basilica,Small,3,5,6,6,16.7
+2026-11-12,rome,37,St. Peter's Basilica,Standard,3,21,22,22,4.5
+2026-11-12,rome,4,Spanish Steps District,Maxi,3,16,16,17,5.9
+2026-11-12,rome,4,Spanish Steps District,Small,3,16,16,17,5.9
+2026-11-12,rome,4,Spanish Steps District,Standard,3,4,4,4,0.0
+2026-11-12,rome,69,Piazza Navona,Maxi,3,40,40,40,0.0
+2026-11-12,rome,69,Piazza Navona,Small,3,22,22,22,0.0
+2026-11-12,rome,69,Piazza Navona,Standard,3,54,54,54,0.0
+2026-11-12,siena,38,Piazza del Campo,Maxi,3,21,21,21,0.0
+2026-11-12,siena,38,Piazza del Campo,Small,3,4,6,6,33.3
+2026-11-12,siena,38,Piazza del Campo,Standard,3,29,29,29,0.0
+2026-11-12,turin,17,Turin Porta Nuova Train Station,Maxi,3,13,14,14,7.1
+2026-11-12,turin,17,Turin Porta Nuova Train Station,Small,3,13,14,14,7.1
+2026-11-12,turin,17,Turin Porta Nuova Train Station,Standard,3,12,12,12,0.0
+2026-11-12,venice,51,Rialto Bridge,Maxi,3,25,25,25,0.0
+2026-11-12,venice,51,Rialto Bridge,Small,3,13,14,14,7.1
+2026-11-12,venice,51,Rialto Bridge,Standard,3,30,30,30,0.0
+2026-11-12,venice,8,City Center | Rialto District,Maxi,3,17,17,17,0.0
+2026-11-12,venice,8,City Center | Rialto District,Small,3,17,17,17,0.0
+2026-11-12,venice,8,City Center | Rialto District,Standard,3,17,17,17,0.0
+2026-11-12,venice,9,Santa Lucia Train Station,Maxi,3,15,16,16,6.2
+2026-11-12,venice,9,Santa Lucia Train Station,Small,3,15,16,16,6.2
+2026-11-12,venice,9,Santa Lucia Train Station,Standard,3,12,18,18,33.3
+2026-11-12,verona,14,Verona Arena,Maxi,3,14,15,15,6.7
+2026-11-12,verona,14,Verona Arena,Small,3,14,15,15,6.7
+2026-11-12,verona,14,Verona Arena,Standard,3,12,12,13,7.7
