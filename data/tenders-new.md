@@ -2,6 +2,38 @@
 
 Written by `municipal_tenders.py`; the latest runs are on top.
 
+## Run of 2026-11-16
+
+**6 new items.**
+
+- **Marcon**, 12/11/2026: BANDO D'ASTA IMMOBILIARE N.03/2026 - SECONDO INCANTO - "LOTTO N. 2 TERRENO EDIFICABILE - COMPARTO C/26 SITO IN VIA ELSA MORANTE A MARCON (VE)" - ESITO ASTA — https://servizionline.comune.marcon.ve.it/c027020/mc/mc_p_dettaglio.php?id_pubbl=25864 (keywords: terreno, bando)
+- **Marcon**, 12/11/2026: BANDO D'ASTA IMMOBILIARE N.02/2026 - SECONDO INCANTO - "LOTTO N.1 TERRENO EDIFICABILE - COMPARTO C/25 SITO IN VIA ELSA MORANTE A MARCON (VE)" - ESITO ASTA — https://servizionline.comune.marcon.ve.it/c027020/mc/mc_p_dettaglio.php?id_pubbl=25863 (keywords: terreno, bando)
+- **Casale sul Sile**, 16/11/2026: INTERVENTI PER LA RIDUZIONE DI CONSUMI IDRICI E IL RIUSO DELL'ACQUA NEGLI IMPIANTI SPORTIVI COMUNALI DEL RUGBY E DEL CALCIO. APPROVAZIONE ELABORATI PER PARTECIPAZIONE AL BANDO CONCESSIONE CONTRIBUTI DELLA PROVINCIA DI TREVISO DECRETO N.118/2026. — https://servizionline.comune.casalesulsile.tv.it/mc/mc_p_dettaglio.php?id_pubbl=22682 (keywords: impianti sportivi, concessione, bando)
+- **Zero Branco**, 13/11/2026: ACCERTAMENTO INTROITO CONCESSIONE UTILIZZO PALESTRA SCOLASTICA G. PASCOLI DI SCANDOLARA SABATO 19 DICEMBRE 2026 DA PARTE DELL'A.S.D. WADORYU F.S. KARATE DO Registro generale 683 Data registro generale 13/11/2026 Data inizio 13/11/2026 Data fine 28/11/2026 Allegati 0 Numero pubblicazione 1377 Mittente COMUNE DI ZERO BRANCO Tipo Determine Oggetto ACCERTAMENTO INTROITO CONCESSIONE UTILIZZO PALESTRA S — https://servizionline.comune.zerobranco.tv.it/mc/mc_p_dettaglio.php?id_pubbl=19492 (keywords: palestra, concessione)
+- **Marcon**, : Esito Asta – Bando d’asta Pubblica immobiliare n.02/2026 – secondo incanto – “Lotto n.1 terreno edificabile – Comparto C/25 sito in via Elsa Morante a Marcon (VE)” — https://www.comune.marcon.ve.it/novita/esito-asta-bando-dasta-pubblica-immobiliare-n-02-2026-secondo-incanto-lotto-n-1-terreno-edificabile-comparto-c-25-sito-in-via-elsa-morante-a-marcon-ve/ (keywords: terreno, asta pubblica, bando)
+- **Marcon**, : Esito Asta – Bando d’asta pubblica immobiliare n.03/2026 – secondo incanto – “Lotto n.2 terreno edificabile – Comparto C/26 sito in via Elsa Morante a Marcon (VE)” — https://www.comune.marcon.ve.it/novita/esito-asta-bando-dasta-pubblica-immobiliare-n-03-2026-secondo-incanto-lotto-n-2-terreno-edificabile-comparto-c-26-sito-in-via-elsa-morante-a-marcon-ve/ (keywords: terreno, asta pubblica, bando)
+
+Sources read:
+
+- Mogliano Veneto (JCity notice board): 105 items read, 0 with the keywords
+- Spresiano (JCity notice board): 88 items read, 1 with the keywords
+- Preganziol (Halley notice board): 63 items read, 0 with the keywords
+- Marcon (Halley notice board): 55 items read, 2 with the keywords
+- Casale sul Sile (Halley notice board): 63 items read, 2 with the keywords
+- Zero Branco (Halley notice board): 63 items read, 1 with the keywords
+- Casier (Halley notice board): 61 items read, 0 with the keywords
+- Quarto d'Altino (Halley notice board): 54 items read, 0 with the keywords
+- Scorzè (Hypersic notice board): 113 items read, 0 with the keywords
+- Treviso (J-Ente notice board): 349 items read, 0 with the keywords
+- Veneto (Sport e Salute) (aggregator): 1 items read, 0 with the keywords
+- Preganziol (site notices): 6 items read, 0 with the keywords
+- Marcon (site notices): 9 items read, 2 with the keywords
+- Casale sul Sile (site notices): 6 items read, 0 with the keywords
+- Zero Branco (site notices): 9 items read, 0 with the keywords
+- Casier (site notices): 8 items read, 0 with the keywords
+- Quarto d'Altino (site notices): 15 items read, 0 with the keywords
+- Venezia: not covered, www.comune.venezia.it answers with an anti-bot protection (Incapsula): not forced
+
 ## Run of 2026-11-09
 
 **1 new items.**

@@ -24203,7 +24203,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-11-16,florence,fortezza-dal-basso,1,30,0,0.0,0,0,0.0
 2026-11-16,florence,piazza-torquato-tasso,2,85,0,0.0,0,0,0.0
 2026-11-16,florence,pitti,1,50,0,0.0,0,0,0.0
-2026-11-16,florence,porta-al-prato,5,195,3,1.5,3,0,1.5
+2026-11-16,florence,porta-al-prato,5,195,3,1.5,3,1,2.0
 2026-11-16,florence,rifredi,2,35,0,0.0,0,0,0.0
 2026-11-16,florence,san-gallo,1,45,2,4.4,2,0,1.0
 2026-11-16,florence,san-lorenzo,4,180,0,0.0,0,0,0.0
@@ -24301,7 +24301,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-11-16,milan,washington,2,65,0,0.0,0,0,0.0
 2026-11-16,milan,zone-1-of-milan,1,40,5,12.5,0,5,2.5
 2026-11-16,milan,zone-7-of-milan,3,70,0,0.0,0,0,0.0
-2026-11-16,modena,central-station,5,125,1,0.8,1,0,0.5
+2026-11-16,modena,central-station,5,125,2,1.6,1,1,1.0
 2026-11-16,modena,city-centre,2,45,0,0.0,0,0,0.0
 2026-11-16,monza,downtown,1,230,0,0.0,0,0,0.0
 2026-11-16,monza,monza-train-station,3,165,0,0.0,0,0,0.0
@@ -24360,6 +24360,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-11-16,perugia,central-station,4,105,3,2.9,3,0,1.5
 2026-11-16,perugia,elce,2,30,0,0.0,0,0,0.0
 2026-11-16,perugia,piazza-della-repubblica,2,30,0,0.0,0,0,0.0
+2026-11-16,perugia,piazza-iv-novembre,1,30,0,0.0,0,0,0.0
 2026-11-16,pesaro,city-center,3,210,0,0.0,0,0,0.0
 2026-11-16,pescara,pescara-centrale-train-station,10,255,0,0.0,0,0,0.0
 2026-11-16,piacenza,piacenza-train-station,1,25,2,8.0,0,2,1.0
@@ -24515,7 +24516,7 @@ day,city,area,points,capacity,peak,peak_pct,carry_in,bags_in,deposits
 2026-11-16,turin,porta-palazzo-market,1,100,0,0.0,0,0,0.0
 2026-11-16,turin,quadrilatero,1,25,1,4.0,1,0,0.5
 2026-11-16,turin,quadrilatero-romano,1,50,0,0.0,0,0,0.0
-2026-11-16,turin,santa-rita,1,35,34,97.1,2,32,17.0
+2026-11-16,turin,santa-rita,1,60,34,56.7,2,32,17.0
 2026-11-16,turin,stazione-porta-nuova,12,610,44,7.2,40,4,22.0
 2026-11-16,turin,torino-dora,1,50,0,0.0,0,0,0.0
 2026-11-16,turin,torino-porta-susa,3,65,0,0.0,0,0,0.0
