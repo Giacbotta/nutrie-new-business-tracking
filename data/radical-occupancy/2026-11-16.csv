@@ -5492,3 +5492,6 @@ read_at,city,area,storage_id,name,day,hour,weekday,capacity,booked,free,status
 2026-11-16 18:20,piacenza,piacenza-train-station,6451173,Luggage Storage Piacenza Train Station,2026-11-16,19,weekday,25,2,23,read
 2026-11-16 18:20,trani,trani-transit-station,6936,Luggage Storage Trani Port,2026-11-16,19,weekday,50,0,50,read
 2026-11-16 18:20,vercelli,city-center,6461999,Luggage Storage Corso Prestinari,2026-11-16,19,weekday,20,0,20,read
+2026-11-16 22:12,venice,venice-marco-polo-airport,6452148,Luggage Storage near Venice Marco Polo Area,2026-11-16,23,weekday,45,,,unavailable
+2026-11-16 22:12,pisa,piazza-dei-cavalieri,6456928,Luggage Storage near Piazza dei Cavalieri,2026-11-16,23,weekday,30,,,unavailable
+2026-11-16 22:12,cagliari,villanova,6459751,Luggage Storage Bastione / Sulis,2026-11-16,23,weekday,20,,,unavailable
