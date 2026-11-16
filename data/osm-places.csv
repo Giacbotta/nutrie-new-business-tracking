@@ -628,7 +628,7 @@ Kovácstelep,suburb,46.0608877,18.1870949
 Basamalom,suburb,46.0687979,18.2652264
 Tessy,quarter,45.9389734,6.1061483
 Noventana,suburb,45.4111388,11.9780081
-Granze di Camin,suburb,45.3796082,11.9398572
+Granze di Camin,suburb,45.3796028,11.9397734
 Ponte di Brenta,suburb,45.4248695,11.9456824
 San Lazzaro,suburb,45.4170459,11.9152205
 Torre,suburb,45.4363907,11.9200313
@@ -1528,7 +1528,7 @@ Jošine,quarter,45.2696745,18.8135862
 Zagrebački blok,quarter,45.2971159,18.8143511
 Kanovci,quarter,45.2790487,18.7928314
 Kolodvor kvart,quarter,45.2978468,18.8057178
-Vinkovačko Novo Selo,suburb,45.2894783,18.7698071
+Vinkovačko Novo Selo,suburb,45.2895141,18.7696962
 Cicin Han,neighbourhood,43.8501127,18.419702
 Mompiano,suburb,45.5690211,10.2416726
 Properzia,neighbourhood,46.2662931,13.1305009
@@ -2126,7 +2126,7 @@ Petit-Antey,neighbourhood,45.8023324,7.5938562
 النزهة,suburb,36.8667895,10.1946049
 La Pietraia,suburb,40.5759691,8.3212093
 Centro storico,suburb,40.5581367,8.3130871
-Lido,suburb,40.5752233,8.3182721
+Lido,suburb,40.5743507,8.3162669
 Sant'Anna,neighbourhood,40.547372,8.3268532
 Carrabuffas,suburb,40.562152,8.3539449
 La Cunetta,neighbourhood,40.5538458,8.328432
@@ -2391,6 +2391,7 @@ Móra Ferenc-lakótelep,suburb,46.0445036,17.8057017
 Szent István-lakótelep,suburb,46.0540408,17.7873771
 Belfiore,neighbourhood,37.5840302,15.1178532
 Contrada Fusco,neighbourhood,37.5866437,15.1226293
+Carminello,neighbourhood,37.5706417,15.129775
 Ghiaie di Gardolo,neighbourhood,46.1236826,11.103386
 Maranola,suburb,41.285868,13.6266451
 Brodsko polje I,suburb,45.1397138,18.0133573
@@ -2543,6 +2544,7 @@ Sant'Andrea,suburb,39.2201626,9.2713271
 Borc di Plos,neighbourhood,46.193891,13.0503096
 Borc de Glesie,neighbourhood,46.195562,13.0476574
 Borc de Vile,neighbourhood,46.1928565,13.0466076
+Plascassier,suburb,43.6421844,6.9776765
 Parè,suburb,45.8694733,12.2703174
 Canizzano,suburb,45.6411193,12.1844818
 Sant'Antonino,suburb,45.6462773,12.2688497
@@ -3102,6 +3104,7 @@ Ponticelli,suburb,41.134398,14.7862219
 Porta Rufina,neighbourhood,41.129555,14.7765344
 Trescene,neighbourhood,41.1315576,14.7812528
 Triggio,neighbourhood,41.1313907,14.7719256
+Golfe-Juan,suburb,43.568826,7.0741016
 Villa Fiorita,neighbourhood,45.5168709,9.3517172
 La Salce,neighbourhood,44.2944651,6.3189627
 Casa Cantoniera,neighbourhood,44.1650856,10.6434781
@@ -3469,7 +3472,6 @@ Drivuša,suburb,44.1768849,17.9702351
 Donja Gračanica,suburb,44.2343465,17.9101861
 Gnusi,suburb,44.1823111,17.9472288
 Ričice,suburb,44.2227832,17.9198136
-Tribanj Kruščica,neighbourhood,44.3500187,15.3161773
 Velika Broda,suburb,44.194036,17.8865113
 Mala Broda,suburb,44.1984205,17.8949871
 Quartiere dei Servizi,neighbourhood,44.8259483,11.8989221
@@ -4196,7 +4198,7 @@ Vrbice,quarter,44.9671821,16.7245543
 Benvenuti,suburb,44.9791844,9.0082683
 Porta Roma,neighbourhood,41.3603114,13.4243836
 Porta Vescovo,neighbourhood,41.3564996,13.4283853
-Cardinale,neighbourhood,41.3591643,13.4297147
+Cardinale,neighbourhood,41.3591729,13.4296678
 Spinete,neighbourhood,41.3493914,13.4202688
 Terravecchia,neighbourhood,41.1565061,14.5274809
 Lido dei Coralli,suburb,41.5624293,12.5255713
@@ -4761,7 +4763,7 @@ Szulla,quarter,47.1462402,18.9453683
 حملة 1 ⵃⴻⵎⵍⴰ 1,suburb,35.5439415,6.1270987
 Orašje,quarter,44.7284354,18.0744645
 Gornji Zamet,suburb,45.3534565,14.3878601
-Cannes Passy,neighbourhood,43.5601825,7.0189466
+Passy,neighbourhood,43.5601825,7.0189466
 Äusserer Turmacker,neighbourhood,47.1685196,7.6102723
 Pratza Ballus,neighbourhood,39.6846142,8.7765109
 Su Forraxiu,neighbourhood,39.6798767,8.7738407
@@ -4872,6 +4874,7 @@ Villaggio Gnutti,neighbourhood,45.6514532,10.2506929
 Fornace,neighbourhood,38.1646696,15.4135161
 Pietralonga,neighbourhood,38.1570684,15.4208679
 Boschi,neighbourhood,44.6365848,10.5709419
+Magagnosc,suburb,43.6799726,6.9607083
 Unterlöchli,neighbourhood,47.0667336,8.3200611
 Rösslimatt,neighbourhood,47.0449758,8.3148866
 Les Fangles,neighbourhood,46.206545,6.4839624
@@ -4947,7 +4950,7 @@ Intignano,neighbourhood,45.9894474,9.2145138
 Pola,neighbourhood,45.9762887,9.1955035
 Portezza,neighbourhood,45.9797726,9.2048031
 Viano,neighbourhood,45.987577,9.2121764
-Volesio,neighbourhood,45.9872714,9.2182198
+Volesio,neighbourhood,45.9872364,9.2180502
 Primogenito,suburb,38.4256882,16.0676184
 Unterwassern,neighbourhood,46.5319688,8.355859
 Himmelbiel,neighbourhood,46.6188228,8.569975
@@ -6063,7 +6066,6 @@ Stollen,neighbourhood,46.7072066,7.8372364
 Le Clausson,neighbourhood,43.9197349,6.1328196
 San Lorenzo,neighbourhood,41.1338028,14.7690764
 En-Perrey,neighbourhood,46.4978614,6.853992
-Zentrum Staldenbach,neighbourhood,47.2025496,8.7766743
 Bandino,neighbourhood,43.7557886,11.2895466
 Cité Dahdouh Mohamed (ex 104 logements),neighbourhood,36.437561,6.6367917
 Cité Aboudi Ahmed (ex Mimosa),neighbourhood,36.439662,6.6427677
@@ -6600,6 +6602,7 @@ Steneri,neighbourhood,44.3785024,9.1709309
 Gianmaestri,neighbourhood,44.6253851,10.4307771
 Fontaneto,neighbourhood,44.6204521,10.4140755
 Percenna,quarter,43.1392144,11.4915863
+Val de Tignet,suburb,43.6297983,6.8436648
 حي 70 مسكن عدل,neighbourhood,35.4518345,7.9447621
 600 مسكن,neighbourhood,35.3930864,8.1213319
 Bourdjiba,neighbourhood,36.4627669,7.420916
@@ -7517,11 +7520,13 @@ Romano Banco,quarter,45.4214183,9.1084059
 Vigo,neighbourhood,44.3327931,8.5178134
 Selvana,suburb,45.6759796,12.2627741
 Due Ponti,suburb,43.3173933,11.3568139
+Case Galati,quarter,38.0799408,13.3077988
 Bóbica,suburb,46.434265,16.7178253
 Petit Saône,neighbourhood,47.209188,6.1015909
 Quartiere Lombardo,neighbourhood,38.1790736,15.5485586
 Loirano,neighbourhood,45.4261824,9.0600267
 Lotissement des Tremblots,neighbourhood,47.2023785,6.471316
+Lotissement Le Pralot,neighbourhood,47.1586667,6.1341538
 La Lastra,neighbourhood,44.2080622,11.3200653
 Lotissement Les Myosotis,neighbourhood,47.1394421,6.469215
 Les Crêts Paris,neighbourhood,46.7616819,6.3162335
@@ -7620,6 +7625,9 @@ Gerichtsbergen,neighbourhood,47.0405304,16.0725236
 Masù,neighbourhood,45.7771166,9.7548314
 Zappannotte,neighbourhood,42.0544909,13.914822
 Campanile,neighbourhood,45.5845326,10.2823467
+Pianello,neighbourhood,37.7707923,14.0991845
+Santissima Trinità,neighbourhood,37.7758653,14.0966132
+Fasanò,neighbourhood,37.7814187,14.0977238
 Seespitz,quarter,46.8151321,13.5136513
 Alaimo,neighbourhood,37.7451319,14.0932223
 Librizzi,neighbourhood,37.7434227,14.0966087
@@ -8086,6 +8094,7 @@ Compresso Nuovo,neighbourhood,43.1821641,12.338022
 Compresso Vecchio,neighbourhood,43.1827039,12.3301792
 Piano Lanterna,neighbourhood,37.290938,13.5259723
 Grandi Lavori,neighbourhood,37.2964123,13.527102
+Ciuccafa,neighbourhood,37.2939977,13.5127339
 San Fortunato,neighbourhood,43.7700273,13.0754429
 Albegno,neighbourhood,45.6694292,9.6068148
 Brembo,suburb,45.6523466,9.584843
@@ -8384,7 +8393,7 @@ Musala,neighbourhood,44.2275261,17.670824
 Baccano,neighbourhood,42.1083988,12.3647266
 Drvljanik,neighbourhood,45.5543013,18.6975748
 Cvjetno naselje,suburb,45.5340742,18.6309611
-Tvrđa,suburb,45.5605048,18.6957754
+Tvrđa,suburb,45.5582045,18.6931047
 Im Fahr,neighbourhood,47.1050767,8.3503436
 Les Chambonnettes,neighbourhood,44.8443986,6.4887571
 Ponte Masino,neighbourhood,45.2569731,7.581698
@@ -8789,8 +8798,6 @@ Madonna di Campagna,suburb,45.100819,7.6684496
 Borgo Vittoria,suburb,45.0973,7.6780633
 Huckhaus,neighbourhood,46.7751112,7.6852114
 Falchera,suburb,45.1283575,7.7093621
-San Marone,suburb,43.3036129,13.7165126
-Fontespina,suburb,43.3205695,13.7174547
 Dorf,neighbourhood,46.8487674,12.7610385
 Wolfbach,neighbourhood,46.7673082,7.6919746
 Tre Torri,suburb,45.5173782,9.3255472
@@ -9752,7 +9759,7 @@ Ober Weizbach,neighbourhood,47.1117943,15.4356229
 Unter Weizbach,neighbourhood,47.1038148,15.4418873
 Rione Costa,neighbourhood,40.9239188,15.6764341
 Mühlviertel,neighbourhood,46.7022187,14.8816972
-Centar,quarter,45.8038144,15.7106219
+Centar,quarter,45.8028657,15.7105043
 Barracca,neighbourhood,37.9415323,15.3639668
 Sangallo,quarter,45.8353882,8.8182649
 Miogni,quarter,45.8306798,8.8123994
@@ -9846,7 +9853,7 @@ Nove Plavnice,suburb,45.9054081,16.8211338
 Male Sredice,suburb,45.8854875,16.8374852
 Velike Sredice,suburb,45.884387,16.8184656
 Ivanovčani,suburb,45.9115119,16.8535106
-Zvijerci,quarter,45.9227935,16.8636243
+Zvijerci,quarter,45.9211057,16.8620992
 Radničko naselje,quarter,45.8919555,16.8591287
 Gavrinica,quarter,45.4285834,17.2005967
 Borgo Don Bosco,neighbourhood,44.9081555,8.2020496
@@ -10723,7 +10730,7 @@ Saint-Michel,neighbourhood,43.8490321,6.509276
 La Grave,neighbourhood,43.8456353,6.5128595
 Les Jardins,neighbourhood,43.8454419,6.5103865
 Grosses Listes,neighbourhood,43.8443857,6.5066528
-Plande des Listes,neighbourhood,43.841925,6.500473
+Plan des Listes,neighbourhood,43.841925,6.500473
 Notre-Dame,neighbourhood,43.8468308,6.5065026
 Martisweid,neighbourhood,47.0891628,8.4642397
 Seematt,neighbourhood,47.1004266,8.4691067
@@ -11370,7 +11377,7 @@ Les Chapitoles,neighbourhood,46.1771995,6.318425
 Békásdűlő,suburb,46.8885859,18.0462621
 Kilitiszőlőhegy,suburb,46.8857826,18.0853225
 Szigetiszőlőhegy,suburb,46.9028688,18.0724854
-Donje Struge,neighbourhood,43.0911743,17.6978105
+Donje Struge,neighbourhood,43.0908863,17.6975147
 Gornje Struge,neighbourhood,43.0957733,17.70082
 Marušići,neighbourhood,44.3449555,17.3146301
 Rimci,neighbourhood,44.3209544,17.2818911
@@ -11480,6 +11487,7 @@ Saint-Pancrace,neighbourhood,42.6546519,9.4397707
 Agliani,neighbourhood,42.6689855,9.4359108
 Orto di Renda,neighbourhood,38.969303,16.2801825
 Würzenbach,quarter,47.054563,8.34093
+Madonnuzza,neighbourhood,37.7901328,14.1091048
 Serre des Isnards,neighbourhood,44.5156833,6.0201043
 Cholnoky-lakótelep,neighbourhood,47.0902573,17.926226
 Castagneta di Sopra,neighbourhood,43.9646693,11.1183044
@@ -12734,7 +12742,6 @@ La Bessée Haute,quarter,44.8023016,6.565291
 La Bessée Basse,quarter,44.7948378,6.5627288
 Cantun Sciatin,neighbourhood,45.543342,9.1175225
 La Praz,neighbourhood,45.3675624,6.5150899
-Municipio 8 di Milano,suburb,45.4997168,9.1304535
 Specchi,neighbourhood,46.3308949,9.4887064
 Cascina Ovi,neighbourhood,45.492198,9.2683555
 Trivio Fuentes,neighbourhood,46.1452493,9.4115248
@@ -13315,7 +13322,7 @@ Brixton,quarter,46.3049915,16.329635
 Varteks,quarter,46.2933866,16.3432274
 Bajer,suburb,45.8383436,17.3657198
 Petrovac,suburb,45.8497688,17.3880479
-Antunovac,neighbourhood,45.8194548,17.3755256
+Antunovac,suburb,45.8211025,17.3862191
 Villamagna,neighbourhood,43.9646965,11.1054229
 Il Palagio,neighbourhood,43.9639656,11.1069768
 Vurovčica,neighbourhood,45.7957075,15.940208
@@ -13662,7 +13669,6 @@ Fenčevina,quarter,43.8637315,16.157203
 Lotissement Lou Piboulo,neighbourhood,43.443868,6.0705578
 Livadsko naselje,neighbourhood,46.3193321,16.3269637
 Dravska poljana,neighbourhood,46.3189681,16.3297762
-Kalvarija,quarter,45.5836922,17.2308273
 Suše,neighbourhood,43.7896649,17.0964256
 Case ri Carrabbinera,neighbourhood,37.9296808,14.352765
 Feldräbe,neighbourhood,47.089933,7.2484066
@@ -13981,7 +13987,6 @@ Pastena,neighbourhood,40.6630728,14.7968227
 Vinkovac,neighbourhood,45.916835,16.7956061
 Pjeskulja,quarter,44.8593294,17.2360684
 Naselje Livade,quarter,45.5833488,17.2243614
-Poljakovac,neighbourhood,45.5810683,17.2291872
 Dijel,neighbourhood,45.9434565,16.8856958
 Hohenbichlsiedlung,neighbourhood,47.2253332,14.5883672
 Bedenik,quarter,45.7589594,16.6320242
@@ -14014,14 +14019,13 @@ Trate,neighbourhood,46.3802103,16.4237424
 Grabanice,quarter,46.2952852,16.323472
 Bjelaviana,neighbourhood,45.9616775,16.6058053
 Mačinovac,neighbourhood,45.8145515,16.8352746
-Kantari,quarter,45.5943607,17.2107279
+Kantari,neighbourhood,45.594328,17.2096854
 Daruvarski mlinovi,quarter,45.6069764,17.247643
 Antiniana,suburb,40.8277734,14.1541203
 Tèra d'Sóra,neighbourhood,46.0462511,8.9024224
 Quartiere Crocitta,neighbourhood,37.8734772,14.9551284
 Brnini,neighbourhood,45.3746596,14.3445758
 Kopeček,neighbourhood,45.5657961,17.2306216
-Jaukovac,neighbourhood,45.5875506,17.2346116
 Kovačića Kraj,neighbourhood,45.5884457,17.1763907
 Gornji Kraj,neighbourhood,45.5870724,17.1893822
 Donji Kraj,neighbourhood,45.5991097,17.1810446
@@ -14419,7 +14423,7 @@ Jarše,suburb,46.0665293,14.537498
 Schwärzere,neighbourhood,47.1328821,7.6064622
 Hel,neighbourhood,47.2849268,8.5388208
 Fätzikon,neighbourhood,47.246521,8.9181398
-Kraševo naselje,quarter,45.8403823,17.3932065
+Kraševo naselje,quarter,45.8404948,17.3934971
 Kasarne,neighbourhood,45.8424617,17.3884805
 Kineska četvrt,neighbourhood,45.5912296,17.2246192
 Stalovica,quarter,45.7067772,17.1814568
@@ -14471,7 +14475,6 @@ Borgolombardo,suburb,45.4039134,9.2729156
 Maraschi,neighbourhood,45.3695394,9.3005879
 Pontesesto,suburb,45.3782886,9.1780579
 Cascina Grande,suburb,45.3765054,9.1448508
-Dvorski perivoj,neighbourhood,45.5946716,17.2208578
 Cascina Campazzo,neighbourhood,45.4269796,9.1817191
 Narta,neighbourhood,45.1185569,15.5773554
 Klesari,neighbourhood,45.1438879,15.7386755
@@ -14713,7 +14716,7 @@ Santella,neighbourhood,41.0309051,14.3181618
 Loriano,neighbourhood,41.0245193,14.2997988
 Le Clos Saint-Michel,neighbourhood,45.8937672,6.1223414
 Batalije,quarter,45.8448755,17.382164
-Branjevina,neighbourhood,45.8202776,17.3815996
+Branjevina,neighbourhood,45.8194233,17.3812672
 Mali Požari,neighbourhood,45.8343198,17.412853
 Veliki Požari,neighbourhood,45.835925,17.4211568
 Bikana,quarter,45.8379499,17.3824366
@@ -15615,7 +15618,7 @@ Ca d Tògn,neighbourhood,46.4080989,8.9682877
 Al Borgo,neighbourhood,46.4078573,8.970994
 Au Chênet,neighbourhood,46.1902558,6.2546317
 Donji Brvci,neighbourhood,46.0395025,17.0590274
-Novo selo,suburb,46.0459196,17.0551171
+Novo Selo,suburb,46.0459196,17.0551171
 Kudrinka,neighbourhood,46.0498397,17.074301
 Lavertezzo Paese,neighbourhood,46.2585314,8.8394345
 Al Sass Rurína,neighbourhood,46.4462901,8.936658
@@ -15704,7 +15707,7 @@ La Fabrique,neighbourhood,45.6265125,6.7873241
 Reformkori Városrész,suburb,46.9559308,17.8952944
 Ipartelep,suburb,46.9542751,17.8688227
 Les Marais,quarter,45.6191117,6.781325
-Križanje,neighbourhood,45.7567008,17.0503708
+Staklena ulica,neighbourhood,45.7598573,17.0473311
 Les Glières,quarter,45.6217643,6.7904438
 Les Moulins,quarter,43.6753717,7.2068329
 Les Contamines,quarter,45.6224012,6.7947454
@@ -15993,6 +15996,7 @@ Japanska ulica,neighbourhood,45.8142265,17.0161597
 Dalmatinska ulica,neighbourhood,45.8058782,17.1218284
 Budrovićeva ulica,neighbourhood,45.8227038,17.0357788
 Kuharićeva,neighbourhood,45.8099993,16.7154342
+Ljeskova,neighbourhood,45.7960607,16.953641
 La Val,neighbourhood,46.4701463,12.4294368
 Hasenacher,neighbourhood,47.2334046,7.4997946
 Neukapellmatt,neighbourhood,46.923827,8.3901531
@@ -16172,7 +16176,7 @@ Gajine,quarter,43.8310611,16.2496088
 Bučić,quarter,43.840784,16.2478467
 الفجارنية,neighbourhood,35.7603921,9.6481995
 البرايكية,neighbourhood,35.7704678,9.6575428
-Novo naselje,neighbourhood,45.8159925,17.3870973
+Novo naselje,neighbourhood,45.815674,17.3867337
 Dedinje,neighbourhood,45.8310273,17.3804076
 Štrumfovo naselje,neighbourhood,45.8329822,17.3798619
 Manteč,neighbourhood,45.8386784,17.3878979
@@ -16527,6 +16531,7 @@ Santa Lucia,quarter,45.5529221,11.5518169
 Araceli,quarter,45.5542664,11.5554882
 Sant'Andrea,quarter,45.5506265,11.5623813
 Centro storico,quarter,45.5472368,11.5439915
+Lazine,neighbourhood,46.2415896,16.9098517
 Zvečaj,suburb,45.302735,18.4093756
 Petra Rotta,neighbourhood,41.6802061,8.9905566
 U Cotronu,neighbourhood,41.681543,8.9891702
@@ -16740,7 +16745,6 @@ Selišće,neighbourhood,45.9844622,17.1508061
 Sajmište,neighbourhood,45.7988999,17.0650413
 Centro,suburb,43.0163187,11.9477457
 Braće Čulig,neighbourhood,45.4978363,16.3699562
-Glavičićeva,neighbourhood,45.9485798,16.7378013
 Jošina,neighbourhood,45.9521868,16.7003541
 Sejmen,neighbourhood,44.1967234,17.9178708
 Žuti breg,neighbourhood,45.8450184,16.033975
@@ -16775,7 +16779,6 @@ Vijenac Ljube Babića,neighbourhood,45.5580925,18.668464
 Naselje Viševica,neighbourhood,45.5622872,18.6577289
 Dragovoljaca,neighbourhood,44.3044646,15.0950362
 Plan de la Chaux,neighbourhood,46.3169769,6.5947312
-Antuna Matije Reljkovića,neighbourhood,45.5989344,17.2245793
 Naselje Bregec,neighbourhood,46.3141877,16.3450628
 Nessleren,neighbourhood,46.9207169,7.4645517
 Sandbühl,neighbourhood,46.918547,7.472755
@@ -17048,7 +17051,6 @@ Bignes,neighbourhood,45.9110542,8.7422799
 Ravnice,neighbourhood,44.290697,15.05378
 Srngaljevica,neighbourhood,44.291015,15.0559036
 Contrada Monaco,neighbourhood,38.0854729,13.4992384
-Contrada S. Marina,neighbourhood,38.0857759,13.5161225
 Centro storico,neighbourhood,38.0783274,13.5071021
 Lannari - Villarosa,neighbourhood,38.0759804,13.5027888
 Caravella,neighbourhood,38.0795126,13.5174012
@@ -17120,7 +17122,6 @@ Parc d'activités des Bordets,quarter,46.0736753,6.4200195
 Chaloz,neighbourhood,45.8788402,7.6242898
 Rione Figurella,neighbourhood,39.7823449,16.3139811
 Quartiere ebraico,neighbourhood,43.5583012,12.4198985
-San Giuseppe,suburb,43.2972402,13.7213015
 San Bernardino,neighbourhood,45.9704034,9.9487947
 Montigeddu,neighbourhood,40.7835454,8.590571
 Chirighina,neighbourhood,40.7944041,8.5745631
@@ -17316,6 +17317,7 @@ Novi put,quarter,45.7043509,17.1539286
 Ruata Ollasio,neighbourhood,45.0481483,7.3433831
 Staklena,neighbourhood,45.6117426,16.9480327
 Skresovi,quarter,45.5781501,16.9371108
+Guiano,neighbourhood,45.7223936,9.2199117
 Grabik,neighbourhood,45.9344996,16.7646954
 Arcetri,neighbourhood,43.7548986,11.2519298
 Brezje,quarter,45.8261939,15.1383662
@@ -17615,7 +17617,7 @@ Veniano Inferiore,neighbourhood,45.7155105,8.9834655
 Veniano Superiore,neighbourhood,45.7209076,8.9880025
 Crêtarama,neighbourhood,46.2448912,7.467147
 Sajmište,neighbourhood,45.5902654,17.217851
-Svetina,quarter,45.5903198,17.2141758
+Svetinje,quarter,45.5884263,17.2150495
 Frankopanska,neighbourhood,45.5921673,17.2345952
 Sveta tri kralja,neighbourhood,46.1473621,16.8041493
 Verrand,neighbourhood,45.7800506,6.9770828
@@ -17707,7 +17709,7 @@ Santa Ana,neighbourhood,46.5777475,11.6754377
 Junerëi,neighbourhood,46.5761444,11.6639427
 Ju n chël Busc,neighbourhood,46.5741466,11.6607159
 Plan de Mureda,neighbourhood,46.5773405,11.6707806
-Piz de Sëura,neighbourhood,46.5811352,11.6790416
+Piz Dessëura,neighbourhood,46.5811352,11.6790416
 Bergora,neighbourhood,45.7770525,8.8123079
 Poggio,neighbourhood,45.7844228,8.8131517
 Baitè,suburb,43.8892292,8.0224603
@@ -17733,7 +17735,6 @@ Hrlčeci,neighbourhood,46.1272882,16.4742689
 Rione Castello,neighbourhood,40.0216315,15.7795686
 Il Piano,neighbourhood,40.0266271,15.7756834
 Galboneddu,suburb,40.5719569,8.3404044
-Maleni brijeg,neighbourhood,45.9001855,17.0878316
 Fleming,neighbourhood,41.9464801,12.4737241
 Ponte Milvio,neighbourhood,41.93816,12.4657938
 Farnesina,neighbourhood,41.9444004,12.4573867
@@ -17756,6 +17757,7 @@ Della Vittoria,neighbourhood,41.9173838,12.4625295
 Novi Greenwich,quarter,46.5539262,15.6681337
 Rosario,neighbourhood,40.1444651,16.2872261
 Botin Brijeg,neighbourhood,45.8608842,17.0616226
+Trnskova,neighbourhood,45.7972349,16.9452346
 Ciglana,neighbourhood,45.8893725,16.7553836
 Colle Stella,neighbourhood,42.5472944,14.0992252
 Pranus de Peiàtu,neighbourhood,39.338283,9.3597433
@@ -18026,7 +18028,6 @@ Paduli,neighbourhood,44.6511231,10.7761131
 Staffa,neighbourhood,45.9685964,7.9677537
 Feđika,neighbourhood,45.5519385,18.7051843
 Tenjsko naselje,neighbourhood,45.5436525,18.7067778
-Centro storico,neighbourhood,40.534538,17.4291227
 Les Mas du Canadel,neighbourhood,43.1618705,6.4656485
 Papagáj Lakótelep,quarter,46.5783659,17.4110621
 Tiszti Lakótelep,quarter,46.5808442,17.4051646
@@ -18088,6 +18089,25 @@ Tre Carrare,quarter,40.4667699,17.2529807
 Montegranaro,neighbourhood,40.458572,17.2668061
 Italia,neighbourhood,40.4608587,17.2544672
 Zona Artigianale S'Iscalone,quarter,40.6853446,8.5210908
+Dosso,neighbourhood,45.6852221,9.1985633
+Vinkelc,neighbourhood,46.2150925,13.9793401
+Kiskert,quarter,45.9631057,17.4487367
+Belcsa-puszta,quarter,45.9578085,17.4869323
+Oncsa-telep,neighbourhood,45.9637838,17.4881019
+Gajevi,neighbourhood,45.5817896,17.1917323
+St Martin,quarter,43.1122484,6.1101679
+Le Roubaud,neighbourhood,43.1140641,6.1131567
+Blato,neighbourhood,45.3003244,18.7804337
+Grbak,neighbourhood,45.2541942,18.966798
+Gladimirovica,neighbourhood,45.7346484,17.3918354
+Naselje Ruđera Boškovića,neighbourhood,45.2506898,18.9113368
+Zona Industriale Muros,quarter,40.6870555,8.6246228
+Zona Industriale Padriggia,quarter,40.6749326,8.6565909
+Zona Industriale Cargeghe,quarter,40.675288,8.6447727
+Babarcpuszta,suburb,46.0328971,18.5193095
+Quattro Cantoni,suburb,45.4978577,12.2370027
+Quartiere San Paolo,suburb,45.499334,12.2411771
+Casalrosato,neighbourhood,37.5678325,15.1291869
 Mdina,suburb,35.8858561,14.4028644
 Hollersbach,quarter,47.273614,12.4188051
 Mariahilfpark,suburb,47.2668101,11.3859897
@@ -18335,7 +18355,7 @@ Duomo,quarter,45.464291,9.1868957
 Ex Om - Morivione,quarter,45.4406625,9.1941763
 Farini,quarter,45.492643,9.1730918
 Figino,suburb,45.4914235,9.0758039
-GARIBALDI REPUBBLICA,quarter,45.4838314,9.1903986
+Garibaldi Repubblica,quarter,45.4838314,9.1903986
 Gallaratese,quarter,45.4960136,9.1099097
 Ghisolfa,quarter,45.4921499,9.1630867
 Giardini Porta Venezia,quarter,45.4747843,9.2003337
@@ -18721,7 +18741,7 @@ Oberberg,quarter,47.0943626,8.683763
 Unterberg,quarter,47.0953622,8.6812229
 Müllern,quarter,47.1062857,8.6690862
 Müsli,quarter,47.0942884,8.6718569
-Neumattli,quarter,47.119404,8.6833221
+Neumattli,quarter,47.1194471,8.683363
 Neusell,quarter,47.0859237,8.6900323
 Tschübernell,quarter,47.0838407,8.6887932
 Rössliweid,quarter,47.1001508,8.6696467
@@ -18883,7 +18903,7 @@ Saint Hubert II,neighbourhood,46.2711972,6.2702279
 Saint Hubert I,neighbourhood,46.2698384,6.2690727
 La Moutelette B,neighbourhood,46.2712538,6.268127
 Lotissement Perroquet,neighbourhood,46.269281,6.2682496
-Quartiere Desiree Dupont,neighbourhood,45.2462016,12.029062
+Quartiere Desiree Dupont,neighbourhood,45.2462056,12.0290284
 Héritage,neighbourhood,46.1714172,6.2614357
 Quartiere Matteotti,neighbourhood,44.2032949,9.9673092
 Valdellora,quarter,44.1156242,9.8254176
@@ -19071,6 +19091,11 @@ Eichrüti,neighbourhood,47.1667518,8.4477344
 Rosswald Alp,neighbourhood,46.3063504,8.0465939
 Glimmuschir,neighbourhood,46.3042339,8.0413112
 Le Domaine du Jay,quarter,47.2443707,6.7931476
+Cité EL Khadra,neighbourhood,35.0420933,9.4927219
+Cité Ennour Est,neighbourhood,35.0433904,9.4800348
+Cité Ennour Ouest,neighbourhood,35.0392368,9.4713966
+Cité EL Brahmia,neighbourhood,35.0381426,9.4633472
+حي الورود,neighbourhood,35.0361685,9.4737781
 Comprensorio Torre di Maremma,suburb,42.3261938,11.6186755
 Bluefactory,quarter,46.7968911,7.1474537
 Ravazzone,suburb,45.8629775,10.993909
@@ -19113,7 +19138,7 @@ Velotte,suburb,47.2144344,6.0025641
 Saint-Ferjeux,suburb,47.2338561,5.9931377
 Fals,neighbourhood,47.1429132,10.5127111
 Centro storico,neighbourhood,44.8332032,11.6220986
-Municipio 8 di Milano,borough,45.5000535,9.1304222
+Municipio 8,borough,45.5000535,9.1304222
 Mercurago,suburb,45.7412334,8.558975
 Parco,suburb,45.6116474,9.2840156
 Sant'Elena,neighbourhood,45.4287391,12.3639491
@@ -19454,7 +19479,7 @@ Contrada della Civetta,quarter,43.3197921,11.3317003
 Ghetto Ebraico di Siena,quarter,43.3175242,11.334564
 Insula delle Palme,neighbourhood,41.8011661,12.4327818
 Insula dei Tigli,neighbourhood,41.8006747,12.4339071
-Insula degli Aceri,neighbourhood,41.7971572,12.4331896
+Insula degli Aceri,neighbourhood,41.7971572,12.4331749
 Contrada della Giraffa,quarter,43.3213504,11.334083
 Contrada del Leocorno,quarter,43.3191968,11.3352794
 Contrada del Nicchio,quarter,43.317627,11.3392826
@@ -19481,7 +19506,7 @@ Libertà,suburb,41.1234592,16.8581058
 Sacco,quarter,45.5203715,9.1217697
 Quarto Oggiaro,suburb,45.514031,9.1370689
 Predda Niedda,suburb,40.733708,8.5344075
-Viale Geno,neighbourhood,45.8210874,9.0803342
+Viale Geno,neighbourhood,45.8210732,9.0803587
 Lungolago,neighbourhood,45.8132437,9.078931
 Stadio,neighbourhood,45.813038,9.0722787
 Città murata,neighbourhood,45.8095406,9.0826667
@@ -19553,3 +19578,4 @@ La Concorde,neighbourhood,46.208141,6.1150873
 Qawra,suburb,35.9546309,14.4224519
 Buġibba,suburb,35.9483266,14.4039272
 Xemxija,suburb,35.9485342,14.3800173
+Centro storico,neighbourhood,40.5346651,17.4292884
