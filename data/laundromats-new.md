@@ -1,5 +1,11 @@
 # Laundromats for sale, weekly changes (E-91)
 
+## Run of 2026-11-17
+
+Portals read: Subito, immobiliare.it, Trovit. Active listings in the provinces of Padova, Treviso and Venezia: 18.
+
+No changes since the previous run.
+
 ## Run of 2026-11-16
 
 Portals read: Subito, immobiliare.it. Active listings in the provinces of Padova, Treviso and Venezia: 18.
