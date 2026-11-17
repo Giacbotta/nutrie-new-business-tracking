@@ -22191,7 +22191,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-11-14,weekend,milan,corso-buenos-aires,9020,Luggage Storage near Corso Buenos Aires,20,4,0,0.0,0,0,0.0
 2026-11-15,weekend,milan,corso-buenos-aires,9020,Luggage Storage near Corso Buenos Aires,20,4,0,0.0,0,0,0.0
 2026-11-16,weekday,milan,corso-buenos-aires,9020,Luggage Storage near Corso Buenos Aires,20,7,0,0.0,0,0,0.0
-2026-11-17,weekday,milan,corso-buenos-aires,9020,Luggage Storage near Corso Buenos Aires,20,3,0,0.0,0,0,0.0
+2026-11-17,weekday,milan,corso-buenos-aires,9020,Luggage Storage near Corso Buenos Aires,20,3,2,10.0,0,2,1.0
 2026-10-19,weekday,milan,corvetto,6474642,Luggage Storage Corvetto Metro Station,20,4,0,0.0,0,0,0.0
 2026-10-20,weekday,milan,corvetto,6474642,Luggage Storage Corvetto Metro Station,20,7,0,0.0,0,0,0.0
 2026-10-21,weekday,milan,corvetto,6474642,Luggage Storage Corvetto Metro Station,20,8,0,0.0,0,0,0.0
@@ -43335,7 +43335,7 @@ day,weekday,city,area,storage_id,name,capacity,hours_read,peak,peak_pct,carry_in
 2026-11-14,weekend,rome,castel-sant-angelo,6457822,Luggage Storage near Sant'Angelo Castle,60,2,11,18.3,0,11,5.5
 2026-11-15,weekend,rome,castel-sant-angelo,6457822,Luggage Storage near Sant'Angelo Castle,60,2,11,18.3,5,6,5.5
 2026-11-16,weekday,rome,castel-sant-angelo,6457822,Luggage Storage near Sant'Angelo Castle,60,6,29,48.3,2,27,14.5
-2026-11-17,weekday,rome,castel-sant-angelo,6457822,Luggage Storage near Sant'Angelo Castle,60,2,2,3.3,0,2,1.0
+2026-11-17,weekday,rome,castel-sant-angelo,6457822,Luggage Storage near Sant'Angelo Castle,60,2,0,0.0,0,0,0.0
 2026-09-24,weekday,rome,castro-pretorio,398,Luggage Storage Castro Pretorio,300,2,0,0.0,0,0,0.0
 2026-09-25,weekday,rome,castro-pretorio,398,Luggage Storage Castro Pretorio,300,4,0,0.0,0,0,0.0
 2026-09-28,weekday,rome,castro-pretorio,398,Luggage Storage Castro Pretorio,300,9,0,0.0,0,0,0.0
