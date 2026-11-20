@@ -399,17 +399,73 @@ day,shop_id,name,city,locker_type,capacity,min_free,max_occupied,exact_readings,
 2026-11-15,4,Bologna P.zza Maggiore,Bologna,maxi,12,6,,0,4
 2026-11-15,7,Empoli Stazione,Empoli,maxi,17,6,,0,4
 2026-11-15,8,Roma P.zza Venezia,Roma,maxi,14,6,,0,4
-2026-11-16,1,Firenze Uffizi,Firenze,maxi,26,6,,0,4
-2026-11-16,10,Torino Porta Nuova,Torino,standard,14,4,10,2,4
-2026-11-16,11,Venezia Santa Lucia,Venezia,maxi,7,5,2,4,4
-2026-11-16,11,Venezia Santa Lucia,Venezia,standard,21,6,,0,4
-2026-11-16,12,Milano Centrale,Milano,maxi,28,6,,0,4
-2026-11-16,13,La Spezia Centrale,La Spezia,maxi,14,6,,0,4
-2026-11-16,14,Napoli Centrale,Napoli,maxi,17,6,,0,4
-2026-11-16,17,Lucca Centrale,Lucca,maxi,20,6,,0,4
-2026-11-16,18,Genova Centro Storico,Genova,maxi,13,6,,0,4
-2026-11-16,2,Firenze Stazione SMN,Firenze,maxi,17,6,,0,4
-2026-11-16,3,Pisa Stazione Centrale,Pisa,maxi,34,6,,0,4
-2026-11-16,4,Bologna P.zza Maggiore,Bologna,maxi,12,6,,0,4
-2026-11-16,7,Empoli Stazione,Empoli,maxi,17,6,,0,4
-2026-11-16,8,Roma P.zza Venezia,Roma,maxi,14,6,,0,4
+2026-11-16,1,Firenze Uffizi,Firenze,maxi,26,6,,0,8
+2026-11-16,10,Torino Porta Nuova,Torino,standard,14,4,10,2,8
+2026-11-16,11,Venezia Santa Lucia,Venezia,maxi,7,5,2,4,8
+2026-11-16,11,Venezia Santa Lucia,Venezia,standard,21,6,,0,8
+2026-11-16,12,Milano Centrale,Milano,maxi,28,6,,0,8
+2026-11-16,13,La Spezia Centrale,La Spezia,maxi,14,6,,0,8
+2026-11-16,14,Napoli Centrale,Napoli,maxi,17,6,,0,8
+2026-11-16,17,Lucca Centrale,Lucca,maxi,20,6,,0,8
+2026-11-16,18,Genova Centro Storico,Genova,maxi,13,6,,0,8
+2026-11-16,2,Firenze Stazione SMN,Firenze,maxi,17,6,,0,8
+2026-11-16,3,Pisa Stazione Centrale,Pisa,maxi,37,6,,0,8
+2026-11-16,4,Bologna P.zza Maggiore,Bologna,maxi,12,6,,0,8
+2026-11-16,7,Empoli Stazione,Empoli,maxi,17,6,,0,8
+2026-11-16,8,Roma P.zza Venezia,Roma,maxi,14,6,,0,8
+2026-11-17,1,Firenze Uffizi,Firenze,maxi,26,6,,0,4
+2026-11-17,10,Torino Porta Nuova,Torino,standard,14,6,,0,4
+2026-11-17,11,Venezia Santa Lucia,Venezia,maxi,7,6,,0,4
+2026-11-17,11,Venezia Santa Lucia,Venezia,standard,21,6,,0,4
+2026-11-17,12,Milano Centrale,Milano,maxi,28,6,,0,4
+2026-11-17,13,La Spezia Centrale,La Spezia,maxi,14,6,,0,4
+2026-11-17,14,Napoli Centrale,Napoli,maxi,17,6,,0,4
+2026-11-17,17,Lucca Centrale,Lucca,maxi,20,6,,0,4
+2026-11-17,18,Genova Centro Storico,Genova,maxi,13,6,,0,4
+2026-11-17,2,Firenze Stazione SMN,Firenze,maxi,17,6,,0,4
+2026-11-17,3,Pisa Stazione Centrale,Pisa,maxi,37,6,,0,4
+2026-11-17,4,Bologna P.zza Maggiore,Bologna,maxi,12,6,,0,4
+2026-11-17,7,Empoli Stazione,Empoli,maxi,17,6,,0,4
+2026-11-17,8,Roma P.zza Venezia,Roma,maxi,14,6,,0,4
+2026-11-18,1,Firenze Uffizi,Firenze,maxi,26,6,,0,5
+2026-11-18,10,Torino Porta Nuova,Torino,standard,14,6,,0,5
+2026-11-18,11,Venezia Santa Lucia,Venezia,maxi,7,6,,0,5
+2026-11-18,11,Venezia Santa Lucia,Venezia,standard,21,6,,0,5
+2026-11-18,12,Milano Centrale,Milano,maxi,28,6,,0,5
+2026-11-18,13,La Spezia Centrale,La Spezia,maxi,14,6,,0,5
+2026-11-18,14,Napoli Centrale,Napoli,maxi,17,6,,0,5
+2026-11-18,17,Lucca Centrale,Lucca,maxi,20,6,,0,5
+2026-11-18,18,Genova Centro Storico,Genova,maxi,13,6,,0,5
+2026-11-18,2,Firenze Stazione SMN,Firenze,maxi,17,6,,0,5
+2026-11-18,3,Pisa Stazione Centrale,Pisa,maxi,37,6,,0,5
+2026-11-18,4,Bologna P.zza Maggiore,Bologna,maxi,12,6,,0,5
+2026-11-18,7,Empoli Stazione,Empoli,maxi,17,6,,0,5
+2026-11-18,8,Roma P.zza Venezia,Roma,maxi,14,6,,0,5
+2026-11-19,1,Firenze Uffizi,Firenze,maxi,26,6,,0,3
+2026-11-19,10,Torino Porta Nuova,Torino,standard,14,6,,0,3
+2026-11-19,11,Venezia Santa Lucia,Venezia,maxi,7,6,,0,3
+2026-11-19,11,Venezia Santa Lucia,Venezia,standard,21,6,,0,3
+2026-11-19,12,Milano Centrale,Milano,maxi,28,6,,0,3
+2026-11-19,13,La Spezia Centrale,La Spezia,maxi,14,6,,0,3
+2026-11-19,14,Napoli Centrale,Napoli,maxi,17,6,,0,3
+2026-11-19,17,Lucca Centrale,Lucca,maxi,20,6,,0,3
+2026-11-19,18,Genova Centro Storico,Genova,maxi,13,6,,0,3
+2026-11-19,2,Firenze Stazione SMN,Firenze,maxi,17,6,,0,3
+2026-11-19,3,Pisa Stazione Centrale,Pisa,maxi,37,6,,0,3
+2026-11-19,4,Bologna P.zza Maggiore,Bologna,maxi,12,6,,0,3
+2026-11-19,7,Empoli Stazione,Empoli,maxi,17,6,,0,3
+2026-11-19,8,Roma P.zza Venezia,Roma,maxi,14,6,,0,3
+2026-11-20,1,Firenze Uffizi,Firenze,maxi,26,6,,0,2
+2026-11-20,10,Torino Porta Nuova,Torino,standard,14,6,,0,2
+2026-11-20,11,Venezia Santa Lucia,Venezia,maxi,7,6,,0,2
+2026-11-20,11,Venezia Santa Lucia,Venezia,standard,21,6,,0,2
+2026-11-20,12,Milano Centrale,Milano,maxi,28,6,,0,2
+2026-11-20,13,La Spezia Centrale,La Spezia,maxi,14,6,,0,2
+2026-11-20,14,Napoli Centrale,Napoli,maxi,17,6,,0,2
+2026-11-20,17,Lucca Centrale,Lucca,maxi,20,6,,0,2
+2026-11-20,18,Genova Centro Storico,Genova,maxi,13,6,,0,2
+2026-11-20,2,Firenze Stazione SMN,Firenze,maxi,17,6,,0,2
+2026-11-20,3,Pisa Stazione Centrale,Pisa,maxi,37,6,,0,2
+2026-11-20,4,Bologna P.zza Maggiore,Bologna,maxi,12,6,,0,2
+2026-11-20,7,Empoli Stazione,Empoli,maxi,17,6,,0,2
+2026-11-20,8,Roma P.zza Venezia,Roma,maxi,14,6,,0,2
